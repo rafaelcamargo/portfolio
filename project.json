@@ -1,0 +1,54 @@
+{
+  "index": {
+    "source": {
+      "file": "src/index.html"
+    }
+  },
+  "scripts": {
+    "source": {
+      "root": "src/scripts/",
+      "index": "src/scripts/app.js"
+    },
+    "dist": {
+      "filename": {
+        "prod": "[name]-[hash].js",
+        "dev": "[name].js"
+      }
+    }
+  },
+  "styles": {
+    "source": {
+      "root": "src/styles/"
+    },
+    "dist": {
+      "filename": {
+        "prod": "[name]-[hash].css",
+        "dev": "[name].css"
+      }
+    }
+  },
+  "images": {
+    "source": {
+      "root": "src/images/",
+      "files": "src/images/**/*.*"
+    },
+    "dist": {
+      "root": "images/[name].[ext]"
+    }
+  },
+  "favicon": {
+    "source": {
+      "file": "src/images/favicon-pitsby.png"
+    }
+  },
+  "tests": {
+    "source": {
+      "files": [ "src/scripts/**/*.js" ]
+    }
+  },
+  "mocks": {
+    "source": {
+      "root": "src/mocks/"
+    }
+  }
+}
