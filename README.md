@@ -1,6 +1,9 @@
 # Woover
 > World news headlines
 
+[![CircleCI](https://circleci.com/gh/rafaelcamargo/woover/tree/master.svg?style=svg)](https://circleci.com/gh/rafaelcamargo/woover/tree/master)
+[![codecov](https://codecov.io/gh/rafaelcamargo/woover/branch/master/graph/badge.svg)](https://codecov.io/gh/rafaelcamargo/woover)
+
 ## Contributing
 
 1. Install [Node](https://nodejs.org/en/). Download the "Recommend for Most Users" version.
