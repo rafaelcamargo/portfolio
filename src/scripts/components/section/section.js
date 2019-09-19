@@ -1,16 +1,19 @@
 import '@styles/section.styl';
 import React, { Component } from 'react';
+import { RContainer } from '@scripts/components/container/container';
 
 export class RSection extends Component {
-  constructor(props = {}){
+  constructor(props){
     super(props);
     this.state = { className: buildClassName(props.theme) };
   }
   render() {
     return (
-      <div className={ this.state.className }>
-        { this.props.children }
-      </div>
+      <section className={ this.state.className }>
+        <RContainer>
+          { this.props.children }
+        </RContainer>
+      </section>
     );
   }
 }
