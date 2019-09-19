@@ -1,0 +1,8 @@
+.r-col
+  float left
+  padding 0 10px
+  box-sizing border-box
+
+for $size in (1..12)
+  .r-col-{$size}
+    width ($size/12) * 100%
