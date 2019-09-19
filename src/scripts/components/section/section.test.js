@@ -5,7 +5,7 @@ import { RSection } from '@scripts/components/section/section';
 describe('Hello', () => {
   function mount(props = {}){
     return shallow(
-      <RSection>
+      <RSection theme={ props.theme }>
         { props.content }
       </RSection>
     );
@@ -14,6 +14,11 @@ describe('Hello', () => {
   it('should have appropriate css class', () => {
     const wrapper = mount();
     expect(wrapper.prop('className')).toEqual('r-section');
+  });
+
+  it('should optinally render a primary section', () => {
+    const wrapper = mount({ theme: 'primary' });
+    expect(wrapper.prop('className').includes('r-section-primary')).toEqual(true);
   });
 
   it('should render some content', () => {
