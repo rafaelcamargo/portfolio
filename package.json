@@ -1,7 +1,7 @@
 {
-  "name": "woover",
+  "name": "website",
   "version": "0.1.0",
-  "description": "World news headlines",
+  "description": "My Personal Website",
   "main": "src/scripts/app.js",
   "scripts": {
     "build": "webpack",
@@ -10,9 +10,10 @@
     "test": "jest"
   },
   "keywords": [
-    "world",
-    "news",
-    "headlines"
+    "rafael",
+    "camargo",
+    "programmer",
+    "designer"
   ],
   "author": "Rafael Camargo <hello@rafaelcamargo.com>",
   "license": "MIT",
@@ -34,6 +35,7 @@
     "jest": "^24.9.0",
     "mini-css-extract-plugin": "^0.8.0",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "prerender-spa-plugin": "^3.4.0",
     "prop-types": "^15.7.2",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",

@@ -10,6 +10,7 @@
       "index": "src/scripts/app.js"
     },
     "dist": {
+      "root": "dist/",
       "filename": {
         "prod": "[name]-[hash].js",
         "dev": "[name].js"
