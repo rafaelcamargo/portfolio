@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { Home } from '@scripts/views/home/home';
+import { Home } from '@scripts/home/home';
 import { AppRouter } from './router';
 
 describe('Home', () => {
