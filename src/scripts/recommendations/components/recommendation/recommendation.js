@@ -18,7 +18,12 @@ export class RRecommendation extends Component {
           </div>
           <div className="r-recommendation-titles">
             <h3>
-              { this.state.data.personName }
+              {
+                buildLink({
+                  name: this.state.data.personName,
+                  url: this.state.data.personUrl
+                })
+              }
             </h3>
             <h4>
               {
@@ -46,15 +51,15 @@ export class RRecommendation extends Component {
 }
 
 function buildCurrentCompanyInfo({ position, name, url }){
-  return <span data-recommendation-current-company>{ position } at { buildCompanyLink({ name, url }) }</span>
+  return <span data-recommendation-current-company>{ position } at { buildLink({ name, url }) }</span>
 }
 
 function buildFormerCompanyInfo({ name, url }){
   return name ?
-    <span data-recommendation-former-company>, formerly { buildCompanyLink({ name, url }) }</span> :
+    <span data-recommendation-former-company>, formerly { buildLink({ name, url }) }</span> :
     null;
 }
 
-function buildCompanyLink({ name, url }){
+function buildLink({ name, url }){
   return <a href={ url } target="_blank">{ name }</a>;
 }
