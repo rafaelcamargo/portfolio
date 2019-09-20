@@ -1,40 +1,45 @@
 import '@styles/recommendation.styl';
 import React, { Component } from 'react';
+import recommendationsService from '@scripts/recommendations/services/recommendations/recommendations';
 import { RAvatar } from '@scripts/base/components/avatar/avatar';
 
 export class RRecommendation extends Component {
+  constructor(props){
+    super(props);
+    this.state = { data: recommendationsService.get(this.props.id) }
+  }
   render() {
     return (
       <div className="r-recommendation">
         <div className="r-recommendation-header">
           <div className="r-recommendation-avatars">
-            <RAvatar image={ this.props.companyImage } />
-            <RAvatar image={ this.props.personImage } />
+            <RAvatar image={ this.state.data.companyImage } />
+            <RAvatar image={ this.state.data.personImage } />
           </div>
           <div className="r-recommendation-titles">
             <h3>
-              { this.props.personName }
+              { this.state.data.personName }
             </h3>
             <h4>
               {
                 buildCurrentCompanyInfo({
-                  position: this.props.personPosition,
-                  name: this.props.companyName,
-                  url: this.props.companyUrl
+                  position: this.state.data.personPosition,
+                  name: this.state.data.companyName,
+                  url: this.state.data.companyUrl
                 })
               }
               {
                 buildFormerCompanyInfo({
-                  name: this.props.formerCompanyName,
-                  url: this.props.formerCompanyUrl
+                  name: this.state.data.formerCompanyName,
+                  url: this.state.data.formerCompanyUrl
                 })
               }
             </h4>
           </div>
         </div>
-        <div className="r-recommendation-body">
-          { this.props.children }
-        </div>
+        <p className="r-recommendation-body">
+          { this.state.data.content }
+        </p>
       </div>
     );
   }
