@@ -42,6 +42,11 @@
       "file": "src/images/favicon-pitsby.png"
     }
   },
+  "data": {
+    "source": {
+      "root": "src/data/"
+    }
+  },
   "tests": {
     "source": {
       "files": [
