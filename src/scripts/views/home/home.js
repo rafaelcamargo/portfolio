@@ -1,10 +1,13 @@
-import React from 'react';
-import { Hello } from '@scripts/components/hello/hello';
+import React, { Component } from 'react';
+import { RHero } from '@scripts/components/hero/hero';
+import { RViewport } from '@scripts/components/viewport/viewport';
 
-export class Home extends React.Component {
+export class Home extends Component {
   render() {
     return (
-      <Hello name="World" />
+      <RViewport>
+        <RHero title="My name is Rafael. I am an expert in building UI components." />
+      </RViewport>
     );
   }
 }

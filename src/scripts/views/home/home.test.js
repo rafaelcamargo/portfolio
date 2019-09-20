@@ -1,11 +1,17 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { Hello } from '@scripts/components/hello/hello';
+import { RHero } from '@scripts/components/hero/hero';
+import { RViewport } from '@scripts/components/viewport/viewport';
 import { Home } from './home';
 
 describe('Home', () => {
-  it('should contain a Hello component', () => {
+  it('should contain a viewport', () => {
     const wrapper = shallow(<Home />);
-    expect(wrapper.find(Hello).prop('name')).toEqual('World');
+    expect(wrapper.find(RViewport).length).toEqual(1);
+  });
+
+  it('should contain a hero', () => {
+    const wrapper = shallow(<Home />);
+    expect(wrapper.find(RHero).length).toEqual(1);
   });
 });
