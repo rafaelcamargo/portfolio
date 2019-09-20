@@ -5,7 +5,7 @@ import { RRow } from '@scripts/components/row/row';
 describe('Row', () => {
   function mount(props = {}){
     return shallow(
-      <RRow align={ props.align }>
+      <RRow align={ props.align } offset={ props.offset }>
         { props.content }
       </RRow>
     );
@@ -24,6 +24,21 @@ describe('Row', () => {
   it('should optionally align text content to the right', () => {
     const wrapper = mount({ align: 'right' });
     expect(wrapper.prop('className').includes('r-row-right')).toEqual(true);
+  });
+
+  it('should optionally offset row', () => {
+    const wrapper = mount({ offset: 4 });
+    expect(wrapper.prop('className').includes('r-row-offset-4')).toEqual(true);
+  });
+
+  it('should ignore offsets greater than 10', () => {
+    const wrapper = mount({ size: 11 });
+    expect(wrapper.prop('className').includes('r-col-offset-11')).toEqual(false);
+  });
+
+  it('should ignore offsets lower than 1', () => {
+    const wrapper = mount({ size: 0 });
+    expect(wrapper.prop('className').includes('r-col-offset-0')).toEqual(false);
   });
 
   it('should render some content', () => {

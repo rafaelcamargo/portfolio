@@ -6,7 +6,7 @@ const BASE_CLASS_NAME = 'r-row';
 export class RRow extends Component {
   constructor(props){
     super(props);
-    this.state = { className: buildClassName(props.align) };
+    this.state = { className: buildClassName(props) };
   }
   render() {
     return (
@@ -17,8 +17,10 @@ export class RRow extends Component {
   }
 }
 
-function buildClassName(align){
-  return `${BASE_CLASS_NAME} ${buildAlignClassName(align)}`.trim();
+function buildClassName({ align, offset }){
+  const alignClass = buildAlignClassName(align);
+  const offsetClass = buildOffsetClassName(offset);
+  return `${BASE_CLASS_NAME} ${alignClass} ${offsetClass}`.trim();
 }
 
 function buildAlignClassName(align){
@@ -30,4 +32,8 @@ function buildAlignClassName(align){
     default:
       return '';
   }
+}
+
+function buildOffsetClassName(offset){
+  return offset >= 1 && offset <= 10 ? `${BASE_CLASS_NAME}-offset-${offset}` : '';
 }

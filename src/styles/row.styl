@@ -9,3 +9,6 @@
     text-align right
   & + .r-row
     margin-top 20px
+  for $size in (1..10)
+    &.r-row-offset-{$size}
+      margin-top $size * 10px
