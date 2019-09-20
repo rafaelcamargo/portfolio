@@ -6,31 +6,35 @@ export class RRecommendation extends Component {
   render() {
     return (
       <div className="r-recommendation">
-        <div class="r-recommendation-avatars">
-          <RAvatar image={ this.props.personImage } />
-          <RAvatar image={ this.props.companyImage } />
+        <div className="r-recommendation-header">
+          <div className="r-recommendation-avatars">
+            <RAvatar image={ this.props.companyImage } />
+            <RAvatar image={ this.props.personImage } />
+          </div>
+          <div className="r-recommendation-titles">
+            <h3>
+              { this.props.personName }
+            </h3>
+            <h4>
+              {
+                buildCurrentCompanyInfo({
+                  position: this.props.personPosition,
+                  name: this.props.companyName,
+                  url: this.props.companyUrl
+                })
+              }
+              {
+                buildFormerCompanyInfo({
+                  name: this.props.formerCompanyName,
+                  url: this.props.formerCompanyUrl
+                })
+              }
+            </h4>
+          </div>
         </div>
-        <div className="r-recommendation-titles">
-          <h3>
-            { this.props.personName }
-          </h3>
-          <h4>
-            {
-              buildCurrentCompanyInfo({
-                position: this.props.personPosition,
-                name: this.props.companyName,
-                url: this.props.companyUrl
-              })
-            }
-            {
-              buildFormerCompanyInfo({
-                name: this.props.formerCompanyName,
-                url: this.props.formerCompanyUrl
-              })
-            }
-          </h4>
+        <div className="r-recommendation-body">
+          { this.props.children }
         </div>
-        { this.props.children }
       </div>
     );
   }

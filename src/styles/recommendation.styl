@@ -1,2 +1,29 @@
+@require '_variables'
+@require '_mixins'
+
 .r-recommendation
-  display block
+  h3
+    font-size $font-size-sm
+    font-weight bold
+  h4
+    font-size $font-size-xxs
+
+.r-recommendation
+  .r-avatar
+    float left
+    &:last-child
+      position relative
+      left -15px
+
+.r-recommendation-header
+  display flex
+  align-items center
+
+.r-recommendation-avatar
+  clearfix()
+
+.r-recommendation-titles
+  margin-left 10px
+
+.r-recommendation-body
+  margin-top 40px
