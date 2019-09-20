@@ -44,7 +44,10 @@
   },
   "tests": {
     "source": {
-      "files": [ "src/scripts/**/*.js" ]
+      "files": [
+        "src/scripts/**/*.js",
+        "!src/scripts/mocks/**/*.js"
+      ]
     }
   },
   "mocks": {

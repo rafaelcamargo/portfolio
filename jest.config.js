@@ -16,11 +16,11 @@ module.exports = {
     '@styles\/(.*)$': `<rootDir>/${project.styles.source.root}$1`,
     '@images\/(.*)$': `<rootDir>/${project.images.source.root}$1`,
     '@mocks\/(.*)$': `<rootDir>/${project.mocks.source.root}$1`,
-    '^.+\\.css$': '<rootDir>/src/mocks/raw-files.js'
+    '^.+\\.css$': '<rootDir>/src/scripts/mocks/raw-files.js'
   },
-  setupFilesAfterEnv: ['<rootDir>/src/mocks/global.js'],
+  setupFilesAfterEnv: ['<rootDir>/src/scripts/mocks/global.js'],
   transform: {
-    '^.+\\.(png|styl)$': '<rootDir>/src/mocks/raw-files.js',
+    '^.+\\.(png|styl)$': '<rootDir>/src/scripts/mocks/raw-files.js',
     '^.+\\.js$': 'babel-jest'
   }
 };
