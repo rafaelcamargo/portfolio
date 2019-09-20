@@ -49,7 +49,80 @@ export class Home extends Component {
           </RRow>
           <RRow align="center" offset="10">
             <RCol size="12">
-              <RCtaLink to="/recommendations" text="Read All Recommendations" />
+              <RCtaLink to="/recommendations" text="Read all recommendations" />
+            </RCol>
+          </RRow>
+        </RSection>
+        <RSection>
+          <RRow>
+            <RCol size="4">
+              <RRow>
+                <RCol size="12">
+                  <h2>
+                    Few time. Lots of impact.
+                  </h2>
+                </RCol>
+              </RRow>
+              <RRow>
+                <RCol size="12">
+                  <p>
+                    I started programming in 2013, not so long.<br />
+                    But on this short period of time, I collaborated in activities
+                    that generated a huge impact.
+                  </p>
+                </RCol>
+              </RRow>
+              <RRow>
+                <RCol size="12">
+                  <RCtaLink to="/experience" text="See my experience" />
+                </RCol>
+              </RRow>
+            </RCol>
+            <RCol size="4">
+              <RRow>
+                <RCol size="12">
+                  <h2>
+                    Building is the way I best learn.
+                  </h2>
+                </RCol>
+              </RRow>
+              <RRow>
+                <RCol size="12">
+                  <p>
+                    I am always full of new ideias.<br />
+                    Building a side project is the way
+                    I best learn something new.
+                  </p>
+                </RCol>
+              </RRow>
+              <RRow>
+                <RCol size="12">
+                  <RCtaLink to="/projects" text="See my projects" />
+                </RCol>
+              </RRow>
+            </RCol>
+            <RCol size="4">
+              <RRow>
+                <RCol size="12">
+                  <h2>
+                    A couple of stories to share.
+                  </h2>
+                </RCol>
+              </RRow>
+              <RRow>
+                <RCol size="12">
+                  <p>
+                    Writing is a craft that I'm trying to learn.<br />
+                    Once in a while, I find some time to share a bit of the
+                    experience I'm getting along the way.
+                  </p>
+                </RCol>
+              </RRow>
+              <RRow>
+                <RCol size="12">
+                  <RCtaLink to="/stories" text="See my stories" />
+                </RCol>
+              </RRow>
             </RCol>
           </RRow>
         </RSection>
