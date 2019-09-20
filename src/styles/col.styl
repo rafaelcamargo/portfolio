@@ -1,3 +1,5 @@
+@require '_mixins'
+
 .r-col
   float left
   padding 0 10px
@@ -10,3 +12,10 @@ for $size in (1..12)
 for $size in (1..11)
   .r-col-offset-{$size}
     margin-left ($size/12) * 100%
+
++breakpoint('xs')
+  .r-col
+    float left
+    width 100%
+  & + .r-col
+    margin-top 20px
