@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { RCol } from '@scripts/base/components/col/col';
 import { RCtaLink } from '@scripts/base/components/cta-link/cta-link';
 import { RHero } from '@scripts/base/components/hero/hero';
+import { RRecommendation } from '@scripts/recommendations/components/recommendation/recommendation';
 import { RRow } from '@scripts/base/components/row/row';
 import { RSection } from '@scripts/base/components/section/section';
 import { RViewport } from '@scripts/base/components/viewport/viewport';
@@ -34,6 +35,21 @@ export class Home extends Component {
                   <RCtaLink to="/skills" text="See my skills" />
                 </RCol>
               </RRow>
+            </RCol>
+          </RRow>
+        </RSection>
+        <RSection theme="primary">
+          <RRow>
+            <RCol size="6">
+              <RRecommendation id="matias" />
+            </RCol>
+            <RCol size="6">
+              <RRecommendation id="bruckheimer" />
+            </RCol>
+          </RRow>
+          <RRow align="center" offset="10">
+            <RCol size="12">
+              <RCtaLink to="/recommendations" text="Read All Recommendations" />
             </RCol>
           </RRow>
         </RSection>

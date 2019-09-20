@@ -1,15 +1,15 @@
 [
   {
-    "id": "matias",
-    "companyImage": "logo-nubank.png",
-    "companyName": "Nubank",
-    "companyUrl": "https://nubank.com.br/en",
-    "formerCompanyName": "Conta Azul",
-    "formerCompanyUrl": "https://contaazul.com",
-    "personImage": "avatar-matias.jpeg",
-    "personName": "Tiago Matias",
+    "id": "bruckheimer",
+    "companyImage": "logo-runtastic.png",
+    "companyName": "Runtastic",
+    "companyUrl": "https://www.runtastic.com/",
+    "formerCompanyName": "JobScore",
+    "formerCompanyUrl": "https://www.jobscore.com",
+    "personImage": "avatar-bruckheimer.jpeg",
+    "personName": "Alessandro Brückheimer",
     "personPosition": "Programmer",
-    "content": "Rafael is one of the most creative and productive people I know. Also, the technical quality of what he builds is enviable. He always brings something new in his side projects. He’s a person that practices and reflects a lot about his profession. The results are evident."
+    "content": "I worked with Rafael at Jobscore during a few months. In that short period, he made a great impact in the engineering department. From introducing new front-end practices to a whole new approach to reuse UI code. I recommend Rafael to teams looking for professionals well versed with software fundamentals, long practice and high delivery capacity."
   },
   {
     "id": "cunha",
@@ -20,5 +20,17 @@
     "personName": "Lucas Cunha",
     "personPosition": "Programmer",
     "content": "Rafael was responsible to introduce a new approach on how we organised JavaScript code on Jobscore. He is one of the best engineers I had the privilege to work with. I think his best trait is making sure that everything is reusable, easy to understand and maintainable."
+  },
+  {
+    "id": "matias",
+    "companyImage": "logo-nubank.png",
+    "companyName": "Nubank",
+    "companyUrl": "https://nubank.com.br/en",
+    "formerCompanyName": "Conta Azul",
+    "formerCompanyUrl": "https://contaazul.com",
+    "personImage": "avatar-matias.jpeg",
+    "personName": "Tiago Matias",
+    "personPosition": "Programmer",
+    "content": "Rafael is one of the most creative and productive people I know. Also, the technical quality of what he builds is enviable. He always brings something new in his side projects. He’s a person that practices and reflects a lot about his profession. The results are evident."
   }
 ]
