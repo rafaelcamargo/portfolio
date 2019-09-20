@@ -1,10 +1,12 @@
 import '@styles/col.styl';
 import React, { Component } from 'react';
 
+const BASE_CLASS_NAME = 'r-col';
+
 export class RCol extends Component {
-  constructor(props = {}){
+  constructor(props){
     super(props);
-    this.state = { className: buildClassName(props.size) };
+    this.state = { className: buildClassName(props) };
   }
   render() {
     return (
@@ -15,10 +17,16 @@ export class RCol extends Component {
   }
 }
 
-function buildClassName(size){
-  return `r-col ${buildSizeCssClass(size)}`.trim();
+function buildClassName({ size, offset }){
+  const sizeClass = buildSizeCssClass(size);
+  const offsetClass = buildOffsetCssClass(offset);
+  return `${BASE_CLASS_NAME} ${sizeClass} ${offsetClass}`.trim();
 }
 
 function buildSizeCssClass(size){
-  return size ? `r-col-${size}` : '';
+  return size >= 1 && size <= 12 ? `${BASE_CLASS_NAME}-${size}` : '';
+}
+
+function buildOffsetCssClass(offset){
+  return offset >= 1 && offset <= 11 ? `${BASE_CLASS_NAME}-offset-${offset}` : '';
 }
