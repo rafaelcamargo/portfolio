@@ -1,26 +1,28 @@
 @require '_variables'
 @require '_mixins'
 
-.r-menu
-  .r-menu-list
-    clearfix()
-  .r-menu-item
-    float left
-    &:not(:first-child)
-      margin-left 30px
-  .r-menu-item-link
-    position relative
-    padding 5px 0
-    color $color-darkest
-    text-decoration none
-    &.r-menu-item-link-active
-      &:after
-        position absolute
-        top 100%
-        left 50%
-        content ' '
-        width 4px
-        height 4px
-        background-color $color-purple
-        border-radius 2px
-        transform('translate(-50%,-50%)')
+
+.r-menu-list
+  clearfix()
+
+.r-menu-item
+  float left
+  &:not(:first-child)
+    margin-left 30px
+
+.r-menu-item-link
+  position relative
+  padding 5px 0
+  color $color-darkest
+  text-decoration none
+  &.r-menu-item-link-active
+    &:after
+      position absolute
+      top 100%
+      left 50%
+      content ' '
+      width 4px
+      height 4px
+      background-color $color-purple
+      border-radius 2px
+      transform('translate(-50%,-50%)')
