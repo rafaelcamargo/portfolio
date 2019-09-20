@@ -11,7 +11,7 @@ export class RIcon extends Component {
   }
   render() {
     return (
-      <div className={ this.state.className } style={ this.state.style }></div>
+      <span className={ this.state.className } style={ this.state.style }></span>
     );
   }
 }

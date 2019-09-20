@@ -1,0 +1,23 @@
+@require '_variables'
+@require '_mixins'
+
+$text-color = $color-purple
+
+.r-cta-link
+  position relative
+  .r-icon-arrow
+    position absolute
+    top 0
+    right 0
+    background-color $text-color
+    transform('rotate(180deg)')
+  a
+    padding-right 30px
+    color $text-color
+    font-weight 600
+    text-transform uppercase
+    text-decoration none
+    transition(all, 300ms)
+  +highlight()
+    a
+      padding-right 45px
