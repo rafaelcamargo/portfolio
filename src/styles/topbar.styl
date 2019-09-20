@@ -1,5 +1,15 @@
 @require '_variables'
+@require '_mixins'
 
 .r-topbar
   padding 36px 0
   background-color $color-grey-light
+  .r-container
+    display flex
+    align-items center
+    clearfix()
+  .r-logo,
+  .r-menu
+    float left
+  .r-menu
+    margin-left 30px
