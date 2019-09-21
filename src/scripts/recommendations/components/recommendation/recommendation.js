@@ -42,9 +42,11 @@ export class RRecommendation extends Component {
             </h4>
           </div>
         </div>
-        <p className="r-recommendation-body">
-          { this.state.data.content }
-        </p>
+        <blockquote className="r-recommendation-body">
+          <p>
+            { this.state.data.content }
+          </p>
+        </blockquote>
       </div>
     );
   }
