@@ -1,0 +1,32 @@
+@require '_mixins'
+
+$top-offset = 75px
+
+.r-feature-list
+  margin 0 -10px
+  clearfix()
+
+.r-feature-list-item
+  float left
+  padding 0 10px
+  box-sizing border-box
+
+.r-feature-list-item.r-feature-list-item-size-1-1
+  & + .r-feature-list-item.r-feature-list-item-size-1-1
+    margin-top $top-offset
+
+.r-feature-list-item
+  &.r-feature-list-item-size-1-1
+    width 100%
+  &.r-feature-list-item-size-1-2
+    width 50%
+  &.r-feature-list-item-size-1-3
+    width 33.3333333333333%
+
++breakpoint('xs')
+  .r-feature-list-item
+    margin-top $top-offset
+    &.r-feature-list-item-size-1-2
+      width 100%
+    &.r-feature-list-item-size-1-3
+      width 100%
