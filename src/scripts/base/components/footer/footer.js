@@ -1,6 +1,7 @@
 import '@styles/footer.styl';
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { RCredits } from '@scripts/base/components/credits/credits';
 import keywords from '@data/keywords';
 import keywordsService from '@scripts/base/services/keywords/keywords';
 
@@ -39,6 +40,9 @@ export class RFooter extends Component {
           <div className="r-footer-keywords-container">
             { buildSocialKeywords(getSocialNetworks()) }
           </div>
+        </div>
+        <div className="r-footer-section r-footer-section-credits">
+          <RCredits />
         </div>
       </footer>
     );
