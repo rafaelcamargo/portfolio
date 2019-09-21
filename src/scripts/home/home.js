@@ -112,8 +112,8 @@ export class Home extends Component {
               <RRow>
                 <RCol size="12">
                   <p>
-                    Writing is a craft that I'm trying to learn.<br />
-                    Once in a while, I find some time to share a bit of the
+                    Writing is a craft that I'm striving to learn.<br />
+                    Once in a while, I dedicate some time to share a bit of the
                     experience I'm getting along the way.
                   </p>
                 </RCol>
