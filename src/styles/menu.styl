@@ -18,6 +18,7 @@
   +highlight()
     color $color-purple
   &.r-menu-item-link-active
+    pointer-events none
     &:after
       position absolute
       top 100%
@@ -28,3 +29,9 @@
       background-color $color-purple
       border-radius 2px
       transform('translate(-50%,-50%)')
+
++breakpoint('xs')
+  .r-menu-item-link
+    &.r-menu-item-link-active
+      &:after
+        background-color transparent

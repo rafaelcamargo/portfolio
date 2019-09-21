@@ -6,6 +6,7 @@
   background-color alpha($color-grey-light, .975)
   z-index $layer-low
   .r-container
+    position relative
     display flex
     align-items center
     clearfix()
@@ -14,7 +15,21 @@
     float left
   .r-menu
     margin-left 30px
+  .r-button
+    display none
+    position absolute
+    top 50%
+    left 0
+    transform('translateY(-50%)')
 
 +breakpoint('xs')
-  .r-menu
-    display none
+  .r-topbar
+    padding 16px 0
+    .r-menu
+      display none
+    .r-button
+      display block
+  .r-logo
+    position relative
+    left 50%
+    transform('translateX(-50%)')
