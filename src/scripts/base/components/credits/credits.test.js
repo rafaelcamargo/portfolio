@@ -1,0 +1,16 @@
+import React from 'react';
+import { shallow } from 'enzyme';
+import { RCredits } from '@scripts/base/components/credits/credits';
+
+describe('Recommendation', () => {
+  function mount(props = {}){
+    return shallow(
+      <RCredits />
+    );
+  }
+
+  it('should have appropriate css class', () => {
+    const wrapper = mount();
+    expect(wrapper.prop('className')).toEqual('r-credits');
+  });
+});
