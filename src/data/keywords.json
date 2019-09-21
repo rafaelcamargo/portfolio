@@ -15,7 +15,6 @@
   { "name": "Circle CI", "type": "skill" },
   { "name": "Firebase", "type": "skill" },
   { "name": "Netlify", "type": "skill" },
-  { "name": "AngularJS", "type": "skill" },
   { "name": "AWS S3", "type": "skill" },
   { "name": "Codecov", "type": "skill" },
   { "name": "Coveralls", "type": "skill" },

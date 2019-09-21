@@ -1,0 +1,50 @@
+@require '_variables'
+@require '_mixins'
+
+$link-color = $color-grey-dark
+
+.r-footer
+  padding 0 0 50px
+  border-top 1px solid $color-grey
+  clearfix()
+  h4
+    margin 50px 0 10px
+    font-size $font-size-xxs
+    font-weight 600
+    text-transform uppercase
+
+.r-footer-section
+  float left
+
+.r-footer-keywords-container
+  margin 0 -5px
+  clearfix()
+
+.r-footer-keyword-crumb
+  float left
+  margin 10px 0 0
+  padding 0 5px
+  width 11.1111111111111%
+  box-sizing border-box
+  a
+    color $color-grey-dark
+    font-size $font-size-xs
+    text-decoration none
+    +highlight()
+      color $color-purple
+
+.r-footer-section-experience,
+.r-footer-section-projects,
+.r-footer-section-social
+  width 33.3333333333333%
+  .r-footer-keyword-crumb
+    width 33.3333333333333%
+
++breakpoint('xs')
+  .r-footer-keyword-crumb
+    width 33.3333333333333%
+
+  .r-footer-section-experience,
+  .r-footer-section-projects,
+  .r-footer-section-social
+    width 100%
