@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import recommendationsMock from '@scripts/mocks/recommendations';
+import recommendationsMock from '@scripts/recommendations/mocks/recommendations';
 import recommendationsService from '@scripts/recommendations/services/recommendations/recommendations';
 import { RAvatar } from '@scripts/base/components/avatar/avatar';
 import { RRecommendation } from '@scripts/recommendations/components/recommendation/recommendation';

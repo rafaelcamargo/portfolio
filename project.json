@@ -51,7 +51,7 @@
     "source": {
       "files": [
         "src/scripts/**/*.js",
-        "!src/scripts/mocks/**/*.js"
+        "!src/scripts/**/mocks/**/*.js"
       ]
     }
   },
