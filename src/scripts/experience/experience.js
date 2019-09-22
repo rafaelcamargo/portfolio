@@ -81,7 +81,7 @@ export class Experience extends Component {
               </p>
               <p>
                 Beyond delivering great results to the product and to the
-                company, I have created our <b>own documentation tool</b>. We
+                company, I have <b>created our own documentation tool</b>. We
                 struggled to have a unified documentation containing our
                 legacy - <em>AngularJS</em> - and modern - <em>VueJS</em> components. <a
                 href="https://www.npmjs.com/package/@glorious/pitsby"
