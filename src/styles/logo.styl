@@ -1,3 +1,6 @@
+@require '_variables'
+@require '_mixins'
+
 logo-box()
   width 26.5px
   height 28px
@@ -6,3 +9,5 @@ logo-box()
   logo-box()
   .r-icon-rc
     logo-box()
+    +highlight()
+      background-color $color-purple
