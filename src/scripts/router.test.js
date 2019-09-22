@@ -6,6 +6,7 @@ import { AppRouter } from './router';
 import { Experience } from '@scripts/experience/experience';
 import { Home } from '@scripts/home/home';
 import { Projects } from '@scripts/projects/projects';
+import { Recommendations } from '@scripts/recommendations/recommendations';
 import { Skills } from '@scripts/skills/skills';
 
 describe('Home', () => {
@@ -45,6 +46,14 @@ describe('Home', () => {
   it('should contain Skills route', () => {
     const wrapper = mount();
     const route = wrapper.find(ScrollToTop).children().at(3);
+    expect(route.prop('path')).toEqual('/recommendations');
+    expect(route.prop('exact')).toEqual(true);
+    expect(route.prop('component')).toEqual(Recommendations);
+  });
+
+  it('should contain Skills route', () => {
+    const wrapper = mount();
+    const route = wrapper.find(ScrollToTop).children().at(4);
     expect(route.prop('path')).toEqual('/skills');
     expect(route.prop('exact')).toEqual(true);
     expect(route.prop('component')).toEqual(Skills);

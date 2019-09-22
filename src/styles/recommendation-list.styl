@@ -1,17 +1,12 @@
 @require '_mixins'
 
 .r-recommendation-list
-  margin 0 -10px
-  clearfix()
-
-.r-recommendation-list-item
-  float left
-  padding 0 10px
-  width 50%
-  box-sizing border-box
+  display grid
+  grid-template-columns 1fr 1fr
+  grid-gap 100px 20px
+  margin-bottom -100px
 
 +breakpoint('xs')
-  .r-recommendation-list-item
-    width 100%
-    & + .r-recommendation-list-item
-      margin-top 75px
+  .r-recommendation-list
+    grid-template-columns 1fr
+    margin-bottom 0
