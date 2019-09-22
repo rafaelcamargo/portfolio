@@ -1,0 +1,23 @@
+@require '_variables'
+@require '_mixins'
+
+$avatar-size = 60px
+
+.r-avatron
+  display flex
+  align-items center
+  .r-avatar
+    width $avatar-size
+    height $avatar-size
+    & + .r-avatron-titles
+      margin-left 10px
+  h2
+    font-size $font-size-lg
+    a
+      color $color-darkest
+      text-decoration none
+      +highlight()
+        color $color-purple
+  h3
+    font-size $font-size-xs
+    font-weight 300
