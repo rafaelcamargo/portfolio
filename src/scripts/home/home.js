@@ -14,7 +14,9 @@ export class Home extends Component {
   render() {
     return (
       <RViewport>
-        <RHero title="My name is Rafael. I am an expert in building UI components." />
+        <RHero
+          title="My name is Rafael. I am an expert in building UI components."
+          size="large" />
         <RSection>
           <RRow align="center">
             <RCol size="12">

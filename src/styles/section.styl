@@ -1,6 +1,19 @@
 @require '_variables'
+@require '_mixins'
 
 .r-section
-  padding 150px 0
-  &.r-section-primary
+  padding 128px 0
+  &.r-section-size-small
+    padding 64px 0
+  &.r-section-size-large
+    padding 192px 0
+  &.r-section-theme-primary
     background-color $color-grey-light
+
++breakpoint('xs')
+  .r-section
+    padding 64px 0
+    &.r-section-size-small
+      padding 64px 0
+    &.r-section-size-large
+      padding 128px 0

@@ -7,7 +7,7 @@ export class RHero extends Component {
   render() {
     return (
       <div className="r-hero">
-        <RSection theme="primary">
+        <RSection theme="primary" size={ this.props.size }>
           <RRow>
             <RCol size="6">
               <h1>{ this.props.title }</h1>
