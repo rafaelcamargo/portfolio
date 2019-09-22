@@ -1,0 +1,24 @@
+@require '_variables'
+@require '_mixins'
+
+.r-story-list
+  display grid
+  grid-template-columns 1fr 1fr
+  grid-gap 100px 20px
+  .r-cta-link
+    display inline-block
+    margin-top 40px
+  h2,
+  p
+    margin-top 20px
+  img
+    width 100%
+
+.r-story-list-header
+  background-color $color-grey-light
+  border-radius 12px
+  overflow hidden
+
++breakpoint('xs')
+  .r-story-list
+    grid-template-columns 1fr
