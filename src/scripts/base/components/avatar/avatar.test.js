@@ -14,10 +14,9 @@ describe('Icon', () => {
     expect(wrapper.prop('className')).toEqual('r-avatar');
   });
 
-  it('should render a specific icon', () => {
-    const wrapper = mount({ image: 'camargo.jpg' });
-    expect(wrapper.prop('style')).toEqual({
-      backgroundImage: 'url("images/camargo.jpg")'
-    });
+  it('should render a specific image', () => {
+    const wrapper = mount({ image: 'avatar-camargo.jpg' });
+    expect(wrapper.find('img').prop('src')).toEqual('images/avatar-camargo.jpg');
+    expect(wrapper.find('img').prop('alt')).toEqual('avatar camargo');
   });
 });

@@ -2,17 +2,19 @@ import '@styles/avatar.styl';
 import React, { Component } from 'react';
 
 export class RAvatar extends Component {
-  constructor(props){
-    super(props);
-    this.state = { style: buildStyle(props.image) };
-  }
   render() {
     return (
-      <div className="r-avatar" style={ this.state.style } ></div>
+      <div className="r-avatar">
+        <img src={ buildImageUrl(this.props.image) } alt={ buildImageAlt(this.props.image) } />
+      </div>
     );
   }
 }
 
-function buildStyle(image){
-  return { backgroundImage: `url("images/${image}")` };
+function buildImageUrl(image){
+  return `images/${image}`;
+}
+
+function buildImageAlt(image){
+  return image.split('.')[0].replace('-', ' ');
 }
