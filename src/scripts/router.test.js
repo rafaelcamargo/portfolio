@@ -8,6 +8,7 @@ import { Home } from '@scripts/home/home';
 import { Projects } from '@scripts/projects/projects';
 import { Recommendations } from '@scripts/recommendations/recommendations';
 import { Skills } from '@scripts/skills/skills';
+import { Stories } from '@scripts/stories/stories';
 
 describe('Home', () => {
   function mount(){
@@ -57,5 +58,13 @@ describe('Home', () => {
     expect(route.prop('path')).toEqual('/skills');
     expect(route.prop('exact')).toEqual(true);
     expect(route.prop('component')).toEqual(Skills);
+  });
+
+  it('should contain Stories route', () => {
+    const wrapper = mount();
+    const route = wrapper.find(ScrollToTop).children().at(5);
+    expect(route.prop('path')).toEqual('/stories');
+    expect(route.prop('exact')).toEqual(true);
+    expect(route.prop('component')).toEqual(Stories);
   });
 });
