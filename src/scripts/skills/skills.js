@@ -24,8 +24,9 @@ export class Skills extends Component {
                 Along this rich period, I got fluent with
                 the <b>latest JavaScript specifications</b>, several front-end
                 technologies and got deep in concepts that have shaped the
-                way I write software. Among these concepts are <b>Clean Code</b>,
-                <b>SOLID</b>, the <b>three laws of TDD</b> and this awesome <a
+                way I write software. Among these concepts are <b>Clean Code
+                </b>, <b>SOLID</b>, the <b>three laws of TDD</b> and this
+                awesome <a
                   href="https://blog.cleancoder.com/uncle-bob/2011/01/17/software-craftsmanship-is-about.html"
                   target="_blank">
                   blog post
