@@ -5,6 +5,7 @@ import ScrollToTop from 'react-router-scroll-top';
 import { AppRouter } from './router';
 import { Experience } from '@scripts/experience/experience';
 import { Home } from '@scripts/home/home';
+import { Projects } from '@scripts/projects/projects';
 import { Skills } from '@scripts/skills/skills';
 
 describe('Home', () => {
@@ -33,9 +34,17 @@ describe('Home', () => {
     expect(route.prop('component')).toEqual(Experience);
   });
 
-  it('should contain Skills route', () => {
+  it('should contain Projects route', () => {
     const wrapper = mount();
     const route = wrapper.find(ScrollToTop).children().at(2);
+    expect(route.prop('path')).toEqual('/projects');
+    expect(route.prop('exact')).toEqual(true);
+    expect(route.prop('component')).toEqual(Projects);
+  });
+
+  it('should contain Skills route', () => {
+    const wrapper = mount();
+    const route = wrapper.find(ScrollToTop).children().at(3);
     expect(route.prop('path')).toEqual('/skills');
     expect(route.prop('exact')).toEqual(true);
     expect(route.prop('component')).toEqual(Skills);
