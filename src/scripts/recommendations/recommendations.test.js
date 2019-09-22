@@ -4,7 +4,7 @@ import { RHero } from '@scripts/base/components/hero/hero';
 import { RViewport } from '@scripts/base/components/viewport/viewport';
 import { Recommendations } from '@scripts/recommendations/recommendations';
 
-describe('Experience', () => {
+describe('Recommendations', () => {
   function mount(){
     return shallow(<Recommendations />);
   }
