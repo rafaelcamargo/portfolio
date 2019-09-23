@@ -17,7 +17,7 @@ describe('Home', () => {
   it('should contain a large hero', () => {
     const wrapper = mount();
     expect(wrapper.find(RHero).length).toEqual(1);
-    expect(wrapper.find(RHero).prop('title')).toEqual('My name is Rafael. I am an expert in building UI components.');
+    expect(wrapper.find(RHero).find('h1').text()).toEqual('My name is Rafael.I am an expert in building UI components.');
     expect(wrapper.find(RHero).prop('size')).toEqual('large');
   });
 });

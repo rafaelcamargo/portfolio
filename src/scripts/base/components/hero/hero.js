@@ -9,10 +9,9 @@ export class RHero extends Component {
       <div className="r-hero">
         <RSection theme="primary" size={ this.props.size }>
           <RRow>
-            <RCol size="6">
-              <h1>{ this.props.title }</h1>
+            <RCol size="12">
+              { buildCustomContent(this.props.title, this.props.children) }
             </RCol>
-            { buildCustomContent(this.props.children) }
           </RRow>
         </RSection>
       </div>
@@ -20,6 +19,6 @@ export class RHero extends Component {
   }
 }
 
-function buildCustomContent(children){
-  return children ? <RCol size="6">{ children }</RCol> : null;
+function buildCustomContent(title, children){
+  return title ? <h1>{ title }</h1>: children;
 }
