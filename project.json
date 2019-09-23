@@ -59,5 +59,10 @@
     "source": {
       "root": "src/mocks/"
     }
+  },
+  "environments": {
+    "source": {
+      "root": "environments"
+    }
   }
 }
