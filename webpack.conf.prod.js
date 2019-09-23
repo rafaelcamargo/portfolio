@@ -32,7 +32,15 @@ module.exports = {
     }),
     new PrerenderSPAPlugin({
       staticDir: `${__dirname}/${project.scripts.dist.root}`,
-      routes: ['/'],
+      routes: [
+        '/',
+        '/contact',
+        '/experience',
+        '/projects',
+        '/recommendations',
+        '/skills',
+        '/stories'
+      ],
       minify: {
         collapseBooleanAttributes: true,
         collapseWhitespace: true,
