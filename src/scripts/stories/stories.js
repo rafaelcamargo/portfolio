@@ -6,10 +6,20 @@ import { RSection } from '@scripts/base/components/section/section';
 import { RStoryList } from '@scripts/stories/components/story-list/story-list';
 import { RViewport } from '@scripts/base/components/viewport/viewport';
 
+const meta = {
+  title: 'Stories',
+  description: `Writing is a craft that I'm striving to learn. Once in a while,
+    I dedicate some time to share a bit of the experience I'm getting along the way.`,
+  keywords: 'components, reuse, webpack, environment variables, traps, event-driven programming'
+};
+
 export class Stories extends Component {
   render() {
     return (
-      <RViewport>
+      <RViewport
+        title={ meta.title }
+        description={ meta.description }
+        keywords={ meta.keywords }>
         <RHero title="Stories" size="small" />
         <RSection>
           <RRow >

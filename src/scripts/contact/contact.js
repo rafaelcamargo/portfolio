@@ -6,10 +6,19 @@ import { RRow } from '@scripts/base/components/row/row';
 import { RSection } from '@scripts/base/components/section/section';
 import { RViewport } from '@scripts/base/components/viewport/viewport';
 
+const meta = {
+  title: 'Contact',
+  description: 'Send me a hello or follow me on social networks',
+  keywords: 'email, github, dribbble, twitter'
+};
+
 export class Contact extends Component {
   render() {
     return (
-      <RViewport>
+      <RViewport
+        title={ meta.title }
+        description={ meta.description }
+        keywords={ meta.keywords }>
         <RHero title="Contact" size="small" />
         <RSection>
           <RRow>

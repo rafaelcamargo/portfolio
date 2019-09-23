@@ -6,10 +6,20 @@ import { RRow } from '@scripts/base/components/row/row';
 import { RSection } from '@scripts/base/components/section/section';
 import { RViewport } from '@scripts/base/components/viewport/viewport';
 
+const meta = {
+  title: 'Projects',
+  description: `I am always full of new ideias. Building a side project is
+    the way I best learn something new.`,
+  keywords: 'teleflik, nashios, hiphunt'
+};
+
 export class Projects extends Component {
   render() {
     return (
-      <RViewport>
+      <RViewport
+        title={ meta.title }
+        description={ meta.description }
+        keywords={ meta.keywords }>
         <RHero title="Projects" size="small" />
         <RSection>
           <RRow>

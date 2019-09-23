@@ -5,10 +5,25 @@ import { RRow } from '@scripts/base/components/row/row';
 import { RSection } from '@scripts/base/components/section/section';
 import { RViewport } from '@scripts/base/components/viewport/viewport';
 
+const meta = {
+  title: 'Skills',
+  description: `After working for over seven years as a graphic designer, I
+    started on 2013 my career as a programmer. Along this rich period, I got
+    fluent with the latest JavaScript specifications, several front-end
+    technologies and got deep in concepts that have shaped the
+    way I write software.`,
+  keywords: `gulp, webpack, spa, angularjs, vue, react, karma, jasmine, jest,
+    postcss, sass, less, stylus, nodejs, express, mongodb, ruby, rails, postgres,
+    docker`
+};
+
 export class Skills extends Component {
   render() {
     return (
-      <RViewport>
+      <RViewport
+        title={ meta.title }
+        description={ meta.description }
+        keywords={ meta.keywords }>
         <RHero title="Skills" size="small" />
         <RSection>
           <RRow >
