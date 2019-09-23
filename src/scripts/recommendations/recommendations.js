@@ -9,10 +9,8 @@ import { RViewport } from '@scripts/base/components/viewport/viewport';
 
 const meta = {
   title: 'Recommendations',
-  description: `I had the privilege to work with awesome developers. I am
-    very proud to be recommended by them.`,
-  keywords: `tiago matias, nubank, alessandro brukheimer, runtastic, luiz fernando,
-    quinto andar, lorival chapuis, conta azul, lucas cunha, jobscore, guilherme branco`
+  description: 'I had the privilege to work with awesome developers. I am very proud to be recommended by them.',
+  keywords: 'tiago matias, nubank, alessandro brukheimer, runtastic, luiz fernando, quinto andar, lorival chapuis, conta azul, lucas cunha, jobscore, guilherme branco'
 };
 
 export class Recommendations extends Component {

@@ -8,8 +8,7 @@ import { RViewport } from '@scripts/base/components/viewport/viewport';
 
 const meta = {
   title: 'Projects',
-  description: `I am always full of new ideias. Building a side project is
-    the way I best learn something new.`,
+  description: 'I am always full of new ideias. Building a side project is the way I best learn something new.',
   keywords: 'teleflik, nashios, hiphunt'
 };
 

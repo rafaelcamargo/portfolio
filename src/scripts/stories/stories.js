@@ -8,8 +8,7 @@ import { RViewport } from '@scripts/base/components/viewport/viewport';
 
 const meta = {
   title: 'Stories',
-  description: `Writing is a craft that I'm striving to learn. Once in a while,
-    I dedicate some time to share a bit of the experience I'm getting along the way.`,
+  description: 'Writing is a craft that I\'m striving to learn. Once in a while, I dedicate some time to share a bit of the experience I\'m getting along the way.',
   keywords: 'components, reuse, webpack, environment variables, traps, event-driven programming'
 };
 

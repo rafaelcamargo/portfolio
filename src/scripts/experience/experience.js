@@ -8,9 +8,7 @@ import { RViewport } from '@scripts/base/components/viewport/viewport';
 
 const meta = {
   title: 'Experience',
-  description: `I started on 2013 my career as a programmer at one of the most
-    popular startups in Brazil where, after almost 6 uninterrupted years, I
-    ended up leading the front-end efforts in the Design System team.`,
+  description: 'I started on 2013 my career as a programmer at one of the most popular startups in Brazil where, after almost 6 uninterrupted years, I ended up leading the front-end efforts in the Design System team.',
   keywords: 'component based, pitsby, glorious codes, conta azul, jobscore'
 };
 

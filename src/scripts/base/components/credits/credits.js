@@ -8,7 +8,7 @@ export class RCredits extends Component {
         <p>
           This site is powered by React, pre rendered on Webpack build time
           and is open source. If you wanna give a look on its source code,
-          check it out on <a href="https://github.com/rafaelcamargo/portfolio">Github</a>.
+          check it out on <a href="https://github.com/rafaelcamargo/portfolio" target="_blank">Github</a>.
         </p>
       </div>
     );
