@@ -37,7 +37,7 @@ export class Experience extends Component {
                 </a> that, beyond to be tweeted by <a
                 href="https://twitter.com/zenorocha/status/1057275408935194625"
                 target="_blank">Zeno Rocha</a>, <a href="https://twitter.com/css/status/1060325303459962882" target="_blank">
-                CSS Tricks</a> e <a href="https://twitter.com/0310lan/status/1085420922159300608" target="_blank">
+                CSS Tricks</a> and <a href="https://twitter.com/0310lan/status/1085420922159300608" target="_blank">
                 まさとらん</a>, got dozens of upvotes on <a href="https://news.ycombinator.com/item?id=18363668" target="_blank">
                 Hacker News</a> and <a href="https://www.reddit.com/r/javascript/comments/cavci6/the_easiest_way_of_creating_animations_to_show/" target="_blank">
                 Reddit</a>, and has been featured as <b>Product of the Day
