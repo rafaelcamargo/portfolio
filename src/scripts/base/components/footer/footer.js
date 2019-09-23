@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { RCredits } from '@scripts/base/components/credits/credits';
 import keywords from '@data/keywords';
 import keywordsService from '@scripts/base/services/keywords/keywords';
+import routeService from '@scripts/base/services/route/route';
 
 export class RFooter extends Component {
   render() {
@@ -65,9 +66,16 @@ function buildKeywordCrumb(name, url, { isExternalUrl } = {}){
 }
 
 function buildKeywordLink(name, url, isExternalUrl){
-  return isExternalUrl ?
-    <a href={ url } target="_blank">{ name }</a> :
-    <Link to={ url }>{ name }</Link>;
+  return !isExternalUrl ? buildInternalLink(url, name) : <a href={ url } target="_blank">{ name }</a>;
+}
+
+function buildInternalLink(url, name){
+  const style = shouldAvoidClick(url) ? { pointerEvents: 'none' } : {};
+  return <Link to={ url } style={ style }>{ name }</Link>
+}
+
+function shouldAvoidClick(url){
+  return routeService.getCurrentPathname() === url;
 }
 
 function getKeywordUrl(keywordType){

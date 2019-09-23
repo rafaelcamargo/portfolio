@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { RFooter } from '@scripts/base/components/footer/footer';
 import keywordsMock from '@scripts/base/mocks/keywords';
 import keywordsService from '@scripts/base/services/keywords/keywords';
+import routeService from '@scripts/base/services/route/route';
 
 describe('Footer', () => {
   function mount(){
@@ -50,5 +51,19 @@ describe('Footer', () => {
     const wrapper = mount();
     const crumbs = wrapper.find('[data-footer-section-social] a');
     expect(crumbs.length).toEqual(3);
+  });
+
+  it('should avoid click if crumb url contains the current location pathname', () => {
+    routeService.getCurrentPathname = jest.fn(() => '/skills');
+    const wrapper = mount();
+    const crumbs = wrapper.find('[data-footer-section-skills]').find(Link);
+    expect(crumbs.at(0).prop('style')).toEqual({ pointerEvents: 'none' });
+  });
+
+  it('should not avoid click if crumb url does not contain the current location pathname', () => {
+    routeService.getCurrentPathname = jest.fn(() => '/experience');
+    const wrapper = mount();
+    const crumbs = wrapper.find('[data-footer-section-skills]').find(Link);
+    expect(crumbs.at(0).prop('style')).toEqual({});
   });
 });
