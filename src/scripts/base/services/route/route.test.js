@@ -24,4 +24,8 @@ describe('Route Service', () => {
     routeService.init(mockHistory({ pathname }));
     expect(analyticsService.trackPageView).toHaveBeenCalledWith(pathname);
   });
+
+  it('should get current pathname', () => {
+    expect(routeService.getCurrentPathname()).toEqual('/');
+  })
 });

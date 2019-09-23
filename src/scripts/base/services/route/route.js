@@ -7,6 +7,10 @@ _public.init = history => {
   listenHistoryChange(history);
 };
 
+_public.getCurrentPathname = () => {
+  return window.location.pathname;
+};
+
 function setHistory(history){
   _public.history = history;
 }
