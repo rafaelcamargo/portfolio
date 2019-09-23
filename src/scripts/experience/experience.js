@@ -61,12 +61,12 @@ export class Experience extends Component {
                 of. In 2017, I had the opportunity to contribute to a
                 company’s internal product as the only front-end in the team,
                 being 100% responsible for designing all the web app's views
-                too and, even more important, put into practice the first and <b>
+                too and, even more important, put into practice the first <b>
                 fully component-based UI project</b> made in the company.
               </p>
               <p>
                 A little more than one year after starting that project, I
-                have begun to disseminate the component-based architecture
+                began to disseminate the component-based architecture
                 inside the company, at guilds and front-end discussions, and
                 outside the company, writing an article entitled <b>Components
                 beyond reuse</b> published in portuguese on <a href="https://tableless.com.br/componentes-alem-do-reuso/" target="_blank">
@@ -75,7 +75,7 @@ export class Experience extends Component {
               </p>
               <p>
                 By the end of 2018, the company finally decided to replace the
-                MVC approach in favor of a component-based approach on the
+                MVC approach in favor of a component-based approach on its
                 main product. That was the moment which components became
                 first-class citizens in every tech discussion. A dedicated
                 team was created to handle <b>our internal component library</b> putting
@@ -85,8 +85,8 @@ export class Experience extends Component {
               <p>
                 Focusing on <b>high-quality</b> - <i>clean code and automated tests
                 </i> - and <b>productivity</b>, our components have saved hours
-                of programming time and has contributed to increase user
-                experience consistency along the application.
+                of programming time and has contributed to increase the consistency of
+                user experience along the application.
               </p>
               <p>
                 Beyond delivering great results to the product and to the
@@ -116,7 +116,7 @@ export class Experience extends Component {
                 improvements. Also, I introduced the AMD concept to the
                 JavaScript code making it modular, reusable and, more
                 important, fully testable. Jobscore was also the place where
-                I first touched Ruby and Rails.
+                I first touched Ruby on Rails.
               </p>
             </RCol>
           </RRow>
@@ -129,7 +129,7 @@ export class Experience extends Component {
             <RCol size="6">
               <p>
                 From 2006 to 2013 I worked for a couple of advertising agencies.
-                A few of the works I did can still be seen on my <a href="https://www.behance.net/rafaelcamargo" target="_blank">
+                A few of the works that I did can still be seen on my <a href="https://www.behance.net/rafaelcamargo" target="_blank">
                 Behance</a> profile. I have been doing graphic design for a few hobby
                 projects too. The latest works can be seen on my <a href="https://dribbble.com/rcamargo" target="_blank">
                 Dribbble</a> profile.
