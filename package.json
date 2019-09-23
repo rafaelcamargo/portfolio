@@ -7,7 +7,8 @@
     "build": "webpack",
     "format": "eslint ./src/**/*.js",
     "start": "webpack-dev-server",
-    "test": "jest"
+    "test": "jest",
+    "deploy": "firebase deploy --non-interactive"
   },
   "keywords": [
     "rafael",
@@ -32,6 +33,7 @@
     "enzyme-adapter-react-16": "^1.14.0",
     "eslint": "^6.4.0",
     "eslint-plugin-react": "^7.14.3",
+    "firebase-tools": "^7.3.2",
     "html-webpack-plugin": "^3.2.0",
     "jest": "^24.9.0",
     "mini-css-extract-plugin": "^0.8.0",
