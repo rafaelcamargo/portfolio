@@ -13,7 +13,9 @@ import { RViewport } from '@scripts/base/components/viewport/viewport';
 export class Home extends Component {
   render() {
     return (
-      <RViewport>
+      <RViewport
+        image="portfolio-banner-1014x530.png"
+        twitterCard="summary_large_image">
         <RHomeHero />
         <RSection>
           <RRow align="center">
