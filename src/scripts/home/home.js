@@ -3,7 +3,7 @@ import { RCol } from '@scripts/base/components/col/col';
 import { RCtaLink } from '@scripts/base/components/cta-link/cta-link';
 import { RFeature } from '@scripts/base/components/feature/feature';
 import { RFeatureList } from '@scripts/base/components/feature-list/feature-list';
-import { RHero } from '@scripts/base/components/hero/hero';
+import { RHomeHero } from '@scripts/home/components/home-hero/home-hero';
 import { RRecommendation } from '@scripts/recommendations/components/recommendation/recommendation';
 import { RRecommendationList } from '@scripts/recommendations/components/recommendation-list/recommendation-list';
 import { RRow } from '@scripts/base/components/row/row';
@@ -14,11 +14,7 @@ export class Home extends Component {
   render() {
     return (
       <RViewport>
-        <RHero size="large">
-          <h1>
-            My name is Rafael.<br />I am an expert in building UI components.
-          </h1>
-        </RHero>
+        <RHomeHero />
         <RSection>
           <RRow align="center">
             <RCol size="12">

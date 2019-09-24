@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RHero } from '@scripts/base/components/hero/hero';
+import { RHomeHero } from '@scripts/home/components/home-hero/home-hero';
 import { RViewport } from '@scripts/base/components/viewport/viewport';
 import { Home } from '@scripts/home/home';
 
@@ -14,10 +14,8 @@ describe('Home', () => {
     expect(wrapper.find(RViewport).length).toEqual(1);
   });
 
-  it('should contain a large hero', () => {
+  it('should contain a home hero', () => {
     const wrapper = mount();
-    expect(wrapper.find(RHero).length).toEqual(1);
-    expect(wrapper.find(RHero).find('h1').text()).toEqual('My name is Rafael.I am an expert in building UI components.');
-    expect(wrapper.find(RHero).prop('size')).toEqual('large');
+    expect(wrapper.find(RHomeHero).length).toEqual(1);
   });
 });
