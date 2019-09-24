@@ -1,9 +1,8 @@
-import '@styles/row.styl';
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import routeService from '@scripts/base/services/route/route';
 
-class RRouterListener extends Component {
+class RHistory extends Component {
   constructor(props){
     super(props);
     routeService.init(this.props.history);
@@ -15,4 +14,4 @@ class RRouterListener extends Component {
   }
 }
 
-export default withRouter(RRouterListener);
+export default withRouter(RHistory);

@@ -5,6 +5,7 @@ import ScrollToTop from 'react-router-scroll-top';
 import { AppRouter } from './router';
 import { Contact } from '@scripts/contact/contact';
 import { Experience } from '@scripts/experience/experience';
+import RHistory from '@scripts/base/components/history/history';
 import { Home } from '@scripts/home/home';
 import { Projects } from '@scripts/projects/projects';
 import { Recommendations } from '@scripts/recommendations/recommendations';
@@ -19,6 +20,11 @@ describe('Home', () => {
   it('should contain a Router', () => {
     const wrapper = mount();
     expect(wrapper.find(Router)).toBeDefined();
+  });
+
+  it('should contain a History', () => {
+    const wrapper = mount();
+    expect(wrapper.find(RHistory)).toBeDefined();
   });
 
   it('should contain Home route', () => {

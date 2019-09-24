@@ -1,16 +1,16 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import { MemoryRouter } from "react-router";
-import RRouterListener from '@scripts/base/components/router-listener/router-listener';
+import RHistory from '@scripts/base/components/history/history';
 import routeService from '@scripts/base/services/route/route';
 
-describe('Router Listener', () => {
+describe('History', () => {
   function mountComponent(props = {}){
     return mount(
       <MemoryRouter>
-        <RRouterListener>
+        <RHistory>
           { props.content }
-        </RRouterListener>
+        </RHistory>
       </MemoryRouter>
     );
   }
