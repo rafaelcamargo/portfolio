@@ -1,0 +1,45 @@
+@require '_variables'
+@require '_mixins'
+
+$topbar-content-color = $color-grey
+
+.r-mobile
+  position relative
+  width 375px
+  height 667px
+  background-color $color-grey-light
+  border-width 1px
+  border-color $color-grey
+  border-style solid
+  border-radius 30px
+  overflow hidden
+  .r-icon
+    background-color $color-grey
+  .r-icon-wifi
+    margin-left 10px
+  .r-icon-battery
+    width 25px
+  img
+    width 100%
+
+.r-mobile-topbar-container
+  position absolute
+  top 0
+  left 0
+  right 0
+
+.r-mobile-topbar
+  position relative
+  display flex
+  justify-content space-between
+  padding 15px 30px
+  box-sizing border-box
+
+.r-mobile-topbar-content-center
+  position absolute
+  top 50%
+  left 50%
+  color $topbar-content-color
+  font-size $font-size-xxs
+  font-weight 600
+  transform('translate(-50%,-50%)')
