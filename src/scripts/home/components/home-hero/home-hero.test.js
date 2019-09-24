@@ -1,6 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { RHero } from '@scripts/base/components/hero/hero';
+import { RHomeMobilePanel } from '@scripts/home/components/home-mobile-panel/home-mobile-panel';
 import { RHomeHero } from '@scripts/home/components/home-hero/home-hero';
 
 describe('Home Hero', () => {
@@ -24,5 +25,10 @@ describe('Home Hero', () => {
     const title = 'My name is Rafael.I am an expert in building UI components.'
     const wrapper = mount();
     expect(wrapper.find('h1').text()).toEqual(title);
+  });
+
+  it('should contain a home mobile panel', () => {
+    const wrapper = mount();
+    expect(wrapper.find(RHomeMobilePanel).length).toEqual(1);
   });
 });

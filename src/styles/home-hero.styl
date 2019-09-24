@@ -1,0 +1,20 @@
+@require '_mixins'
+
+.r-home-hero
+  .r-container
+    position relative
+  .r-mobile
+    position absolute
+    top 0
+    right 0
+  .r-home-mobile-panel
+    transform('scale(.75)')
+
+.r-home-hero-art-container
+  position absolute
+  top -150px
+  right 0
+
++breakpoint('xs')
+  .r-home-hero-art-container
+    display none
