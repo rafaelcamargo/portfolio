@@ -1,0 +1,16 @@
+@require '_variables'
+@require '_mixins'
+
+.r-home-mobile-panel
+  perspective 1000px
+  perspective-origin center center
+  .r-mobile-pitsby
+    right 50px
+    border-width 2px 12px 3px 2px
+    z-index $layer-lowest
+    transform('rotate3d(-.2,.3,-.05,-15deg)')
+  .r-mobile-nashios
+    top -20px
+    right 265px
+    border-width 2px 12px 3px 2px
+    transform('rotate3d(-.2,.3,-.05,-15deg) scale(.8)')
