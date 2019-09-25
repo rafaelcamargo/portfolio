@@ -1,16 +1,28 @@
 @require '_variables'
 @require '_mixins'
 
+$transition-speed = 750ms
+
 .r-home-mobile-panel
   perspective 1000px
   perspective-origin center center
+  opacity 0
+  transition(all, $transition-speed)
   .r-mobile-pitsby
-    right 50px
+    right 25px
     border-width 2px 12px 3px 2px
     z-index $layer-lowest
     transform('rotate3d(-.2,.3,-.05,-15deg)')
+    transition(all, $transition-speed)
   .r-mobile-nashios
     top -20px
-    right 265px
+    right 130px
     border-width 2px 12px 3px 2px
     transform('rotate3d(-.2,.3,-.05,-15deg) scale(.8)')
+    transition(all, $transition-speed)
+  &.r-home-mobile-panel-visible
+    opacity 1
+    .r-mobile-pitsby
+      right 50px
+    .r-mobile-nashios
+      right 265px

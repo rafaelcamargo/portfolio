@@ -3,12 +3,16 @@ import React, { Component } from 'react';
 import { RIcon } from '@scripts/base/components/icon/icon';
 
 export class RMobile extends Component {
-  constructor(props){
-    super(props);
+  onScreenshotLoad(){
+    const onLoad = this.props.onScreenshotLoad;
+    if(onLoad)
+      onLoad();
   }
   render() {
     return (
-      <div className={ buildClassName(this.props.screenshot) } style={ buildStyle(this.props.scale) }>
+      <div
+        className={ buildClassName(this.props.screenshot) }
+        style={ buildStyle(this.props.scale) }>
         <div className="r-mobile-topbar-container">
           <div className="r-mobile-topbar">
             <div className="r-mobile-topbar-content-left">
@@ -24,7 +28,7 @@ export class RMobile extends Component {
           </div>
         </div>
         <div className="r-mobile-body-container">
-          { buildImage(this.props.screenshot) }
+          { buildImage(this.props.screenshot, this.onScreenshotLoad.bind(this)) }
         </div>
       </div>
     );
@@ -41,10 +45,10 @@ function buildStyle(scale){
   return scale ? { transform: `scale(${scale})` } : {};
 }
 
-function buildImage(screenshot){
+function buildImage(screenshot, onLoad){
   const url = buildImageUrl(screenshot);
   const alt = buildImageAlt(screenshot);
-  return screenshot ? <img src={ url } alt={ alt } /> : null;
+  return screenshot ? <img src={ url } alt={ alt } onLoad={ onLoad } /> : null;
 }
 
 function buildImageUrl(screenshot){

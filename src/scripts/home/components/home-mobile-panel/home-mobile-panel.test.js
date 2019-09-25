@@ -24,4 +24,14 @@ describe('Home Mobile Panel', () => {
     const wrapper = mount();
     expect(wrapper.find(RMobile).at(1).prop('screenshot')).toEqual('nashios.svg');
   });
+
+  it('should make panel visible when all images have been loaded', () => {
+    const visibilityCssClass = 'r-home-mobile-panel-visible';
+    const wrapper = mount();
+    const instance = wrapper.instance();
+    instance.onScreenshotLoad();
+    expect(wrapper.prop('className').includes(visibilityCssClass)).toEqual(false);
+    instance.onScreenshotLoad();
+    expect(wrapper.prop('className').includes(visibilityCssClass)).toEqual(true);
+  });
 });

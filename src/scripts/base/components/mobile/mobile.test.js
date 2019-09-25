@@ -8,7 +8,8 @@ describe('Mobile', () => {
     return shallow(
       <RMobile
         screenshot={ props.screenshot }
-        scale={ props.scale } />
+        scale={ props.scale }
+        onScreenshotLoad={ props.onScreenshotLoad } />
     );
   }
 
@@ -56,5 +57,19 @@ describe('Mobile', () => {
   it('should optionally be scaled', () => {
     const wrapper = mount({ scale: '.5' });
     expect(wrapper.prop('style')).toEqual({ transform: 'scale(.5)' });
+  });
+
+  it('should not execute screenshot load callback if no callback has been given', () => {
+    const onScreenshotLoad = jest.fn();
+    const wrapper = mount();
+    wrapper.instance().onScreenshotLoad();
+    expect(onScreenshotLoad).not.toHaveBeenCalled();
+  });
+
+  it('should execute screenshot load callback if callback has been given', () => {
+    const onScreenshotLoad = jest.fn();
+    const wrapper = mount({ onScreenshotLoad });
+    wrapper.instance().onScreenshotLoad();
+    expect(onScreenshotLoad).toHaveBeenCalled();
   });
 });
