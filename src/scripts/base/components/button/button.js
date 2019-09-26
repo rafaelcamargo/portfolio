@@ -11,7 +11,10 @@ export class RButton extends Component {
   }
   render() {
     return (
-      <button className={ this.state.className } onClick={ this.props.onClick }>
+      <button
+        className={ this.state.className }
+        onClick={ this.props.onClick }
+        aria-label={ this.props.ariaLabel }>
         { buildIcon(this.props.iconName) } { buildLabel(this.props.children) }
       </button>
     );

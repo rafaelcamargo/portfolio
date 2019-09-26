@@ -9,6 +9,7 @@ describe('Button', () => {
       <RButton
         iconName={ props.iconName }
         theme={ props.theme }
+        ariaLabel={ props.ariaLabel }
         onClick={ props.onClick }>
         { props.content }
       </RButton>
@@ -23,6 +24,17 @@ describe('Button', () => {
   it('should optionally set a theme', () => {
     const wrapper = mount({ theme: 'faceless' });
     expect(wrapper.prop('className').includes('r-button-theme-faceless')).toEqual(true);
+  });
+
+  it('should not set aria label by default', () => {
+    const wrapper = mount();
+    expect(wrapper.prop('aria-label')).not.toBeDefined();
+  });
+
+  it('should optionally set some aria label', () => {
+    const ariaLabel = 'menu';
+    const wrapper = mount({ ariaLabel });
+    expect(wrapper.prop('aria-label')).toEqual(ariaLabel);
   });
 
   it('should not render an icon on the button by default', () => {

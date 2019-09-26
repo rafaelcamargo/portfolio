@@ -7,7 +7,7 @@ export class RLogo extends Component {
   render() {
     return (
       <div className="r-logo">
-        <Link to="/">
+        <Link to="/" title="homepage">
           <RIcon name="rc" />
         </Link>
       </div>

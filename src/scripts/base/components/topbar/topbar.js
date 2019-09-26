@@ -18,6 +18,7 @@ export class RTopbar extends Component {
           <RButton
             iconName="menu"
             theme="faceless"
+            ariaLabel="menu"
             onClick={ this.onMenuItemClick }
             data-menu-button>
           </RButton>

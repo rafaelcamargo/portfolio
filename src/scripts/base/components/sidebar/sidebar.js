@@ -33,6 +33,7 @@ export class RSidebar extends Component {
           <RButton
             iconName="arrow"
             theme="faceless"
+            ariaLabel="close"
             onClick={ this.onHideSidebarButtonClick }
             data-hide-sidebar-button>
           </RButton>
