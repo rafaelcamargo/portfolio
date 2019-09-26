@@ -21,6 +21,11 @@ describe('App', () => {
     return container;
   }
 
+  afterEach(() => {
+    const container = document.querySelector('[data-app]');
+    container.remove();
+  });
+
   it('should render App', () => {
     const container = prepareDOM();
     app.init();
