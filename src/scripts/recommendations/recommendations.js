@@ -28,6 +28,7 @@ export class Recommendations extends Component {
                 <RRecommendation id="matias" />
                 <RRecommendation id="bruckheimer" />
                 <RRecommendation id="rodrigues" />
+                <RRecommendation id="abraao" />
                 <RRecommendation id="chapuis" />
                 <RRecommendation id="cunha" />
                 <RRecommendation id="branco" />
