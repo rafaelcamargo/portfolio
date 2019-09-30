@@ -31,6 +31,10 @@ export class Experience extends Component {
             </RCol>
             <RCol size="6">
               <p>
+                Glorious Codes is a Github organization where I publish all the
+                open source code that I have been creating on the latest years.
+              </p>
+              <p>
                 I am very proud of having offered to the JavaScript community
                 a few open source libraries. I specially highlight <a
                 href="https://glorious.codes/demo" target="_blank">Glorious Demo
@@ -55,6 +59,16 @@ export class Experience extends Component {
                 url="https://contaazul.com" />
             </RCol>
             <RCol size="6">
+              <h3>The Company</h3>
+              <p>
+                Created in 2012, Conta Azul is a SaaS that aims to help small
+                companies to run their business in Brazil. Through Conta Azul,
+                business owners can issue invoices, control their finances,
+                manage customers, receive payments and get great reports about
+                their business. Conta Azul is used in all regions of Brazil
+                and serves dozens of thousands of customers.
+              </p>
+              <h3>My Role</h3>
               <p>
                 Among a lot of features developed in almost 5 years at Conta
                 Azul, I contributed with a few projects that I am very proud
@@ -110,6 +124,14 @@ export class Experience extends Component {
                 url="https://jobscore.com" />
             </RCol>
             <RCol size="6">
+              <h3>The Company</h3>
+              <p>
+                JobScore is an applicant tracking system that gives in-house
+                recruiters what they need to get the job done. Hosted careers
+                page, one-click job posting, referral campaigns, resume parsing
+                scoring and reports.
+              </p>
+              <h3>My Role</h3>
               <p>
                 In a brief period at Jobscore I had the opportunity to
                 collaborate to the website’s redesign project and its later
