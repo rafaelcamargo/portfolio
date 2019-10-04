@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { RCol } from '@scripts/base/components/col/col';
+import { RContactMailCtaLink } from '@scripts/contact/components/contact-mail-cta-link/contact-mail-cta-link';
 import { RCtaLink } from '@scripts/base/components/cta-link/cta-link';
 import { RHero } from '@scripts/base/components/hero/hero';
 import { RRow } from '@scripts/base/components/row/row';
@@ -30,9 +31,7 @@ export class Contact extends Component {
               </RRow>
               <RRow>
                 <RCol size="12">
-                  <RCtaLink
-                    href="mailto:hello@rafaelcamargo.com"
-                    text="hello@rafaelcamargo.com" />
+                  <RContactMailCtaLink />
                 </RCol>
               </RRow>
             </RCol>
