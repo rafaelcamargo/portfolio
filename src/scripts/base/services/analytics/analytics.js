@@ -15,6 +15,10 @@ _public.trackPageView = path => {
   window.mixpanel.track('page viewed', { path });
 };
 
+_public.trackEvent = (eventName, data) => {
+  window.mixpanel.track(eventName, data);
+};
+
 function buildGoogleAnalyticsScriptTag(id){
   const tag = document.createElement('script');
   tag.setAttribute('async', 'true');

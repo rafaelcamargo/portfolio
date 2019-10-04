@@ -24,6 +24,11 @@ describe('Analytics Service', () => {
     window.location.hash = '';
   });
 
+  it('should init mixpanel on initialize', () => {
+    analyticsService.init();
+    expect(window.mixpanel.init).toHaveBeenCalledWith(ENV.ANALYTICS.MIXPANEL.TOKEN);
+  });
+
   it('should get analytics thirdy party code asynchronously', () => {
     analyticsService.init();
     expect(createElementMock.setAttribute).toHaveBeenCalledWith('async', 'true');
@@ -57,16 +62,13 @@ describe('Analytics Service', () => {
     expect(window.dataLayer[0][0]).toEqual('config');
     expect(window.dataLayer[0][1]).toEqual(ENV.ANALYTICS.GOOGLE.ID);
     expect(window.dataLayer[0][2]).toEqual({page_path: path});
-  });
-
-  it('should init mixpanel on initialize', () => {
-    analyticsService.init();
-    expect(window.mixpanel.init).toHaveBeenCalledWith(ENV.ANALYTICS.MIXPANEL.TOKEN);
-  });
-
-  it('should send page path to mixpanel on page view', () => {
-    const path = '/skills';
-    analyticsService.trackPageView(path);
     expect(window.mixpanel.track).toHaveBeenCalledWith('page viewed', { path });
+  });
+
+  it('should track event', () => {
+    const eventName = 'mail link clicked';
+    const data = { some: 'data' };
+    analyticsService.trackEvent(eventName, data);
+    expect(window.mixpanel.track).toHaveBeenCalledWith(eventName, data);
   });
 });
