@@ -4,13 +4,15 @@ import dateService from '@scripts/base/services/date/date';
 const _public = {};
 
 _public.init = () => {
-  const id = getGoogleAnalyticsId();
-  buildGoogleAnalyticsScriptTag(id);
-  configAnalytics(id);
+  const googleAnalyticsId = getGoogleAnalyticsId();
+  buildGoogleAnalyticsScriptTag(googleAnalyticsId);
+  configAnalytics(googleAnalyticsId);
+  window.mixpanel.init(ENV.ANALYTICS.MIXPANEL.TOKEN);
 };
 
 _public.trackPageView = path => {
   configAnalytics(getGoogleAnalyticsId(), path);
+  window.mixpanel.track('page viewed', { path });
 };
 
 function buildGoogleAnalyticsScriptTag(id){

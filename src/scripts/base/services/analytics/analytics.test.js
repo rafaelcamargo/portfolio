@@ -1,4 +1,5 @@
 import ENV from '@environment';
+import { mixpanelMock } from '@scripts/base/mocks/mixpanel';
 import analyticsService from './analytics';
 import dateService from '@scripts/base/services/date/date';
 
@@ -14,10 +15,12 @@ describe('Analytics Service', () => {
     });
     document.head.appendChild = jest.fn();
     dateService.getNow = jest.fn(() => dateMock);
+    window.mixpanel = mixpanelMock;
   });
 
   afterEach(() => {
     delete window.dataLayer;
+    delete window.mixpanel;
     window.location.hash = '';
   });
 
@@ -54,5 +57,16 @@ describe('Analytics Service', () => {
     expect(window.dataLayer[0][0]).toEqual('config');
     expect(window.dataLayer[0][1]).toEqual(ENV.ANALYTICS.GOOGLE.ID);
     expect(window.dataLayer[0][2]).toEqual({page_path: path});
+  });
+
+  it('should init mixpanel on initialize', () => {
+    analyticsService.init();
+    expect(window.mixpanel.init).toHaveBeenCalledWith(ENV.ANALYTICS.MIXPANEL.TOKEN);
+  });
+
+  it('should send page path to mixpanel on page view', () => {
+    const path = '/skills';
+    analyticsService.trackPageView(path);
+    expect(window.mixpanel.track).toHaveBeenCalledWith('page viewed', { path });
   });
 });
