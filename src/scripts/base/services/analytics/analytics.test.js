@@ -65,6 +65,13 @@ describe('Analytics Service', () => {
     expect(window.mixpanel.track).toHaveBeenCalledWith('page viewed', { path });
   });
 
+  it('should send page view event track to mixpanel on initialize', () => {
+    analyticsService.init();
+    expect(window.mixpanel.track).toHaveBeenCalledWith('page viewed', {
+      path: window.location.pathname
+    });
+  });
+
   it('should track event', () => {
     const eventName = 'mail link clicked';
     const data = { some: 'data' };

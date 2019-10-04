@@ -8,11 +8,12 @@ _public.init = () => {
   buildGoogleAnalyticsScriptTag(googleAnalyticsId);
   configAnalytics(googleAnalyticsId);
   window.mixpanel.init(ENV.ANALYTICS.MIXPANEL.TOKEN);
+  _public.trackEvent('page viewed', { path: window.location.pathname });
 };
 
 _public.trackPageView = path => {
   configAnalytics(getGoogleAnalyticsId(), path);
-  window.mixpanel.track('page viewed', { path });
+  _public.trackEvent('page viewed', { path });
 };
 
 _public.trackEvent = (eventName, data) => {
