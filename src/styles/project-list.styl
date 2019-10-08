@@ -1,0 +1,10 @@
+@require '_mixins'
+
+.r-project-list
+  display grid
+  grid-template-columns 1fr 1fr
+  grid-gap 100px 220px
+
++breakpoint('xs')
+  .r-project-list
+    grid-template-columns 1fr
