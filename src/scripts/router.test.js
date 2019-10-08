@@ -12,7 +12,7 @@ import { Recommendations } from '@scripts/recommendations/recommendations';
 import { Skills } from '@scripts/skills/skills';
 import { Stories } from '@scripts/stories/stories';
 
-describe('Home', () => {
+describe('App Router', () => {
   function mount(){
     return shallow(<AppRouter />);
   }
@@ -59,7 +59,7 @@ describe('Home', () => {
     expect(route.prop('component')).toEqual(Projects);
   });
 
-  it('should contain Skills route', () => {
+  it('should contain Recommendations route', () => {
     const wrapper = mount();
     const route = wrapper.find(ScrollToTop).children().at(4);
     expect(route.prop('path')).toEqual('/recommendations');
