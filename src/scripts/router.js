@@ -16,7 +16,7 @@ export class AppRouter extends Component {
       <Router>
         <RHistory>
           <ScrollToTop>
-            <Route path="/" onChange={ this.onRouteChange } exact component={ Home } />
+            <Route path="/" exact component={ Home } />
             <Route path="/contact" exact component={ Contact } />
             <Route path="/experience" exact component={ Experience } />
             <Route path="/projects" exact component={ Projects } />
