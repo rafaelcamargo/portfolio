@@ -1,6 +1,7 @@
 import '@styles/avatron.styl';
 import React, { Component } from 'react';
 import { RAvatar } from '@scripts/base/components/avatar/avatar';
+import { RBadge } from '@scripts/base/components/badge/badge';
 
 export class RAvatron extends Component {
   render() {
@@ -11,7 +12,7 @@ export class RAvatron extends Component {
           <h2>
             { buildTitle(this.props.title, this.props.url) }
           </h2>
-          <h3>{ this.props.subtitle }</h3>
+          <h3>{ this.props.subtitle }{ buildBadge(this.props.badgeText) }</h3>
         </div>
       </div>
     );
@@ -24,4 +25,8 @@ function buildAvatar(image){
 
 function buildTitle(title, url){
   return url ? <a href={ url } target="_blank">{ title }</a> : title;
+}
+
+function buildBadge(text){
+  return text ? <RBadge>{ text }</RBadge> : null;
 }

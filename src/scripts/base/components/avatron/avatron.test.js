@@ -2,6 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import { RAvatar } from '@scripts/base/components/avatar/avatar';
 import { RAvatron } from '@scripts/base/components/avatron/avatron';
+import { RBadge } from '@scripts/base/components/badge/badge';
 
 describe('Icon', () => {
   function mount(props = {}){
@@ -10,7 +11,8 @@ describe('Icon', () => {
         image={ props.image }
         title={ props.title }
         subtitle={ props.subtitle }
-        url={ props.url } />
+        url={ props.url }
+        badgeText={ props.badgeText } />
     );
   }
 
@@ -53,5 +55,16 @@ describe('Icon', () => {
     const subtitle = 'Hello Subtitle!';
     const wrapper = mount({ subtitle });
     expect(wrapper.find('h3').text()).toEqual(subtitle);
+  });
+
+  it('should not render a badge by default', () => {
+    const wrapper = mount();
+    expect(wrapper.find(RBadge).length).toEqual(0);
+  });
+
+  it('should optionally render a badge', () => {
+    const badgeText = 'Text';
+    const wrapper = mount({ badgeText });
+    expect(wrapper.find(RBadge).childAt(0).text()).toEqual(badgeText);
   });
 });
