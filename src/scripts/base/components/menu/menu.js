@@ -30,8 +30,8 @@ function buildItemElements(){
 function getItems(){
   return [
     { name: 'Skills', path: '/skills' },
-    { name: 'Experience', path: '/experience' },
     { name: 'Projects', path: '/projects' },
+    { name: 'Experience', path: '/experience' },
     { name: 'Recommendations', path: '/recommendations' },
     { name: 'Stories', path: '/stories' },
     { name: 'Contact', path: '/contact' }
