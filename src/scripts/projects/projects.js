@@ -54,15 +54,16 @@ export class Projects extends Component {
                   Logo and components designed by me.
                 </RProject>
                 <RProject
-                  image="logo-hiphunt.svg"
-                  title="Hiphunt"
+                  image="logo-woblast.svg"
+                  title="Woblast"
                   subtitle="2019"
-                  ctaUrl="https://hiphunt.com"
-                  ctaText="Early Access Page">
-                  This is a project in progress that aims to help companies
-                  finding excellent JavaScript developers. Landing page built
-                  with Vue and pre rendered to get all of its content indexed.
-                  Logo and components designed by me.
+                  badgeText="Open Source"
+                  ctaUrl="https://woblast-app.web.app/"
+                  ctaText="Check It Out">
+                  A small application that fetches currency rates and stock
+                  exchange variations, and monitors them in real time. Built
+                  with React, HG Brasil Finance API and ChartJS. Logo and
+                  components designed by me.
                 </RProject>
                 <RProject
                   image="logo-teleflik.svg"
@@ -74,6 +75,32 @@ export class Projects extends Component {
                   interests on the next 24h. I did this to learn how to build a
                   mobile app using Ionic and AngularJS. Logo and components
                   designed by me.
+                </RProject>
+                <RProject
+                  image="logo-weather-now.svg"
+                  title="Weather Now"
+                  subtitle="2018"
+                  badgeText="Open Source"
+                  ctaUrl="https://weather-now-vue.web.app"
+                  ctaText="Check It Out">
+                  As a front-end developer at Conta Azul, I collaborated with
+                  the hiring process of new developers designing a technincal
+                  challenge for them. They should build a responsive small app
+                  that fetched weather conditions from Open Weather Map API and
+                  auto refreshed them after a couple minutes, using local
+                  cache in the meantime. That's my implementation in Vue to the
+                  challenge.
+                </RProject>
+                <RProject
+                  image="logo-hiphunt.svg"
+                  title="Hiphunt"
+                  subtitle="2019"
+                  ctaUrl="https://hiphunt.com"
+                  ctaText="Early Access Page">
+                  This is a project in progress that aims to help companies
+                  finding excellent JavaScript developers. Landing page built
+                  with Vue and pre rendered to get all of its content indexed.
+                  Logo and components designed by me.
                 </RProject>
               </RProjectList>
             </RCol>
