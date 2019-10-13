@@ -33,7 +33,9 @@ export class Projects extends Component {
                   subtitle="2018"
                   badgeText="Open Source"
                   ctaUrl="https://glorious.codes/demo"
-                  ctaText="Try It Online">
+                  ctaText="Try It Online"
+                  codeCtaUrl="https://github.com/glorious-codes/glorious-demo"
+                  codeCtaText="See The Code">
                   The easiest way of creating animations to show your code in
                   action. Glorious Demo is open source, has been featured
                   on sites like <a href="https://news.ycombinator.com/item?id=18363668" target="_blank">
@@ -59,7 +61,9 @@ export class Projects extends Component {
                   subtitle="2019"
                   badgeText="Open Source"
                   ctaUrl="https://woblast-app.web.app/"
-                  ctaText="Check It Out">
+                  ctaText="Check It Out"
+                  codeCtaUrl="https://github.com/rafaelcamargo/woblast-web"
+                  codeCtaText="See The Code">
                   A small application that fetches currency rates and stock
                   exchange variations, and monitors them in real time. Built
                   with React, HG Brasil Finance API and ChartJS. Logo and
@@ -82,7 +86,9 @@ export class Projects extends Component {
                   subtitle="2018"
                   badgeText="Open Source"
                   ctaUrl="https://weather-now-vue.web.app"
-                  ctaText="Check It Out">
+                  ctaText="Check It Out"
+                  codeCtaUrl="https://github.com/rafaelcamargo/weather-now-vue"
+                  codeCtaText="See The Code">
                   As a front-end developer at Conta Azul, I collaborated with
                   the hiring process of new developers designing a technincal
                   challenge for them. They should build a responsive small app
