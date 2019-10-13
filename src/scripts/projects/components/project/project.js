@@ -13,10 +13,17 @@ export class RProject extends Component {
           subtitle={ this.props.subtitle }
           badgeText={ this.props.badgeText }/>
         <p>{ this.props.children }</p>
-        <RCtaLink
-          href={ this.props.ctaUrl }
-          text={ this.props.ctaText } />
+        <div className="r-project-cta-links-container">
+          <RCtaLink
+            href={ this.props.ctaUrl }
+            text={ this.props.ctaText } />
+          { buildCodeCta(this.props) }
+        </div>
       </li>
     );
   }
+}
+
+function buildCodeCta({ codeCtaUrl, codeCtaText }){
+  return codeCtaUrl ? <RCtaLink href={ codeCtaUrl } text={ codeCtaText } /> : null;
 }

@@ -13,7 +13,9 @@ describe('Project', () => {
         subtitle={ props.subtitle }
         badgeText={ props.badgeText }
         ctaUrl={ props.ctaUrl }
-        ctaText={ props.ctaText }>
+        ctaText={ props.ctaText }
+        codeCtaUrl={ props.codeCtaUrl }
+        codeCtaText={ props.codeCtaText }>
         { props.content }
       </RProject>
     );
@@ -42,6 +44,14 @@ describe('Project', () => {
     const wrapper = mount({ ctaUrl, ctaText });
     expect(wrapper.find(RCtaLink).prop('href')).toEqual(ctaUrl);
     expect(wrapper.find(RCtaLink).prop('text')).toEqual(ctaText);
+  });
+
+  it('should render a cta link', () => {
+    const codeCtaUrl = 'http://github.com/rafaelcamargo/project';
+    const codeCtaText = 'See The Code';
+    const wrapper = mount({ codeCtaUrl, codeCtaText });
+    expect(wrapper.find(RCtaLink).at(1).prop('href')).toEqual(codeCtaUrl);
+    expect(wrapper.find(RCtaLink).at(1).prop('text')).toEqual(codeCtaText);
   });
 
   it('should transclude some content', () => {
