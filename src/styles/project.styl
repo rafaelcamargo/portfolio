@@ -1,3 +1,5 @@
+@require '_mixins'
+
 .r-project
   .r-badge
     position relative
@@ -5,10 +7,15 @@
     left 8px
   .r-cta-link
     display inline-block
-    & + .r-cta-link
-      margin-left 40px
   p
     margin-top 20px
 
 .r-project-cta-links-container
+  display grid
+  grid-template-columns 1fr 1fr
+  grid-gap 30px 30px
   margin-top 40px
+
++breakpoint('xs')
+  .r-project-cta-links-container
+    grid-template-columns 1fr
