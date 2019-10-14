@@ -47,9 +47,11 @@ describe('Project', () => {
   });
 
   it('should render a cta link', () => {
+    const ctaUrl = 'http://some.url.com';
+    const ctaText = 'Click Here';
     const codeCtaUrl = 'http://github.com/rafaelcamargo/project';
     const codeCtaText = 'See The Code';
-    const wrapper = mount({ codeCtaUrl, codeCtaText });
+    const wrapper = mount({ ctaUrl, ctaText, codeCtaUrl, codeCtaText });
     expect(wrapper.find(RCtaLink).at(1).prop('href')).toEqual(codeCtaUrl);
     expect(wrapper.find(RCtaLink).at(1).prop('text')).toEqual(codeCtaText);
   });
