@@ -9,9 +9,12 @@ describe('Keywords Service', () => {
 
   it('should filter keywords by type', () => {
     const data = keywordsService.get('project');
-    expect(data.length).toEqual(3);
-    expect(data[0].name).toEqual('Hiphunt');
+    expect(data.length).toEqual(6);
+    expect(data[0].name).toEqual('Glorious Demo');
     expect(data[1].name).toEqual('Nashios');
-    expect(data[2].name).toEqual('Teleflik');
+    expect(data[2].name).toEqual('Woblast');
+    expect(data[3].name).toEqual('Teleflik');
+    expect(data[4].name).toEqual('Weather Now');
+    expect(data[5].name).toEqual('Hiphunt');
   });
 });

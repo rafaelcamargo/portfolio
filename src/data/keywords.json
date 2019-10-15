@@ -29,7 +29,10 @@
   { "name": "Glorious Codes", "type": "experience" },
   { "name": "Conta Azul", "type": "experience" },
   { "name": "JobScore", "type": "experience" },
-  { "name": "Hiphunt", "type": "project" },
+  { "name": "Glorious Demo", "type": "project" },
   { "name": "Nashios", "type": "project" },
-  { "name": "Teleflik", "type": "project" }
+  { "name": "Woblast", "type": "project" },
+  { "name": "Teleflik", "type": "project" },
+  { "name": "Weather Now", "type": "project" },
+  { "name": "Hiphunt", "type": "project" }
 ]

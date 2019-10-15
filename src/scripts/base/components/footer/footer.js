@@ -19,19 +19,19 @@ export class RFooter extends Component {
           </div>
         </div>
         <div
-          className="r-footer-section r-footer-section-experience"
-          data-footer-section-experience>
-          <h4>Experience</h4>
-          <div className="r-footer-keywords-container">
-            { buildKeywords('experience') }
-          </div>
-        </div>
-        <div
           className="r-footer-section r-footer-section-projects"
           data-footer-section-projects>
           <h4>Projects</h4>
           <div className="r-footer-keywords-container">
             { buildKeywords('project') }
+          </div>
+        </div>
+        <div
+          className="r-footer-section r-footer-section-experience"
+          data-footer-section-experience>
+          <h4>Experience</h4>
+          <div className="r-footer-keywords-container">
+            { buildKeywords('experience') }
           </div>
         </div>
         <div

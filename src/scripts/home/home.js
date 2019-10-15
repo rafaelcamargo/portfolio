@@ -63,16 +63,6 @@ export class Home extends Component {
             <RCol size="12">
               <RFeatureList itemSize="1-3">
                 <RFeature
-                  title="Few time. Lots of impact."
-                  ctaTo="/experience"
-                  ctaText="See my experience">
-                  <p>
-                    I started programming in 2013, not so long.<br />
-                    But on this short period of time, I collaborated in activities
-                    that generated a huge impact.
-                  </p>
-                </RFeature>
-                <RFeature
                   title="Building is the way I best learn."
                   ctaTo="/projects"
                   ctaText="See my projects">
@@ -80,6 +70,16 @@ export class Home extends Component {
                     I am always full of new ideias.<br />
                     Building a side project is the way
                     I best learn something new.
+                  </p>
+                </RFeature>
+                <RFeature
+                  title="Few time. Lots of impact."
+                  ctaTo="/experience"
+                  ctaText="See my experience">
+                  <p>
+                    I started programming in 2013, not so long.<br />
+                    But on this short period of time, I collaborated in activities
+                    that generated a huge impact.
                   </p>
                 </RFeature>
                 <RFeature
