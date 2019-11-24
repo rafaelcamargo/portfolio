@@ -27,7 +27,8 @@ export class Experience extends Component {
                 image="logo-glorious-codes.png"
                 title="Glorious Codes"
                 subtitle="Aug.2018 - Present"
-                url="https://glorious.codes" />
+                url="https://glorious.codes"
+                caption="Anywhere" />
             </RCol>
             <RCol size="6">
               <p>
@@ -53,17 +54,42 @@ export class Experience extends Component {
           <RRow offset="10">
             <RCol size="6">
               <RAvatron
+                image="logo-bcredi.png"
+                title="BCredi"
+                subtitle="Nov.2019 - Present"
+                url="https://bcredi.com.br"
+                caption="Curitiba, Brazil" />
+            </RCol>
+            <RCol size="6">
+              <h3>The Company</h3>
+              <p>
+                BCredi is one of the most popular Fintechs in Brazil offering
+                home equity loans with the best market rates. The amount of money
+                borrowed during its short life surpasses US$ 100 Million,
+                helping thousands of companies and people.
+              </p>
+              <h3>My Role</h3>
+              <p>
+                Maintaining and improving internal products through technologies
+                like React, Redux, Jest and a couple of others more.
+              </p>
+            </RCol>
+          </RRow>
+          <RRow offset="10">
+            <RCol size="6">
+              <RAvatron
                 image="logo-conta-azul.jpg"
                 title="Conta Azul"
-                subtitle="Jul.2013 - Aug.2015, Mar.2017 - Sep.2019"
-                url="https://contaazul.com" />
+                subtitle="Mar.2017 - Sep.2019"
+                url="https://contaazul.com"
+                caption="Joinville, Brazil" />
             </RCol>
             <RCol size="6">
               <h3>The Company</h3>
               <p>
                 Created in 2012, Conta Azul is a SaaS that aims to help small
-                companies to run their business in Brazil. Through Conta Azul,
-                business owners can issue invoices, control their finances,
+                companies to run their business in Brazil. Conta Azul allows
+                business owners issue invoices, control their finances,
                 manage customers, receive payments and get great reports about
                 their business. Conta Azul is used in all regions of Brazil
                 and serves dozens of thousands of customers.
@@ -121,7 +147,9 @@ export class Experience extends Component {
                 image="logo-jobscore.png"
                 title="JobScore"
                 subtitle="Aug.2015 - Oct.2016"
-                url="https://jobscore.com" />
+                url="https://jobscore.com"
+                badgeText="Remotely"
+                caption="San Francisco, USA" />
             </RCol>
             <RCol size="6">
               <h3>The Company</h3>
@@ -139,6 +167,38 @@ export class Experience extends Component {
                 JavaScript code making it modular, reusable and, more
                 important, fully testable. Jobscore was also the place where
                 I first touched Ruby on Rails.
+              </p>
+            </RCol>
+          </RRow>
+          <RRow offset="10">
+            <RCol size="6">
+              <RAvatron
+                image="logo-conta-azul.jpg"
+                title="Conta Azul"
+                subtitle="Jul.2013 - Aug.2015"
+                url="https://contaazul.com"
+                caption="Joinville, Brazil" />
+            </RCol>
+            <RCol size="6">
+              <h3>My Role</h3>
+              <p>
+                That was the moment I started my career as a programmer. Some
+                of the activities I did include the "translation" of CSS
+                stylesheets to LESS stylesheets intending to apply themes to
+                the product through a set of variables besides daily
+                contributions on the implementation of new features.
+              </p>
+              <p>
+                I was responsible for creating the first company's style guide
+                intending to reduce the amount of CSS code written. In 2014
+                I helped to build the first reusable components
+                (at that time AngularJS forced us to call them "directives")
+                written with AngularJS and fully covering them with unit tests.
+              </p>
+              <p>
+                During all that period I touched several front end technologies
+                including RequireJS (a library that implements the AMD pattern),
+                Grunt, AngularJS, Karma and Jasmine.
               </p>
             </RCol>
           </RRow>
