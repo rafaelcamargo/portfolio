@@ -13,6 +13,7 @@ export class RAvatron extends Component {
             { buildTitle(this.props.title, this.props.url) }
           </h2>
           <h3>{ this.props.subtitle }{ buildBadge(this.props.badgeText) }</h3>
+          { buildCaption(this.props.caption) }
         </div>
       </div>
     );
@@ -29,4 +30,8 @@ function buildTitle(title, url){
 
 function buildBadge(text){
   return text ? <RBadge>{ text }</RBadge> : null;
+}
+
+function buildCaption(caption){
+  return caption ? <h4>{ caption }</h4> : null;
 }
