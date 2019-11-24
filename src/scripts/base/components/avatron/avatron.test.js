@@ -12,7 +12,8 @@ describe('Icon', () => {
         title={ props.title }
         subtitle={ props.subtitle }
         url={ props.url }
-        badgeText={ props.badgeText } />
+        badgeText={ props.badgeText }
+        caption={ props.caption } />
     );
   }
 
@@ -66,5 +67,11 @@ describe('Icon', () => {
     const badgeText = 'Text';
     const wrapper = mount({ badgeText });
     expect(wrapper.find(RBadge).childAt(0).text()).toEqual(badgeText);
+  });
+
+  it('should optionally render a caption', () => {
+    const caption = 'Some Text';
+    const wrapper = mount({ caption });
+    expect(wrapper.find('h4').text()).toEqual(caption);
   });
 });
