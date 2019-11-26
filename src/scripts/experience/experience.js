@@ -55,7 +55,7 @@ export class Experience extends Component {
             <RCol size="6">
               <RAvatron
                 image="logo-bcredi.png"
-                title="BCredi"
+                title="Bcredi"
                 subtitle="Nov.2019 - Present"
                 url="https://bcredi.com.br"
                 caption="Curitiba, Brazil" />
@@ -63,7 +63,7 @@ export class Experience extends Component {
             <RCol size="6">
               <h3>The Company</h3>
               <p>
-                BCredi is one of the most popular Fintechs in Brazil offering
+                Bcredi is one of the most popular Fintechs in Brazil offering
                 home equity loans with the best market rates. The amount of money
                 borrowed during its short life surpasses US$ 100 Million,
                 helping thousands of companies and people.
