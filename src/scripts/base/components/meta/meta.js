@@ -1,6 +1,7 @@
 import ENV from '@environment';
 import React, { Component } from 'react';
 import MetaTags from 'react-meta-tags';
+import imagesService from '@scripts/base/services/images/images';
 
 export class RMeta extends Component {
   render() {
@@ -22,7 +23,7 @@ export class RMeta extends Component {
 }
 
 function buildImageUrl(image){
-  return `${ENV.APP.BASE_URL}/images/${image}`;
+  return `${ENV.APP.BASE_URL}/${ imagesService.getBasePath() }/${image}`;
 }
 
 RMeta.defaultProps = {

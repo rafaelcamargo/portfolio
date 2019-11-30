@@ -1,6 +1,7 @@
 import '@styles/mobile.styl'
 import React, { Component } from 'react';
 import { RIcon } from '@scripts/base/components/icon/icon';
+import imagesService from '@scripts/base/services/images/images';
 
 export class RMobile extends Component {
   onScreenshotLoad(){
@@ -52,7 +53,7 @@ function buildImage(screenshot, onLoad){
 }
 
 function buildImageUrl(screenshot){
-  return `images/screenshot-${screenshot}`;
+  return `${ imagesService.getBasePath() }/screenshot-${screenshot}`;
 }
 
 function buildImageAlt(screenshot){
