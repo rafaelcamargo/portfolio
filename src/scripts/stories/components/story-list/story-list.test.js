@@ -25,10 +25,16 @@ describe('Story List', () => {
     const wrapper = mount();
     const story = wrapper.find('li').at(0);
     expect(story.find('h2').text()).toEqual('Title');
+    expect(story.find('h2 > a').prop('href')).toEqual('https://some.story.com');
     expect(story.find('p').text()).toEqual('Description');
     expect(story.find('img').prop('src')).toEqual('assets/images/story.svg');
     expect(story.find('img').prop('alt')).toEqual('story illustration');
-    expect(story.find(RCtaLink).prop('text')).toEqual('Read full story');
-    expect(story.find(RCtaLink).prop('href')).toEqual('https://some.story.com');
+  });
+
+  it('should render portuguese version link', () => {
+    const wrapper = mount();
+    const story = wrapper.find('li').at(1);
+    expect(story.find('h3').text()).toEqual('Leia em Protuguês');
+    expect(story.find('[data-story-list-pt-link]').prop('href')).toEqual('https://some.story.com/pt');
   });
 });

@@ -1,5 +1,18 @@
 [
   {
+    "title": "Component Maturity Model",
+    "description": "Think you are a programmer, a front-end programmer. You collaborate with the development of a web product. Your workmates are back-end programmers, designers and product owners. So, in an ordinary day, in a casual meeting, in a simple presentation or in a regular chat among team members, you make use of a word, a very simple word. Component.",
+    "url": "/component-maturity-model",
+    "image": {
+      "filename": "story-component-maturity-model.svg",
+      "alt": "ui coponents illustration"
+    },
+    "pt": {
+      "title": "Modelo de Maturidade de Componentes",
+      "url": "/modelo-de-maturidade-de-componentes"
+    }
+  },
+  {
     "title": "Components beyond reuse",
     "description": "We are living times where the Model/View/Controller concept is getting more and more obsolete making Component Based approach the new standard to develop web applications now. However, as well as Component Based has become a so popular concept, I still see a lot of developers understanding components in a surprisingly weird way.",
     "url": "https://medium.com/@rcamargo/components-beyond-reuse-6cef6848a748",
