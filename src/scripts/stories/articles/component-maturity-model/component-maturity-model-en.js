@@ -37,7 +37,7 @@ export class RComponentMaturityModelEN extends Component {
                   reading, making a suggestion about the way of developing user
                   interfaces or making just a joke. Regardless you were doing,
                   at the exact moment you finished to pronounce the last
-                  syllable of this so simple word called “component”, something
+                  syllable of this so simple word called "component", something
                   very complex is gonna start to happen.
                 </p>
                 <p>
@@ -46,20 +46,20 @@ export class RComponentMaturityModelEN extends Component {
                   each variable containing on his set of Design Tokens. Your
                   product owner, bewitched by the reusability magic - and
                   suffocated by the Gantt chart that demands him to ship dozens
-                  of new features - will ask you a thousand times: “So does it
-                  allow us to deliver more features in less time?“. And,
+                  of new features - will ask you a thousand times: "So does it
+                  allow us to deliver more features in less time?". And,
                   finally, the back-end programmer will say nothing more than:
-                  “I already used Bootstrap once. I hate CSS”.
+                  "I already used Bootstrap once. I hate CSS".
                 </p>
                 <p>
-                  Even though it has four syllables only, the word “component”
+                  Even though it has four syllables only, the word "component"
                   causes zillions of different interpretations and expectations.
                   So easy to say it, so hard to define it.
                 </p>
                 <p>
                   At this moment, you might be convinced that I’m gonna
-                  introduce a definition for the word “component” that will
-                  cause you a “mindquake”. The definition that, once pronounced,
+                  introduce a definition for the word "component" that will
+                  cause you a "mindquake". The definition that, once pronounced,
                   is able to incinerate any ambiguity.
                 </p>
                 <p>
@@ -195,7 +195,7 @@ export class RComponentMaturityModelEN extends Component {
                 <div className="story-code">
                   <code>
                     &lt;button class="btn btn-primary"&gt;<br/>
-                    &nbsp;&nbsp;&lt;i class=”glyphicons glyphicons-download-alt”&gt;&lt;/i&gt; Download<br/>
+                    &nbsp;&nbsp;&lt;i class="glyphicons glyphicons-download-alt"&gt;&lt;/i&gt; Download<br/>
                     &lt;/button&gt;
                   </code>
                 </div>
