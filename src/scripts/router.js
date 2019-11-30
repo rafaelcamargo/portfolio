@@ -10,6 +10,7 @@ import { Recommendations } from '@scripts/recommendations/recommendations';
 import { Skills } from '@scripts/skills/skills';
 import { Stories } from '@scripts/stories/stories';
 import { RComponentMaturityModelEN } from '@scripts/stories/articles/component-maturity-model/component-maturity-model-en';
+import { RComponentMaturityModelPT } from '@scripts/stories/articles/component-maturity-model/component-maturity-model-pt';
 
 export class AppRouter extends Component {
   render(){
@@ -25,6 +26,7 @@ export class AppRouter extends Component {
             <Route path="/skills" exact component={ Skills } />
             <Route path="/stories" exact component={ Stories } />
             <Route path="/component-maturity-model" exact component={ RComponentMaturityModelEN } />
+            <Route path="/modelo-de-maturidade-de-componentes" exact component={ RComponentMaturityModelPT } />
           </ScrollToTop>
         </RHistory>
       </Router>
