@@ -1,0 +1,27 @@
+@require '_variables'
+@require '_mixins'
+
+.r-story
+  margin 0 auto
+  max-width 640px
+  .story-code
+    margin-top 20px
+    padding 20px
+    background-color #F9F9F9
+    box-sizing border-box
+    white-space nowrap
+    overflow-x scroll
+    border-radius(12px)
+    + p
+      margin-top 20px
+  h2
+    margin-top 50px
+  h4, h5
+    margin-top 40px
+  ul
+    margin 20px 0 0 20px
+    list-style-type disc
+  li
+    line-height 1.5
+    + li
+      margin-top 10px
