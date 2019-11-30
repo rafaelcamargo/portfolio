@@ -40,7 +40,7 @@ describe('Mobile', () => {
 
   it('should show an image if image has been provided', () => {
     const wrapper = mount({ screenshot: 'pitsby.svg' });
-    expect(wrapper.find('img').prop('src')).toEqual('images/screenshot-pitsby.svg');
+    expect(wrapper.find('img').prop('src')).toEqual('assets/images/screenshot-pitsby.svg');
     expect(wrapper.find('img').prop('alt')).toEqual('screenshot pitsby');
   });
 

@@ -16,6 +16,15 @@ module.exports = {
     })
   ],
   devServer: {
-    historyApiFallback: true
+    historyApiFallback: {
+      rewrites: [
+        {
+          from: /(.*)\/assets\//,
+          to: function(context){
+            return context.parsedUrl.pathname.replace(/(.*)\/assets\//, '/assets/');
+          },
+        }
+      ]
+    }
   }
 }

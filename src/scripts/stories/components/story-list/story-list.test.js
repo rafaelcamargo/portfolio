@@ -26,7 +26,7 @@ describe('Story List', () => {
     const story = wrapper.find('li').at(0);
     expect(story.find('h2').text()).toEqual('Title');
     expect(story.find('p').text()).toEqual('Description');
-    expect(story.find('img').prop('src')).toEqual('images/story.svg');
+    expect(story.find('img').prop('src')).toEqual('assets/images/story.svg');
     expect(story.find('img').prop('alt')).toEqual('story illustration');
     expect(story.find(RCtaLink).prop('text')).toEqual('Read full story');
     expect(story.find(RCtaLink).prop('href')).toEqual('https://some.story.com');

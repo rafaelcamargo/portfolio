@@ -1,5 +1,6 @@
 import '@styles/avatar.styl';
 import React, { Component } from 'react';
+import imagesService from '@scripts/base/services/images/images';
 
 export class RAvatar extends Component {
   render() {
@@ -12,7 +13,7 @@ export class RAvatar extends Component {
 }
 
 function buildImageUrl(image){
-  return `images/${image}`;
+  return `${ imagesService.getBasePath() }/${image}`;
 }
 
 function buildImageAlt(image){

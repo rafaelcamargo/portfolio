@@ -1,5 +1,6 @@
 import '@styles/icon.styl';
 import React, { Component } from 'react';
+import imagesService from '@scripts/base/services/images/images';
 
 export class RIcon extends Component {
   constructor(props){
@@ -29,5 +30,5 @@ function buildStyle(name){
 }
 
 function buildMaskImageValue(name){
-  return `url("images/icon-${name}.svg")`;
+  return `url("${ imagesService.getBasePath() }/icon-${name}.svg")`;
 }

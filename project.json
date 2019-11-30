@@ -12,8 +12,8 @@
     "dist": {
       "root": "dist/",
       "filename": {
-        "prod": "[name]-[hash].js",
-        "dev": "[name].js"
+        "prod": "assets/[name]-[hash].js",
+        "dev": "assets/[name].js"
       }
     }
   },
@@ -23,8 +23,8 @@
     },
     "dist": {
       "filename": {
-        "prod": "[name]-[hash].css",
-        "dev": "[name].css"
+        "prod": "assets/[name]-[hash].css",
+        "dev": "assets/[name].css"
       }
     }
   },
@@ -34,7 +34,7 @@
       "files": "src/images/**/*.*"
     },
     "dist": {
-      "root": "images/[name].[ext]"
+      "root": "assets/images/[name].[ext]"
     }
   },
   "favicon": {

@@ -2,6 +2,7 @@ import '@styles/story-list.styl';
 import React, { Component } from 'react';
 import { RCtaLink } from '@scripts/base/components/cta-link/cta-link';
 import storiesService from '@scripts/stories/services/stories/stories';
+import imagesService from '@scripts/base/services/images/images';
 
 export class RStoryList extends Component {
   render() {
@@ -29,5 +30,5 @@ function buildItem(story){
 }
 
 function buildImageUrl(filename){
-  return `images/${filename}`;
+  return `${ imagesService.getBasePath() }/${filename}`;
 }
