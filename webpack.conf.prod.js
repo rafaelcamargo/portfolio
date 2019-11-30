@@ -39,7 +39,8 @@ module.exports = {
         '/projects',
         '/recommendations',
         '/skills',
-        '/stories'
+        '/stories',
+        '/stories/component-maturity-model'
       ],
       minify: {
         collapseBooleanAttributes: true,
