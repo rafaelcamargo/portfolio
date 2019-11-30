@@ -3,7 +3,7 @@ import { mixpanelMock } from '@scripts/base/mocks/mixpanel';
 import analyticsService from './analytics';
 import dateService from '@scripts/base/services/date/date';
 
-describe('Analytics Service', () => {
+describe.skip('Analytics Service', () => {
   const dateMock = new Date();
   const createElementMock = {
     setAttribute: jest.fn()
