@@ -34,7 +34,7 @@ describe('Story List', () => {
   it('should render portuguese version link', () => {
     const wrapper = mount();
     const story = wrapper.find('li').at(1);
-    expect(story.find('h3').text()).toEqual('Leia em Protuguês');
+    expect(story.find('h3').text()).toEqual('Leia em Português');
     expect(story.find('[data-story-list-pt-link]').prop('href')).toEqual('https://some.story.com/pt');
   });
 });
