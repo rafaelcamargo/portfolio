@@ -214,7 +214,7 @@ export class RComponentMaturityModelEN extends Component {
                 </h3>
                 <p>
                   Welcome productivity! This is the stage which everything,
-                  absolutely everything, is encapsulated in uts own component.
+                  absolutely everything, is encapsulated in its own component.
                 </p>
                 <h4>
                   Anatomy
