@@ -35,7 +35,7 @@ function buildImageUrl(filename){
 function buildPortugueseLink({ pt }){
   return pt ?
     <div className="r-story-list-portuguese">
-      <h3>Leia em Protuguês</h3>
+      <h3>Leia em Português</h3>
       <a href={ pt.url } target="_blank" data-story-list-pt-link>{ pt.title }</a>
     </div> :
     null;
