@@ -33,7 +33,7 @@ describe('Recommendation', () => {
 
   it('should show person name', () => {
     const wrapper = mount({ id: 'semler' });
-    expect(wrapper.find('h3').text()).toEqual('Ricardo Semler');
+    expect(wrapper.find('h2').text()).toEqual('Ricardo Semler');
   });
 
   it('should show person professional info', () => {
