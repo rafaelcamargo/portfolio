@@ -32,10 +32,9 @@ export class Projects extends Component {
                   title="Glorious Demo"
                   subtitle="2018"
                   badgeText="Open Source"
-                  ctaUrl="https://glorious.codes/demo"
-                  ctaText="Try It Online"
-                  codeCtaUrl="https://github.com/glorious-codes/glorious-demo"
-                  codeCtaText="See The Code">
+                  url="https://glorious.codes/demo"
+                  ctaUrl="https://github.com/glorious-codes/glorious-demo"
+                  ctaText="See The Code">
                   The easiest way of creating animations to show your code in
                   action. Glorious Demo is open source, has been featured
                   on sites like <a href="https://news.ycombinator.com/item?id=18363668" target="_blank">
@@ -48,8 +47,7 @@ export class Projects extends Component {
                   image="logo-nashios.svg"
                   title="Nashios"
                   subtitle="2017"
-                  ctaUrl="https://nashios.com"
-                  ctaText="Visit Website">
+                  url="https://nashios.com">
                   That was the first time I made an API using Node. It
                   integrates with Github and show the people behind some of the
                   products we all love. The webclient was built with Vue.
@@ -60,10 +58,9 @@ export class Projects extends Component {
                   title="Woblast"
                   subtitle="2019"
                   badgeText="Open Source"
-                  ctaUrl="https://woblast-app.web.app/"
-                  ctaText="Check It Out"
-                  codeCtaUrl="https://github.com/rafaelcamargo/woblast-web"
-                  codeCtaText="See The Code">
+                  url="https://woblast-app.web.app/"
+                  ctaUrl="https://github.com/rafaelcamargo/woblast-web"
+                  ctaText="See The Code">
                   A small application that fetches currency rates and stock
                   exchange variations, and monitors them in real time. Built
                   with React, HG Brasil Finance API and ChartJS. Logo and
@@ -73,8 +70,7 @@ export class Projects extends Component {
                   image="logo-teleflik.svg"
                   title="Teleflik"
                   subtitle="2016"
-                  ctaUrl="https://play.google.com/store/apps/details?id=com.ionicframework.teleflik479683&hl=en_US"
-                  ctaText="Visit Google Play">
+                  url="https://play.google.com/store/apps/details?id=com.ionicframework.teleflik479683&hl=en_US">
                   Android app that helps you finding TV shows that match your
                   interests on the next 24h. I did this to learn how to build a
                   mobile app using Ionic and AngularJS. Logo and components
@@ -85,10 +81,9 @@ export class Projects extends Component {
                   title="Weather Now"
                   subtitle="2018"
                   badgeText="Open Source"
-                  ctaUrl="https://weather-now-vue.web.app"
-                  ctaText="Check It Out"
-                  codeCtaUrl="https://github.com/rafaelcamargo/weather-now-vue"
-                  codeCtaText="See The Code">
+                  url="https://weather-now-vue.web.app"
+                  ctaUrl="https://github.com/rafaelcamargo/weather-now-vue"
+                  ctaText="See The Code">
                   As a front-end developer at Conta Azul, I collaborated with
                   the hiring process of new developers designing a technincal
                   challenge for them. They should build a responsive small app
@@ -101,8 +96,7 @@ export class Projects extends Component {
                   image="logo-hiphunt.svg"
                   title="Hiphunt"
                   subtitle="2019"
-                  ctaUrl="https://hiphunt.com"
-                  ctaText="Early Access Page">
+                  url="https://hiphunt.com">
                   This is a project in progress that aims to help companies
                   finding excellent JavaScript developers. Landing page built
                   with Vue and pre rendered to get all of its content indexed.

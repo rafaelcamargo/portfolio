@@ -17,15 +17,15 @@ export class RRecommendation extends Component {
             <RAvatar image={ this.state.data.personImage } />
           </div>
           <div className="r-recommendation-titles">
-            <h3>
+            <h2>
               {
                 buildLink({
                   name: this.state.data.personName,
                   url: this.state.data.personUrl
                 })
               }
-            </h3>
-            <h4>
+            </h2>
+            <h3>
               {
                 buildCurrentCompanyInfo({
                   position: this.state.data.personPosition,
@@ -39,7 +39,7 @@ export class RRecommendation extends Component {
                   url: this.state.data.formerCompanyUrl
                 })
               }
-            </h4>
+            </h3>
           </div>
         </div>
         <blockquote className="r-recommendation-body">
