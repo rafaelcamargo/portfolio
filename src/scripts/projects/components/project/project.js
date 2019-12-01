@@ -10,12 +10,12 @@ export class RProject extends Component {
         <RAvatron
           image={ this.props.image }
           title={ this.props.title }
+          url={ this.props.url }
           subtitle={ this.props.subtitle }
           badgeText={ this.props.badgeText }/>
         <p>{ this.props.children }</p>
         <div className="r-project-cta-links-container">
           { buildCta(this.props.ctaUrl, this.props.ctaText) }
-          { buildCta(this.props.codeCtaUrl, this.props.codeCtaText) }
         </div>
       </li>
     );

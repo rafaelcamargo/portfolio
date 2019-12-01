@@ -39,21 +39,11 @@ describe('Project', () => {
   });
 
   it('should render a cta link', () => {
-    const ctaUrl = 'http://some.url.com';
-    const ctaText = 'Click Here';
+    const ctaUrl = 'http://github.com/rafaelcamargo/project';
+    const ctaText = 'See The Code';
     const wrapper = mount({ ctaUrl, ctaText });
-    expect(wrapper.find(RCtaLink).prop('href')).toEqual(ctaUrl);
-    expect(wrapper.find(RCtaLink).prop('text')).toEqual(ctaText);
-  });
-
-  it('should render a cta link', () => {
-    const ctaUrl = 'http://some.url.com';
-    const ctaText = 'Click Here';
-    const codeCtaUrl = 'http://github.com/rafaelcamargo/project';
-    const codeCtaText = 'See The Code';
-    const wrapper = mount({ ctaUrl, ctaText, codeCtaUrl, codeCtaText });
-    expect(wrapper.find(RCtaLink).at(1).prop('href')).toEqual(codeCtaUrl);
-    expect(wrapper.find(RCtaLink).at(1).prop('text')).toEqual(codeCtaText);
+    expect(wrapper.find(RCtaLink).at(0).prop('href')).toEqual(ctaUrl);
+    expect(wrapper.find(RCtaLink).at(0).prop('text')).toEqual(ctaText);
   });
 
   it('should transclude some content', () => {
