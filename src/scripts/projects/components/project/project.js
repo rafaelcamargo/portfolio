@@ -14,9 +14,7 @@ export class RProject extends Component {
           subtitle={ this.props.subtitle }
           badgeText={ this.props.badgeText }/>
         <p>{ this.props.children }</p>
-        <div className="r-project-cta-links-container">
-          { buildCta(this.props.ctaUrl, this.props.ctaText) }
-        </div>
+        { buildCta(this.props.ctaUrl, this.props.ctaText) }
       </li>
     );
   }
