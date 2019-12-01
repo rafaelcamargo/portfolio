@@ -34,7 +34,7 @@ export class RComponentMaturityModelPT extends Component {
                 </p>
                 <p>
                   Você poderia estar compartilhando algo que você aprendeu em
-                  sua última leitura, sugerindo outra maneira de desenvolver a
+                  sua mais recente leitura, sugerindo outra maneira de desenvolver a
                   interface gráfica ou estar fazendo apenas uma piada mesmo.
                   Independentemente do que você estava fazendo, no exato
                   momento em que você terminar de pronunciar a última sílaba
@@ -78,7 +78,7 @@ export class RComponentMaturityModelPT extends Component {
                 </h3>
                 <p>
                   Bem vindos ao caos. Nesse nível, qualquer uma daquelas
-                  zilhões de interpretações ainda inexistem. Tudo se reduz à
+                  zilhões de interpretações ainda inexistem. Tudo se reduz a
                   raça e coragem. Nada pode ser reutilizado e as mudanças
                   são muito caras.
                 </p>
@@ -263,7 +263,7 @@ export class RComponentMaturityModelPT extends Component {
                   </code>
                 </div>
                 <p>
-                  O custom element acime (my-button) é a única parte do sistema
+                  O custom element acima (my-button) é a única parte do sistema
                   onde qualquer coisa relacionada a todos os botões da
                   aplicação é tratada.
                 </p>
