@@ -3,6 +3,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const PrerenderSPAPlugin = require('prerender-spa-plugin');
+const Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
 const project = require('./project.json');
 
 module.exports = {
@@ -49,7 +50,11 @@ module.exports = {
         decodeEntities: true,
         keepClosingSlash: true,
         sortAttributes: true
-      }
+      },
+      renderer: new Renderer({
+        headless: true,
+        args: ['–no-sandbox', '–disable-setuid-sandbox']
+      })
     })
   ]
 }
