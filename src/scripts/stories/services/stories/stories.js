@@ -1,4 +1,4 @@
-import stories from '@data/stories';
+import stories from '@scripts/stories/constants/stories';
 
 const _public = {};
 

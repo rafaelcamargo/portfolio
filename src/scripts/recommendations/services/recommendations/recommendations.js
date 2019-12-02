@@ -1,4 +1,4 @@
-import recommendations from '@data/recommendations';
+import recommendations from '@scripts/recommendations/constants/recommendations';
 
 const _public = {};
 

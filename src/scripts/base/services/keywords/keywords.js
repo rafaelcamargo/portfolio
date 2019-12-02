@@ -1,4 +1,4 @@
-import keywords from '@data/keywords';
+import keywords from '@scripts/base/constants/keywords';
 
 const _public = {};
 

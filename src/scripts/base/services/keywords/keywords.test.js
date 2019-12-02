@@ -1,4 +1,4 @@
-import keywords from '@data/keywords';
+import keywords from '@scripts/base/constants/keywords';
 import keywordsService from '@scripts/base/services/keywords/keywords';
 
 describe('Keywords Service', () => {
