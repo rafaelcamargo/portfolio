@@ -1,4 +1,4 @@
-import stories from '@data/stories';
+import stories from '@scripts/stories/constants/stories';
 import storiesService from '@scripts/stories/services/stories/stories';
 
 describe('Stories Service', () => {
