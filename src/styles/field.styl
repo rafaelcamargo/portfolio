@@ -1,0 +1,23 @@
+@require '_variables'
+
+.r-field
+  label
+    color $color-grey-semi-dark
+    font-size $font-size-xxxs
+    font-weight 600
+    text-transform uppercase
+
+.r-field-label-wrapper
+  display block
+
+.r-field-content
+  margin-top 10px
+
+.r-field-required
+  position relative
+  &:after
+    position absolute
+    content '*'
+    top -2px
+    right -8px
+    color $color-red
