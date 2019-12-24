@@ -14,7 +14,8 @@ export class RButton extends Component {
       <button
         className={ this.state.className }
         onClick={ this.props.onClick }
-        aria-label={ this.props.ariaLabel }>
+        aria-label={ this.props.ariaLabel }
+        type={ buildType(this.props) }>
         { buildIcon(this.props.iconName) } { buildLabel(this.props.children) }
       </button>
     );
@@ -30,6 +31,8 @@ function buildThemeClassName(theme){
   switch (theme) {
     case 'faceless':
       return `${prefix}-faceless`;
+    case 'primary':
+      return `${prefix}-primary`;
     default:
       return ''
   }
@@ -41,4 +44,8 @@ function buildIcon(name){
 
 function buildLabel(children){
   return children ? <span className="r-button-label">{ children }</span> : null;
+}
+
+function buildType({ type }){
+  return type || 'button';
 }
