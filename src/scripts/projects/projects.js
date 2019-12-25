@@ -85,7 +85,7 @@ export class Projects extends Component {
                   ctaUrl="https://github.com/rafaelcamargo/weather-now-vue"
                   ctaText="See The Code">
                   As a front-end developer at Conta Azul, I collaborated with
-                  the hiring process of new developers designing a technincal
+                  the hiring process of new developers designing a technical
                   challenge for them. They should build a responsive small app
                   that fetched weather conditions from Open Weather Map API and
                   auto refreshed them after a couple minutes, using local
