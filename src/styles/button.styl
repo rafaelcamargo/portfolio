@@ -12,7 +12,7 @@ themed-button($text-color, $bg-color)
 .r-button
   padding 0 35px
   color $color-grey-dark
-  background-color $color-grey-light
+  background-color $color-grey-lighter
   font-size $font-size-xs
   font-weight 600
   text-align center
@@ -24,10 +24,10 @@ themed-button($text-color, $bg-color)
   border-radius(4px)
   unselectable()
   +highlight()
-    background-color alpha($color-grey-light, .8)
+    background-color alpha($color-grey-lighter, .8)
     outline 0
   &.r-button-theme-primary
-    themed-button($color-grey-light, $color-purple)
+    themed-button($color-grey-lighter, $color-purple)
   &.r-button-theme-faceless
     background none
     padding 0
