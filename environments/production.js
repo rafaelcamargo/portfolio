@@ -10,5 +10,8 @@ export default {
     MIXPANEL: {
       TOKEN: '632e28e733689d085cfaaf0d57cf210a'
     }
+  },
+  VERVET: {
+    BASE_URL: 'https://vervetapp.herokuapp.com'
   }
 };

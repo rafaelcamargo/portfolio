@@ -10,5 +10,8 @@ export default {
     MIXPANEL: {
       TOKEN: '084c78683cf298ef719f1f71382ef90c'
     }
+  },
+  VERVET: {
+    BASE_URL: 'http://localhost:9000'
   }
 };
