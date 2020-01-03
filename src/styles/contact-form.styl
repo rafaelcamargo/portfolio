@@ -1,0 +1,15 @@
+@require '_mixins'
+
+.r-contact-form
+  textarea
+    min-height 130px
+  button[type=submit]
+    float right
+    margin-top 25px
+
++breakpoint('xs')
+  .r-contact-form
+    button[type=submit]
+      float none
+      width 100%
+      margin-top 0

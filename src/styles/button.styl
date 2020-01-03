@@ -1,6 +1,33 @@
+@require '_variables'
 @require '_mixins'
 
+$button-box-shadow-color = alpha($color-grey-dark, .25)
+
+themed-button($text-color, $bg-color)
+  background-color $bg-color
+  color $text-color
+  +highlight()
+    background-color alpha($bg-color, .9)
+
 .r-button
+  padding 0 35px
+  color $color-grey-dark
+  background-color $color-grey-lighter
+  font-size $font-size-xs
+  font-weight 600
+  text-align center
+  line-height 40px
+  cursor pointer
+  border 0
+  webkit-appearance(none)
+  transition(all, 300ms)
+  border-radius(4px)
+  unselectable()
+  +highlight()
+    background-color alpha($color-grey-lighter, .8)
+    outline 0
+  &.r-button-theme-primary
+    themed-button($color-grey-lighter, $color-purple)
   &.r-button-theme-faceless
     background none
     padding 0

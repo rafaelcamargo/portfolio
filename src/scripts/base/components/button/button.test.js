@@ -10,7 +10,8 @@ describe('Button', () => {
         iconName={ props.iconName }
         theme={ props.theme }
         ariaLabel={ props.ariaLabel }
-        onClick={ props.onClick }>
+        onClick={ props.onClick }
+        type={ props.type }>
         { props.content }
       </RButton>
     );
@@ -21,9 +22,25 @@ describe('Button', () => {
     expect(wrapper.prop('className')).toEqual('r-button');
   });
 
-  it('should optionally set a theme', () => {
+  it('should set type as button by default', () => {
+    const wrapper = mount();
+    expect(wrapper.prop('type')).toEqual('button');
+  });
+
+  it('should optionally set a custom type', () => {
+    const type = 'submit';
+    const wrapper = mount({ type });
+    expect(wrapper.prop('type')).toEqual(type);
+  });
+
+  it('should optionally set a faceless theme', () => {
     const wrapper = mount({ theme: 'faceless' });
     expect(wrapper.prop('className').includes('r-button-theme-faceless')).toEqual(true);
+  });
+
+  it('should optionally set a primary theme', () => {
+    const wrapper = mount({ theme: 'primary' });
+    expect(wrapper.prop('className').includes('r-button-theme-primary')).toEqual(true);
   });
 
   it('should not set aria label by default', () => {

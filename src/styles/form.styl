@@ -1,0 +1,20 @@
+@require '_variables'
+@require '_mixins'
+
+.r-form
+  position relative
+  .r-form-alert-container
+    margin-bottom 30px
+  .r-form-loader-container
+    position absolute
+    top 0
+    left 0
+    right 0
+    bottom 0
+    background alpha($color-lightest, 0.75)
+    z-index $layer-lowest
+    .r-loader
+      position absolute
+      top 50%
+      left 50%
+      transform('translate(-50%,-50%)')

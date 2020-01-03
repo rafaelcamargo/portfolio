@@ -10,5 +10,14 @@ export default {
     MIXPANEL: {
       TOKEN: '632e28e733689d085cfaaf0d57cf210a'
     }
+  },
+  VERVET: {
+    BASE_URL: 'https://vervetapp.herokuapp.com',
+    PROJECTS: {
+      MAILER: {
+        ID: 'b0031d0f-b282-41af-bc89-ef6f97a398f2',
+        RECIPIENT: 'hello@rafaelcamargo.com'
+      }
+    }
   }
 };
