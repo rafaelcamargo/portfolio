@@ -57,8 +57,7 @@ export class RContactForm extends Component {
           onSubmitSuccess={ this.onSubmitSuccess }
           onSubmitError={ this.onSubmitError }
           errorMessage={this.state.errorMessage}
-          successMessage={this.state.successMessage}
-          resetFormOnSubmitSuccess={true}>
+          successMessage={this.state.successMessage}>
           <RRow>
             <RCol size="6">
               <RRow>
