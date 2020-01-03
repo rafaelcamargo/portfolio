@@ -1,4 +1,5 @@
 @require '_variables'
+@require '_mixins'
 
 html,
 body
@@ -43,3 +44,20 @@ ul
 
 blockquote
   margin 0
+
+input, textarea
+  padding 10px 15px
+  width 100%
+  font-size $font-size-sm
+  border 1px solid $color-grey
+  border-radius(4px)
+  box-sizing(border-box)
+  +highlight()
+    border 1px solid $color-purple
+    outline 0
+
+label
+    color $color-grey-dark
+    font-size $font-size-xxxs
+    font-weight 600
+    text-transform uppercase
