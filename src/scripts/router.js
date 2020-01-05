@@ -9,8 +9,8 @@ import { Projects } from '@scripts/projects/projects';
 import { Recommendations } from '@scripts/recommendations/recommendations';
 import { Skills } from '@scripts/skills/skills';
 import { Stories } from '@scripts/stories/stories';
-import { RComponentMaturityModelEN } from '@scripts/stories/articles/component-maturity-model/component-maturity-model-en';
-import { RComponentMaturityModelPT } from '@scripts/stories/articles/component-maturity-model/component-maturity-model-pt';
+import { RComponentMaturityModelEN } from '@scripts/stories/views/component-maturity-model/component-maturity-model-en';
+import { RComponentMaturityModelPT } from '@scripts/stories/views/component-maturity-model/component-maturity-model-pt';
 
 export class AppRouter extends Component {
   render(){

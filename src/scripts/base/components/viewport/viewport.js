@@ -23,7 +23,7 @@ export class RViewport extends Component {
           <RTopbar />
         </header>
         <main>
-          <article className="r-viewport-content">
+          <article className="r-viewport-content" lang={this.props.lang || 'en'}>
             { this.props.children }
           </article>
           <RContainer>

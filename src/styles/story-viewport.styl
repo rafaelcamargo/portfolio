@@ -1,0 +1,36 @@
+@require '_variables'
+@require '_mixins'
+
+.r-story-viewport-content
+  margin 0 auto
+  max-width 640px
+  .r-code
+    margin-top 20px
+    & + p
+      margin-top 20px
+  h2
+    margin-top 50px
+  h4, h5
+    margin-top 40px
+  ul
+    margin 20px 0 0 20px
+    list-style-type disc
+  li
+    line-height 1.5
+    + li
+      margin-top 10px
+
+.r-story-viewport-image-container
+  margin-top -148px
+  margin-left auto
+  margin-right auto
+  margin-bottom 60px
+  max-width 800px
+  background-color #F9EFD2
+  border-radius(0 0 12px 12px)
+  overflow hidden
+
++breakpoint('xs')
+  .r-story-viewport-image-container
+    margin-top -84px
+    margin-bottom 30px
