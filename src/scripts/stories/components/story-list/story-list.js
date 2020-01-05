@@ -1,6 +1,6 @@
 import '@styles/story-list.styl';
 import React, { Component } from 'react';
-import storiesService from '@scripts/stories/services/stories/stories';
+import storySummariesService from '@scripts/stories/services/stories/stories';
 import imagesService from '@scripts/base/services/images/images';
 
 export class RStoryList extends Component {
@@ -14,17 +14,17 @@ export class RStoryList extends Component {
 }
 
 function buildItems(stories){
-  return storiesService.get().map(story => buildItem(story));
+  return storySummariesService.getSummaries().map(summary => buildItem(summary));
 }
 
-function buildItem(story){
-  return <li key={ story.url }>
+function buildItem(summary){
+  return <li key={ summary.url }>
           <div className="r-story-list-header">
-            <img src={ buildImageUrl(story.image.filename) } alt={ story.image.alt } />
+            <img src={ buildImageUrl(summary.image.filename) } alt={ summary.image.alt } />
           </div>
-          <h2><a href={ story.url } target="_blank">{ story.title }</a></h2>
-          <p>{ story.description }</p>
-          { buildPortugueseLink(story) }
+          <h2><a href={ summary.url } target="_blank">{ summary.title }</a></h2>
+          <p>{ summary.description }</p>
+          { buildPortugueseLink(summary) }
         </li>;
 }
 
