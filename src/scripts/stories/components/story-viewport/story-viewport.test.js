@@ -1,6 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { RHero } from '@scripts/base/components/hero/hero';
+import { RImage } from '@scripts/base/components/image/image';
 import { RViewport } from '@scripts/base/components/viewport/viewport';
 import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 import storiesService from '@scripts/stories/services/stories/stories';
@@ -9,6 +10,10 @@ describe('Story Viewport', () => {
   function mockStorySummary(){
     return {
       1: {
+        image: {
+          filename: 'components.svg',
+          alt: 'components'
+        },
         title: 'title',
         description: 'description',
         keywords: 'keywords'
@@ -25,7 +30,7 @@ describe('Story Viewport', () => {
   }
 
   beforeEach(() => {
-    storiesService.findSummary = jest.fn(id => (mockStorySummary()[id] || {}));
+    storiesService.findSummary = jest.fn(id => (mockStorySummary()[id] || { image: {} }));
   });
 
   it('should have appropriate css class', () => {
@@ -45,6 +50,12 @@ describe('Story Viewport', () => {
     const wrapper = mount({ storySummaryId: 1 });
     expect(wrapper.find(RHero).prop('title')).toEqual('title');
     expect(wrapper.find(RHero).prop('size')).toEqual('small');
+  });
+
+  it('should build an image', () => {
+    const wrapper = mount({ storySummaryId: 1 });
+    expect(wrapper.find(RImage).prop('filename')).toEqual('components.svg');
+    expect(wrapper.find(RImage).prop('alt')).toEqual('components');
   });
 
   it('should transclude some content', () => {
