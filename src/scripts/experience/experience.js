@@ -124,9 +124,9 @@ export class Experience extends Component {
               </p>
               <p>
                 Focusing on <b>high-quality</b> - <i>clean code and automated tests
-                </i> - and <b>productivity</b>, our components have saved hours
-                of programming time and has contributed to increase the consistency of
-                user experience along the application.
+                </i> - and <b>productivity</b>, our components <a href="https://twitter.com/rcamargo/status/1152288995524644866" target="_blank">have
+                saved hours of programming time</a> and has contributed to
+                increase the consistency of user experience along the application.
               </p>
               <p>
                 Beyond delivering great results to the product and to the
