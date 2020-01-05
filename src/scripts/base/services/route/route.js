@@ -11,6 +11,10 @@ _public.getCurrentPathname = () => {
   return window.location.pathname;
 };
 
+_public.openUrl = (url, params) => {
+  window.open(buildFullUrl(url, params));
+};
+
 function setHistory(history){
   _public.history = history;
 }
@@ -25,6 +29,16 @@ function onHistoryChange(){
 
 function trackPageView(pathname){
   analyticsService.trackPageView(pathname);
+}
+
+function buildFullUrl(url, params){
+  return params ? `${url}?${stringifyUrlParams(params)}` : url;
+}
+
+function stringifyUrlParams(params){
+  return Object.entries(params).map(([key, value]) => {
+    return `${key}=${encodeURI(value)}`;
+  }).join('&');
 }
 
 export default _public;
