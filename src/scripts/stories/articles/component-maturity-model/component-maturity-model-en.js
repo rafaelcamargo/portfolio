@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { RCode } from '@scripts/base/components/code/code';
 import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
 export class RComponentMaturityModelEN extends Component {
@@ -106,13 +107,11 @@ export class RComponentMaturityModelEN extends Component {
         <h5>
           Example
         </h5>
-        <div className="r-story-viewport-code">
-          <code>
-            &lt;div class="finance-btn-attach-file glyphicons paperclip"&gt;<br/>
-            &nbsp;&nbsp;&lt;i&gt;&lt;/i&gt;Attach documents<br/>
-            &lt;/div&gt;
-          </code>
-        </div>
+        <RCode>
+          &lt;div class="finance-btn-attach-file glyphicons paperclip"&gt;<br/>
+          &nbsp;&nbsp;&lt;i&gt;&lt;/i&gt;Attach documents<br/>
+          &lt;/div&gt;
+        </RCode>
         <p>
           A generic button to upload files got coupled to a stylesheet
           already connected to a business domain (finance). Markup and
@@ -173,13 +172,11 @@ export class RComponentMaturityModelEN extends Component {
         <h5>
           Example
         </h5>
-        <div className="r-story-viewport-code">
-          <code>
-            &lt;button class="btn btn-primary"&gt;<br/>
-            &nbsp;&nbsp;&lt;i class="glyphicons glyphicons-download-alt"&gt;&lt;/i&gt; Download<br/>
-            &lt;/button&gt;
-          </code>
-        </div>
+        <RCode>
+          &lt;button class="btn btn-primary"&gt;<br/>
+          &nbsp;&nbsp;&lt;i class="glyphicons glyphicons-download-alt"&gt;&lt;/i&gt; Download<br/>
+          &lt;/button&gt;
+        </RCode>
         <p>
           This is a predefined HTML structure for a button styled as
           primary and containing an icon at the left of its text. Every
@@ -229,13 +226,11 @@ export class RComponentMaturityModelEN extends Component {
         <h5>
           Example
         </h5>
-        <div className="r-story-viewport-code">
-          <code>
-            &lt;my-button data-theme="primary" data-icon-name="paperclip"&gt;<br/>
-            &nbsp;&nbsp;Attach Documents<br/>
-            &lt;/my-button&gt;
-          </code>
-        </div>
+        <RCode>
+          &lt;my-button data-theme="primary" data-icon-name="paperclip"&gt;<br/>
+          &nbsp;&nbsp;Attach Documents<br/>
+          &lt;/my-button&gt;
+        </RCode>
         <p>
           The custom element above (my-button) is the single part of
           the system where anything related to all application buttons

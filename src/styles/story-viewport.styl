@@ -4,6 +4,10 @@
 .r-story-viewport-content
   margin 0 auto
   max-width 640px
+  .r-code
+    margin-top 20px
+    & + p
+      margin-top 20px
   h2
     margin-top 50px
   h4, h5
@@ -15,14 +19,3 @@
     line-height 1.5
     + li
       margin-top 10px
-
-.r-story-viewport-code
-  margin-top 20px
-  padding 20px
-  background-color $color-grey-lighter
-  box-sizing border-box
-  white-space nowrap
-  overflow-x scroll
-  border-radius(12px)
-  & + p
-    margin-top 20px

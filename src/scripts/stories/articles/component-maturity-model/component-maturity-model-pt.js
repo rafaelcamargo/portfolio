@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { RCode } from '@scripts/base/components/code/code';
 import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
 export class RComponentMaturityModelPT extends Component {
@@ -111,13 +112,11 @@ export class RComponentMaturityModelPT extends Component {
         <h5>
           Exemplo
         </h5>
-        <div className="r-story-viewport-code">
-          <code>
-            &lt;div class="finance-btn-attach-file glyphicons paperclip"&gt;<br/>
-            &nbsp;&nbsp;&lt;i&gt;&lt;/i&gt;Attach documents<br/>
-            &lt;/div&gt;
-          </code>
-        </div>
+        <RCode>
+          &lt;div class="finance-btn-attach-file glyphicons paperclip"&gt;<br/>
+          &nbsp;&nbsp;&lt;i&gt;&lt;/i&gt;Attach documents<br/>
+          &lt;/div&gt;
+        </RCode>
         <p>
           Um botão genérico de upload de arquivo foi acoplado a uma
           folha de estilo já relacionada a um domínio de negócio
@@ -179,13 +178,11 @@ export class RComponentMaturityModelPT extends Component {
         <h5>
           Exemplo
         </h5>
-        <div className="r-story-viewport-code">
-          <code>
-            &lt;button class="btn btn-primary"&gt;<br/>
-            &nbsp;&nbsp;&lt;i class="glyphicons glyphicons-download-alt"&gt;&lt;/i&gt; Download<br/>
-            &lt;/button&gt;
-          </code>
-        </div>
+        <RCode>
+          &lt;button class="btn btn-primary"&gt;<br/>
+          &nbsp;&nbsp;&lt;i class="glyphicons glyphicons-download-alt"&gt;&lt;/i&gt; Download<br/>
+          &lt;/button&gt;
+        </RCode>
         <p>
           Estrutura HTML padronizada para um botão estilizado como
           "primário" e contendo um ícone à esquerda de seu texto. Todas
@@ -236,13 +233,11 @@ export class RComponentMaturityModelPT extends Component {
         <h5>
           Exemplo
         </h5>
-        <div className="r-story-viewport-code">
-          <code>
-            &lt;my-button data-theme="primary" data-icon-name="paperclip"&gt;<br/>
-            &nbsp;&nbsp;Attach Documents<br/>
-            &lt;/my-button&gt;
-          </code>
-        </div>
+        <RCode>
+          &lt;my-button data-theme="primary" data-icon-name="paperclip"&gt;<br/>
+          &nbsp;&nbsp;Attach Documents<br/>
+          &lt;/my-button&gt;
+        </RCode>
         <p>
           O custom element acima (my-button) é a única parte do sistema
           onde qualquer coisa relacionada a todos os botões da
