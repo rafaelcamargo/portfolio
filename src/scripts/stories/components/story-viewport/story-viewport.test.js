@@ -3,7 +3,9 @@ import { shallow } from 'enzyme';
 import { RHero } from '@scripts/base/components/hero/hero';
 import { RImage } from '@scripts/base/components/image/image';
 import { RViewport } from '@scripts/base/components/viewport/viewport';
+import { RShare } from '@scripts/base/components/share/share';
 import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
+import routeService from '@scripts/base/services/route/route';
 import storiesService from '@scripts/stories/services/stories/stories';
 
 describe('Story Viewport', () => {
@@ -35,6 +37,7 @@ describe('Story Viewport', () => {
 
   beforeEach(() => {
     storiesService.findSummary = jest.fn(id => mockStorySummary()[id]);
+    routeService.getCurrentUrl = jest.fn(() => 'http://some.url.com');
   });
 
   it('should have appropriate css class', () => {
@@ -60,6 +63,13 @@ describe('Story Viewport', () => {
     const wrapper = mount({ storySummaryId: 1 });
     expect(wrapper.find(RImage).prop('filename')).toEqual('components.svg');
     expect(wrapper.find(RImage).prop('alt')).toEqual('components');
+  });
+
+  it('should contain a share component', () => {
+    const wrapper = mount({ storySummaryId: 1 });
+    const share = wrapper.find(RShare).at(0);
+    expect(share.prop('message')).toEqual('title');
+    expect(share.prop('url')).toEqual('http://some.url.com');
   });
 
   it('should transclude some content', () => {
