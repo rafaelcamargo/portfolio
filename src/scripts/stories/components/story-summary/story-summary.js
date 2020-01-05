@@ -1,3 +1,4 @@
+import '@styles/story-summary.styl';
 import React, { Component } from 'react';
 import { RImage } from '@scripts/base/components/image/image';
 
@@ -56,7 +57,7 @@ function buildTitle({ url, title }){
 
 function buildFooter(footerContent, secondaryLanguage){
   return footerContent ?
-    <footer>
+    <footer lang={ secondaryLanguage }>
       <h3 data-story-summary-footer-title>
         { buildFooterTitle(secondaryLanguage) }
       </h3>

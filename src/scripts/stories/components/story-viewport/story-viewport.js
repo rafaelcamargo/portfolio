@@ -11,21 +11,28 @@ import storySummariesService from '@scripts/stories/services/stories/stories';
 export class RStoryViewport extends Component {
   constructor(props){
     super(props);
-    this.setSummary(storySummariesService.findSummary(props.storySummaryId));
+    const summary = storySummariesService.findSummary(props.storySummaryId);
+    this.setSummary(summary);
+    this.setContent(summary[props.primaryLanguage]);
   }
 
   setSummary = summary => {
     this.summary = summary;
   };
 
+  setContent = content => {
+    this.content = content;
+  };
+
   render() {
     return (
       <div className="r-story-viewport">
         <RViewport
-          title={ this.summary.title }
-          description={ this.summary.description }
-          keywords={ this.summary.keywords }>
-          <RHero title={ this.summary.title } size="small" />
+          title={ this.content.title }
+          description={ this.content.description }
+          keywords={ this.content.keywords }
+          lang={ this.props.primaryLanguage }>
+          <RHero title={ this.content.title } size="small" />
           <RSection>
             <RRow>
               <RCol size="12">

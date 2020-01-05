@@ -9,6 +9,6 @@ describe('Stories Service', () => {
 
   it('should find a single summary', () => {
     const sumary = storiesService.findSummary(1);
-    expect(sumary.title).toEqual('Avoiding traps in event-driven programming');
+    expect(sumary.en.title).toEqual('Avoiding traps in event-driven programming');
   });
 });

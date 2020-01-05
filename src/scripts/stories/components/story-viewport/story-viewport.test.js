@@ -14,27 +14,31 @@ describe('Story Viewport', () => {
           filename: 'components.svg',
           alt: 'components'
         },
-        title: 'title',
-        description: 'description',
-        keywords: 'keywords'
+        en: {
+          title: 'title',
+          description: 'description',
+          keywords: 'keywords'
+        }
       }
     }
   }
 
   function mount(props = {}){
     return shallow(
-      <RStoryViewport storySummaryId={props.storySummaryId}>
+      <RStoryViewport
+        storySummaryId={props.storySummaryId}
+        primaryLanguage="en">
         { props.content }
       </RStoryViewport>
     );
   }
 
   beforeEach(() => {
-    storiesService.findSummary = jest.fn(id => (mockStorySummary()[id] || { image: {} }));
+    storiesService.findSummary = jest.fn(id => mockStorySummary()[id]);
   });
 
   it('should have appropriate css class', () => {
-    const wrapper = mount();
+    const wrapper = mount({ storySummaryId: 1 });
     expect(wrapper.prop('className')).toEqual('r-story-viewport');
   });
 
@@ -60,7 +64,7 @@ describe('Story Viewport', () => {
 
   it('should transclude some content', () => {
     const content = <b>Hey</b>;
-    const wrapper = mount({ content });
+    const wrapper = mount({ storySummaryId: 1, content });
     expect(wrapper.find('b').text()).toEqual('Hey');
   });
 });
