@@ -11,7 +11,8 @@ describe('Row', () => {
         description={ props.description }
         keywords={ props.keywords }
         twitterCard={ props.twitterCard }
-        image={ props.image }>
+        image={ props.image }
+        lang={ props.lang }>
         { props.content }
       </RViewport>
     );
@@ -40,5 +41,16 @@ describe('Row', () => {
     expect(wrapper.find(RMeta).prop('keywords')).toEqual(keywords);
     expect(wrapper.find(RMeta).prop('twitterCard')).toEqual(twitterCard);
     expect(wrapper.find(RMeta).prop('image')).toEqual(image);
+  });
+
+  it('should set article language as english by default', () => {
+    const wrapper = mount();
+    expect(wrapper.find('article').prop('lang')).toEqual('en');
+  });
+
+  it('should optionally set article custom language', () => {
+    const lang = 'pt';
+    const wrapper = mount({ lang });
+    expect(wrapper.find('article').prop('lang')).toEqual(lang);
   });
 });
