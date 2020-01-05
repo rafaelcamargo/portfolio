@@ -1,9 +1,16 @@
 @require '_variables'
 @require '_mixins'
 
+$image-container-bg-color = #F9EFD2;
+
 .r-story-viewport-content
+  position relative
   margin 0 auto
   max-width 640px
+  .r-share
+    position absolute
+    top 0
+    left -280px
   .r-code
     margin-top 20px
     & + p
@@ -21,11 +28,20 @@
       margin-top 10px
 
 .r-story-viewport-image-container
+  position relative
   margin -148px auto 60px
   max-width 800px
-  background-color #F9EFD2
-  border-radius(0 0 12px 12px)
-  overflow hidden
+  max-height 270px
+  background-color $image-container-bg-color
+  border-radius(0 0 25px 0)
+  &:before
+    position absolute
+    content ' '
+    top 0
+    left -200px
+    width 200px
+    height 270px
+    background-color $image-container-bg-color
 
 +breakpoint('xs')
   .r-story-viewport-image-container

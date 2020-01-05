@@ -1,0 +1,32 @@
+@require '_variables'
+@require '_mixins'
+
+$line-height = 15px;
+
+.r-share
+  display inline-block
+  padding 3px 15px 1px
+  min-width 75px
+  background-color $color-grey-lighter
+  line-height $line-height
+  border-radius(14px)
+  clearfix();
+  .r-button
+    line-height $line-height
+    +highlight()
+      .r-icon
+        background-color $color-purple
+  .r-share-item
+    line-height $line-height
+  .r-share-items
+    float right
+    list-style-type none
+    margin 0
+    padding 0
+
+.r-share-text
+  display inline-block
+  margin-top 3px
+  font-size $font-size-xxxs
+  font-weight bold
+  text-transform uppercase
