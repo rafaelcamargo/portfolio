@@ -15,6 +15,10 @@ _public.openUrl = (url, params) => {
   window.open(buildFullUrl(url, params));
 };
 
+_public.getCurrentUrl = () => {
+  return window.location.href;
+};
+
 function setHistory(history){
   _public.history = history;
 }

@@ -45,4 +45,9 @@ describe('Route Service', () => {
     routeService.openUrl(url, params);
     expect(window.open).toHaveBeenCalledWith(`${url}?name=Jo%C3%A3o&surname=Guimar%C3%A3es`);
   });
+
+  it('should get current url', () => {
+    const url = routeService.getCurrentUrl();
+    expect(url).toEqual(window.location.href);
+  });
 });
