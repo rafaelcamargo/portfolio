@@ -47,7 +47,10 @@ export class RStoryViewport extends Component {
                   <RImage filename={ this.summary.image.filename } alt={ this.summary.image.alt } />
                 </div>
                 <div className="r-story-viewport-content">
-                  <RShare message={ this.content.title } url={ this.storyUrl }/>
+                  <RShare
+                    message={ this.content.title }
+                    url={ this.storyUrl }
+                    lang={ this.props.primaryLanguage } />
                   { this.props.children }
                 </div>
               </RCol>
