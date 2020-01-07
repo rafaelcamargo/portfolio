@@ -42,7 +42,8 @@ module.exports = {
         '/skills',
         '/stories',
         '/component-maturity-model',
-        '/modelo-de-maturidade-de-componentes'
+        '/modelo-de-maturidade-de-componentes',
+        '/bottles-and-principles-how-to-better-organize-css'
       ],
       minify: {
         collapseBooleanAttributes: true,

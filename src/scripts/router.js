@@ -27,8 +27,8 @@ export class AppRouter extends Component {
             <Route path="/recommendations" exact component={ Recommendations } />
             <Route path="/skills" exact component={ Skills } />
             <Route path="/stories" exact component={ Stories } />
-            <Route path="/component-maturity-model" exact component={ RComponentMaturityModelEN } />
-            <Route path="/modelo-de-maturidade-de-componentes" exact component={ RComponentMaturityModelPT } />
+            <Route path={ storySummaries[4].en.url.href } exact component={ RComponentMaturityModelEN } />
+            <Route path={ storySummaries[4].pt.url.href } exact component={ RComponentMaturityModelPT } />
             <Route path={ storySummaries[5].en.url.href } exact component={ RBottlesAndPrinciplesEN } />
           </ScrollToTop>
         </RHistory>
