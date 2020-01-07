@@ -11,6 +11,8 @@ import { Skills } from '@scripts/skills/skills';
 import { Stories } from '@scripts/stories/stories';
 import { RComponentMaturityModelEN } from '@scripts/stories/views/component-maturity-model/component-maturity-model-en';
 import { RComponentMaturityModelPT } from '@scripts/stories/views/component-maturity-model/component-maturity-model-pt';
+import { RBottlesAndPrinciplesEN } from '@scripts/stories/views/bottles-and-principles/bottles-and-principles-en';
+import storySummaries from '@scripts/stories/constants/story-summaries';
 
 export class AppRouter extends Component {
   render(){
@@ -27,6 +29,7 @@ export class AppRouter extends Component {
             <Route path="/stories" exact component={ Stories } />
             <Route path="/component-maturity-model" exact component={ RComponentMaturityModelEN } />
             <Route path="/modelo-de-maturidade-de-componentes" exact component={ RComponentMaturityModelPT } />
+            <Route path={ storySummaries[5].en.url.href } exact component={ RBottlesAndPrinciplesEN } />
           </ScrollToTop>
         </RHistory>
       </Router>

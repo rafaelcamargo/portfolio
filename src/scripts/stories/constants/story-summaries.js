@@ -74,7 +74,7 @@ export default [
       alt: "ui coponents illustration"
     },
     en: {
-      title: "Component Maturity Model",
+      title: "Component maturity model",
       description: "Think you are a programmer, a front-end programmer. You collaborate with the development of a web product. Your workmates are back-end programmers, designers and product owners. So, in an ordinary day, in a casual meeting, in a simple presentation or in a regular chat among team members, you make use of a word, a very simple word. Component.",
       keywords: "component, maturity, model, custom elements, css components",
       url: {
@@ -82,11 +82,35 @@ export default [
       }
     },
     pt: {
-      title: "Modelo de Maturidade de Componentes",
+      title: "Modelo de maturidade de componentes",
       description: "Pense que você é um programador, um programador front-end. Você colabora com o desenvolvimento de um produto web. Você trabalha junto com designers, programadores back-end e product owners. Então um belo dia numa reunião, numa apresentação ou num simples bate papo entre membros do time, você faz uso de uma palavra muito simples. Componente.",
       keywords: "componentes, maturidade, modelo, custom elements, componentes css",
       url: {
         href: "/modelo-de-maturidade-de-componentes"
+      }
+    }
+  },
+  {
+    id: 6,
+    image: {
+      filename: "story-bottles-and-principles.svg",
+      alt: "bottles with different contents"
+    },
+    en: {
+      title: "Bottles and Principles. How to better organize CSS.",
+      description: "Something really curious about lots of the most famous programming concepts, principles and good practices is that they seem to disappear or, at least, keep distant, when the software we are talking about is a web client, also known as a front-end application.",
+      keywords: "component, css, stylesheet, open-closed",
+      url: {
+        href: "/bottles-and-principles-how-to-better-organize-css"
+      }
+    },
+    pt: {
+      title: "Garrafas e Princípios. Como melhor organizar CSS.",
+      description: "Algo realmente curioso em relação a vários dos consagrados conceitos, princípios e boas práticas de programação é que eles parecem simplesmente desaparecer, ou ao menos soar distante, quando o software em questão é o cliente web, vulgo front-end.",
+      keywords: "component, css, folhas de estilo, open-closed",
+      url: {
+        href: "https://medium.com/@rcamargo/entre-garrafas-e-princ%C3%ADpios-como-organizar-melhor-seu-css-4f1572159a04",
+        target: "_blank"
       }
     }
   }
