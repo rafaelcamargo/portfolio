@@ -1,17 +1,17 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
-import { RComponentMaturityModelPT } from './component-maturity-model-pt';
+import { RBottlesAndPrinciplesEN } from './bottles-and-principles-en';
 
-describe('Component Maturity Model PT', () => {
+describe('Bottles and Principles EN', () => {
   function mount(props = {}){
     return shallow(
-      <RComponentMaturityModelPT />
+      <RBottlesAndPrinciplesEN />
     );
   }
 
   it('should contain a story viewport', () => {
     const wrapper = mount();
-    expect(wrapper.find(RStoryViewport).prop('storySummaryId')).toEqual(5);
+    expect(wrapper.find(RStoryViewport).prop('storySummaryId')).toEqual(6);
   });
 });

@@ -1,11 +1,12 @@
 import React from 'react';
+import Highlight from 'react-highlight';
 import { shallow } from 'enzyme';
 import { RCode } from './code';
 
 describe('Code', () => {
   function mount(props = {}){
     return shallow(
-      <RCode>
+      <RCode language={ props.language }>
         { props.content }
       </RCode>
     );
@@ -16,9 +17,15 @@ describe('Code', () => {
     expect(wrapper.prop('className')).toEqual('r-code');
   });
 
-  it('should contain a story viewport', () => {
-    const content = <p>Hello!</p>;
+  it('should render a code snippet', () => {
+    const content = '<p>Hello!</p>';
     const wrapper = mount({ content });
-    expect(wrapper.find('p').text()).toEqual('Hello!');
+    expect(wrapper.find(Highlight).prop('children')).toEqual('<p>Hello!</p>');
+  });
+
+  it('should optionally set a language', () => {
+    const language = 'html';
+    const wrapper = mount({ language });
+    expect(wrapper.find(Highlight).prop('className')).toEqual(language);
   });
 });
