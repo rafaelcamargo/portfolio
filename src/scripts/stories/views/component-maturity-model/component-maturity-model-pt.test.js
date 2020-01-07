@@ -6,9 +6,7 @@ import { RComponentMaturityModelPT } from './component-maturity-model-pt';
 describe('Component Maturity Model PT', () => {
   function mount(props = {}){
     return shallow(
-      <RComponentMaturityModelPT>
-        { props.content }
-      </RComponentMaturityModelPT>
+      <RComponentMaturityModelPT />
     );
   }
 

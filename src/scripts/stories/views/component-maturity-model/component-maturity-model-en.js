@@ -109,10 +109,12 @@ export class RComponentMaturityModelEN extends Component {
         <h5>
           Example
         </h5>
-        <RCode>
-          &lt;div class="finance-btn-attach-file glyphicons paperclip"&gt;<br/>
-          &nbsp;&nbsp;&lt;i&gt;&lt;/i&gt;Attach documents<br/>
-          &lt;/div&gt;
+        <RCode language="html">
+{
+`<div class="finance-btn-attach-file glyphicons paperclip">
+  <i></i>Attach documents
+</div>`
+}
         </RCode>
         <p>
           A generic button to upload files got coupled to a stylesheet
@@ -174,10 +176,12 @@ export class RComponentMaturityModelEN extends Component {
         <h5>
           Example
         </h5>
-        <RCode>
-          &lt;button class="btn btn-primary"&gt;<br/>
-          &nbsp;&nbsp;&lt;i class="glyphicons glyphicons-download-alt"&gt;&lt;/i&gt; Download<br/>
-          &lt;/button&gt;
+        <RCode language="html">
+{
+`<button class="btn btn-primary">
+  <i class="glyphicons glyphicons-download-alt"></i>Download
+</button>`
+}
         </RCode>
         <p>
           This is a predefined HTML structure for a button styled as
@@ -228,10 +232,12 @@ export class RComponentMaturityModelEN extends Component {
         <h5>
           Example
         </h5>
-        <RCode>
-          &lt;my-button data-theme="primary" data-icon-name="paperclip"&gt;<br/>
-          &nbsp;&nbsp;Attach Documents<br/>
-          &lt;/my-button&gt;
+        <RCode language="html">
+{
+`<my-button data-theme="primary" data-icon-name="paperclip">
+  Attach Documents
+</my-button>`
+}
         </RCode>
         <p>
           The custom element above (my-button) is the single part of

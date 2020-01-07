@@ -6,9 +6,7 @@ import { RComponentMaturityModelEN } from './component-maturity-model-en';
 describe('Component Maturity Model EN', () => {
   function mount(props = {}){
     return shallow(
-      <RComponentMaturityModelEN>
-        { props.content }
-      </RComponentMaturityModelEN>
+      <RComponentMaturityModelEN />
     );
   }
 
