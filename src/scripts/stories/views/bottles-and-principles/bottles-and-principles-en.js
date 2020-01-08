@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Highlight from 'react-highlight';
 import { RCode } from '@scripts/base/components/code/code';
+import { RQuote } from '@scripts/base/components/quote/quote';
 import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
 const codes = {
@@ -34,9 +35,11 @@ export class RBottlesAndPrinciplesEN extends Component {
           real terror for CSS. Among other lovely statements, I have already heard:
         </p>
         <p>
-          "Pure s***", "Very easy to f*** that all", "CSS is like Lego. If you
-          start it wrong, it gets very hard to change the initial pieces after
-          some later s*** has been made." or just "F****** confusing."
+          <em>
+            (a) Pure s*** (b) Very easy to f*** that all (c) CSS is like Lego.
+            If you start it wrong, it gets very hard to change the initial pieces
+            after some later s*** has been made (d) F****** confusing.
+          </em>
         </p>
         <p>
           Some developers blame the global nature of CSS. Others attack what
@@ -61,13 +64,15 @@ export class RBottlesAndPrinciplesEN extends Component {
           sometimes as pages and sometimes as themes, or even to commit the
           sacrilege of putting styles in your JavaScript, just practice one of
           the listed principles in the acronym SOLID. The letter "O"
-          represents the "Open-Closed" principle.
+          represents the <em>Open-Closed</em> principle.
         </p>
-        <p>
-          "Software entities should be open for extension, but closed for
+        <RQuote
+          sourceText="Wikipedia"
+          sourceHref="https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle">
+          Software entities should be open for extension, but closed for
           modification; that is, such an entity can allow its behavior to be
-          extended without modifying its source code."
-        </p>
+          extended without modifying its source code.
+        </RQuote>
         <p>
           That’s the concept. Organize your objects in a way that they can
           have their behavior extended with no need to modify them.
@@ -99,22 +104,23 @@ export class RBottlesAndPrinciplesEN extends Component {
         </RCode>
         <p>
           What we can see is an empty bottle. Once the bottle is an object, it
-          has its own style sheet: bottle.css.
+          has its own style sheet: <em>bottle.css</em>.
         </p>
         <h2>
           Specializing objects
         </h2>
         <p>
           After having created a bottle, a wine bottle is now required. Now
-          what? How to organize the code? Should I create a class named as
-          "bottle-content-wine" and add it to the &lt;div&gt; that already contains
-          the "bottle-content" class? Should I create a theme named as
-          "bottle-wine" to the bottle and add it to the &lt;div&gt; that already
-          contains the class "bottle"? Notice, every one of the suggestions
-          above would be violating the open-closed principle because all of
-          them would be modifying the bottle code. The best way to handle the
-          wine bottle is creating another object in your system that makes
-          use of the base bottle without modifying it. Take a look:
+          what? How to organize the code? Should I create a class named as <em>
+          bottle-content-wine</em> and add it to the <em>&lt;div&gt;</em> that
+          already contains the <em>bottle-content</em> class? Should I
+          create a theme named as <em>bottle-wine</em> to the bottle and add
+          it to the <em>&lt;div&gt;</em> that already contains the class <em>
+          bottle</em>? Notice, every one of the suggestions above would be
+          violating the <em>Open-Closed</em> principle because all of them would
+          be modifying the bottle code. The best way to handle the wine bottle
+          is creating another object in your system that makes use of the
+          base bottle without modifying it. Take a look:
         </p>
         <RCode language="html">
 {
@@ -126,8 +132,8 @@ export class RBottlesAndPrinciplesEN extends Component {
 }
         </RCode>
         <p>
-          From now on, beyond the style sheet "bottle.css", you will have
-          another one named as "wine-bottle.css". The last one may extend
+          From now on, beyond the style sheet <em>bottle.css</em>, you will have
+          another one named as <em>wine-bottle.css</em>. The last one may extend
           every element of the base bottle the way it needs. Example:
         </p>
         <RCode language="css">
@@ -148,7 +154,7 @@ export class RBottlesAndPrinciplesEN extends Component {
           should be true for the wine bottle and for any other object you create.
         </p>
         <p>
-          Also notice that following the open-closed principle you
+          Also notice that following the <em>Open-Closed</em> principle you
           automatically dose your selector specificity at the exact need for
           your necessity. This is crucial for bottle and wine-bottle keep
           themselves open for extension. If you over-specify your selectors,
@@ -160,8 +166,8 @@ export class RBottlesAndPrinciplesEN extends Component {
         </h2>
         <p>
           So you may be thinking: what if a new requirement demands a small
-          or large bottle? Should I create new objects named "small-bottle"
-          and "large-bottle"?
+          or large bottle? Should I create new objects named <em>small-bottle</em>
+          and <em>large-bottle</em>?
         </p>
         <p>
           No. In this case, we would be handling aspects of the bottle
@@ -176,14 +182,14 @@ export class RBottlesAndPrinciplesEN extends Component {
 }
         </RCode>
         <p>
-          The CSS class "bottle-small" modifies the default bottle making it
-          small. That said, "bottle-small" should be placed on "bottle.css"
+          The CSS class <em>bottle-small</em> modifies the default bottle making it
+          small. That said, <em>bottle-small</em> should be placed on <em>bottle.css</em>
           style sheet. In that style sheet, every aspect that refers to the
           bottle should be placed, including its own variations. That style
           sheet should not contain anything that is not directly related to
           the bottle. Bottle should not know any aspect other than its own. If
-          we create a class named "bottle-wine" and write it inside
-          "bottle.css", we would be bringing the context into the bottle.
+          we create a class named <em>bottle-wine</em> and write it inside
+          <em>bottle.css</em>, we would be bringing the context into the bottle.
           Since a bottle can be filled with infinite different contents, we
           would be taking the risk of inflating the bottle object with a pile
           of aspects that should not be there. After some time, this object
@@ -199,29 +205,23 @@ export class RBottlesAndPrinciplesEN extends Component {
         </p>
         <RCode language="html">
 {
-`<div class=”application”>
-  <div class=”application-topbar”>
-    <div class=”application-actions-container”>
-      <div
-        class=”application-action application-action-close”>
-      </div>
-      <div
-        class=”application-action application-action-minimize”
-      </div>
-      <div
-        class=”application-action application-action-maximize”>
-      </div>
+`<div class="application">
+  <div class="application-topbar">
+    <div class="application-actions-container">
+      <div class="application-action application-action-close"></div>
+      <div class="application-action application-action-minimize"></div>
+      <div class="application-action application-action-maximize"></div>
     </div>
-    <div class=”application-title-container”></div>
+    <div class="application-title-container"></div>
   </div>
-  <div class=”application-content-container”></div>
+  <div class="application-content-container"></div>
 </div>`
 }
         </RCode>
         <ol>
           <li>
             The root element in the object's markup must have the CSS class
-            which represents the name of the object, 'application' in the
+            which represents the name of the object, <em>application</em> in the
             example above. That CSS class works as namespace and must prefix
             every other CSS class that belongs to the object.
           </li>
@@ -231,9 +231,9 @@ export class RBottlesAndPrinciplesEN extends Component {
           </li>
           <li>
             The CSS classes that perform the modifier role are never used
-            alone. 'application-action-close' has no effect if used alone.
+            alone. <em>application-action-close</em> has no effect if used alone.
             In this case, it only modifies something if used together
-            'application-action'.
+            <em>application-action</em>.
           </li>
         </ol>
         <p>

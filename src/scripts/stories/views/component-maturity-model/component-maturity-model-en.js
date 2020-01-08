@@ -14,14 +14,14 @@ export class RComponentMaturityModelEN extends Component {
           workmates are back-end programmers, designers and product
           owners. So, in an ordinary day, in a casual meeting, in a
           simple presentation or in a regular chat among team members,
-          you make use of a word, a very simple word. Component.
+          you make use of a word, a very simple word. <em>Component</em>.
         </p>
         <p>
           You could be sharing something you learnt on your latest
           reading, making a suggestion about the way of developing user
           interfaces or making just a joke. Regardless you were doing,
           at the exact moment you finished to pronounce the last
-          syllable of this so simple word called "component", something
+          syllable of this so simple word called <em>component</em>, something
           very complex is gonna start to happen.
         </p>
         <p>
@@ -30,20 +30,20 @@ export class RComponentMaturityModelEN extends Component {
           each variable containing on his set of Design Tokens. Your
           product owner, bewitched by the reusability magic - and
           suffocated by the Gantt chart that demands him to ship dozens
-          of new features - will ask you a thousand times: "So does it
-          allow us to deliver more features in less time?". And,
-          finally, the back-end programmer will say nothing more than:
-          "I already used Bootstrap once. I hate CSS".
+          of new features - will ask you a thousand times: <em>So does it
+          allow us to deliver more features in less time?</em>. And,
+          finally, the back-end programmer will say nothing more than: <em>
+          I already used Bootstrap once. I hate CSS</em>.
         </p>
         <p>
-          Even though it has four syllables only, the word "component"
-          causes zillions of different interpretations and expectations.
-          So easy to say it, so hard to define it.
+          Even though it has four syllables only, the word <em>
+          component</em> causes zillions of different interpretations and
+          expectations. So easy to say it, so hard to define it.
         </p>
         <p>
           At this moment, you might be convinced that I’m gonna
-          introduce a definition for the word "component" that will
-          cause you a "mindquake". The definition that, once pronounced,
+          introduce a definition for the word <em>component</em> that will
+          cause you a <em>mindquake</em>. The definition that, once pronounced,
           is able to incinerate any ambiguity.
         </p>
         <p>
@@ -52,11 +52,8 @@ export class RComponentMaturityModelEN extends Component {
           three! They represent what I called Component Maturity Model.
         </p>
         <h2>
-          Level Zero
+          Level Zero: Chaos
         </h2>
-        <h3>
-          Chaos
-        </h3>
         <p>
           Welcome to the chaos. At this level, anyone of that zillions
           of different interpretations doesn’t even exist. Everything is
@@ -118,17 +115,14 @@ export class RComponentMaturityModelEN extends Component {
         </RCode>
         <p>
           A generic button to upload files got coupled to a stylesheet
-          already connected to a business domain (finance). Markup and
+          already connected to a business domain <em>(finance)</em>. Markup and
           logic are not encapsulated and will be replicated with other
           classes and markup on every part of the system which a file
           upload button be necessary again.
         </p>
         <h2>
-          Level One
+          Level One: CSS Components
         </h2>
-        <h3>
-          CSS Components
-        </h3>
         <p>
           Stage which predefined HTML structures are available and CSS
           classes can be reused.
@@ -191,11 +185,8 @@ export class RComponentMaturityModelEN extends Component {
           structure with those CSS classes.
         </p>
         <h2>
-          Level Two
+          Level Two: Custom Elements
         </h2>
-        <h3>
-          Custom Elements
-        </h3>
         <p>
           Welcome productivity! This is the stage which everything,
           absolutely everything, is encapsulated in its own component.

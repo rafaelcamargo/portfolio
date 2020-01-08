@@ -15,10 +15,17 @@ $image-container-bg-color = #F9EFD2;
     margin-top 20px
     & + p
       margin-top 20px
+  .r-quote
+    margin 40px 0
   h2
-    margin-top 50px
+    margin 100px 0 50px
+    font-size $font-size-lg
+    font-weight bold
   h4, h5
     margin-top 40px
+    text-transform uppercase
+  h2, h3, h4, h5
+    font-weight bold
   ul
     margin 20px 0 0 20px
     list-style-type disc
@@ -29,26 +36,23 @@ $image-container-bg-color = #F9EFD2;
 
 .r-story-viewport-image-container
   position relative
+  left -100px
   margin -148px auto 60px
-  max-width 800px
-  max-height 270px
+  width 1000px
+  height 270px
   background-color $image-container-bg-color
   border-radius(0 0 25px 0)
-  &:before
+  .r-image
     position absolute
-    content ' '
-    top 0
-    left -200px
-    width 200px
-    height 270px
-    background-color $image-container-bg-color
+    right 0
+    top 50%
+    max-width 800px
+    transform('translateY(-50%)')
 
 +breakpoint('xs')
   .r-story-viewport-image-container
-    margin -84px -10% 30px
+    left -10%
+    margin -84px 0 30px
+    width 120%
     .r-image
-      position relative
-      width 120%
-      left 50%
-      border-radius(0)
-      transform('translateX(-50%)')
+      transform('scale(1.5) translateY(-35%)')
