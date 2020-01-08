@@ -1,4 +1,4 @@
-import 'highlight.js/styles/atom-one-light.css';
+import 'highlight.js/styles/atelier-lakeside-light.css';
 import '@styles/code.styl';
 import Highlight from 'react-highlight';
 import React, { Component } from 'react';
