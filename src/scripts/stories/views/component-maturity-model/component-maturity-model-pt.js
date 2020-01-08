@@ -14,7 +14,7 @@ export class RComponentMaturityModelPT extends Component {
           trabalha junto com designers, programadores back-end e product
           owners. Então um belo dia numa reunião, numa apresentação ou
           num simples bate papo entre membros do time, você faz uso de
-          uma palavra muito simples. Componente.
+          uma palavra muito simples. <em>Componente</em>.
         </p>
         <p>
           Você poderia estar compartilhando algo que você aprendeu em
@@ -22,7 +22,7 @@ export class RComponentMaturityModelPT extends Component {
           interface gráfica ou estar fazendo apenas uma piada mesmo.
           Independentemente do que você estava fazendo, no exato
           momento em que você terminar de pronunciar a última sílaba
-          desta palavra tão simples chamada "componente", algo muito
+          desta palavra tão simples chamada <em>componente</em>, algo muito
           complexo vai começar a acontecer.
         </p>
         <p>
@@ -31,19 +31,20 @@ export class RComponentMaturityModelPT extends Component {
           das variáveis de seu conjunto de Design Tokens. O Product
           Owner, enfeitiçado  pela magia da reusabilidade - e asfixiado
           pelo gráfico de Gantt que lhe cobra a entrega de dezenas de
-          novas funcionalidades - o indagará repetidas vezes: "Então
-          seria possível entregar mais telas em menos tempo?". E, por
-          fim, o programador back-end se limitará a dizer: "Já usei
-          Bootstrap uma vez. Odeio CSS".
+          novas funcionalidades - o indagará repetidas vezes: <em>Então
+          seria possível entregar mais telas em menos tempo?</em>. E, por
+          fim, o programador back-end se limitará a dizer: <em>Já usei
+          Bootstrap uma vez. Odeio CSS</em>.
         </p>
         <p>
-          Embora tenha apenas quatro sílabas, a palavra "componente"
-          provoca zilhões de diferentes interpretações e expectativas.
-          Uma palavra tão fácil de pronunciar e tão difícil de definir.
+          Embora tenha apenas quatro sílabas, a palavra <em>
+          componente</em> provoca zilhões de diferentes interpretações e
+          expectativas. Uma palavra tão fácil de pronunciar e tão difícil de
+          definir.
         </p>
         <p>
           Nesse momento, você deve estar convencido de que no próximo
-          parágrafo vou apresentar uma definição para "componente" que
+          parágrafo vou apresentar uma definição para <em>componente</em> que
           vai causar um terremoto na sua mente. A definição que, uma
           vez pronunciada, é capaz de incinerar toda e qualquer
           ambiguidade.
@@ -55,11 +56,8 @@ export class RComponentMaturityModelPT extends Component {
           Maturidade de Componentes.
         </p>
         <h2>
-          Nível Zero
+          Nível Zero: Caos
         </h2>
-        <h3>
-          Caos
-        </h3>
         <p>
           Bem vindos ao caos. Nesse nível, qualquer uma daquelas
           zilhões de interpretações ainda inexistem. Tudo se reduz a
@@ -123,17 +121,14 @@ export class RComponentMaturityModelPT extends Component {
         </RCode>
         <p>
           Um botão genérico de upload de arquivo foi acoplado a uma
-          folha de estilo já relacionada a um domínio de negócio
-          (finance). Comportamento e marcação não estão encapsulados e
+          folha de estilo já relacionada a um domínio de negócio <em>
+          (finance)</em>. Comportamento e marcação não estão encapsulados e
           serão replicados usando outras classes e outra marcação onde
           quer que o botão seja utilizado novamente.
         </p>
         <h2>
-          Nível Um
+          Nível Um: Componentes CSS
         </h2>
-        <h3>
-          Componentes CSS
-        </h3>
         <p>
           Estágio onde as estruturas HTML são padronizadas e as classes
           CSS podem ser reutilizadas.
@@ -190,18 +185,15 @@ export class RComponentMaturityModelPT extends Component {
 }
         </RCode>
         <p>
-          Estrutura HTML padronizada para um botão estilizado como
-          "primário" e contendo um ícone à esquerda de seu texto. Todas
+          Estrutura HTML padronizada para um botão estilizado como <em>
+          primary</em> e contendo um ícone à esquerda de seu texto. Todas
           as partes do sistema que precisam de um botão como esse, ao
           replicar essa estrutura com essas mesmas classes, são agora
           capazes de alcançar o mesmo resultado.
         </p>
         <h2>
-          Nível Dois
+          Nível Dois: Custom Elements
         </h2>
-        <h3>
-          Custom Elements
-        </h3>
         <p>
           Seja muito bem vinda, produtividade! Esse é o estágio onde
           tudo, absolutamente tudo, está encapsulado em seu próprio
@@ -247,7 +239,7 @@ export class RComponentMaturityModelPT extends Component {
 }
         </RCode>
         <p>
-          O custom element acima (my-button) é a única parte do sistema
+          O custom element acima <em>(my-button)</em> é a única parte do sistema
           onde qualquer coisa relacionada a todos os botões da
           aplicação é tratada.
         </p>
