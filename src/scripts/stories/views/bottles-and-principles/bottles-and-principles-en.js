@@ -1,12 +1,7 @@
 import React, { Component } from 'react';
-import Highlight from 'react-highlight';
 import { RCode } from '@scripts/base/components/code/code';
 import { RQuote } from '@scripts/base/components/quote/quote';
 import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
-
-const codes = {
-
-}
 
 export class RBottlesAndPrinciplesEN extends Component {
   render() {

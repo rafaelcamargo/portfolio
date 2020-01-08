@@ -12,6 +12,8 @@ import { Stories } from '@scripts/stories/stories';
 import { RComponentMaturityModelEN } from '@scripts/stories/views/component-maturity-model/component-maturity-model-en';
 import { RComponentMaturityModelPT } from '@scripts/stories/views/component-maturity-model/component-maturity-model-pt';
 import { RBottlesAndPrinciplesEN } from '@scripts/stories/views/bottles-and-principles/bottles-and-principles-en';
+import { RFormattingQualityEN } from '@scripts/stories/views/formatting-quality/formatting-quality-en';
+import { RFormattingQualityPT } from '@scripts/stories/views/formatting-quality/formatting-quality-pt';
 import storySummaries from '@scripts/stories/constants/story-summaries';
 
 export class AppRouter extends Component {
@@ -30,6 +32,8 @@ export class AppRouter extends Component {
             <Route path={ storySummaries[4].en.url.href } exact component={ RComponentMaturityModelEN } />
             <Route path={ storySummaries[4].pt.url.href } exact component={ RComponentMaturityModelPT } />
             <Route path={ storySummaries[5].en.url.href } exact component={ RBottlesAndPrinciplesEN } />
+            <Route path={ storySummaries[6].en.url.href } exact component={ RFormattingQualityEN } />
+            <Route path={ storySummaries[6].pt.url.href } exact component={ RFormattingQualityPT } />
           </ScrollToTop>
         </RHistory>
       </Router>
