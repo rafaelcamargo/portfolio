@@ -97,7 +97,7 @@ export default [
       alt: "bottles with different contents"
     },
     en: {
-      title: "Bottles and Principles. How to better organize CSS.",
+      title: "Bottles and principles. How to better organize CSS.",
       description: "Something really curious about lots of the most famous programming concepts, principles and good practices is that they seem to disappear or, at least, keep distant, when the software we are talking about is a web client, also known as a front-end application.",
       keywords: "component, css, stylesheet, open-closed",
       url: {
@@ -105,12 +105,35 @@ export default [
       }
     },
     pt: {
-      title: "Garrafas e Princípios. Como melhor organizar CSS.",
+      title: "Garrafas e princípios. Como melhor organizar CSS.",
       description: "Algo realmente curioso em relação a vários dos consagrados conceitos, princípios e boas práticas de programação é que eles parecem simplesmente desaparecer, ou ao menos soar distante, quando o software em questão é o cliente web, vulgo front-end.",
       keywords: "component, css, folhas de estilo, open-closed",
       url: {
         href: "https://medium.com/@rcamargo/entre-garrafas-e-princ%C3%ADpios-como-organizar-melhor-seu-css-4f1572159a04",
         target: "_blank"
+      }
+    }
+  },
+  {
+    id: 7,
+    image: {
+      filename: "story-formatting-quality.svg",
+      alt: "code successfully formatted"
+    },
+    en: {
+      title: "Formatting quality",
+      description: "It was mid-2018 and I needed to build an application for internal use at the company I was working for. The project was to put on the air a web client to monitor the company’s main application releases. I was the only front-end developer in the project and, having all the powers to structure the application the way I considered best, I couldn’t miss the opportunity to drive the application to quality.",
+      keywords: "eslint, formatting, code, quality",
+      url: {
+        href: "/formatting-quality"
+      }
+    },
+    pt: {
+      title: "Formatando qualidade",
+      description: "Era meados de 2018 e eu precisava criar uma aplicação de uso interno na empresa onde trabalhava. O projeto era colocar no ar um cliente web para monitorar as releases da aplicação principal da empresa. Eu era o único front-end trabalhando no projeto e, tendo totais poderes para estruturar a aplicação da maneira que eu achasse melhor, não pude deixar passar a oportunidade de orientar a aplicação à qualidade.",
+      keywords: "eslint, formatação, código, qualidade",
+      url: {
+        href: "/formantando-qualidade"
       }
     }
   }
