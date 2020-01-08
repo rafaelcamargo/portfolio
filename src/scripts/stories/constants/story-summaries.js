@@ -133,7 +133,7 @@ export default [
       description: "Era meados de 2018 e eu precisava criar uma aplicação de uso interno na empresa onde trabalhava. O projeto era colocar no ar um cliente web para monitorar as releases da aplicação principal da empresa. Eu era o único front-end trabalhando no projeto e, tendo totais poderes para estruturar a aplicação da maneira que eu achasse melhor, não pude deixar passar a oportunidade de orientar a aplicação à qualidade.",
       keywords: "eslint, formatação, código, qualidade",
       url: {
-        href: "/formantando-qualidade"
+        href: "/formatando-qualidade"
       }
     }
   }
