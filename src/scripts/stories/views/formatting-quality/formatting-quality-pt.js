@@ -88,9 +88,12 @@ export class RFormattingQualityPT extends Component {
         <p>
           Assim como o limite mínimo para testes unitários, não inicio mais
           nenhum projeto sem essas regras. Essas restrições colaboram com
-          uma sensação única. A sensação de profunda tranquilidade para por o
-          código em produção sempre que todas as etapas da integração
-          contínua passam com sucesso.
+          um fator importante. A todo momento sou pressionado a refletir
+          sobre como organizo meu código. Nada impede que você faça uma entrega
+          de sucesso hoje focando apenas em ter um código que satisfaça os
+          requisitos especificados. Mas se preocupar em como organizar o
+          código antes mesmo de faze-lo satisfazer qualquer especificação
+          garantirá o sucesso da entrega de hoje e de todas as demais.
         </p>
       </RStoryViewport>
     );

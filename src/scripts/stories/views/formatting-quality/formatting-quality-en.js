@@ -51,7 +51,7 @@ export class RFormattingQualityEN extends Component {
           than one single responsibility and makes impossible for anyone to
           predict what it returns just reading its name. I set this rule’s
           maximum value as three. In practice, it means a function can contain
-          one “if/else” or two “if”.
+          one <em>if/else</em> or two <em>if</em>.
         </p>
         <p>
           <b>
@@ -63,7 +63,7 @@ export class RFormattingQualityEN extends Component {
         <p>
           Modules/Classes containing hundreds of lines are a code smell. They
           are very likely to concentrate on more responsibilities than they
-          should. It’s not rare to stumble upon some file named “helper” which,
+          should. It’s not rare to stumble upon some file named <em>helper</em> which,
           in practice, becomes a bottomless chest that accepts anything and
           tends to inflate indefinitely. Setting one hundred as the maximum
           number of lines for a file, I make it hard to concentrate
@@ -83,11 +83,13 @@ export class RFormattingQualityEN extends Component {
           For this rule, I define a limit of five statements per function.
         </p>
         <p>
-          As well as the unit test coverage threshold, I am not able to start a
-          project without those quality rules anymore. Those constraints help
-          to provide a unique feeling. The high confidence feeling to
-          immediately release, any day at any time, every code that has
-          successfully passed the continuous integration pipe.
+          As well as the unit test coverage threshold, I don't start a project
+          without those quality rules anymore. Those constraints collaborate
+          with an important factor. I'm forced to reflect on how I organize my
+          code <em>all the time</em>. You can successfully release some code today
+          by only focusing on making it satisfy its requirements. But reflecting
+          on how to organize the code even before it satisfies any requirement,
+          you ensure the success of today's release and every other else.
         </p>
       </RStoryViewport>
     );
