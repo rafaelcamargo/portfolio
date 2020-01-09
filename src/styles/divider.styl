@@ -1,0 +1,17 @@
+@require '_variables'
+@require '_mixins'
+
+$divider-height = 4px
+
+.r-divider
+  position relative
+  height $divider-height
+  &:before
+    position absolute
+    content ''
+    width 40px
+    height $divider-height
+    background-color $color-grey
+    top 50%
+    left 50%
+    transform('translate(-50%, -50%)')
