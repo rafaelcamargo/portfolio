@@ -38,7 +38,8 @@ export class RStoryViewport extends Component {
           title={ this.content.title }
           description={ this.content.description }
           keywords={ this.content.keywords }
-          lang={ this.props.primaryLanguage }>
+          lang={ this.props.primaryLanguage }
+          image={ this.summary.thumbnail }>
           <RHero title={ this.content.title } size="small" />
           <RSection>
             <RRow>
