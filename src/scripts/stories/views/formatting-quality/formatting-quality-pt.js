@@ -54,7 +54,7 @@ export class RFormattingQualityPT extends Component {
           possui apenas uma única responsabilidade. Lendo apenas seu nome,
           não é mais possível prever seu resultado. Defino para essa regra o
           valor máximo de três. Isso significa na prática que uma função pode
-          conter um “if/else” ou, no máximo, dois “if”.
+          conter um <em>if/else</em> ou, no máximo, dois <em>if</em>.
         </p>
         <p>
           <b>
@@ -67,7 +67,7 @@ export class RFormattingQualityPT extends Component {
           Módulos/classes que contém centenas de linhas representam um mal
           cheiro no código. Muito provavelmente estão concentrando mais
           responsabilidades do que deveriam. Não é raro tropeçarmos em arquivos
-          nomeados como “helpers” que na prática se tornam baús sem fundo e
+          nomeados como <em>helpers</em> que na prática se tornam baús sem fundo e
           crescem indeterminadamente. Definindo o limite de cem linhas por
           arquivos, forço mais uma vez a desconcentração de responsabilidades.
           Módulos e classes devem ser tão pequenos quanto suas responsabilidades.
@@ -88,7 +88,7 @@ export class RFormattingQualityPT extends Component {
         <p>
           Assim como o limite mínimo para testes unitários, não inicio mais
           nenhum projeto sem essas regras. Essas restrições colaboram com
-          um fator importante. A todo momento sou pressionado a refletir
+          um fator importante. A <em>todo momento</em> sou pressionado a refletir
           sobre como organizo meu código. Nada impede que você faça uma entrega
           de sucesso hoje focando apenas em ter um código que satisfaça os
           requisitos especificados. Mas se preocupar em como organizar o

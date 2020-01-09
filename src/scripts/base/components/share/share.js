@@ -24,7 +24,7 @@ export class RShare extends Component {
 
   render() {
     return (
-      <div className="r-share" lang="en">
+      <div className="r-share" lang={ this.props.lang }>
         <span
           className="r-share-label"
           data-share-label>

@@ -7,16 +7,19 @@ $image-container-bg-color = #F9EFD2;
   position relative
   margin 0 auto
   max-width 640px
-  .r-share
-    position absolute
-    top 0
-    left -280px
   .r-code
     margin-top 20px
     & + p
       margin-top 20px
   .r-quote
     margin 40px 0
+  .r-story-footer
+    position absolute
+    top 0
+    left -280px
+    max-width 225px
+    .r-divider
+      display none
   h2
     margin 100px 0 50px
     font-size $font-size-lg
@@ -57,8 +60,11 @@ $image-container-bg-color = #F9EFD2;
     .r-image
       transform('scale(1.5) translateY(-35%)')
   .r-story-viewport-content
-    .r-share
+    .r-story-footer
       position relative
+      top 0
       left 0
-      margin 30px 0
-      width 100%
+      margin-top 60px
+      max-width none
+      .r-divider
+        display block

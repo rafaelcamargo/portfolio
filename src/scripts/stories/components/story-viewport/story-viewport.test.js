@@ -3,7 +3,7 @@ import { shallow } from 'enzyme';
 import { RHero } from '@scripts/base/components/hero/hero';
 import { RImage } from '@scripts/base/components/image/image';
 import { RViewport } from '@scripts/base/components/viewport/viewport';
-import { RShare } from '@scripts/base/components/share/share';
+import { RStoryFooter } from '@scripts/stories/components/story-footer/story-footer';
 import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 import routeService from '@scripts/base/services/route/route';
 import storiesService from '@scripts/stories/services/stories/stories';
@@ -70,12 +70,12 @@ describe('Story Viewport', () => {
     expect(wrapper.find(RImage).prop('alt')).toEqual('components');
   });
 
-  it('should contain a share component', () => {
+  it('should contain a story footer component', () => {
     const wrapper = mount({ storySummaryId: 1, primaryLanguage: 'pt' });
-    const share = wrapper.find(RShare).at(0);
-    expect(share.prop('message')).toEqual('título');
-    expect(share.prop('url')).toEqual('http://some.url.com');
-    expect(share.prop('lang')).toEqual('pt');
+    const storyFooter = wrapper.find(RStoryFooter).at(0);
+    expect(storyFooter.prop('shareMessage')).toEqual('título');
+    expect(storyFooter.prop('shareUrl')).toEqual('http://some.url.com');
+    expect(storyFooter.prop('lang')).toEqual('pt');
   });
 
   it('should transclude some content', () => {

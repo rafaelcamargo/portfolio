@@ -161,8 +161,8 @@ export class RBottlesAndPrinciplesEN extends Component {
         </h2>
         <p>
           So you may be thinking: what if a new requirement demands a small
-          or large bottle? Should I create new objects named <em>small-bottle</em>
-          and <em>large-bottle</em>?
+          or large bottle? Should I create new objects named <em>small-bottle
+          </em> and <em>large-bottle</em>?
         </p>
         <p>
           No. In this case, we would be handling aspects of the bottle
@@ -178,13 +178,13 @@ export class RBottlesAndPrinciplesEN extends Component {
         </RCode>
         <p>
           The CSS class <em>bottle-small</em> modifies the default bottle making it
-          small. That said, <em>bottle-small</em> should be placed on <em>bottle.css</em>
-          style sheet. In that style sheet, every aspect that refers to the
+          small. That said, <em>bottle-small</em> should be placed on <em>bottle.css
+          </em> style sheet. In that style sheet, every aspect that refers to the
           bottle should be placed, including its own variations. That style
           sheet should not contain anything that is not directly related to
           the bottle. Bottle should not know any aspect other than its own. If
-          we create a class named <em>bottle-wine</em> and write it inside
-          <em>bottle.css</em>, we would be bringing the context into the bottle.
+          we create a class named <em>bottle-wine</em> and write it inside <em>
+          bottle.css</em>, we would be bringing the context into the bottle.
           Since a bottle can be filled with infinite different contents, we
           would be taking the risk of inflating the bottle object with a pile
           of aspects that should not be there. After some time, this object
@@ -227,10 +227,13 @@ export class RBottlesAndPrinciplesEN extends Component {
           <li>
             The CSS classes that perform the modifier role are never used
             alone. <em>application-action-close</em> has no effect if used alone.
-            In this case, it only modifies something if used together
-            <em>application-action</em>.
+            In this case, it only modifies something if used together <em>
+            application-action</em>.
           </li>
         </ol>
+        <h2>
+          In practice
+        </h2>
         <p>
           Are you curious to see this concept applied in a real project? Check
           out one of my open source projects called <a href="https://glorious.codes/demo" target="_blank">
