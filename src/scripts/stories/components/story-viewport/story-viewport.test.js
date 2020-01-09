@@ -16,6 +16,7 @@ describe('Story Viewport', () => {
           filename: 'components.svg',
           alt: 'components'
         },
+        thumbnail: 'some-thumb.png',
         en: {
           title: 'title',
           description: 'description',
@@ -55,7 +56,12 @@ describe('Story Viewport', () => {
     expect(wrapper.find(RViewport).prop('title')).toEqual('title');
     expect(wrapper.find(RViewport).prop('description')).toEqual('description');
     expect(wrapper.find(RViewport).prop('keywords')).toEqual('keywords');
-    expect(wrapper.find(RViewport).prop('keywords')).toEqual('keywords');
+    expect(wrapper.find(RViewport).prop('image')).toEqual('some-thumb.png');
+  });
+
+  it('should pass lang to viewport', () => {
+    const wrapper = mount({ storySummaryId: 1, primaryLanguage: 'en' });
+    expect(wrapper.find(RViewport).prop('lang')).toEqual('en');
   });
 
   it('should build a hero with story summary title', () => {

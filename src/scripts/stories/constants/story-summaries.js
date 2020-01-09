@@ -73,6 +73,7 @@ export default [
       filename: "story-component-maturity-model.svg",
       alt: "ui coponents illustration"
     },
+    thumbnail: 'story-component-maturity-model-512x512.png',
     en: {
       title: "Component maturity model",
       description: "Think you are a programmer, a front-end programmer. You collaborate with the development of a web product. Your workmates are back-end programmers, designers and product owners. So, in an ordinary day, in a casual meeting, in a simple presentation or in a regular chat among team members, you make use of a word, a very simple word. Component.",
@@ -96,6 +97,7 @@ export default [
       filename: "story-bottles-and-principles.svg",
       alt: "bottles with different contents"
     },
+    thumbnail: 'story-bottles-and-principles-512x512.png',
     en: {
       title: "Bottles and principles. How to better organize CSS.",
       description: "Something really curious about lots of the most famous programming concepts, principles and good practices is that they seem to disappear or, at least, keep distant, when the software we are talking about is a web client, also known as a front-end application.",
@@ -120,6 +122,7 @@ export default [
       filename: "story-formatting-quality.svg",
       alt: "code successfully formatted"
     },
+    thumbnail: 'story-formatting-quality-512x512.png',
     en: {
       title: "Formatting quality",
       description: "It was mid-2018 and I needed to build an application for internal use at the company I was working for. The project was to put on the air a web client to monitor the company’s main application releases. I was the only front-end developer in the project and, having all the powers to structure the application the way I considered best, I couldn’t miss the opportunity to drive the application to quality.",
