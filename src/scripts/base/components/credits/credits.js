@@ -6,9 +6,9 @@ export class RCredits extends Component {
     return (
       <div className="r-credits">
         <p>
-          This site is powered by React, pre rendered on Webpack build time
-          and is open source. If you wanna give a look on its source code,
-          check it out on <a href="https://github.com/rafaelcamargo/portfolio" target="_blank">Github</a>.
+          This is an open source website. If you wanna give a look on
+          it, <a href="https://github.com/rafaelcamargo/portfolio" target="_blank">
+          click here</a>.
         </p>
       </div>
     );

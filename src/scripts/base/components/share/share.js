@@ -1,6 +1,6 @@
-import '@styles/share.styl';
 import React, { Component } from 'react';
 import { RButton } from '@scripts/base/components/button/button';
+import { RIcon } from '@scripts/base/components/icon/icon';
 import analyticsService from '@scripts/base/services/analytics/analytics';
 import localesService from '@scripts/base/services/locales/locales';
 import routeService from '@scripts/base/services/route/route';
@@ -15,7 +15,7 @@ export class RShare extends Component {
     this.texts = texts;
   };
 
-  onTwitterButtonClick = () => {
+  onClick = () => {
     const { message, url } = this.props;
     const tweet = `${ this.texts.tweetPrefix } "${message}" ${url}`;
     routeService.openUrl('https://twitter.com/intent/tweet', { text: tweet });
@@ -24,24 +24,14 @@ export class RShare extends Component {
 
   render() {
     return (
-      <div className="r-share" lang={ this.props.lang }>
-        <span
-          className="r-share-label"
-          data-share-label>
+      <span className="r-share" lang={ this.props.lang }>
+        <RButton
+          theme="primary"
+          onClick={ this.onClick }
+          iconName="twitter">
           { this.texts.label }
-        </span>
-        <ul className="r-share-items">
-          <li className="r-share-item">
-            <RButton
-              iconName="twitter"
-              theme="faceless"
-              ariaLabel="twitter"
-              onClick={ this.onTwitterButtonClick }
-              data-share-twitter-button>
-            </RButton>
-          </li>
-        </ul>
-      </div>
+        </RButton>
+      </span>
     );
   }
 }
