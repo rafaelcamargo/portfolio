@@ -3,6 +3,7 @@ import { shallow } from 'enzyme';
 import { RAvatar } from '@scripts/base/components/avatar/avatar';
 import { RAvatron } from '@scripts/base/components/avatron/avatron';
 import { RBadge } from '@scripts/base/components/badge/badge';
+import { RExternalLink } from '@scripts/base/components/external-link/external-link';
 
 describe('Icon', () => {
   function mount(props = {}){
@@ -49,7 +50,7 @@ describe('Icon', () => {
     const title = 'Hello!';
     const url = 'https://hello.com';
     const wrapper = mount({ title, url });
-    expect(wrapper.find('h2 a').prop('href')).toEqual(url);
+    expect(wrapper.find(RExternalLink).prop('href')).toEqual(url);
   });
 
   it('should render a subtitle', () => {
