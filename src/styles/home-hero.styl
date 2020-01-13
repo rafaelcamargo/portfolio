@@ -1,3 +1,4 @@
+@require '_variables'
 @require '_mixins'
 
 .r-home-hero
@@ -9,6 +10,12 @@
     right 0
   .r-home-mobile-panel
     transform('scale(.75)')
+  p
+    margin-top 10px
+    font-size $font-size-xs
+
+.r-home-hero-copy-container
+  max-width 700px
 
 .r-home-hero-art-container
   position absolute
