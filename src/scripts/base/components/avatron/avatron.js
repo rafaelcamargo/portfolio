@@ -2,6 +2,7 @@ import '@styles/avatron.styl';
 import React, { Component } from 'react';
 import { RAvatar } from '@scripts/base/components/avatar/avatar';
 import { RBadge } from '@scripts/base/components/badge/badge';
+import { RExternalLink } from '@scripts/base/components/external-link/external-link';
 
 export class RAvatron extends Component {
   render() {
@@ -25,7 +26,7 @@ function buildAvatar(image){
 }
 
 function buildTitle(title, url){
-  return url ? <a href={ url } target="_blank">{ title }</a> : title;
+  return url ? <RExternalLink href={ url }>{ title }</RExternalLink> : title;
 }
 
 function buildBadge(text){

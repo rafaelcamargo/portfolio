@@ -2,6 +2,7 @@ import '@styles/recommendation.styl';
 import React, { Component } from 'react';
 import recommendationsService from '@scripts/recommendations/services/recommendations/recommendations';
 import { RAvatar } from '@scripts/base/components/avatar/avatar';
+import { RExternalLink } from '@scripts/base/components/external-link/external-link';
 
 export class RRecommendation extends Component {
   constructor(props){
@@ -63,5 +64,5 @@ function buildFormerCompanyInfo({ name, url }){
 }
 
 function buildLink({ name, url }){
-  return <a href={ url } target="_blank">{ name }</a>;
+  return <RExternalLink href={ url }>{ name }</RExternalLink>;
 }
