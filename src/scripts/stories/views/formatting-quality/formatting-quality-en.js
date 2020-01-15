@@ -21,10 +21,10 @@ export class RFormattingQualityEN extends Component {
           been working on. On this project, it wasn’t different. But this time,
           I would like to ensure some other aspects related to quality. I
           wanted to find a way to avoid functions and files inflate themselves
-          tending to the chaos. I wanted to avoid nested conditions that
-          little by little make the return of a function becomes unpredictable,
+          tending to the chaos. I wanted to avoid nested conditions that,
+          little by little, make the return of a function become unpredictable,
           terrible to read and maintain. I wanted to find such an alarm that
-          would be fired every time a module, class or function starting to
+          would be fired every time a module, class or function started to
           concentrate too much responsibility.
         </p>
         <p>
@@ -62,11 +62,11 @@ export class RFormattingQualityEN extends Component {
         </p>
         <p>
           Modules/Classes containing hundreds of lines are a code smell. They
-          are very likely to concentrate on more responsibilities than they
-          should. It’s not rare to stumble upon some file named <em>helper</em> which,
+          are propably embracing more responsibilities than they should.
+          It’s not rare to stumble upon some file named <em>helper</em> which,
           in practice, becomes a bottomless chest that accepts anything and
           tends to inflate indefinitely. Setting one hundred as the maximum
-          number of lines for a file, I make it hard to concentrate
+          number of lines for a file, I make it hard to cumulate
           responsibilities and favor its distribution instead. Modules and
           classes should be as small as their responsibilities.
         </p>
@@ -78,7 +78,7 @@ export class RFormattingQualityEN extends Component {
           </b>
         </p>
         <p>
-          In addition to cyclomatic complexity, a function that contains too
+          In addition to cyclomatic complexity, a function containing too
           many statements is a clue that it’s doing more than what it should.
           For this rule, I define a limit of five statements per function.
         </p>
