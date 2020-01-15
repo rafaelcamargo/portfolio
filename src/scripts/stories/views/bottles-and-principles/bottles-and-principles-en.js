@@ -20,11 +20,11 @@ export class RBottlesAndPrinciplesEN extends Component {
           minimum of logical dignity regarding how code was organized. Most of
           them were just a bunch of code lines highly interdependent with
           very bad delimited responsibilities. A real mess that wasn’t even
-          close from any of the letters SOLID.
+          close from any of the letters <em>SOLID</em>.
         </p>
         <p>
           In the middle of that blurry and mysterious representation of what
-          would be the web-client raises something that is likely the main
+          would be the web client raises something that is likely the main
           cause for the despair felt by who needs to maintain and improve
           that mess. Style sheets. Yes, CSS. I have met programmers that felt
           real terror for CSS. Among other lovely statements, I have already heard:
