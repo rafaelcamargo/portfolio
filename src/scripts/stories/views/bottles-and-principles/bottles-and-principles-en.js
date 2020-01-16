@@ -8,7 +8,9 @@ export class RBottlesAndPrinciplesEN extends Component {
     return (
       <RStoryViewport
         storySummaryId={6}
-        primaryLanguage="en">
+        primaryLanguage="en"
+        secondaryLanguage="pt"
+        relatedStoriesIds={[5,7]}>
         <p>
           Something really curious about lots of the most famous programming
           concepts, principles and good practices is that they seem to

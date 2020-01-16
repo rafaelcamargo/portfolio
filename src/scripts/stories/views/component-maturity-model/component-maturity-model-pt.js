@@ -7,7 +7,9 @@ export class RComponentMaturityModelPT extends Component {
     return (
       <RStoryViewport
         storySummaryId={5}
-        primaryLanguage="pt">
+        primaryLanguage="pt"
+        secondaryLanguage="en"
+        relatedStoriesIds={[6,7]}>
         <p>
           Pense que você é um programador, um programador front-end.
           Você colabora com o desenvolvimento de um produto web. Você
