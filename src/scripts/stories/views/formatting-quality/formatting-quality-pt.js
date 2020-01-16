@@ -6,7 +6,9 @@ export class RFormattingQualityPT extends Component {
     return (
       <RStoryViewport
         storySummaryId={7}
-        primaryLanguage="pt">
+        primaryLanguage="pt"
+        secondaryLanguage="en"
+        relatedStoriesIds={[5,6]}>
         <p>
           Era meados de 2018 e eu precisava criar uma aplicação de uso interno
           na empresa onde trabalhava. O projeto era colocar no ar um cliente

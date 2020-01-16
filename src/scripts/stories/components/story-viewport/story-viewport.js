@@ -4,6 +4,7 @@ import { RCol } from '@scripts/base/components/col/col';
 import { RImage } from '@scripts/base/components/image/image';
 import { RHero } from '@scripts/base/components/hero/hero';
 import { RRow } from '@scripts/base/components/row/row';
+import { RRelatedStories } from '@scripts/stories/components/related-stories/related-stories';
 import { RSection } from '@scripts/base/components/section/section';
 import { RStoryFooter } from '@scripts/stories/components/story-footer/story-footer';
 import { RViewport } from '@scripts/base/components/viewport/viewport';
@@ -53,6 +54,10 @@ export class RStoryViewport extends Component {
                     shareMessage={ this.content.title }
                     shareUrl={ this.storyUrl }
                     lang={ this.props.primaryLanguage }/>
+                  <RRelatedStories
+                    summaryIds={ this.props.relatedStoriesIds }
+                    primaryLanguage={ this.props.primaryLanguage }
+                    secondaryLanguage={ this.props.secondaryLanguage } />
                 </div>
               </RCol>
             </RRow>

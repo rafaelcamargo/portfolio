@@ -23,7 +23,7 @@ export class Stories extends Component {
         <RSection>
           <RRow >
             <RCol size="12">
-              <RStoryList />
+              <RStoryList primaryLanguage="en" secondaryLanguage="pt" />
             </RCol>
           </RRow>
         </RSection>
