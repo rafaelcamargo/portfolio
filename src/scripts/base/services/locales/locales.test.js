@@ -17,4 +17,10 @@ describe('Locales Service', () => {
     const locale = localesService.get('pt', 'Share');
     expect(locale).toEqual(pt.Share);
   });
+
+  it('should optionally accept custom locales', () => {
+    const customLocales = { en: { RelatedStories: { title: 'Related Stories' } } };
+    const locale = localesService.get('en', 'RelatedStories', customLocales);
+    expect(locale.title).toEqual('Related Stories');
+  });
 });

@@ -3,8 +3,8 @@ import pt from '@scripts/base/locales/pt';
 
 const _public = {};
 
-_public.get = (lang = 'en', component) => {
-  const locales = getLocales();
+_public.get = (lang = 'en', component, customLocales) => {
+  const locales = customLocales || getLocales();
   return component ? locales[lang][component] : locales[lang];
 };
 
