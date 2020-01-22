@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { RAvatron } from '@scripts/base/components/avatron/avatron';
 import { RCol } from '@scripts/base/components/col/col';
 import { RHero } from '@scripts/base/components/hero/hero';
+import { RNewsletterBar } from '@scripts/base/components/newsletter-bar/newsletter-bar';
 import { RRow } from '@scripts/base/components/row/row';
 import { RSection } from '@scripts/base/components/section/section';
 import { RViewport } from '@scripts/base/components/viewport/viewport';
@@ -141,7 +142,10 @@ export class Experience extends Component {
               </p>
             </RCol>
           </RRow>
-          <RRow offset="10">
+        </RSection>
+        <RNewsletterBar />
+        <RSection>
+          <RRow>
             <RCol size="6">
               <RAvatron
                 image="logo-jobscore.png"

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { RCol } from '@scripts/base/components/col/col';
 import { RHero } from '@scripts/base/components/hero/hero';
+import { RNewsletterBar } from '@scripts/base/components/newsletter-bar/newsletter-bar';
 import { RRecommendation } from '@scripts/recommendations/components/recommendation/recommendation';
 import { RRecommendationList } from '@scripts/recommendations/components/recommendation-list/recommendation-list';
 import { RRow } from '@scripts/base/components/row/row';
@@ -29,6 +30,15 @@ export class Recommendations extends Component {
                 <RRecommendation id="bruckheimer" />
                 <RRecommendation id="rodrigues" />
                 <RRecommendation id="abraao" />
+              </RRecommendationList>
+            </RCol>
+          </RRow>
+        </RSection>
+        <RNewsletterBar />
+        <RSection>
+          <RRow>
+            <RCol>
+              <RRecommendationList>
                 <RRecommendation id="chapuis" />
                 <RRecommendation id="cunha" />
                 <RRecommendation id="branco" />
