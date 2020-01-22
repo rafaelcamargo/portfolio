@@ -1,11 +1,11 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { mount } from 'enzyme';
 import { RNewsletter } from '@scripts/base/components/newsletter/newsletter';
 import analyticsService from '@scripts/base/services/analytics/analytics';
 
 describe('Share', () => {
-  function mount(props = {}){
-    return shallow(
+  function mountComponent(props = {}){
+    return mount(
       <RNewsletter lang={ props.lang } />
     );
   }
@@ -15,33 +15,33 @@ describe('Share', () => {
   });
 
   it('should have appropriate css class', () => {
-    const wrapper = mount();
-    expect(wrapper.prop('className')).toEqual('r-newsletter');
+    const wrapper = mountComponent();
+    expect(wrapper.find('div').prop('className')).toEqual('r-newsletter');
   });
 
   it('should show texts in english by default', () => {
     const ctaText = 'Don\'t miss a thing, subscribe to my newsletter!';
     const linkText = 'Subscribe';
-    const wrapper = mount();
-    expect(wrapper.find('span').text().trim()).toEqual(ctaText);
+    const wrapper = mountComponent();
+    expect(wrapper.find('span').at(0).text().trim()).toEqual(ctaText);
     expect(wrapper.find('a').text().trim()).toEqual(linkText);
   });
 
-  it('should optionally show texts in portugues', () => {
+  it('should optionally show texts in portuguese', () => {
     const ctaText = 'Não perca nenhuma nova publicação, assine a newsletter!';
     const linkText = 'Assinar';
-    const wrapper = mount({ lang: 'pt' });
-    expect(wrapper.find('span').text().trim()).toEqual(ctaText);
+    const wrapper = mountComponent({ lang: 'pt' });
+    expect(wrapper.find('span').at(0).text().trim()).toEqual(ctaText);
     expect(wrapper.find('a').text().trim()).toEqual(linkText);
   });
 
   it('should newsletter link open in new tab', () => {
-    const wrapper = mount();
+    const wrapper = mountComponent();
     expect(wrapper.find('a').prop('target')).toEqual('_blank');
   });
 
   it('should track newsletter link click', () => {
-    const wrapper = mount();
+    const wrapper = mountComponent();
     wrapper.find('a').simulate('click');
     expect(analyticsService.trackEvent).toHaveBeenCalledWith('newsletter link clicked');
   });
