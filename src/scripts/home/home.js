@@ -4,6 +4,7 @@ import { RCtaLink } from '@scripts/base/components/cta-link/cta-link';
 import { RFeature } from '@scripts/base/components/feature/feature';
 import { RFeatureList } from '@scripts/base/components/feature-list/feature-list';
 import { RHomeHero } from '@scripts/home/components/home-hero/home-hero';
+import { RNewsletterBar } from '@scripts/base/components/newsletter-bar/newsletter-bar';
 import { RRecommendation } from '@scripts/recommendations/components/recommendation/recommendation';
 import { RRecommendationList } from '@scripts/recommendations/components/recommendation-list/recommendation-list';
 import { RRow } from '@scripts/base/components/row/row';
@@ -58,6 +59,7 @@ export class Home extends Component {
             </RCol>
           </RRow>
         </RSection>
+        <RNewsletterBar />
         <RSection>
           <RRow>
             <RCol size="12">
