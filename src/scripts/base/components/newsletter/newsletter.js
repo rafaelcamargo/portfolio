@@ -1,6 +1,6 @@
 import '@styles/newsletter.styl';
 import React, { Component } from 'react';
-import { RHeroLink } from '@scripts/base/components/hero-link/hero-link';
+import { RNewsletterLink } from '@scripts/base/components/newsletter-link/newsletter-link';
 import analyticsService from '@scripts/base/services/analytics/analytics';
 import localesService from '@scripts/base/services/locales/locales';
 
@@ -14,19 +14,12 @@ export class RNewsletter extends Component {
     this.texts = texts;
   };
 
-  onNewsletterClick = () => {
-    analyticsService.trackEvent('newsletter link clicked');
-  };
-
   render() {
     return (
       <div className="r-newsletter" lang={ this.props.lang }>
         <span>
           { this.texts.cta }
-        </span> <RHeroLink
-          href="http://eepurl.com/gPeUgz"
-          text={ this.texts.link }
-          onClick={ this.onNewsletterClick } />
+        </span> <RNewsletterLink text={ this.texts.link } />
       </div>
     );
   }

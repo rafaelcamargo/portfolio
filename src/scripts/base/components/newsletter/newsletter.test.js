@@ -1,18 +1,14 @@
 import React from 'react';
 import { mount } from 'enzyme';
+import { RNewsletterLink } from '@scripts/base/components/newsletter-link/newsletter-link';
 import { RNewsletter } from '@scripts/base/components/newsletter/newsletter';
-import analyticsService from '@scripts/base/services/analytics/analytics';
 
-describe('Share', () => {
+describe('Newsletter', () => {
   function mountComponent(props = {}){
     return mount(
       <RNewsletter lang={ props.lang } />
     );
   }
-
-  beforeEach(() => {
-    analyticsService.trackEvent = jest.fn();
-  });
 
   it('should have appropriate css class', () => {
     const wrapper = mountComponent();
@@ -24,7 +20,7 @@ describe('Share', () => {
     const linkText = 'Subscribe';
     const wrapper = mountComponent();
     expect(wrapper.find('span').at(0).text().trim()).toEqual(ctaText);
-    expect(wrapper.find('a').text().trim()).toEqual(linkText);
+    expect(wrapper.find(RNewsletterLink).prop('text')).toEqual(linkText);
   });
 
   it('should optionally show texts in portuguese', () => {
@@ -32,17 +28,6 @@ describe('Share', () => {
     const linkText = 'Assinar';
     const wrapper = mountComponent({ lang: 'pt' });
     expect(wrapper.find('span').at(0).text().trim()).toEqual(ctaText);
-    expect(wrapper.find('a').text().trim()).toEqual(linkText);
-  });
-
-  it('should newsletter link open in new tab', () => {
-    const wrapper = mountComponent();
-    expect(wrapper.find('a').prop('target')).toEqual('_blank');
-  });
-
-  it('should track newsletter link click', () => {
-    const wrapper = mountComponent();
-    wrapper.find('a').simulate('click');
-    expect(analyticsService.trackEvent).toHaveBeenCalledWith('newsletter link clicked');
+    expect(wrapper.find(RNewsletterLink).prop('text')).toEqual(linkText);
   });
 });
