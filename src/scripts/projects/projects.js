@@ -45,6 +45,19 @@ export class Projects extends Component {
                   Product Hunt</a>.
                 </RProject>
                 <RProject
+                  image="logo-pitsby.svg"
+                  title="Pitsby"
+                  subtitle="2019"
+                  badgeText="Open Source"
+                  url="https://pitsby.com"
+                  ctaUrl="https://github.com/glorious-codes/glorious-pitsby"
+                  ctaText="See The Code">
+                  Pitsby is a super simple tool to document UI components in a
+                  declarative way. Its main features are Lightning Setup, Wide
+                  Support, Playground, Analytics Integration and Customization.
+                  It will be officially launched soon. Stay tunned.
+                </RProject>
+                <RProject
                   image="logo-nashios.svg"
                   title="Nashios"
                   subtitle="2017"
@@ -54,6 +67,15 @@ export class Projects extends Component {
                   products we all love. The web-client was built with Vue.
                   Logo and components designed by me.
                 </RProject>
+              </RProjectList>
+            </RCol>
+          </RRow>
+        </RSection>
+        <RNewsletterBar />
+        <RSection>
+          <RRow>
+            <RCol size="12">
+              <RProjectList>
                 <RProject
                   image="logo-woblast.svg"
                   title="Woblast"
@@ -66,25 +88,6 @@ export class Projects extends Component {
                   exchange variations, and monitors them in real time. Built
                   with React, HG Brasil Finance API and ChartJS. Logo and
                   components designed by me.
-                </RProject>
-              </RProjectList>
-            </RCol>
-          </RRow>
-        </RSection>
-        <RNewsletterBar />
-        <RSection>
-          <RRow>
-            <RCol size="12">
-              <RProjectList>
-                <RProject
-                  image="logo-teleflik.svg"
-                  title="Teleflik"
-                  subtitle="2016"
-                  url="https://play.google.com/store/apps/details?id=com.ionicframework.teleflik479683&hl=en_US">
-                  Android app that helps you finding TV shows that match your
-                  interests on the following 24h. I did this to learn how to build a
-                  mobile app using Ionic and AngularJS. Logo and components
-                  designed by me.
                 </RProject>
                 <RProject
                   image="logo-weather-now.svg"
@@ -103,14 +106,14 @@ export class Projects extends Component {
                   challenge.
                 </RProject>
                 <RProject
-                  image="logo-hiphunt.svg"
-                  title="Hiphunt"
-                  subtitle="2019"
-                  url="https://hiphunt.com">
-                  This is a project in progress that aims to help companies
-                  finding excellent JavaScript developers. Landing page built
-                  with Vue and pre rendered to get all of its content indexed.
-                  Logo and components designed by me.
+                  image="logo-teleflik.svg"
+                  title="Teleflik"
+                  subtitle="2016"
+                  url="https://play.google.com/store/apps/details?id=com.ionicframework.teleflik479683&hl=en_US">
+                  Android app that helps you finding TV shows that match your
+                  interests on the following 24h. I did this to learn how to build a
+                  mobile app using Ionic and AngularJS. Logo and components
+                  designed by me.
                 </RProject>
               </RProjectList>
             </RCol>
