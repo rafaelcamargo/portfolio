@@ -30,9 +30,9 @@ export class Skills extends Component {
                 Design System</b> team.
               </p>
               <p>
-                Along this rich period, I got fluent with
+                Along this rich period, I got fluent in
                 the <b>latest JavaScript specifications</b>, several front-end
-                technologies and got deep in concepts that have shaped the
+                technologies and went deep in concepts that have shaped the
                 way I write software. Among these concepts are <b>Clean Code
                 </b>, <b>SOLID</b>, the <b>three laws of TDD</b> and this
                 awesome <a
@@ -44,11 +44,11 @@ export class Skills extends Component {
             </RCol>
             <RCol size="6">
               <p>
-                I have great knowledge on bundlers and task runners like <b>Gulp
+                I have great knowledge of bundlers and task runners like <b>Gulp
                 </b> and <b>Webpack</b>. Long experience building <b>Single Page
                 Applications</b> since the old <b>AngularJS</b> until the
                 modern <b>Vue</b> and <b>React</b>. I am very familiar with
-                unit test tools like <b>Karma</b>, <b>Jasmine</b> and <b>Jest</b>.
+                unit test tools like <b>Karma</b>, <b>Jasmine</b>, and <b>Jest</b>.
                 I’m extremely familiar with a wide range of CSS preprocessors
                 like <b>Sass</b>, <b>Less</b>, <b>PostCSS</b> and, mainly, <b>Stylus</b>.
               </p>

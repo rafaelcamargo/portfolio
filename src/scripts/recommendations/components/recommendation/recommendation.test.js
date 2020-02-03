@@ -49,7 +49,7 @@ describe('Recommendation', () => {
 
   it('should include former company in person professional info if former company has been given', () => {
     const wrapper = mountComponent({ id: 'semler' });
-    expect(wrapper.find('[data-recommendation-former-company]').text()).toEqual(`, formerly Former Company`);
+    expect(wrapper.find('[data-recommendation-former-company]').text()).toEqual(`, former Former Company`);
     expect(wrapper.find('[data-recommendation-former-company] a').props().href).toEqual('https://former-company.com');
   });
 

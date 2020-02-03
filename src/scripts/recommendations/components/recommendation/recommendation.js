@@ -59,7 +59,7 @@ function buildCurrentCompanyInfo({ position, name, url }){
 
 function buildFormerCompanyInfo({ name, url }){
   return name ?
-    <span data-recommendation-former-company>, formerly { buildLink({ name, url }) }</span> :
+    <span data-recommendation-former-company>, former { buildLink({ name, url }) }</span> :
     null;
 }
 

@@ -58,7 +58,7 @@ export class Experience extends Component {
                 image="logo-bcredi.png"
                 title="Bcredi"
                 subtitle="Nov.2019 - Present"
-                url="https://bcredi.com.br"
+                url="https://materiais.bcredi.com.br/baas"
                 caption="Curitiba, Brazil" />
             </RCol>
             <RCol size="6">

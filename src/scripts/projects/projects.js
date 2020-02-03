@@ -50,8 +50,8 @@ export class Projects extends Component {
                   subtitle="2017"
                   url="https://nashios.com">
                   That was the first time I made an API using Node. It
-                  integrates with Github and show the people behind some of the
-                  products we all love. The webclient was built with Vue.
+                  integrates with Github and shows the people behind some of the
+                  products we all love. The web-client was built with Vue.
                   Logo and components designed by me.
                 </RProject>
                 <RProject
@@ -82,7 +82,7 @@ export class Projects extends Component {
                   subtitle="2016"
                   url="https://play.google.com/store/apps/details?id=com.ionicframework.teleflik479683&hl=en_US">
                   Android app that helps you finding TV shows that match your
-                  interests on the next 24h. I did this to learn how to build a
+                  interests on the following 24h. I did this to learn how to build a
                   mobile app using Ionic and AngularJS. Logo and components
                   designed by me.
                 </RProject>
