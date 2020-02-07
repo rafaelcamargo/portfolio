@@ -18,9 +18,9 @@ export class Recommendations extends Component {
   render() {
     return (
       <RViewport
-        title={ meta.title }
-        description={ meta.description }
-        keywords={ meta.keywords }>
+        title={meta.title}
+        description={meta.description}
+        keywords={meta.keywords}>
         <RHero title="Recommendations" size="small" />
         <RSection>
           <RRow>
@@ -42,6 +42,7 @@ export class Recommendations extends Component {
                 <RRecommendation id="chapuis" />
                 <RRecommendation id="cunha" />
                 <RRecommendation id="branco" />
+                <RRecommendation id="jim" />
               </RRecommendationList>
             </RCol>
           </RRow>

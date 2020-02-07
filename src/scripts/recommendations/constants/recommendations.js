@@ -61,6 +61,19 @@ export default [
     content: "Rafael was responsible to introduce a new approach on how we organised JavaScript code on Jobscore. He is one of the best engineers I had the privilege to work with. I think his best trait is making sure that everything is reusable, easy to understand and maintainable."
   },
   {
+    id: "jim",
+    companyImage: "logo-ebanx.png",
+    companyName: "Ebanx",
+    companyUrl: "https://www.ebanx.com",
+    formerCompanyName: "Conta Azul",
+    formerCompanyUrl: "https://contaazul.com",
+    personImage: "avatar-jim.jpg",
+    personName: "Jim Chien",
+    personUrl: "https://www.linkedin.com/in/jim-chien/",
+    personPosition: "Programmer",
+    content: "Be part of the Design System team with Camargo was an outstanding experience both personally and professionally. In a short period of time, he saved tons of programmers time with his ability of abstracting simple reusable components. Definitely being close to him made me think more clearly about Clean Code, reusable components and TDD. If you need a star in your team, better call Camargo!"
+  },
+  {
     id: "matias",
     companyImage: "logo-nubank.png",
     companyName: "Nubank",
