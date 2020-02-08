@@ -64,14 +64,14 @@ export default [
     id: "jim",
     companyImage: "logo-ebanx.png",
     companyName: "Ebanx",
-    companyUrl: "https://www.ebanx.com",
+    companyUrl: "https://business.ebanx.com/en/",
     formerCompanyName: "Conta Azul",
     formerCompanyUrl: "https://contaazul.com",
     personImage: "avatar-jim.jpg",
     personName: "Jim Chien",
     personUrl: "https://www.linkedin.com/in/jim-chien/",
     personPosition: "Programmer",
-    content: "Be part of the Design System team with Camargo was an outstanding experience both personally and professionally. In a short period of time, he saved tons of programmers time with his ability of abstracting simple reusable components. Definitely being close to him made me think more clearly about Clean Code, reusable components and TDD. If you need a star in your team, better call Camargo!"
+    content: "Be part of the Design System team with Camargo was an outstanding experience both personally and professionally. In a short period, he saved tons of programming time with his ability to abstract components. Definitely being close to him made me think more clearly about Clean Code, reusability and TDD. If you need a star in your team, better call Camargo!"
   },
   {
     id: "matias",
