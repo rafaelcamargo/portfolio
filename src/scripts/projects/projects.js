@@ -48,10 +48,8 @@ export class Projects extends Component {
                   image="logo-pitsby.svg"
                   title="Pitsby"
                   subtitle="2019"
-                  badgeText="Open Source"
-                  url="https://pitsby.com"
-                  ctaUrl="https://github.com/glorious-codes/glorious-pitsby"
-                  ctaText="See The Code">
+                  badgeText="Launching Soon"
+                  url="https://pitsby.com">
                   Pitsby is a super simple tool to document UI components in a
                   declarative way. Its main features are Lightning Setup, Wide
                   Support, Playground, Analytics Integration and Customization.
