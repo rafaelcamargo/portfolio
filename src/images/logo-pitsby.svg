@@ -3,15 +3,11 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:url(#SVGID_1_);}
+	.st0{fill:#F9F9F9;}
 	.st1{fill:#6699FF;}
 	.st2{fill:#99BBFF;}
 	.st3{fill:#3377FF;}
 </style>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="60" y1="60" x2="-1.655565e-12" y2="1.563194e-13">
-	<stop  offset="0" style="stop-color:#000000"/>
-	<stop  offset="1" style="stop-color:#393A4A"/>
-</linearGradient>
 <rect class="st0" width="60" height="60"/>
 <g>
 	<path class="st1" d="M14.5,25.8v7.4l8.3-8.3l-6.6-6.6C15.1,20.5,14.5,23.1,14.5,25.8z"/>
@@ -19,7 +15,7 @@
 	<path class="st3" d="M28.8,10.4c-1.1,0-2.3,0.2-3.3,0.5l5.7,5.7l4.7-4.7C33.7,10.9,31.3,10.4,28.8,10.4z"/>
 	<path class="st3" d="M16.5,31.3v8.2c0,0.2,0,0.4,0,0.6c0.1,2.1,1,4.1,2.4,5.5l6-6L16.5,31.3z"/>
 	<polygon class="st3" points="16.5,31.3 16.5,31.3 24.8,39.6 33.1,31.3 24.8,23 	"/>
-	<rect x="27.2" y="17.1" transform="matrix(0.707 -0.7072 0.7072 0.707 -6.5574 30.1473)" class="st1" width="11.8" height="11.8"/>
+	<rect x="27.2" y="17.1" transform="matrix(0.707 -0.7072 0.7072 0.707 -6.5648 30.1544)" class="st1" width="11.8" height="11.8"/>
 	<path class="st2" d="M37.8,10l-4.7,4.7l8.3,8.3l4-4C44.2,15,41.4,11.8,37.8,10z"/>
 	<path class="st2" d="M22.9,41.5l-6,6c1.6,1.6,3.8,2.6,6.3,2.5c2.2-0.1,4.2-1,5.7-2.5L22.9,41.5z"/>
 	<path class="st1" d="M36.3,38.4l-5.1-5.1l-8.3,8.3l6,6c1.5-1.6,2.4-3.7,2.4-6.1V40C33,39.7,34.7,39.2,36.3,38.4z"/>
