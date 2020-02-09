@@ -10,7 +10,7 @@ export default [
     personName: "Daniel Abraão",
     personPosition: "Engineering Manager",
     personUrl: "https://br.linkedin.com/in/daniel-abraao",
-    content: "For about one year I had the pleasure of having him on my team. His dedication and technical expertise were crucial for the success of the projec: to build a Design System team to increase productivity and UX consistency. Beyond the technical quality, he has a level of communication that I hadn’t ever seen, elaborates constructive questions and is very creative. I strongly recommend him and hope to work with him again."
+    content: "For about one year I had the pleasure of having him on my team. His dedication and technical expertise were crucial for the success of the project: to build a Design System team to increase productivity and UX consistency. Beyond the technical quality, he has a level of communication that I hadn’t ever seen, elaborates constructive questions and is very creative. I strongly recommend him and hope to work with him again."
   },
   {
     id: "branco",
