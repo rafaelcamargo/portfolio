@@ -18,9 +18,9 @@ export class Recommendations extends Component {
   render() {
     return (
       <RViewport
-        title={ meta.title }
-        description={ meta.description }
-        keywords={ meta.keywords }>
+        title={meta.title}
+        description={meta.description}
+        keywords={meta.keywords}>
         <RHero title="Recommendations" size="small" />
         <RSection>
           <RRow>
@@ -28,8 +28,8 @@ export class Recommendations extends Component {
               <RRecommendationList>
                 <RRecommendation id="matias" />
                 <RRecommendation id="bruckheimer" />
-                <RRecommendation id="rodrigues" />
-                <RRecommendation id="abraao" />
+                <RRecommendation id="chapuis" />
+                <RRecommendation id="jim" />
               </RRecommendationList>
             </RCol>
           </RRow>
@@ -39,9 +39,10 @@ export class Recommendations extends Component {
           <RRow>
             <RCol>
               <RRecommendationList>
-                <RRecommendation id="chapuis" />
+                <RRecommendation id="rodrigues" />
                 <RRecommendation id="cunha" />
                 <RRecommendation id="branco" />
+                <RRecommendation id="abraao" />
               </RRecommendationList>
             </RCol>
           </RRow>
