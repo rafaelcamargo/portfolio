@@ -80,7 +80,7 @@ export class Home extends Component {
                   ctaText="See my experience">
                   <p>
                     I started programming in 2013, not so long.<br />
-                    But on this short period of time, I collaborated in activities
+                    But on this short period, I collaborated in activities
                     that generated a huge impact.
                   </p>
                 </RFeature>
