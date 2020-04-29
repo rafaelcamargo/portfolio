@@ -94,7 +94,7 @@ export default [
     formerCompanyName: "Conta Azul",
     formerCompanyUrl: "https://contaazul.com",
     personImage: "avatar-rodrigues.jpeg",
-    personName: "Luiz Fernando",
+    personName: "Fernando Rodrigues",
     personPosition: "Programmer",
     personUrl: "https://www.linkedin.com/in/fernahh/",
     content: "I had the pleasure of working with Rafael on several web projects. He was an awesome and inspiring developer for me, creating simple and elegant solutions. He gave me one of the best tips for my career. Always delivery what nobody expects. I’d be happy to work with him again in the future if the opportunity presented itself!"
