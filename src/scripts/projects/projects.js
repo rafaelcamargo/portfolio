@@ -48,12 +48,13 @@ export class Projects extends Component {
                   image="logo-pitsby.svg"
                   title="Pitsby"
                   subtitle="2019"
-                  badgeText="Launching Soon"
-                  url="https://pitsby.com">
+                  badgeText="Open Source"
+                  url="https://pitsby.com"
+                  ctaUrl="https://github.com/glorious-codes/glorious-pitsby"
+                  ctaText="See The Code">
                   Pitsby is a super simple tool to document UI components in a
                   declarative way. Its main features are Lightning Setup, Wide
                   Support, Playground, Analytics Integration and Customization.
-                  It will be officially launched soon. Stay tunned.
                 </RProject>
                 <RProject
                   image="logo-nashios.svg"
