@@ -70,7 +70,6 @@ export class Projects extends Component {
             </RCol>
           </RRow>
         </RSection>
-        <RNewsletterBar />
         <RSection>
           <RRow>
             <RCol size="12">

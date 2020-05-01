@@ -34,7 +34,6 @@ export class Recommendations extends Component {
             </RCol>
           </RRow>
         </RSection>
-        <RNewsletterBar />
         <RSection>
           <RRow>
             <RCol>

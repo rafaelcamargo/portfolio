@@ -143,7 +143,6 @@ export class Experience extends Component {
             </RCol>
           </RRow>
         </RSection>
-        <RNewsletterBar />
         <RSection>
           <RRow>
             <RCol size="6">

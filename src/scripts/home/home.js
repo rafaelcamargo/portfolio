@@ -59,7 +59,6 @@ export class Home extends Component {
             </RCol>
           </RRow>
         </RSection>
-        <RNewsletterBar />
         <RSection>
           <RRow>
             <RCol size="12">
