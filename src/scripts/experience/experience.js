@@ -160,11 +160,10 @@ export class Experience extends Component {
                 company, I have <b>created our own documentation tool</b>. We
                 struggled to have a unified documentation containing our
                 legacy - <em>AngularJS</em> - and modern - <em>VueJS</em> components. <a
-                href="https://www.npmjs.com/package/@glorious/pitsby"
-                target="_blank">Pitsby</a> solved our problem once and for all.
-                It’s open source and has even helped to improve the experience
-                of developing new components as well as increasing the
-                component library adoption by product teams.
+                href="https://pitsby.com" target="_blank">Pitsby</a> solved our
+                problem once and for all. It’s open source and has even helped
+                to improve the experience of developing new components as well
+                as increasing the component library adoption by product teams.
               </p>
             </RCol>
           </RRow>
