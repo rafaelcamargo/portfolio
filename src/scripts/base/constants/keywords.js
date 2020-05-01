@@ -27,6 +27,8 @@ export default [
   { name: "Postgres", type: "skill" },
   { name: "Docker", type: "skill" },
   { name: "Glorious Codes", type: "experience" },
+  { name: "Resultados Digitais", type: "experience" },
+  { name: "Bcredi", type: "experience" },
   { name: "Conta Azul", type: "experience" },
   { name: "JobScore", type: "experience" },
   { name: "Glorious Demo", type: "project" },

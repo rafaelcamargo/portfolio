@@ -55,9 +55,34 @@ export class Experience extends Component {
           <RRow offset="10">
             <RCol size="6">
               <RAvatron
+                image="logo-rd.png"
+                title="Resultados Digitais"
+                subtitle="Apr.2020 - Present"
+                url="https://www.rdstation.com/en/"
+                badgeText="Remotely"
+                caption="Florianópolis, Brazil" />
+            </RCol>
+            <RCol size="6">
+              <h3>The Company</h3>
+              <p>
+                Resultados Digitais was founded in Brazil in 2011 with the goal
+                of helping medium and small enterprises understand and leverage
+                the benefits of Digital Marketing, thereby achieving real and
+                long-lasting results for their businesses.
+              </p>
+              <h3>My Role</h3>
+              <p>
+                Helping to maintain and improve the <a href="https://www.rdstation.com/crm/" target="_blank">
+                RD Station CRM</a> product.
+              </p>
+            </RCol>
+          </RRow>
+          <RRow offset="10">
+            <RCol size="6">
+              <RAvatron
                 image="logo-bcredi.png"
                 title="Bcredi"
-                subtitle="Nov.2019 - Present"
+                subtitle="Nov.2019 - Feb.2020"
                 url="https://materiais.bcredi.com.br/baas"
                 caption="Curitiba, Brazil" />
             </RCol>
@@ -71,8 +96,9 @@ export class Experience extends Component {
               </p>
               <h3>My Role</h3>
               <p>
-                Maintaining and improving internal products through technologies
-                like React, Redux, Jest and a couple of others more.
+                In a brief passage by Bcredi, I helped to maintaining and improve
+                internal products through technologies like React, Redux, Jest
+                and a couple of others more.
               </p>
             </RCol>
           </RRow>
