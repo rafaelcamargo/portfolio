@@ -96,7 +96,7 @@ export class Experience extends Component {
               </p>
               <h3>My Role</h3>
               <p>
-                In a brief passage by Bcredi, I helped to maintaining and improve
+                In a brief passage by Bcredi, I helped to maintain and improve
                 internal products through technologies like React, Redux, Jest
                 and a couple of others more.
               </p>
