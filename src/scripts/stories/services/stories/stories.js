@@ -6,8 +6,12 @@ _public.getSummaries = () => {
   return storySummaries;
 };
 
+_public.getSummaryWithViews = () => {
+  return storySummaries.filter(summary => !!summary.view);
+};
+
 _public.findSummary = id => {
-  return storySummaries.find(story => story.id === id);
+  return storySummaries.find(summary => summary.id === id);
 };
 
 export default _public;

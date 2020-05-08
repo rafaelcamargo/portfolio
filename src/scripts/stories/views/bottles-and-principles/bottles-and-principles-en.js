@@ -6,11 +6,7 @@ import { RStoryViewport } from '@scripts/stories/components/story-viewport/story
 export class RBottlesAndPrinciplesEN extends Component {
   render() {
     return (
-      <RStoryViewport
-        storySummaryId={6}
-        primaryLanguage="en"
-        secondaryLanguage="pt"
-        relatedStoriesIds={[5,7]}>
+      <RStoryViewport storySummaryId={8}>
         <p>
           Something really curious about lots of the most famous programming
           concepts, principles and good practices is that they seem to

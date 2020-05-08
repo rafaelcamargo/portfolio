@@ -7,22 +7,14 @@ export class RStoryList extends Component {
   render() {
     return (
       <ul className="r-story-list">
-        {
-          buildItems(
-            this.props.summaryIds,
-            this.props.primaryLanguage,
-            this.props.secondaryLanguage
-          )
-        }
+        { buildItems(this.props.summaryIds) }
       </ul>
     );
   }
 }
 
-function buildItems(summaryIds, primaryLanguage, secondaryLanguage){
-  return getSummaries(summaryIds).map(summary => {
-    return buildItem(summary, primaryLanguage, secondaryLanguage);
-  }).reverse();
+function buildItems(summaryIds){
+  return getSummaries(summaryIds).map(summary => buildItem(summary));
 }
 
 function getSummaries(ids){
@@ -31,20 +23,9 @@ function getSummaries(ids){
 }
 
 function filterSummariesByIds(summaries, ids){
-  return summaries.filter(summary => {
-    for (var i = 0; i < ids.length; i++) {
-      if(summary.id === ids[i])
-        return true;
-    }
-  });
+  return summaries.filter(summary => ids.includes(summary.id));
 }
 
-function buildItem(summary, primaryLanguage, secondaryLanguage){
-  return  <li key={ summary.id }>
-            <RStorySummary
-              summary={ summary }
-              primaryLanguage={ primaryLanguage }
-              secondaryLanguage={ secondaryLanguage }
-            />
-          </li>;
+function buildItem(summary){
+  return <li key={ summary.id }><RStorySummary summary={ summary } /></li>;
 }

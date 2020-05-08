@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import { BrowserRouter as Router } from 'react-router-dom';
 import ScrollToTop from 'react-router-scroll-top';
-import { AppRouter } from './router';
+import AppRouter from './router';
 import { Contact } from '@scripts/contact/contact';
 import { Experience } from '@scripts/experience/experience';
 import RHistory from '@scripts/base/components/history/history';

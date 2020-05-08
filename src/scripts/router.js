@@ -9,14 +9,9 @@ import { Projects } from '@scripts/projects/projects';
 import { Recommendations } from '@scripts/recommendations/recommendations';
 import { Skills } from '@scripts/skills/skills';
 import { Stories } from '@scripts/stories/stories';
-import { RComponentMaturityModelEN } from '@scripts/stories/views/component-maturity-model/component-maturity-model-en';
-import { RComponentMaturityModelPT } from '@scripts/stories/views/component-maturity-model/component-maturity-model-pt';
-import { RBottlesAndPrinciplesEN } from '@scripts/stories/views/bottles-and-principles/bottles-and-principles-en';
-import { RFormattingQualityEN } from '@scripts/stories/views/formatting-quality/formatting-quality-en';
-import { RFormattingQualityPT } from '@scripts/stories/views/formatting-quality/formatting-quality-pt';
-import storySummaries from '@scripts/stories/constants/story-summaries';
+import storiesService from '@scripts/stories/services/stories/stories';
 
-export class AppRouter extends Component {
+class AppRouter extends Component {
   render(){
     return (
       <Router>
@@ -29,14 +24,23 @@ export class AppRouter extends Component {
             <Route path="/recommendations" exact component={ Recommendations } />
             <Route path="/skills" exact component={ Skills } />
             <Route path="/stories" exact component={ Stories } />
-            <Route path={ storySummaries[4].en.url.href } exact component={ RComponentMaturityModelEN } />
-            <Route path={ storySummaries[4].pt.url.href } exact component={ RComponentMaturityModelPT } />
-            <Route path={ storySummaries[5].en.url.href } exact component={ RBottlesAndPrinciplesEN } />
-            <Route path={ storySummaries[6].en.url.href } exact component={ RFormattingQualityEN } />
-            <Route path={ storySummaries[6].pt.url.href } exact component={ RFormattingQualityPT } />
+            { buildStoryViewRoutes() }
           </ScrollToTop>
         </RHistory>
       </Router>
     );
   }
 }
+
+function buildStoryViewRoutes(){
+  return storiesService.getSummaryWithViews().map((summary, index) => {
+    return (
+      <Route
+        path={ summary.url.href }
+        exact component={ summary.view }
+        key={ index } />
+    );
+  });
+}
+
+export default AppRouter;

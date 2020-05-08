@@ -4,11 +4,7 @@ import { RStoryViewport } from '@scripts/stories/components/story-viewport/story
 export class RFormattingQualityPT extends Component {
   render() {
     return (
-      <RStoryViewport
-        storySummaryId={7}
-        primaryLanguage="pt"
-        secondaryLanguage="en"
-        relatedStoriesIds={[5,6]}>
+      <RStoryViewport storySummaryId={11}>
         <p>
           Era meados de 2018 e eu precisava criar uma aplicação de uso interno
           na empresa onde trabalhava. O projeto era colocar no ar um cliente

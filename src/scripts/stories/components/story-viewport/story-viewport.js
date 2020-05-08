@@ -16,48 +16,28 @@ export class RStoryViewport extends Component {
     super(props);
     const summary = storySummariesService.findSummary(props.storySummaryId);
     this.setSummary(summary);
-    this.setContent(summary[props.primaryLanguage]);
-    this.setStoryUrl(routeService.getCurrentUrl());
   }
 
   setSummary = summary => {
     this.summary = summary;
   };
 
-  setContent = content => {
-    this.content = content;
-  };
-
-  setStoryUrl = url => {
-    this.storyUrl = url;
-  };
-
   render() {
     return (
       <div className="r-story-viewport">
         <RViewport
-          title={ this.content.title }
-          description={ this.content.description }
-          keywords={ this.content.keywords }
-          lang={ this.props.primaryLanguage }
+          title={ this.summary.title }
+          description={ this.summary.excerpt }
+          keywords={ this.summary.keywords }
+          lang={ this.summary.lang }
           image={ this.summary.thumbnail }>
-          <RHero title={ this.content.title } size="small" />
+          <RHero title={ this.summary.title } size="small" />
           <RSection>
             <RRow>
               <RCol size="12">
-                <div className="r-story-viewport-image-container">
-                  <RImage filename={ this.summary.image.filename } alt={ this.summary.image.alt } />
-                </div>
+                { handleImage(this.summary) }
                 <div className="r-story-viewport-content">
                   { this.props.children }
-                  <RStoryFooter
-                    shareMessage={ this.content.title }
-                    shareUrl={ this.storyUrl }
-                    lang={ this.props.primaryLanguage }/>
-                  <RRelatedStories
-                    summaryIds={ this.props.relatedStoriesIds }
-                    primaryLanguage={ this.props.primaryLanguage }
-                    secondaryLanguage={ this.props.secondaryLanguage } />
                 </div>
               </RCol>
             </RRow>
@@ -66,4 +46,13 @@ export class RStoryViewport extends Component {
       </div>
     );
   }
+}
+
+function handleImage({ image }){
+  if(image)
+    return (
+      <div className="r-story-viewport-image-container">
+        <RImage filename={ image.filename } alt={ image.alt } />
+      </div>
+    );
 }

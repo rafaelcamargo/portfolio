@@ -5,11 +5,7 @@ import { RStoryViewport } from '@scripts/stories/components/story-viewport/story
 export class RComponentMaturityModelEN extends Component {
   render() {
     return (
-      <RStoryViewport
-        storySummaryId={5}
-        primaryLanguage="en"
-        secondaryLanguage="pt"
-        relatedStoriesIds={[6,7]}>
+      <RStoryViewport storySummaryId={6}>
         <p>
           Think you are a programmer, a front-end programmer. You
           collaborate with the development of a web product. Your

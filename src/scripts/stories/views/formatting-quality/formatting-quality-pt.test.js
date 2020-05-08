@@ -12,6 +12,6 @@ describe('Formatting quality PT', () => {
 
   it('should contain a story viewport', () => {
     const wrapper = mount();
-    expect(wrapper.find(RStoryViewport).prop('storySummaryId')).toEqual(7);
+    expect(wrapper.find(RStoryViewport).prop('storySummaryId')).toEqual(11);
   });
 });

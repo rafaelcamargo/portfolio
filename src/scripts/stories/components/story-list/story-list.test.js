@@ -8,10 +8,7 @@ import storiesService from '@scripts/stories/services/stories/stories';
 describe('Story List', () => {
   function mount(props = {}){
     return shallow(
-      <RStoryList
-        summaryIds={ props.summaryIds }
-        primaryLanguage={ props.primaryLanguage }
-        secondaryLanguage={ props.secondaryLanguage } />
+      <RStoryList summaryIds={ props.summaryIds } />
     );
   }
 
@@ -22,25 +19,6 @@ describe('Story List', () => {
   it('should have appropriate css class', () => {
     const wrapper = mount();
     expect(wrapper.prop('className')).toEqual('r-story-list');
-  });
-
-  it('should accept a primary language as prop', () => {
-    const wrapper = mount({ primaryLanguage: 'pt' });
-    const summaryItems = wrapper.find(RStorySummary);
-    expect(summaryItems.at(0).prop('primaryLanguage')).toEqual('pt');
-  });
-
-  it('should accept a secondary language as prop', () => {
-    const wrapper = mount({ secondaryLanguage: 'en' });
-    const summaryItems = wrapper.find(RStorySummary);
-    expect(summaryItems.at(0).prop('secondaryLanguage')).toEqual('en');
-  });
-
-  it('should reverse items order', () => {
-    const wrapper = mount();
-    const summaryItems = wrapper.find(RStorySummary);
-    const lastSummary = summaryItems.at(summaryItems.length - 1).prop('summary');
-    expect(lastSummary.id).toEqual(1);
   });
 
   it('should optionally filter summaries', () => {
