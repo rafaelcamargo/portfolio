@@ -44,7 +44,7 @@ export class RCleanCodePT extends Component {
           Uma letra de cada vez.
         </h2>
         <RQuote
-          sourceText="Clean Code, pg 14."
+          sourceText="Clean Code"
           sourceHref="https://www.thriftbooks.com/w/clean-code-a-handbook-of-agile-software-craftsmanship-robert-c-martin-series_robert-c-martin/332840/#isbn=0132350882&idiq=10169803">
           The ratio of time spent reading vs. writing is well over 10:1. We
           are constantly reading old code as part of the effort to write new
@@ -96,7 +96,7 @@ export class RCleanCodePT extends Component {
           Código limpo dispensa comentários.
         </h2>
         <RQuote
-          sourceText="Clean Code, pg 54."
+          sourceText="Clean Code"
           sourceHref="https://www.thriftbooks.com/w/clean-code-a-handbook-of-agile-software-craftsmanship-robert-c-martin-series_robert-c-martin/332840/#isbn=0132350882&idiq=10169803">
           The proper use of comments is to compensate for our failure to
           express ourself in code. Note that I used the word failure. I meant it.
@@ -129,14 +129,14 @@ export class RCleanCodePT extends Component {
         </p>
         <ul>
           <li>
-            [Red] Por ter escrito o teste antes da implementação, ele quebra ao
+            <u>Red</u>: Por ter escrito o teste antes da implementação, ele quebra ao
             ser rodado pela primeira vez.
           </li>
           <li>
-            [Green] Você evolui a implementação até que o teste passe.
+            <u>Green</u>: Você evolui a implementação até que o teste passe.
           </li>
           <li>
-            [Blue] Assim que o teste passa, você transforma aquilo que apenas
+            <u>Blue</u>: Assim que o teste passa, você transforma aquilo que apenas
             funciona em algo que funciona bem.
           </li>
         </ul>
@@ -149,9 +149,9 @@ export class RCleanCodePT extends Component {
           sem antes revisa-la?
         </p>
         <p>
-          Jason Fried escreveu <RExternalLink href="https://signalvnoise.com/posts/2930-svn-flashback-eureka-were-editors">We’re Editors</RExternalLink> e 
-          Carolyn Cherry muito bem lembrou: <em>It is  perfectly okay to write
-          garbage as long as you edit brilliantly</em>.
+          Jason Fried escreveu <RExternalLink href="https://signalvnoise.com/posts/2930-svn-flashback-eureka-were-editors">Eureka! We’re editors</RExternalLink> e
+          Carolyn Cherry muito bem lembrou:<br />
+          <em>It is  perfectly okay to write garbage as long as you edit brilliantly</em>.
         </p>
       </RStoryViewport>
     );
