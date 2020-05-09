@@ -28,7 +28,8 @@ export class RCleanCodePT extends Component {
         </h2>
         <RQuote
           sourceText="Source"
-          sourceHref="https://www.osnews.com/story/19266/wtfsm/">
+          sourceHref="https://www.osnews.com/story/19266/wtfsm/"
+          lang="en">
           The only valid measurement of code quality: WTF/Minute.
         </RQuote>
         <p>
@@ -45,7 +46,8 @@ export class RCleanCodePT extends Component {
         </h2>
         <RQuote
           sourceText="Clean Code"
-          sourceHref="https://www.thriftbooks.com/w/clean-code-a-handbook-of-agile-software-craftsmanship-robert-c-martin-series_robert-c-martin/332840/#isbn=0132350882&idiq=10169803">
+          sourceHref="https://www.thriftbooks.com/w/clean-code-a-handbook-of-agile-software-craftsmanship-robert-c-martin-series_robert-c-martin/332840/#isbn=0132350882&idiq=10169803"
+          lang="en">
           The ratio of time spent reading vs. writing is well over 10:1. We
           are constantly reading old code as part of the effort to write new
           code. [...] You cannot write code if you cannot read the surrounding
@@ -68,7 +70,7 @@ export class RCleanCodePT extends Component {
         </p>
         <p>
           Não tenha medo de dar nomes longos a variáveis, funções, arquivos e
-          diretórios. Preocupe-se em dar à eles o significado que precisam ter.
+          diretórios. Preocupe-se em dar a eles o significado que precisam ter.
           Um minuto investido em um bom nome pode poupar dez de quem precisará
           interpreta-lo. Uma letra de cada vez, jamais uma única letra apenas.
         </p>
@@ -87,17 +89,19 @@ export class RCleanCodePT extends Component {
           de limites.
         </p>
         <p>
-          Responsabilidade pressupõe limites. Delimita o começo e o fim.
-          Determina o que uma coisa faz, mas acima de tudo o que essa coisa não
-          faz. Usain Bolt se tornou o homem mais veloz da história porque
-          decidiu se especializar em uma coisa. Uma coisa só. Uma coisa apenas.
+          Responsabilidade pressupõe limites. Responsabilidade delimita o
+          começo e o fim. Responsabilidade determina o que uma coisa faz, mas
+          acima de tudo o que essa coisa não faz. Usain Bolt se tornou o
+          homem mais veloz da história porque decidiu se especializar em uma
+          coisa. Uma coisa só. Uma coisa apenas.
         </p>
         <h2>
           Código limpo dispensa comentários.
         </h2>
         <RQuote
           sourceText="Clean Code"
-          sourceHref="https://www.thriftbooks.com/w/clean-code-a-handbook-of-agile-software-craftsmanship-robert-c-martin-series_robert-c-martin/332840/#isbn=0132350882&idiq=10169803">
+          sourceHref="https://www.thriftbooks.com/w/clean-code-a-handbook-of-agile-software-craftsmanship-robert-c-martin-series_robert-c-martin/332840/#isbn=0132350882&idiq=10169803"
+          lang="en">
           The proper use of comments is to compensate for our failure to
           express ourself in code. Note that I used the word failure. I meant it.
           Comments are always failures. We must have them because we cannot
@@ -114,8 +118,8 @@ export class RCleanCodePT extends Component {
         <p>
           Se em algum momento você se pegar escrevendo um comentário na
           tentativa de melhor explicar o seu código, reflita porque o próprio
-          código não conseguiu explicar a si próprio. Comentários são sempre
-          uma oportunidade de melhoria. Assim como o código limpo,
+          código não conseguiu explicar a si mesmo. Comentários são sempre
+          uma oportunidade de melhoria. Assim como um código limpo,
           esse <RExternalLink href="https://youtu.be/wXaC0YvDgIo?t=237">vídeo</RExternalLink> dispensa
           comentários.
         </p>
@@ -129,8 +133,8 @@ export class RCleanCodePT extends Component {
         </p>
         <ul>
           <li>
-            <u>Red</u>: Por ter escrito o teste antes da implementação, ele quebra ao
-            ser rodado pela primeira vez.
+            <u>Red</u>: Por ter escrito o teste antes da implementação, ele
+            quebra ao ser rodado pela primeira vez.
           </li>
           <li>
             <u>Green</u>: Você evolui a implementação até que o teste passe.
@@ -146,12 +150,14 @@ export class RCleanCodePT extends Component {
           sentido. Se linhas de código podem ser removidas. Se a implementação
           pode ser mais limpa, mais clara. Se você não envia um email tão logo
           termina de escreve-lo, por quê consideraria a implementação concluída
-          sem antes revisa-la?
+          tão logo ela funcione?
         </p>
         <p>
-          Jason Fried escreveu <RExternalLink href="https://signalvnoise.com/posts/2930-svn-flashback-eureka-were-editors">Eureka! We’re editors</RExternalLink> e
-          Carolyn Cherry muito bem lembrou:<br />
-          <em>It is  perfectly okay to write garbage as long as you edit brilliantly</em>.
+          Sobre a importância de editar, Jason Fried escreveu <RExternalLink href="https://signalvnoise.com/posts/2930-svn-flashback-eureka-were-editors" lang="en">Eureka! We’re editors</RExternalLink> e
+          Carolyn Cherry muito bem lembrou:
+        </p>
+        <p>
+          <em lang="en">It is  perfectly okay to write garbage as long as you edit brilliantly</em>.
         </p>
       </RStoryViewport>
     );
