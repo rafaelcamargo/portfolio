@@ -1,3 +1,4 @@
+import { RCleanCodePT } from '@scripts/stories/views/clean-code/clean-code-pt';
 import { RComponentMaturityModelEN } from '@scripts/stories/views/component-maturity-model/component-maturity-model-en';
 import { RComponentMaturityModelPT } from '@scripts/stories/views/component-maturity-model/component-maturity-model-pt';
 import { RBottlesAndPrinciplesEN } from '@scripts/stories/views/bottles-and-principles/bottles-and-principles-en';
@@ -5,6 +6,17 @@ import { RFormattingQualityEN } from '@scripts/stories/views/formatting-quality/
 import { RFormattingQualityPT } from '@scripts/stories/views/formatting-quality/formatting-quality-pt';
 
 export default [
+  {
+    id: 12,
+    lang: 'pt',
+    title: 'Código limpo',
+    excerpt: 'Esse é um dos livros mais famosos do universo da programação. Sua fama parece só não ser maior do que o número de programadores que ainda não leu esse livro. Alguns reclamam que os exemplos exibidos ao longo do livro estão escritos em Java, como se a linguagem de programação fosse um obstáculo para entender o que é código limpo. Já ouvi também que o tal código limpo seria uma utopia, que funções contendo quatro ou cinco linhas estariam reservadas ao Olimpo do desenvolvimento de software.',
+    keywords: 'código, limpo',
+    view: RCleanCodePT,
+    url: {
+      href: '/codigo-limpo'
+    }
+  },
   {
     id: 11,
     lang: 'pt',
