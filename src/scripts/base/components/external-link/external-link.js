@@ -22,6 +22,7 @@ export class RExternalLink extends Component {
         <a
           href={ this.props.href }
           onClick={ this.onClick }
+          lang={ this.props.lang }
           target="_blank">
           { this.props.children }
         </a>

@@ -7,7 +7,10 @@ import { RExternalLink } from '@scripts/base/components/external-link/external-l
 describe('External Link', () => {
   function mount(props = {}){
     return shallow(
-      <RExternalLink href={ props.href } trackName={ props.trackName }>
+      <RExternalLink
+        href={ props.href }
+        trackName={ props.trackName }
+        lang={ props.lang }>
         { props.children }
       </RExternalLink>
     );
@@ -32,6 +35,17 @@ describe('External Link', () => {
   it('should external link open in a new tab', () => {
     const wrapper = mount();
     expect(wrapper.find('a').prop('target')).toEqual('_blank');
+  });
+
+  it('should not render a language attribute by default', () => {
+    const wrapper = mount();
+    expect(wrapper.find('a').prop('lang')).not.toBeDefined();
+  });
+
+  it('should optionally render a language attribute', () => {
+    const lang = 'en';
+    const wrapper = mount({ lang });
+    expect(wrapper.find('a').prop('lang')).toEqual(lang);
   });
 
   it('should track click event on external link click', () => {
