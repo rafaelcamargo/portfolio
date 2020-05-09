@@ -45,7 +45,8 @@ module.exports = {
         '/modelo-de-maturidade-de-componentes',
         '/bottles-and-principles-how-to-better-organize-css',
         '/formatting-quality',
-        '/formatando-qualidade'
+        '/formatando-qualidade',
+        '/codigo-limpo'
       ],
       minify: {
         collapseBooleanAttributes: true,
