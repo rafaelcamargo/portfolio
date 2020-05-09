@@ -26,9 +26,4 @@ describe('Home Hero', () => {
     const wrapper = mount();
     expect(wrapper.find('h1').text()).toEqual(title);
   });
-
-  it('should contain a home mobile panel', () => {
-    const wrapper = mount();
-    expect(wrapper.find(RHomeMobilePanel).length).toEqual(1);
-  });
 });

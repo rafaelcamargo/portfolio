@@ -1,7 +1,7 @@
 import '@styles/home-hero.styl';
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import { RHero } from '@scripts/base/components/hero/hero';
+import { RHeroLink } from '@scripts/base/components/hero-link/hero-link';
 import { RHomeMobilePanel } from '@scripts/home/components/home-mobile-panel/home-mobile-panel';
 
 export class RHomeHero extends Component {
@@ -14,12 +14,9 @@ export class RHomeHero extends Component {
               My name is Rafael.<br />I am an expert in building UI components.
             </h1>
             <p>
-              I am always looking for great projects. Got a good one? <Link to="/contact">
-              Contact me!</Link>
+              I am always looking for great projects. Got a good
+              one? <RHeroLink to="/contact" text="Contact me" />.
             </p>
-          </div>
-          <div className="r-home-hero-art-container">
-            <RHomeMobilePanel />
           </div>
         </RHero>
       </div>
