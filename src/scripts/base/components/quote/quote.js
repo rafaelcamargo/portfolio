@@ -5,7 +5,7 @@ import { RExternalLink } from '@scripts/base/components/external-link/external-l
 export class RQuote extends Component {
   render() {
     return (
-      <blockquote className="r-quote">
+      <blockquote className="r-quote" lang={ this.props.lang }>
         { this.props.children }
         <cite>
           <RExternalLink href={ this.props.sourceHref }>
