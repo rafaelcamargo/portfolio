@@ -14,7 +14,8 @@ import storySummariesService from '@scripts/stories/services/stories/stories';
 export class RStoryViewport extends Component {
   constructor(props){
     super(props);
-    const summary = storySummariesService.findSummary(props.storySummaryId);
+    const path = routeService.getCurrentPathname();
+    const summary = storySummariesService.findSummaryByUrlPath(path);
     this.setSummary(summary);
   }
 

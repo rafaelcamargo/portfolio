@@ -14,8 +14,8 @@ describe('Stories Service', () => {
     expect(lastSummary.view).toEqual(RComponentMaturityModelEN)
   });
 
-  it('should find a single summary', () => {
-    const sumary = storiesService.findSummary(1);
-    expect(sumary.title).toEqual('Avoiding traps in event-driven programming');
+  it('should find a summary by url path', () => {
+    const sumary = storiesService.findSummaryByUrlPath('/component-maturity-model');
+    expect(sumary.title).toEqual('Component maturity model');
   });
 });

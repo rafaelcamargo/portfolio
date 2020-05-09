@@ -12,26 +12,31 @@ import storiesService from '@scripts/stories/services/stories/stories';
 describe('Story Viewport', () => {
   function mount(props = {}){
     return shallow(
-      <RStoryViewport storySummaryId={ props.storySummaryId }>
+      <RStoryViewport>
         { props.content }
       </RStoryViewport>
     );
   }
 
+  function mockUrlPath(path){
+    routeService.getCurrentPathname = jest.fn(() => path);
+  }
+
   beforeEach(() => {
-    storiesService.findSummary = jest.fn(id => {
-      return storiesMock.find(story => story.id === id);
-    });
     routeService.getCurrentUrl = jest.fn(() => 'http://some.url.com');
+    storiesService.findSummaryByUrlPath = jest.fn(path => {
+      return storiesMock.find(story => story.url.href === path);
+    });
+    mockUrlPath('/story-mock-3');
   });
 
   it('should have appropriate css class', () => {
-    const wrapper = mount({ storySummaryId: 1 });
+    const wrapper = mount();
     expect(wrapper.prop('className')).toEqual('r-story-viewport');
   });
 
   it('should build a viewport with story summary', () => {
-    const wrapper = mount({ storySummaryId: 3 });
+    const wrapper = mount();
     expect(wrapper.find(RViewport).prop('title')).toEqual('Story Title 3');
     expect(wrapper.find(RViewport).prop('description')).toEqual('Story excerpt 3.');
     expect(wrapper.find(RViewport).prop('keywords')).toEqual('story, mock');
@@ -39,20 +44,23 @@ describe('Story Viewport', () => {
   });
 
   it('should build a hero with story summary title', () => {
-    const wrapper = mount({ storySummaryId: 1 });
+    mockUrlPath('/story-mock');
+    const wrapper = mount();
     expect(wrapper.find(RHero).prop('title')).toEqual('Título da História');
     expect(wrapper.find(RHero).prop('size')).toEqual('small');
   });
 
   it('should build an image', () => {
-    const wrapper = mount({ storySummaryId: 3 });
+    mockUrlPath('/story-mock-3');
+    const wrapper = mount();
     expect(wrapper.find(RImage).prop('filename')).toEqual('story-mock.svg');
     expect(wrapper.find(RImage).prop('alt')).toEqual('Story mock');
   });
 
   it('should transclude some content', () => {
+    mockUrlPath('/story-mock');
     const content = <b>Hey</b>;
-    const wrapper = mount({ storySummaryId: 1, content });
+    const wrapper = mount({ content });
     expect(wrapper.find('b').text()).toEqual('Hey');
   });
 });

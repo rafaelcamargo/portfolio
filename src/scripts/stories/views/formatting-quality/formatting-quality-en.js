@@ -4,7 +4,7 @@ import { RStoryViewport } from '@scripts/stories/components/story-viewport/story
 export class RFormattingQualityEN extends Component {
   render() {
     return (
-      <RStoryViewport storySummaryId={10}>
+      <RStoryViewport>
         <p>
           It was mid-2018 and I needed to build an application for internal
           use at the company I was working for. The project was to put on the
