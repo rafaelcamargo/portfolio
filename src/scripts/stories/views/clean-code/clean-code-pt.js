@@ -66,13 +66,13 @@ export class RCleanCodePT extends Component {
           Ele me devolveu a pergunta: <em>O quê?</em>. <em>Tenho de vontade de
           passar o dedo na tela. Isso parece Braille.</em>, respondi. O arquivo
           continha algumas centenas de linhas infestadas de variáveis nomeadas
-          com uma única letra apenas.
+          com um único caractere.
         </p>
         <p>
           Não tenha medo de dar nomes longos a variáveis, funções, arquivos e
           diretórios. Preocupe-se em dar a eles o significado que precisam ter.
           Um minuto investido em um bom nome pode poupar dez de quem precisará
-          interpreta-lo. Uma letra de cada vez, jamais uma única letra apenas.
+          interpreta-lo. Uma letra de cada vez, jamais uma única letra.
         </p>
         <h2>
           Uma coisa. Uma coisa só. Uma coisa apenas.
