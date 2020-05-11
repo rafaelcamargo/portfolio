@@ -167,9 +167,7 @@ export class Experience extends Component {
               </p>
             </RCol>
           </RRow>
-        </RSection>
-        <RSection>
-          <RRow>
+          <RRow offset="10">
             <RCol size="6">
               <RAvatron
                 image="logo-jobscore.png"

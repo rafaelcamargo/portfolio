@@ -66,14 +66,6 @@ export class Projects extends Component {
                   products we all love. The web-client was built with Vue.
                   Logo and components designed by me.
                 </RProject>
-              </RProjectList>
-            </RCol>
-          </RRow>
-        </RSection>
-        <RSection>
-          <RRow>
-            <RCol size="12">
-              <RProjectList>
                 <RProject
                   image="logo-woblast.svg"
                   title="Woblast"
