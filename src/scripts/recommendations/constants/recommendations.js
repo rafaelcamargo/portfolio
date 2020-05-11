@@ -75,9 +75,9 @@ export default [
   },
   {
     id: "matias",
-    companyImage: "logo-nubank.png",
-    companyName: "Nubank",
-    companyUrl: "https://nubank.com.br/en",
+    companyImage: "logo-stone.png",
+    companyName: "Stone",
+    companyUrl: "https://www.stone.co",
     formerCompanyName: "Conta Azul",
     formerCompanyUrl: "https://contaazul.com",
     personImage: "avatar-matias.jpeg",
