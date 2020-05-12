@@ -44,9 +44,9 @@ describe('Story Viewport', () => {
   });
 
   it('should build a hero with story summary title', () => {
-    mockUrlPath('/story-mock');
+    mockUrlPath('https://tableless.com.br/componentes-alem-do-reuso/');
     const wrapper = mount();
-    expect(wrapper.find(RHero).prop('title')).toEqual('Título da História');
+    expect(wrapper.find(RHero).prop('title')).toEqual('Story Title 2');
     expect(wrapper.find(RHero).prop('size')).toEqual('small');
   });
 
@@ -58,7 +58,7 @@ describe('Story Viewport', () => {
   });
 
   it('should transclude some content', () => {
-    mockUrlPath('/story-mock');
+    mockUrlPath('/story-mock-3');
     const content = <b>Hey</b>;
     const wrapper = mount({ content });
     expect(wrapper.find('b').text()).toEqual('Hey');

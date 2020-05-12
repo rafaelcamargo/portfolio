@@ -21,7 +21,8 @@ const stories = [
     excerpt: 'Story excerpt 2.',
     keywords: 'story, mock',
     url: {
-      href: '/story-mock-2'
+      href: 'https://tableless.com.br/componentes-alem-do-reuso/',
+      target: '_blank'
     }
   },
   {
@@ -31,7 +32,7 @@ const stories = [
     excerpt: 'Fragmento da história.',
     keywords: 'história, mock',
     url: {
-      href: '/story-mock'
+      href: 'https://medium.com/@rcamargo/entre-garrafas-e-princ%C3%ADpios-como-organizar-melhor-seu-css-4f1572159a04'
     }
   }
 ];
