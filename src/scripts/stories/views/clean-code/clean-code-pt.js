@@ -124,7 +124,7 @@ export class RCleanCodePT extends Component {
           comentários.
         </p>
         <h2>
-          Edite brilhantemente
+          Edite brilhantemente.
         </h2>
         <p>
           <em>Red, Green, Blue</em>. Essa é uma expressão associada ao
