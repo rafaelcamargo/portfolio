@@ -8,7 +8,8 @@
     "format": "eslint ./src/**/*.js",
     "start": "webpack-dev-server",
     "test": "jest",
-    "deploy": "firebase deploy --non-interactive"
+    "deploy": "firebase deploy --non-interactive",
+    "id": "node short-id-generator.js"
   },
   "keywords": [
     "rafael",
@@ -41,6 +42,7 @@
     "prerender-spa-plugin": "^3.4.0",
     "prop-types": "^15.7.2",
     "redux": "^4.0.5",
+    "shortid": "^2.2.15",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
     "terser-webpack-plugin": "^2.3.1",
