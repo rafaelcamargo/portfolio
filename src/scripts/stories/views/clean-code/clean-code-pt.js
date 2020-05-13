@@ -84,7 +84,7 @@ export class RCleanCodePT extends Component {
           uma única coisa. Tudo deve ter apenas uma única resposabilidade.
           Imagine um diretório chamado utils. A primeira pergunta que me vem
           à mente é: <em>Se ali está o código útil, o que haveria dentro dos
-          demais diretórios?</em>. Utils não é apenas um péssimo nome, é um ótimo
+          demais diretórios?</em> Utils não é apenas um péssimo nome, é um ótimo
           exemplo de algo que faz mais do que deveria. É um exemplo de ausência
           de limites.
         </p>
