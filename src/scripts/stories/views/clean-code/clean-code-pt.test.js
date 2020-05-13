@@ -3,7 +3,7 @@ import { shallow } from 'enzyme';
 import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 import { RCleanCodePT } from './clean-code-pt';
 
-describe('Bottles and Principles EN', () => {
+describe('Clean Code PT', () => {
   function mount(props = {}){
     return shallow(
       <RCleanCodePT />
