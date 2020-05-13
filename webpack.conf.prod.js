@@ -46,7 +46,8 @@ module.exports = {
         '/bottles-and-principles-how-to-better-organize-css',
         '/formatting-quality',
         '/formatando-qualidade',
-        '/codigo-limpo'
+        '/codigo-limpo',
+        '/clean-code'
       ],
       minify: {
         collapseBooleanAttributes: true,
