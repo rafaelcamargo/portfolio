@@ -1,6 +1,11 @@
 @require '_variables'
+@require '_mixins'
 
 .r-hero-link
   a
     font-weight bold
-    border-bottom 1px dashed $color-purple
+    border-bottom-width 1px
+    border-bottom-style dashed
+    border-bottom-color $color-purple
+    +highlight()
+      border-bottom-style solid
