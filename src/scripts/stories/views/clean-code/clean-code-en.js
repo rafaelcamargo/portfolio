@@ -91,7 +91,7 @@ export class RCleanCodeEN extends Component {
           decided to do one thing well. One single thing. One thing only.
         </p>
         <h2>
-          Clean code needs no comment.
+          Clean code needs no comments.
         </h2>
         <RQuote
           sourceText="Clean Code"
