@@ -47,7 +47,8 @@ module.exports = {
         '/formatting-quality',
         '/formatando-qualidade',
         '/codigo-limpo',
-        '/clean-code'
+        '/clean-code',
+        '/trinta-e-sete'
       ],
       minify: {
         collapseBooleanAttributes: true,

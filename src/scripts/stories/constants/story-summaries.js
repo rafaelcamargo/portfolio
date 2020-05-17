@@ -1,3 +1,4 @@
+import { RThirtySevenPT } from '@scripts/stories/views/thirty-seven/thirty-seven-pt';
 import { RCleanCodeEN } from '@scripts/stories/views/clean-code/clean-code-en';
 import { RCleanCodePT } from '@scripts/stories/views/clean-code/clean-code-pt';
 import { RComponentMaturityModelEN } from '@scripts/stories/views/component-maturity-model/component-maturity-model-en';
@@ -7,6 +8,17 @@ import { RFormattingQualityEN } from '@scripts/stories/views/formatting-quality/
 import { RFormattingQualityPT } from '@scripts/stories/views/formatting-quality/formatting-quality-pt';
 
 export default [
+  {
+    id: '5563IL90X',
+    lang: 'pt',
+    title: 'Trinta e sete',
+    excerpt: 'A humanidade frequentemente analisa as ondas de rádios vindas do espaço na busca por inteligência extraterrestre. Desde que essas análises começaram, a origem de quase todos os sinais foi identificada. Trinta e sete delas, porém, permenecem inexplicadas.',
+    keywords: 'trinta e sete, 37signals, manifesto',
+    view: RThirtySevenPT,
+    url: {
+      href: '/trinta-e-sete'
+    }
+  },
   {
     id: 'ZlEeWEKqC',
     lang: 'en',
