@@ -8,7 +8,7 @@ export class RThirtySevenPT extends Component {
     return (
       <RStoryViewport>
         <RQuote
-          sourceText="A Origem do Nome."
+          sourceText="Origem do nome 37signals."
           sourceHref="https://37signals.com/33.html">
           A humanidade frequentemente analisa as ondas de rádio vindas do
           espaço na busca por inteligência extraterrestre. Desde que essas
