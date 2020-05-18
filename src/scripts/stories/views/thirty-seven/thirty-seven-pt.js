@@ -36,7 +36,7 @@ export class RThirtySevenPT extends Component {
           da <em>web</em> fica escancarado na frase que abre o manifesto: <em>The
           web should empower, not frustrate</em>. Alguns parágrafos
           adiante, <RExternalLink href="https://37signals.com/17.html">No Awards Please</RExternalLink> deixa
-          claro que o julgamento da indústria do design jamais inflenciaria o
+          claro que o julgamento da indústria do design jamais influenciaria o
           resultado final do trabalho produzido. O meio jamais deslocaria para
           si o foco do fim. <em>Ser útil e fácil de usar</em>.
         </p>
@@ -63,8 +63,8 @@ export class RThirtySevenPT extends Component {
           atualizado pode atrapalhar importantes decisões. Em <RExternalLink href="https://37signals.com/25.html">Just
           Because You Can, Doesn't Mean You Should</RExternalLink> são
           descartadas as decisões que se baseiam num raso <em>é tão legal!</em> ou
-          num <em>todo mundo está usando!</em> Mais alguns parágrafos e, em
-          <RExternalLink href="https://37signals.com/28.html">Tulipomania</RExternalLink>, encontramos a declaração:
+          num <em>todo mundo está usando!</em> Mais alguns parágrafos e,
+          em <RExternalLink href="https://37signals.com/28.html">Tulipomania</RExternalLink>, encontramos a declaração:
         </p>
         <RQuote
           sourceText="37signals Menifesto [28]"
