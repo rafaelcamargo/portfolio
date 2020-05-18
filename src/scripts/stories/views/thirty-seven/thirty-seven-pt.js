@@ -13,7 +13,7 @@ export class RThirtySevenPT extends Component {
           A humanidade frequentemente analisa as ondas de rádio vindas do
           espaço na busca por inteligência extraterrestre. Desde que essas
           análises começaram, a origem de quase todos os sinais foi
-          identificada. Trinta e sete delas, porém, permenecem sem explicação.
+          identificada. Trinta e sete delas, porém, permanecem sem explicação.
         </RQuote>
         <p>
           Tão intrigante quanto ondas de radio vindas do além, foi a capacidade
