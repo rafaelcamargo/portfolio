@@ -59,7 +59,7 @@ export class Experience extends Component {
                 title="Resultados Digitais"
                 subtitle="Apr.2020 - Present"
                 url="https://www.rdstation.com/en/"
-                badgeText="Remotely"
+                badgeText="Remote"
                 caption="Florianópolis, Brazil" />
             </RCol>
             <RCol size="6">
@@ -174,7 +174,7 @@ export class Experience extends Component {
                 title="JobScore"
                 subtitle="Aug.2015 - Oct.2016"
                 url="https://jobscore.com"
-                badgeText="Remotely"
+                badgeText="Remote"
                 caption="San Francisco, USA" />
             </RCol>
             <RCol size="6">
