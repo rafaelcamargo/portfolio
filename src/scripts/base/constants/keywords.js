@@ -32,9 +32,9 @@ export default [
   { name: "Conta Azul", type: "experience" },
   { name: "JobScore", type: "experience" },
   { name: "Glorious Demo", type: "project" },
+  { name: "Pitsby", type: "project" },
   { name: "Nashios", type: "project" },
   { name: "Woblast", type: "project" },
-  { name: "Teleflik", type: "project" },
   { name: "Weather Now", type: "project" },
-  { name: "Hiphunt", type: "project" }
+  { name: "Teleflik", type: "project" }
 ];
