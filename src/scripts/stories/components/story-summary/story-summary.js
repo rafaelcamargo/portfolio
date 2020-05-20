@@ -13,7 +13,7 @@ export class RStorySummary extends Component {
             { buildLink(url, title) }
           </h2>
           <p>
-            { excerpt }
+            { handleExcerptLength(excerpt) }
           </p>
         </main>
       </div>
@@ -39,4 +39,20 @@ function buildAnchor(href, target = '_self', text){
 
 function buildRouterLink(href, text){
   return <Link to={ href } data-story-summary-title-link>{ text }</Link>;
+}
+
+function handleExcerptLength(excerpt){
+  return excerptIsLongerThanLimit(excerpt) ? limitExcerptLength(excerpt) : excerpt;
+}
+
+function excerptIsLongerThanLimit(excerpt){
+  return excerpt.length > getMaxExcerptLength();
+}
+
+function getMaxExcerptLength(){
+  return 200;
+}
+
+function limitExcerptLength(excerpt){
+  return `${excerpt.substring(0, getMaxExcerptLength()).trim()}...`
 }

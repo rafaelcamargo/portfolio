@@ -47,4 +47,13 @@ describe('Story Summary List', () => {
     const wrapper = mount({ summary: storiesMock[0] });
     expect(wrapper.find('p').text()).toEqual('Story excerpt 3.');
   });
+
+  it('should limit excerpt if it\' longer than 200 chars', () => {
+    const excerpt = `A humanidade frequentemente analisa as ondas de rádios vindas
+      do espaço na busca por inteligência extraterrestre. Desde que essas
+      análises começaram, a origem de quase todos os sinais foi identificada.
+      Trinta e sete delas, porém, permenecem inexplicadas.`.replace(/\n/g, '');
+    const wrapper = mount({ summary: { url: { href: 'https://rafaelcamargo.com' }, excerpt } });
+    expect(wrapper.find('p').text()).toEqual(`${excerpt.substring(0, 200).trim()}...`);
+  });
 });
