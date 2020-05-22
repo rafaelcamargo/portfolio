@@ -67,7 +67,7 @@ export class RThirtySevenPT extends Component {
           em <RExternalLink href="https://37signals.com/28.html">Tulipomania</RExternalLink>, encontramos a declaração:
         </p>
         <RQuote
-          sourceText="37signals Menifesto [28]"
+          sourceText="37signals Manifesto [28]"
           sourceHref="https://37signals.com/28.html"
           lang="en">
           Trends are temporary. Don't just do something because everyone else
