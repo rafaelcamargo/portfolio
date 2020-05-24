@@ -1,17 +1,10 @@
 @require '_variables'
 @require '_mixins'
 
-$divider-height = 4px
-
 .r-divider
-  position relative
-  height $divider-height
-  &:before
-    position absolute
-    content ''
-    width 40px
-    height $divider-height
-    background-color $color-grey
-    top 50%
-    left 50%
-    transform('translate(-50%, -50%)')
+  margin 0 auto
+  width 22px
+  height 2px
+  background-color $color-darkest
+  mask-image('icon-triple-circle.svg')
+  mask(no-repeat, 100%)

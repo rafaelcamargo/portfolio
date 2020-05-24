@@ -44,6 +44,10 @@ mask($repeat, $size)
   mask-repeat         $repeat
   mask-size           $size
 
+mask-image($filename)
+  -webkit-mask-image  url($path-images + $filename)
+  mask-image  url($path-images + $filename)
+
 placeholder()
   ::-webkit-input-placeholder {
     {block}
