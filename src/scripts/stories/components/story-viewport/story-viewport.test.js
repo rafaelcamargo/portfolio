@@ -1,6 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import storiesMock from '@scripts/stories/mocks/stories';
+import { RDivider } from '@scripts/base/components/divider/divider';
 import { RHero } from '@scripts/base/components/hero/hero';
 import { RImage } from '@scripts/base/components/image/image';
 import { RViewport } from '@scripts/base/components/viewport/viewport';
@@ -62,5 +63,15 @@ describe('Story Viewport', () => {
     const content = <b>Hey</b>;
     const wrapper = mount({ content });
     expect(wrapper.find('b').text()).toEqual('Hey');
+  });
+
+  it('should contain a divider', () => {
+    const wrapper = mount();
+    expect(wrapper.find(RDivider).length).toEqual(1);
+  });
+
+  it('should contain a story footer', () => {
+    const wrapper = mount();
+    expect(wrapper.find(RStoryFooter).length).toEqual(1);
   });
 });

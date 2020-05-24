@@ -1,6 +1,7 @@
 import '@styles/story-viewport.styl';
 import React, { Component } from 'react';
 import { RCol } from '@scripts/base/components/col/col';
+import { RDivider } from '@scripts/base/components/divider/divider';
 import { RImage } from '@scripts/base/components/image/image';
 import { RHero } from '@scripts/base/components/hero/hero';
 import { RRow } from '@scripts/base/components/row/row';
@@ -43,6 +44,8 @@ export class RStoryViewport extends Component {
               </RCol>
             </RRow>
           </RSection>
+          <RDivider />
+          <RStoryFooter />
         </RViewport>
       </div>
     );
