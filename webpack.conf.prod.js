@@ -48,7 +48,8 @@ module.exports = {
         '/formatando-qualidade',
         '/codigo-limpo',
         '/clean-code',
-        '/trinta-e-sete'
+        '/trinta-e-sete',
+        '/thirty-seven'
       ],
       minify: {
         collapseBooleanAttributes: true,

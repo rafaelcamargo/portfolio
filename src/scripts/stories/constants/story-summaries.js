@@ -1,3 +1,4 @@
+import { RThirtySevenEN } from '@scripts/stories/views/thirty-seven/thirty-seven-en';
 import { RThirtySevenPT } from '@scripts/stories/views/thirty-seven/thirty-seven-pt';
 import { RCleanCodeEN } from '@scripts/stories/views/clean-code/clean-code-en';
 import { RCleanCodePT } from '@scripts/stories/views/clean-code/clean-code-pt';
@@ -8,6 +9,17 @@ import { RFormattingQualityEN } from '@scripts/stories/views/formatting-quality/
 import { RFormattingQualityPT } from '@scripts/stories/views/formatting-quality/formatting-quality-pt';
 
 export default [
+  {
+    id: 'xZMkuGXQ3',
+    lang: 'en',
+    title: 'Thirty seven',
+    excerpt: 'Mankind constantly analyzes radio waves from outer space in the search for extraterrestrial intelligence. Since this analysis started, almost all of the signal sources have been identified. 37 signals, however, remain unexplained.',
+    keywords: 'thirty seven, 37signals, manifesto',
+    view: RThirtySevenEN,
+    url: {
+      href: '/thirty-seven'
+    }
+  },
   {
     id: '5563IL90X',
     lang: 'pt',
