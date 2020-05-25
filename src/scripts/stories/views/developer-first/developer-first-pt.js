@@ -78,21 +78,21 @@ export class RDeveloperFirstPT extends Component {
           position or not.
         </RQuote>
         <p>
-          Tarefas rotineiras devem ser automatizadas, da mesma maneira que
-          todo padrão comum deve ser abstraído. Seja tendo que lembrar de ligar
-          ou desligar algo em um determinado momento do dia, ou seja tendo
-          que escrever a mesma porção de código a cada nova funcionalidade,
-          iremos nos entendiar rapidamente. E quando o tédio entra por uma
-          porta, o engajamento sai por outra.
+          Seja tendo que lembrar de ligar ou desligar algo em um determinado
+          momento do dia ou seja tendo que escrever a mesma porção de código a
+          cada nova funcionalidade, iremos nos entendiar rapidamente. E quando
+          o tédio entra por uma porta, o engajamento sai por outra. Tarefas
+          rotineiras devem ser automatizadas, da mesma maneira que todo padrão
+          comum deve ser abstraído.
         </p>
         <RStorySpacer />
         <p>
           Assim como não faz sentido lançar rapidamente algo que não funciona,
           tão pouco seria celebrável jamais conseguir lançar algo por não
           estarmos certos de que funcione. Precisão e produtividade são dois
-          ingredientes que funcionam como o exato contra-peso um do outro. O
+          ingredientes que funcionam como o exato contra-peso um do outro. <strong>O
           alto engajamento acontece justamente quando conseguimos fazer muito
-          rápido algo que funciona muito bem.
+          rápido algo que funciona muito bem</strong>.
         </p>
         <p>
           Portando, diante de qualquer decisão ao longo do desenvolvimento do
