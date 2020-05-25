@@ -9,7 +9,7 @@ export class RCleanCodeEN extends Component {
       <RStoryViewport>
         <p>
           This is one of the most famous books in the programming universe. Its
-          fame seems only no to be bigger than the number of developers that
+          fame seems only not to be bigger than the number of developers that
           still has not read it. Some of them complain about the examples shown
           in the book to be written in Java, wrongly considering the language
           as an obstacle to understand what clean code is. I have also heard
