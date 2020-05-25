@@ -23,7 +23,7 @@ export class RDeveloperFirstPT extends Component {
           essa a impressão, não se preocupe. Ela está correta. Longe de mim
           querer dizer que um produto não deve colocar a necessidade de seus
           clientes como principal razão do seu desenvolvimento. Mas note que
-          fiz questão de utilizar o termo desenolvimento de software porque
+          fiz questão de utilizar o termo desenvolvimento de software porque
           entendo que nesse estágio o problema que o cliente possui já está
           claro, assim como já está claro também que a solução demandará
           software. O fim continua sendo oferecer solução para o problema de
