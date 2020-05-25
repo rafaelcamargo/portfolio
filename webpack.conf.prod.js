@@ -49,7 +49,8 @@ module.exports = {
         '/codigo-limpo',
         '/clean-code',
         '/trinta-e-sete',
-        '/thirty-seven'
+        '/thirty-seven',
+        '/developer-first-pt'
       ],
       minify: {
         collapseBooleanAttributes: true,

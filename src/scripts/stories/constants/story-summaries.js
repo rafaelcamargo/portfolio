@@ -1,3 +1,4 @@
+import { RDeveloperFirstPT } from '@scripts/stories/views/developer-first/developer-first-pt';
 import { RThirtySevenEN } from '@scripts/stories/views/thirty-seven/thirty-seven-en';
 import { RThirtySevenPT } from '@scripts/stories/views/thirty-seven/thirty-seven-pt';
 import { RCleanCodeEN } from '@scripts/stories/views/clean-code/clean-code-en';
@@ -9,6 +10,17 @@ import { RFormattingQualityEN } from '@scripts/stories/views/formatting-quality/
 import { RFormattingQualityPT } from '@scripts/stories/views/formatting-quality/formatting-quality-pt';
 
 export default [
+  {
+    id: 'VZTsV7OQo',
+    lang: 'pt',
+    title: 'Developer first',
+    excerpt: 'Ao longo dos últimos anos temos ouvido uma variedade de estratégias se sucederem na disputa por como melhor abordar o desenvolvimento de um software. Há poucos anos, era corriqueiro o uso do termo API-First. Mais recentemente, o entusiasmo foi com AI-First. Sendo desenvolvedor, sugiro a adoção de uma nova estratégia. Uma estratégia que não exclui qualquer outra que já esteja em curso. Uma estratégia que mantém o mesmo sufixo daquelas já mencionadas, mas que adiciona o fator humano na palavra que o precede. Developer-First.',
+    keywords: 'developer first, desenvolvedor, precisão, produtividade',
+    view: RDeveloperFirstPT,
+    url: {
+      href: '/developer-first-pt'
+    }
+  },
   {
     id: 'xZMkuGXQ3',
     lang: 'en',
