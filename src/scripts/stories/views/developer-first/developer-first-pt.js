@@ -71,7 +71,8 @@ export class RDeveloperFirstPT extends Component {
         </p>
         <RQuote
           sourceText="Finding Flow"
-          sourceHref="https://www.thriftbooks.com/w/finding-flow-the-psychology-of-engagement-with-everyday-life-masterminds-series_mihaly-csikszentmihalyi/253384/#isbn=0465045138&idiq=1009114">
+          sourceHref="https://www.thriftbooks.com/w/finding-flow-the-psychology-of-engagement-with-everyday-life-masterminds-series_mihaly-csikszentmihalyi/253384/#isbn=0465045138&idiq=1009114"
+          lang="en">
           Another characteristic of flow activities is that they provide
           immediate feedback. They make it clear how well you are doing. After
           each move of a game you can tell whether you have improved your
