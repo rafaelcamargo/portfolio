@@ -90,13 +90,17 @@ export class RDeveloperFirstPT extends Component {
           Assim como não faz sentido lançar rapidamente algo que não funciona,
           tão pouco seria celebrável jamais conseguir lançar algo por não
           estarmos certos de que funcione. Precisão e produtividade são dois
-          ingredientes que funcionam como o exato contra-peso um do outro. <strong>O
-          alto engajamento acontece justamente quando conseguimos fazer muito
-          rápido algo que funciona muito bem</strong>.
+          ingredientes que funcionam como o exato contra-peso um do outro. <strong>
+          Developer-first é uma abordagem que preza pelo alto engagamento do
+          desenvolvedor. E o alto engajamento acontece justamente
+          quando conseguimos fazer muito rápido algo que funciona muito
+          bem</strong>.
         </p>
         <p>
-          Portando, diante de qualquer decisão ao longo do desenvolvimento do
-          software, questione-se: <em>Como essa decisão colabora para tornar o
+          A adoção dessa abordagem não demanda a chancela de nenhum gerente ou
+          diretor. Cabe tão somente a nós desenvolvedores. Portando, diante de
+          qualquer decisão ao longo do desenvolvimento do software,
+          questione-se: <em>Como essa decisão colabora para tornar o
           software mais preciso? Como essa decisão nos faria escrever testes
           mais facilmente? Como essa decisão torna nosso código mais
           compreensível? Como essa decisão nos fará escrever menos código? Como
