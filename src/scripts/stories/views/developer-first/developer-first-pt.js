@@ -99,7 +99,7 @@ export class RDeveloperFirstPT extends Component {
         </p>
         <p>
           A adoção dessa abordagem não demanda a chancela de nenhum gerente ou
-          diretor. Cabe tão somente a nós desenvolvedores. Portando, diante de
+          diretor. Cabe tão somente a nós desenvolvedores. Portanto, diante de
           qualquer decisão ao longo do desenvolvimento do software,
           questione-se: <em>Como essa decisão colabora para tornar o
           software mais preciso? Como essa decisão nos faria escrever testes
