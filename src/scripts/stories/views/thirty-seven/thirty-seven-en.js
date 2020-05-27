@@ -19,7 +19,7 @@ export class RThirtySevenEN extends Component {
           As intriguing as radio waves from outer space was the capacity
           of a tiny company called <RExternalLink href="https://37signals.com/">
           37signals</RExternalLink> to throw uncountable meteors over
-          the commons sense on design, products, and programming, since the
+          the common sense on design, products, and programming, since the
           late 90’s.
         </p>
         <p>
