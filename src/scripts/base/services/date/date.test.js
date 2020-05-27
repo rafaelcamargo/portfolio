@@ -7,4 +7,12 @@ describe('Date Service', () => {
     window.Date = jest.fn(() => dateMock);
     expect(dateService.getNow()).toEqual(dateMock);
   });
+
+  it('should format a brazilian date', () => {
+    expect(dateService.format('2020-05-26', 'pt')).toEqual('26/05/2020');
+  });
+
+  it('should format an US date', () => {
+    expect(dateService.format('2020-05-07', 'en')).toEqual('5/7/2020');
+  });
 });
