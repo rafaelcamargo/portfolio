@@ -1,6 +1,7 @@
 const stories = [
   {
     id: 3,
+    created: '2020-05-26',
     lang: 'en',
     title: 'Story Title 3',
     excerpt: 'Story excerpt 3.',
@@ -16,6 +17,7 @@ const stories = [
   },
   {
     id: 2,
+    created: '2020-04-21',
     lang: 'en',
     title: 'Story Title 2',
     excerpt: 'Story excerpt 2.',
@@ -27,6 +29,7 @@ const stories = [
   },
   {
     id: 1,
+    created: '2019-11-15',
     lang: 'pt',
     title: 'Título da História',
     excerpt: 'Fragmento da história.',

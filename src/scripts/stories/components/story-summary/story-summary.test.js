@@ -3,6 +3,7 @@ import { shallow } from 'enzyme';
 import { Link } from 'react-router-dom';
 import { RImage } from '@scripts/base/components/image/image';
 import { RStorySummary } from '@scripts/stories/components/story-summary/story-summary';
+import { RTime } from '@scripts/base/components/time/time';
 import storiesMock from '@scripts/stories/mocks/stories';
 
 describe('Story Summary List', () => {
@@ -43,6 +44,12 @@ describe('Story Summary List', () => {
     expect(wrapper.find('a').prop('href')).toEqual(storiesMock[2].url.href);
   });
 
+  it('should contain a time', () => {
+    const wrapper = mount({ summary: storiesMock[0] });
+    expect(wrapper.find(RTime).prop('dateTime')).toEqual('2020-05-26');
+    expect(wrapper.find(RTime).prop('lang')).toEqual('en');
+  });
+
   it('should build an excerpt', () => {
     const wrapper = mount({ summary: storiesMock[0] });
     expect(wrapper.find('p').text()).toEqual('Story excerpt 3.');
@@ -53,7 +60,12 @@ describe('Story Summary List', () => {
       do espaço na busca por inteligência extraterrestre. Desde que essas
       análises começaram, a origem de quase todos os sinais foi identificada.
       Trinta e sete delas, porém, permenecem inexplicadas.`.replace(/\n/g, '');
-    const wrapper = mount({ summary: { url: { href: 'https://rafaelcamargo.com' }, excerpt } });
+    const summary = {
+      created: '2020-05-26',
+      url: { href: 'https://rafaelcamargo.com' },
+      excerpt
+    };
+    const wrapper = mount({ summary });
     expect(wrapper.find('p').text()).toEqual(`${excerpt.substring(0, 200).trim()}...`);
   });
 });

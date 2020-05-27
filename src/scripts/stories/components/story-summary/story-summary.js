@@ -2,16 +2,18 @@ import '@styles/story-summary.styl';
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { RImage } from '@scripts/base/components/image/image';
+import { RTime } from '@scripts/base/components/time/time';
 
 export class RStorySummary extends Component {
   render() {
-    const { url, lang, title, excerpt } = this.props.summary;
+    const { url, created, lang, title, excerpt } = this.props.summary;
     return (
       <div className="r-story-summary" lang={ lang }>
         <main>
           <h2>
             { buildLink(url, title) }
           </h2>
+          <RTime dateTime={ created } lang={ lang } />
           <p>
             { handleExcerptLength(excerpt) }
           </p>
