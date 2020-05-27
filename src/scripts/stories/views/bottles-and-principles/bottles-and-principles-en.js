@@ -147,8 +147,8 @@ export class RBottlesAndPrinciplesEN extends Component {
           should be true for the wine bottle and for any other object you create.
         </p>
         <p>
-          Also notice that following the <em>Open-Closed</em> principle you
-          automatically dose your selector specificity at the exact need for
+          Also notice that following the <em>Open-Closed</em> principle, you
+          automatically dose your selector specificity at the exact weight for
           your necessity. This is crucial for bottle and wine-bottle keep
           themselves open for extension. If you over-specify your selectors,
           you may end up blocking the extension and, that way, violating
