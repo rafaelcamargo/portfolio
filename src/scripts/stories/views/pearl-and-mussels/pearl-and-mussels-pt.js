@@ -28,7 +28,7 @@ export class RPearlAndMusselsPT extends Component {
           Depois do banho de água fria, saímos à caça das razões que ousaram
           secar nosso oceano de otimismo. Começaram as apostas. A maioria delas
           carregava consigo a ausência de uma feature. <em>Não temos conversões
-          poque o produto não faz isso. Não temos conversões porque o produto
+          porque o produto não faz isso. Não temos conversões porque o produto
           não faz aquilo.</em> Em pouquíssimo tempo, dispunhamos de uma enorme
           quantidade de trabalho pela frente. E quanto mais discutíamos, mais
           features gostaríamos que o produto tivesse. Acreditávamos que a cada
@@ -44,7 +44,7 @@ export class RPearlAndMusselsPT extends Component {
           fizesse brilhar os olhos dos nossos clientes. Queríamos nos
           convencer do potencial do produto reunindo a maior quantidade
           possível de mariscos, sem notar que não tínhamos nenhuma pérola a
-          ofercer.
+          oferecer.
         </p>
         <h2>
           Pérolas
@@ -89,7 +89,7 @@ export class RPearlAndMusselsPT extends Component {
           com 80 <em>commits</em> alcança uma popularidade de três mil estrelas no
           Github, e o site do projeto contabiliza dezenas de milhares de
           visitas vindas de mais de 150 países. Não me restam dúvidas de que,
-          em Novembro de 2018, de maneira despretenciosa e acidental, eu
+          em Novembro de 2018, de maneira despretensiosa e acidental, eu
           tinha de fato descoberto uma pérola.
         </p>
         <h2>
@@ -100,7 +100,7 @@ export class RPearlAndMusselsPT extends Component {
           adesão a um produto, o real problema pode não ser a a falta delas, mas
           o fato das que já existem não fazer brilhar o olho de ninguém. No
           livro Rework, Jason Fried e David Hansson comentam concorrência e
-          quantidade de features numa seção chamada Unederdo The Competition.
+          quantidade de features numa seção chamada <em>Underdo your competition</em>.
           Desbanque seus concorrentes fazendo menos, não mais.
         </p>
         <RQuote
