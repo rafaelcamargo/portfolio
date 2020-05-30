@@ -8,6 +8,13 @@ describe('Stories Service', () => {
     expect(sumaries).toEqual(storySummaries);
   });
 
+  it('should get public story summaries only', () => {
+    const summaries = [ { private: true }, {} ];
+    storiesService.getSummaries = jest.fn(() => summaries);
+    const sumaries = storiesService.getPublicSummaries();
+    expect(sumaries.length).toEqual(1);
+  });
+
   it('should get summary with views', () => {
     const summaries = storiesService.getSummaryWithViews();
     const lastSummary = summaries[summaries.length - 1];

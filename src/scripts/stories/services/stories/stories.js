@@ -6,6 +6,10 @@ _public.getSummaries = () => {
   return storySummaries;
 };
 
+_public.getPublicSummaries = () => {
+  return _public.getSummaries().filter(summary => !summary.private);
+};
+
 _public.getSummaryWithViews = () => {
   return storySummaries.filter(summary => !!summary.view);
 };
