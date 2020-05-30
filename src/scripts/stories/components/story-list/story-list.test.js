@@ -13,7 +13,7 @@ describe('Story List', () => {
   }
 
   beforeEach(() => {
-    storiesService.getSummaries = jest.fn(() => storiesMock);
+    storiesService.getPublicSummaries = jest.fn(() => storiesMock);
   });
 
   it('should have appropriate css class', () => {

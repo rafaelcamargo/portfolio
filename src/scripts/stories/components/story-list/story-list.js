@@ -18,7 +18,7 @@ function buildItems(summaryIds){
 }
 
 function getSummaries(ids){
-  const summaries = storySummariesService.getSummaries();
+  const summaries = storySummariesService.getPublicSummaries();
   return ids ? filterSummariesByIds(summaries, ids) : summaries;
 }
 
