@@ -50,7 +50,8 @@ module.exports = {
         '/clean-code',
         '/trinta-e-sete',
         '/thirty-seven',
-        '/developer-first-pt'
+        '/developer-first-pt',
+        '/perolas-e-mariscos'
       ],
       minify: {
         collapseBooleanAttributes: true,

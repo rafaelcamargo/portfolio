@@ -1,3 +1,4 @@
+import { RPearlAndMusselsPT } from '@scripts/stories/views/pearl-and-mussels/pearl-and-mussels-pt';
 import { RDeveloperFirstPT } from '@scripts/stories/views/developer-first/developer-first-pt';
 import { RThirtySevenEN } from '@scripts/stories/views/thirty-seven/thirty-seven-en';
 import { RThirtySevenPT } from '@scripts/stories/views/thirty-seven/thirty-seven-pt';
@@ -10,6 +11,19 @@ import { RFormattingQualityEN } from '@scripts/stories/views/formatting-quality/
 import { RFormattingQualityPT } from '@scripts/stories/views/formatting-quality/formatting-quality-pt';
 
 export default [
+  {
+    private: true,
+    id: 'mzUJTQH08',
+    created: '2020-05-29',
+    lang: 'pt',
+    title: 'Pérolas e mariscos',
+    excerpt: 'Octocash. Esse era o nome do produto que eu e dois colegas lançamos há quatro anos. Começar a construir o próprio produto tendo apenas dois anos de profissão é uma experiência deslumbrante. Todos os integrantes transbordam otimismo. É tanto otimismo que ele sozinho é mais do que suficiente para desenvolver o produto. É tanta euforia que entender profundamente um problema passa a ser opcional. Após desenharmos um logo e as primeiras telas, programamos loucamente até colocar o produto no ar. Visitante após visitante, começamos a coletar então a amarga métrica de zero conversões. Ops! Ficou evidente que era preciso mais que só abrir a porta da loja pro negócio dar certo.',
+    keywords: 'perolas, mariscos, features, desenvolvimento de produto',
+    view: RPearlAndMusselsPT,
+    url: {
+      href: '/perolas-e-mariscos'
+    }
+  },
   {
     id: 'VZTsV7OQo',
     created: '2020-05-24',
