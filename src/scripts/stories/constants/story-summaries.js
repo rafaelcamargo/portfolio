@@ -22,7 +22,8 @@ export default [
     view: RPearlAndMusselsPT,
     url: {
       href: '/perolas-e-mariscos'
-    }
+    },
+    relationIds: ['VZTsV7OQo', '5563IL90X']
   },
   {
     id: 'VZTsV7OQo',

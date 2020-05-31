@@ -65,11 +65,6 @@ describe('Story Viewport', () => {
     expect(wrapper.find('b').text()).toEqual('Hey');
   });
 
-  it('should contain a divider', () => {
-    const wrapper = mount();
-    expect(wrapper.find(RDivider).length).toEqual(1);
-  });
-
   it('should contain a story footer', () => {
     const wrapper = mount();
     expect(wrapper.find(RStoryFooter).length).toEqual(1);

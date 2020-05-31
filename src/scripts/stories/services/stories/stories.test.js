@@ -25,4 +25,11 @@ describe('Stories Service', () => {
     const sumary = storiesService.findSummaryByUrlPath('/component-maturity-model');
     expect(sumary.title).toEqual('Component maturity model');
   });
+
+  it('should filter story summaries by id', () => {
+    const summaries = [ { id: 'a' }, { id: 'b' }, { id: 'c' } ];
+    storiesService.getSummaries = jest.fn(() => summaries);
+    const sumaries = storiesService.filterByIds(['a', 'c']);
+    expect(sumaries.length).toEqual(2);
+  });
 });

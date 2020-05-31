@@ -18,4 +18,8 @@ _public.findSummaryByUrlPath = path => {
   return storySummaries.find(summary => summary.url.href === path);
 };
 
+_public.filterByIds = ids => {
+  return _public.getSummaries().filter(summary => ids.includes(summary.id));
+};
+
 export default _public;
