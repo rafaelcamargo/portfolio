@@ -47,7 +47,7 @@ function buildRelatedStoryLinks(ids){
 }
 
 function getPunctuation(isLastRelatedStoryLink){
-  return isLastRelatedStoryLink ? <span>.</span> : <span>,</span>;
+  return isLastRelatedStoryLink ? <span>.</span> : <span>, </span>;
 }
 
 function isLastRelatedStoryLink(stories, currentStoryIndex){
