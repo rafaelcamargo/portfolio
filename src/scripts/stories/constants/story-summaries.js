@@ -12,7 +12,6 @@ import { RFormattingQualityPT } from '@scripts/stories/views/formatting-quality/
 
 export default [
   {
-    private: true,
     id: 'mzUJTQH08',
     created: '2020-05-29',
     lang: 'pt',
