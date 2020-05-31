@@ -34,7 +34,8 @@ export default [
     view: RDeveloperFirstPT,
     url: {
       href: '/developer-first-pt'
-    }
+    },
+    relationIds: ['_JEc2sLgc', 'gCHMAKMQG']
   },
   {
     id: 'xZMkuGXQ3',
@@ -58,7 +59,8 @@ export default [
     view: RThirtySevenPT,
     url: {
       href: '/trinta-e-sete'
-    }
+    },
+    relationIds: ['VZTsV7OQo']
   },
   {
     id: 'ZlEeWEKqC',
@@ -70,7 +72,8 @@ export default [
     view: RCleanCodeEN,
     url: {
       href: '/clean-code'
-    }
+    },
+    relationIds: ['Qt7tQ7T6p']
   },
   {
     id: '_JEc2sLgc',
@@ -82,7 +85,8 @@ export default [
     view: RCleanCodePT,
     url: {
       href: '/codigo-limpo'
-    }
+    },
+    relationIds: ['gCHMAKMQG', 'VZTsV7OQo']
   },
   {
     id: 'Qt7tQ7T6p',
@@ -99,7 +103,8 @@ export default [
     image: {
       filename: 'story-formatting-quality.svg',
       alt: 'code successfully formatted'
-    }
+    },
+    relationIds: ['ZlEeWEKqC']
   },
   {
     id: 'gCHMAKMQG',
@@ -116,7 +121,8 @@ export default [
     image: {
       filename: 'story-formatting-quality.svg',
       alt: 'Código bem formatado'
-    }
+    },
+    relationIds: ['_JEc2sLgc', 'VZTsV7OQo']
   },
   {
     id: '2E0CpLf5S',
@@ -134,6 +140,7 @@ export default [
       filename: 'story-bottles-and-principles.svg',
       alt: 'bottles with different contents'
     },
+    relationIds: ['ZlEeWEKqC', 'Qt7tQ7T6p']
   },
   {
     id: 'UwYUUy1Au',
@@ -151,6 +158,7 @@ export default [
       filename: 'story-bottles-and-principles.svg',
       alt: 'bottles with different contents'
     },
+    relationIds: ['_JEc2sLgc', 'VZTsV7OQo']
   },
   {
     id: 'd35RrBlBl',
@@ -167,7 +175,8 @@ export default [
     image: {
       filename: 'story-component-maturity-model.svg',
       alt: 'ui coponents illustration'
-    }
+    },
+    relationIds: ['ZlEeWEKqC', 'Qt7tQ7T6p']
   },
   {
     id: '1baSryrKk',
@@ -184,7 +193,8 @@ export default [
     image: {
       filename: 'story-component-maturity-model.svg',
       alt: 'ui coponents illustration'
-    }
+    },
+    relationIds: ['gCHMAKMQG', '_JEc2sLgc']
   },
   {
     id: '23vsS2pEj',
