@@ -13,7 +13,7 @@ import { RFormattingQualityPT } from '@scripts/stories/views/formatting-quality/
 export default [
   {
     id: 'mzUJTQH08',
-    created: '2020-05-29',
+    created: '2020-05-31',
     lang: 'pt',
     title: 'Pérolas e mariscos',
     excerpt: 'Octocash. Esse era o nome do produto que eu e dois colegas lançamos há quatro anos. Começar a construir o próprio produto tendo apenas dois anos de profissão é uma experiência deslumbrante. Todos os integrantes transbordam otimismo. É tanto otimismo que ele sozinho é mais do que suficiente para desenvolver o produto. É tanta euforia que entender profundamente um problema passa a ser opcional. Após desenharmos um logo e as primeiras telas, programamos loucamente até colocar o produto no ar. Visitante após visitante, começamos a coletar então a amarga métrica de zero conversões. Ops! Ficou evidente que era preciso mais que só abrir a porta da loja pro negócio dar certo.',
