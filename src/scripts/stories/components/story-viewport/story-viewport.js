@@ -1,11 +1,9 @@
 import '@styles/story-viewport.styl';
 import React, { Component } from 'react';
 import { RCol } from '@scripts/base/components/col/col';
-import { RDivider } from '@scripts/base/components/divider/divider';
 import { RImage } from '@scripts/base/components/image/image';
 import { RHero } from '@scripts/base/components/hero/hero';
 import { RRow } from '@scripts/base/components/row/row';
-import { RRelatedStories } from '@scripts/stories/components/related-stories/related-stories';
 import { RSection } from '@scripts/base/components/section/section';
 import { RStoryFooter } from '@scripts/stories/components/story-footer/story-footer';
 import { RViewport } from '@scripts/base/components/viewport/viewport';
@@ -44,8 +42,9 @@ export class RStoryViewport extends Component {
               </RCol>
             </RRow>
           </RSection>
-          <RDivider />
-          <RStoryFooter />
+          <RStoryFooter
+            storyRelationIds={ this.summary.relationIds }
+            lang={ this.summary.lang } />
         </RViewport>
       </div>
     );
