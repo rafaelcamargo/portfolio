@@ -8,11 +8,22 @@ export class RStoryFooter extends Component {
   render() {
     return (
       <footer className="r-story-footer">
-        <RDivider />
-        <RStoryRelations ids={ this.props.storyRelationIds } lang={this.props.lang} />
+        { buildStoryRelation(this.props.storyRelationIds, this.props.lang) }
         <RDivider />
         <RPitsbyPromo />
       </footer>
     );
   }
+}
+
+function buildStoryRelation(storyRelationIds, lang){
+  if(storyRelationIds)
+    return (
+      <>
+        <RDivider />
+        <RStoryRelations
+          ids={ storyRelationIds }
+          lang={ lang } />
+      </>
+    )
 }
