@@ -51,7 +51,8 @@ module.exports = {
         '/trinta-e-sete',
         '/thirty-seven',
         '/developer-first-pt',
-        '/perolas-e-mariscos'
+        '/perolas-e-mariscos',
+        '/incondicional-inhotim'
       ],
       minify: {
         collapseBooleanAttributes: true,

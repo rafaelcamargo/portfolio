@@ -1,3 +1,4 @@
+import { RUnconditionalInhotimPT } from '@scripts/stories/views/unconditional-inhotim/unconditional-inhotim-pt';
 import { RPearlAndMusselsPT } from '@scripts/stories/views/pearl-and-mussels/pearl-and-mussels-pt';
 import { RDeveloperFirstPT } from '@scripts/stories/views/developer-first/developer-first-pt';
 import { RThirtySevenEN } from '@scripts/stories/views/thirty-seven/thirty-seven-en';
@@ -11,6 +12,18 @@ import { RFormattingQualityEN } from '@scripts/stories/views/formatting-quality/
 import { RFormattingQualityPT } from '@scripts/stories/views/formatting-quality/formatting-quality-pt';
 
 export default [
+  {
+    id: 'Mmx5gPyQC',
+    created: '2020-06-06',
+    lang: 'pt',
+    title: 'Incondicional Inhotim',
+    excerpt: 'Temos todos a capacidade de reconhecer a beleza no imediato momento em que nos colocamos diante dela. Essa foi a certeza que tomou conta de mim no dia que visitei o maior museu de arte contemporânea a céu aberto do mundo. Um jardim que poderia ser perfeitamente chamado de paraíso. Inhotim.',
+    keywords: 'Inhotim, arte, Hélio Oiticica, Adriana Varejão, Valeska Soares, Hugo França, Chelpa Ferro',
+    view: RUnconditionalInhotimPT,
+    url: {
+      href: '/incondicional-inhotim'
+    }
+  },
   {
     id: 'mzUJTQH08',
     created: '2020-05-31',
