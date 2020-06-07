@@ -16,21 +16,28 @@ export class RUnconditionalInhotimPT extends Component {
           paraíso. Inhotim.
         </p>
         <p>
-          Dentro da galeria Cosmococa você deita na cama, se embala na rede,
-          mergulha na piscina. Os cinco <em>quasi-cinemas</em> - conceito criado por
-          Oiticica - invadem os seus sentidos na medida em que você os invade.
-          Do terraço da galeria Adriana Varejão, você admira o belíssimo olho
-          d’água enquanto se deslumbra com espécies de pássaros da região
-          amazônica pintados à mão por Beatriz Sauer sobre azulejos. E
-          caminhando em meio a uma alta vegetação você se vê, ao descobrir a
-          galeria de Valeska Soares, nos espelhos da obra Folly.
+          Dentro da galeria <RExternalLink href="https://www.inhotim.org.br/uploads/2015/06/blogcosmc.jpg">
+          Cosmococa</RExternalLink> você deita na cama, se embala na rede,
+          mergulha na piscina. Os cinco <em>quasi-cinemas</em> - conceito criado
+          por <RExternalLink href="https://pt.wikipedia.org/wiki/H%C3%A9lio_Oiticica">
+          Hélio Oiticica</RExternalLink> - invadem os seus sentidos na medida em
+          que você os invade. Do terraço da <RExternalLink href="https://i.ytimg.com/vi/Td0fHM_EVAM/maxresdefault.jpg">
+          galeria Adriana Varejão</RExternalLink>, você admira  o belíssimo
+          olho d’água enquanto se deslumbra com espécies de <RExternalLink href="https://www.itinerariodeviagem.com/wp-content/uploads/2017/08/INHOTIM-105.jpg">
+          pássaros da região amazônica</RExternalLink> pintados à mão por
+          Beatriz Sauer sobre azulejos. E caminhando em meio a uma alta vegetação
+          você se vê, ao descobrir a galeria de Valeska Soares, nos espelhos da
+          obra <RExternalLink href="https://www.inhotim.org.br/uploads/2014/11/valeska2.jpg">
+          Folly</RExternalLink>.
         </p>
         <p>
-          Essas são três das mais de vinte galerias de arte presentes no jardim.
-          O que existe entre cada uma delas é a extraordinária natureza
-          brasileira que tanto escutamos ao longo da vida, mas que aos trinta
-          e dois anos eu ainda não tinha a mínima ideia do que significava.
-          Inhotim é imenso não só em tamanho, mas também em significado e beleza.
+          Essas são três das <RExternalLink href="https://www.inhotim.org.br/uploads/documents-downloads/mapa_visite_inhotim_final.pdf">
+          mais de vinte galerias</RExternalLink> de arte presentes no <RExternalLink href="https://www.inhotim.org.br/uploads/2013/11/blog_20180725_visitantes_william-gomes-1037.jpg">
+          jardim</RExternalLink>. O que existe entre cada uma delas é a extraordinária <RExternalLink href="https://i.pinimg.com/originals/3c/e5/0f/3ce50fc71a3f82942a71b577b3bd0d3a.jpg">
+          natureza brasileira</RExternalLink> que tanto escutamos ao longo da
+          vida, mas que aos trinta e dois anos eu ainda não tinha a mínima
+          ideia do que significava. Inhotim é imenso não só em tamanho, mas
+          também em significado e beleza.
         </p>
         <h2>
           Nenhuma explicação
