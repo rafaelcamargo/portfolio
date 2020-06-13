@@ -1,0 +1,56 @@
+@require '_variables'
+@require '_mixins'
+
+@keyframes fadin
+  0%
+    opacity 0
+  100%
+    opacity 1
+
+@keyframes moveup
+  0%
+    top 25px
+  100%
+    top 0
+
+.r-modal-backdrop
+  position fixed
+  top 0
+  right 0
+  bottom 0
+  left 0
+  background-color alpha($color-darkest, .5)
+  z-index $layer-middle
+  animation fadin 300ms
+
+.r-modal
+  position relative
+  margin 120px auto 0
+  padding 20px
+  width 95%
+  max-width 400px
+  background-color $color-lightest
+  animation moveup 300ms
+  border-radius(6px)
+  box-sizing(border-box)
+
+.r-modal-header
+  position relative
+  padding-right 30px
+  box-sizing(border-box)
+
+.r-modal-title
+  margin-bottom 20px
+
+.r-modal-cose-button-container
+  position absolute
+  top 0
+  right 0
+  .r-button
+    margin-top 5px
+    line-height 20px
+    .r-icon
+      margin-right 0
+    +highlight()
+      .r-icon
+        background-color $color-red
