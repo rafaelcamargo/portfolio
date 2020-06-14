@@ -11,6 +11,6 @@ describe('Vervet Resource', () => {
     const message = { some: 'message' };
     vervetResource.post(projectId, 'messages', message);
     expect(baseResource.post).toHaveBeenCalledWith(
-      'http://localhost:9000/projects/123/messages', message);
+      'http://localhost:9001/projects/123/messages', message);
   });
 });
