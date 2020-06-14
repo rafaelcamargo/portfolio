@@ -33,14 +33,19 @@ describe('Button', () => {
     expect(wrapper.prop('type')).toEqual(type);
   });
 
-  it('should optionally set a faceless theme', () => {
-    const wrapper = mount({ theme: 'faceless' });
-    expect(wrapper.prop('className').includes('r-button-theme-faceless')).toEqual(true);
-  });
-
   it('should optionally set a primary theme', () => {
     const wrapper = mount({ theme: 'primary' });
     expect(wrapper.prop('className').includes('r-button-theme-primary')).toEqual(true);
+  });
+
+  it('should optionally set a link theme', () => {
+    const wrapper = mount({ theme: 'link' });
+    expect(wrapper.prop('className').includes('r-button-theme-link')).toEqual(true);
+  });
+
+  it('should optionally set a faceless theme', () => {
+    const wrapper = mount({ theme: 'faceless' });
+    expect(wrapper.prop('className').includes('r-button-theme-faceless')).toEqual(true);
   });
 
   it('should not set aria label by default', () => {

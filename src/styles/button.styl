@@ -10,8 +10,6 @@ themed-button($text-color, $bg-color)
     background-color alpha($bg-color, .9)
 
 .r-button
-  display flex
-  align-items center
   padding 0 35px
   color $color-grey-dark
   background-color $color-grey-lighter
@@ -32,6 +30,16 @@ themed-button($text-color, $bg-color)
     themed-button($color-grey-lighter, $color-purple)
     .r-icon
       background-color $color-lightest
+  &.r-button-theme-link
+    background none
+    padding 0
+    color $color-purple
+    font-size $font-size-sm
+    font-weight 300
+    line-height inherit
+    text-decoration none
+    border 0
+    webkit-appearance(none)
   &.r-button-theme-faceless
     background none
     padding 0

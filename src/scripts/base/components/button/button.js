@@ -28,14 +28,11 @@ function buildClassName(theme){
 
 function buildThemeClassName(theme){
   const prefix = `${BASE_CLASS_NAME}-theme`;
-  switch (theme) {
-    case 'faceless':
-      return `${prefix}-faceless`;
-    case 'primary':
-      return `${prefix}-primary`;
-    default:
-      return ''
-  }
+  return isThemeValid(theme) ? `${prefix}-${theme}` : '';
+}
+
+function isThemeValid(theme){
+  return ['primary','link','faceless'].includes(theme);
 }
 
 function buildIcon(name){
