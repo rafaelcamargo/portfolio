@@ -17,6 +17,10 @@ export default {
       MAILER: {
         ID: 'b0031d0f-b282-41af-bc89-ef6f97a398f2',
         RECIPIENT: 'hello@rafaelcamargo.com'
+      },
+      NEWSLETTER: {
+        ID: 'e02ab6c2-558e-4ab3-bf56-06f290971976',
+        LIST_ID: '1e01434c89'
       }
     }
   }
