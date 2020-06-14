@@ -35,7 +35,6 @@ export class RStoryViewport extends Component {
           <RSection>
             <RRow>
               <RCol size="12">
-                { handleImage(this.summary) }
                 <div className="r-story-viewport-content">
                   { this.props.children }
                 </div>
@@ -49,13 +48,4 @@ export class RStoryViewport extends Component {
       </div>
     );
   }
-}
-
-function handleImage({ image }){
-  if(image)
-    return (
-      <div className="r-story-viewport-image-container">
-        <RImage filename={ image.filename } alt={ image.alt } />
-      </div>
-    );
 }

@@ -51,13 +51,6 @@ describe('Story Viewport', () => {
     expect(wrapper.find(RHero).prop('size')).toEqual('small');
   });
 
-  it('should build an image', () => {
-    mockUrlPath('/story-mock-3');
-    const wrapper = mount();
-    expect(wrapper.find(RImage).prop('filename')).toEqual('story-mock.svg');
-    expect(wrapper.find(RImage).prop('alt')).toEqual('Story mock');
-  });
-
   it('should transclude some content', () => {
     mockUrlPath('/story-mock-3');
     const content = <b>Hey</b>;
