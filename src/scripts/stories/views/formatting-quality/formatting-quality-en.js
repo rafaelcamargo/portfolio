@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { RExternalLink } from '@scripts/base/components/external-link/external-link';
+import { RStorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
 import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
 export class RFormattingQualityEN extends Component {
@@ -36,13 +38,9 @@ export class RFormattingQualityEN extends Component {
           offers the possibility not to check the code syntax only, but great
           quality aspects too. Personally, I liked three of those rules so much:
         </p>
-        <p>
-          <b>
-            <a href="https://github.com/glorious-codes/glorious-pitsby/blob/master/.eslintrc.json#L27" target="_blank">
-              Cyclomatic Complexity
-            </a>
-          </b>
-        </p>
+        <h2>
+          Cyclomatic Complexity
+        </h2>
         <p>
           Amount of linear paths some code can go through. A function that
           contains a high level of cyclomatic complexity certainly has more
@@ -51,13 +49,9 @@ export class RFormattingQualityEN extends Component {
           maximum value as three. In practice, it means a function can contain
           one <em>if/else</em> or two <em>if</em>.
         </p>
-        <p>
-          <b>
-            <a href="https://github.com/glorious-codes/glorious-pitsby/blob/master/.eslintrc.json#L28" target="_blank">
-              Maximum Lines
-            </a>
-          </b>
-        </p>
+        <h2>
+          Maximum Lines
+        </h2>
         <p>
           Modules/Classes containing hundreds of lines are a code smell. They
           are propably embracing more responsibilities than they should.
@@ -68,13 +62,9 @@ export class RFormattingQualityEN extends Component {
           responsibilities and favor its distribution instead. Modules and
           classes should be as small as their responsibilities.
         </p>
-        <p>
-          <b>
-            <a href="https://github.com/glorious-codes/glorious-pitsby/blob/master/.eslintrc.json#L29" target="_blank">
-              Maximum Statements
-            </a>
-          </b>
-        </p>
+        <h2>
+          Maximum Statements
+        </h2>
         <p>
           In addition to cyclomatic complexity, a function containing too
           many statements is a clue that it’s doing more than what it should.
@@ -88,6 +78,13 @@ export class RFormattingQualityEN extends Component {
           by only focusing on making it satisfy its requirements. But reflecting
           on how to organize the code even before it satisfies any requirement,
           you ensure the success of today's release and every other else.
+        </p>
+        <RStorySpacer />
+        <p>
+          P.S.: <RExternalLink href="https://github.com/glorious-codes/glorious-pitsby/blob/master/.eslintrc.json">
+          Here</RExternalLink>, you can see a real configuration file that shows
+          how I use to handle with <em>complexity</em>, <em>max-lines</em> and <em>
+          max-statements</em> in my projects.
         </p>
       </RStoryViewport>
     );
