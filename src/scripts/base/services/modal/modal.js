@@ -54,9 +54,7 @@ function buildModal({ id, title, width, onClose, content }) {
 
 function onModalClose(id, onClose) {
   destroy(id);
-  if (onClose) {
-    onClose();
-  }
+  return onClose && onClose();
 }
 
 function destroy(id) {

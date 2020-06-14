@@ -78,7 +78,7 @@ describe('Modal Service', () => {
     const onClose = jest.fn();
     modalService.open({ onClose });
     const wrapper = getModalWrapper('ghi');
-    wrapper.querySelector('[data-modal-close-button]').click();
+    wrapper.querySelector('[aria-label="close"]').click();
     expect(onClose).toHaveBeenCalled();
   });
 
