@@ -2,8 +2,14 @@
 @require '_mixins'
 
 .r-story-footer
+  margin 0 auto
+  width 95%
+  max-width 640px
   padding 0 0 128px
-  .r-divider:not(:first-child),
-  .r-story-relations,
-  .r-pitsby-promo
-    margin-top 50px
+  .r-divider:first-child
+    margin 0 auto 50px
+  .r-divider:not(:first-child)
+    margin 50px auto
+
+.r-story-footer-newsletter-statement
+  text-align center
