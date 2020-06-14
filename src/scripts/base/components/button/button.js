@@ -7,7 +7,7 @@ const BASE_CLASS_NAME = 'r-button';
 export class RButton extends Component {
   constructor(props){
     super(props);
-    this.state = { className: buildClassName(this.props.theme) }
+    this.state = { className: buildClassName(this.props.theme, this.props.block) }
   }
   render() {
     return (
@@ -22,13 +22,21 @@ export class RButton extends Component {
   }
 }
 
-function buildClassName(theme){
-  return `${BASE_CLASS_NAME} ${buildThemeClassName(theme)}`.trim();
+function buildClassName(theme, block){
+  return [
+    BASE_CLASS_NAME,
+    buildThemeClassName(theme),
+    buildBlockClassName(block)
+  ].join(' ').trim();
 }
 
 function buildThemeClassName(theme){
   const prefix = `${BASE_CLASS_NAME}-theme`;
   return isThemeValid(theme) ? `${prefix}-${theme}` : '';
+}
+
+function buildBlockClassName(block){
+  return block ? `${BASE_CLASS_NAME}-block` : '';
 }
 
 function isThemeValid(theme){

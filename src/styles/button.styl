@@ -22,12 +22,13 @@ themed-button($text-color, $bg-color)
   webkit-appearance(none)
   transition(all, 300ms)
   border-radius(4px)
+  box-sizing(border-box)
   unselectable()
   +highlight()
     background-color alpha($color-grey-lighter, .8)
     outline 0
   &.r-button-theme-primary
-    themed-button($color-grey-lighter, $color-purple)
+    themed-button($color-lightest, $color-purple)
     .r-icon
       background-color $color-lightest
   &.r-button-theme-link
@@ -45,5 +46,7 @@ themed-button($text-color, $bg-color)
     padding 0
     border 0
     webkit-appearance(none)
+  &.r-button-block
+    width 100%
   .r-icon
     margin-right 5px
