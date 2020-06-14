@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { RExternalLink } from '@scripts/base/components/external-link/external-link';
+import { RStorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
 import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
 export class RFormattingQualityPT extends Component {
@@ -39,13 +41,9 @@ export class RFormattingQualityPT extends Component {
           você verificar não apenas a sintaxe do código, mas também aspectos
           relacionados à qualidade. Particularmente, gostei muito de três regras:
         </p>
-        <p>
-          <b>
-            <a href="https://github.com/glorious-codes/glorious-pitsby/blob/master/.eslintrc.json#L27" target="_blank">
-              Complexidade Ciclomática
-            </a>
-          </b>
-        </p>
+        <h2>
+          Complexidade Ciclomática
+        </h2>
         <p>
           Quantidade linear de caminhos que o código da sua aplicação pode tomar.
           Uma função com alto valor de complexidade ciclomática certamente não
@@ -54,13 +52,9 @@ export class RFormattingQualityPT extends Component {
           valor máximo de três. Isso significa na prática que uma função pode
           conter um <em>if/else</em> ou, no máximo, dois <em>if</em>.
         </p>
-        <p>
-          <b>
-            <a href="https://github.com/glorious-codes/glorious-pitsby/blob/master/.eslintrc.json#L28" target="_blank">
-              Limite de linhas
-            </a>
-          </b>
-        </p>
+        <h2>
+          Limite de linhas
+        </h2>
         <p>
           Módulos/classes que contém centenas de linhas representam um mal
           cheiro no código. Muito provavelmente estão concentrando mais
@@ -70,13 +64,9 @@ export class RFormattingQualityPT extends Component {
           arquivos, forço mais uma vez a desconcentração de responsabilidades.
           Módulos e classes devem ser tão pequenos quanto suas responsabilidades.
         </p>
-        <p>
-          <b>
-            <a href="https://github.com/glorious-codes/glorious-pitsby/blob/master/.eslintrc.json#L29" target="_blank">
-              Limite de declarações
-            </a>
-          </b>
-        </p>
+        <h2>
+          Limite de declarações
+        </h2>
         <p>
           Assim como a complexidade ciclomática, um grande número de declarações
           indica também que a função está se responsabilizando por mais coisas
@@ -92,6 +82,13 @@ export class RFormattingQualityPT extends Component {
           requisitos especificados. Mas se preocupar em como organizar o
           código antes mesmo de faze-lo satisfazer qualquer especificação
           garantirá o sucesso da entrega de hoje e de todas as demais.
+        </p>
+        <RStorySpacer />
+        <p>
+          P.S.: <RExternalLink href="https://github.com/glorious-codes/glorious-pitsby/blob/master/.eslintrc.json">
+          Aqui</RExternalLink>, você confere um arquivo real de configuração que
+          mostra como tenho lidado com <em>complexity</em>, <em>max-lines</em> e <em>
+          max-statements</em> em meus projetos.
         </p>
       </RStoryViewport>
     );
