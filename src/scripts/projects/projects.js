@@ -3,7 +3,6 @@ import { RAvatron } from '@scripts/base/components/avatron/avatron';
 import { RCol } from '@scripts/base/components/col/col';
 import { RCtaLink } from '@scripts/base/components/cta-link/cta-link';
 import { RHero } from '@scripts/base/components/hero/hero';
-import { RNewsletterBar } from '@scripts/base/components/newsletter-bar/newsletter-bar';
 import { RProject } from '@scripts/projects/components/project/project';
 import { RProjectList } from '@scripts/projects/components/project-list/project-list';
 import { RRow } from '@scripts/base/components/row/row';
