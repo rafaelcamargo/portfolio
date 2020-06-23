@@ -23,12 +23,11 @@ export class RUnconditionalInhotimPT extends Component {
           Hélio Oiticica</RExternalLink> - invadem os seus sentidos na medida em
           que você os invade. Do terraço da <RExternalLink href="https://i.ytimg.com/vi/Td0fHM_EVAM/maxresdefault.jpg">
           galeria Adriana Varejão</RExternalLink>, você admira  o belíssimo
-          olho d’água enquanto se deslumbra com espécies de <RExternalLink href="https://www.itinerariodeviagem.com/wp-content/uploads/2017/08/INHOTIM-105.jpg">
-          pássaros da região amazônica</RExternalLink> pintados à mão por
-          Beatriz Sauer sobre azulejos. E caminhando em meio a uma alta vegetação
-          você se vê, ao descobrir a galeria de Valeska Soares, nos espelhos da
-          obra <RExternalLink href="https://www.inhotim.org.br/uploads/2014/11/valeska2.jpg">
-          Folly</RExternalLink>.
+          espelho d’água enquanto se deslumbra com espécies de <RExternalLink href="https://www.itinerariodeviagem.com/wp-content/uploads/2017/08/INHOTIM-105.jpg">
+          pássaros da região amazônica</RExternalLink> pintados à mão sobre
+          azulejos por Beatriz Sauer. E caminhando em meio a uma alta vegetação,
+          você se vê nos espelhos da obra <RExternalLink href="https://www.inhotim.org.br/uploads/2014/11/valeska2.jpg">
+          Folly</RExternalLink> ao descobrir a galeria de Valeska Soares.
         </p>
         <p>
           Essas são três das <RExternalLink href="https://www.inhotim.org.br/uploads/documents-downloads/mapa_visite_inhotim_final.pdf">
@@ -50,13 +49,13 @@ export class RUnconditionalInhotimPT extends Component {
           ela desempenhe.
         </p>
         <p>
-          Na conversa, os elogios a Inhotim são inevitáveis. A
+          Na conversa, meus elogios a Inhotim são inevitáveis. A
           curiosidade do pessoal aflora e um deles recorre ao celular para
           fazer uma rápida pesquisa. Ele me questiona qual o sentido de
-          suspender um cubo vermelho, enquanto me mostra a obra <em>Red</em>, de
-          Tsuruko Yamazaki, na tela do seu celular. Foi desconfortável para ele
-          constatar que algo não tinha necessariamente resposta. Não era
-          explicável. Não tinha lógica.
+          suspender um cubo vermelho, enquanto me mostra a obra <RExternalLink href="https://www.itinerariodeviagem.com/wp-content/uploads/2017/08/INHOTIM-90.jpg">
+          Red</RExternalLink>, de Tsuruko Yamazaki, na tela do seu celular.
+          Foi desconfortável para ele constatar que algo não tinha
+          necessariamente resposta. Não era explicável. Não tinha lógica.
         </p>
         <h2>
           Muita oportunidade
