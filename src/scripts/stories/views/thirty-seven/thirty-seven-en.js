@@ -16,7 +16,7 @@ export class RThirtySevenEN extends Component {
           however, remain unexplained.
         </RQuote>
         <p>
-          As intriguing as the quote above, it has been the capacity of a tiny
+          As intriguing as the quote above, it has been the capacity of a small
           company called <RExternalLink href="https://37signals.com/">
           37signals</RExternalLink> to throw uncountable meteors over common
           sense on design, business, and tech, since the late '90s.
@@ -31,9 +31,9 @@ export class RThirtySevenEN extends Component {
           Grow a company doing better, not more.
         </h2>
         <p>
-          Detached from anything that can potentially harm the great purpose
-          of the <em>web</em>, the statement that opens the manifesto makes its
-          real focus clear: <em>The web should empower, not frustrate</em>. A few
+          The contempt for everything that can take the focus away from the true
+          spirit of the <em>web</em> is wide open in the phrase that opens the
+          manifesto:  <em>The web should empower, not frustrate</em>. A few
           paragraphs later, <RExternalLink href="https://37signals.com/17.html">
           No Awards Please</RExternalLink> reinforces how effectless would
           be the design industry judgment on the final work produced by the
@@ -42,9 +42,9 @@ export class RThirtySevenEN extends Component {
         </p>
         <p>
           Companies wish to grow. To grow, companies figure out how to deliver
-          more value. In a big number of cases, delivering more value becomes
-          delivering more services. Saying <RExternalLink href="https://37signals.com/04.html">
-          Not Full Service</RExternalLink> the company  elegantly curbs the
+          more value. In a large number of cases, delivering more value becomes
+          delivering more services. Stating <RExternalLink href="https://37signals.com/04.html">
+          Not Full Service</RExternalLink>, the company  elegantly curbs the
           temptation to grow doing more instead of doing better.
         </p>
         <RQuote
@@ -62,7 +62,7 @@ export class RThirtySevenEN extends Component {
           important decisions. <RExternalLink href="https://37signals.com/25.html">
           Just Because You Can, Doesn't Mean You Should</RExternalLink> discards
           decisions based on a vague <em>it’s so cool!</em> or on <em>everyone else is
-          doing!</em>. Some paragraphs ahead and, on <RExternalLink href="https://37signals.com/28.html">
+          doing!</em> Some paragraphs ahead and, on <RExternalLink href="https://37signals.com/28.html">
           Tulipomania</RExternalLink>, we find the following statement:
         </p>
         <RQuote
@@ -96,7 +96,7 @@ export class RThirtySevenEN extends Component {
         <p>
           An always heard premise is: <em>user doesn’t read</em>. By the way, <em>
           Don’t Make Me Think</em> dedicates a whole paragraph in its second
-          chapter to clarify <em>How we really use the Web</em>:
+          chapter to clarify <em>How we really use the web</em>:
         </p>
         <RQuote
           sourceText="Don’t Make Me Think"
@@ -113,14 +113,14 @@ export class RThirtySevenEN extends Component {
           consequence of zero interest for a disappointing copy? <RExternalLink href="https://37signals.com/11.html">Copy
           Righting</RExternalLink> suggests the following reflection: Would you read it if you didn't
           write it? A lot of companies believe <em>it’s good if it looks
-          good</em> and commit the sin of not taking good care of their
+          good</em>, and commit the sin of not taking good care of their
           copywriting. Seduce, entice, entertain. Copy righting.
         </p>
         <p>
           Like its manifesto, a lot of other audacious <RExternalLink href="https://basecamp.com/books">
           publications</RExternalLink> would be launched in the following years.
           What all of them have in common seems to be intimately connected with
-          the company’s name, 37signals. Identify signals amid the infinite
+          the name of the company, 37signals. Identify signals amid the infinite
           amount of noise around us.
         </p>
       </RStoryViewport>
