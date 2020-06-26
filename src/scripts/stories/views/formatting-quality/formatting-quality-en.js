@@ -22,8 +22,8 @@ export class RFormattingQualityEN extends Component {
           I would like to ensure some other aspects related to quality. I
           wanted to find a way to avoid functions and files inflate themselves
           tending to the chaos. I wanted to avoid nested conditions that,
-          little by little, make the return of a function become unpredictable,
-          terrible to read and maintain. I wanted to find such an alarm that
+          little by little, make the return of a function unpredictable
+          and terrible to read. I wanted to find such an alarm that
           would be fired every time a module, class or function started to
           concentrate too much responsibility.
         </p>
@@ -31,7 +31,7 @@ export class RFormattingQualityEN extends Component {
           Looking for tools that could help me to check the code quality, I
           noticed how much ESLint was underused at the company where I worked.
           Most programmers that use ESLint drive its configuration to
-          syntactical aspects. At where I was, it wasn’t different. We
+          syntactical aspects only. At where I was, it wasn’t different. We
           enforced semicolon at the end of sentences, eighty columns as
           maximum line length, two spaces as indentation size, and so on.
           However, reading the tool documentation in detail, I discovered it
@@ -44,7 +44,7 @@ export class RFormattingQualityEN extends Component {
         <p>
           Amount of linear paths some code can go through. A function that
           contains a high level of cyclomatic complexity certainly has more
-          than one single responsibility and makes impossible for anyone to
+          than one single responsibility and makes it impossible for anyone to
           predict what it returns just reading its name. I set this rule’s
           maximum value as three. In practice, it means a function can contain
           one <em>if/else</em> or two <em>if</em>.
@@ -54,7 +54,7 @@ export class RFormattingQualityEN extends Component {
         </h2>
         <p>
           Modules/Classes containing hundreds of lines are a code smell. They
-          are propably embracing more responsibilities than they should.
+          are likely embracing more responsibilities than they should.
           It’s not rare to stumble upon some file named <em>helper</em> which,
           in practice, becomes a bottomless chest that accepts anything and
           tends to inflate indefinitely. Setting one hundred as the maximum
@@ -77,13 +77,13 @@ export class RFormattingQualityEN extends Component {
           code <em>all the time</em>. You can successfully release some code today
           by only focusing on making it satisfy its requirements. But reflecting
           on how to organize the code even before it satisfies any requirement,
-          you ensure the success of today's release and every other else.
+          you ensure the success of today's release and all the following ones.
         </p>
         <RStorySpacer />
         <p>
           P.S.: <RExternalLink href="https://github.com/glorious-codes/glorious-pitsby/blob/master/.eslintrc.json">
           Here</RExternalLink>, you can see a real configuration file that shows
-          how I use to handle with <em>complexity</em>, <em>max-lines</em> and <em>
+          how I use to handle <em>complexity</em>, <em>max-lines</em>, and <em>
           max-statements</em> in my projects.
         </p>
       </RStoryViewport>
