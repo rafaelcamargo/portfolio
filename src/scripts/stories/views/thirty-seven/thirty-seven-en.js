@@ -16,10 +16,10 @@ export class RThirtySevenEN extends Component {
           however, remain unexplained.
         </RQuote>
         <p>
-          As intriguing as radio waves from outer space was the capacity
-          of a tiny company called <RExternalLink href="https://37signals.com/">
-          37signals</RExternalLink> to throw uncountable meteors over
-          the common sense on design, business, and tech, since the late 90’s.
+          As intriguing as the quote above, it has been the capacity of a tiny
+          company called <RExternalLink href="https://37signals.com/">
+          37signals</RExternalLink> to throw uncountable meteors over common
+          sense on design, business, and tech, since the late '90s.
         </p>
         <p>
           The first meteor was probably the document that marks the rise of
