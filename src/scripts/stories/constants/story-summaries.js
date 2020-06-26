@@ -1,5 +1,6 @@
 import { RUnconditionalInhotimPT } from '@scripts/stories/views/unconditional-inhotim/unconditional-inhotim-pt';
 import { RPearlAndMusselsPT } from '@scripts/stories/views/pearl-and-mussels/pearl-and-mussels-pt';
+import { RDeveloperFirstEN } from '@scripts/stories/views/developer-first/developer-first-en';
 import { RDeveloperFirstPT } from '@scripts/stories/views/developer-first/developer-first-pt';
 import { RThirtySevenEN } from '@scripts/stories/views/thirty-seven/thirty-seven-en';
 import { RThirtySevenPT } from '@scripts/stories/views/thirty-seven/thirty-seven-pt';
@@ -12,6 +13,19 @@ import { RFormattingQualityEN } from '@scripts/stories/views/formatting-quality/
 import { RFormattingQualityPT } from '@scripts/stories/views/formatting-quality/formatting-quality-pt';
 
 export default [
+  {
+    id: 'MnHpmtQ7p',
+    private: true,
+    created: '2020-06-26',
+    lang: 'en',
+    title: 'Developer first',
+    excerpt: 'Over the past few years we have heard a variety of strategies succeed in the dispute for how best to approach software development. A few years ago, it was common to use the term API-first. More recently, the enthusiasm was with AI-first. As a developer, I suggest adopting a new strategy. A strategy that does not exclude any other that is already in progress. A strategy that maintains the same suffix as those already mentioned, but that adds the human factor as the word that comes before it. Developer-First.',
+    keywords: 'developer first, precision, productivity',
+    view: RDeveloperFirstEN,
+    url: {
+      href: '/developer-first'
+    }
+  },
   {
     id: 'Mmx5gPyQC',
     created: '2020-06-06',

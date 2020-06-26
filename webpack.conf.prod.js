@@ -51,6 +51,7 @@ module.exports = {
         '/trinta-e-sete',
         '/thirty-seven',
         '/developer-first-pt',
+        '/developer-first',
         '/perolas-e-mariscos',
         '/incondicional-inhotim'
       ],
