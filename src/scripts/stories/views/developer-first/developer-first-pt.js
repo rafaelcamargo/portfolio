@@ -92,7 +92,7 @@ export class RDeveloperFirstPT extends Component {
           tão pouco seria celebrável jamais conseguir lançar algo por não
           estarmos certos de que funcione. Precisão e produtividade são dois
           ingredientes que funcionam como o exato contra-peso um do outro. <strong>
-          Developer-first é uma abordagem que preza pelo alto engagamento do
+          Developer-first é uma abordagem que preza pelo alto engajamento do
           desenvolvedor. E o alto engajamento acontece justamente
           quando conseguimos fazer muito rápido algo que funciona muito
           bem</strong>.
