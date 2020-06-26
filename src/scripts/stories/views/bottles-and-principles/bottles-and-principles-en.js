@@ -8,21 +8,21 @@ export class RBottlesAndPrinciplesEN extends Component {
     return (
       <RStoryViewport>
         <p>
-          Something really curious about lots of the most famous programming
+          Something curious about lots of the most popular programming
           concepts, principles and good practices is that they seem to
           disappear or, at least, keep distant, when the software we are
-          talking about is a web client, also known as a front-end application.
+          talking about is a web-client, also known as a front-end application.
         </p>
         <p>
           Very few front-end projects that I have seen in my life had a
-          minimum of logical dignity regarding how code was organized. Most of
+          minimum of logical dignity regarding how they organized code. Most of
           them were just a bunch of code lines highly interdependent with
-          very bad delimited responsibilities. A real mess that wasn’t even
+          bad delimited responsibilities. A real mess that didn't get even
           close from any of the letters <em>SOLID</em>.
         </p>
         <p>
           In the middle of that blurry and mysterious representation of what
-          would be the web client raises something that is likely the main
+          would be the web-client raises something that is likely the principal
           cause for the despair felt by who needs to maintain and improve
           that mess. Style sheets. Yes, CSS. I have met programmers that felt
           real terror for CSS. Among other lovely statements, I have already heard:
@@ -30,21 +30,21 @@ export class RBottlesAndPrinciplesEN extends Component {
         <p>
           <em>
             (a) Pure s*** (b) Very easy to f*** that all (c) CSS is like Lego.
-            If you start it wrong, it gets very hard to change the initial pieces
+            If you start it wrong, it gets hard to change the pieces
             after some later s*** has been made (d) F****** confusing.
           </em>
         </p>
         <p>
           Some developers blame the global nature of CSS. Others attack what
           they judge to be a universe of indecipherable symbols and relations.
-          Even another part of them just complains they can’t position a
+          Even another part of them complains they cannot position a
           button at the exact place the designer would like in a fashion
           that mixes begging and despair.
         </p>
         <p>
           CSS may have a different structure, a different syntax, may not be
-          even considered a programming language. However, I assure you it
-          accepts the greatest programming principles, concepts and good
+          considered a programming language. However, I assure you it
+          accepts great programming principles, concepts, and best
           practices like any real programming language.
         </p>
         <h2>
@@ -75,10 +75,10 @@ export class RBottlesAndPrinciplesEN extends Component {
         </h2>
         <p>
           One easy way to understand it in practice is by imagining a bottle.
-          Yes, a bottle. At this moment, you are likely imagining a soda bottle,
-          beer bottle, wine bottle or even an empty bottle. However, notice
+          Yes, a bottle. At this moment, you might imagine a soda bottle,
+          beer bottle, wine bottle, or even an empty bottle. However, notice
           that I cited just a bottle, not its contents. A bottle accepts an
-          infinity of different liquids inside. I can fill it with soda, beer
+          infinity of different liquids inside. I can fill it with soda, beer,
           or wine with no need to modify it. It's such a great example of an
           object that respects the open-closed principle.
         </p>
@@ -96,23 +96,23 @@ export class RBottlesAndPrinciplesEN extends Component {
 }
         </RCode>
         <p>
-          What we can see is an empty bottle. Once the bottle is an object, it
-          has its own style sheet: <em>bottle.css</em>.
+          What we can see here is an empty bottle. Once the bottle is an object, it
+          has its style sheet: <em>bottle.css</em>.
         </p>
         <h2>
           Specializing objects
         </h2>
         <p>
-          After having created a bottle, a wine bottle is now required. Now
+          After having created a bottle, your project demands a wine bottle. Now
           what? How to organize the code? Should I create a class named as <em>
           bottle-content-wine</em> and add it to the <em>&lt;div&gt;</em> that
           already contains the <em>bottle-content</em> class? Should I
           create a theme named as <em>bottle-wine</em> to the bottle and add
           it to the <em>&lt;div&gt;</em> that already contains the class <em>
-          bottle</em>? Notice, every one of the suggestions above would be
+          bottle</em>? Notice, every one of the above suggestions would be
           violating the <em>Open-Closed</em> principle because all of them would
           be modifying the bottle code. The best way to handle the wine bottle
-          is creating another object in your system that makes use of the
+          is by creating another object in your system that makes use of the
           base bottle without modifying it. Take a look:
         </p>
         <RCode language="html">
@@ -144,13 +144,13 @@ export class RBottlesAndPrinciplesEN extends Component {
           different colors wines could be. The most important thing here is
           to notice the bottle has not been modified and, wherever I put a
           bottle in my system, it will always look the same. This same warranty
-          should be true for the wine bottle and for any other object you create.
+          should exist for the wine bottle and for any other object you create.
         </p>
         <p>
-          Also notice that following the <em>Open-Closed</em> principle, you
+          Also, notice that following the <em>Open-Closed</em> principle, you
           automatically dose your selector specificity at the exact weight for
-          your necessity. This is crucial for bottle and wine-bottle keep
-          themselves open for extension. If you over-specify your selectors,
+          your necessity. That's an essential requirement to keep the bottle and
+          the wine-bottle open for extension. If you over-specify your selectors,
           you may end up blocking the extension and, that way, violating
           the principle.
         </p>
@@ -164,7 +164,7 @@ export class RBottlesAndPrinciplesEN extends Component {
         </p>
         <p>
           No. In this case, we would be handling aspects of the bottle
-          itself not aspects of the context that is using the bottle. One
+          itself, not aspects of the context that is using the bottle. One
           approach to face this case would be:
         </p>
         <RCode language="html">
@@ -176,14 +176,14 @@ export class RBottlesAndPrinciplesEN extends Component {
         </RCode>
         <p>
           The CSS class <em>bottle-small</em> modifies the default bottle making it
-          small. That said, <em>bottle-small</em> should be placed on <em>bottle.css
-          </em> style sheet. In that style sheet, every aspect that refers to the
-          bottle should be placed, including its own variations. That style
-          sheet should not contain anything that is not directly related to
-          the bottle. Bottle should not know any aspect other than its own. If
+          small. That said, <em>bottle-small</em> should be on the <em>
+          bottle.css</em> style sheet. In that style sheet, every aspect that
+          refers to the bottle should be placed, including its variations. That
+          style sheet should not contain anything that is not directly related to
+          the bottle. The bottle should not know any aspect other than its own. If
           we create a class named <em>bottle-wine</em> and write it inside <em>
           bottle.css</em>, we would be bringing the context into the bottle.
-          Since a bottle can be filled with infinite different contents, we
+          Since you can fill a bottle with infinite different contents, we
           would be taking the risk of inflating the bottle object with a pile
           of aspects that should not be there. After some time, this object
           will likely become very complex and hard to maintain.
@@ -213,20 +213,19 @@ export class RBottlesAndPrinciplesEN extends Component {
         </RCode>
         <ol>
           <li>
-            The root element in the object's markup must have the CSS class
-            which represents the name of the object, <em>application</em> in the
-            example above. That CSS class works as namespace and must prefix
-            every other CSS class that belongs to the object.
+            The object root HTML element must contain the CSS class that
+            represents the name of that object, <em>application</em> in the
+            example above. That CSS class works like a namespace and must prefix
+            every other CSS class that belongs to that object.
           </li>
           <li>
             The CSS class that represents the name of the object is also the
-            name of the stylesheet where all object's CSS classes will be written.
+            name of the stylesheet where all the object CSS classes will be.
           </li>
           <li>
-            The CSS classes that perform the modifier role are never used
-            alone. <em>application-action-close</em> has no effect if used alone.
-            In this case, it only modifies something if used together <em>
-            application-action</em>.
+            The CSS classes that perform the modifier role does not stand
+            alone. <em>application-action-close</em> has no effect.
+            It only modifies something if used together <em>application-action</em>.
           </li>
         </ol>
         <h2>
@@ -234,9 +233,9 @@ export class RBottlesAndPrinciplesEN extends Component {
         </h2>
         <p>
           Are you curious to see this concept applied in a real project? Check
-          out one of my open source projects called <a href="https://glorious.codes/demo" target="_blank">
-          Glorious Demo</a>. As commented in this story, each one of the <a href="https://github.com/glorious-codes/glorious-demo/tree/master/src/styles" target="_blank">
-          style sheets</a> represents one single object and always keep itself
+          out one of my open-source projects called <a href="https://glorious.codes/demo" target="_blank">
+          Glorious Demo</a>. As commented in this story, each one of those <a href="https://github.com/glorious-codes/glorious-demo/tree/master/src/styles" target="_blank">
+          style sheets</a> represents one single object and always keep themselves
           open for extension.
         </p>
       </RStoryViewport>
