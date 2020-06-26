@@ -8,24 +8,23 @@ export class RFormattingQualityEN extends Component {
     return (
       <RStoryViewport>
         <p>
-          It was mid-2018 and I needed to build an application for internal
-          use at the company I was working for. The project was to put on the
-          air a web client to monitor the company’s main application releases.
-          I was the only front-end developer in the project and, having all
-          the powers to structure the application the way I considered best,
-          I couldn’t miss the opportunity to drive the application to quality.
+          It was mid-2018, and I needed to build an application for internal
+          use at the company I was working for. The project consisted of
+          building a panel to monitor the main application releases of the
+          company. I was the only front-end developer in the project. I had all
+          the powers to structure it the way I considered best. So I didn't
+          miss the opportunity to drive it to quality.
         </p>
         <p>
-          Since 2017, I have been configuring the unit test coverage threshold
-          in 100% on the personal and professional applications in which I have
-          been working on. On this project, it wasn’t different. But this time,
-          I would like to ensure some other aspects related to quality. I
-          wanted to find a way to avoid functions and files inflate themselves
-          tending to the chaos. I wanted to avoid nested conditions that,
-          little by little, make the return of a function unpredictable
-          and terrible to read. I wanted to find such an alarm that
-          would be fired every time a module, class or function started to
-          concentrate too much responsibility.
+          I have set the unit test coverage threshold in 100% for my personal
+          and professional applications since 2017. For this project, it wasn’t
+          different. But this time, I would like to ensure some other aspects
+          related to quality. I wanted to find a way to avoid functions and
+          files inflate themselves tending to the chaos. I wanted to avoid
+          nested conditions that, little by little, make the return of a
+          function unpredictable and terrible to read. I would like to find such
+          an alarm that would be fired every time a module, class or function
+          started to concentrate too much responsibility.
         </p>
         <p>
           Looking for tools that could help me to check the code quality, I
@@ -35,19 +34,18 @@ export class RFormattingQualityEN extends Component {
           enforced semicolon at the end of sentences, eighty columns as
           maximum line length, two spaces as indentation size, and so on.
           However, reading the tool documentation in detail, I discovered it
-          offers the possibility not to check the code syntax only, but great
+          offers the possibility not to check the code syntax only, but check
           quality aspects too. Personally, I liked three of those rules so much:
         </p>
         <h2>
           Cyclomatic Complexity
         </h2>
         <p>
-          Amount of linear paths some code can go through. A function that
-          contains a high level of cyclomatic complexity certainly has more
-          than one single responsibility and makes it impossible for anyone to
-          predict what it returns just reading its name. I set this rule’s
-          maximum value as three. In practice, it means a function can contain
-          one <em>if/else</em> or two <em>if</em>.
+          Amount of linear paths some code can go through. A function that is
+          too complex has more than one single responsibility and makes it
+          impossible for anyone to predict what it returns just by reading its
+          name. I set the maximum value as three for this rule. In practice, it
+          means a function can contain one <em>if/else</em> or two <em>if</em>.
         </p>
         <h2>
           Maximum Lines
@@ -55,8 +53,8 @@ export class RFormattingQualityEN extends Component {
         <p>
           Modules/Classes containing hundreds of lines are a code smell. They
           are likely embracing more responsibilities than they should.
-          It’s not rare to stumble upon some file named <em>helper</em> which,
-          in practice, becomes a bottomless chest that accepts anything and
+          It is not rare to stumble upon some file named <em>helper</em> that,
+          in practice, becomes such a bottomless chest that accepts anything and
           tends to inflate indefinitely. Setting one hundred as the maximum
           number of lines for a file, I make it hard to cumulate
           responsibilities and favor its distribution instead. Modules and
@@ -67,17 +65,18 @@ export class RFormattingQualityEN extends Component {
         </h2>
         <p>
           In addition to cyclomatic complexity, a function containing too
-          many statements is a clue that it’s doing more than what it should.
+          many statements is a clue that it is doing more than what it should.
           For this rule, I define a limit of five statements per function.
         </p>
         <p>
-          As well as the unit test coverage threshold, I don't start a project
-          without those quality rules anymore. Those constraints collaborate
-          with an important factor. I'm forced to reflect on how I organize my
+          As well as the unit test coverage threshold, I can't start a project
+          without those quality rules anymore. Those constraints reinforce such
+          valuable concern. I am forced to reflect on how I organize my
           code <em>all the time</em>. You can successfully release some code today
           by only focusing on making it satisfy its requirements. But reflecting
           on how to organize the code even before it satisfies any requirement,
-          you ensure the success of today's release and all the following ones.
+          helps you ensure the success of the current release and all the
+          following ones.
         </p>
         <RStorySpacer />
         <p>
