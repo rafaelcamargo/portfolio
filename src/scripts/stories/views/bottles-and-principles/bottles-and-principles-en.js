@@ -48,26 +48,26 @@ export class RBottlesAndPrinciplesEN extends Component {
           practices like any real programming language.
         </p>
         <h2>
-          Before thinking in technology, think in principles
+          Before thinking about technology, think about principles.
         </h2>
         <p>
-          That said, I suggest you that instead of trying to tame your CSS
-          with weird class names that mix double dashes and underlines, or to
-          exploit hidden logics that sometimes treat classes as layout,
-          sometimes as pages and sometimes as themes, or even to commit the
-          sacrilege of putting styles in your JavaScript, just practice one of
-          the listed principles in the acronym SOLID. The letter "O"
-          represents the <em>Open-Closed</em> principle.
+          You might try to tame styles with weird CSS classes that mix double
+          dashes with underlines or allow hidden logics that sometimes treat
+          CSS classes as layout, sometimes as page, and sometimes as a theme,
+          or even commit the sacrilege to put styles in JavaScript. Instead of
+          trying those things, just remember one of the principles listed on
+          the SOLID acronym. The "O" letter represents the <em>Open-Closed
+          </em> principle.
         </p>
         <RQuote
           sourceText="Wikipedia"
           sourceHref="https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle">
           Software entities should be open for extension, but closed for
-          modification; that is, such an entity can allow its behavior to be
+          modification; that is, such entity can allow its behavior to be
           extended without modifying its source code.
         </RQuote>
         <p>
-          That’s the concept. Organize your objects in a way that they can
+          That is the concept. Organize your objects in a way that they can
           have their behavior extended with no need to modify them.
         </p>
         <h2>
@@ -77,10 +77,10 @@ export class RBottlesAndPrinciplesEN extends Component {
           One easy way to understand it in practice is by imagining a bottle.
           Yes, a bottle. At this moment, you might imagine a soda bottle,
           beer bottle, wine bottle, or even an empty bottle. However, notice
-          that I cited just a bottle, not its contents. A bottle accepts an
-          infinity of different liquids inside. I can fill it with soda, beer,
-          or wine with no need to modify it. It's such a great example of an
-          object that respects the open-closed principle.
+          that I referred just to the bottle object, not its contents. You can
+          fill a bottle with lots of different liquids. Soda, beer, wine, and
+          there's no need to modify it. It's a great example of an object that
+          respects the open-closed principle.
         </p>
         <p>
           Now, you might be asking yourself: How the heck a bottle is going to
@@ -142,14 +142,15 @@ export class RBottlesAndPrinciplesEN extends Component {
         <p>
           To make things easier to understand, ignore for now the several
           different colors wines could be. The most important thing here is
-          to notice the bottle has not been modified and, wherever I put a
-          bottle in my system, it will always look the same. This same warranty
-          should exist for the wine bottle and for any other object you create.
+          that the bottle didn't get modified. Doing so, wherever I put a
+          bottle in my system, it will always look the same. This same
+          warranty should exist for the wine bottle and for any other object
+          you create.
         </p>
         <p>
           Also, notice that following the <em>Open-Closed</em> principle, you
           automatically dose your selector specificity at the exact weight for
-          your necessity. That's an essential requirement to keep the bottle and
+          your necessity. That is an essential requirement to keep the bottle and
           the wine-bottle open for extension. If you over-specify your selectors,
           you may end up blocking the extension and, that way, violating
           the principle.
@@ -224,7 +225,7 @@ export class RBottlesAndPrinciplesEN extends Component {
           </li>
           <li>
             The CSS classes that perform the modifier role does not stand
-            alone. <em>application-action-close</em> has no effect.
+            alone. The CSS class <em>application-action-close</em> has no effect.
             It only modifies something if used together <em>application-action</em>.
           </li>
         </ol>
