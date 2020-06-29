@@ -13,10 +13,6 @@ export class RHomeHero extends Component {
             <h1>
               My name is Rafael.<br />I am an expert in building UI components.
             </h1>
-            <p>
-              I am always looking for great projects. Got a good
-              one? <RHeroLink to="/contact" text="Contact me" />.
-            </p>
           </div>
         </RHero>
       </div>
