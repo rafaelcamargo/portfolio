@@ -1,3 +1,4 @@
+import { RUnconditionalInhotimEN } from '@scripts/stories/views/unconditional-inhotim/unconditional-inhotim-en';
 import { RUnconditionalInhotimPT } from '@scripts/stories/views/unconditional-inhotim/unconditional-inhotim-pt';
 import { RPearlAndMusselsEN } from '@scripts/stories/views/pearl-and-mussels/pearl-and-mussels-en';
 import { RPearlAndMusselsPT } from '@scripts/stories/views/pearl-and-mussels/pearl-and-mussels-pt';
@@ -15,13 +16,24 @@ import { RFormattingQualityPT } from '@scripts/stories/views/formatting-quality/
 
 export default [
   {
+    id: 'WGfZ7LAIw',
+    created: '2020-06-28',
+    lang: 'en',
+    title: 'Unconditional Inhotim',
+    excerpt: 'We all can recognize beauty in the immediate moment we stand before it. That was the certainty that I had the day I visited the world\'s largest open-air contemporary art museum. It\'s a garden that could be called paradise. Inhotim.',
+    keywords: 'inhotim, brazilian nature, hélio oiticica, quasi-cinemas, amazon',
+    view: RUnconditionalInhotimEN,
+    url: {
+      href: '/unconditional-inhotim'
+    }
+  },
+  {
     id: '0RNQukFU3',
-    private: true,
     created: '2020-06-28',
     lang: 'en',
     title: 'The pearl and the mussels',
     excerpt: 'Octocash. That was the name of the product that I, and two colleagues, launched four years ago. Starting to build a product in the early stage of your career is such a great experience. Every member overflows optimism. Optimism is so abundant that nothing more is necessary to develop the product. The level of enthusiasm is so high that understanding profoundly a problem becomes optional. The level of enthusiasm is so high that understanding profoundly a problem becomes optional.',
-    keywords: 'pearl, mussels, product feature, rework, glorious demo',
+    keywords: 'pearl, mussels, product feature, rework, glorious demo, JavaScript',
     view: RPearlAndMusselsEN,
     url: {
       href: '/the-pearl-and-the-mussels'

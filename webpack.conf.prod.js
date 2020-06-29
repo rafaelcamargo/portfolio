@@ -54,7 +54,8 @@ module.exports = {
         '/developer-first',
         '/perolas-e-mariscos',
         '/the-pearl-and-the-mussels',
-        '/incondicional-inhotim'
+        '/incondicional-inhotim',
+        '/unconditional-inhotim'
       ],
       minify: {
         collapseBooleanAttributes: true,
