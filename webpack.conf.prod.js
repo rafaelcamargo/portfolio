@@ -53,6 +53,7 @@ module.exports = {
         '/developer-first-pt',
         '/developer-first',
         '/perolas-e-mariscos',
+        '/the-pearl-and-the-mussels',
         '/incondicional-inhotim'
       ],
       minify: {

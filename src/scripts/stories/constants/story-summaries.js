@@ -1,4 +1,5 @@
 import { RUnconditionalInhotimPT } from '@scripts/stories/views/unconditional-inhotim/unconditional-inhotim-pt';
+import { RPearlAndMusselsEN } from '@scripts/stories/views/pearl-and-mussels/pearl-and-mussels-en';
 import { RPearlAndMusselsPT } from '@scripts/stories/views/pearl-and-mussels/pearl-and-mussels-pt';
 import { RDeveloperFirstEN } from '@scripts/stories/views/developer-first/developer-first-en';
 import { RDeveloperFirstPT } from '@scripts/stories/views/developer-first/developer-first-pt';
@@ -13,6 +14,19 @@ import { RFormattingQualityEN } from '@scripts/stories/views/formatting-quality/
 import { RFormattingQualityPT } from '@scripts/stories/views/formatting-quality/formatting-quality-pt';
 
 export default [
+  {
+    id: '0RNQukFU3',
+    private: true,
+    created: '2020-06-28',
+    lang: 'en',
+    title: 'The pearl and the mussels',
+    excerpt: 'Octocash. That was the name of the product that I, and two colleagues, launched four years ago. Starting to build a product in the early stage of your career is such a great experience. Every member overflows optimism. Optimism is so abundant that nothing more is necessary to develop the product. The level of enthusiasm is so high that understanding profoundly a problem becomes optional. The level of enthusiasm is so high that understanding profoundly a problem becomes optional.',
+    keywords: 'pearl, mussels, product feature, rework, glorious demo',
+    view: RPearlAndMusselsEN,
+    url: {
+      href: '/the-pearl-and-the-mussels'
+    }
+  },
   {
     id: 'MnHpmtQ7p',
     private: true,
