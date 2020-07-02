@@ -92,11 +92,11 @@ export class RPearlAndMusselsEN extends Component {
           Impact over features
         </h2>
         <p>
-          If missing features are usually the explanation for the low engagement
-          of the users, perhaps the real problem is not that. It might be the fact
-          that the existing features just cannot delight any of them. In the
-          book Rework, Jason Fried and David Hansson comment on competition and
-          the number of product features in a section called <em>Underdo your
+          If missing features use to be the explanation for the low engagement
+          of the users, perhaps the real problem is not that, but the fact that
+          existing features simply don't delight anyone. In the
+          book Rework, Jason Fried and David Hansson comment on competition
+          and the number of product features in a section called <em>Underdo your
           competition</em>. Surpass your competitors by doing less, not more.
         </p>
         <RQuote
