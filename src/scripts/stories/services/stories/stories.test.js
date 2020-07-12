@@ -32,4 +32,21 @@ describe('Stories Service', () => {
     const sumaries = storiesService.filterByIds(['a', 'c']);
     expect(sumaries.length).toEqual(2);
   });
+
+  it('should filter featured summaries', () => {
+    const summaries = [{ id: 'a', featured: true }, { id: 'b' }, { id: 'c' }];
+    storiesService.getPublicSummaries = jest.fn(() => summaries);
+    const featuedSummaries = storiesService.getFeaturedSummaries();
+    expect(featuedSummaries.length).toEqual(1);
+    expect(featuedSummaries[0].id).toEqual('a');
+  });
+
+  it('should filter non featured summaries', () => {
+    const summaries = [{ id: 'a', featured: true }, { id: 'b' }, { id: 'c' }];
+    storiesService.getPublicSummaries = jest.fn(() => summaries);
+    const nonFeatuedSummaries = storiesService.getNonFeaturedSummaries();
+    expect(nonFeatuedSummaries.length).toEqual(2);
+    expect(nonFeatuedSummaries[0].id).toEqual('b');
+    expect(nonFeatuedSummaries[1].id).toEqual('c');
+  });
 });
