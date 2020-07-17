@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 const BASE_CLASS_NAME = 'r-col';
 
-export class RCol extends Component {
+export class Col extends Component {
   constructor(props){
     super(props);
     this.state = { className: buildClassName(props) };

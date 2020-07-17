@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { RQuote } from '@scripts/base/components/quote/quote';
-import { RExternalLink } from '@scripts/base/components/external-link/external-link';
+import { Quote } from '@scripts/base/components/quote/quote';
+import { ExternalLink } from '@scripts/base/components/external-link/external-link';
 import { RStorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
 import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
@@ -51,8 +51,8 @@ export class RPearlAndMusselsEN extends Component {
           much - WeDeploy - I started to build a new <em>product</em>. This time,
           infinitely more modest. Besides, I was completely protected from the
           disappointment of no one paying for it. The product was open-source
-          software, it was called <RExternalLink href="https://glorious.codes/demo">
-          Glorious Demo</RExternalLink>, and allowed a developer to use JavaScript
+          software, it was called <ExternalLink href="https://glorious.codes/demo">
+          Glorious Demo</ExternalLink>, and allowed a developer to use JavaScript
           to build an animation that simulated the development and execution of
           a code snippet. With very few lines of JavaScript, it was possible to
           create an animation that opens an editor, writes on it, opens a
@@ -62,24 +62,24 @@ export class RPearlAndMusselsEN extends Component {
         </p>
         <p>
           The first positive feedback I get is from the guy who led WeDeploy at
-          the time, Zeno Rocha. His <RExternalLink href="https://twitter.com/zenorocha/status/1057275408935194625">tweet
-          </RExternalLink> made the project reach almost forty stars on Github.
+          the time, Zeno Rocha. His <ExternalLink href="https://twitter.com/zenorocha/status/1057275408935194625">tweet
+          </ExternalLink> made the project reach almost forty stars on Github.
           Being for the first time in my life recognized by people who I didn't
           even know just echoed inside me as the greatest of all successes. A
           couple days later, on a Thursday night, I post the product on Product
           Hunt. On Friday morning, I wake up astonished by seeing Glorious Demo
-          as <RExternalLink href="https://www.producthunt.com/posts/glorious-demo">
-          the most upvoted product of the day</RExternalLink>. The project
+          as <ExternalLink href="https://www.producthunt.com/posts/glorious-demo">
+          the most upvoted product of the day</ExternalLink>. The project
           surpasses 300 stars and get featured as a trending JavaScript library
-          on Github. One of the most popular publications in the world on CSS <RExternalLink href="https://twitter.com/css/status/1060325303459962882">
-          tweets</RExternalLink> about the project. A <RExternalLink href="https://twitter.com/jnthnhw/status/1060209206685564929">
-          programmer in Seattle</RExternalLink> creates a website called <RExternalLink href="https://roadtoglory.netlify.app/">
-          Road To Glory</RExternalLink> that allows anyone to use Glorious Demo
-          through a graphical user interface. Glorious Demo becomes a <RExternalLink href="https://heowc.dev/2018/11/14/introduction-hexo-tag-gdemo/">
-          plugin</RExternalLink> for Hexo by the hands of a South Korean
-          programmer. Blog posts are written in <RExternalLink href="https://www.majidonline.com/article/%D9%85%D8%B9%D8%B1%D9%81%DB%8C_%DB%8C%DA%A9_%D8%B1%D8%A7%D9%87_%D8%A2%D8%B3%D8%A7%D9%86_%D9%88_%D8%B2%DB%8C%D8%A8%D8%A7_%D8%A8%D8%B1%D8%A7%DB%8C_%D9%86%D9%85%D8%A7%DB%8C%D8%B4_%DA%A9%D8%AF%D9%87%D8%A7%DB%8C_%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87_%D8%A8%D8%B5%D9%88%D8%B1%D8%AA_%D8%A7%D9%86%DB%8C%D9%85%DB%8C%D8%B4%D9%86.html">
-          Arabic</RExternalLink> and <RExternalLink href="https://paiza.hatenablog.com/entry/2019/01/16/JavaScript%E3%81%A7%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%89%E3%82%84%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E6%93%8D%E4%BD%9C%E3%82%92%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7">
-          Japanese</RExternalLink>.
+          on Github. One of the most popular publications in the world on CSS <ExternalLink href="https://twitter.com/css/status/1060325303459962882">
+          tweets</ExternalLink> about the project. A <ExternalLink href="https://twitter.com/jnthnhw/status/1060209206685564929">
+          programmer in Seattle</ExternalLink> creates a website called <ExternalLink href="https://roadtoglory.netlify.app/">
+          Road To Glory</ExternalLink> that allows anyone to use Glorious Demo
+          through a graphical user interface. Glorious Demo becomes a <ExternalLink href="https://heowc.dev/2018/11/14/introduction-hexo-tag-gdemo/">
+          plugin</ExternalLink> for Hexo by the hands of a South Korean
+          programmer. Blog posts are written in <ExternalLink href="https://www.majidonline.com/article/%D9%85%D8%B9%D8%B1%D9%81%DB%8C_%DB%8C%DA%A9_%D8%B1%D8%A7%D9%87_%D8%A2%D8%B3%D8%A7%D9%86_%D9%88_%D8%B2%DB%8C%D8%A8%D8%A7_%D8%A8%D8%B1%D8%A7%DB%8C_%D9%86%D9%85%D8%A7%DB%8C%D8%B4_%DA%A9%D8%AF%D9%87%D8%A7%DB%8C_%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87_%D8%A8%D8%B5%D9%88%D8%B1%D8%AA_%D8%A7%D9%86%DB%8C%D9%85%DB%8C%D8%B4%D9%86.html">
+          Arabic</ExternalLink> and <ExternalLink href="https://paiza.hatenablog.com/entry/2019/01/16/JavaScript%E3%81%A7%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%89%E3%82%84%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E6%93%8D%E4%BD%9C%E3%82%92%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7">
+          Japanese</ExternalLink>.
         </p>
         <p>
           Now, eighteen months after launch, that small product made with 80
@@ -99,7 +99,7 @@ export class RPearlAndMusselsEN extends Component {
           and the number of product features in a section called <em>Underdo your
           competition</em>. Surpass your competitors by doing less, not more.
         </p>
-        <RQuote
+        <Quote
           sourceText="Rework"
           sourceHref="https://www.thriftbooks.com/w/rework_david-heinemeier-hansson_jason-fried/246388/#isbn=0307463745&idiq=3992062">
             Conventional wisdom says that to beat your competitors, you need to
@@ -112,7 +112,7 @@ export class RPearlAndMusselsEN extends Component {
             time and drive. And it forces you to constantly be on the
             defensive, too. Defensive companies can’t think ahead; they can
             only think behind. They don’t lead; they follow.
-        </RQuote>
+        </Quote>
         <RStorySpacer />
         <p>
           Once in a while, we may find ourselves in a situation where the

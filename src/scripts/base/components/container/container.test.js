@@ -1,13 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RContainer } from '@scripts/base/components/container/container';
+import { Container } from '@scripts/base/components/container/container';
 
 describe('Row', () => {
   function mount(props = {}){
     return shallow(
-      <RContainer>
+      <Container>
         { props.content }
-      </RContainer>
+      </Container>
     );
   }
 

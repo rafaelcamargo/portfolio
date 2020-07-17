@@ -1,12 +1,12 @@
 import '@styles/footer.styl';
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { RCredits } from '@scripts/base/components/credits/credits';
+import { Credits } from '@scripts/base/components/credits/credits';
 import keywords from '@scripts/base/constants/keywords';
 import keywordsService from '@scripts/base/services/keywords/keywords';
 import routeService from '@scripts/base/services/route/route';
 
-export class RFooter extends Component {
+export class Footer extends Component {
   render() {
     return (
       <footer className="r-footer">
@@ -43,7 +43,7 @@ export class RFooter extends Component {
           </div>
         </div>
         <div className="r-footer-section r-footer-section-credits">
-          <RCredits />
+          <Credits />
         </div>
       </footer>
     );

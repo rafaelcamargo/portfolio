@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { RCode } from '@scripts/base/components/code/code';
+import { Code } from '@scripts/base/components/code/code';
 import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
 export class RComponentMaturityModelEN extends Component {
@@ -103,13 +103,13 @@ export class RComponentMaturityModelEN extends Component {
         <h5>
           Example
         </h5>
-        <RCode language="html">
+        <Code language="html">
 {
 `<div class="finance-btn-attach-file glyphicons paperclip">
   <i></i>Attach documents
 </div>`
 }
-        </RCode>
+        </Code>
         <p>
           A generic button for uploading files got coupled to a stylesheet
           already connected to a business domain <em>(finance)</em>. Markup and logic
@@ -166,13 +166,13 @@ export class RComponentMaturityModelEN extends Component {
         <h5>
           Example
         </h5>
-        <RCode language="html">
+        <Code language="html">
 {
 `<button class="btn btn-primary">
   <i class="glyphicons glyphicons-download-alt"></i>Download
 </button>`
 }
-        </RCode>
+        </Code>
         <p>
           This is a predefined HTML structure for a button styled as
           primary and containing an icon at the left of its text. Every
@@ -218,13 +218,13 @@ export class RComponentMaturityModelEN extends Component {
         <h5>
           Example
         </h5>
-        <RCode language="html">
+        <Code language="html">
 {
 `<my-button data-theme="primary" data-icon-name="paperclip">
   Attach Documents
 </my-button>`
 }
-        </RCode>
+        </Code>
         <p>
           The custom element above (my-button) is the single part of
           the system where anything related to all application buttons

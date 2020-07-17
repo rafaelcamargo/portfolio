@@ -1,16 +1,16 @@
 import '@styles/quote.styl';
 import React, { Component } from 'react';
-import { RExternalLink } from '@scripts/base/components/external-link/external-link';
+import { ExternalLink } from '@scripts/base/components/external-link/external-link';
 
-export class RQuote extends Component {
+export class Quote extends Component {
   render() {
     return (
       <blockquote className="r-quote" lang={ this.props.lang }>
         { this.props.children }
         <cite>
-          <RExternalLink href={ this.props.sourceHref }>
+          <ExternalLink href={ this.props.sourceHref }>
             { this.props.sourceText }
-          </RExternalLink>
+          </ExternalLink>
         </cite>
       </blockquote>
     );

@@ -1,11 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RImage } from '@scripts/base/components/image/image';
+import { Image } from '@scripts/base/components/image/image';
 
 describe('Image', () => {
   function mount(props = {}){
     return shallow(
-      <RImage filename={ props.filename } alt={ props.alt }/>
+      <Image filename={ props.filename } alt={ props.alt }/>
     );
   }
 

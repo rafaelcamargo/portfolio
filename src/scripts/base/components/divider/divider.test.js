@@ -1,11 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RDivider } from '@scripts/base/components/divider/divider';
+import { Divider } from '@scripts/base/components/divider/divider';
 
 describe('Divider', () => {
   function mount(props = {}){
     return shallow(
-      <RDivider />
+      <Divider />
     );
   }
 

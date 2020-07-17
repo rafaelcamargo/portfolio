@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import modalService from '@scripts/base/services/modal/modal';
-import { RButton } from '@scripts/base/components/button/button';
+import { Button } from '@scripts/base/components/button/button';
 import { RNewsletterForm } from '@scripts/newsletter/components/newsletter-form/newsletter-form';
 import { RNewsletterModalTrigger } from './newsletter-modal-trigger';
 
@@ -23,13 +23,13 @@ describe('Newsletter Modal Trigger', () => {
   it('should render some content', () => {
     const content = 'Click';
     const wrapper = mount({ content });
-    expect(wrapper.find(RButton).prop('children')).toEqual(content);
+    expect(wrapper.find(Button).prop('children')).toEqual(content);
   });
 
   it('should open newsletter modal on click', () => {
     modalService.open = jest.fn();
     const wrapper = mount();
-    wrapper.find(RButton).simulate('click');
+    wrapper.find(Button).simulate('click');
     expect(modalService.open).toHaveBeenCalledWith({
       title: 'Newsletter',
       content: <RNewsletterForm />,

@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { PromiseMock } from '@scripts/base/mocks/promise';
-import { RAlert } from '@scripts/base/components/alert/alert';
-import { RLoader } from '@scripts/base/components/loader/loader';
-import { RForm } from '@scripts/base/components/form/form';
+import { Alert } from '@scripts/base/components/alert/alert';
+import { Loader } from '@scripts/base/components/loader/loader';
+import { Form } from '@scripts/base/components/form/form';
 
 describe('Form', () => {
   function submitForm(wrapper){
@@ -27,14 +27,14 @@ describe('Form', () => {
 
   function mount(props = {}){
     return shallow(
-      <RForm
+      <Form
         onSubmit={ props.onSubmit }
         onSubmitSuccess={ props.onSubmitSuccess }
         onSubmitError={ props.onSubmitError }
         errorMessage={ props.errorMessage }
         successMessage={ props.successMessage }>
         { props.content }
-      </RForm>
+      </Form>
     );
   }
 
@@ -73,19 +73,19 @@ describe('Form', () => {
     const onSubmit = jest.fn(() => new PromiseMock('success', { shouldAbortRequest: true }));
     const wrapper = mount({ onSubmit });
     submitForm(wrapper);
-    expect(wrapper.find(RLoader).length).toEqual(1);
+    expect(wrapper.find(Loader).length).toEqual(1);
   });
 
   it('should remove loader on submit complete', () => {
     const onSubmit = jest.fn(() => new PromiseMock('success', { response: {} }));
     const wrapper = mount({ onSubmit, onSubmitSuccess: jest.fn() });
     submitForm(wrapper);
-    expect(wrapper.find(RLoader).length).toEqual(0);
+    expect(wrapper.find(Loader).length).toEqual(0);
   });
 
   it(' should show default error alert on submit error', () => {
     const wrapper = simulateSubmit('error');
-    const alertElement = wrapper.find(RAlert);
+    const alertElement = wrapper.find(Alert);
     expect(alertElement.length).toEqual(1);
     expect(alertElement.prop('theme')).toEqual('danger');
     expect(alertElement.prop('triggerText')).toEqual('Retry');
@@ -95,7 +95,7 @@ describe('Form', () => {
   it(' should optionally show a custom error alert on submit error', () => {
     const errorMessage = 'Some custom error!';
     const wrapper = simulateSubmit('error', { errorMessage });
-    const alertElement = wrapper.find(RAlert);
+    const alertElement = wrapper.find(Alert);
     expect(alertElement.prop('children')).toEqual(errorMessage);
   });
 
@@ -104,7 +104,7 @@ describe('Form', () => {
     const onSubmit = jest.fn(() => new PromiseMock('error', { response: {} }));
     const wrapper = mount({ onSubmit, onSubmitError: jest.fn() });
     submitForm(wrapper);
-    wrapper.find(RAlert).prop('onTriggerClick')(evtMock);
+    wrapper.find(Alert).prop('onTriggerClick')(evtMock);
     expect(onSubmit.mock.calls.length).toEqual(2);
   });
 
@@ -113,14 +113,14 @@ describe('Form', () => {
     const onSubmit = jest.fn(() => new PromiseMock('success', { shouldAbortRequest: true }));
     const wrapper = mount({ onSubmit });
     wrapper.setState({ shouldShowErrorAlert: true });
-    expect(wrapper.find(RAlert).length).toEqual(1);
-    wrapper.find(RAlert).prop('onTriggerClick')(evtMock);
-    expect(wrapper.find(RAlert).length).toEqual(0);
+    expect(wrapper.find(Alert).length).toEqual(1);
+    wrapper.find(Alert).prop('onTriggerClick')(evtMock);
+    expect(wrapper.find(Alert).length).toEqual(0);
   });
 
   it(' should show default success alert on submit success', () => {
     const wrapper = simulateSubmit('success');
-    const alertElement = wrapper.find(RAlert);
+    const alertElement = wrapper.find(Alert);
     expect(alertElement.length).toEqual(1);
     expect(alertElement.prop('theme')).toEqual('success');
     expect(alertElement.prop('triggerText')).toBeFalsy();
@@ -130,7 +130,7 @@ describe('Form', () => {
   it(' should optionally show custom success alert on submit success', () => {
     const successMessage = 'Custom success!';
     const wrapper = simulateSubmit('success', { successMessage });
-    const alertElement = wrapper.find(RAlert);
+    const alertElement = wrapper.find(Alert);
     expect(alertElement.prop('children')).toEqual(successMessage);
   });
 

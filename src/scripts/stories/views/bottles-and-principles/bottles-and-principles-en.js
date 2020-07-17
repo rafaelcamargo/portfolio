@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { RCode } from '@scripts/base/components/code/code';
-import { RQuote } from '@scripts/base/components/quote/quote';
+import { Code } from '@scripts/base/components/code/code';
+import { Quote } from '@scripts/base/components/quote/quote';
 import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
 export class RBottlesAndPrinciplesEN extends Component {
@@ -59,13 +59,13 @@ export class RBottlesAndPrinciplesEN extends Component {
           the SOLID acronym. The "O" letter represents the <em>Open-Closed
           </em> principle.
         </p>
-        <RQuote
+        <Quote
           sourceText="Wikipedia"
           sourceHref="https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle">
           Software entities should be open for extension, but closed for
           modification; that is, such entity can allow its behavior to be
           extended without modifying its source code.
-        </RQuote>
+        </Quote>
         <p>
           That is the concept. Organize your objects in a way that they can
           have their behavior extended with no need to modify them.
@@ -88,13 +88,13 @@ export class RBottlesAndPrinciplesEN extends Component {
           going to repeat the example above, but in the form of code. CSS
           classes, more specifically.
         </p>
-        <RCode language="html">
+        <Code language="html">
 {
 `<div class="bottle">
   <div class="bottle-content"></div>
 </div>`
 }
-        </RCode>
+        </Code>
         <p>
           What we can see here is an empty bottle. Once the bottle is an object, it
           has its style sheet: <em>bottle.css</em>.
@@ -115,7 +115,7 @@ export class RBottlesAndPrinciplesEN extends Component {
           is by creating another object in your system that makes use of the
           base bottle without modifying it. Take a look:
         </p>
-        <RCode language="html">
+        <Code language="html">
 {
 `<div class="wine-bottle">
   <div class="bottle">
@@ -123,19 +123,19 @@ export class RBottlesAndPrinciplesEN extends Component {
   </div>
 </div>`
 }
-        </RCode>
+        </Code>
         <p>
           From now on, beyond the style sheet <em>bottle.css</em>, you will have
           another one named as <em>wine-bottle.css</em>. The last one may extend
           every element of the base bottle the way it needs. Example:
         </p>
-        <RCode language="css">
+        <Code language="css">
 {
 `.wine-bottle .bottle-content {
   background-color: red;
 }`
 }
-        </RCode>
+        </Code>
         <p>
           Done!
         </p>
@@ -168,13 +168,13 @@ export class RBottlesAndPrinciplesEN extends Component {
           itself, not aspects of the context that is using the bottle. One
           approach to face this case would be:
         </p>
-        <RCode language="html">
+        <Code language="html">
 {
 `<div class="bottle bottle-small">
   <div class="bottle-content"></div>
 </div>`
 }
-        </RCode>
+        </Code>
         <p>
           The CSS class <em>bottle-small</em> modifies the default bottle making it
           small. That said, <em>bottle-small</em> should be on the <em>
@@ -197,7 +197,7 @@ export class RBottlesAndPrinciplesEN extends Component {
           that represent an object and CSS classes that represent modifiers,
           three simple rules related to the markup anatomy should be respected:
         </p>
-        <RCode language="html">
+        <Code language="html">
 {
 `<div class="application">
   <div class="application-topbar">
@@ -211,7 +211,7 @@ export class RBottlesAndPrinciplesEN extends Component {
   <div class="application-content-container"></div>
 </div>`
 }
-        </RCode>
+        </Code>
         <ol>
           <li>
             The object root HTML element must contain the CSS class that

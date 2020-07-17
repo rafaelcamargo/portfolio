@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { RButton } from '@scripts/base/components/button/button';
-import { RIcon } from '@scripts/base/components/icon/icon';
+import { Button } from '@scripts/base/components/button/button';
+import { Icon } from '@scripts/base/components/icon/icon';
 import analyticsService from '@scripts/base/services/analytics/analytics';
 import localesService from '@scripts/base/services/locales/locales';
 import routeService from '@scripts/base/services/route/route';
 
-export class RShare extends Component {
+export class Share extends Component {
   constructor(props){
     super(props);
     this.setTexts(localesService.get(props.lang, 'Share'));
@@ -25,12 +25,12 @@ export class RShare extends Component {
   render() {
     return (
       <span className="r-share" lang={ this.props.lang }>
-        <RButton
+        <Button
           theme="primary"
           onClick={ this.onClick }
           iconName="twitter">
           { this.texts.label }
-        </RButton>
+        </Button>
       </span>
     );
   }

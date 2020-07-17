@@ -1,12 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
-import { RFormattingQualityPT } from './formatting-quality-pt';
+import { FormattingQualityPT } from './formatting-quality-pt';
 
 describe('Formatting quality PT', () => {
   function mount(props = {}){
     return shallow(
-      <RFormattingQualityPT />
+      <FormattingQualityPT />
     );
   }
 

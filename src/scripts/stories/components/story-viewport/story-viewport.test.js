@@ -1,10 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import storiesMock from '@scripts/stories/mocks/stories';
-import { RDivider } from '@scripts/base/components/divider/divider';
-import { RHero } from '@scripts/base/components/hero/hero';
-import { RImage } from '@scripts/base/components/image/image';
-import { RViewport } from '@scripts/base/components/viewport/viewport';
+import { Divider } from '@scripts/base/components/divider/divider';
+import { Hero } from '@scripts/base/components/hero/hero';
+import { Image } from '@scripts/base/components/image/image';
+import { Viewport } from '@scripts/base/components/viewport/viewport';
 import { RStoryFooter } from '@scripts/stories/components/story-footer/story-footer';
 import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 import routeService from '@scripts/base/services/route/route';
@@ -38,17 +38,17 @@ describe('Story Viewport', () => {
 
   it('should build a viewport with story summary', () => {
     const wrapper = mount();
-    expect(wrapper.find(RViewport).prop('title')).toEqual('Story Title 3');
-    expect(wrapper.find(RViewport).prop('description')).toEqual('Story excerpt 3.');
-    expect(wrapper.find(RViewport).prop('keywords')).toEqual('story, mock');
-    expect(wrapper.find(RViewport).prop('image')).toEqual('thumbnail-512x512.png');
+    expect(wrapper.find(Viewport).prop('title')).toEqual('Story Title 3');
+    expect(wrapper.find(Viewport).prop('description')).toEqual('Story excerpt 3.');
+    expect(wrapper.find(Viewport).prop('keywords')).toEqual('story, mock');
+    expect(wrapper.find(Viewport).prop('image')).toEqual('thumbnail-512x512.png');
   });
 
   it('should build a hero with story summary title', () => {
     mockUrlPath('https://tableless.com.br/componentes-alem-do-reuso/');
     const wrapper = mount();
-    expect(wrapper.find(RHero).prop('title')).toEqual('Story Title 2');
-    expect(wrapper.find(RHero).prop('size')).toEqual('small');
+    expect(wrapper.find(Hero).prop('title')).toEqual('Story Title 2');
+    expect(wrapper.find(Hero).prop('size')).toEqual('small');
   });
 
   it('should transclude some content', () => {

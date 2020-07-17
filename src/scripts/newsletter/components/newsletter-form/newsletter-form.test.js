@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import newsletterResource from '@scripts/newsletter/resources/newsletter';
-import { RButton } from '@scripts/base/components/button/button';
-import { RField } from '@scripts/base/components/field/field';
-import { RForm } from '@scripts/base/components/form/form';
+import { Button } from '@scripts/base/components/button/button';
+import { Field } from '@scripts/base/components/field/field';
+import { Form } from '@scripts/base/components/form/form';
 import { RNewsletterForm } from './newsletter-form';
 
 
@@ -34,7 +34,7 @@ describe('Newsletter Modal Trigger', () => {
     const wrapper = mount();
     setFieldValue(wrapper, 'input[name="name"]', 'Rafael');
     setFieldValue(wrapper, 'input[name="email"]', 'some@email.com');
-    wrapper.find(RForm).prop('onSubmit')();
+    wrapper.find(Form).prop('onSubmit')();
     expect(newsletterResource.subscribe).toHaveBeenCalledWith({
       email_address: 'some@email.com',
       status: 'subscribed',
@@ -49,35 +49,35 @@ describe('Newsletter Modal Trigger', () => {
   it('should set success message on submit success', () => {
     const message = 'Thank you!';
     const wrapper = mount();
-    expect(wrapper.find(RForm).prop('successMessage')).toEqual(undefined);
-    wrapper.find(RForm).prop('onSubmitSuccess')();
-    expect(wrapper.find(RForm).prop('successMessage')).toEqual(message);
+    expect(wrapper.find(Form).prop('successMessage')).toEqual(undefined);
+    wrapper.find(Form).prop('onSubmitSuccess')();
+    expect(wrapper.find(Form).prop('successMessage')).toEqual(message);
   });
 
   it('should set an error message on submit error', () => {
     const message = 'Sorry, something went wrong. Please, try again.';
     const wrapper = mount();
-    expect(wrapper.find(RForm).prop('errorMessage')).toEqual(undefined);
-    wrapper.find(RForm).prop('onSubmitError')();
-    expect(wrapper.find(RForm).prop('errorMessage')).toEqual(message);
+    expect(wrapper.find(Form).prop('errorMessage')).toEqual(undefined);
+    wrapper.find(Form).prop('onSubmitError')();
+    expect(wrapper.find(Form).prop('errorMessage')).toEqual(message);
   });
 
   it('should optionally render texts in portuguese', () => {
     const wrapper = mount({ lang: 'pt' });
-    expect(wrapper.find(RField).at(0).prop('label')).toEqual('Nome');
-    expect(wrapper.find(RField).at(1).prop('label')).toEqual('Email');
-    expect(wrapper.find(RButton).at(0).prop('children')).toEqual('Inscrever-se');
-    wrapper.find(RForm).prop('onSubmitSuccess')();
-    expect(wrapper.find(RForm).prop('successMessage')).toEqual('Obrigado!');
-    wrapper.find(RForm).prop('onSubmitError')();
-    expect(wrapper.find(RForm).prop('errorMessage')).toEqual('Algo deu errado. Por favor, tente novamente.');
+    expect(wrapper.find(Field).at(0).prop('label')).toEqual('Nome');
+    expect(wrapper.find(Field).at(1).prop('label')).toEqual('Email');
+    expect(wrapper.find(Button).at(0).prop('children')).toEqual('Inscrever-se');
+    wrapper.find(Form).prop('onSubmitSuccess')();
+    expect(wrapper.find(Form).prop('successMessage')).toEqual('Obrigado!');
+    wrapper.find(Form).prop('onSubmitError')();
+    expect(wrapper.find(Form).prop('errorMessage')).toEqual('Algo deu errado. Por favor, tente novamente.');
   });
 
   it('should optionally set subscription language as portuguese', () => {
     const wrapper = mount({ lang: 'pt' });
     setFieldValue(wrapper, 'input[name="name"]', 'Rafael');
     setFieldValue(wrapper, 'input[name="email"]', 'some@email.com');
-    wrapper.find(RForm).prop('onSubmit')();
+    wrapper.find(Form).prop('onSubmit')();
     expect(newsletterResource.subscribe).toHaveBeenCalledWith({
       email_address: 'some@email.com',
       status: 'subscribed',

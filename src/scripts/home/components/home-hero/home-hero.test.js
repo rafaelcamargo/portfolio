@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RHero } from '@scripts/base/components/hero/hero';
+import { Hero } from '@scripts/base/components/hero/hero';
 import { RHomeMobilePanel } from '@scripts/home/components/home-mobile-panel/home-mobile-panel';
 import { RHomeHero } from '@scripts/home/components/home-hero/home-hero';
 
@@ -18,7 +18,7 @@ describe('Home Hero', () => {
 
   it('should contain a large hero', () => {
     const wrapper = mount();
-    expect(wrapper.find(RHero).prop('size')).toEqual('large');
+    expect(wrapper.find(Hero).prop('size')).toEqual('large');
   });
 
   it('should render a title', () => {

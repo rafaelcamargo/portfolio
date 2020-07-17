@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { RExternalLink } from '@scripts/base/components/external-link/external-link';
-import { RQuote } from '@scripts/base/components/quote/quote';
+import { ExternalLink } from '@scripts/base/components/external-link/external-link';
+import { Quote } from '@scripts/base/components/quote/quote';
 import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
 export class RCleanCodeEN extends Component {
@@ -26,11 +26,11 @@ export class RCleanCodeEN extends Component {
         <h2>
           Letter over numbers.
         </h2>
-        <RQuote
+        <Quote
           sourceText="Source"
           sourceHref="https://www.osnews.com/story/19266/wtfsm/">
           The only valid measurement of code quality: WTF/Minute.
-        </RQuote>
+        </Quote>
         <p>
           The book introduction gets started with the statement above. It seems to
           anticipate all of what is going to be discussed on the following
@@ -43,7 +43,7 @@ export class RCleanCodeEN extends Component {
         <h2>
           One letter at a time.
         </h2>
-        <RQuote
+        <Quote
           sourceText="Clean Code"
           sourceHref="https://www.thriftbooks.com/w/clean-code-a-handbook-of-agile-software-craftsmanship-robert-c-martin-series_robert-c-martin/332840/#isbn=0132350882&idiq=10169803">
           The ratio of time spent reading vs. writing is well over 10:1. We
@@ -51,7 +51,7 @@ export class RCleanCodeEN extends Component {
           code. [...] You cannot write code if you cannot read the surrounding
           code.  [...] So if you want to go fast, if you want to get done
           quickly, if you  want your code to be easy to write, make it easy to read.
-        </RQuote>
+        </Quote>
         <p>
           Communication is a must-have skill to write clean code. Naming a
           variable is communication. Naming files is communication. Grouping
@@ -92,7 +92,7 @@ export class RCleanCodeEN extends Component {
         <h2>
           Clean code needs no comments.
         </h2>
-        <RQuote
+        <Quote
           sourceText="Clean Code"
           sourceHref="https://www.thriftbooks.com/w/clean-code-a-handbook-of-agile-software-craftsmanship-robert-c-martin-series_robert-c-martin/332840/#isbn=0132350882&idiq=10169803">
           The proper use of comments is to compensate for our failure to
@@ -100,7 +100,7 @@ export class RCleanCodeEN extends Component {
           Comments are always failures. We must have them because we cannot
           always figure out how to express ourselves without them, but their
           use is not a cause for celebration.
-        </RQuote>
+        </Quote>
         <p>
           The only thing we can be sure about comments is that machines will
           ignore them. Code comments cannot be tested. They can rapidly become
@@ -111,8 +111,8 @@ export class RCleanCodeEN extends Component {
           If at some point you find yourself writing a comment trying to better
           explain your code, figure out why that code could not explain itself.
           Comments are always an opportunity for improvements. Like clean code,
-          this <RExternalLink href="https://youtu.be/wXaC0YvDgIo?t=237">video
-          </RExternalLink> also needs no comments.
+          this <ExternalLink href="https://youtu.be/wXaC0YvDgIo?t=237">video
+          </ExternalLink> also needs no comments.
         </p>
         <h2>
           Edit brilliantly.
@@ -144,8 +144,8 @@ export class RCleanCodeEN extends Component {
           implementation done as soon as it works?
         </p>
         <p>
-          About the importance of editing, Jason Fried wrote <RExternalLink href="https://signalvnoise.com/posts/2930-svn-flashback-eureka-were-editors">
-          Eureka! We’re editors</RExternalLink>, and Carolyn Cherry noticed it very well:
+          About the importance of editing, Jason Fried wrote <ExternalLink href="https://signalvnoise.com/posts/2930-svn-flashback-eureka-were-editors">
+          Eureka! We’re editors</ExternalLink>, and Carolyn Cherry noticed it very well:
         </p>
         <p>
           <em>It is  perfectly okay to write garbage as long as you edit brilliantly</em>.

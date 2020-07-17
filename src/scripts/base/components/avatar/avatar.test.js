@@ -1,11 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RAvatar } from '@scripts/base/components/avatar/avatar';
+import { Avatar } from '@scripts/base/components/avatar/avatar';
 
 describe('Icon', () => {
   function mount(props = {}){
     return shallow(
-      <RAvatar image={ props.image } />
+      <Avatar image={ props.image } />
     );
   }
 

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import analyticsService from '@scripts/base/services/analytics/analytics';
 import routeService from '@scripts/base/services/route/route';
 
-export class RExternalLink extends Component {
+export class ExternalLink extends Component {
   onClick = evt => {
     const { text, href } = evt.target;
     analyticsService.trackEvent(this.getTrackEventText(), {

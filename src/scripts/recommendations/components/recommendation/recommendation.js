@@ -1,8 +1,8 @@
 import '@styles/recommendation.styl';
 import React, { Component } from 'react';
 import recommendationsService from '@scripts/recommendations/services/recommendations/recommendations';
-import { RAvatar } from '@scripts/base/components/avatar/avatar';
-import { RExternalLink } from '@scripts/base/components/external-link/external-link';
+import { Avatar } from '@scripts/base/components/avatar/avatar';
+import { ExternalLink } from '@scripts/base/components/external-link/external-link';
 
 export class RRecommendation extends Component {
   constructor(props){
@@ -14,8 +14,8 @@ export class RRecommendation extends Component {
       <div className="r-recommendation">
         <div className="r-recommendation-header">
           <div className="r-recommendation-avatars">
-            <RAvatar image={ this.state.data.companyImage } />
-            <RAvatar image={ this.state.data.personImage } />
+            <Avatar image={ this.state.data.companyImage } />
+            <Avatar image={ this.state.data.personImage } />
           </div>
           <div className="r-recommendation-titles">
             <h2>
@@ -64,5 +64,5 @@ function buildFormerCompanyInfo({ name, url }){
 }
 
 function buildLink({ name, url }){
-  return <RExternalLink href={ url }>{ name }</RExternalLink>;
+  return <ExternalLink href={ url }>{ name }</ExternalLink>;
 }

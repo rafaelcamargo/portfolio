@@ -1,6 +1,6 @@
 import '@styles/home-mobile-panel.styl'
 import React, { Component } from 'react';
-import { RMobile } from '@scripts/base/components/mobile/mobile';
+import { Mobile } from '@scripts/base/components/mobile/mobile';
 
 export class RHomeMobilePanel extends Component {
   constructor(props){
@@ -23,8 +23,8 @@ export class RHomeMobilePanel extends Component {
   render() {
     return (
       <div className={ this.state.className }>
-        <RMobile screenshot="pitsby.svg" onScreenshotLoad={ this.onScreenshotLoad.bind(this) } />
-        <RMobile screenshot="nashios.svg" onScreenshotLoad={ this.onScreenshotLoad.bind(this) } />
+        <Mobile screenshot="pitsby.svg" onScreenshotLoad={ this.onScreenshotLoad.bind(this) } />
+        <Mobile screenshot="nashios.svg" onScreenshotLoad={ this.onScreenshotLoad.bind(this) } />
       </div>
     );
   }

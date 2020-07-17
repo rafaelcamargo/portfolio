@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { RExternalLink } from '@scripts/base/components/external-link/external-link';
-import { RQuote } from '@scripts/base/components/quote/quote';
+import { ExternalLink } from '@scripts/base/components/external-link/external-link';
+import { Quote } from '@scripts/base/components/quote/quote';
 import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
 export class RCleanCodePT extends Component {
@@ -26,12 +26,12 @@ export class RCleanCodePT extends Component {
         <h2>
           Letras acima dos números.
         </h2>
-        <RQuote
+        <Quote
           sourceText="Source"
           sourceHref="https://www.osnews.com/story/19266/wtfsm/"
           lang="en">
           The only valid measurement of code quality: WTF/Minute.
-        </RQuote>
+        </Quote>
         <p>
           Essa frase, que abre a introdução do livro, parece antecipar tudo
           aquilo que será tratado nas próximas centenas de páginas. Cada linha
@@ -44,7 +44,7 @@ export class RCleanCodePT extends Component {
         <h2>
           Uma letra de cada vez.
         </h2>
-        <RQuote
+        <Quote
           sourceText="Clean Code"
           sourceHref="https://www.thriftbooks.com/w/clean-code-a-handbook-of-agile-software-craftsmanship-robert-c-martin-series_robert-c-martin/332840/#isbn=0132350882&idiq=10169803"
           lang="en">
@@ -53,7 +53,7 @@ export class RCleanCodePT extends Component {
           code. [...] You cannot write code if you cannot read the surrounding
           code.  [...] So if you want to go fast, if you want to get done
           quickly, if you  want your code to be easy to write, make it easy to read.
-        </RQuote>
+        </Quote>
         <p>
           Comunicação é habilidade imprescindível para escrever código limpo.
           Quando você dá nome a uma variável você está se comunicando, quando
@@ -98,7 +98,7 @@ export class RCleanCodePT extends Component {
         <h2>
           Código limpo dispensa comentários.
         </h2>
-        <RQuote
+        <Quote
           sourceText="Clean Code"
           sourceHref="https://www.thriftbooks.com/w/clean-code-a-handbook-of-agile-software-craftsmanship-robert-c-martin-series_robert-c-martin/332840/#isbn=0132350882&idiq=10169803"
           lang="en">
@@ -107,7 +107,7 @@ export class RCleanCodePT extends Component {
           Comments are always failures. We must have them because we cannot
           always figure out how to express ourselves without them, but their
           use is not a cause for celebration.
-        </RQuote>
+        </Quote>
         <p>
           A única certeza que podemos ter em relação a comentários é que a
           máquina irá ignora-los. Comentários não podem ser testados.
@@ -120,7 +120,7 @@ export class RCleanCodePT extends Component {
           tentativa de melhor explicar o seu código, reflita porque o próprio
           código não conseguiu explicar a si mesmo. Comentários são sempre
           uma oportunidade de melhoria. Assim como um código limpo,
-          esse <RExternalLink href="https://youtu.be/wXaC0YvDgIo?t=237">vídeo</RExternalLink> dispensa
+          esse <ExternalLink href="https://youtu.be/wXaC0YvDgIo?t=237">vídeo</ExternalLink> dispensa
           comentários.
         </p>
         <h2>
@@ -153,7 +153,7 @@ export class RCleanCodePT extends Component {
           tão logo ela funcione?
         </p>
         <p>
-          Sobre a importância de editar, Jason Fried escreveu <RExternalLink href="https://signalvnoise.com/posts/2930-svn-flashback-eureka-were-editors" lang="en">Eureka! We’re editors</RExternalLink> e
+          Sobre a importância de editar, Jason Fried escreveu <ExternalLink href="https://signalvnoise.com/posts/2930-svn-flashback-eureka-were-editors" lang="en">Eureka! We’re editors</ExternalLink> e
           Carolyn Cherry muito bem lembrou:
         </p>
         <p>

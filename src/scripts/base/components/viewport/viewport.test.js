@@ -1,12 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RMeta } from '@scripts/base/components/meta/meta';
-import { RViewport } from '@scripts/base/components/viewport/viewport';
+import { Meta } from '@scripts/base/components/meta/meta';
+import { Viewport } from '@scripts/base/components/viewport/viewport';
 
 describe('Row', () => {
   function mount(props = {}){
     return shallow(
-      <RViewport
+      <Viewport
         title={ props.title }
         description={ props.description }
         keywords={ props.keywords }
@@ -14,7 +14,7 @@ describe('Row', () => {
         image={ props.image }
         lang={ props.lang }>
         { props.content }
-      </RViewport>
+      </Viewport>
     );
   }
 
@@ -36,11 +36,11 @@ describe('Row', () => {
     const twitterCard = 'summary_large_image';
     const image = 'portfolio.png';
     const wrapper = mount({ title, description, keywords, twitterCard, image });
-    expect(wrapper.find(RMeta).prop('title')).toEqual(title);
-    expect(wrapper.find(RMeta).prop('description')).toEqual(description);
-    expect(wrapper.find(RMeta).prop('keywords')).toEqual(keywords);
-    expect(wrapper.find(RMeta).prop('twitterCard')).toEqual(twitterCard);
-    expect(wrapper.find(RMeta).prop('image')).toEqual(image);
+    expect(wrapper.find(Meta).prop('title')).toEqual(title);
+    expect(wrapper.find(Meta).prop('description')).toEqual(description);
+    expect(wrapper.find(Meta).prop('keywords')).toEqual(keywords);
+    expect(wrapper.find(Meta).prop('twitterCard')).toEqual(twitterCard);
+    expect(wrapper.find(Meta).prop('image')).toEqual(image);
   });
 
   it('should set article language as english by default', () => {

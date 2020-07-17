@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import routeService from '@scripts/base/services/route/route';
 
-class RHistory extends Component {
+class History extends Component {
   constructor(props){
     super(props);
     routeService.init(this.props.history);
@@ -14,4 +14,4 @@ class RHistory extends Component {
   }
 }
 
-export default withRouter(RHistory);
+export default withRouter(History);

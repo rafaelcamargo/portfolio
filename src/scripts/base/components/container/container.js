@@ -1,7 +1,7 @@
 import '@styles/container.styl';
 import React, { Component } from 'react';
 
-export class RContainer extends Component {
+export class Container extends Component {
   render() {
     return (
       <div className="r-container">

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { RCol } from '@scripts/base/components/col/col';
-import { RHero } from '@scripts/base/components/hero/hero';
-import { RRow } from '@scripts/base/components/row/row';
-import { RSection } from '@scripts/base/components/section/section';
-import { RViewport } from '@scripts/base/components/viewport/viewport';
+import { Col } from '@scripts/base/components/col/col';
+import { Hero } from '@scripts/base/components/hero/hero';
+import { Row } from '@scripts/base/components/row/row';
+import { Section } from '@scripts/base/components/section/section';
+import { Viewport } from '@scripts/base/components/viewport/viewport';
 
 const meta = {
   title: 'Skills',
@@ -14,14 +14,14 @@ const meta = {
 export class Skills extends Component {
   render() {
     return (
-      <RViewport
+      <Viewport
         title={ meta.title }
         description={ meta.description }
         keywords={ meta.keywords }>
-        <RHero title="Skills" size="small" />
-        <RSection>
-          <RRow >
-            <RCol size="6">
+        <Hero title="Skills" size="small" />
+        <Section>
+          <Row >
+            <Col size="6">
               <p>
                 After working for over seven years as a graphic designer, I <b>
                 started on 2013</b> my career as a programmer at one of the <b>most
@@ -41,8 +41,8 @@ export class Skills extends Component {
                   blog post
                 </a> on <b>Software Craftsmanship</b> written by Robert Martin.
               </p>
-            </RCol>
-            <RCol size="6">
+            </Col>
+            <Col size="6">
               <p>
                 I have great knowledge of bundlers and task runners like <b>Gulp
                 </b> and <b>Webpack</b>. Long experience building <b>Single Page
@@ -62,10 +62,10 @@ export class Skills extends Component {
                 technologies: <b>NodeJS</b>, <b>Express</b>, <b>MongoDB</b>, <b>
                 Ruby</b>, <b>Rails</b>, <b>Postgres</b> and <b>Docker</b>.
               </p>
-            </RCol>
-          </RRow>
-        </RSection>
-      </RViewport>
+            </Col>
+          </Row>
+        </Section>
+      </Viewport>
     );
   }
 }

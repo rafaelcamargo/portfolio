@@ -2,7 +2,7 @@ import '@styles/hero-link.styl';
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-export class RHeroLink extends Component {
+export class HeroLink extends Component {
   onClick = evt => {
     const { onClick } = this.props;
     if(onClick)

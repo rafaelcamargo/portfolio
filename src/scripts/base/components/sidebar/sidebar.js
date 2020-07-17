@@ -1,10 +1,10 @@
 import '@styles/sidebar.styl';
 import React, { Component } from 'react';
-import { RButton } from '@scripts/base/components/button/button';
-import { RMenu } from '@scripts/base/components/menu/menu';
+import { Button } from '@scripts/base/components/button/button';
+import { Menu } from '@scripts/base/components/menu/menu';
 import sidebarState from '@scripts/base/components/sidebar/sidebar.state';
 
-export class RSidebar extends Component {
+export class Sidebar extends Component {
   constructor(props){
     super(props);
     sidebarState.reset();
@@ -30,16 +30,16 @@ export class RSidebar extends Component {
     return (
       <div className={ this.state.className }>
         <div className="r-sidebar-header">
-          <RButton
+          <Button
             iconName="arrow"
             theme="faceless"
             ariaLabel="close"
             onClick={ this.onHideSidebarButtonClick }
             data-hide-sidebar-button>
-          </RButton>
+          </Button>
         </div>
         <div className="r-sidebar-body">
-          <RMenu />
+          <Menu />
         </div>
       </div>
     );

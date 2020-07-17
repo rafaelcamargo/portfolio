@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import MetaTags from 'react-meta-tags';
 import imagesService from '@scripts/base/services/images/images';
 
-export class RMeta extends Component {
+export class Meta extends Component {
   render() {
     return (
       <MetaTags>
@@ -26,7 +26,7 @@ function buildImageUrl(image){
   return `${ENV.APP.BASE_URL}/${ imagesService.getBasePath() }/${image}`;
 }
 
-RMeta.defaultProps = {
+Meta.defaultProps = {
   title: 'Rafael Camargo',
   description: 'My name is Rafael. I am an expert in building UI components.',
   keywords: 'rafael, camargo, programmer, designer',

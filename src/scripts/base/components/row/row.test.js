@@ -1,13 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RRow } from '@scripts/base/components/row/row';
+import { Row } from '@scripts/base/components/row/row';
 
 describe('Row', () => {
   function mount(props = {}){
     return shallow(
-      <RRow align={ props.align } offset={ props.offset }>
+      <Row align={ props.align } offset={ props.offset }>
         { props.content }
-      </RRow>
+      </Row>
     );
   }
 

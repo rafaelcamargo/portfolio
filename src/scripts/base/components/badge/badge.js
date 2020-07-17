@@ -1,7 +1,7 @@
 import '@styles/badge.styl';
 import React, { Component } from 'react';
 
-export class RBadge extends Component {
+export class Badge extends Component {
   render() {
     return (
       <span className="r-badge">

@@ -1,9 +1,9 @@
 import '@styles/mobile.styl'
 import React, { Component } from 'react';
-import { RIcon } from '@scripts/base/components/icon/icon';
+import { Icon } from '@scripts/base/components/icon/icon';
 import imagesService from '@scripts/base/services/images/images';
 
-export class RMobile extends Component {
+export class Mobile extends Component {
   onScreenshotLoad(){
     const onLoad = this.props.onScreenshotLoad;
     if(onLoad)
@@ -17,14 +17,14 @@ export class RMobile extends Component {
         <div className="r-mobile-topbar-container">
           <div className="r-mobile-topbar">
             <div className="r-mobile-topbar-content-left">
-              <RIcon name="network" />
-              <RIcon name="wifi" />
+              <Icon name="network" />
+              <Icon name="wifi" />
             </div>
             <div className="r-mobile-topbar-content-center">
               15:14
             </div>
             <div className="r-mobile-topbar-content-right">
-              <RIcon name="battery" />
+              <Icon name="battery" />
             </div>
           </div>
         </div>

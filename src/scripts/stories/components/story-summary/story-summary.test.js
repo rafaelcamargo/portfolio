@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { Link } from 'react-router-dom';
-import { RImage } from '@scripts/base/components/image/image';
+import { Image } from '@scripts/base/components/image/image';
 import { RStorySummary } from '@scripts/stories/components/story-summary/story-summary';
-import { RTime } from '@scripts/base/components/time/time';
+import { Time } from '@scripts/base/components/time/time';
 import storiesMock from '@scripts/stories/mocks/stories';
 
 describe('Story Summary List', () => {
@@ -46,8 +46,8 @@ describe('Story Summary List', () => {
 
   it('should contain a time', () => {
     const wrapper = mount({ summary: storiesMock[0] });
-    expect(wrapper.find(RTime).prop('dateTime')).toEqual('2020-05-26');
-    expect(wrapper.find(RTime).prop('lang')).toEqual('en');
+    expect(wrapper.find(Time).prop('dateTime')).toEqual('2020-05-26');
+    expect(wrapper.find(Time).prop('lang')).toEqual('en');
   });
 
   it('should build an excerpt', () => {

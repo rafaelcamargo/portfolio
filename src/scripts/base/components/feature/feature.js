@@ -1,8 +1,8 @@
 import '@styles/feature.styl';
 import React, { Component } from 'react';
-import { RCtaLink } from '@scripts/base/components/cta-link/cta-link';
+import { CtaLink } from '@scripts/base/components/cta-link/cta-link';
 
-export class RFeature extends Component {
+export class Feature extends Component {
   render() {
     return (
       <div className="r-feature">
@@ -10,7 +10,7 @@ export class RFeature extends Component {
         <div className="r-feature-body">
           { this.props.children }
         </div>
-        <RCtaLink to={ this.props.ctaTo } text={ this.props.ctaText } />
+        <CtaLink to={ this.props.ctaTo } text={ this.props.ctaText } />
       </div>
     );
   }

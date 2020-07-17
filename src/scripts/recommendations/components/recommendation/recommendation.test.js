@@ -2,7 +2,7 @@ import React from 'react';
 import { mount } from 'enzyme';
 import recommendationsMock from '@scripts/recommendations/mocks/recommendations';
 import recommendationsService from '@scripts/recommendations/services/recommendations/recommendations';
-import { RAvatar } from '@scripts/base/components/avatar/avatar';
+import { Avatar } from '@scripts/base/components/avatar/avatar';
 import { RRecommendation } from '@scripts/recommendations/components/recommendation/recommendation';
 
 describe('Recommendation', () => {
@@ -23,12 +23,12 @@ describe('Recommendation', () => {
 
   it('should contain company avatar', () => {
     const wrapper = mountComponent({ id: 'semler' });
-    expect(wrapper.find(RAvatar).at(0).props().image).toEqual('logo-first-company.png');
+    expect(wrapper.find(Avatar).at(0).props().image).toEqual('logo-first-company.png');
   });
 
   it('should contain person avatar', () => {
     const wrapper = mountComponent({ id: 'semler' });
-    expect(wrapper.find(RAvatar).at(1).props().image).toEqual('avatar-semler.jpg');
+    expect(wrapper.find(Avatar).at(1).props().image).toEqual('avatar-semler.jpg');
   });
 
   it('should show person name', () => {

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { RExternalLink } from '@scripts/base/components/external-link/external-link';
+import { ExternalLink } from '@scripts/base/components/external-link/external-link';
 import { RStorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
 import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
-export class RFormattingQualityPT extends Component {
+export class FormattingQualityPT extends Component {
   render() {
     return (
       <RStoryViewport>
@@ -85,8 +85,8 @@ export class RFormattingQualityPT extends Component {
         </p>
         <RStorySpacer />
         <p>
-          P.S.: <RExternalLink href="https://github.com/glorious-codes/glorious-pitsby/blob/master/.eslintrc.json">
-          Aqui</RExternalLink>, você confere um arquivo real de configuração que
+          P.S.: <ExternalLink href="https://github.com/glorious-codes/glorious-pitsby/blob/master/.eslintrc.json">
+          Aqui</ExternalLink>, você confere um arquivo real de configuração que
           mostra como tenho lidado com <em>complexity</em>, <em>max-lines</em> e <em>
           max-statements</em> em meus projetos.
         </p>

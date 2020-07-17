@@ -1,13 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RTime } from './time';
+import { Time } from './time';
 
 describe('Time', () => {
   function mount(props = {}){
     const dateTime = props.dateTime || '2020-05-26';
     const lang = props.lang || 'pt';
     return shallow(
-      <RTime dateTime={ dateTime } lang={ props.lang } />
+      <Time dateTime={ dateTime } lang={ props.lang } />
     );
   }
 

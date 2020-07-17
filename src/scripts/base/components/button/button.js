@@ -1,10 +1,10 @@
 import '@styles/button.styl';
 import React, { Component } from 'react';
-import { RIcon } from '@scripts/base/components/icon/icon';
+import { Icon } from '@scripts/base/components/icon/icon';
 
 const BASE_CLASS_NAME = 'r-button';
 
-export class RButton extends Component {
+export class Button extends Component {
   constructor(props){
     super(props);
     this.state = { className: buildClassName(this.props.theme, this.props.block) }
@@ -44,7 +44,7 @@ function isThemeValid(theme){
 }
 
 function buildIcon(name){
-  return name ? <RIcon name={ name } /> : null;
+  return name ? <Icon name={ name } /> : null;
 }
 
 function buildLabel(children){

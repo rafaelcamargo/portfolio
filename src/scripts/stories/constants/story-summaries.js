@@ -11,8 +11,8 @@ import { RCleanCodePT } from '@scripts/stories/views/clean-code/clean-code-pt';
 import { RComponentMaturityModelEN } from '@scripts/stories/views/component-maturity-model/component-maturity-model-en';
 import { RComponentMaturityModelPT } from '@scripts/stories/views/component-maturity-model/component-maturity-model-pt';
 import { RBottlesAndPrinciplesEN } from '@scripts/stories/views/bottles-and-principles/bottles-and-principles-en';
-import { RFormattingQualityEN } from '@scripts/stories/views/formatting-quality/formatting-quality-en';
-import { RFormattingQualityPT } from '@scripts/stories/views/formatting-quality/formatting-quality-pt';
+import { FormattingQualityEN } from '@scripts/stories/views/formatting-quality/formatting-quality-en';
+import { FormattingQualityPT } from '@scripts/stories/views/formatting-quality/formatting-quality-pt';
 
 export default [
   {
@@ -152,7 +152,7 @@ export default [
     excerpt: 'It was mid-2018 and I needed to build an application for internal use at the company I was working for. The project was to put on the air a web client to monitor the company’s main application releases. I was the only front-end developer in the project and, having all the powers to structure the application the way I considered best, I couldn’t miss the opportunity to drive the application to quality.',
     thumbnail: 'story-formatting-quality-512x512.png',
     keywords: 'eslint, formatting, code, quality',
-    view: RFormattingQualityEN,
+    view: FormattingQualityEN,
     url: {
       href: '/formatting-quality'
     },
@@ -170,7 +170,7 @@ export default [
     excerpt: 'Era meados de 2018 e eu precisava criar uma aplicação de uso interno na empresa onde trabalhava. O projeto era colocar no ar um cliente web para monitorar as releases da aplicação principal da empresa. Eu era o único front-end trabalhando no projeto e, tendo totais poderes para estruturar a aplicação da maneira que eu achasse melhor, não pude deixar passar a oportunidade de orientar a aplicação à qualidade.',
     thumbnail: 'story-formatting-quality-512x512.png',
     keywords: 'eslint, formatação, código, qualidade',
-    view: RFormattingQualityPT,
+    view: FormattingQualityPT,
     url: {
       href: '/formatando-qualidade'
     },

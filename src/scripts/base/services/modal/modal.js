@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { RModal } from '@scripts/base/components/modal/modal';
+import { Modal } from '@scripts/base/components/modal/modal';
 import idService from '@scripts/base/services/id/id';
 
 const service = {};
@@ -43,12 +43,12 @@ function getWrapperCustomAttribute() {
 
 function buildModal({ id, title, width, onClose, content }) {
   return (
-    <RModal
+    <Modal
       title={ title }
       width={ width }
       onClose={ () => onModalClose(id, onClose) }>
       { content }
-    </RModal>
+    </Modal>
   );
 }
 

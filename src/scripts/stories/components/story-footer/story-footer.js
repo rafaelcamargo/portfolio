@@ -1,8 +1,8 @@
 import '@styles/story-footer.styl';
 import React, { Component } from 'react';
-import { RDivider } from '@scripts/base/components/divider/divider';
+import { Divider } from '@scripts/base/components/divider/divider';
 import { RNewsletterModalTrigger } from '@scripts/newsletter/components/newsletter-modal-trigger/newsletter-modal-trigger';
-import { RPitsbyPromo } from '@scripts/base/components/pitsby-promo/pitsby-promo';
+import { PitsbyPromo } from '@scripts/base/components/pitsby-promo/pitsby-promo';
 import { RStoryRelations } from '@scripts/stories/components/story-relations/story-relations';
 import locales from './story-footer-locales';
 
@@ -26,8 +26,8 @@ export class RStoryFooter extends Component {
             { this.texts.newsletterLink }
           </RNewsletterModalTrigger>.
         </p>
-        <RDivider />
-        <RPitsbyPromo />
+        <Divider />
+        <PitsbyPromo />
       </footer>
     );
   }
@@ -37,7 +37,7 @@ function buildStoryRelation(storyRelationIds, lang){
   if(storyRelationIds)
     return (
       <>
-        <RDivider />
+        <Divider />
         <RStoryRelations
           ids={ storyRelationIds }
           lang={ lang } />

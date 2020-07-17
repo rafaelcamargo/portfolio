@@ -1,38 +1,38 @@
 import '@styles/viewport.styl';
 import React, { Component } from 'react';
-import { RCol } from '@scripts/base/components/col/col';
-import { RContainer } from '@scripts/base/components/container/container';
-import { RFooter } from '@scripts/base/components/footer/footer';
-import { RMeta } from '@scripts/base/components/meta/meta';
-import { RRow } from '@scripts/base/components/row/row';
-import { RSidebar } from '@scripts/base/components/sidebar/sidebar';
-import { RTopbar } from '@scripts/base/components/topbar/topbar';
+import { Col } from '@scripts/base/components/col/col';
+import { Container } from '@scripts/base/components/container/container';
+import { Footer } from '@scripts/base/components/footer/footer';
+import { Meta } from '@scripts/base/components/meta/meta';
+import { Row } from '@scripts/base/components/row/row';
+import { Sidebar } from '@scripts/base/components/sidebar/sidebar';
+import { Topbar } from '@scripts/base/components/topbar/topbar';
 
-export class RViewport extends Component {
+export class Viewport extends Component {
   render() {
     return (
       <div className="r-viewport">
-        <RMeta
+        <Meta
           title={ this.props.title }
           description={ this.props.description }
           keywords={ this.props.keywords }
           twitterCard={ this.props.twitterCard }
           image={ this.props.image }/>
         <header>
-          <RSidebar />
-          <RTopbar />
+          <Sidebar />
+          <Topbar />
         </header>
         <main>
           <article className="r-viewport-content" lang={this.props.lang || 'en'}>
             { this.props.children }
           </article>
-          <RContainer>
-            <RRow>
-              <RCol size="12">
-                <RFooter />
-              </RCol>
-            </RRow>
-          </RContainer>
+          <Container>
+            <Row>
+              <Col size="12">
+                <Footer />
+              </Col>
+            </Row>
+          </Container>
         </main>
       </div>
     );

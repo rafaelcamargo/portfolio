@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { RButton } from '@scripts/base/components/button/button';
-import { RCol } from '@scripts/base/components/col/col';
-import { RField } from '@scripts/base/components/field/field';
-import { RForm } from '@scripts/base/components/form/form';
-import { RRow } from '@scripts/base/components/row/row';
+import { Button } from '@scripts/base/components/button/button';
+import { Col } from '@scripts/base/components/col/col';
+import { Field } from '@scripts/base/components/field/field';
+import { Form } from '@scripts/base/components/form/form';
+import { Row } from '@scripts/base/components/row/row';
 import newsletterResource from '@scripts/newsletter/resources/newsletter';
 import locales from './newsletter-form-locales';
 
@@ -56,34 +56,34 @@ export class RNewsletterForm extends Component {
   render(){
     return (
       <div className="r-newsletter-form">
-        <RForm
+        <Form
           onSubmit={ this.onSubmit }
           onSubmitSuccess={ this.onSubmitSuccess }
           onSubmitError={ this.onSubmitError }
           errorMessage={ this.state.errorMessage }
           successMessage={ this.state.successMessage }>
-          <RRow>
-            <RCol size="12">
-              <RField label={ this.texts.name }>
+          <Row>
+            <Col size="12">
+              <Field label={ this.texts.name }>
                 <input name="name" onChange={ this.onFormDataChange } required />
-              </RField>
-            </RCol>
-          </RRow>
-          <RRow>
-            <RCol size="12">
-              <RField label={ this.texts.email }>
+              </Field>
+            </Col>
+          </Row>
+          <Row>
+            <Col size="12">
+              <Field label={ this.texts.email }>
                 <input name="email" onChange={ this.onFormDataChange } required />
-              </RField>
-            </RCol>
-          </RRow>
-          <RRow>
-            <RCol size="12">
-              <RButton type="submit" theme="primary" block>
+              </Field>
+            </Col>
+          </Row>
+          <Row>
+            <Col size="12">
+              <Button type="submit" theme="primary" block>
                 { this.texts.subscribe }
-              </RButton>
-            </RCol>
-          </RRow>
-        </RForm>
+              </Button>
+            </Col>
+          </Row>
+        </Form>
       </div>
     );
   }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RMobile } from '@scripts/base/components/mobile/mobile';
+import { Mobile } from '@scripts/base/components/mobile/mobile';
 import { RHomeMobilePanel } from '@scripts/home/components/home-mobile-panel/home-mobile-panel';
 
 describe('Home Mobile Panel', () => {
@@ -17,12 +17,12 @@ describe('Home Mobile Panel', () => {
 
   it('should contain a mobile for nashios', () => {
     const wrapper = mount();
-    expect(wrapper.find(RMobile).at(0).prop('screenshot')).toEqual('pitsby.svg');
+    expect(wrapper.find(Mobile).at(0).prop('screenshot')).toEqual('pitsby.svg');
   });
 
   it('should contain a mobile for pitsby', () => {
     const wrapper = mount();
-    expect(wrapper.find(RMobile).at(1).prop('screenshot')).toEqual('nashios.svg');
+    expect(wrapper.find(Mobile).at(1).prop('screenshot')).toEqual('nashios.svg');
   });
 
   it('should make panel visible when all images have been loaded', () => {

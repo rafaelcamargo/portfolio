@@ -1,8 +1,8 @@
 import '@styles/modal.styl';
 import React, { Component } from 'react';
-import { RButton } from '@scripts/base/components/button/button';
+import { Button } from '@scripts/base/components/button/button';
 
-export class RModal extends Component {
+export class Modal extends Component {
   render(){
     return (
       <div className="r-modal-backdrop">
@@ -13,13 +13,13 @@ export class RModal extends Component {
           <div className="r-modal-header">
             { buildTitle(this.props.title) }
             <span className="r-modal-cose-button-container">
-              <RButton
+              <Button
                 iconName="x"
                 theme="faceless"
                 ariaLabel="close"
                 onClick={ this.props.onClose }
                 data-modal-close-button>
-              </RButton>
+              </Button>
             </span>
           </div>
           <div className="r-modal-content">

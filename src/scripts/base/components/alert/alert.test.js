@@ -1,16 +1,16 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RAlert } from '@scripts/base/components/alert/alert';
+import { Alert } from '@scripts/base/components/alert/alert';
 
 describe('Alert', () => {
   function mount(props = {}){
     return shallow(
-      <RAlert
+      <Alert
         theme={ props.theme }
         onTriggerClick={ props.onTriggerClick }
         triggerText={ props.triggerText }>
         { props.content }
-      </RAlert>
+      </Alert>
     );
   }
 

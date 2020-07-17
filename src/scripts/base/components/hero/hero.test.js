@@ -1,14 +1,14 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RSection } from '@scripts/base/components/section/section';
-import { RHero } from '@scripts/base/components/hero/hero';
+import { Section } from '@scripts/base/components/section/section';
+import { Hero } from '@scripts/base/components/hero/hero';
 
 describe('Hero', () => {
   function mount(props = {}){
     return shallow(
-      <RHero title={props.title} size={ props.size }>
+      <Hero title={props.title} size={ props.size }>
         { props.content }
-      </RHero>
+      </Hero>
     );
   }
 
@@ -25,12 +25,12 @@ describe('Hero', () => {
 
   it('should optinally set a small hero', () => {
     const wrapper = mount({ size: 'small' });
-    expect(wrapper.find(RSection).prop('size')).toEqual('small');
+    expect(wrapper.find(Section).prop('size')).toEqual('small');
   });
 
   it('should optinally set a large hero', () => {
     const wrapper = mount({ size: 'large' });
-    expect(wrapper.find(RSection).prop('size')).toEqual('large');
+    expect(wrapper.find(Section).prop('size')).toEqual('large');
   });
 
   it('should optionally render some content', () => {

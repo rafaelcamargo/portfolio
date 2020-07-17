@@ -2,7 +2,7 @@ import '@styles/icon.styl';
 import React, { Component } from 'react';
 import imagesService from '@scripts/base/services/images/images';
 
-export class RIcon extends Component {
+export class Icon extends Component {
   constructor(props){
     super(props);
     this.state = {

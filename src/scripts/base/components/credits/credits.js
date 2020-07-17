@@ -1,7 +1,7 @@
 import '@styles/credits.styl';
 import React, { Component } from 'react';
 
-export class RCredits extends Component {
+export class Credits extends Component {
   render() {
     return (
       <div className="r-credits">

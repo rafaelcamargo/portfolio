@@ -1,12 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RIcon } from '@scripts/base/components/icon/icon';
-import { RMobile } from '@scripts/base/components/mobile/mobile';
+import { Icon } from '@scripts/base/components/icon/icon';
+import { Mobile } from '@scripts/base/components/mobile/mobile';
 
 describe('Mobile', () => {
   function mount(props = {}){
     return shallow(
-      <RMobile
+      <Mobile
         screenshot={ props.screenshot }
         scale={ props.scale }
         onScreenshotLoad={ props.onScreenshotLoad } />
@@ -20,17 +20,17 @@ describe('Mobile', () => {
 
   it('should contain a network icon', () => {
     const wrapper = mount();
-    expect(wrapper.find(RIcon).at(0).prop('name')).toEqual('network');
+    expect(wrapper.find(Icon).at(0).prop('name')).toEqual('network');
   });
 
   it('should contain a wifi icon', () => {
     const wrapper = mount();
-    expect(wrapper.find(RIcon).at(1).prop('name')).toEqual('wifi');
+    expect(wrapper.find(Icon).at(1).prop('name')).toEqual('wifi');
   });
 
   it('should contain a battery icon', () => {
     const wrapper = mount();
-    expect(wrapper.find(RIcon).at(2).prop('name')).toEqual('battery');
+    expect(wrapper.find(Icon).at(2).prop('name')).toEqual('battery');
   });
 
   it('should not show an image by default', () => {

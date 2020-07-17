@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import { RAvatron } from '@scripts/base/components/avatron/avatron';
-import { RCol } from '@scripts/base/components/col/col';
-import { RCtaLink } from '@scripts/base/components/cta-link/cta-link';
-import { RHero } from '@scripts/base/components/hero/hero';
+import { Avatron } from '@scripts/base/components/avatron/avatron';
+import { Col } from '@scripts/base/components/col/col';
+import { CtaLink } from '@scripts/base/components/cta-link/cta-link';
+import { Hero } from '@scripts/base/components/hero/hero';
 import { RProject } from '@scripts/projects/components/project/project';
 import { RProjectList } from '@scripts/projects/components/project-list/project-list';
-import { RRow } from '@scripts/base/components/row/row';
-import { RSection } from '@scripts/base/components/section/section';
-import { RViewport } from '@scripts/base/components/viewport/viewport';
+import { Row } from '@scripts/base/components/row/row';
+import { Section } from '@scripts/base/components/section/section';
+import { Viewport } from '@scripts/base/components/viewport/viewport';
 
 const meta = {
   title: 'Projects',
@@ -18,14 +18,14 @@ const meta = {
 export class Projects extends Component {
   render() {
     return (
-      <RViewport
+      <Viewport
         title={ meta.title }
         description={ meta.description }
         keywords={ meta.keywords }>
-        <RHero title="Projects" size="small" />
-        <RSection>
-          <RRow>
-            <RCol size="12">
+        <Hero title="Projects" size="small" />
+        <Section>
+          <Row>
+            <Col size="12">
               <RProjectList>
                 <RProject
                   image="logo-glorious-demo.svg"
@@ -105,10 +105,10 @@ export class Projects extends Component {
                   designed by me.
                 </RProject>
               </RProjectList>
-            </RCol>
-          </RRow>
-        </RSection>
-      </RViewport>
+            </Col>
+          </Row>
+        </Section>
+      </Viewport>
     );
   }
 }

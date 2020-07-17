@@ -1,13 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RCol } from '@scripts/base/components/col/col';
+import { Col } from '@scripts/base/components/col/col';
 
 describe('Col', () => {
   function mount(props = {}){
     return shallow(
-      <RCol size={ props.size } offset={ props.offset }>
+      <Col size={ props.size } offset={ props.offset }>
         { props.content }
-      </RCol>
+      </Col>
     );
   }
 

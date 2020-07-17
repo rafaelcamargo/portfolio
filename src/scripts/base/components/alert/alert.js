@@ -1,7 +1,7 @@
 import '@styles/alert.styl';
 import React, { Component } from 'react';
 
-export class RAlert extends Component {
+export class Alert extends Component {
   constructor(props){
     super(props);
     this.state = { className: buildClassName(props) };

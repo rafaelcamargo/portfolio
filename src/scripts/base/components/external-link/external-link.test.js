@@ -2,17 +2,17 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import analyticsService from '@scripts/base/services/analytics/analytics';
 import routeService from '@scripts/base/services/route/route';
-import { RExternalLink } from '@scripts/base/components/external-link/external-link';
+import { ExternalLink } from '@scripts/base/components/external-link/external-link';
 
 describe('External Link', () => {
   function mount(props = {}){
     return shallow(
-      <RExternalLink
+      <ExternalLink
         href={ props.href }
         trackName={ props.trackName }
         lang={ props.lang }>
         { props.children }
-      </RExternalLink>
+      </ExternalLink>
     );
   }
 

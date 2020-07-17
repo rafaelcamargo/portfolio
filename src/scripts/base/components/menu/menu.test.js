@@ -1,11 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RMenu } from '@scripts/base/components/menu/menu';
+import { Menu } from '@scripts/base/components/menu/menu';
 
 describe('Menu', () => {
   function mount(){
     return shallow(
-      <RMenu />
+      <Menu />
     );
   }
 

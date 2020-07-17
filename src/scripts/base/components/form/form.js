@@ -1,9 +1,9 @@
 import '@styles/form.styl';
 import React, { Component } from 'react';
-import { RAlert } from '@scripts/base/components/alert/alert';
-import { RLoader } from '@scripts/base/components/loader/loader';
+import { Alert } from '@scripts/base/components/alert/alert';
+import { Loader } from '@scripts/base/components/loader/loader';
 
-export class RForm extends Component {
+export class Form extends Component {
   constructor(props){
     super(props);
     this.state = {};
@@ -78,19 +78,19 @@ function handleAlert(state, props, onTriggerClick){
 
 function buildAlert(theme, defaultMessage, customMessage, onTriggerClick, triggerText){
   return  <div className="r-form-alert-container">
-            <RAlert
+            <Alert
               theme={ theme }
               onTriggerClick={ onTriggerClick }
               triggerText={ triggerText }>
               { customMessage || defaultMessage }
-            </RAlert>
+            </Alert>
           </div>;
 }
 
 function handleLoader({ shouldShowLoader }) {
   return shouldShowLoader ?
     <div className="r-form-loader-container">
-      <RLoader />
+      <Loader />
     </div> :
     null;
 }

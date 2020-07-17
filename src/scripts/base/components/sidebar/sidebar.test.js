@@ -1,12 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RSidebar } from '@scripts/base/components/sidebar/sidebar';
+import { Sidebar } from '@scripts/base/components/sidebar/sidebar';
 import sidebarState from '@scripts/base/components/sidebar/sidebar.state';
 
 describe('Sidebar', () => {
   function mount(){
     return shallow(
-      <RSidebar />
+      <Sidebar />
     );
   }
 

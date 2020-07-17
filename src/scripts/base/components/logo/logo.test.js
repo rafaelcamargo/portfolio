@@ -1,13 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { Link } from 'react-router-dom';
-import { RIcon } from '@scripts/base/components/icon/icon';
-import { RLogo } from '@scripts/base/components/logo/logo';
+import { Icon } from '@scripts/base/components/icon/icon';
+import { Logo } from '@scripts/base/components/logo/logo';
 
 describe('Logo', () => {
   function mount(){
     return shallow(
-      <RLogo />
+      <Logo />
     );
   }
 
@@ -23,6 +23,6 @@ describe('Logo', () => {
 
   it('should contain an icon', () => {
     const wrapper = mount();
-    expect(wrapper.find(RIcon).prop('name')).toEqual('rc');
+    expect(wrapper.find(Icon).prop('name')).toEqual('rc');
   })
 });

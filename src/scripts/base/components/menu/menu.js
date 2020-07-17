@@ -2,7 +2,7 @@ import '@styles/menu.styl';
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 
-export class RMenu extends Component {
+export class Menu extends Component {
   render() {
     return (
       <nav className="r-menu">

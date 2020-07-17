@@ -3,7 +3,7 @@ import ScrollToTop from 'react-router-scroll-top';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Contact } from '@scripts/contact/contact';
 import { Experience } from '@scripts/experience/experience';
-import RHistory from '@scripts/base/components/history/history';
+import History from '@scripts/base/components/history/history';
 import { Home } from '@scripts/home/home';
 import { Projects } from '@scripts/projects/projects';
 import { Recommendations } from '@scripts/recommendations/recommendations';
@@ -15,7 +15,7 @@ class AppRouter extends Component {
   render(){
     return (
       <Router>
-        <RHistory>
+        <History>
           <ScrollToTop>
             <Route path="/" exact component={ Home } />
             <Route path="/contact" exact component={ Contact } />
@@ -26,7 +26,7 @@ class AppRouter extends Component {
             <Route path="/stories" exact component={ Stories } />
             { buildStoryViewRoutes() }
           </ScrollToTop>
-        </RHistory>
+        </History>
       </Router>
     );
   }

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { RCol } from '@scripts/base/components/col/col';
-import { RHero } from '@scripts/base/components/hero/hero';
-import { RRow } from '@scripts/base/components/row/row';
-import { RSection } from '@scripts/base/components/section/section';
+import { Col } from '@scripts/base/components/col/col';
+import { Hero } from '@scripts/base/components/hero/hero';
+import { Row } from '@scripts/base/components/row/row';
+import { Section } from '@scripts/base/components/section/section';
 import { RStoryGroup } from '@scripts/stories/components/story-group/story-group';
 import { RStoryList } from '@scripts/stories/components/story-list/story-list';
-import { RViewport } from '@scripts/base/components/viewport/viewport';
+import { Viewport } from '@scripts/base/components/viewport/viewport';
 
 const meta = {
   title: 'Stories',
@@ -16,24 +16,24 @@ const meta = {
 export class Stories extends Component {
   render() {
     return (
-      <RViewport
+      <Viewport
         title={ meta.title }
         description={ meta.description }
         keywords={ meta.keywords }>
-        <RHero title="Stories" size="small" />
-        <RSection>
-          <RRow >
-            <RCol size="12">
+        <Hero title="Stories" size="small" />
+        <Section>
+          <Row >
+            <Col size="12">
               <RStoryGroup title="Featured">
                 <RStoryList featured={true} />
               </RStoryGroup>
               <RStoryGroup title="Everything Else">
                 <RStoryList featured={false} />
               </RStoryGroup>
-            </RCol>
-          </RRow>
-        </RSection>
-      </RViewport>
+            </Col>
+          </Row>
+        </Section>
+      </Viewport>
     );
   }
 }

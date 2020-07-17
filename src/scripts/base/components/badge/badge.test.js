@@ -1,13 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RBadge } from '@scripts/base/components/badge/badge';
+import { Badge } from '@scripts/base/components/badge/badge';
 
 describe('Badge', () => {
   function mount(props = {}){
     return shallow(
-      <RBadge>
+      <Badge>
         { props.content }
-      </RBadge>
+      </Badge>
     );
   }
 

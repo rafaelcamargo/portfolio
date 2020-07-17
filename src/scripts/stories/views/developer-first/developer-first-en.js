@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { RQuote } from '@scripts/base/components/quote/quote';
+import { Quote } from '@scripts/base/components/quote/quote';
 import { RStorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
 import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
@@ -66,7 +66,7 @@ export class RDeveloperFirstEN extends Component {
           the faster that feedback loop is, the more developers keep engaged
           with the software they are building.
         </p>
-        <RQuote
+        <Quote
           sourceText="Finding Flow"
           sourceHref="https://www.thriftbooks.com/w/finding-flow-the-psychology-of-engagement-with-everyday-life-masterminds-series_mihaly-csikszentmihalyi/253384/#isbn=0465045138&idiq=1009114"
           lang="en">
@@ -74,7 +74,7 @@ export class RDeveloperFirstEN extends Component {
           immediate feedback. They make it clear how well you are doing. After
           each move of a game you can tell whether you have improved your
           position or not.
-        </RQuote>
+        </Quote>
         <p>
           Whether you have to remember to turn something on/off in a specific
           moment of the day or having to write the same piece of code for every

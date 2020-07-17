@@ -1,12 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { Link } from 'react-router-dom';
-import { RHeroLink } from './hero-link';
+import { HeroLink } from './hero-link';
 
 describe('Hero Link', () => {
   function mount(props = {}){
     return shallow(
-      <RHeroLink
+      <HeroLink
         to={ props.to }
         href={ props.href }
         text={ props.text }

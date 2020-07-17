@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 const BASE_ITEM_CLASS_NAME = 'r-feature-list-item';
 
-export class RFeatureList extends Component {
+export class FeatureList extends Component {
   render() {
     return (
       <ul className="r-feature-list">

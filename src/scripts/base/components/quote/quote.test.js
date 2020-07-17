@@ -1,16 +1,16 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import { RQuote } from './quote';
+import { Quote } from './quote';
 
 describe('Quote', () => {
   function mountComponent(props = {}){
     return mount(
-      <RQuote
+      <Quote
         sourceText={ props.sourceText }
         sourceHref={ props.sourceHref }
         lang={ props.lang }>
         { props.content }
-      </RQuote>
+      </Quote>
     );
   }
 

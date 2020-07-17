@@ -1,8 +1,8 @@
 import '@styles/story-summary.styl';
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { RImage } from '@scripts/base/components/image/image';
-import { RTime } from '@scripts/base/components/time/time';
+import { Image } from '@scripts/base/components/image/image';
+import { Time } from '@scripts/base/components/time/time';
 
 export class RStorySummary extends Component {
   render() {
@@ -13,7 +13,7 @@ export class RStorySummary extends Component {
           <h3>
             { buildLink(url, title) }
           </h3>
-          <RTime dateTime={ created } lang={ lang } />
+          <Time dateTime={ created } lang={ lang } />
           <p>
             { handleExcerptLength(excerpt) }
           </p>

@@ -1,11 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RCredits } from '@scripts/base/components/credits/credits';
+import { Credits } from '@scripts/base/components/credits/credits';
 
 describe('Recommendation', () => {
   function mount(props = {}){
     return shallow(
-      <RCredits />
+      <Credits />
     );
   }
 

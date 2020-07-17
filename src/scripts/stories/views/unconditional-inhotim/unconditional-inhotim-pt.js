@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { RExternalLink } from '@scripts/base/components/external-link/external-link';
-import { RQuote } from '@scripts/base/components/quote/quote';
+import { ExternalLink } from '@scripts/base/components/external-link/external-link';
+import { Quote } from '@scripts/base/components/quote/quote';
 import { RStorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
 import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
@@ -16,24 +16,24 @@ export class RUnconditionalInhotimPT extends Component {
           paraíso. Inhotim.
         </p>
         <p>
-          Dentro da galeria <RExternalLink href="https://www.inhotim.org.br/uploads/2015/06/blogcosmc.jpg">
-          Cosmococa</RExternalLink> você deita na cama, se embala na rede,
+          Dentro da galeria <ExternalLink href="https://www.inhotim.org.br/uploads/2015/06/blogcosmc.jpg">
+          Cosmococa</ExternalLink> você deita na cama, se embala na rede,
           mergulha na piscina. Os cinco <em>quasi-cinemas</em> - conceito criado
-          por <RExternalLink href="https://pt.wikipedia.org/wiki/H%C3%A9lio_Oiticica">
-          Hélio Oiticica</RExternalLink> - invadem os seus sentidos na medida em
-          que você os invade. Do terraço da <RExternalLink href="https://i.ytimg.com/vi/Td0fHM_EVAM/maxresdefault.jpg">
-          galeria Adriana Varejão</RExternalLink>, você admira  o belíssimo
-          espelho d’água enquanto se deslumbra com espécies de <RExternalLink href="https://www.itinerariodeviagem.com/wp-content/uploads/2017/08/INHOTIM-105.jpg">
-          pássaros da região amazônica</RExternalLink> pintados à mão sobre
+          por <ExternalLink href="https://pt.wikipedia.org/wiki/H%C3%A9lio_Oiticica">
+          Hélio Oiticica</ExternalLink> - invadem os seus sentidos na medida em
+          que você os invade. Do terraço da <ExternalLink href="https://i.ytimg.com/vi/Td0fHM_EVAM/maxresdefault.jpg">
+          galeria Adriana Varejão</ExternalLink>, você admira  o belíssimo
+          espelho d’água enquanto se deslumbra com espécies de <ExternalLink href="https://www.itinerariodeviagem.com/wp-content/uploads/2017/08/INHOTIM-105.jpg">
+          pássaros da região amazônica</ExternalLink> pintados à mão sobre
           azulejos por Beatriz Sauer. E caminhando em meio a uma alta vegetação,
-          você se vê nos espelhos da obra <RExternalLink href="https://www.inhotim.org.br/uploads/2014/11/valeska2.jpg">
-          Folly</RExternalLink> ao descobrir a galeria de Valeska Soares.
+          você se vê nos espelhos da obra <ExternalLink href="https://www.inhotim.org.br/uploads/2014/11/valeska2.jpg">
+          Folly</ExternalLink> ao descobrir a galeria de Valeska Soares.
         </p>
         <p>
-          Essas são três das <RExternalLink href="https://www.inhotim.org.br/uploads/documents-downloads/mapa_visite_inhotim_final.pdf">
-          mais de vinte galerias</RExternalLink> de arte presentes no <RExternalLink href="https://www.inhotim.org.br/uploads/2013/11/blog_20180725_visitantes_william-gomes-1037.jpg">
-          jardim</RExternalLink>. O que existe entre cada uma delas é a extraordinária <RExternalLink href="https://i.pinimg.com/originals/3c/e5/0f/3ce50fc71a3f82942a71b577b3bd0d3a.jpg">
-          natureza brasileira</RExternalLink> que tanto escutamos ao longo da
+          Essas são três das <ExternalLink href="https://www.inhotim.org.br/uploads/documents-downloads/mapa_visite_inhotim_final.pdf">
+          mais de vinte galerias</ExternalLink> de arte presentes no <ExternalLink href="https://www.inhotim.org.br/uploads/2013/11/blog_20180725_visitantes_william-gomes-1037.jpg">
+          jardim</ExternalLink>. O que existe entre cada uma delas é a extraordinária <ExternalLink href="https://i.pinimg.com/originals/3c/e5/0f/3ce50fc71a3f82942a71b577b3bd0d3a.jpg">
+          natureza brasileira</ExternalLink> que tanto escutamos ao longo da
           vida, mas que aos trinta e dois anos eu ainda não tinha a mínima
           ideia do que significava. Inhotim é imenso não só em tamanho, mas
           também em significado e beleza.
@@ -52,8 +52,8 @@ export class RUnconditionalInhotimPT extends Component {
           Na conversa, meus elogios a Inhotim são inevitáveis. A
           curiosidade do pessoal aflora e um deles recorre ao celular para
           fazer uma rápida pesquisa. Ele me questiona qual o sentido de
-          suspender um cubo vermelho, enquanto me mostra a obra <RExternalLink href="https://www.itinerariodeviagem.com/wp-content/uploads/2017/08/INHOTIM-90.jpg">
-          Red</RExternalLink>, de Tsuruko Yamazaki, na tela do seu celular.
+          suspender um cubo vermelho, enquanto me mostra a obra <ExternalLink href="https://www.itinerariodeviagem.com/wp-content/uploads/2017/08/INHOTIM-90.jpg">
+          Red</ExternalLink>, de Tsuruko Yamazaki, na tela do seu celular.
           Foi desconfortável para ele constatar que algo não tinha
           necessariamente resposta. Não era explicável. Não tinha lógica.
         </p>

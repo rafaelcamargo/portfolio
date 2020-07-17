@@ -1,13 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RSection } from '@scripts/base/components/section/section';
+import { Section } from '@scripts/base/components/section/section';
 
 describe('Hello', () => {
   function mount(props = {}){
     return shallow(
-      <RSection theme={ props.theme } size={ props.size }>
+      <Section theme={ props.theme } size={ props.size }>
         { props.content }
-      </RSection>
+      </Section>
     );
   }
 

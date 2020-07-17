@@ -1,7 +1,7 @@
 import ENV from '@environment';
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RMeta } from '@scripts/base/components/meta/meta';
+import { Meta } from '@scripts/base/components/meta/meta';
 
 describe('Meta', () => {
   const DEFAULT_TITLE = 'Rafael Camargo';
@@ -11,7 +11,7 @@ describe('Meta', () => {
 
   function mount(props = {}){
     return shallow(
-      <RMeta
+      <Meta
         title={ props.title }
         description={ props.description }
         keywords={ props.keywords }

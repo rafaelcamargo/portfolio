@@ -1,16 +1,16 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RModal } from '@scripts/base/components/modal/modal';
+import { Modal } from '@scripts/base/components/modal/modal';
 
 describe('Modal', () => {
   function mount(props = {}){
     return shallow(
-      <RModal
+      <Modal
         title={ props.title }
         width={ props.width }
         onClose={ props.onClose }>
         { props.children }
-      </RModal>
+      </Modal>
     );
   }
 

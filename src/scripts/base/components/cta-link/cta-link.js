@@ -1,9 +1,9 @@
 import '@styles/cta-link.styl';
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { RIcon } from '@scripts/base/components/icon/icon';
+import { Icon } from '@scripts/base/components/icon/icon';
 
-export class RCtaLink extends Component {
+export class CtaLink extends Component {
   render() {
     return (
       <span className="r-cta-link">
@@ -14,7 +14,7 @@ export class RCtaLink extends Component {
 }
 
 function buildLink(to, href, onClick, text){
-  const arrow = <RIcon name="arrow" />;
+  const arrow = <Icon name="arrow" />;
   return to ?
     <Link to={ to }>{ text }{ arrow }</Link> :
     <a href={ href } target="_blank" onClick={ onClick }>{ text }{ arrow }</a>;

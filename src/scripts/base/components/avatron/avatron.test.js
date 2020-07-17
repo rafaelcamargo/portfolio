@@ -1,14 +1,14 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RAvatar } from '@scripts/base/components/avatar/avatar';
-import { RAvatron } from '@scripts/base/components/avatron/avatron';
-import { RBadge } from '@scripts/base/components/badge/badge';
-import { RExternalLink } from '@scripts/base/components/external-link/external-link';
+import { Avatar } from '@scripts/base/components/avatar/avatar';
+import { Avatron } from '@scripts/base/components/avatron/avatron';
+import { Badge } from '@scripts/base/components/badge/badge';
+import { ExternalLink } from '@scripts/base/components/external-link/external-link';
 
 describe('Icon', () => {
   function mount(props = {}){
     return shallow(
-      <RAvatron
+      <Avatron
         image={ props.image }
         title={ props.title }
         subtitle={ props.subtitle }
@@ -25,13 +25,13 @@ describe('Icon', () => {
 
   it('should not render an avatar by default', () => {
     const wrapper = mount();
-    expect(wrapper.find(RAvatar).length).toEqual(0);
+    expect(wrapper.find(Avatar).length).toEqual(0);
   });
 
   it('should render an avatar', () => {
     const image = 'image.png';
     const wrapper = mount({ image });
-    expect(wrapper.find(RAvatar).prop('image')).toEqual(image);
+    expect(wrapper.find(Avatar).prop('image')).toEqual(image);
   });
 
   it('should render a title', () => {
@@ -50,7 +50,7 @@ describe('Icon', () => {
     const title = 'Hello!';
     const url = 'https://hello.com';
     const wrapper = mount({ title, url });
-    expect(wrapper.find(RExternalLink).prop('href')).toEqual(url);
+    expect(wrapper.find(ExternalLink).prop('href')).toEqual(url);
   });
 
   it('should render a subtitle', () => {
@@ -61,13 +61,13 @@ describe('Icon', () => {
 
   it('should not render a badge by default', () => {
     const wrapper = mount();
-    expect(wrapper.find(RBadge).length).toEqual(0);
+    expect(wrapper.find(Badge).length).toEqual(0);
   });
 
   it('should optionally render a badge', () => {
     const badgeText = 'Text';
     const wrapper = mount({ badgeText });
-    expect(wrapper.find(RBadge).childAt(0).text()).toEqual(badgeText);
+    expect(wrapper.find(Badge).childAt(0).text()).toEqual(badgeText);
   });
 
   it('should optionally render a caption', () => {

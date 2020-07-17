@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { RHomeHero } from '@scripts/home/components/home-hero/home-hero';
-import { RViewport } from '@scripts/base/components/viewport/viewport';
+import { Viewport } from '@scripts/base/components/viewport/viewport';
 import { Home } from '@scripts/home/home';
 
 describe('Home', () => {
@@ -11,7 +11,7 @@ describe('Home', () => {
 
   it('should contain a viewport', () => {
     const wrapper = mount();
-    expect(wrapper.find(RViewport).length).toEqual(1);
+    expect(wrapper.find(Viewport).length).toEqual(1);
   });
 
   it('should contain a home hero', () => {

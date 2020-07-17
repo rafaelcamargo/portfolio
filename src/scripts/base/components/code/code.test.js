@@ -1,14 +1,14 @@
 import React from 'react';
 import Highlight from 'react-highlight';
 import { shallow } from 'enzyme';
-import { RCode } from './code';
+import { Code } from './code';
 
 describe('Code', () => {
   function mount(props = {}){
     return shallow(
-      <RCode language={ props.language }>
+      <Code language={ props.language }>
         { props.content }
-      </RCode>
+      </Code>
     );
   }
 

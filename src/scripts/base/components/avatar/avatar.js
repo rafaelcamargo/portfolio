@@ -2,7 +2,7 @@ import '@styles/avatar.styl';
 import React, { Component } from 'react';
 import imagesService from '@scripts/base/services/images/images';
 
-export class RAvatar extends Component {
+export class Avatar extends Component {
   render() {
     return (
       <div className="r-avatar">

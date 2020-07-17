@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { RQuote } from '@scripts/base/components/quote/quote';
+import { Quote } from '@scripts/base/components/quote/quote';
 import { RStorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
 import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
@@ -69,7 +69,7 @@ export class RDeveloperFirstPT extends Component {
           quanto mais rápido for esse <em>feedback loop</em>, mais nos mantemos
           engajados com aquilo que estamos construindo.
         </p>
-        <RQuote
+        <Quote
           sourceText="Finding Flow"
           sourceHref="https://www.thriftbooks.com/w/finding-flow-the-psychology-of-engagement-with-everyday-life-masterminds-series_mihaly-csikszentmihalyi/253384/#isbn=0465045138&idiq=1009114"
           lang="en">
@@ -77,7 +77,7 @@ export class RDeveloperFirstPT extends Component {
           immediate feedback. They make it clear how well you are doing. After
           each move of a game you can tell whether you have improved your
           position or not.
-        </RQuote>
+        </Quote>
         <p>
           Seja tendo que lembrar de ligar ou desligar algo em um determinado
           momento do dia ou seja tendo que escrever a mesma porção de código a

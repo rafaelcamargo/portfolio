@@ -1,10 +1,10 @@
 import '@styles/avatron.styl';
 import React, { Component } from 'react';
-import { RAvatar } from '@scripts/base/components/avatar/avatar';
-import { RBadge } from '@scripts/base/components/badge/badge';
-import { RExternalLink } from '@scripts/base/components/external-link/external-link';
+import { Avatar } from '@scripts/base/components/avatar/avatar';
+import { Badge } from '@scripts/base/components/badge/badge';
+import { ExternalLink } from '@scripts/base/components/external-link/external-link';
 
-export class RAvatron extends Component {
+export class Avatron extends Component {
   render() {
     return (
       <div className="r-avatron">
@@ -22,15 +22,15 @@ export class RAvatron extends Component {
 }
 
 function buildAvatar(image){
-  return image ? <RAvatar image={ image } /> : null;
+  return image ? <Avatar image={ image } /> : null;
 }
 
 function buildTitle(title, url){
-  return url ? <RExternalLink href={ url }>{ title }</RExternalLink> : title;
+  return url ? <ExternalLink href={ url }>{ title }</ExternalLink> : title;
 }
 
 function buildBadge(text){
-  return text ? <RBadge>{ text }</RBadge> : null;
+  return text ? <Badge>{ text }</Badge> : null;
 }
 
 function buildCaption(caption){

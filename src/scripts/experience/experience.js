@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { RAvatron } from '@scripts/base/components/avatron/avatron';
-import { RCol } from '@scripts/base/components/col/col';
-import { RHero } from '@scripts/base/components/hero/hero';
-import { RRow } from '@scripts/base/components/row/row';
-import { RSection } from '@scripts/base/components/section/section';
-import { RViewport } from '@scripts/base/components/viewport/viewport';
+import { Avatron } from '@scripts/base/components/avatron/avatron';
+import { Col } from '@scripts/base/components/col/col';
+import { Hero } from '@scripts/base/components/hero/hero';
+import { Row } from '@scripts/base/components/row/row';
+import { Section } from '@scripts/base/components/section/section';
+import { Viewport } from '@scripts/base/components/viewport/viewport';
 
 const meta = {
   title: 'Experience',
@@ -15,22 +15,22 @@ const meta = {
 export class Experience extends Component {
   render() {
     return (
-      <RViewport
+      <Viewport
         title={ meta.title }
         description={ meta.description }
         keywords={ meta.keywords }>
-        <RHero title="Experience" size="small" />
-        <RSection>
-          <RRow>
-            <RCol size="6">
-              <RAvatron
+        <Hero title="Experience" size="small" />
+        <Section>
+          <Row>
+            <Col size="6">
+              <Avatron
                 image="logo-glorious-codes.png"
                 title="Glorious Codes"
                 subtitle="Aug.2018 - Present"
                 url="https://glorious.codes"
                 caption="Anywhere" />
-            </RCol>
-            <RCol size="6">
+            </Col>
+            <Col size="6">
               <p>
                 Glorious Codes is a Github organization where I publish all the
                 open source code that I have been creating on the latest years.
@@ -49,19 +49,19 @@ export class Experience extends Component {
                 </b> on <a href="https://www.producthunt.com/posts/glorious-demo" target="_blank">
                 Product Hunt</a>.
               </p>
-            </RCol>
-          </RRow>
-          <RRow offset="10">
-            <RCol size="6">
-              <RAvatron
+            </Col>
+          </Row>
+          <Row offset="10">
+            <Col size="6">
+              <Avatron
                 image="logo-rd.png"
                 title="Resultados Digitais"
                 subtitle="Apr.2020 - Present"
                 url="https://www.rdstation.com/en/"
                 badgeText="Remote"
                 caption="Florianópolis, Brazil" />
-            </RCol>
-            <RCol size="6">
+            </Col>
+            <Col size="6">
               <h3>The Company</h3>
               <p>
                 Resultados Digitais was founded in Brazil in 2011 with the goal
@@ -74,18 +74,18 @@ export class Experience extends Component {
                 Helping to maintain and improve the <a href="https://www.rdstation.com/crm/" target="_blank">
                 RD Station CRM</a> product.
               </p>
-            </RCol>
-          </RRow>
-          <RRow offset="10">
-            <RCol size="6">
-              <RAvatron
+            </Col>
+          </Row>
+          <Row offset="10">
+            <Col size="6">
+              <Avatron
                 image="logo-bcredi.png"
                 title="Bcredi"
                 subtitle="Nov.2019 - Feb.2020"
                 url="https://materiais.bcredi.com.br/baas"
                 caption="Curitiba, Brazil" />
-            </RCol>
-            <RCol size="6">
+            </Col>
+            <Col size="6">
               <h3>The Company</h3>
               <p>
                 Bcredi is one of the most popular Fintechs in Brazil offering
@@ -99,18 +99,18 @@ export class Experience extends Component {
                 internal products through technologies like React, Redux, Jest
                 and a couple of others more.
               </p>
-            </RCol>
-          </RRow>
-          <RRow offset="10">
-            <RCol size="6">
-              <RAvatron
+            </Col>
+          </Row>
+          <Row offset="10">
+            <Col size="6">
+              <Avatron
                 image="logo-conta-azul.jpg"
                 title="Conta Azul"
                 subtitle="Mar.2017 - Sep.2019"
                 url="https://contaazul.com"
                 caption="Joinville, Brazil" />
-            </RCol>
-            <RCol size="6">
+            </Col>
+            <Col size="6">
               <h3>The Company</h3>
               <p>
                 Created in 2012, Conta Azul is a SaaS that aims to help small
@@ -164,19 +164,19 @@ export class Experience extends Component {
                 to improve the experience of developing new components as well
                 as increasing the component library adoption by product teams.
               </p>
-            </RCol>
-          </RRow>
-          <RRow offset="10">
-            <RCol size="6">
-              <RAvatron
+            </Col>
+          </Row>
+          <Row offset="10">
+            <Col size="6">
+              <Avatron
                 image="logo-jobscore.png"
                 title="JobScore"
                 subtitle="Aug.2015 - Oct.2016"
                 url="https://jobscore.com"
                 badgeText="Remote"
                 caption="San Francisco, USA" />
-            </RCol>
-            <RCol size="6">
+            </Col>
+            <Col size="6">
               <h3>The Company</h3>
               <p>
                 JobScore is an applicant tracking system that gives in-house
@@ -193,18 +193,18 @@ export class Experience extends Component {
                 important, fully testable. Jobscore was also the place where
                 I first touched Ruby on Rails.
               </p>
-            </RCol>
-          </RRow>
-          <RRow offset="10">
-            <RCol size="6">
-              <RAvatron
+            </Col>
+          </Row>
+          <Row offset="10">
+            <Col size="6">
+              <Avatron
                 image="logo-conta-azul.jpg"
                 title="Conta Azul"
                 subtitle="Jul.2013 - Aug.2015"
                 url="https://contaazul.com"
                 caption="Joinville, Brazil" />
-            </RCol>
-            <RCol size="6">
+            </Col>
+            <Col size="6">
               <h3>My Role</h3>
               <p>
                 That was the moment I started my career as a programmer. Some
@@ -225,15 +225,15 @@ export class Experience extends Component {
                 including RequireJS (a library that implements the AMD pattern),
                 Grunt, AngularJS, Karma and Jasmine.
               </p>
-            </RCol>
-          </RRow>
-          <RRow offset="10">
-            <RCol size="6">
-            <RAvatron
+            </Col>
+          </Row>
+          <Row offset="10">
+            <Col size="6">
+            <Avatron
               title="Graphic Design"
               subtitle="Mar.2006 - Jul.2013" />
-            </RCol>
-            <RCol size="6">
+            </Col>
+            <Col size="6">
               <p>
                 From 2006 to 2013 I worked for a couple of advertising agencies.
                 A few of the works that I did can still be seen on my <a href="https://www.behance.net/rafaelcamargo" target="_blank">
@@ -241,10 +241,10 @@ export class Experience extends Component {
                 projects too. The latest works can be seen on my <a href="https://dribbble.com/rcamargo" target="_blank">
                 Dribbble</a> profile.
               </p>
-            </RCol>
-          </RRow>
-        </RSection>
-      </RViewport>
+            </Col>
+          </Row>
+        </Section>
+      </Viewport>
     );
   }
 }

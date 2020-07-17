@@ -1,12 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RTopbar } from '@scripts/base/components/topbar/topbar';
+import { Topbar } from '@scripts/base/components/topbar/topbar';
 import sidebarState from '@scripts/base/components/sidebar/sidebar.state';
 
 describe('Topbar', () => {
   function mount(){
     return shallow(
-      <RTopbar />
+      <Topbar />
     );
   }
 

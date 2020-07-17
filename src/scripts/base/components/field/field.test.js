@@ -1,13 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RField } from '@scripts/base/components/field/field';
+import { Field } from '@scripts/base/components/field/field';
 
 describe('Field', () => {
   function mount(props = {}){
     return shallow(
-      <RField label={ props.label }>
+      <Field label={ props.label }>
         { props.content }
-      </RField>
+      </Field>
     );
   }
 

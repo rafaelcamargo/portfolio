@@ -3,7 +3,7 @@ import '@styles/code.styl';
 import Highlight from 'react-highlight';
 import React, { Component } from 'react';
 
-export class RCode extends Component {
+export class Code extends Component {
   render() {
     return (
       <div className="r-code">

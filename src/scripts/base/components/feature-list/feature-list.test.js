@@ -1,14 +1,14 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RFeatureList } from '@scripts/base/components/feature-list/feature-list';
+import { FeatureList } from '@scripts/base/components/feature-list/feature-list';
 
 describe('Feature List', () => {
   function mount(props = {}){
     return shallow(
-      <RFeatureList itemSize={ props.itemSize }>
+      <FeatureList itemSize={ props.itemSize }>
         <p>First</p>
         <p>Second</p>
-      </RFeatureList>
+      </FeatureList>
     );
   }
 

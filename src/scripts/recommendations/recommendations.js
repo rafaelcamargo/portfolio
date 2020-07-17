@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { RCol } from '@scripts/base/components/col/col';
-import { RHero } from '@scripts/base/components/hero/hero';
+import { Col } from '@scripts/base/components/col/col';
+import { Hero } from '@scripts/base/components/hero/hero';
 import { RRecommendation } from '@scripts/recommendations/components/recommendation/recommendation';
 import { RRecommendationList } from '@scripts/recommendations/components/recommendation-list/recommendation-list';
-import { RRow } from '@scripts/base/components/row/row';
-import { RSection } from '@scripts/base/components/section/section';
-import { RViewport } from '@scripts/base/components/viewport/viewport';
+import { Row } from '@scripts/base/components/row/row';
+import { Section } from '@scripts/base/components/section/section';
+import { Viewport } from '@scripts/base/components/viewport/viewport';
 
 const meta = {
   title: 'Recommendations',
@@ -16,14 +16,14 @@ const meta = {
 export class Recommendations extends Component {
   render() {
     return (
-      <RViewport
+      <Viewport
         title={meta.title}
         description={meta.description}
         keywords={meta.keywords}>
-        <RHero title="Recommendations" size="small" />
-        <RSection>
-          <RRow>
-            <RCol size="12">
+        <Hero title="Recommendations" size="small" />
+        <Section>
+          <Row>
+            <Col size="12">
               <RRecommendationList>
                 <RRecommendation id="matias" />
                 <RRecommendation id="bruckheimer" />
@@ -34,10 +34,10 @@ export class Recommendations extends Component {
                 <RRecommendation id="branco" />
                 <RRecommendation id="abraao" />
               </RRecommendationList>
-            </RCol>
-          </RRow>
-        </RSection>
-      </RViewport>
+            </Col>
+          </Row>
+        </Section>
+      </Viewport>
     );
   }
 }

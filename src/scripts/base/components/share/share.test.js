@@ -1,14 +1,14 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import { RButton } from '@scripts/base/components/button/button';
-import { RShare } from '@scripts/base/components/share/share';
+import { Button } from '@scripts/base/components/button/button';
+import { Share } from '@scripts/base/components/share/share';
 import routeService from '@scripts/base/services/route/route';
 import analyticsService from '@scripts/base/services/analytics/analytics';
 
 describe('Share', () => {
   function mountComponent(props = {}){
     return mount(
-      <RShare message={ props.message } url={ props.url } lang={ props.lang } />
+      <Share message={ props.message } url={ props.url } lang={ props.lang } />
     );
   }
 
@@ -17,7 +17,7 @@ describe('Share', () => {
   }
 
   function getLabelText(wrapper){
-    return wrapper.find(RButton).text().trim();
+    return wrapper.find(Button).text().trim();
   }
 
   beforeEach(() => {
@@ -44,7 +44,7 @@ describe('Share', () => {
     const message = 'Just discover an amazing content!';
     const url = 'https://rafaelcamargo.com';
     const wrapper = mountComponent({ message, url });
-    wrapper.find(RButton).simulate('click');
+    wrapper.find(Button).simulate('click');
     expect(routeService.openUrl).toHaveBeenCalledWith(
       'https://twitter.com/intent/tweet',
       { text: `${getExpectedTweetPrefix()} "${message}" ${url}` }
@@ -55,7 +55,7 @@ describe('Share', () => {
     const message = 'Descubra um conteúdo incrível';
     const url = 'https://rafaelcamargo.com';
     const wrapper = mountComponent({ message, url, lang: 'pt' });
-    wrapper.find(RButton).simulate('click');
+    wrapper.find(Button).simulate('click');
     expect(routeService.openUrl).toHaveBeenCalledWith(
       'https://twitter.com/intent/tweet',
       { text: `Confere aí esse texto escrito pelo @rcamargo: "${message}" ${url}` }
@@ -66,7 +66,7 @@ describe('Share', () => {
     const message = 'Just discover an amazing content!';
     const url = 'https://rafaelcamargo.com';
     const wrapper = mountComponent({ message, url });
-    wrapper.find(RButton).simulate('click');
+    wrapper.find(Button).simulate('click');
     expect(analyticsService.trackEvent).toHaveBeenCalledWith(
       'twitter share button clicked',
       { tweet: `${getExpectedTweetPrefix()} "${message}" ${url}`, url }

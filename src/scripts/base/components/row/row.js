@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 const BASE_CLASS_NAME = 'r-row';
 
-export class RRow extends Component {
+export class Row extends Component {
   constructor(props){
     super(props);
     this.state = { className: buildClassName(props) };

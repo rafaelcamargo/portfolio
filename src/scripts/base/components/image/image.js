@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import imagesService from '@scripts/base/services/images/images';
 
-export class RImage extends Component {
+export class Image extends Component {
   render() {
     return (
       <img

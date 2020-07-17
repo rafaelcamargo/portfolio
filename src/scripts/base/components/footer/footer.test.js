@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { Link } from 'react-router-dom';
-import { RFooter } from '@scripts/base/components/footer/footer';
+import { Footer } from '@scripts/base/components/footer/footer';
 import keywordsMock from '@scripts/base/mocks/keywords';
 import keywordsService from '@scripts/base/services/keywords/keywords';
 import routeService from '@scripts/base/services/route/route';
@@ -9,7 +9,7 @@ import routeService from '@scripts/base/services/route/route';
 describe('Footer', () => {
   function mount(){
     return shallow(
-      <RFooter />
+      <Footer />
     );
   }
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { RCode } from '@scripts/base/components/code/code';
+import { Code } from '@scripts/base/components/code/code';
 import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
 export class RComponentMaturityModelPT extends Component {
@@ -110,13 +110,13 @@ export class RComponentMaturityModelPT extends Component {
         <h5>
           Exemplo
         </h5>
-        <RCode language="html">
+        <Code language="html">
 {
 `<div class="finance-btn-attach-file glyphicons paperclip">
   <i></i>Attach documents
 </div>`
 }
-        </RCode>
+        </Code>
         <p>
           Um botão genérico de upload de arquivo foi acoplado a uma
           folha de estilo já relacionada a um domínio de negócio <em>
@@ -175,13 +175,13 @@ export class RComponentMaturityModelPT extends Component {
         <h5>
           Exemplo
         </h5>
-        <RCode language="html">
+        <Code language="html">
 {
 `<button class="btn btn-primary">
   <i class="glyphicons glyphicons-download-alt"></i>Download
 </button>`
 }
-        </RCode>
+        </Code>
         <p>
           Estrutura HTML padronizada para um botão estilizado como <em>
           primary</em> e contendo um ícone à esquerda de seu texto. Todas
@@ -229,13 +229,13 @@ export class RComponentMaturityModelPT extends Component {
         <h5>
           Exemplo
         </h5>
-        <RCode language="html">
+        <Code language="html">
 {
 `<my-button data-theme="primary" data-icon-name="paperclip">
   Attach Documents
 </my-button>`
 }
-        </RCode>
+        </Code>
         <p>
           O custom element acima <em>(my-button)</em> é a única parte do sistema
           onde qualquer coisa relacionada a todos os botões da

@@ -1,13 +1,13 @@
 import '@styles/project.styl';
 import React, { Component } from 'react';
-import { RAvatron } from '@scripts/base/components/avatron/avatron';
-import { RCtaLink } from '@scripts/base/components/cta-link/cta-link';
+import { Avatron } from '@scripts/base/components/avatron/avatron';
+import { CtaLink } from '@scripts/base/components/cta-link/cta-link';
 
 export class RProject extends Component {
   render() {
     return (
       <li className="r-project">
-        <RAvatron
+        <Avatron
           image={ this.props.image }
           title={ this.props.title }
           url={ this.props.url }
@@ -23,7 +23,7 @@ export class RProject extends Component {
 function buildCta(ctaUrl, ctaText){
   return ctaUrl ?
     <div className="r-project-cta-link">
-      <RCtaLink href={ ctaUrl } text={ ctaText } />
+      <CtaLink href={ ctaUrl } text={ ctaText } />
     </div> :
     null;
 }

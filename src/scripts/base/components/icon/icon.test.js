@@ -1,11 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RIcon } from '@scripts/base/components/icon/icon';
+import { Icon } from '@scripts/base/components/icon/icon';
 
 describe('Icon', () => {
   function mount(props = {}){
     return shallow(
-      <RIcon name={ props.name } />
+      <Icon name={ props.name } />
     );
   }
 

@@ -1,12 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RButton } from '@scripts/base/components/button/button';
-import { RIcon } from '@scripts/base/components/icon/icon';
+import { Button } from '@scripts/base/components/button/button';
+import { Icon } from '@scripts/base/components/icon/icon';
 
 describe('Button', () => {
   function mount(props = {}){
     return shallow(
-      <RButton
+      <Button
         iconName={ props.iconName }
         theme={ props.theme }
         ariaLabel={ props.ariaLabel }
@@ -14,7 +14,7 @@ describe('Button', () => {
         type={ props.type }
         block={ props.block }>
         { props.content }
-      </RButton>
+      </Button>
     );
   }
 
@@ -67,13 +67,13 @@ describe('Button', () => {
 
   it('should not render an icon on the button by default', () => {
     const wrapper = mount();
-    expect(wrapper.find(RIcon).length).toEqual(0);
+    expect(wrapper.find(Icon).length).toEqual(0);
   });
 
   it('should optionally render an icon on the button', () => {
     const iconName = 'menu';
     const wrapper = mount({ iconName });
-    expect(wrapper.find(RIcon).props().name).toEqual(iconName);
+    expect(wrapper.find(Icon).props().name).toEqual(iconName);
   });
 
   it('should not render a label by default', () => {

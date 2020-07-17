@@ -1,14 +1,14 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RCtaLink } from '@scripts/base/components/cta-link/cta-link';
-import { RFeature } from '@scripts/base/components/feature/feature';
+import { CtaLink } from '@scripts/base/components/cta-link/cta-link';
+import { Feature } from '@scripts/base/components/feature/feature';
 
 describe('Feature', () => {
   function mount(props = {}){
     return shallow(
-      <RFeature title={ props.title } ctaTo={ props.ctaTo } ctaText={ props.ctaText }>
+      <Feature title={ props.title } ctaTo={ props.ctaTo } ctaText={ props.ctaText }>
         { props.content }
-      </RFeature>
+      </Feature>
     );
   }
 
@@ -27,8 +27,8 @@ describe('Feature', () => {
     const ctaTo = '/experience';
     const ctaText = 'See my experience';
     const wrapper = mount({ ctaTo, ctaText });
-    expect(wrapper.find(RCtaLink).props().to).toEqual(ctaTo);
-    expect(wrapper.find(RCtaLink).props().text).toEqual(ctaText);
+    expect(wrapper.find(CtaLink).props().to).toEqual(ctaTo);
+    expect(wrapper.find(CtaLink).props().text).toEqual(ctaText);
   });
 
   it('should optionally render some content', () => {
