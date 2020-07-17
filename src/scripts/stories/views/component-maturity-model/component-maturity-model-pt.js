@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Code } from '@scripts/base/components/code/code';
-import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
+import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
 export class RComponentMaturityModelPT extends Component {
   render() {
     return (
-      <RStoryViewport>
+      <StoryViewport>
         <p>
           Pense que você é um programador, um programador front-end.
           Você colabora com o desenvolvimento de um produto web. Você
@@ -248,7 +248,7 @@ export class RComponentMaturityModelPT extends Component {
           componentes vocês estão falando, qual nível de maturidade
           vocês esperavam ter e qual nível gostariam de alcançar.
         </p>
-      </RStoryViewport>
+      </StoryViewport>
     );
   }
 }

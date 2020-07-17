@@ -1,7 +1,7 @@
 import '@styles/recommendation-list.styl';
 import React, { Component } from 'react';
 
-export class RRecommendationList extends Component {
+export class RecommendationList extends Component {
   render() {
     return (
       <ul className="r-recommendation-list">

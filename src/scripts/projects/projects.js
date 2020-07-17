@@ -3,8 +3,8 @@ import { Avatron } from '@scripts/base/components/avatron/avatron';
 import { Col } from '@scripts/base/components/col/col';
 import { CtaLink } from '@scripts/base/components/cta-link/cta-link';
 import { Hero } from '@scripts/base/components/hero/hero';
-import { RProject } from '@scripts/projects/components/project/project';
-import { RProjectList } from '@scripts/projects/components/project-list/project-list';
+import { Project } from '@scripts/projects/components/project/project';
+import { ProjectList } from '@scripts/projects/components/project-list/project-list';
 import { Row } from '@scripts/base/components/row/row';
 import { Section } from '@scripts/base/components/section/section';
 import { Viewport } from '@scripts/base/components/viewport/viewport';
@@ -26,8 +26,8 @@ export class Projects extends Component {
         <Section>
           <Row>
             <Col size="12">
-              <RProjectList>
-                <RProject
+              <ProjectList>
+                <Project
                   image="logo-glorious-demo.svg"
                   title="Glorious Demo"
                   subtitle="2018"
@@ -42,8 +42,8 @@ export class Projects extends Component {
                   Reddit</a>, and got the <b>Product of the Day</b> badge
                   on <a href="https://www.producthunt.com/posts/glorious-demo" target="_blank">
                   Product Hunt</a>.
-                </RProject>
-                <RProject
+                </Project>
+                <Project
                   image="logo-pitsby.svg"
                   title="Pitsby"
                   subtitle="2019"
@@ -54,8 +54,8 @@ export class Projects extends Component {
                   Pitsby is a super simple tool to document UI components in a
                   declarative way. Its main features are Lightning Setup, Wide
                   Support, Playground, Analytics Integration and Customization.
-                </RProject>
-                <RProject
+                </Project>
+                <Project
                   image="logo-nashios.svg"
                   title="Nashios"
                   subtitle="2017"
@@ -64,8 +64,8 @@ export class Projects extends Component {
                   integrates with Github and shows the people behind some of the
                   products we all love. The web-client was built with Vue.
                   Logo and components designed by me.
-                </RProject>
-                <RProject
+                </Project>
+                <Project
                   image="logo-woblast.svg"
                   title="Woblast"
                   subtitle="2019"
@@ -77,8 +77,8 @@ export class Projects extends Component {
                   exchange variations, and monitors them in real time. Built
                   with React, HG Brasil Finance API and ChartJS. Logo and
                   components designed by me.
-                </RProject>
-                <RProject
+                </Project>
+                <Project
                   image="logo-weather-now.svg"
                   title="Weather Now"
                   subtitle="2018"
@@ -93,8 +93,8 @@ export class Projects extends Component {
                   auto refreshed them after a couple minutes, using local
                   cache in the meantime. That's my implementation in Vue to the
                   challenge.
-                </RProject>
-                <RProject
+                </Project>
+                <Project
                   image="logo-teleflik.svg"
                   title="Teleflik"
                   subtitle="2016"
@@ -103,8 +103,8 @@ export class Projects extends Component {
                   interests on the following 24h. I did this to learn how to build a
                   mobile app using Ionic and AngularJS. Logo and components
                   designed by me.
-                </RProject>
-              </RProjectList>
+                </Project>
+              </ProjectList>
             </Col>
           </Row>
         </Section>

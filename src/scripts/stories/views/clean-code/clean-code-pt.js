@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { ExternalLink } from '@scripts/base/components/external-link/external-link';
 import { Quote } from '@scripts/base/components/quote/quote';
-import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
+import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
 export class RCleanCodePT extends Component {
   render() {
     return (
-      <RStoryViewport>
+      <StoryViewport>
         <p>
           Esse é um dos livros mais famosos do universo da programação. Sua
           fama parece só não ser maior do que o número de programadores que
@@ -159,7 +159,7 @@ export class RCleanCodePT extends Component {
         <p>
           <em lang="en">It is  perfectly okay to write garbage as long as you edit brilliantly</em>.
         </p>
-      </RStoryViewport>
+      </StoryViewport>
     );
   }
 }

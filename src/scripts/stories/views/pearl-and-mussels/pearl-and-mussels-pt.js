@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Quote } from '@scripts/base/components/quote/quote';
 import { ExternalLink } from '@scripts/base/components/external-link/external-link';
-import { RStorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
-import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
+import { StorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
+import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
 export class RPearlAndMusselsPT extends Component {
   render() {
     return (
-      <RStoryViewport>
+      <StoryViewport>
         <p>
           Octocash. Esse era o nome do produto que eu e dois colegas lançamos
           há quatro anos. Começar a construir o próprio produto tendo apenas
@@ -118,7 +118,7 @@ export class RPearlAndMusselsPT extends Component {
             defensive, too. Defensive companies can’t think ahead; they can
             only think behind. They don’t lead; they follow.
         </Quote>
-        <RStorySpacer />
+        <StorySpacer />
         <p>
           De vez em quando nos pegamos em meio ao desenvolvimento de um
           produto que se considera atrás do concorrente por ter menos features.
@@ -133,7 +133,7 @@ export class RPearlAndMusselsPT extends Component {
           mariscos. Não importa quantos você consiga amontoar, jamais vão
           se igualar ao impacto causado pelo brilho de uma pequena pérola.
         </p>
-      </RStoryViewport>
+      </StoryViewport>
     );
   }
 }

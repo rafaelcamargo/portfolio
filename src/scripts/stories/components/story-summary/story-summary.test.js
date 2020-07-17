@@ -2,13 +2,13 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import { Link } from 'react-router-dom';
 import { Image } from '@scripts/base/components/image/image';
-import { RStorySummary } from '@scripts/stories/components/story-summary/story-summary';
+import { StorySummary } from '@scripts/stories/components/story-summary/story-summary';
 import { Time } from '@scripts/base/components/time/time';
 import storiesMock from '@scripts/stories/mocks/stories';
 
 describe('Story Summary List', () => {
   function mount(props = {}){
-    return shallow(<RStorySummary summary={ props.summary } />);
+    return shallow(<StorySummary summary={ props.summary } />);
   }
 
   it('should have appropriate css class', () => {

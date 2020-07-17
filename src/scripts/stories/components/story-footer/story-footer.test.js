@@ -2,13 +2,13 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import { Divider } from '@scripts/base/components/divider/divider';
 import { PitsbyPromo } from '@scripts/base/components/pitsby-promo/pitsby-promo';
-import { RStoryRelations } from '@scripts/stories/components/story-relations/story-relations';
-import { RStoryFooter } from './story-footer';
+import { StoryRelations } from '@scripts/stories/components/story-relations/story-relations';
+import { StoryFooter } from './story-footer';
 
 describe('Story Footer', () => {
   function mount(props = {}){
     return shallow(
-      <RStoryFooter storyRelationIds={ props.storyRelationIds } lang={ props.lang } />
+      <StoryFooter storyRelationIds={ props.storyRelationIds } lang={ props.lang } />
     );
   }
 
@@ -21,8 +21,8 @@ describe('Story Footer', () => {
     const storyRelationIds = ['a', 'b'];
     const lang = 'pt';
     const wrapper = mount({ storyRelationIds, lang });
-    expect(wrapper.find(RStoryRelations).prop('ids')).toEqual(storyRelationIds);
-    expect(wrapper.find(RStoryRelations).prop('lang')).toEqual(lang);
+    expect(wrapper.find(StoryRelations).prop('ids')).toEqual(storyRelationIds);
+    expect(wrapper.find(StoryRelations).prop('lang')).toEqual(lang);
   });
 
   it('should contain two dividers if story relation ids have been given', () => {

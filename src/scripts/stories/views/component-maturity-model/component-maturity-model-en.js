@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Code } from '@scripts/base/components/code/code';
-import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
+import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
 export class RComponentMaturityModelEN extends Component {
   render() {
     return (
-      <RStoryViewport>
+      <StoryViewport>
         <p>
           Think you are a programmer, a front-end programmer. You
           collaborate with the development of a web product. Your
@@ -237,7 +237,7 @@ export class RComponentMaturityModelEN extends Component {
           about, what maturity level you expected to have and which level you
           would like to reach.
         </p>
-      </RStoryViewport>
+      </StoryViewport>
     );
   }
 }

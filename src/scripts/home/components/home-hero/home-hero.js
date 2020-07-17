@@ -2,9 +2,9 @@ import '@styles/home-hero.styl';
 import React, { Component } from 'react';
 import { Hero } from '@scripts/base/components/hero/hero';
 import { HeroLink } from '@scripts/base/components/hero-link/hero-link';
-import { RHomeMobilePanel } from '@scripts/home/components/home-mobile-panel/home-mobile-panel';
+import { HomeMobilePanel } from '@scripts/home/components/home-mobile-panel/home-mobile-panel';
 
-export class RHomeHero extends Component {
+export class HomeHero extends Component {
   render() {
     return (
       <div className="r-home-hero">

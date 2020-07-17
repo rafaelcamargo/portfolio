@@ -8,7 +8,7 @@ import { Form } from '@scripts/base/components/form/form';
 import { Row } from '@scripts/base/components/row/row';
 import contactResource from '@scripts/contact/resources/contacts';
 
-export class RContactForm extends Component {
+export class ContactForm extends Component {
   constructor(props){
     super(props);
     this.state = { name: '', email: '', message: '', subject: '' };

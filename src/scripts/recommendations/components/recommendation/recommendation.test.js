@@ -3,12 +3,12 @@ import { mount } from 'enzyme';
 import recommendationsMock from '@scripts/recommendations/mocks/recommendations';
 import recommendationsService from '@scripts/recommendations/services/recommendations/recommendations';
 import { Avatar } from '@scripts/base/components/avatar/avatar';
-import { RRecommendation } from '@scripts/recommendations/components/recommendation/recommendation';
+import { Recommendation } from '@scripts/recommendations/components/recommendation/recommendation';
 
 describe('Recommendation', () => {
   function mountComponent(props = {}){
     return mount(
-      <RRecommendation id={ props.id } />
+      <Recommendation id={ props.id } />
     );
   }
 

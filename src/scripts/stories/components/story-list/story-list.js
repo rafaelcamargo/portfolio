@@ -1,9 +1,9 @@
 import '@styles/story-list.styl';
 import React, { Component } from 'react';
-import { RStorySummary } from '@scripts/stories/components/story-summary/story-summary';
+import { StorySummary } from '@scripts/stories/components/story-summary/story-summary';
 import storySummariesService from '@scripts/stories/services/stories/stories';
 
-export class RStoryList extends Component {
+export class StoryList extends Component {
   render() {
     return (
       <ul className="r-story-list">
@@ -28,5 +28,5 @@ function getQueryMethod(featured){
 }
 
 function buildItem(summary){
-  return <li key={ summary.id }><RStorySummary summary={ summary } /></li>;
+  return <li key={ summary.id }><StorySummary summary={ summary } /></li>;
 }

@@ -5,12 +5,12 @@ import { Image } from '@scripts/base/components/image/image';
 import { Hero } from '@scripts/base/components/hero/hero';
 import { Row } from '@scripts/base/components/row/row';
 import { Section } from '@scripts/base/components/section/section';
-import { RStoryFooter } from '@scripts/stories/components/story-footer/story-footer';
+import { StoryFooter } from '@scripts/stories/components/story-footer/story-footer';
 import { Viewport } from '@scripts/base/components/viewport/viewport';
 import routeService from '@scripts/base/services/route/route';
 import storySummariesService from '@scripts/stories/services/stories/stories';
 
-export class RStoryViewport extends Component {
+export class StoryViewport extends Component {
   constructor(props){
     super(props);
     const path = routeService.getCurrentPathname();
@@ -41,7 +41,7 @@ export class RStoryViewport extends Component {
               </Col>
             </Row>
           </Section>
-          <RStoryFooter
+          <StoryFooter
             storyRelationIds={ this.summary.relationIds }
             lang={ this.summary.lang } />
         </Viewport>

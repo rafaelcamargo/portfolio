@@ -1,12 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { Mobile } from '@scripts/base/components/mobile/mobile';
-import { RHomeMobilePanel } from '@scripts/home/components/home-mobile-panel/home-mobile-panel';
+import { HomeMobilePanel } from '@scripts/home/components/home-mobile-panel/home-mobile-panel';
 
 describe('Home Mobile Panel', () => {
   function mount(props = {}){
     return shallow(
-      <RHomeMobilePanel />
+      <HomeMobilePanel />
     );
   }
 

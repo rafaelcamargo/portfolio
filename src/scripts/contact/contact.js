@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Col } from '@scripts/base/components/col/col';
 import { CtaLink } from '@scripts/base/components/cta-link/cta-link';
-import { RContactForm } from '@scripts/contact/components/contact-form/contact-form';
+import { ContactForm } from '@scripts/contact/components/contact-form/contact-form';
 import { Hero } from '@scripts/base/components/hero/hero';
 import { Row } from '@scripts/base/components/row/row';
 import { Section } from '@scripts/base/components/section/section';
@@ -24,7 +24,7 @@ export class Contact extends Component {
         <Section>
           <Row>
             <Col size="12">
-              <RContactForm />
+              <ContactForm />
             </Col>
           </Row>
         </Section>

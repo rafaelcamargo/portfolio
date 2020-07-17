@@ -1,14 +1,14 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RRecommendationList } from '@scripts/recommendations/components/recommendation-list/recommendation-list';
+import { RecommendationList } from '@scripts/recommendations/components/recommendation-list/recommendation-list';
 
 describe('Recommendation List', () => {
   function mount(props = {}){
     return shallow(
-      <RRecommendationList>
+      <RecommendationList>
         <p>First</p>
         <p>Second</p>
-      </RRecommendationList>
+      </RecommendationList>
     );
   }
 

@@ -1,13 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { Form } from '@scripts/base/components/form/form';
-import { RContactForm } from '@scripts/contact/components/contact-form/contact-form';
+import { ContactForm } from '@scripts/contact/components/contact-form/contact-form';
 import contactResource from '@scripts/contact/resources/contacts';
 
 describe('Contact Form', () => {
   function mount(){
     return shallow(
-      <RContactForm />
+      <ContactForm />
     );
   }
 

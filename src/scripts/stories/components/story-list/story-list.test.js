@@ -1,14 +1,14 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RStorySummary } from '@scripts/stories/components/story-summary/story-summary';
-import { RStoryList } from '@scripts/stories/components/story-list/story-list';
+import { StorySummary } from '@scripts/stories/components/story-summary/story-summary';
+import { StoryList } from '@scripts/stories/components/story-list/story-list';
 import storiesMock from '@scripts/stories/mocks/stories';
 import storiesService from '@scripts/stories/services/stories/stories';
 
 describe('Story List', () => {
   function mount(props = {}){
     return shallow(
-      <RStoryList featured={ props.featured } />
+      <StoryList featured={ props.featured } />
     );
   }
 

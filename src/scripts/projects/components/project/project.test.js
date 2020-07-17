@@ -2,12 +2,12 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import { Avatron } from '@scripts/base/components/avatron/avatron';
 import { CtaLink } from '@scripts/base/components/cta-link/cta-link';
-import { RProject } from '@scripts/projects/components/project/project';
+import { Project } from '@scripts/projects/components/project/project';
 
 describe('Project', () => {
   function mount(props = {}){
     return shallow(
-      <RProject
+      <Project
         image={ props.image }
         title={ props.title }
         subtitle={ props.subtitle }
@@ -17,7 +17,7 @@ describe('Project', () => {
         codeCtaUrl={ props.codeCtaUrl }
         codeCtaText={ props.codeCtaText }>
         { props.content }
-      </RProject>
+      </Project>
     );
   }
 

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { ExternalLink } from '@scripts/base/components/external-link/external-link';
 import { Quote } from '@scripts/base/components/quote/quote';
-import { RStorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
-import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
+import { StorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
+import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
 export class RUnconditionalInhotimEN extends Component {
   render() {
     return (
-      <RStoryViewport>
+      <StoryViewport>
         <p>
           We all can recognize beauty in the immediate moment we stand before it.
           That was the certainty that I had the day I visited the world's
@@ -72,7 +72,7 @@ export class RUnconditionalInhotimEN extends Component {
           not to submit ourselves to any logical conditions. The opportunity to
           be, like Inhotim, unconditional.
         </p>
-      </RStoryViewport>
+      </StoryViewport>
     );
   }
 }

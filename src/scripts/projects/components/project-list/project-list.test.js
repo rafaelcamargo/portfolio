@@ -1,13 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RProjectList } from '@scripts/projects/components/project-list/project-list';
+import { ProjectList } from '@scripts/projects/components/project-list/project-list';
 
 describe('Project List', () => {
   function mount(props = {}){
     return shallow(
-      <RProjectList>
+      <ProjectList>
         { props.content }
-      </RProjectList>
+      </ProjectList>
     );
   }
 

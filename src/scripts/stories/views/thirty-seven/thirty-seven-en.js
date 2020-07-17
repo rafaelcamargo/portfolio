@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { ExternalLink } from '@scripts/base/components/external-link/external-link';
 import { Quote } from '@scripts/base/components/quote/quote';
-import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
+import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
 export class RThirtySevenEN extends Component {
   render() {
     return (
-      <RStoryViewport>
+      <StoryViewport>
         <Quote
           sourceText="Inspiration for the name 37signals"
           sourceHref="https://37signals.com/33.html">
@@ -123,7 +123,7 @@ export class RThirtySevenEN extends Component {
           the name of the company, 37signals. Identify signals amid the infinite
           amount of noise around us.
         </p>
-      </RStoryViewport>
+      </StoryViewport>
     );
   }
 }

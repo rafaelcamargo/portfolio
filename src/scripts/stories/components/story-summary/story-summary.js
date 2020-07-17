@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Image } from '@scripts/base/components/image/image';
 import { Time } from '@scripts/base/components/time/time';
 
-export class RStorySummary extends Component {
+export class StorySummary extends Component {
   render() {
     const { url, created, lang, title, excerpt } = this.props.summary;
     return (

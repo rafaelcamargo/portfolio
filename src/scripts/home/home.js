@@ -3,9 +3,9 @@ import { Col } from '@scripts/base/components/col/col';
 import { CtaLink } from '@scripts/base/components/cta-link/cta-link';
 import { Feature } from '@scripts/base/components/feature/feature';
 import { FeatureList } from '@scripts/base/components/feature-list/feature-list';
-import { RHomeHero } from '@scripts/home/components/home-hero/home-hero';
-import { RRecommendation } from '@scripts/recommendations/components/recommendation/recommendation';
-import { RRecommendationList } from '@scripts/recommendations/components/recommendation-list/recommendation-list';
+import { HomeHero } from '@scripts/home/components/home-hero/home-hero';
+import { Recommendation } from '@scripts/recommendations/components/recommendation/recommendation';
+import { RecommendationList } from '@scripts/recommendations/components/recommendation-list/recommendation-list';
 import { Row } from '@scripts/base/components/row/row';
 import { Section } from '@scripts/base/components/section/section';
 import { Viewport } from '@scripts/base/components/viewport/viewport';
@@ -16,7 +16,7 @@ export class Home extends Component {
       <Viewport
         image="portfolio-banner-1014x530.png"
         twitterCard="summary_large_image">
-        <RHomeHero />
+        <HomeHero />
         <Section>
           <Row align="center">
             <Col size="12">
@@ -46,10 +46,10 @@ export class Home extends Component {
         <Section theme="primary">
           <Row>
             <Col size="12">
-              <RRecommendationList>
-                <RRecommendation id="matias" />
-                <RRecommendation id="bruckheimer" />
-              </RRecommendationList>
+              <RecommendationList>
+                <Recommendation id="matias" />
+                <Recommendation id="bruckheimer" />
+              </RecommendationList>
             </Col>
           </Row>
           <Row align="center" offset="10">

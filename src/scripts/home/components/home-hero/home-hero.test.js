@@ -1,13 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { Hero } from '@scripts/base/components/hero/hero';
-import { RHomeMobilePanel } from '@scripts/home/components/home-mobile-panel/home-mobile-panel';
-import { RHomeHero } from '@scripts/home/components/home-hero/home-hero';
+import { HomeMobilePanel } from '@scripts/home/components/home-mobile-panel/home-mobile-panel';
+import { HomeHero } from '@scripts/home/components/home-hero/home-hero';
 
 describe('Home Hero', () => {
   function mount(props = {}){
     return shallow(
-      <RHomeHero />
+      <HomeHero />
     );
   }
 

@@ -1,13 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RStoryGroup } from '@scripts/stories/components/story-group/story-group';
+import { StoryGroup } from '@scripts/stories/components/story-group/story-group';
 
 describe('Story Summary List', () => {
   function mount(props = {}){
     return shallow(
-      <RStoryGroup title={ props.title }>
+      <StoryGroup title={ props.title }>
         { props.children }
-      </RStoryGroup>
+      </StoryGroup>
     );
   }
 

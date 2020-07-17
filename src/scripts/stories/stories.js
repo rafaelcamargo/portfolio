@@ -3,8 +3,8 @@ import { Col } from '@scripts/base/components/col/col';
 import { Hero } from '@scripts/base/components/hero/hero';
 import { Row } from '@scripts/base/components/row/row';
 import { Section } from '@scripts/base/components/section/section';
-import { RStoryGroup } from '@scripts/stories/components/story-group/story-group';
-import { RStoryList } from '@scripts/stories/components/story-list/story-list';
+import { StoryGroup } from '@scripts/stories/components/story-group/story-group';
+import { StoryList } from '@scripts/stories/components/story-list/story-list';
 import { Viewport } from '@scripts/base/components/viewport/viewport';
 
 const meta = {
@@ -24,12 +24,12 @@ export class Stories extends Component {
         <Section>
           <Row >
             <Col size="12">
-              <RStoryGroup title="Featured">
-                <RStoryList featured={true} />
-              </RStoryGroup>
-              <RStoryGroup title="Everything Else">
-                <RStoryList featured={false} />
-              </RStoryGroup>
+              <StoryGroup title="Featured">
+                <StoryList featured={true} />
+              </StoryGroup>
+              <StoryGroup title="Everything Else">
+                <StoryList featured={false} />
+              </StoryGroup>
             </Col>
           </Row>
         </Section>

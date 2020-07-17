@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
+import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 import { RPearlAndMusselsPT } from './pearl-and-mussels-pt';
 
 describe('Pearl And Mussels PT', () => {
@@ -12,6 +12,6 @@ describe('Pearl And Mussels PT', () => {
 
   it('should contain a story viewport', () => {
     const wrapper = mount();
-    expect(wrapper.find(RStoryViewport)).toBeDefined();
+    expect(wrapper.find(StoryViewport)).toBeDefined();
   });
 });

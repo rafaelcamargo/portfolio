@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { Avatron } from '@scripts/base/components/avatron/avatron';
 import { CtaLink } from '@scripts/base/components/cta-link/cta-link';
 
-export class RProject extends Component {
+export class Project extends Component {
   render() {
     return (
       <li className="r-project">

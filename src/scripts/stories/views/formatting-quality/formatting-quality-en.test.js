@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
+import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 import { FormattingQualityEN } from './formatting-quality-en';
 
 describe('Formatting quality EN', () => {
@@ -12,6 +12,6 @@ describe('Formatting quality EN', () => {
 
   it('should contain a story viewport', () => {
     const wrapper = mount();
-    expect(wrapper.find(RStoryViewport)).toBeDefined();
+    expect(wrapper.find(StoryViewport)).toBeDefined();
   });
 });

@@ -4,7 +4,7 @@ import recommendationsService from '@scripts/recommendations/services/recommenda
 import { Avatar } from '@scripts/base/components/avatar/avatar';
 import { ExternalLink } from '@scripts/base/components/external-link/external-link';
 
-export class RRecommendation extends Component {
+export class Recommendation extends Component {
   constructor(props){
     super(props);
     this.state = { data: recommendationsService.get(this.props.id) }

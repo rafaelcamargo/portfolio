@@ -4,14 +4,14 @@ import newsletterResource from '@scripts/newsletter/resources/newsletter';
 import { Button } from '@scripts/base/components/button/button';
 import { Field } from '@scripts/base/components/field/field';
 import { Form } from '@scripts/base/components/form/form';
-import { RNewsletterForm } from './newsletter-form';
+import { NewsletterForm } from './newsletter-form';
 
 
 describe('Newsletter Modal Trigger', () => {
   function mount(props = {}){
     const lang = props.lang || 'en';
     return shallow(
-      <RNewsletterForm lang={ lang } />
+      <NewsletterForm lang={ lang } />
     );
   }
 

@@ -1,7 +1,7 @@
 import '@styles/story-group.styl';
 import React, { Component } from 'react';
 
-export class RStoryGroup extends Component {
+export class StoryGroup extends Component {
   render() {
     return (
       <div className="r-story-group">

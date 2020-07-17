@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { ExternalLink } from '@scripts/base/components/external-link/external-link';
-import { RStorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
-import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
+import { StorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
+import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
 export class FormattingQualityEN extends Component {
   render() {
     return (
-      <RStoryViewport>
+      <StoryViewport>
         <p>
           It was mid-2018, and I needed to build an application for internal
           use at the company I was working for. The project consisted of
@@ -78,14 +78,14 @@ export class FormattingQualityEN extends Component {
           helps you ensure the success of the current release and all the
           following ones.
         </p>
-        <RStorySpacer />
+        <StorySpacer />
         <p>
           P.S.: <ExternalLink href="https://github.com/glorious-codes/glorious-pitsby/blob/master/.eslintrc.json">
           Here</ExternalLink>, you can see a real configuration file that shows
           how I use to handle <em>complexity</em>, <em>max-lines</em>, and <em>
           max-statements</em> in my projects.
         </p>
-      </RStoryViewport>
+      </StoryViewport>
     );
   }
 }

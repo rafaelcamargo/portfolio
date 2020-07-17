@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import storiesService from '@scripts/stories/services/stories/stories';
 import locales from './story-relations-locales';
 
-export class RStoryRelations extends Component {
+export class StoryRelations extends Component {
   constructor(props){
     super(props);
     const lang = props.lang || 'en';

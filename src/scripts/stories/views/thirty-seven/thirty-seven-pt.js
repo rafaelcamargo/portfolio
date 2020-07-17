@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { ExternalLink } from '@scripts/base/components/external-link/external-link';
 import { Quote } from '@scripts/base/components/quote/quote';
-import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
+import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
 export class RThirtySevenPT extends Component {
   render() {
     return (
-      <RStoryViewport>
+      <StoryViewport>
         <Quote
           sourceText="Origem do nome 37signals."
           sourceHref="https://37signals.com/33.html">
@@ -128,7 +128,7 @@ export class RThirtySevenPT extends Component {
           empresa, 37signals. Separar o sinal de qualidade da quantidade
           infindável de ruído que nos cerca.
         </p>
-      </RStoryViewport>
+      </StoryViewport>
     );
   }
 }

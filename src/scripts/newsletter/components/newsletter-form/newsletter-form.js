@@ -7,7 +7,7 @@ import { Row } from '@scripts/base/components/row/row';
 import newsletterResource from '@scripts/newsletter/resources/newsletter';
 import locales from './newsletter-form-locales';
 
-export class RNewsletterForm extends Component {
+export class NewsletterForm extends Component {
   constructor(props){
     super(props);
     this.setTexts(locales[this.props.lang]);

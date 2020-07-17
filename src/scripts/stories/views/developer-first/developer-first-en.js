@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Quote } from '@scripts/base/components/quote/quote';
-import { RStorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
-import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
+import { StorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
+import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
 export class RDeveloperFirstEN extends Component {
   render() {
     return (
-      <RStoryViewport>
+      <StoryViewport>
         <p>
           Over the past few years, we have heard a variety of strategies succeed
           in the dispute for how best to approach software development. A few
@@ -82,7 +82,7 @@ export class RDeveloperFirstEN extends Component {
           boredom gets in, engagement gets out. Repetitive tasks must be
           automated as well as every common pattern in code must be abstracted.
         </p>
-        <RStorySpacer />
+        <StorySpacer />
         <p>
           If it doesn’t make sense to launch very fast something that doesn’t
           work, it’s also not viable never to ship something because we’re
@@ -102,7 +102,7 @@ export class RDeveloperFirstEN extends Component {
           speed us up?</em> If the decision taken is not able to satisfy one of
           these questions, great are the chances it’s not Developer-first.
         </p>
-      </RStoryViewport>
+      </StoryViewport>
     );
   }
 }

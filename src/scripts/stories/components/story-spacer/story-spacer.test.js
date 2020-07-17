@@ -1,11 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RStorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
+import { StorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
 
 describe('Developer First PT', () => {
   function mount(){
     return shallow(
-      <RStorySpacer />
+      <StorySpacer />
     );
   }
 

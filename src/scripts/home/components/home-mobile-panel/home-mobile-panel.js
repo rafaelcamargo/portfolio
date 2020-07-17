@@ -2,7 +2,7 @@ import '@styles/home-mobile-panel.styl'
 import React, { Component } from 'react';
 import { Mobile } from '@scripts/base/components/mobile/mobile';
 
-export class RHomeMobilePanel extends Component {
+export class HomeMobilePanel extends Component {
   constructor(props){
     super(props);
     this.setScreenshotsCount(0);

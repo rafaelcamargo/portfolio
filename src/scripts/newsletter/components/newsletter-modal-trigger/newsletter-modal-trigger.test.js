@@ -2,16 +2,16 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import modalService from '@scripts/base/services/modal/modal';
 import { Button } from '@scripts/base/components/button/button';
-import { RNewsletterForm } from '@scripts/newsletter/components/newsletter-form/newsletter-form';
-import { RNewsletterModalTrigger } from './newsletter-modal-trigger';
+import { NewsletterForm } from '@scripts/newsletter/components/newsletter-form/newsletter-form';
+import { NewsletterModalTrigger } from './newsletter-modal-trigger';
 
 
 describe('Newsletter Modal Trigger', () => {
   function mount(props = {}){
     return shallow(
-      <RNewsletterModalTrigger>
+      <NewsletterModalTrigger>
         { props.content }
-      </RNewsletterModalTrigger>
+      </NewsletterModalTrigger>
     );
   }
 
@@ -32,7 +32,7 @@ describe('Newsletter Modal Trigger', () => {
     wrapper.find(Button).simulate('click');
     expect(modalService.open).toHaveBeenCalledWith({
       title: 'Newsletter',
-      content: <RNewsletterForm />,
+      content: <NewsletterForm />,
       width: '350px'
     });
   });

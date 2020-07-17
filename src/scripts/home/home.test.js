@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RHomeHero } from '@scripts/home/components/home-hero/home-hero';
+import { HomeHero } from '@scripts/home/components/home-hero/home-hero';
 import { Viewport } from '@scripts/base/components/viewport/viewport';
 import { Home } from '@scripts/home/home';
 
@@ -16,6 +16,6 @@ describe('Home', () => {
 
   it('should contain a home hero', () => {
     const wrapper = mount();
-    expect(wrapper.find(RHomeHero).length).toEqual(1);
+    expect(wrapper.find(HomeHero).length).toEqual(1);
   });
 });

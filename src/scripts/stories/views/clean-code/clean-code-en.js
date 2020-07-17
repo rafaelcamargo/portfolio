@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { ExternalLink } from '@scripts/base/components/external-link/external-link';
 import { Quote } from '@scripts/base/components/quote/quote';
-import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
+import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
 export class RCleanCodeEN extends Component {
   render() {
     return (
-      <RStoryViewport>
+      <StoryViewport>
         <p>
           This is one of the most famous books in the programming universe. Its
           fame seems only not to be bigger than the number of developers that
@@ -150,7 +150,7 @@ export class RCleanCodeEN extends Component {
         <p>
           <em>It is  perfectly okay to write garbage as long as you edit brilliantly</em>.
         </p>
-      </RStoryViewport>
+      </StoryViewport>
     );
   }
 }

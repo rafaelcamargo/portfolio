@@ -1,12 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import storiesService from '@scripts/stories/services/stories/stories';
-import { RStoryRelations } from './story-relations';
+import { StoryRelations } from './story-relations';
 
 describe('Story Relations', () => {
   function mount(props = {}){
     return shallow(
-      <RStoryRelations ids={ props.ids } lang={ props.lang } />
+      <StoryRelations ids={ props.ids } lang={ props.lang } />
     );
   }
 

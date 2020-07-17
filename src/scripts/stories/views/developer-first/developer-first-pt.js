@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Quote } from '@scripts/base/components/quote/quote';
-import { RStorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
-import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
+import { StorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
+import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
 export class RDeveloperFirstPT extends Component {
   render() {
     return (
-      <RStoryViewport>
+      <StoryViewport>
         <p>
           Ao longo dos últimos anos temos ouvido uma variedade de estratégias
           se sucederem na disputa por como melhor abordar o desenvolvimento de
@@ -86,7 +86,7 @@ export class RDeveloperFirstPT extends Component {
           rotineiras devem ser automatizadas, da mesma maneira que todo padrão
           comum deve ser abstraído.
         </p>
-        <RStorySpacer />
+        <StorySpacer />
         <p>
           Assim como não faz sentido lançar rapidamente algo que não funciona,
           tão pouco seria celebrável jamais conseguir lançar algo por não
@@ -109,7 +109,7 @@ export class RDeveloperFirstPT extends Component {
           tomada for incapaz de satisfazer a um desses questionamentos, grandes
           são as chances dela não priorizar o desenvolvedor.
         </p>
-      </RStoryViewport>
+      </StoryViewport>
     );
   }
 }

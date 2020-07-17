@@ -5,17 +5,17 @@ import { Divider } from '@scripts/base/components/divider/divider';
 import { Hero } from '@scripts/base/components/hero/hero';
 import { Image } from '@scripts/base/components/image/image';
 import { Viewport } from '@scripts/base/components/viewport/viewport';
-import { RStoryFooter } from '@scripts/stories/components/story-footer/story-footer';
-import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
+import { StoryFooter } from '@scripts/stories/components/story-footer/story-footer';
+import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 import routeService from '@scripts/base/services/route/route';
 import storiesService from '@scripts/stories/services/stories/stories';
 
 describe('Story Viewport', () => {
   function mount(props = {}){
     return shallow(
-      <RStoryViewport>
+      <StoryViewport>
         { props.content }
-      </RStoryViewport>
+      </StoryViewport>
     );
   }
 
@@ -60,6 +60,6 @@ describe('Story Viewport', () => {
 
   it('should contain a story footer', () => {
     const wrapper = mount();
-    expect(wrapper.find(RStoryFooter).length).toEqual(1);
+    expect(wrapper.find(StoryFooter).length).toEqual(1);
   });
 });

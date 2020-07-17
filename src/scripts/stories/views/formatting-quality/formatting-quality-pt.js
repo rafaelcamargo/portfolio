@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { ExternalLink } from '@scripts/base/components/external-link/external-link';
-import { RStorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
-import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
+import { StorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
+import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
 export class FormattingQualityPT extends Component {
   render() {
     return (
-      <RStoryViewport>
+      <StoryViewport>
         <p>
           Era meados de 2018 e eu precisava criar uma aplicação de uso interno
           na empresa onde trabalhava. O projeto era colocar no ar um cliente
@@ -83,14 +83,14 @@ export class FormattingQualityPT extends Component {
           código antes mesmo de faze-lo satisfazer qualquer especificação
           garantirá o sucesso da entrega de hoje e de todas as demais.
         </p>
-        <RStorySpacer />
+        <StorySpacer />
         <p>
           P.S.: <ExternalLink href="https://github.com/glorious-codes/glorious-pitsby/blob/master/.eslintrc.json">
           Aqui</ExternalLink>, você confere um arquivo real de configuração que
           mostra como tenho lidado com <em>complexity</em>, <em>max-lines</em> e <em>
           max-statements</em> em meus projetos.
         </p>
-      </RStoryViewport>
+      </StoryViewport>
     );
   }
 }

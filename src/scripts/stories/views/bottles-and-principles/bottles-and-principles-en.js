@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Code } from '@scripts/base/components/code/code';
 import { Quote } from '@scripts/base/components/quote/quote';
-import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
+import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
 export class RBottlesAndPrinciplesEN extends Component {
   render() {
     return (
-      <RStoryViewport>
+      <StoryViewport>
         <p>
           Something curious about lots of the most popular programming
           concepts, principles and good practices is that they seem to
@@ -239,7 +239,7 @@ export class RBottlesAndPrinciplesEN extends Component {
           style sheets</a> represents one single object and always keep themselves
           open for extension.
         </p>
-      </RStoryViewport>
+      </StoryViewport>
     );
   }
 }

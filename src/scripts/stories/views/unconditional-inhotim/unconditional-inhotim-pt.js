@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { ExternalLink } from '@scripts/base/components/external-link/external-link';
 import { Quote } from '@scripts/base/components/quote/quote';
-import { RStorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
-import { RStoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
+import { StorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
+import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
 export class RUnconditionalInhotimPT extends Component {
   render() {
     return (
-      <RStoryViewport>
+      <StoryViewport>
         <p>
           Temos todos a capacidade de reconhecer a beleza no imediato momento
           em que nos colocamos diante dela. Essa foi a certeza que tomou conta
@@ -76,7 +76,7 @@ export class RUnconditionalInhotimPT extends Component {
           submeter a nenhuma condição lógica. A oportunidade de sermos, assim
           como Inhotim, incondicional.
         </p>
-      </RStoryViewport>
+      </StoryViewport>
     );
   }
 }
