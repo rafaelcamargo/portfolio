@@ -17,6 +17,7 @@ import { RFormattingQualityPT } from '@scripts/stories/views/formatting-quality/
 export default [
   {
     id: 'WGfZ7LAIw',
+    featured: true,
     created: '2020-06-28',
     lang: 'en',
     title: 'Unconditional Inhotim',
@@ -29,6 +30,7 @@ export default [
   },
   {
     id: '0RNQukFU3',
+    featured: true,
     created: '2020-06-28',
     lang: 'en',
     title: 'The pearl and the mussels',
@@ -54,6 +56,7 @@ export default [
   },
   {
     id: 'Mmx5gPyQC',
+    featured: true,
     created: '2020-06-06',
     lang: 'pt',
     title: 'Incondicional Inhotim',
@@ -66,6 +69,7 @@ export default [
   },
   {
     id: 'mzUJTQH08',
+    featured: true,
     created: '2020-05-31',
     lang: 'pt',
     title: 'Pérolas e mariscos',
@@ -179,6 +183,7 @@ export default [
   },
   {
     id: '2E0CpLf5S',
+    featured: true,
     created: '2020-01-07',
     lang: 'en',
     title: 'Bottles and principles. How to better organize CSS.',
@@ -197,6 +202,7 @@ export default [
   },
   {
     id: 'UwYUUy1Au',
+    featured: true,
     created: '2019-08-22',
     lang: 'pt',
     title: 'Garrafas e princípios. Como melhor organizar CSS.',

@@ -7,23 +7,24 @@ export class RStoryList extends Component {
   render() {
     return (
       <ul className="r-story-list">
-        { buildItems(this.props.summaryIds) }
+        { buildItems(this.props.featured) }
       </ul>
     );
   }
 }
 
-function buildItems(summaryIds){
-  return getSummaries(summaryIds).map(summary => buildItem(summary));
+function buildItems(featured){
+  const querySummaries = getQueryMethod(featured);
+  return querySummaries().map(summary => buildItem(summary));
 }
 
-function getSummaries(ids){
-  const summaries = storySummariesService.getPublicSummaries();
-  return ids ? filterSummariesByIds(summaries, ids) : summaries;
-}
-
-function filterSummariesByIds(summaries, ids){
-  return summaries.filter(summary => ids.includes(summary.id));
+function getQueryMethod(featured){
+  if(featured)
+    return storySummariesService.getFeaturedSummaries;
+  else if(featured === false)
+    return storySummariesService.getNonFeaturedSummaries;
+  else
+    return storySummariesService.getPublicSummaries;
 }
 
 function buildItem(summary){

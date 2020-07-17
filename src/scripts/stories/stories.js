@@ -3,6 +3,7 @@ import { RCol } from '@scripts/base/components/col/col';
 import { RHero } from '@scripts/base/components/hero/hero';
 import { RRow } from '@scripts/base/components/row/row';
 import { RSection } from '@scripts/base/components/section/section';
+import { RStoryGroup } from '@scripts/stories/components/story-group/story-group';
 import { RStoryList } from '@scripts/stories/components/story-list/story-list';
 import { RViewport } from '@scripts/base/components/viewport/viewport';
 
@@ -23,7 +24,12 @@ export class Stories extends Component {
         <RSection>
           <RRow >
             <RCol size="12">
-              <RStoryList primaryLanguage="en" secondaryLanguage="pt" />
+              <RStoryGroup title="Featured">
+                <RStoryList featured={true} />
+              </RStoryGroup>
+              <RStoryGroup title="Everything Else">
+                <RStoryList featured={false} />
+              </RStoryGroup>
             </RCol>
           </RRow>
         </RSection>

@@ -8,8 +8,12 @@ import storiesService from '@scripts/stories/services/stories/stories';
 describe('Story List', () => {
   function mount(props = {}){
     return shallow(
-      <RStoryList summaryIds={ props.summaryIds } />
+      <RStoryList featured={ props.featured } />
     );
+  }
+
+  function getItemsSummaryId(item){
+    return item.prop('children').props.summary.id;
   }
 
   beforeEach(() => {
@@ -21,11 +25,18 @@ describe('Story List', () => {
     expect(wrapper.prop('className')).toEqual('r-story-list');
   });
 
-  it('should optionally filter summaries', () => {
-    const wrapper = mount({ summaryIds: [1,3] });
-    const summaryItems = wrapper.find(RStorySummary);
-    expect(summaryItems.length).toEqual(2);
-    expect(summaryItems.at(0).prop('summary').id).toEqual(3);
-    expect(summaryItems.at(1).prop('summary').id).toEqual(1);
+  it('should optionally list featured summaries only', () => {
+    const wrapper = mount({ featured: true });
+    const items = wrapper.find('li');
+    expect(items.length).toEqual(1);
+    expect(getItemsSummaryId(items.at(0))).toEqual(3);
+  });
+
+  it('should optionally list non featured summaries only', () => {
+    const wrapper = mount({ featured: false });
+    const items = wrapper.find('li');
+    expect(items.length).toEqual(2);
+    expect(getItemsSummaryId(items.at(0))).toEqual(2);
+    expect(getItemsSummaryId(items.at(1))).toEqual(1);
   });
 });

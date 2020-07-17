@@ -1,0 +1,20 @@
+@require '_variables'
+@require '_mixins'
+
+.r-story-group
+  & + .r-story-group
+    margin-top 150px
+  h2
+    margin-bottom 75px
+    color $color-grey
+    font-size $font-size-xs
+    text-transform uppercase
+    text-align center
+    font-weight bold
+  h3
+    font-size $font-size-xl
+
++breakpoint('xs')
+  .r-story-group
+    h2
+      text-align left

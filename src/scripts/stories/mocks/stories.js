@@ -13,7 +13,8 @@ const stories = [
     image: {
       filename: 'story-mock.svg',
       alt: 'Story mock'
-    }
+    },
+    featured: true
   },
   {
     id: 2,
