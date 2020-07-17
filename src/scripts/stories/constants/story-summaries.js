@@ -43,7 +43,6 @@ export default [
   },
   {
     id: 'MnHpmtQ7p',
-    private: true,
     created: '2020-06-26',
     lang: 'en',
     title: 'Developer first',
