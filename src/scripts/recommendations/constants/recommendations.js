@@ -10,7 +10,7 @@ export default [
     personName: "Daniel Abraão",
     personPosition: "Engineering Manager",
     personUrl: "https://br.linkedin.com/in/daniel-abraao",
-    content: "For about one year I had the pleasure of having him on my team. His dedication and technical expertise were crucial for the success of the project: to build a Design System team to increase productivity and UX consistency. Beyond the technical quality, he has a level of communication that I hadn’t ever seen, elaborates constructive questions and is very creative. I strongly recommend him and hope to work with him again."
+    content: "For about one year, I had the pleasure of having him on my team. His dedication and technical expertise were crucial for the success of the project: to build a Design System team to increase productivity and UX consistency. Beyond his technical skills, he has a level of communication that I hadn’t ever seen, elaborates constructive questions, and is very creative. I strongly recommend him and hope to work with him again."
   },
   {
     id: "branco",
@@ -21,7 +21,7 @@ export default [
     personName: "Guilherme Branco",
     personUrl: "https://linkedin.com/in/linkguicarvalho",
     personPosition: "Programmer",
-    content: "Camargo helped me to understand and to apply great principles. Writing simple code, decreasing responsibility. Calibrating solutions’ complexity according the problems’ size. Reusing code and the importance of practicing Red-Green-Blue (TDD). I always saw him delivering high quality code."
+    content: "Camargo helped me to understand and to apply great principles. Writing simple code, decreasing responsibility. Calibrating solutions’ complexity according to the problems’ size. Reusing code and the importance of practicing Red-Green-Blue (TDD). I always saw him outputting high-quality deliverables."
   },
   {
     id: "bruckheimer",
@@ -34,7 +34,7 @@ export default [
     personName: "Alessandro Brückheimer",
     personUrl: "https://www.linkedin.com/in/alebruck/",
     personPosition: "Programmer",
-    content: "I worked with Rafael at Jobscore for a few months. In that short period, he made a great impact in the engineering department. From introducing new front-end practices to a whole new approach to reuse UI code. I recommend Rafael to teams looking for professionals well versed with software fundamentals, long practice and high delivery capacity."
+    content: "I worked with Rafael at JobScore for a few months. In that short period, he made a good impact in the engineering department, from introducing new front-end practices to a whole new approach to reuse UI code. I recommend Rafael to teams looking for professionals well versed with software fundamentals, long experience, and high delivery capacity."
   },
   {
     id: "chapuis",
@@ -47,7 +47,7 @@ export default [
     personName: "Lorival Chapuis",
     personUrl: "https://www.linkedin.com/in/lorival/",
     personPosition: "Programmer",
-    content: "Camargo is an out of the box professional. Experienced, self-manageable and, certainly, one of the best professionals who I had the opportunity to work with. Sees beyond the problem and always starts with the simplest solution. I highly recommend him."
+    content: "Camargo is an out of the box professional. Experienced and self-manageable, he is one of the best professionals who I had the opportunity to work with. Sees beyond the problem and always starts with the simplest solution. I highly recommend him."
   },
   {
     id: "cunha",
@@ -58,7 +58,7 @@ export default [
     personName: "Lucas Cunha",
     personUrl: "https://www.linkedin.com/in/lucas-felipe-da-cunha-06628969/",
     personPosition: "Programmer",
-    content: "Rafael was responsible to introduce a new approach on how we organised JavaScript code at Jobscore. He is one of the best engineers I had the privilege to work with. I think his best trait is making sure that everything is reusable, easy to understand and maintainable."
+    content: "Rafael was responsible for introducing a new approach to how we organized JavaScript code at JobScore. He is one of the best engineers I had the privilege to work with. I think his best trait is making sure that everything is reusable, easy to understand, and maintainable."
   },
   {
     id: "jim",
@@ -71,7 +71,7 @@ export default [
     personName: "Jim Chien",
     personUrl: "https://www.linkedin.com/in/jim-chien/",
     personPosition: "Programmer",
-    content: "Be part of the Design System team with Camargo was an outstanding experience both personally and professionally. In a short period, he saved tons of programming time with his ability to abstract components. Definitely being close to him made me think more clearly about Clean Code, reusability and TDD. If you need a star in your team, better call Camargo!"
+    content: "Be part of the Design System team with Camargo was an outstanding experience both personally and professionally. In a short period, he saved tons of programming time with his ability to abstract components. Definitely being close to him made me think more clearly about Clean Code, reusability, and TDD. If you need a star in your team, better call Camargo!"
   },
   {
     id: "matias",
@@ -84,7 +84,7 @@ export default [
     personName: "Tiago Matias",
     personPosition: "Programmer",
     personUrl: "https://www.linkedin.com/in/t-matias/",
-    content: "Rafael is one of the most creative and productive people I know. Also, the technical quality of what he builds is enviable. He always brings something new in his side projects. He’s a person that practices and reflects a lot about his profession. The results are evident."
+    content: "Rafael is one of the most creative and productive people I know. Also, the technical quality of what he builds is enviable. Always brings something new to his side projects. He’s a person that practices and reflects a lot about his profession. The results are evident."
   },
   {
     id: "rodrigues",
@@ -97,6 +97,6 @@ export default [
     personName: "Fernando Rodrigues",
     personPosition: "Programmer",
     personUrl: "https://www.linkedin.com/in/fernahh/",
-    content: "I had the pleasure of working with Rafael on several web projects. He was an awesome and inspiring developer for me, creating simple and elegant solutions. He gave me one of the best tips for my career. Always delivery what nobody expects. I’d be happy to work with him again in the future if the opportunity presented itself!"
+    content: "I had the pleasure of working with Rafael on several web projects. He was such an awesome and inspiring developer for me, creating simple and elegant solutions. He gave me one of the best tips for my career. Always deliver what nobody expects. I’d be happy to work with him again in the future if the opportunity presented itself!"
   }
 ];
