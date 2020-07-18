@@ -2,31 +2,13 @@
 @require '_mixins'
 
 .r-home-hero
-  .r-container
-    position relative
-  .r-mobile
-    position absolute
-    top 0
-    right 0
-  .r-home-mobile-panel
-    transform('scale(.75)')
   p
-    margin-top 10px
-    font-size $font-size-xs
+    font-weight 400
+    font-size $font-size-xxl
+    line-height 1
+    letter-spacing -1px
 
-.r-home-hero-copy-container
-  max-width 700px
-
-.r-home-hero-art-container
-  position absolute
-  top -150px
-  right 0
-
-+breakpoint('xs')
-  .r-home-hero-art-container
-    display none
-
-+breakpoint('sm')
++breakpoint('xs-sm')
   .r-home-hero
-    h1
-      max-width 435px
+    p
+      line-height 1.2

@@ -20,10 +20,4 @@ describe('Home Hero', () => {
     const wrapper = mount();
     expect(wrapper.find(Hero).prop('size')).toEqual('large');
   });
-
-  it('should render a title', () => {
-    const title = 'My name is Rafael.I am an expert in building UI components.'
-    const wrapper = mount();
-    expect(wrapper.find('h1').text()).toEqual(title);
-  });
 });

@@ -6,7 +6,7 @@ export class Credits extends Component {
     return (
       <div className="r-credits">
         <p>
-          This is an open source website. If you wanna give a look on
+          This is an open-source website. If you wanna give a look at
           it, <a href="https://github.com/rafaelcamargo/portfolio" target="_blank">
           click here</a>.
         </p>

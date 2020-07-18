@@ -31,7 +31,7 @@ export class Home extends Component {
                 <Col size="12">
                   <p>
                     I love to use great principles and the best technologies
-                    to solve complex UI challenges.
+                    to solve complex interface challenges.
                   </p>
                 </Col>
               </Row>
@@ -67,29 +67,29 @@ export class Home extends Component {
                   ctaTo="/projects"
                   ctaText="See my projects">
                   <p>
-                    I am always full of new ideias.<br />
+                    I am always full of new ideas.<br />
                     Building a side project is the way
                     I best learn something new.
                   </p>
                 </Feature>
                 <Feature
-                  title="Few time. Lots of impact."
+                  title="Short time. Lots of impacts."
                   ctaTo="/experience"
                   ctaText="See my experience">
                   <p>
                     I started programming in 2013, not so long.<br />
-                    But on this short period, I collaborated in activities
-                    that generated a huge impact.
+                    But in this short period, I collaborated in activities
+                    that caused a great impact.
                   </p>
                 </Feature>
                 <Feature
-                  title="A couple of stories to share."
+                  title="Couple stories to share."
                   ctaTo="/stories"
                   ctaText="See my stories">
                   <p>
                     Writing is a craft that I'm striving to learn.<br />
-                    Once in a while, I dedicate some time to share a bit of the
-                    experience I'm getting along the way.
+                    Once in a while, I write about the experiences I'm getting
+                    along the way.
                   </p>
                 </Feature>
               </FeatureList>
