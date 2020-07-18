@@ -24,18 +24,16 @@ export class Skills extends Component {
             <Col size="6">
               <p>
                 After working for over seven years as a graphic designer, I <b>
-                started on 2013</b> my career as a programmer at one of the <b>most
-                popular startups in Brazil</b> where, after almost 6 uninterrupted
-                years, I ended up leading the <b>front-end</b> efforts in the <b>
-                Design System</b> team.
+                started in 2013</b> my career as a programmer at one of the <b>most
+                popular startups in Brazil</b>, where I ended up leading
+                the <b>front-end</b> efforts in the <b> Design System</b> team.
               </p>
               <p>
-                Along this rich period, I got fluent in
+                During that exciting period, I got fluent in
                 the <b>latest JavaScript specifications</b>, several front-end
-                technologies and went deep in concepts that have shaped the
+                technologies, and went deep in concepts that have shaped the
                 way I write software. Among these concepts are <b>Clean Code
-                </b>, <b>SOLID</b>, the <b>three laws of TDD</b> and this
-                awesome <a
+                </b>, <b>SOLID</b>, the <b>three laws of TDD</b>, and this <a
                   href="https://blog.cleancoder.com/uncle-bob/2011/01/17/software-craftsmanship-is-about.html"
                   target="_blank">
                   blog post
@@ -44,21 +42,21 @@ export class Skills extends Component {
             </Col>
             <Col size="6">
               <p>
-                I have great knowledge of bundlers and task runners like <b>Gulp
+                I am very experienced with bundlers and task runners like <b>Gulp
                 </b> and <b>Webpack</b>. Long experience building <b>Single Page
                 Applications</b> since the old <b>AngularJS</b> until the
                 modern <b>Vue</b> and <b>React</b>. I am very familiar with
                 unit test tools like <b>Karma</b>, <b>Jasmine</b>, and <b>Jest</b>.
-                I’m extremely familiar with a wide range of CSS preprocessors
+                I’m very familiar with a wide range of CSS preprocessors
                 like <b>Sass</b>, <b>Less</b>, <b>PostCSS</b> and, mainly, <b>Stylus</b>.
               </p>
               <p>
-                Topics other than front-end which I have a very well
+                Topics other than front-end on which I have a good
                 understanding include Continuous Integration tools like <b>
                 Travis</b> and <b>CircleCI</b>. <b>Firebase</b>, <b>Netlify
                 </b> and <b>AWS S3</b>, test coverage tools like <b>Coveralls
                 </b> and <b>Codecov</b>, <b>HTTP</b> and <b>REST</b>. Also, I
-                have a basic understanding on the following back-end
+                have a basic understanding of the following back-end
                 technologies: <b>NodeJS</b>, <b>Express</b>, <b>MongoDB</b>, <b>
                 Ruby</b>, <b>Rails</b>, <b>Postgres</b> and <b>Docker</b>.
               </p>
