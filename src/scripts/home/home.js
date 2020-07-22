@@ -73,7 +73,7 @@ export class Home extends Component {
                   </p>
                 </Feature>
                 <Feature
-                  title="Short time. Lots of impacts."
+                  title="Short time. Long-term results."
                   ctaTo="/experience"
                   ctaText="See my experience">
                   <p>
@@ -83,7 +83,7 @@ export class Home extends Component {
                   </p>
                 </Feature>
                 <Feature
-                  title="Couple stories to share."
+                  title="Some stories to share."
                   ctaTo="/stories"
                   ctaText="See my stories">
                   <p>
