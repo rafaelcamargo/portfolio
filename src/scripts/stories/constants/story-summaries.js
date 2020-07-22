@@ -1,3 +1,4 @@
+import { InfluencesEN } from '@scripts/stories/views/influences/influences-en';
 import { RUnconditionalInhotimEN } from '@scripts/stories/views/unconditional-inhotim/unconditional-inhotim-en';
 import { RUnconditionalInhotimPT } from '@scripts/stories/views/unconditional-inhotim/unconditional-inhotim-pt';
 import { RPearlAndMusselsEN } from '@scripts/stories/views/pearl-and-mussels/pearl-and-mussels-en';
@@ -15,6 +16,19 @@ import { FormattingQualityEN } from '@scripts/stories/views/formatting-quality/f
 import { FormattingQualityPT } from '@scripts/stories/views/formatting-quality/formatting-quality-pt';
 
 export default [
+  {
+    id: 'KUvFu6bqS',
+    private: true,
+    created: '2020-07-21',
+    lang: 'en',
+    title: 'Influences',
+    excerpt: 'Once in a while, friends and strangers ask me about what are the contents that have influenced most. I used to answer them individually by email, direct messages, and occasional chats. But my memory is always like a hard disk requiring more space, so I decided to put all the great things that have shaped the way I see the world in the following list. I hope some of these references can surprise you the same way they have surprised me.',
+    keywords: 'influences, books, videos, posts',
+    view: InfluencesEN,
+    url: {
+      href: '/influences'
+    }
+  },
   {
     id: 'WGfZ7LAIw',
     featured: true,

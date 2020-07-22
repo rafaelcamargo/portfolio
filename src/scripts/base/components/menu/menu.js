@@ -34,6 +34,7 @@ function getItems(){
     { name: 'Experience', path: '/experience' },
     { name: 'Recommendations', path: '/recommendations' },
     { name: 'Stories', path: '/stories' },
+    { name: 'Influences', path: '/influences' },
     { name: 'Contact', path: '/contact' }
   ];
 }

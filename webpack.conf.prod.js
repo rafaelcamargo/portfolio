@@ -55,7 +55,8 @@ module.exports = {
         '/perolas-e-mariscos',
         '/the-pearl-and-the-mussels',
         '/incondicional-inhotim',
-        '/unconditional-inhotim'
+        '/unconditional-inhotim',
+        '/influences'
       ],
       minify: {
         collapseBooleanAttributes: true,

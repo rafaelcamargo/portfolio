@@ -41,11 +41,20 @@ export class StoryViewport extends Component {
               </Col>
             </Row>
           </Section>
-          <StoryFooter
-            storyRelationIds={ this.summary.relationIds }
-            lang={ this.summary.lang } />
+          {
+            buildFooter(
+              this.props.hideFooter,
+              this.summary.relationIds,
+              this.summary.lang
+            )
+          }
         </Viewport>
       </div>
     );
   }
+}
+
+function buildFooter(hideFooter, relationIds, lang){
+  if(!hideFooter)
+    return <StoryFooter storyRelationIds={ relationIds } lang={ lang } />;
 }

@@ -13,7 +13,7 @@ import storiesService from '@scripts/stories/services/stories/stories';
 describe('Story Viewport', () => {
   function mount(props = {}){
     return shallow(
-      <StoryViewport>
+      <StoryViewport {...props}>
         { props.content }
       </StoryViewport>
     );
@@ -61,5 +61,10 @@ describe('Story Viewport', () => {
   it('should contain a story footer', () => {
     const wrapper = mount();
     expect(wrapper.find(StoryFooter).length).toEqual(1);
+  });
+
+  it('should optionally hide footer', () => {
+    const wrapper = mount({ hideFooter: true });
+    expect(wrapper.find(StoryFooter).length).toEqual(0);
   });
 });

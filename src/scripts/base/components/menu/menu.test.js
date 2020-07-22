@@ -21,6 +21,6 @@ describe('Menu', () => {
 
   it('should contain menu items', () => {
     const wrapper = mount();
-    expect(wrapper.find('li').length).toEqual(6);
+    expect(wrapper.find('li').length).toEqual(7);
   });
 });
