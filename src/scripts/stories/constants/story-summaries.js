@@ -22,7 +22,7 @@ export default [
     created: '2020-07-21',
     lang: 'en',
     title: 'Influences',
-    excerpt: 'Once in a while, friends and strangers ask me about what are the contents that have influenced most. I used to answer them individually by email, direct messages, and occasional chats. But my memory is always like a hard disk requiring more space, so I decided to put all the great things that have shaped the way I see the world in the following list. I hope some of these references can surprise you the same way they have surprised me.',
+    excerpt: 'Once in a while, friends and strangers ask me about what are the contents that have influenced me most. I used to answer them individually by email, direct messages, and occasional chats. But my memory is always like a hard disk requiring more space, so I decided to put all the great things that have shaped the way I see the world in the following list. I hope some of these references can surprise you the same way they have surprised me.',
     keywords: 'influences, books, videos, posts',
     view: InfluencesEN,
     url: {
