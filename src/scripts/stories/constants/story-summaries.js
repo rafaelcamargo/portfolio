@@ -1,3 +1,4 @@
+import { AngularJSToReactPT } from '@scripts/stories/views/angularjs-to-react/angularjs-to-react-pt';
 import { InfluencesEN } from '@scripts/stories/views/influences/influences-en';
 import { RUnconditionalInhotimEN } from '@scripts/stories/views/unconditional-inhotim/unconditional-inhotim-en';
 import { RUnconditionalInhotimPT } from '@scripts/stories/views/unconditional-inhotim/unconditional-inhotim-pt';
@@ -16,6 +17,18 @@ import { FormattingQualityEN } from '@scripts/stories/views/formatting-quality/f
 import { FormattingQualityPT } from '@scripts/stories/views/formatting-quality/formatting-quality-pt';
 
 export default [
+  {
+    id: 'n9tDPwEHe',
+    created: '2020-07-26',
+    lang: 'pt',
+    title: 'Do AngularJS para React',
+    excerpt: 'Para quem muito programou usando AngularJS, a primeira impressão ao se deparar com um componente React pode não ser das melhores. O impacto provavelmente mais significativo é ver JavaScript e HTML dividindo o mesmo espaço. Mas não se deixe levar pelas aparências. O React é bem menos estranho do que a primeira impressão pode sugerir.',
+    keywords: 'angularjs, react, diferenças',
+    view: AngularJSToReactPT,
+    url: {
+      href: '/do-angular-js-para-react'
+    }
+  },
   {
     id: 'KUvFu6bqS',
     private: true,

@@ -56,7 +56,8 @@ module.exports = {
         '/the-pearl-and-the-mussels',
         '/incondicional-inhotim',
         '/unconditional-inhotim',
-        '/influences'
+        '/influences',
+        '/do-angular-js-para-react'
       ],
       minify: {
         collapseBooleanAttributes: true,
