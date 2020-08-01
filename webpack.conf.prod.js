@@ -57,7 +57,8 @@ module.exports = {
         '/incondicional-inhotim',
         '/unconditional-inhotim',
         '/influences',
-        '/do-angular-js-para-react'
+        '/do-angular-js-para-react',
+        '/from-angular-js-to-react'
       ],
       minify: {
         collapseBooleanAttributes: true,
