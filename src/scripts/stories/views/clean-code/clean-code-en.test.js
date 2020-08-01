@@ -1,12 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
-import { RCleanCodeEN } from './clean-code-en';
+import { CleanCodeEN } from './clean-code-en';
 
 describe('Clean Code EN', () => {
   function mount(props = {}){
     return shallow(
-      <RCleanCodeEN />
+      <CleanCodeEN />
     );
   }
 

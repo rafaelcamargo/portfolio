@@ -1,12 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
-import { RThirtySevenPT } from './thirty-seven-pt';
+import { ThirtySevenPT } from './thirty-seven-pt';
 
 describe('Thirty Seven PT', () => {
   function mount(props = {}){
     return shallow(
-      <RThirtySevenPT />
+      <ThirtySevenPT />
     );
   }
 

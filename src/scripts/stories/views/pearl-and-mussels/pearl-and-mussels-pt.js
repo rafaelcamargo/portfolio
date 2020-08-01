@@ -4,7 +4,7 @@ import { ExternalLink } from '@scripts/base/components/external-link/external-li
 import { StorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
 import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
-export class RPearlAndMusselsPT extends Component {
+export class PearlAndMusselsPT extends Component {
   render() {
     return (
       <StoryViewport>

@@ -1,12 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
-import { RPearlAndMusselsEN } from './pearl-and-mussels-en';
+import { PearlAndMusselsEN } from './pearl-and-mussels-en';
 
 describe('Pearl And Mussels EN', () => {
   function mount(props = {}){
     return shallow(
-      <RPearlAndMusselsEN />
+      <PearlAndMusselsEN />
     );
   }
 

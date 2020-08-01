@@ -1,12 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
-import { RUnconditionalInhotimEN } from './unconditional-inhotim-en';
+import { UnconditionalInhotimPT } from './unconditional-inhotim-pt';
 
-describe('Unconditional Inhotim EN', () => {
+describe('Unconditional Inhotim PT', () => {
   function mount(props = {}){
     return shallow(
-      <RUnconditionalInhotimEN />
+      <UnconditionalInhotimPT />
     );
   }
 

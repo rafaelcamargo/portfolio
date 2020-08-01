@@ -1,18 +1,18 @@
 import { AngularJSToReactPT } from '@scripts/stories/views/angularjs-to-react/angularjs-to-react-pt';
 import { InfluencesEN } from '@scripts/stories/views/influences/influences-en';
-import { RUnconditionalInhotimEN } from '@scripts/stories/views/unconditional-inhotim/unconditional-inhotim-en';
-import { RUnconditionalInhotimPT } from '@scripts/stories/views/unconditional-inhotim/unconditional-inhotim-pt';
-import { RPearlAndMusselsEN } from '@scripts/stories/views/pearl-and-mussels/pearl-and-mussels-en';
-import { RPearlAndMusselsPT } from '@scripts/stories/views/pearl-and-mussels/pearl-and-mussels-pt';
-import { RDeveloperFirstEN } from '@scripts/stories/views/developer-first/developer-first-en';
-import { RDeveloperFirstPT } from '@scripts/stories/views/developer-first/developer-first-pt';
-import { RThirtySevenEN } from '@scripts/stories/views/thirty-seven/thirty-seven-en';
-import { RThirtySevenPT } from '@scripts/stories/views/thirty-seven/thirty-seven-pt';
-import { RCleanCodeEN } from '@scripts/stories/views/clean-code/clean-code-en';
-import { RCleanCodePT } from '@scripts/stories/views/clean-code/clean-code-pt';
-import { RComponentMaturityModelEN } from '@scripts/stories/views/component-maturity-model/component-maturity-model-en';
-import { RComponentMaturityModelPT } from '@scripts/stories/views/component-maturity-model/component-maturity-model-pt';
-import { RBottlesAndPrinciplesEN } from '@scripts/stories/views/bottles-and-principles/bottles-and-principles-en';
+import { UnconditionalInhotimEN } from '@scripts/stories/views/unconditional-inhotim/unconditional-inhotim-en';
+import { UnconditionalInhotimPT } from '@scripts/stories/views/unconditional-inhotim/unconditional-inhotim-pt';
+import { PearlAndMusselsEN } from '@scripts/stories/views/pearl-and-mussels/pearl-and-mussels-en';
+import { PearlAndMusselsPT } from '@scripts/stories/views/pearl-and-mussels/pearl-and-mussels-pt';
+import { DeveloperFirstEN } from '@scripts/stories/views/developer-first/developer-first-en';
+import { DeveloperFirstPT } from '@scripts/stories/views/developer-first/developer-first-pt';
+import { ThirtySevenEN } from '@scripts/stories/views/thirty-seven/thirty-seven-en';
+import { ThirtySevenPT } from '@scripts/stories/views/thirty-seven/thirty-seven-pt';
+import { CleanCodeEN } from '@scripts/stories/views/clean-code/clean-code-en';
+import { CleanCodePT } from '@scripts/stories/views/clean-code/clean-code-pt';
+import { ComponentMaturityModelEN } from '@scripts/stories/views/component-maturity-model/component-maturity-model-en';
+import { ComponentMaturityModelPT } from '@scripts/stories/views/component-maturity-model/component-maturity-model-pt';
+import { BottlesAndPrinciplesEN } from '@scripts/stories/views/bottles-and-principles/bottles-and-principles-en';
 import { FormattingQualityEN } from '@scripts/stories/views/formatting-quality/formatting-quality-en';
 import { FormattingQualityPT } from '@scripts/stories/views/formatting-quality/formatting-quality-pt';
 
@@ -50,7 +50,7 @@ export default [
     title: 'Unconditional Inhotim',
     excerpt: 'We all can recognize beauty in the immediate moment we stand before it. That was the certainty that I had the day I visited the world\'s largest open-air contemporary art museum. It\'s a garden that could be called paradise. Inhotim.',
     keywords: 'inhotim, brazilian nature, hélio oiticica, quasi-cinemas, amazon',
-    view: RUnconditionalInhotimEN,
+    view: UnconditionalInhotimEN,
     url: {
       href: '/unconditional-inhotim'
     }
@@ -63,7 +63,7 @@ export default [
     title: 'The pearl and the mussels',
     excerpt: 'Octocash. That was the name of the product that I, and two colleagues, launched four years ago. Starting to build a product in the early stage of your career is such a great experience. Every member overflows optimism. Optimism is so abundant that nothing more is necessary to develop the product. The level of enthusiasm is so high that understanding profoundly a problem becomes optional. The level of enthusiasm is so high that understanding profoundly a problem becomes optional.',
     keywords: 'pearl, mussels, product feature, rework, glorious demo, JavaScript',
-    view: RPearlAndMusselsEN,
+    view: PearlAndMusselsEN,
     url: {
       href: '/the-pearl-and-the-mussels'
     }
@@ -75,7 +75,7 @@ export default [
     title: 'Developer first',
     excerpt: 'Over the past few years we have heard a variety of strategies succeed in the dispute for how best to approach software development. A few years ago, it was common to use the term API-first. More recently, the enthusiasm was with AI-first. As a developer, I suggest adopting a new strategy. A strategy that does not exclude any other that is already in progress. A strategy that maintains the same suffix as those already mentioned, but that adds the human factor as the word that comes before it. Developer-First.',
     keywords: 'developer first, precision, productivity',
-    view: RDeveloperFirstEN,
+    view: DeveloperFirstEN,
     url: {
       href: '/developer-first'
     }
@@ -88,7 +88,7 @@ export default [
     title: 'Incondicional Inhotim',
     excerpt: 'Temos todos a capacidade de reconhecer a beleza no imediato momento em que nos colocamos diante dela. Essa foi a certeza que tomou conta de mim no dia que visitei o maior museu de arte contemporânea a céu aberto do mundo. Um jardim que poderia ser perfeitamente chamado de paraíso. Inhotim.',
     keywords: 'Inhotim, arte, Hélio Oiticica, Adriana Varejão, Valeska Soares, Hugo França, Chelpa Ferro',
-    view: RUnconditionalInhotimPT,
+    view: UnconditionalInhotimPT,
     url: {
       href: '/incondicional-inhotim'
     }
@@ -101,7 +101,7 @@ export default [
     title: 'Pérolas e mariscos',
     excerpt: 'Octocash. Esse era o nome do produto que eu e dois colegas lançamos há quatro anos. Começar a construir o próprio produto tendo apenas dois anos de profissão é uma experiência deslumbrante. Todos os integrantes transbordam otimismo. É tanto otimismo que ele sozinho é mais do que suficiente para desenvolver o produto. É tanta euforia que entender profundamente um problema passa a ser opcional. Após desenharmos um logo e as primeiras telas, programamos loucamente até colocar o produto no ar. Visitante após visitante, começamos a coletar então a amarga métrica de zero conversões. Ops! Ficou evidente que era preciso mais que só abrir a porta da loja pro negócio dar certo.',
     keywords: 'perolas, mariscos, features, desenvolvimento de produto',
-    view: RPearlAndMusselsPT,
+    view: PearlAndMusselsPT,
     url: {
       href: '/perolas-e-mariscos'
     },
@@ -114,7 +114,7 @@ export default [
     title: 'Developer first',
     excerpt: 'Ao longo dos últimos anos temos ouvido uma variedade de estratégias se sucederem na disputa por como melhor abordar o desenvolvimento de um software. Há poucos anos, era corriqueiro o uso do termo API-First. Mais recentemente, o entusiasmo foi com AI-First. Sendo desenvolvedor, sugiro a adoção de uma nova estratégia. Uma estratégia que não exclui qualquer outra que já esteja em curso. Uma estratégia que mantém o mesmo sufixo daquelas já mencionadas, mas que adiciona o fator humano na palavra que o precede. Developer-First.',
     keywords: 'developer first, desenvolvedor, precisão, produtividade',
-    view: RDeveloperFirstPT,
+    view: DeveloperFirstPT,
     url: {
       href: '/developer-first-pt'
     },
@@ -127,7 +127,7 @@ export default [
     title: 'Thirty seven',
     excerpt: 'Mankind constantly analyzes radio waves from outer space in the search for extraterrestrial intelligence. Since this analysis started, almost all of the signal sources have been identified. 37 signals, however, remain unexplained.',
     keywords: 'thirty seven, 37signals, manifesto',
-    view: RThirtySevenEN,
+    view: ThirtySevenEN,
     url: {
       href: '/thirty-seven'
     }
@@ -139,7 +139,7 @@ export default [
     title: 'Trinta e sete',
     excerpt: 'A humanidade frequentemente analisa as ondas de rádios vindas do espaço na busca por inteligência extraterrestre. Desde que essas análises começaram, a origem de quase todos os sinais foi identificada. Trinta e sete delas, porém, permenecem inexplicadas.',
     keywords: 'trinta e sete, 37signals, manifesto',
-    view: RThirtySevenPT,
+    view: ThirtySevenPT,
     url: {
       href: '/trinta-e-sete'
     },
@@ -152,7 +152,7 @@ export default [
     title: 'Clean code',
     excerpt: 'This is one of the most famous books in the programming universe. Its fame seems only not to be bigger than the number of developers that still has not read it. Some of them complain about the examples shown in the book to be written in Java, wrongly considering the language as an obstacle to understand what clean code is. I have also heard that clean code would be such a utopia, that functions containing four or five statements would be reserved for the software development Olympus.',
     keywords: 'code, clean',
-    view: RCleanCodeEN,
+    view: CleanCodeEN,
     url: {
       href: '/clean-code'
     },
@@ -165,7 +165,7 @@ export default [
     title: 'Código limpo',
     excerpt: 'Esse é um dos livros mais famosos do universo da programação. Sua fama parece só não ser maior do que o número de programadores que ainda não leu esse livro. Alguns reclamam que os exemplos exibidos ao longo do livro estão escritos em Java, como se a linguagem de programação fosse um obstáculo para entender o que é código limpo. Já ouvi também que o tal código limpo seria uma utopia, que funções contendo quatro ou cinco linhas estariam reservadas ao Olimpo do desenvolvimento de software.',
     keywords: 'código, limpo',
-    view: RCleanCodePT,
+    view: CleanCodePT,
     url: {
       href: '/codigo-limpo'
     },
@@ -216,7 +216,7 @@ export default [
     excerpt: 'Something really curious about lots of the most famous programming concepts, principles and good practices is that they seem to disappear or, at least, keep distant, when the software we are talking about is a web client, also known as a front-end application.',
     thumbnail: 'story-bottles-and-principles-512x512.png',
     keywords: 'component, css, stylesheet, open-closed',
-    view: RBottlesAndPrinciplesEN,
+    view: BottlesAndPrinciplesEN,
     url: {
       href: '/bottles-and-principles-how-to-better-organize-css'
     },
@@ -253,7 +253,7 @@ export default [
     excerpt: 'Think you are a programmer, a front-end programmer. You collaborate with the development of a web product. Your workmates are back-end programmers, designers and product owners. So, in an ordinary day, in a casual meeting, in a simple presentation or in a regular chat among team members, you make use of a word, a very simple word. Component.',
     thumbnail: 'story-component-maturity-model-512x512.png',
     keywords: 'component, maturity, model, custom elements, css components',
-    view: RComponentMaturityModelEN,
+    view: ComponentMaturityModelEN,
     url: {
       href: '/component-maturity-model'
     },
@@ -271,7 +271,7 @@ export default [
     excerpt: 'Pense que você é um programador, um programador front-end. Você colabora com o desenvolvimento de um produto web. Você trabalha junto com designers, programadores back-end e product owners. Então um belo dia numa reunião, numa apresentação ou num simples bate papo entre membros do time, você faz uso de uma palavra muito simples. Componente.',
     thumbnail: 'story-component-maturity-model-512x512.png',
     keywords: 'componentes, maturidade, modelo, custom elements, componentes css',
-    view: RComponentMaturityModelPT,
+    view: ComponentMaturityModelPT,
     url: {
       href: '/modelo-de-maturidade-de-componentes'
     },

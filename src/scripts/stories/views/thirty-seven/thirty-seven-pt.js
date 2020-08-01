@@ -3,7 +3,7 @@ import { ExternalLink } from '@scripts/base/components/external-link/external-li
 import { Quote } from '@scripts/base/components/quote/quote';
 import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
-export class RThirtySevenPT extends Component {
+export class ThirtySevenPT extends Component {
   render() {
     return (
       <StoryViewport>

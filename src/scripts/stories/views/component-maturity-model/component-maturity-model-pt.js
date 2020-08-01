@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Code } from '@scripts/base/components/code/code';
 import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
-export class RComponentMaturityModelPT extends Component {
+export class ComponentMaturityModelPT extends Component {
   render() {
     return (
       <StoryViewport>

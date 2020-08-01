@@ -3,7 +3,7 @@ import { Code } from '@scripts/base/components/code/code';
 import { Quote } from '@scripts/base/components/quote/quote';
 import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
-export class RBottlesAndPrinciplesEN extends Component {
+export class BottlesAndPrinciplesEN extends Component {
   render() {
     return (
       <StoryViewport>

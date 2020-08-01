@@ -3,7 +3,7 @@ import { Quote } from '@scripts/base/components/quote/quote';
 import { StorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
 import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
-export class RDeveloperFirstPT extends Component {
+export class DeveloperFirstPT extends Component {
   render() {
     return (
       <StoryViewport>

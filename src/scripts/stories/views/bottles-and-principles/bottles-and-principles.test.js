@@ -1,12 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
-import { RBottlesAndPrinciplesEN } from './bottles-and-principles-en';
+import { BottlesAndPrinciplesEN } from './bottles-and-principles-en';
 
 describe('Bottles and Principles EN', () => {
   function mount(props = {}){
     return shallow(
-      <RBottlesAndPrinciplesEN />
+      <BottlesAndPrinciplesEN />
     );
   }
 

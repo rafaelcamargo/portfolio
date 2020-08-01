@@ -4,7 +4,7 @@ import { Quote } from '@scripts/base/components/quote/quote';
 import { StorySpacer } from '@scripts/stories/components/story-spacer/story-spacer';
 import { StoryViewport } from '@scripts/stories/components/story-viewport/story-viewport';
 
-export class RUnconditionalInhotimPT extends Component {
+export class UnconditionalInhotimPT extends Component {
   render() {
     return (
       <StoryViewport>
