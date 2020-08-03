@@ -30,6 +30,11 @@ export class InfluencesEN extends Component {
             </ExternalLink>, <em>Epictetus</em>
           </li>
           <li>
+            <ExternalLink href="https://www.amazon.com.br/Anything-You-Want-Lessons-Entrepreneur/dp/0241209048">
+              Anything You Want
+            </ExternalLink>, <em>Derek Sivers</em>
+          </li>
+          <li>
             <ExternalLink href="https://www.amazon.com.br/Sapiens-Brief-History-Humankind-English-ebook/dp/B00ICN066A">
               Sapiens
             </ExternalLink>, <em>Yuval Noah Harari</em>
