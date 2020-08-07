@@ -64,7 +64,7 @@ export class CleanSetupPT extends Component {
           jamais aceite ser configurado.
         </p>
         <h2>
-          Jogue lixo no lixo, não na sua aplicação.
+          Aplicação não é lata de lixo.
         </h2>
         <p>
           Durante boa parte do tempo que trabalhei numa empresa chamada Conta
