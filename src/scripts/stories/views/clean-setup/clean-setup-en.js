@@ -117,7 +117,8 @@ export class CleanSetupEN extends Component {
           Never lose total control over the configurations of the application.
           Saving ten, twenty, or thirty minutes setting an application up is
           worthless when compared to the waste that those terrible
-          half-solutions and the lack of full control can charge in the short term.
+          half-ass solutions and the lack of full control can charge in the
+          short term.
         </p>
       </StoryViewport>
     );
