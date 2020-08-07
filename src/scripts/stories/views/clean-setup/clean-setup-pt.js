@@ -116,15 +116,15 @@ export class CleanSetupPT extends Component {
         <p>
           Quando você permite que um agente terceiro configure sua aplicação,
           você abre mão de uma das decisões mais importantes de um projeto.
-          Decidir como e quais peças juntar para fazer sua aplição funcionar.
+          Decidir como e quais peças juntar para fazer sua aplicação funcionar.
           Ao negligenciar essa responsabilidade, você pode até se deparar com
-          algo que funciona, mas pode não saber extatamente o porquê. Não
+          algo que funciona, mas pode não saber exatamente o porquê. Não
           sabendo o porquê, você pode acabar com algo mais pesado e mais
           complexo do que o necessário. Por mais encantador que um comando
           possa parecer, nunca abra mão do total controle sobre as
           configurações da sua aplicação. Dez, vinte ou trinta minutos de
           economia na criação de uma nova aplicação não se comparam aos dias
-          de desperdício e às horríveis gabiarras que a falta de controle
+          de desperdício e às horríveis gambiarras que a falta de controle
           pode custar a curto prazo.
         </p>
       </StoryViewport>
