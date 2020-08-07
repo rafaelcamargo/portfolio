@@ -1,3 +1,4 @@
+import { CleanSetupEN } from '@scripts/stories/views/clean-setup/clean-setup-en';
 import { CleanSetupPT } from '@scripts/stories/views/clean-setup/clean-setup-pt';
 import { AngularJSToReactEN } from '@scripts/stories/views/angularjs-to-react/angularjs-to-react-en';
 import { AngularJSToReactPT } from '@scripts/stories/views/angularjs-to-react/angularjs-to-react-pt';
@@ -19,6 +20,19 @@ import { FormattingQualityEN } from '@scripts/stories/views/formatting-quality/f
 import { FormattingQualityPT } from '@scripts/stories/views/formatting-quality/formatting-quality-pt';
 
 export default [
+  {
+    id: '27tmn2jAq',
+    created: '2020-08-07',
+    lang: 'en',
+    title: 'Clean setup',
+    excerpt: 'Then you face the opportunity to walk through an untouchable and green field. A road still free from any obstacle. That is, it is time to start a new, promising and shining application from scratch. First step? Set it up, of course. That is the moment in which not-so-interesting decisions could rapidly wash that green field out and drop the first stones over that clean road.',
+    keywords: 'setup, clean, aurelia, weather now',
+    view: CleanSetupEN,
+    url: {
+      href: '/clean-setup'
+    },
+    relationIds: ['ZlEeWEKqC', 'Qt7tQ7T6p']
+  },
   {
     id: '9QqUDDqm5',
     created: '2020-08-06',

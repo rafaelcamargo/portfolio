@@ -59,7 +59,8 @@ module.exports = {
         '/influences',
         '/do-angular-js-para-react',
         '/from-angular-js-to-react',
-        '/configuracao-limpa'
+        '/configuracao-limpa',
+        '/clean-setup'
       ],
       minify: {
         collapseBooleanAttributes: true,
