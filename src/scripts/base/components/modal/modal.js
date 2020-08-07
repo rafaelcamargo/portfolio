@@ -12,13 +12,13 @@ export class Modal extends Component {
           data-modal>
           <div className="r-modal-header">
             { buildTitle(this.props.title) }
-            <span className="r-modal-cose-button-container">
+            <span className="r-modal-close-button-container">
               <Button
-                iconName="x"
-                theme="faceless"
                 ariaLabel="close"
+                theme="faceless"
                 onClick={ this.props.onClose }
                 data-modal-close-button>
+                ×
               </Button>
             </span>
           </div>

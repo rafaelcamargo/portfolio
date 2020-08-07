@@ -42,15 +42,13 @@
 .r-modal-title
   margin-bottom 20px
 
-.r-modal-cose-button-container
+.r-modal-close-button-container
   position absolute
   top 0
-  right 0
+  right 5px
   .r-button
     margin-top 5px
     line-height 20px
-    .r-icon
-      margin-right 0
+    font-size $font-size-lg
     +highlight()
-      .r-icon
-        background-color $color-red
+      color $color-red
