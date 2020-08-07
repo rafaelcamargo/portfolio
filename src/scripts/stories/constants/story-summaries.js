@@ -77,7 +77,7 @@ export default [
     created: '2020-06-28',
     lang: 'en',
     title: 'Unconditional Inhotim',
-    excerpt: 'We all can recognize beauty in the immediate moment we stand before it. That was the certainty that I had the day I visited the world\'s largest open-air contemporary art museum. It\'s a garden that could be called paradise. Inhotim.',
+    excerpt: 'We all can recognize beauty at the right moment we stand before it. That was the certainty that I had the day I visited the world\'s largest open-air contemporary art museum. It\'s a garden that could be called paradise. Inhotim.',
     keywords: 'inhotim, brazilian nature, hélio oiticica, quasi-cinemas, amazon',
     view: UnconditionalInhotimEN,
     url: {

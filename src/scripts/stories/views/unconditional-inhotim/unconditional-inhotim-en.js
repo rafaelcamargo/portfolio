@@ -9,7 +9,7 @@ export class UnconditionalInhotimEN extends Component {
     return (
       <StoryViewport>
         <p>
-          We all can recognize beauty in the immediate moment we stand before it.
+          We all can recognize beauty at the right moment we stand before it.
           That was the certainty that I had the day I visited the world's
           largest open-air contemporary art museum. It's a garden that could be
           called paradise. Inhotim.
@@ -41,7 +41,7 @@ export class UnconditionalInhotimEN extends Component {
           No explanation
         </h2>
         <p>
-          Years later, I talk to colleagues in a city bar. They're all
+          Years later, I am hanging out with colleagues in a city bar. They're all
           programmers. Everyone spends the day reading logical conditions. The
           work of everyone consists of explaining to a machine, through a
           programming language, what it should do.
