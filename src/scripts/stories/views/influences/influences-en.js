@@ -115,6 +115,11 @@ export class InfluencesEN extends Component {
             </ExternalLink>, <em>Ricardo Semler</em>
           </li>
           <li>
+            <ExternalLink href="https://www.youtube.com/watch?v=cGXs58RioPA">
+              Pale Blue Dot
+            </ExternalLink>, <em>Carl Sagan</em>
+          </li>
+          <li>
             <ExternalLink href="https://www.imdb.com/title/tt3674140/">
               The Salt of the Earth
             </ExternalLink>, <em>Sebastião Salgado</em>
