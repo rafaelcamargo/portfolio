@@ -9,7 +9,7 @@
     "start": "webpack-dev-server",
     "test": "jest",
     "deploy": "firebase deploy --non-interactive",
-    "id": "node short-id-generator.js"
+    "id": "node ./src/scripts/stories/services/story-id/story-id.js"
   },
   "keywords": [
     "rafael",
