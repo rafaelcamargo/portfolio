@@ -42,7 +42,8 @@ export default [
     view: AngularJSToReactEN,
     url: {
       href: '/from-angular-js-to-react'
-    }
+    },
+    relationIds: ['ZlEeWEKqC', 'Qt7tQ7T6p']
   },
   {
     id: 'n9tDPwEHe',
@@ -54,7 +55,8 @@ export default [
     view: AngularJSToReactPT,
     url: {
       href: '/do-angular-js-para-react'
-    }
+    },
+    relationIds: ['_JEc2sLgc', 'gCHMAKMQG']
   },
   {
     id: 'KUvFu6bqS',
