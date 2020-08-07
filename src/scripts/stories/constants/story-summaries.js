@@ -1,3 +1,4 @@
+import { CleanSetupPT } from '@scripts/stories/views/clean-setup/clean-setup-pt';
 import { AngularJSToReactEN } from '@scripts/stories/views/angularjs-to-react/angularjs-to-react-en';
 import { AngularJSToReactPT } from '@scripts/stories/views/angularjs-to-react/angularjs-to-react-pt';
 import { InfluencesEN } from '@scripts/stories/views/influences/influences-en';
@@ -18,6 +19,19 @@ import { FormattingQualityEN } from '@scripts/stories/views/formatting-quality/f
 import { FormattingQualityPT } from '@scripts/stories/views/formatting-quality/formatting-quality-pt';
 
 export default [
+  {
+    id: '9QqUDDqm5',
+    created: '2020-08-06',
+    lang: 'pt',
+    title: 'Configuração limpa',
+    excerpt: 'Nasce então a oportunidade de caminhar por um campo intocado e verdejante. Uma estrada ainda livre de qualquer pedregulho. Enfim, é hora de começar uma nova, promissora e reluzente aplicação. O primeiro passo? Configurar a aplicação, claro. É nesse momento que decisões não tão interessantes podem rapidamente amarelar o lindo campo verdejante e largar as primeiras pedras sobre aquela lisa estrada.',
+    keywords: 'configuração, limpa, aurelia, weather now',
+    view: CleanSetupPT,
+    url: {
+      href: '/configuracao-limpa'
+    },
+    relationIds: ['_JEc2sLgc', 'gCHMAKMQG']
+  },
   {
     id: 'vQ53pL3Ab',
     created: '2020-08-01',
