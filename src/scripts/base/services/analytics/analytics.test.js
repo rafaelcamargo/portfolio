@@ -9,6 +9,12 @@ describe('Analytics Service', () => {
     setAttribute: jest.fn()
   };
 
+  function init({ analyticsEnabled = true } = {}) {
+    const envMock = { ...ENV };
+    envMock.ANALYTICS.ENABLED = analyticsEnabled;
+    analyticsService.init(envMock);
+  }
+
   beforeEach(() => {
     document.createElement = jest.fn(() => {
       return { setAttribute: createElementMock.setAttribute };
@@ -20,22 +26,23 @@ describe('Analytics Service', () => {
 
   afterEach(() => {
     delete window.dataLayer;
-    delete window.mixpanel;
+    mixpanelMock.init.mockClear();
+    mixpanelMock.track.mockClear();
     window.location.hash = '';
   });
 
   it('should init mixpanel on initialize', () => {
-    analyticsService.init();
+    init();
     expect(window.mixpanel.init).toHaveBeenCalledWith(ENV.ANALYTICS.MIXPANEL.TOKEN);
   });
 
   it('should get analytics thirdy party code asynchronously', () => {
-    analyticsService.init();
+    init();
     expect(createElementMock.setAttribute).toHaveBeenCalledWith('async', 'true');
   });
 
   it('should get analytics thirdy party code passing analytics id', () => {
-    analyticsService.init();
+    init();
     expect(createElementMock.setAttribute).toHaveBeenCalledWith(
       'src',
       `https://www.googletagmanager.com/gtag/js?id=${ENV.ANALYTICS.GOOGLE.ID}`
@@ -43,12 +50,12 @@ describe('Analytics Service', () => {
   });
 
   it('should append script tag to get analytics thirdy party code on head', () => {
-    analyticsService.init();
+    init();
     expect(typeof document.head.appendChild.mock.calls[0][0]).toEqual('object');
   });
 
   it('should configure analytics settings after append script tag on head', () => {
-    analyticsService.init();
+    init();
     expect(window.dataLayer[0][0]).toEqual('js');
     expect(window.dataLayer[0][1]).toEqual(dateMock);
     expect(window.dataLayer[1][0]).toEqual('config');
@@ -65,17 +72,37 @@ describe('Analytics Service', () => {
     expect(window.mixpanel.track).toHaveBeenCalledWith('page viewed', { path });
   });
 
+  it('should not track page view if environment does not allow it', () => {
+    const path = '/author';
+    init({ analyticsEnabled: false });
+    analyticsService.trackPageView(path);
+    expect(window.dataLayer).toEqual(undefined);
+    expect(window.mixpanel.track).not.toHaveBeenCalled();
+  });
+
   it('should send page view event track to mixpanel on initialize', () => {
-    analyticsService.init();
+    init();
     expect(window.mixpanel.track).toHaveBeenCalledWith('page viewed', {
       path: window.location.pathname
     });
   });
 
+  it('should not send page view event track to mixpanel on initialize if environment does not allow it', () => {
+    init({ analyticsEnabled: false });
+    expect(window.mixpanel.track).not.toHaveBeenCalled();
+  });
+
   it('should track event', () => {
     const eventName = 'mail link clicked';
     const data = { some: 'data' };
+    init();
     analyticsService.trackEvent(eventName, data);
     expect(window.mixpanel.track).toHaveBeenCalledWith(eventName, data);
+  });
+
+  it('should not track event if environment does not allow it', () => {
+    init({ analyticsEnabled: false });
+    analyticsService.trackEvent('mail link clicked', { some: 'data' });
+    expect(window.mixpanel.track).not.toHaveBeenCalled();
   });
 });

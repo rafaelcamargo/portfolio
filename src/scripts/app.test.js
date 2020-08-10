@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import AppRouter from './router';
+import ENV from '@environment';
 import app from './app';
 import analyticsService from '@scripts/base/services/analytics/analytics';
 
@@ -36,6 +37,6 @@ describe('App', () => {
   it('should initialize analytics service', () => {
     prepareDOM();
     app.init();
-    expect(analyticsService.init).toHaveBeenCalled();
+    expect(analyticsService.init).toHaveBeenCalledWith(ENV);
   });
 });

@@ -29,12 +29,16 @@ jobs:
           command: npm run format
 
       - run:
-          name: Build
-          command: NODE_ENV=production npm run build
-
-      - run:
           name: Test
           command: npm run test -- --maxWorkers=2 --coverage --coverageReporters=lcov && ./node_modules/codecov/bin/codecov
+
+      - run:
+          name: Pre Render
+          command: NODE_ENV=ci npm run build
+
+      - run:
+          name: Build
+          command: NODE_ENV=production npm run build
 
       - run:
           name: Deploy

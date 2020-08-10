@@ -3,6 +3,7 @@ export default {
     BASE_URL: 'https://rafaelcamargo.com'
   },
   ANALYTICS: {
+    ENABLED: true,
     GOOGLE: {
       BASE_URL: 'https://www.googletagmanager.com/gtag/js',
       ID: 'UA-24790056-1'

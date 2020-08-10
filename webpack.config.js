@@ -2,6 +2,17 @@ const merge = require('webpack-merge');
 const baseConfig = require('./webpack.conf.base');
 const devConfig = require('./webpack.conf.dev');
 const prodConfig = require('./webpack.conf.prod');
-const specificConfig = process.env.NODE_ENV == 'production' ? prodConfig : devConfig;
+const prerenderConfig = require('./webpack.conf.prerender');
 
-module.exports = merge(baseConfig, specificConfig);
+function getSpecificConfig(){
+  switch (process.env.NODE_ENV) {
+    case 'production':
+      return prodConfig;
+    case 'ci':
+      return prerenderConfig;
+    default:
+      return devConfig;
+  }
+}
+
+module.exports = merge(baseConfig, getSpecificConfig());
