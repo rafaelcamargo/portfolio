@@ -3,7 +3,9 @@ const Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
 const prodConfig = require('./webpack.conf.prod');
 const project = require('./project.json');
 
-prodConfig.plugins.push(
+const config = { ...prodConfig };
+
+config.plugins.push(
   new PrerenderSPAPlugin({
     staticDir: `${__dirname}/${project.scripts.dist.root}`,
     routes: [
@@ -49,4 +51,4 @@ prodConfig.plugins.push(
   })
 );
 
-module.exports = prodConfig;
+module.exports = config;
