@@ -34,7 +34,7 @@ jobs:
 
       - run:
           name: Pre Render
-          command: NODE_ENV=ci npm run build
+          command: NODE_ENV=prerender npm run build
 
       - run:
           name: Build

@@ -8,7 +8,7 @@ function getSpecificConfig(){
   switch (process.env.NODE_ENV) {
     case 'production':
       return prodConfig;
-    case 'ci':
+    case 'prerender':
       return prerenderConfig;
     default:
       return devConfig;

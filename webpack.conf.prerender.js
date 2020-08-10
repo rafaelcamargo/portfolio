@@ -3,10 +3,18 @@ const Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
 const prodConfig = require('./webpack.conf.prod');
 const project = require('./project.json');
 
-const config = { ...prodConfig };
+function buildConfig(){
+  const plugins = getProductionPlugins();
+  plugins.push(buildPrerenderPlugin());
+  return { ...prodConfig, plugins };
+}
 
-config.plugins.push(
-  new PrerenderSPAPlugin({
+function getProductionPlugins(){
+  return prodConfig.plugins.map(plugin => plugin);
+}
+
+function buildPrerenderPlugin(){
+  return new PrerenderSPAPlugin({
     staticDir: `${__dirname}/${project.scripts.dist.root}`,
     routes: [
       '/',
@@ -49,6 +57,6 @@ config.plugins.push(
       args: ['–no-sandbox', '–disable-setuid-sandbox']
     })
   })
-);
+}
 
-module.exports = config;
+module.exports = buildConfig();
