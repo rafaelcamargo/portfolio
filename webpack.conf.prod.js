@@ -4,6 +4,7 @@ const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const PrerenderSPAPlugin = require('prerender-spa-plugin');
 const Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
+const prerenderConfig = require('./webpack.conf.prerender');
 const project = require('./project.json');
 
 module.exports = {
@@ -33,35 +34,7 @@ module.exports = {
     }),
     new PrerenderSPAPlugin({
       staticDir: `${__dirname}/${project.scripts.dist.root}`,
-      routes: [
-        '/',
-        '/contact',
-        '/experience',
-        '/projects',
-        '/recommendations',
-        '/skills',
-        '/stories',
-        '/component-maturity-model',
-        '/modelo-de-maturidade-de-componentes',
-        '/bottles-and-principles-how-to-better-organize-css',
-        '/formatting-quality',
-        '/formatando-qualidade',
-        '/codigo-limpo',
-        '/clean-code',
-        '/trinta-e-sete',
-        '/thirty-seven',
-        '/developer-first-pt',
-        '/developer-first',
-        '/perolas-e-mariscos',
-        '/the-pearl-and-the-mussels',
-        '/incondicional-inhotim',
-        '/unconditional-inhotim',
-        '/influences',
-        '/do-angular-js-para-react',
-        '/from-angular-js-to-react',
-        '/configuracao-limpa',
-        '/clean-setup'
-      ],
+      routes: prerenderConfig.getRoutes(),
       minify: {
         collapseBooleanAttributes: true,
         collapseWhitespace: true,

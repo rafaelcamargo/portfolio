@@ -1,24 +1,35 @@
 import ENV from '@environment';
 import dateService from '@scripts/base/services/date/date';
+import searchParamsService from '@scripts/base/services/search-param/search-param';
 
 const _public = {};
 
 _public.init = () => {
-  const googleAnalyticsId = getGoogleAnalyticsId();
-  buildGoogleAnalyticsScriptTag(googleAnalyticsId);
-  configAnalytics(googleAnalyticsId);
-  window.mixpanel.init(ENV.ANALYTICS.MIXPANEL.TOKEN);
-  _public.trackEvent('page viewed', { path: window.location.pathname });
+  if(!isAnalyticsDisabled()) {
+    const googleAnalyticsId = getGoogleAnalyticsId();
+    buildGoogleAnalyticsScriptTag(googleAnalyticsId);
+    configAnalytics(googleAnalyticsId);
+    window.mixpanel.init(ENV.ANALYTICS.MIXPANEL.TOKEN);
+    _public.trackEvent('page viewed', { path: window.location.pathname });
+  }
 };
 
 _public.trackPageView = path => {
-  configAnalytics(getGoogleAnalyticsId(), path);
-  _public.trackEvent('page viewed', { path });
+  if(!isAnalyticsDisabled()) {
+    configAnalytics(getGoogleAnalyticsId(), path);
+    _public.trackEvent('page viewed', { path });
+  }
 };
 
 _public.trackEvent = (eventName, data) => {
-  window.mixpanel.track(eventName, data);
+  if(!isAnalyticsDisabled())
+    window.mixpanel.track(eventName, data);
 };
+
+function isAnalyticsDisabled(){
+  const { analytics } = searchParamsService.get();
+  return analytics === 'disabled';
+}
 
 function buildGoogleAnalyticsScriptTag(id){
   const tag = document.createElement('script');
