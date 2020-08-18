@@ -37,7 +37,7 @@ export class CleanSetupEN extends Component {
           I keep going with my <em>Aurelia Developer</em> career very excited
           until the moment a workmate warns me that the change I have just put
           in production seems not to be available for him. After clearing the
-          browser cache, the change raises on the screen. The inconvenient
+          browser cache, that change raises on the screen. The inconvenient
           sounds weird since every new application bundle had a new hash
           suffix on its filenames. Any kind of cache should not survive after
           that. Investigating a little deeper, I got convinced that there was a
@@ -50,7 +50,7 @@ export class CleanSetupEN extends Component {
         <p>
           So what to do? I got the idea of suffixing all the assets with a <em>
           timestamp</em> parameter at each new deploy. If the hash suffix does not
-          change, the parameter will force the cache invalidation. Great. With
+          change, that parameter will force the cache invalidation. Great. With
           the idea in my hands, I just needed to know in which file to write
           this. As soon as I see that all the application scripts were managed
           by the <em>Aurelia CLI</em> package, I discovered that I have no
@@ -66,25 +66,25 @@ export class CleanSetupEN extends Component {
         <p>
           During the time I worked at Conta Azul, I collaborated with new
           front-end developers hires. Besides planning and conducting interviews,
-          I screened many technical assessments we received from candidates
-          at some specific step of the process.
+          I evaluated many technical tasks we received from candidates at some
+          specific step of the process.
         </p>
         <p>
-          The assessment consisted of developing a tiny application called <ExternalLink href="https://weather-now-vue.web.app/">
-          Weather Now</ExternalLink> that only showed a topbar and the weather
-          for three preselected cities. Although very simple, that application
-          gave us total conditions to evaluate lots of skills we were looking
-          for. How the candidate would align the application cards. How he
-          would alternate their order on small screens. How much the final
+          The task consisted of developing a tiny application called <ExternalLink href="https://weather-now-vue.web.app/">
+          Weather Now</ExternalLink> that only showed a topbar and weather
+          stats for three preselected cities. Although very simple, that
+          application gave us total conditions to evaluate lots of skills we
+          were looking for. How the candidate would align the application cards.
+          How he would alternate their order on small screens. How much the final
           interface would match the mockup sent, how clean would be the code,
           how he would organize the files and directories and, finally, how he
           would set the application up.
         </p>
         <p>
           Several times I got frustrated with applications that have been
-          generated using commands like <em>au new</em>. In most cases, I could not even
-          see a configuration file. Those developers would probably face
-          difficulties even to explain which dependencies their application
+          generated using commands like <em>au new</em>. In most cases, I could
+          not even see a configuration file. Those developers would probably
+          face difficulties to even explain which dependencies their application
           really needed. Sometimes I found files that were not used by the
           application, but they were still there taking unnecessary space
           because the developer forgot to remove them.
