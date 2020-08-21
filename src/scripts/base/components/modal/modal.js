@@ -32,8 +32,7 @@ export class Modal extends Component {
 }
 
 function buildStyle(width){
-  if(width)
-    return { maxWidth: width };
+  return width ? { maxWidth: width } : {};
 }
 
 function buildTitle(title){
