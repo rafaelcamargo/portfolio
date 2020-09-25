@@ -80,7 +80,7 @@ export class FormattingQualityPT extends Component {
           sobre como organizo meu código. Nada impede que você faça uma entrega
           de sucesso hoje focando apenas em ter um código que satisfaça os
           requisitos especificados. Mas se preocupar em como organizar o
-          código antes mesmo de faze-lo satisfazer qualquer especificação
+          código antes mesmo de fazê-lo satisfazer qualquer especificação
           garantirá o sucesso da entrega de hoje e de todas as demais.
         </p>
         <StorySpacer />

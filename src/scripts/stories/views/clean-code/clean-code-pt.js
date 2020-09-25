@@ -72,7 +72,7 @@ export class CleanCodePT extends Component {
           Não tenha medo de dar nomes longos a variáveis, funções, arquivos e
           diretórios. Preocupe-se em dar a eles o significado que precisam ter.
           Um minuto investido em um bom nome pode poupar dez de quem precisará
-          interpreta-lo. Uma letra de cada vez, jamais uma única letra.
+          interpretá-lo. Uma letra de cada vez, jamais uma única letra.
         </p>
         <h2>
           Uma coisa. Uma coisa só. Uma coisa apenas.
@@ -110,10 +110,10 @@ export class CleanCodePT extends Component {
         </Quote>
         <p>
           A única certeza que podemos ter em relação a comentários é que a
-          máquina irá ignora-los. Comentários não podem ser testados.
+          máquina irá ignorá-los. Comentários não podem ser testados.
           Não podendo ser testados, podem rapidamente se tornar desatualizados.
           Uma vez desatualizados, a única certeza que podemos ter é que o
-          desenvolvedor irá ignora-los.
+          desenvolvedor irá ignorá-los.
         </p>
         <p>
           Se em algum momento você se pegar escrevendo um comentário na
@@ -149,7 +149,7 @@ export class CleanCodePT extends Component {
           código e verifica se a nomenclatura escolhida continua fazendo
           sentido. Se linhas de código podem ser removidas. Se a implementação
           pode ser mais limpa, mais clara. Se você não envia um email tão logo
-          termina de escreve-lo, por quê consideraria a implementação concluída
+          termina de escrevê-lo, por quê consideraria a implementação concluída
           tão logo ela funcione?
         </p>
         <p>
