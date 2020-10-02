@@ -9,7 +9,7 @@ jobs:
       - image: circleci/node:12-browsers
 
     steps:
-      - checkout
+      - to checkout
       # Download and cache dependencies
       - restore_cache:
           keys:
