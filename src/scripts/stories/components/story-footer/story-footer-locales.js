@@ -1,10 +1,10 @@
 export default {
   en: {
-    newsletter: 'Once a month, you get an email with the latest stories.',
+    newsletter: 'Stay tunned on my latest projects and stories.',
     newsletterLink: 'Subscribe'
   },
   pt: {
-    newsletter: 'Todo mês, um email com os últimos textos publicados.',
+    newsletter: 'Fique ligado nos meus mais recentes textos e projetos.',
     newsletterLink: 'Inscreva-se'
   }
 }
