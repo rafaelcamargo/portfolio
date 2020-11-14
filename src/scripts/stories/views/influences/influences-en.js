@@ -194,6 +194,11 @@ export class InfluencesEN extends Component {
               Digital pollution
             </ExternalLink>, <em>Derek Sivers</em>
           </li>
+          <li>
+            <ExternalLink href="https://pingr.io/blog/having-170-competitors-is-not-an-obstacle/">
+              Having 170 competitors is not an obstacle
+            </ExternalLink>, <em>Victor Ponamariov</em>
+          </li>
         </ul>
       </StoryViewport>
     );
