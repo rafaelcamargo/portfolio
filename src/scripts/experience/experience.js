@@ -54,8 +54,8 @@ export class Experience extends Component {
           <Row offset="10">
             <Col size="6">
               <Avatron
-                image="logo-rd.png"
-                title="Resultados Digitais"
+                image="logo-rd.jpeg"
+                title="RD Station"
                 subtitle="Apr.2020 - Present"
                 url="https://www.rdstation.com/en/"
                 badgeText="Remote"
@@ -64,10 +64,11 @@ export class Experience extends Component {
             <Col size="6">
               <h3>The Company</h3>
               <p>
-                Resultados Digitais was founded in Brazil in 2011 to help medium
-                and small enterprises understand and leverage the benefits of
-                Digital Marketing. RD Station allows them to achieve real and
-                long-lasting results for their businesses.
+                RD Station, previously <em>Resultados Digitais</em>, was
+                founded in Brazil in 2011 to help medium and small companies
+                understand and leverage the benefits of Digital Marketing. <em>
+                RD Station Marketing</em> and <em>RD Station CRM</em> allow them
+                to achieve real and long-lasting results for their businesses.
               </p>
               <h3>My Role</h3>
               <p>
@@ -123,7 +124,7 @@ export class Experience extends Component {
               <h3>My Role</h3>
               <p>
                 Among a lot of features developed in almost 5 years at Conta
-                Azul, I contributed with a few projects that I am very proud
+                Azul, I contributed to a few projects that I am very proud
                 of. In 2017, I had the opportunity to collaborate with an
                 internal product as the only front-end in the team.
                 I was 100% responsible for designing all the web app views
@@ -189,9 +190,8 @@ export class Experience extends Component {
                 In a brief period at JobScore, I had the opportunity to
                 collaborate on its website redesign, and its later
                 improvements. Also, I introduced the AMD concept to the
-                JavaScript code, making it modular, reusable and, more
-                important, fully testable. JobScore was also the place where
-                I first touched Ruby on Rails.
+                JavaScript code, making it modular, reusable and fully testable.
+                JobScore was also the place where I first touched Ruby on Rails.
               </p>
             </Col>
           </Row>
@@ -211,7 +211,7 @@ export class Experience extends Component {
                 of the activities I did include the "translation" of CSS
                 stylesheets to LESS stylesheets intending to apply themes to
                 the product through a set of variables besides daily
-                contributions on the implementation of new features.
+                contributions to the implementation of new features.
               </p>
               <p>
                 I was responsible for creating the first company's style guide
