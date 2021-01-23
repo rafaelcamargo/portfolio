@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-import { Button } from '@scripts/base/components/button/button';
-import { Col } from '@scripts/base/components/col/col';
-import { Field } from '@scripts/base/components/field/field';
-import { Form } from '@scripts/base/components/form/form';
-import { Row } from '@scripts/base/components/row/row';
+import { Row, Col, Button, Field, Form, Input } from '@glorious/taslonic/react';
 import newsletterResource from '@scripts/newsletter/resources/newsletter';
 import locales from './newsletter-form-locales';
 
@@ -18,8 +14,7 @@ export class NewsletterForm extends Component {
     this.texts = texts;
   };
 
-  onFormDataChange = ({ target }) => {
-    const { name, value } = target;
+  onFormDataChange = ({ target: { name, value } }) => {
     this.setState({ [name]: value });
   };
 
@@ -37,20 +32,7 @@ export class NewsletterForm extends Component {
   };
 
   onSubmitSuccess = () => {
-    this.setSuccessMessage(this.texts.successMessage);
-    this.setState({ name: '', email: '', errorMessage: '' });
-  };
-
-  onSubmitError = () => {
-    this.setErrorMessage(this.texts.errorMessage);
-  };
-
-  setErrorMessage = errorMessage => {
-    this.setState({ errorMessage })
-  };
-
-  setSuccessMessage = successMessage => {
-    this.setState({ successMessage })
+    this.setState({ name: '', email: '' });
   };
 
   render(){
@@ -59,25 +41,35 @@ export class NewsletterForm extends Component {
         <Form
           onSubmit={ this.onSubmit }
           onSubmitSuccess={ this.onSubmitSuccess }
-          onSubmitError={ this.onSubmitError }
-          errorMessage={ this.state.errorMessage }
-          successMessage={ this.state.successMessage }>
+          submitSuccessTitle={ this.texts.successTitle }
+          submitSuccessMessage={ this.texts.successMessage }
+          submitErrorMessage={ this.texts.errorMessage }>
           <Row>
-            <Col size="12">
-              <Field label={ this.texts.name }>
-                <input name="name" onChange={ this.onFormDataChange } required />
+            <Col>
+              <Field label={ this.texts.name } block>
+                <Input
+                  name="name"
+                  value={ this.state.name }
+                  onChange={ this.onFormDataChange }
+                  required
+                  block />
               </Field>
             </Col>
           </Row>
           <Row>
-            <Col size="12">
-              <Field label={ this.texts.email }>
-                <input name="email" onChange={ this.onFormDataChange } required />
+            <Col>
+              <Field label={ this.texts.email } block>
+                <Input
+                  name="email"
+                  value={ this.state.email }
+                  onChange={ this.onFormDataChange }
+                  required
+                  block />
               </Field>
             </Col>
           </Row>
           <Row>
-            <Col size="12">
+            <Col>
               <Button type="submit" theme="primary" block>
                 { this.texts.subscribe }
               </Button>

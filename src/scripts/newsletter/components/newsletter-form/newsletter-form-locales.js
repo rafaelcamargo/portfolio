@@ -3,14 +3,16 @@ export default {
     name: 'Name',
     email: 'Email Address',
     subscribe: 'Subscribe',
-    successMessage: 'Thank you!',
+    successTitle: 'Thank you!',
+    successMessage: 'You\'re now subscribed to receive my latest updates.',
     errorMessage: 'Sorry, something went wrong. Please, try again.'
   },
   pt: {
     name: 'Nome',
     email: 'Email',
     subscribe: 'Inscrever-se',
-    successMessage: 'Obrigado!',
+    successTitle: 'Obrigado!',
+    successMessage: 'Você está inscrito para receber minhas últimas atualizações.',
     errorMessage: 'Algo deu errado. Por favor, tente novamente.'
   }
 }
