@@ -1,3 +1,4 @@
+import '@glorious/taslonic/taslonic.css';
 import '@styles/_native.styl';
 import React from 'react';
 import ReactDOM from 'react-dom';
