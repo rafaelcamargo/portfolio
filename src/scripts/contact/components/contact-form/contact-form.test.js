@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { Form } from '@scripts/base/components/form/form';
+import { Form, Input, Textarea } from '@glorious/taslonic/react';
 import { ContactForm } from '@scripts/contact/components/contact-form/contact-form';
 import contactResource from '@scripts/contact/resources/contacts';
 
@@ -11,10 +11,8 @@ describe('Contact Form', () => {
     );
   }
 
-  function setFieldValue(wrapper, fieldSelector, value){
-    const field = wrapper.find(fieldSelector);
-    const { name } = field.getElement().props;
-    field.simulate('change', { target: { name, value } });
+  function mockFormControlEvent(name, value){
+    return { target: { name, value } };
   }
 
   beforeEach(() => {
@@ -27,34 +25,39 @@ describe('Contact Form', () => {
   });
 
   it('should send contact on submit', () => {
+    const name = 'Rafael';
+    const email = 'some@email.com';
+    const subject = 'Some subject';
+    const message = 'Some message';
     const wrapper = mount();
-    setFieldValue(wrapper, 'input[name="name"]', 'Rafael');
-    setFieldValue(wrapper, 'input[name="email"]', 'some@email.com');
-    setFieldValue(wrapper, 'input[name="subject"]', 'Contact');
-    setFieldValue(wrapper, 'textarea[name="message"]', 'Hello!');
+    wrapper.find(Input).at(0).simulate('change', mockFormControlEvent('name', name))
+    wrapper.find(Input).at(1).simulate('change', mockFormControlEvent('email', email))
+    wrapper.find(Input).at(2).simulate('change', mockFormControlEvent('subject', subject))
+    wrapper.find(Textarea).at(0).simulate('change', mockFormControlEvent('message', message))
     wrapper.find(Form).prop('onSubmit')();
     expect(contactResource.send).toHaveBeenCalledWith({
       to: 'vervetapp@gmail.com',
-      name: 'Rafael',
-      email: 'some@email.com',
-      subject: 'Contact',
-      message: 'Hello!'
+      name,
+      email,
+      subject,
+      message
     });
   });
 
-  it('should set success message on submit success', () => {
-    const message = 'Thanks for your contact, I\'ll reply to you soon!';
+  it('should clear form controls on submit success', () => {
+    const name = 'Rafael';
+    const email = 'some@email.com';
+    const subject = 'Some subject';
+    const message = 'Some message';
     const wrapper = mount();
-    expect(wrapper.find(Form).prop('successMessage')).toEqual(undefined);
+    wrapper.find(Input).at(0).simulate('change', mockFormControlEvent('name', name))
+    wrapper.find(Input).at(1).simulate('change', mockFormControlEvent('email', email))
+    wrapper.find(Input).at(2).simulate('change', mockFormControlEvent('subject', subject))
+    wrapper.find(Textarea).at(0).simulate('change', mockFormControlEvent('message', message))
     wrapper.find(Form).prop('onSubmitSuccess')();
-    expect(wrapper.find(Form).prop('successMessage')).toEqual(message);
-  });
-
-  it('should set error message on submit error', () => {
-    const message = `Sorry, something went wrong. Please, try again or send an email to vervetapp@gmail.com`;
-    const wrapper = mount();
-    expect(wrapper.find(Form).prop('errorMessage')).toEqual(undefined);
-    wrapper.find(Form).prop('onSubmitError')();
-    expect(wrapper.find(Form).prop('errorMessage')).toEqual(message);
+    expect(wrapper.find(Input).at(0).prop('value')).toEqual('')
+    expect(wrapper.find(Input).at(1).prop('value')).toEqual('')
+    expect(wrapper.find(Input).at(2).prop('value')).toEqual('')
+    expect(wrapper.find(Textarea).at(0).prop('value')).toEqual('')
   });
 });
