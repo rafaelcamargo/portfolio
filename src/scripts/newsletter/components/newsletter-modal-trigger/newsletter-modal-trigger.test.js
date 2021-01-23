@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import modalService from '@scripts/base/services/modal/modal';
+import { dialog } from '@glorious/taslonic/react';
 import { Button } from '@scripts/base/components/button/button';
 import { NewsletterForm } from '@scripts/newsletter/components/newsletter-form/newsletter-form';
 import { NewsletterModalTrigger } from './newsletter-modal-trigger';
@@ -27,10 +27,10 @@ describe('Newsletter Modal Trigger', () => {
   });
 
   it('should open newsletter modal on click', () => {
-    modalService.open = jest.fn();
+    dialog.open = jest.fn();
     const wrapper = mount();
     wrapper.find(Button).simulate('click');
-    expect(modalService.open).toHaveBeenCalledWith({
+    expect(dialog.open).toHaveBeenCalledWith({
       title: 'Newsletter',
       content: <NewsletterForm />,
       width: '350px'
