@@ -18,7 +18,6 @@ export class ContactForm extends Component {
   onSubmit = () => {
     const { name, email, message, subject } = this.state;
     return contactResource.send({
-      to: getRecipientEmailAddress(),
       name,
       email,
       subject,
@@ -108,11 +107,10 @@ export class ContactForm extends Component {
               </Col>
             </Row>
         </Form>
+        <p class="r-contact-form-credits">
+          Powered by <a href="https://web.formpie.dev" target="_blank">Formpie</a>.
+        </p>
       </div>
     );
   }
-}
-
-function getRecipientEmailAddress(){
-  return ENV.VERVET.PROJECTS.MAILER.RECIPIENT;
 }
