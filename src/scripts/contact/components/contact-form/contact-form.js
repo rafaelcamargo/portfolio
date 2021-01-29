@@ -2,6 +2,7 @@ import '@styles/contact-form.styl';
 import ENV from '@environment';
 import React, { Component } from 'react';
 import { Row, Col, Button, Field, Form, Input, Textarea } from '@glorious/taslonic/react';
+import emailService from '@scripts/base/services/email/email';
 import contactResource from '@scripts/contact/resources/contacts';
 
 export class ContactForm extends Component {
@@ -68,6 +69,7 @@ export class ContactForm extends Component {
                     name="email"
                     value={ this.state.email }
                     onChange={ this.onFormDataChange }
+                    validations={ emailService.getValidations() }
                     required
                     block />
                 </Field>
@@ -107,7 +109,7 @@ export class ContactForm extends Component {
               </Col>
             </Row>
         </Form>
-        <p class="r-contact-form-credits">
+        <p className="r-contact-form-credits">
           Powered by <a href="https://web.formpie.dev" target="_blank">Formpie</a>.
         </p>
       </div>

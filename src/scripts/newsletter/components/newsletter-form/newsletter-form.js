@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Row, Col, Button, Field, Form, Input } from '@glorious/taslonic/react';
+import emailService from '@scripts/base/services/email/email';
 import newsletterResource from '@scripts/newsletter/resources/newsletter';
 import locales from './newsletter-form-locales';
 
@@ -63,6 +64,7 @@ export class NewsletterForm extends Component {
                   name="email"
                   value={ this.state.email }
                   onChange={ this.onFormDataChange }
+                  validations={ emailService.getValidations() }
                   required
                   block />
               </Field>
