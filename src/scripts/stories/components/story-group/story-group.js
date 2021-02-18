@@ -5,7 +5,9 @@ export class StoryGroup extends Component {
   render() {
     return (
       <div className="r-story-group">
-        <h2>{ this.props.title }</h2>
+        <div className="r-story-group-title" data-story-group-title>
+          { this.props.title }
+        </div>
         { this.props.children }
       </div>
     );

@@ -13,7 +13,7 @@ export class Footer extends Component {
         <div
           className="r-footer-section r-footer-section-skills"
           data-footer-section-skills>
-          <h4>Skills</h4>
+          <h3>Skills</h3>
           <div className="r-footer-keywords-container">
             { buildKeywords('skill') }
           </div>
@@ -21,7 +21,7 @@ export class Footer extends Component {
         <div
           className="r-footer-section r-footer-section-projects"
           data-footer-section-projects>
-          <h4>Projects</h4>
+          <h3>Projects</h3>
           <div className="r-footer-keywords-container">
             { buildKeywords('project') }
           </div>
@@ -29,7 +29,7 @@ export class Footer extends Component {
         <div
           className="r-footer-section r-footer-section-experience"
           data-footer-section-experience>
-          <h4>Experience</h4>
+          <h3>Experience</h3>
           <div className="r-footer-keywords-container">
             { buildKeywords('experience') }
           </div>
@@ -37,7 +37,7 @@ export class Footer extends Component {
         <div
           className="r-footer-section r-footer-section-social"
           data-footer-section-social>
-          <h4>Social</h4>
+          <h3>Social</h3>
           <div className="r-footer-keywords-container">
             { buildSocialKeywords(getSocialNetworks()) }
           </div>

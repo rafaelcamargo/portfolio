@@ -5,7 +5,7 @@ import { Avatron } from '@scripts/base/components/avatron/avatron';
 import { Badge } from '@scripts/base/components/badge/badge';
 import { ExternalLink } from '@scripts/base/components/external-link/external-link';
 
-describe('Icon', () => {
+describe('Avatron', () => {
   function mount(props = {}){
     return shallow(
       <Avatron
@@ -56,7 +56,7 @@ describe('Icon', () => {
   it('should render a subtitle', () => {
     const subtitle = 'Hello Subtitle!';
     const wrapper = mount({ subtitle });
-    expect(wrapper.find('h3').text()).toEqual(subtitle);
+    expect(wrapper.find('[data-avatron-subtitle]').text()).toEqual(subtitle);
   });
 
   it('should not render a badge by default', () => {
@@ -73,6 +73,6 @@ describe('Icon', () => {
   it('should optionally render a caption', () => {
     const caption = 'Some Text';
     const wrapper = mount({ caption });
-    expect(wrapper.find('h4').text()).toEqual(caption);
+    expect(wrapper.find('[data-avatron-caption]').text()).toEqual(caption);
   });
 });

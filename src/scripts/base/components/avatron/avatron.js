@@ -13,7 +13,9 @@ export class Avatron extends Component {
           <h2>
             { buildTitle(this.props.title, this.props.url) }
           </h2>
-          <h3>{ this.props.subtitle }{ buildBadge(this.props.badgeText) }</h3>
+          <div className="r-avatron-subtitle" data-avatron-subtitle>
+            { this.props.subtitle }{ buildBadge(this.props.badgeText) }
+          </div>
           { buildCaption(this.props.caption) }
         </div>
       </div>
@@ -34,5 +36,5 @@ function buildBadge(text){
 }
 
 function buildCaption(caption){
-  return caption ? <h4>{ caption }</h4> : null;
+  return caption ? <div className="r-avatron-caption" data-avatron-caption>{ caption }</div> : null;
 }

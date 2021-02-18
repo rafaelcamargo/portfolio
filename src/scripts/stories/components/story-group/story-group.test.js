@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import { StoryGroup } from '@scripts/stories/components/story-group/story-group';
 
-describe('Story Summary List', () => {
+describe('Story Group', () => {
   function mount(props = {}){
     return shallow(
       <StoryGroup title={ props.title }>
@@ -19,7 +19,7 @@ describe('Story Summary List', () => {
   it('should render a title', () => {
     const title = 'Featured';
     const wrapper = mount({ title });
-    expect(wrapper.find('h2').text()).toEqual(title);
+    expect(wrapper.find('[data-story-group-title]').text()).toEqual(title);
   });
 
   it('should render children', () => {

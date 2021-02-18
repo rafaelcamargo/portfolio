@@ -26,7 +26,7 @@ export class Recommendation extends Component {
                 })
               }
             </h2>
-            <h3>
+            <div className="r-recommendation-subtitle">
               {
                 buildCurrentCompanyInfo({
                   position: this.state.data.personPosition,
@@ -40,7 +40,7 @@ export class Recommendation extends Component {
                   url: this.state.data.formerCompanyUrl
                 })
               }
-            </h3>
+            </div>
           </div>
         </div>
         <blockquote className="r-recommendation-body">

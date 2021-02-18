@@ -6,7 +6,7 @@ import { StorySummary } from '@scripts/stories/components/story-summary/story-su
 import { Time } from '@scripts/base/components/time/time';
 import storiesMock from '@scripts/stories/mocks/stories';
 
-describe('Story Summary List', () => {
+describe('Story Summary', () => {
   function mount(props = {}){
     return shallow(<StorySummary summary={ props.summary } />);
   }

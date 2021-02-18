@@ -10,9 +10,9 @@ export class StorySummary extends Component {
     return (
       <div className="r-story-summary" lang={ lang }>
         <main>
-          <h3>
+          <h2>
             { buildLink(url, title) }
-          </h3>
+          </h2>
           <Time dateTime={ created } lang={ lang } />
           <p>
             { handleExcerptLength(excerpt) }
