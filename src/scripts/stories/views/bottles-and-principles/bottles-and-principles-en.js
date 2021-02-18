@@ -234,8 +234,8 @@ export class BottlesAndPrinciplesEN extends Component {
         </h2>
         <p>
           Are you curious to see this concept applied in a real project? Check
-          out one of my open-source projects called <a href="https://glorious.codes/demo" target="_blank">
-          Glorious Demo</a>. As commented in this story, each one of those <a href="https://github.com/glorious-codes/glorious-demo/tree/master/src/styles" target="_blank">
+          out one of my open-source projects called <a href="https://glorious.codes/demo" rel="noreferrer" target="_blank">
+          Glorious Demo</a>. As commented in this story, each one of those <a href="https://github.com/glorious-codes/glorious-demo/tree/master/src/styles" rel="noreferrer" target="_blank">
           style sheets</a> represents one single object and always keep themselves
           open for extension.
         </p>

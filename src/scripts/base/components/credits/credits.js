@@ -6,9 +6,9 @@ export class Credits extends Component {
     return (
       <div className="r-credits">
         <p>
-          This is an <a href="https://github.com/rafaelcamargo/portfolio" target="_blank">
+          This is an <a href="https://github.com/rafaelcamargo/portfolio" rel="noreferrer" target="_blank">
           open-source website</a>. Lots of UI components here are powered
-          by <a href="https://taslonic.com" target="_blank">Taslonic</a>.
+          by <a href="https://taslonic.com" rel="noreferrer" target="_blank">Taslonic</a>.
         </p>
       </div>
     );

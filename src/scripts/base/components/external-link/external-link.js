@@ -23,6 +23,7 @@ export class ExternalLink extends Component {
           href={ this.props.href }
           onClick={ this.onClick }
           lang={ this.props.lang }
+          rel="noreferrer"
           target="_blank">
           { this.props.children }
         </a>

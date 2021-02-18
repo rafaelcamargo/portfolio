@@ -66,7 +66,7 @@ function buildKeywordCrumb(name, url, { isExternalUrl } = {}){
 }
 
 function buildKeywordLink(name, url, isExternalUrl){
-  return !isExternalUrl ? buildInternalLink(url, name) : <a href={ url } target="_blank">{ name }</a>;
+  return !isExternalUrl ? buildInternalLink(url, name) : <a href={ url } rel="noreferrer" target="_blank">{ name }</a>;
 }
 
 function buildInternalLink(url, name){

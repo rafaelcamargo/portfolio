@@ -22,7 +22,7 @@ function buildLink({ to, href, text }, onClick){
 }
 
 function buildAnchor(href, text, onClick){
-  return <a href={ href } onClick={ onClick } target="_blank">{ text }</a>;
+  return <a href={ href } onClick={ onClick } rel="noreferrer" target="_blank">{ text }</a>;
 }
 
 function buildRouterLink(to, text){

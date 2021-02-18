@@ -37,10 +37,10 @@ export class Projects extends Component {
                   ctaText="See The Code">
                   The easiest way of creating animations to show your code in
                   action. Glorious Demo is open-source, has been featured
-                  on sites like <a href="https://news.ycombinator.com/item?id=18363668" target="_blank">
-                  Hacker News</a> and <a href="https://www.reddit.com/r/javascript/comments/cavci6/the_easiest_way_of_creating_animations_to_show/" target="_blank">
+                  on sites like <a href="https://news.ycombinator.com/item?id=18363668" rel="noreferrer" target="_blank">
+                  Hacker News</a> and <a href="https://www.reddit.com/r/javascript/comments/cavci6/the_easiest_way_of_creating_animations_to_show/" rel="noreferrer" target="_blank">
                   Reddit</a>, and got the <b>Product of the Day</b> badge
-                  on <a href="https://www.producthunt.com/posts/glorious-demo" target="_blank">
+                  on <a href="https://www.producthunt.com/posts/glorious-demo" rel="noreferrer" target="_blank">
                   Product Hunt</a>.
                 </Project>
                 <Project

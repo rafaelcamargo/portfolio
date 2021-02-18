@@ -35,6 +35,7 @@ export class Skills extends Component {
                 way I write software. Among these concepts are <b>Clean Code
                 </b>, <b>SOLID</b>, the <b>three laws of TDD</b>, and this <a
                   href="https://blog.cleancoder.com/uncle-bob/2011/01/17/software-craftsmanship-is-about.html"
+                  rel="noreferrer"
                   target="_blank">
                   blog post
                 </a> on <b>Software Craftsmanship</b> written by Robert Martin.

@@ -110,7 +110,7 @@ export class ContactForm extends Component {
             </Row>
         </Form>
         <p className="r-contact-form-credits">
-          Powered by <a href="https://web.formpie.dev" target="_blank">Formpie</a>.
+          Powered by <a href="https://web.formpie.dev" rel="noreferrer" target="_blank">Formpie</a>.
         </p>
       </div>
     );

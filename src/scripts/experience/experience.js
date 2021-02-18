@@ -38,15 +38,15 @@ export class Experience extends Component {
               <p>
                 I am very proud of having offered to the JavaScript community
                 a few open-source libraries. I especially highlight <a
-                href="https://glorious.codes/demo" target="_blank">Glorious Demo
+                href="https://glorious.codes/demo" rel="noreferrer" target="_blank">Glorious Demo
                 </a> that, beyond to be tweeted by <a
-                href="https://twitter.com/zenorocha/status/1057275408935194625"
-                target="_blank">Zeno Rocha</a>, <a href="https://twitter.com/css/status/1060325303459962882" target="_blank">
-                CSS Tricks</a> and <a href="https://twitter.com/0310lan/status/1085420922159300608" target="_blank">
-                まさとらん</a>, got dozens of upvotes on <a href="https://news.ycombinator.com/item?id=18363668" target="_blank">
+                href="https://twitter.com/zenorocha/status/1057275408935194625" rel="noreferrer"
+                target="_blank">Zeno Rocha</a>, <a href="https://twitter.com/css/status/1060325303459962882" rel="noreferrer" target="_blank">
+                CSS Tricks</a> and <a href="https://twitter.com/0310lan/status/1085420922159300608" rel="noreferrer" target="_blank">
+                まさとらん</a>, got dozens of upvotes on <a href="https://news.ycombinator.com/item?id=18363668" rel="noreferrer" target="_blank">
                 Hacker News</a> and <a href="https://www.reddit.com/r/javascript/comments/cavci6/the_easiest_way_of_creating_animations_to_show/" target="_blank">
                 Reddit</a>, and has been featured as <b>Product of the Day
-                </b> on <a href="https://www.producthunt.com/posts/glorious-demo" target="_blank">
+                </b> on <a href="https://www.producthunt.com/posts/glorious-demo" rel="noreferrer" target="_blank">
                 Product Hunt</a>.
               </p>
             </Col>
@@ -72,7 +72,7 @@ export class Experience extends Component {
               </p>
               <h3>My Role</h3>
               <p>
-                Helping to maintain and improve the <a href="https://www.rdstation.com/crm/" target="_blank">
+                Helping to maintain and improve the <a href="https://www.rdstation.com/crm/" rel="noreferrer" target="_blank">
                 RD Station CRM</a> product.
               </p>
             </Col>
@@ -136,8 +136,8 @@ export class Experience extends Component {
                 began to disseminate the component-based architecture
                 inside the company, at guilds and front-end discussions, and
                 outside the company, writing an article entitled <b>Components
-                beyond reuse</b> published in Portuguese on <a href="https://tableless.com.br/componentes-alem-do-reuso/" target="_blank">
-                Tableless</a> and in English on <a href="https://hackernoon.com/components-beyond-reuse-6cef6848a748" target="_blank">
+                beyond reuse</b> published in Portuguese on <a href="https://tableless.com.br/componentes-alem-do-reuso/" rel="noreferrer" target="_blank">
+                Tableless</a> and in English on <a href="https://hackernoon.com/components-beyond-reuse-6cef6848a748" rel="noreferrer" target="_blank">
                 Hackernoon</a>.
               </p>
               <p>
@@ -151,7 +151,7 @@ export class Experience extends Component {
               </p>
               <p>
                 Focusing on <b>high-quality</b> - <i>clean code and automated tests
-                </i> - and <b>productivity</b>, our components <a href="https://twitter.com/rcamargo/status/1152288995524644866" target="_blank">have
+                </i> - and <b>productivity</b>, our components <a href="https://twitter.com/rcamargo/status/1152288995524644866" rel="noreferrer" target="_blank">have
                 saved hours of programming time</a> and has contributed to
                 increasing the consistency of user experience along with the application.
               </p>
@@ -159,7 +159,7 @@ export class Experience extends Component {
                 Beyond delivering some great results to the product and to the
                 company, I have <b>created our own documentation tool</b>. We
                 struggled to have one documentation only, containing our legacy
-                and current components (AngularJS/Vue). <a href="https://pitsby.com" target="_blank">
+                and current components (AngularJS/Vue). <a href="https://pitsby.com" rel="noreferrer" target="_blank">
                 Pitsby</a> solved our problem once and for all. It’s open-source
                 and has even helped to improve the experience of developing new
                 components as well as increasing the component library adoption
@@ -236,9 +236,9 @@ export class Experience extends Component {
             <Col size="6">
               <p>
                 From 2006 to 2013 I worked for few advertising agencies.
-                Some of the works that I did can still be seen on my <a href="https://www.behance.net/rafaelcamargo" target="_blank">
+                Some of the works that I did can still be seen on my <a href="https://www.behance.net/rafaelcamargo" rel="noreferrer" target="_blank">
                 Behance</a> profile. I have been doing graphic design for a few hobby
-                projects too. The latest work can be seen on my <a href="https://dribbble.com/rcamargo" target="_blank">
+                projects too. The latest work can be seen on my <a href="https://dribbble.com/rcamargo" rel="noreferrer" target="_blank">
                 Dribbble</a> profile.
               </p>
             </Col>

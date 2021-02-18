@@ -17,7 +17,7 @@ function buildLink(to, href, onClick, text){
   const arrow = <Icon name="arrow" />;
   return to ?
     <Link to={ to }>{ text }{ arrow }</Link> :
-    <a href={ href } target="_blank" onClick={ onClick }>{ text }{ arrow }</a>;
+    <a href={ href } target="_blank" rel="noreferrer" onClick={ onClick }>{ text }{ arrow }</a>;
 }
 
 function buildText(text){
