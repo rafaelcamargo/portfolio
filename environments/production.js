@@ -11,9 +11,6 @@ export default {
       TOKEN: '632e28e733689d085cfaaf0d57cf210a'
     }
   },
-  FORMPIE: {
-    BASE_URL: 'https://api.formpie.dev/answer/924e9e2f-56bb-4e36-a5d2-106cd2c4abe7'
-  },
   VERVET: {
     BASE_URL: 'https://vervetapp.herokuapp.com',
     PROJECTS: {

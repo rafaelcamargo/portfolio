@@ -1,10 +1,10 @@
 import ENV from '@environment';
-import baseResource from '@scripts/base/resources/base';
+import vervetResource from '@scripts/base/resources/vervet';
 
 const _public = {};
 
-_public.send = data => {
-  return baseResource.post(ENV.FORMPIE.BASE_URL, data);
+_public.send = message => {
+  return vervetResource.post(ENV.VERVET.PROJECTS.MAILER.ID, 'messages', message);
 };
 
 export default _public;

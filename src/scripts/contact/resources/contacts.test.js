@@ -1,18 +1,18 @@
-import ENV from '@environment';
-import baseResource from '@scripts/base/resources/base';
+import vervetResource from '@scripts/base/resources/vervet';
 import contactsResource from './contacts';
 
 describe('Contacts Resource', () => {
   beforeEach(() => {
-    baseResource.post = jest.fn();
+    vervetResource.post = jest.fn();
   });
 
   it('should send a message', () => {
-    const data = { some: 'data' };
-    contactsResource.send(data);
-    expect(baseResource.post).toHaveBeenCalledWith(
-      ENV.FORMPIE.BASE_URL,
-      data
+    const message = { some: 'message' };
+    contactsResource.send(message);
+    expect(vervetResource.post).toHaveBeenCalledWith(
+      '11cec322-625b-49af-9add-a20bcfa66c7e',
+      'messages',
+      message
     );
   });
 });

@@ -36,6 +36,7 @@ describe('Contact Form', () => {
     wrapper.find(Textarea).at(0).simulate('change', mockFormControlEvent('message', message))
     wrapper.find(Form).prop('onSubmit')();
     expect(contactResource.send).toHaveBeenCalledWith({
+      to: 'vervetapp@gmail.com',
       name,
       email,
       subject,
