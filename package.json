@@ -52,7 +52,7 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
-    "@glorious/taslonic": "^1.1.2",
+    "@glorious/taslonic": "^1.3.0",
     "axios": "^0.21.1",
     "query-string": "^6.13.1",
     "react": "^16.12.0",
