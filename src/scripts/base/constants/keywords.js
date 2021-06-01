@@ -31,10 +31,13 @@ export default [
   { name: "Bcredi", type: "experience" },
   { name: "Conta Azul", type: "experience" },
   { name: "JobScore", type: "experience" },
-  { name: "Glorious Demo", type: "project" },
+  { name: "Typenik", type: "project" },
+  { name: "Taslonic", type: "project" },
   { name: "Pitsby", type: "project" },
-  { name: "Nashios", type: "project" },
-  { name: "Woblast", type: "project" },
+  { name: "Glorious Demo", type: "project" },
   { name: "Weather Now", type: "project" },
-  { name: "Teleflik", type: "project" }
+  { name: "Woblast", type: "project" },
+  { name: "Nashios", type: "project" },
+  { name: "Teleflik", type: "project" },
+  { name: "Dollert", type: "project" }
 ];

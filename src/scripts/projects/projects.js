@@ -28,6 +28,39 @@ export class Projects extends Component {
             <Col size="12">
               <ProjectList>
                 <Project
+                  image="logo-typenik.svg"
+                  title="Typenik"
+                  subtitle="2021"
+                  url="https://typenik.com">
+                  Typenik is an English Augmented Dictionary for non-native
+                  speakers. It helps you to make sure the words you put on
+                  your copy carry the intention you had in your mind.
+                </Project>
+                <Project
+                  image="logo-taslonic.svg"
+                  title="Taslonic"
+                  subtitle="2020"
+                  badgeText="Open-Source"
+                  url="https://taslonic.com"
+                  ctaText="See The Code"
+                  ctaUrl="https://github.com/glorious-codes/glorious-taslonic">
+                  Set yourself free from the ordinary work to focus on the
+                  extraordinary one. Taslonic makes form creation and data
+                  fetching really simple.
+                </Project>
+                <Project
+                  image="logo-pitsby.svg"
+                  title="Pitsby"
+                  subtitle="2019"
+                  badgeText="Open-Source"
+                  url="https://pitsby.com"
+                  ctaUrl="https://github.com/glorious-codes/glorious-pitsby"
+                  ctaText="See The Code">
+                  Pitsby is a super simple tool to document UI components in a
+                  declarative way. Its main features are Lightning Setup, Wide
+                  Support, Playground, Analytics Integration, and Customization.
+                </Project>
+                <Project
                   image="logo-glorious-demo.svg"
                   title="Glorious Demo"
                   subtitle="2018"
@@ -44,26 +77,20 @@ export class Projects extends Component {
                   Product Hunt</a>.
                 </Project>
                 <Project
-                  image="logo-pitsby.svg"
-                  title="Pitsby"
-                  subtitle="2019"
+                  image="logo-weather-now.svg"
+                  title="Weather Now"
+                  subtitle="2018"
                   badgeText="Open-Source"
-                  url="https://pitsby.com"
-                  ctaUrl="https://github.com/glorious-codes/glorious-pitsby"
+                  url="https://weather-now-vue.web.app"
+                  ctaUrl="https://github.com/rafaelcamargo/weather-now-vue"
                   ctaText="See The Code">
-                  Pitsby is a super simple tool to document UI components in a
-                  declarative way. Its main features are Lightning Setup, Wide
-                  Support, Playground, Analytics Integration, and Customization.
-                </Project>
-                <Project
-                  image="logo-nashios.svg"
-                  title="Nashios"
-                  subtitle="2017"
-                  url="https://nashios.com">
-                  That was the first time I made an API using Node. It
-                  integrates with Github and shows the people behind some of the
-                  products we all love. The web-client was built with Vue.
-                  Logo and components designed by me.
+                  As a front-end developer at Conta Azul, I collaborated with
+                  the hiring process designing a technical challenge. The
+                  candidates should build a tiny and responsive app
+                  that fetched weather conditions from Open Weather Map API and
+                  auto refreshed them after a couple minutes, using local
+                  cache in the meantime. This is my own implementation for
+                  the challenge using VueJS.
                 </Project>
                 <Project
                   image="logo-woblast.svg"
@@ -79,20 +106,14 @@ export class Projects extends Component {
                   components designed by me.
                 </Project>
                 <Project
-                  image="logo-weather-now.svg"
-                  title="Weather Now"
-                  subtitle="2018"
-                  badgeText="Open-Source"
-                  url="https://weather-now-vue.web.app"
-                  ctaUrl="https://github.com/rafaelcamargo/weather-now-vue"
-                  ctaText="See The Code">
-                  As a front-end developer at Conta Azul, I collaborated with
-                  the hiring process of new developers designing a technical
-                  assessment for them. They should build a tiny and responsive app
-                  that fetched weather conditions from Open Weather Map API and
-                  auto refreshed them after a couple minutes, using local
-                  cache in the meantime. This is my own implementation for
-                  that assessment using VueJS.
+                  image="logo-nashios.svg"
+                  title="Nashios"
+                  subtitle="2017"
+                  url="https://nashios.com">
+                  That was the first time I made an API using Node. It
+                  integrates with Github and shows the people behind some of the
+                  products we all love. The web-client was built with Vue.
+                  Logo and components designed by me.
                 </Project>
                 <Project
                   image="logo-teleflik.svg"
@@ -103,6 +124,19 @@ export class Projects extends Component {
                   interests in the next 24h. I did this to learn how to build a
                   mobile app using Ionic and AngularJS. Logo and components
                   designed by me.
+                </Project>
+                <Project
+                  image="logo-dollert.svg"
+                  title="Dollert"
+                  subtitle="2016"
+                  badgeText="Open-Source"
+                  url="https://chrome.google.com/webstore/detail/dollert/lkbhlmhaiggihoihajncjlnmbpigbkam"
+                  ctaText="See The Code"
+                  ctaUrl="https://github.com/rafaelcamargo/dollert-extension">
+                  If USD rate impacts your daily life making you visit
+                  financial websites all day long, Dollert saves your energy.
+                  Enter the USD rates you are awaiting for and Dollert will
+                  notify you when one of those rates gets reached.
                 </Project>
               </ProjectList>
             </Col>
