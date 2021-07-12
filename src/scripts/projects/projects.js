@@ -109,7 +109,7 @@ export class Projects extends Component {
                   image="logo-nashios.svg"
                   title="Nashios"
                   subtitle="2017"
-                  url="https://nashios.com">
+                  url="https://nashios-web.web.app">
                   That was the first time I made an API using Node. It
                   integrates with Github and shows the people behind some of the
                   products we all love. The web-client was built with Vue.
