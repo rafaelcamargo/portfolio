@@ -1,0 +1,12 @@
+p > img + br + em {
+  display: block;
+  text-align: center;
+  font-size: 0.777777777777778rem;
+}
+
+hr {
+  margin-top: 60px;
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  border-color: #C4CDD5;
+}

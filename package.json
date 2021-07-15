@@ -4,7 +4,8 @@
   "description": "My Personal Website",
   "main": "src/scripts/app.js",
   "scripts": {
-    "build": "webpack",
+    "build": "rm -rf ./dist && webpack && npm run build:blog",
+    "build:blog": "rm -rf ./dist/blog && triven build",
     "format": "eslint ./src/**/*.js",
     "start": "webpack-dev-server",
     "test": "jest",
@@ -24,6 +25,7 @@
     "@babel/plugin-proposal-class-properties": "^7.7.4",
     "@babel/preset-env": "^7.7.7",
     "@babel/preset-react": "^7.7.4",
+    "@glorious/triven": "^0.3.5",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
