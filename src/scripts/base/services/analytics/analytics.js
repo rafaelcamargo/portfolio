@@ -9,21 +9,11 @@ _public.init = () => {
     const googleAnalyticsId = getGoogleAnalyticsId();
     buildGoogleAnalyticsScriptTag(googleAnalyticsId);
     configAnalytics(googleAnalyticsId);
-    window.mixpanel.init(ENV.ANALYTICS.MIXPANEL.TOKEN);
-    _public.trackEvent('page viewed', { path: window.location.pathname });
   }
 };
 
 _public.trackPageView = path => {
-  if(!isAnalyticsDisabled()) {
-    configAnalytics(getGoogleAnalyticsId(), path);
-    _public.trackEvent('page viewed', { path });
-  }
-};
-
-_public.trackEvent = (eventName, data) => {
-  if(!isAnalyticsDisabled())
-    window.mixpanel.track(eventName, data);
+  if(!isAnalyticsDisabled()) configAnalytics(getGoogleAnalyticsId(), path);
 };
 
 function isAnalyticsDisabled(){
