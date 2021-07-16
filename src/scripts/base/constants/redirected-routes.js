@@ -14,7 +14,6 @@ module.exports = [
   '/the-pearl-and-the-mussels',
   '/incondicional-inhotim',
   '/unconditional-inhotim',
-  '/influences',
   '/do-angular-js-para-react',
   '/from-angular-js-to-react',
   '/configuracao-limpa',

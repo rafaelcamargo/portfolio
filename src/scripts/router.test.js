@@ -7,10 +7,10 @@ import { Contact } from '@scripts/contact/contact';
 import { Experience } from '@scripts/experience/experience';
 import History from '@scripts/base/components/history/history';
 import { Home } from '@scripts/home/home';
+import { Influences } from '@scripts/influences/influences';
 import { Projects } from '@scripts/projects/projects';
 import { Recommendations } from '@scripts/recommendations/recommendations';
 import { Skills } from '@scripts/skills/skills';
-import { Stories } from '@scripts/stories/stories';
 
 describe('App Router', () => {
   function mount(){
@@ -51,9 +51,17 @@ describe('App Router', () => {
     expect(route.prop('component')).toEqual(Experience);
   });
 
-  it('should contain Projects route', () => {
+  it('should contain Influences route', () => {
     const wrapper = mount();
     const route = wrapper.find(ScrollToTop).children().at(3);
+    expect(route.prop('path')).toEqual('/influences');
+    expect(route.prop('exact')).toEqual(true);
+    expect(route.prop('component')).toEqual(Influences);
+  });
+
+  it('should contain Projects route', () => {
+    const wrapper = mount();
+    const route = wrapper.find(ScrollToTop).children().at(4);
     expect(route.prop('path')).toEqual('/projects');
     expect(route.prop('exact')).toEqual(true);
     expect(route.prop('component')).toEqual(Projects);
@@ -61,7 +69,7 @@ describe('App Router', () => {
 
   it('should contain Recommendations route', () => {
     const wrapper = mount();
-    const route = wrapper.find(ScrollToTop).children().at(4);
+    const route = wrapper.find(ScrollToTop).children().at(5);
     expect(route.prop('path')).toEqual('/recommendations');
     expect(route.prop('exact')).toEqual(true);
     expect(route.prop('component')).toEqual(Recommendations);
@@ -69,17 +77,9 @@ describe('App Router', () => {
 
   it('should contain Skills route', () => {
     const wrapper = mount();
-    const route = wrapper.find(ScrollToTop).children().at(5);
+    const route = wrapper.find(ScrollToTop).children().at(6);
     expect(route.prop('path')).toEqual('/skills');
     expect(route.prop('exact')).toEqual(true);
     expect(route.prop('component')).toEqual(Skills);
-  });
-
-  it('should contain Stories route', () => {
-    const wrapper = mount();
-    const route = wrapper.find(ScrollToTop).children().at(6);
-    expect(route.prop('path')).toEqual('/stories');
-    expect(route.prop('exact')).toEqual(true);
-    expect(route.prop('component')).toEqual(Stories);
   });
 });
