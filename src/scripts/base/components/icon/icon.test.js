@@ -17,8 +17,8 @@ describe('Icon', () => {
   it('should render a specific icon', () => {
     const wrapper = mount({ name: 'rc' });
     expect(wrapper.prop('style')).toEqual({
-      maskImage: 'url("assets/images/icon-rc.svg")',
-      WebkitMaskImage: 'url("assets/images/icon-rc.svg")'
+      maskImage: 'url("/assets/images/icon-rc.svg")',
+      WebkitMaskImage: 'url("/assets/images/icon-rc.svg")'
     });
   });
 });

@@ -16,7 +16,7 @@ describe('Image', () => {
 
   it('should build image source', () => {
     const wrapper = mount({ filename: 'components.svg' });
-    expect(wrapper.prop('src')).toEqual('assets/images/components.svg');
+    expect(wrapper.prop('src')).toEqual('/assets/images/components.svg');
   });
 
   it('should build image alternate text', () => {

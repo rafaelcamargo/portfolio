@@ -11,10 +11,6 @@ describe('Firebase Service', () => {
     expect(hosting.public).toEqual('dist');
     expect(hosting.cleanUrls).toEqual(true);
     expect(hosting.trailingSlash).toEqual(true);
-    expect(findRedirectBySource(hosting.redirects, '/**/assets/:rest*')).toEqual(expect.objectContaining({
-      destination: '/assets/:rest*',
-      type: 302
-    }));
     expect(findRedirectBySource(hosting.redirects, '/stories')).toEqual(expect.objectContaining({
       destination: '/blog',
       type: 301

@@ -9,7 +9,6 @@ _public.buildConfig = () => {
       cleanUrls: true,
       trailingSlash: true,
       redirects: [
-        { source: '/**/assets/:rest*', destination: '/assets/:rest*', type: 302 },
         { source: '/stories', destination: '/blog', type: 301 },
         ...buildRedirects()
       ]

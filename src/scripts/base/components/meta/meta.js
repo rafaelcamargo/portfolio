@@ -23,7 +23,8 @@ export class Meta extends Component {
 }
 
 function buildImageUrl(image){
-  return `${ENV.APP.BASE_URL}/${ imagesService.getBasePath() }/${image}`;
+  const filepath = ENV.APP.BASE_URL + imagesService.getBasePath();
+  return `${filepath}/${image}`;
 }
 
 Meta.defaultProps = {

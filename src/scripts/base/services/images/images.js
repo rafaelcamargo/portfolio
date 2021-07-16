@@ -1,5 +1,5 @@
 const _public = {};
 
-_public.getBasePath = () => 'assets/images';
+_public.getBasePath = () => '/assets/images';
 
 export default _public;

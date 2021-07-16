@@ -16,7 +16,7 @@ describe('Icon', () => {
 
   it('should render a specific image', () => {
     const wrapper = mount({ image: 'avatar-camargo.jpg' });
-    expect(wrapper.find('img').prop('src')).toEqual('assets/images/avatar-camargo.jpg');
+    expect(wrapper.find('img').prop('src')).toEqual('/assets/images/avatar-camargo.jpg');
     expect(wrapper.find('img').prop('alt')).toEqual('avatar camargo');
   });
 });
