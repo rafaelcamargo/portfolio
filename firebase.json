@@ -2,6 +2,6 @@
   "hosting": {
     "public": "dist",
     "cleanUrls": true,
-    "trailingSlash": false
+    "trailingSlash": true
   }
 }
