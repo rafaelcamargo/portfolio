@@ -1,7 +1,0 @@
-{
-  "hosting": {
-    "public": "dist",
-    "cleanUrls": true,
-    "trailingSlash": true
-  }
-}
