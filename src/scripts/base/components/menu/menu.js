@@ -15,26 +15,37 @@ export class Menu extends Component {
 }
 
 function buildItemElements(){
+  const className = getMenuItemClassName();
   return getItems().map(item => {
     return <li className="r-menu-item" key={ item.name }>
-            <NavLink
-              to={ item.path }
-              activeClassName="r-menu-item-link-active"
-              className="r-menu-item-link">
-              { item.name }
-            </NavLink>
+            {
+              item.to ? (
+                <NavLink
+                  to={ item.to }
+                  activeClassName="r-menu-item-link-active"
+                  className={className}>
+                  { item.name }
+                </NavLink>
+              ) : (
+                <a href={item.path} className={className}>{item.name}</a>
+              )
+            }
           </li>;
   })
 }
 
 function getItems(){
   return [
-    { name: 'Skills', path: '/skills' },
-    { name: 'Projects', path: '/projects' },
-    { name: 'Experience', path: '/experience' },
-    { name: 'Recommendations', path: '/recommendations' },
-    { name: 'Stories', path: '/stories' },
-    { name: 'Influences', path: '/influences' },
-    { name: 'Contact', path: '/contact' }
+    { name: 'Skills', to: '/skills' },
+    { name: 'Projects', to: '/projects' },
+    { name: 'Experience', to: '/experience' },
+    { name: 'Recommendations', to: '/recommendations' },
+    { name: 'Blog', path: '/blog' },
+    { name: 'Influences', to: '/influences' },
+    { name: 'Contact', to: '/contact' }
   ];
+}
+
+function getMenuItemClassName(){
+  return 'r-menu-item-link';
 }
