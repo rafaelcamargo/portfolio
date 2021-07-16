@@ -9,7 +9,7 @@
     "format": "eslint ./src/**/*.js",
     "start": "webpack-dev-server",
     "test": "jest",
-    "deploy": "firebase deploy --non-interactive",
+    "deploy": "rm -f ./firebase.json && node ./firebase.js && firebase deploy --non-interactive",
     "id": "node ./src/scripts/stories/services/story-id/story-id.js"
   },
   "keywords": [

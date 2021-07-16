@@ -1,0 +1,22 @@
+module.exports = [
+  '/component-maturity-model',
+  '/modelo-de-maturidade-de-componentes',
+  '/bottles-and-principles-how-to-better-organize-css',
+  '/formatting-quality',
+  '/formatando-qualidade',
+  '/codigo-limpo',
+  '/clean-code',
+  '/trinta-e-sete',
+  '/thirty-seven',
+  '/developer-first-pt',
+  '/developer-first',
+  '/perolas-e-mariscos',
+  '/the-pearl-and-the-mussels',
+  '/incondicional-inhotim',
+  '/unconditional-inhotim',
+  '/influences',
+  '/do-angular-js-para-react',
+  '/from-angular-js-to-react',
+  '/configuracao-limpa',
+  '/clean-setup'
+];
