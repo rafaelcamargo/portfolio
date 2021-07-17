@@ -1,3 +1,4 @@
+const fs = require('fs');
 const path = require('path');
 const { fileService } = require('../file/file');
 const assetsService = require('./assets');
@@ -7,6 +8,7 @@ describe('Assets Service', () => {
 
   beforeEach(() => {
     fileService.write = jest.fn();
+    fileService.readSync = jest.fn(() => '');
     fileService.collect = jest.fn((glob, onSuccess) => {
       const filepathsMock = {
         [`${DIST_FILES_DIRECTORY_FILEPATH}/**/*.html`]: [
@@ -30,7 +32,7 @@ describe('Assets Service', () => {
   });
 
   it('should fix path reference for relative assets', () => {
-    const projectsPage = fileService.readSync(path.join(__dirname, '../../mocks/projects.html'), { encoding: 'utf-8' });
+    const projectsPage = fs.readFileSync(path.join(__dirname, '../../mocks/projects.html'), { encoding: 'utf-8' });
     const result = assetsService.fixRelativePaths(projectsPage);
     expect(result).toContain('<link href="/assets/main-247fb3a918859218f295.css" rel="stylesheet" />');
     expect(result).toContain('<img alt="logo typenik" src="/assets/images/logo-typenik.svg" />');

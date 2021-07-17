@@ -1,11 +1,11 @@
-export default {
+module.exports = {
   APP: {
     BASE_URL: 'https://rafaelcamargo.com'
   },
   ANALYTICS: {
-    GOOGLE: {
-      BASE_URL: 'https://www.googletagmanager.com/gtag/js',
-      ID: 'UA-24790056-1'
+    ENABLED: true,
+    PLAUSIBLE: {
+      DOMAIN: 'rafaelcamargo.com'
     }
   },
   VERVET: {
