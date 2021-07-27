@@ -4,20 +4,11 @@ import { ProjectList } from '@scripts/projects/components/project-list/project-l
 
 describe('Project List', () => {
   function mount(props = {}){
-    return shallow(
-      <ProjectList>
-        { props.content }
-      </ProjectList>
-    );
+    return shallow(<ProjectList />);
   }
 
   it('should have appropriate css class', () => {
     const wrapper = mount();
     expect(wrapper.prop('className')).toEqual('r-project-list');
-  });
-
-  it('should transclude some content', () => {
-    const wrapper = mount({ content: <span>Hey</span> });
-    expect(wrapper.find('span').text()).toEqual('Hey');
   });
 });
