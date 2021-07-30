@@ -1,11 +1,11 @@
-import '@styles/influences-content.styl';
+import '@styles/influences-list.styl';
 import React, { Component } from 'react';
 import { ExternalLink } from '@scripts/base/components/external-link/external-link';
 
-export class InfluencesContent extends Component {
+export class InfluencesList extends Component {
   render() {
     return (
-      <div className="r-influences-content">
+      <div className="r-influences-list">
         <p>
           Once in a while, friends and strangers ask me about what are the
           contents that have influenced me most. I used to answer them

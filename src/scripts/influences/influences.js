@@ -4,7 +4,7 @@ import { Hero } from '@scripts/base/components/hero/hero';
 import { Row } from '@scripts/base/components/row/row';
 import { Section } from '@scripts/base/components/section/section';
 import { Viewport } from '@scripts/base/components/viewport/viewport';
-import { InfluencesContent } from '@scripts/influences/components/influences-content/influences-content';
+import { InfluencesList } from '@scripts/influences/components/influences-list/influences-list';
 
 const meta = {
   title: 'Influences',
@@ -23,7 +23,7 @@ export class Influences extends Component {
         <Section>
           <Row>
             <Col size="12">
-              <InfluencesContent />
+              <InfluencesList />
             </Col>
           </Row>
         </Section>
