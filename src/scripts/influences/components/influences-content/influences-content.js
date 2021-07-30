@@ -191,7 +191,7 @@ export class InfluencesContent extends Component {
           </li>
           <li>
             <ExternalLink href="https://derickbailey.com/2015/08/26/building-a-component-based-web-ui-with-modern-javascript-frameworks/">
-              Building A Component-Based Web UI With Modern JavaScript Frameworks
+              Building A Component-Based Web UI
             </ExternalLink>, <em>Derick Bailey</em>
           </li>
           <li>
