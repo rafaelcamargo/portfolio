@@ -70,6 +70,11 @@ export class InfluencesContent extends Component {
             </ExternalLink>, <em>Robert Martin</em>
           </li>
           <li>
+            <ExternalLink href="https://www.amazon.com.br/Test-Driven-Development-Kent-Beck/dp/0321146530">
+              Test-Driven Development by Example
+            </ExternalLink>, <em>Kent Beck</em>
+          </li>
+          <li>
             <ExternalLink href="https://www.amazon.com/Pedagogia-Oprimido-Em-Portugues-Brasil/dp/8577531643">
               Pedagogia do Oprimido (Pedagogy of the Oppressed)
             </ExternalLink>, <em>Paulo Freire</em>
