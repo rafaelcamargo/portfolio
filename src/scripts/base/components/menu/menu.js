@@ -40,7 +40,7 @@ function getItems(){
     { name: 'Projects', to: '/projects' },
     { name: 'Experience', to: '/experience' },
     { name: 'Recommendations', to: '/recommendations' },
-    { name: 'Blog', path: '/blog' },
+    { name: 'Blog', path: '/blog/l/en-US' },
     { name: 'Influences', to: '/influences' },
     { name: 'Contact', to: '/contact' }
   ];

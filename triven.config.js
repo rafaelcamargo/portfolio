@@ -15,6 +15,14 @@ const config = {
       metaTags: getTemplateByName('meta-tags'),
       plausible: getPlausibleHTML()
     }
+  },
+  translations: {
+    'pt-BR': {
+      newer: 'Posteriores',
+      older: 'Anteriores',
+      readMore: 'Continue lendo',
+      seeAllPosts: 'Todas as publicações'
+    }
   }
 }
 
