@@ -10,7 +10,11 @@ export class Feature extends Component {
         <div className="r-feature-body">
           { this.props.children }
         </div>
-        <CtaLink to={ this.props.ctaTo } text={ this.props.ctaText } />
+        <CtaLink
+          to={ this.props.ctaTo }
+          href={ this.props.ctaHref }
+          text={ this.props.ctaText }
+        />
       </div>
     );
   }

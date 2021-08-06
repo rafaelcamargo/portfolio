@@ -84,7 +84,7 @@ export class Home extends Component {
                 </Feature>
                 <Feature
                   title="Some stories to share."
-                  ctaTo="/stories"
+                  ctaHref="/blog/l/en-US"
                   ctaText="See my stories">
                   <p>
                     Writing is a craft that I'm striving to learn.<br />
