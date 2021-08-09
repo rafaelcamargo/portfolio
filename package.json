@@ -9,6 +9,7 @@
     "parse:assets": "node ./src/scripts/base/services/assets",
     "format": "eslint ./src/**/*.js",
     "start": "webpack-dev-server",
+    "serve": "npm run build && http-server ./dist",
     "test": "jest",
     "deploy": "rm -f ./firebase.json && node ./firebase.js && firebase deploy --non-interactive",
     "id": "node ./src/scripts/stories/services/story-id/story-id.js"
