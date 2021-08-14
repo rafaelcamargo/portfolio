@@ -10,6 +10,6 @@ em {
   font-style: italic;
 }
 
-li + li {
+ul:not(.tn-settings-list) li + li {
   margin-top: 10px;
 }
