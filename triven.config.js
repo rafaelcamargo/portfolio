@@ -5,6 +5,7 @@ const prodEnv = require('./environments/production');
 const ENV = process.env.NODE_ENV == 'production' ? prodEnv : devEnv;
 
 const config = {
+  url: 'https://rafaelcamargo.com/blog',
   title: 'Rafael Camargo',
   sourceDirectory: './src/scripts/blog',
   outputDirectory: './dist/blog',
