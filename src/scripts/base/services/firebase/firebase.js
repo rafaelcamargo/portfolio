@@ -8,6 +8,17 @@ _public.buildConfig = () => {
       public: 'dist',
       cleanUrls: true,
       trailingSlash: true,
+      headers: [
+        {
+          source: '**/*.atom',
+          headers: [
+            {
+              key: 'content-type',
+              value: 'application/atom+xml; charset=utf-8'
+            }
+          ]
+        }
+      ],
       redirects: [
         { source: '/stories', destination: '/blog', type: 301 },
         ...buildRedirects()

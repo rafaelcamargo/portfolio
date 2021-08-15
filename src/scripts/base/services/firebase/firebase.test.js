@@ -11,6 +11,17 @@ describe('Firebase Service', () => {
     expect(hosting.public).toEqual('dist');
     expect(hosting.cleanUrls).toEqual(true);
     expect(hosting.trailingSlash).toEqual(true);
+    expect(hosting.headers).toEqual([
+      {
+        source: '**/*.atom',
+        headers: [
+          {
+            key: 'content-type',
+            value: 'application/atom+xml; charset=utf-8'
+          }
+        ]
+      }
+    ]);
     expect(findRedirectBySource(hosting.redirects, '/stories')).toEqual(expect.objectContaining({
       destination: '/blog',
       type: 301
