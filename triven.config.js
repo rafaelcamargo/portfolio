@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const ptBR = require('./triven.pt-BR.json');
 const devEnv = require('./environments/development');
 const prodEnv = require('./environments/production');
 const ENV = process.env.NODE_ENV == 'production' ? prodEnv : devEnv;
@@ -18,12 +19,7 @@ const config = {
     }
   },
   translations: {
-    'pt-BR': {
-      newer: 'Posteriores',
-      older: 'Anteriores',
-      readMore: 'Continue lendo',
-      seeAllPosts: 'Todas as publicações'
-    }
+    'pt-BR': ptBR
   }
 }
 
