@@ -1,0 +1,17 @@
+{
+  "availableRSSFeeds": "Available RSS Feeds",
+  "availableLanguages": "Idiomas disponíveis",
+  "currentLanguage": "Idioma selecionado",
+  "multiLanguage": "Multi-idiomas",
+  "rssFeed": "RSS Feed",
+  "rssFeeds": "RSS Feeds",
+  "newer": "Posteriores",
+  "newsletterFormTitle": "Fique por dentro das futuras atualizações",
+  "newsletterFormEmailLabel": "Endereço de email",
+  "newsletterFormEmailPlaceholder": "Seu endereço de email",
+  "newsletterFormButtonLabel": "Assinar",
+  "newsletterFormRSSCaption": "Você pode ser notificado por <a href='/blog/l/pt-BR/feed.atom' target='_blank'>RSS</a> também.",
+  "older": "Anteriores",
+  "readMore": "Continue lendo",
+  "seeAllPosts": "Todas as publicações"
+}

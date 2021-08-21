@@ -13,3 +13,45 @@ em {
 ul:not(.tn-settings-list) li + li {
   margin-top: 10px;
 }
+
+.rc-newsletter-form-container {
+  margin: 50px auto 0;
+  width: 80%;
+  max-width: 400px;
+}
+
+.rc-newsletter-form-container p {
+  font-size: 0.777777777777778rem;
+  text-align: center;
+}
+
+.rc-newsletter-form-container form {
+  display: flex;
+  margin: 5px 0;
+}
+
+.rc-newsletter-form input,
+.rc-newsletter-form button {
+  margin: 0;
+  padding: 12px;
+  font-size: 0.833333333333333rem;
+  border: 0;
+}
+
+.rc-newsletter-form input {
+  flex: 1;
+  background-color: #E5E5E5;
+  border-radius: 4px 0 0 4px;
+}
+
+.rc-newsletter-form button {
+  background-color: #4C4C4C;
+  color: #FFF;
+  border-radius: 0 4px 4px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .rc-newsletter-form-container {
+    margin-top: 100px;
+  }
+}

@@ -8,6 +8,7 @@ module.exports = {
       DOMAIN: 'dev.rafaelcamargo.com'
     }
   },
+  NEWSLETTER_ID: 'vervet',
   VERVET: {
     BASE_URL: 'http://localhost:9001',
     PROJECTS: {

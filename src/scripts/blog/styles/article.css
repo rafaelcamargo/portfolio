@@ -10,3 +10,7 @@ hr {
   border-width: 1px 0 0 0;
   border-color: #C4CDD5;
 }
+
+.rc-newsletter-form-container {
+  margin: 50px auto 100px;
+}

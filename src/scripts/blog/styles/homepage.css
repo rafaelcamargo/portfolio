@@ -1,18 +1,10 @@
-.header {
+.rc-header {
   margin-top: 50px;
   text-align: center;
 }
 
-.header h1 {
-  color: #627380;
-  font-size: 0.777777777777778rem;
-  font-weight: normal;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-
 @media screen and (min-width: 768px) {
-  .header {
+  .rc-header {
     margin-top: 100px;
   }
 }
