@@ -1,43 +1,34 @@
 import ENV from '@environment';
-import Plausible from 'plausible-tracker';
-import { PlausibleMock, plausibleInstanceMock } from '@scripts/base/mocks/plausible';
+import GAnalytics from '@glorious/analytics';
+import { GAnalyticsMock, ganalyticsInstanceMock } from '@scripts/base/mocks/glorious-analytics';
 import analyticsService from './analytics';
-import searchParamsService from '@scripts/base/services/search-param/search-param';
 
-jest.mock('plausible-tracker');
-Plausible.mockImplementation(PlausibleMock);
-
+jest.mock('@glorious/analytics');
+GAnalytics.mockImplementation(GAnalyticsMock);
 
 describe('Analytics Service', () => {
-
-  function disableAnalytics(){
-    searchParamsService.get = jest.fn(() => ({ analytics: 'disabled' }));
-  }
-
   beforeEach(() => {
-    searchParamsService.get = jest.fn(() => ({}));
-    plausibleInstanceMock.trackPageview.mockReset();
+    ganalyticsInstanceMock.init = jest.fn();
+    ganalyticsInstanceMock.trackPageview = jest.fn();
+  });
+
+  it('should initialize glorious analytics', () => {
+    analyticsService.init();
+    expect(ganalyticsInstanceMock.init).toHaveBeenCalledWith(
+      ENV.ANALYTICS.PLAUSIBLE.DOMAIN, {
+        trackLocalhost: ENV.ANALYTICS.ENABLED
+      }
+    );
   });
 
   it('should track page view on initialize', () => {
     analyticsService.init();
-    expect(plausibleInstanceMock.trackPageview).toHaveBeenCalled();
-  });
-
-  it('should not track page view on initialize if analytics is disabled', () => {
-    disableAnalytics();
-    analyticsService.init();
-    expect(plausibleInstanceMock.trackPageview).not.toHaveBeenCalled();
+    expect(ganalyticsInstanceMock.trackPageview).toHaveBeenCalledTimes(1);
   });
 
   it('should track page view', () => {
-    analyticsService.trackPageView();
-    expect(plausibleInstanceMock.trackPageview).toHaveBeenCalled();
-  });
-
-  it('should not track page view if analytics is disabled', () => {
-    disableAnalytics();
-    analyticsService.trackPageView();
-    expect(plausibleInstanceMock.trackPageview).not.toHaveBeenCalled();
+    analyticsService.init();
+    analyticsService.trackPageView()
+    expect(ganalyticsInstanceMock.trackPageview).toHaveBeenCalledTimes(2);
   });
 });

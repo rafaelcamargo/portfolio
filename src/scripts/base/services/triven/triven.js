@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { dependencies } = require('../../../../../package.json');
 const enUS = require('../../constants/triven-en');
 const ptBR = require('../../constants/triven-pt');
 const environmentService = require('../environment/environment');
@@ -11,9 +12,12 @@ _public.buildMetaTags = () => {
   return getHTMLTemplateByFilename('meta-tags');
 };
 
-_public.buildPlausibleScriptTag = () => {
+_public.buildPlausibleScriptTags = () => {
   const html = getHTMLTemplateByFilename('plausible');
-  return html.replace('{{ domain }}', ENV.ANALYTICS.PLAUSIBLE.DOMAIN);
+  return html
+    .replace('{{ version }}', dependencies['@glorious/analytics'].replace('^',''))
+    .replace('{{ domain }}', ENV.ANALYTICS.PLAUSIBLE.DOMAIN)
+    .replace('{{ trackLocalhost }}', ENV.ANALYTICS.ENABLED);
 };
 
 _public.buildNewsletterForm = lang => {

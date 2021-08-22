@@ -1,9 +1,16 @@
 const trivenService = require('./triven');
 
 describe('Triven Service', () => {
-  it('should build plausible markup', () => {
-    expect(trivenService.buildPlausibleScriptTag()).toEqual(`
-<script defer data-domain="dev.rafaelcamargo.com" src="https://plausible.io/js/plausible.js"></script>
+  it('should build plausible script tags', () => {
+    expect(trivenService.buildPlausibleScriptTags()).toEqual(`
+<script src="https://unpkg.com/@glorious/analytics@0.1.1/dist/ganalytics.min.js"></script>
+<script type="text/javascript">
+  (function(){
+    const analytics = new GAnalytics();
+    analytics.init('dev.rafaelcamargo.com', { trackLocalhost: false });
+    analytics.trackPageview();
+  }());
+</script>
 `.trim());
   });
 
