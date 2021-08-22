@@ -45,6 +45,14 @@ _public.buildNewsletterForm = lang => {
 `.trim()
 };
 
+_public.buildTrivenCredits = () => {
+  return `
+<footer class="rc-triven-credits">
+  Powered by <a href="https://github.com/glorious-codes/glorious-triven" target="_blank">Triven</a>
+</footer>
+`.trim();
+};
+
 function getHTMLTemplateByFilename(filename){
   const filepath = path.join(__dirname, `../../../blog/templates/${filename}.html`);
   return fs.readFileSync(filepath, 'utf-8').trim();

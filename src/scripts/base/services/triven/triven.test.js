@@ -78,4 +78,12 @@ describe('Triven Service', () => {
 </div>
 `.trim())
   });
+
+  it('should build triven credits', () => {
+    expect(trivenService.buildTrivenCredits()).toEqual(`
+<footer class="rc-triven-credits">
+  Powered by <a href="https://github.com/glorious-codes/glorious-triven" target="_blank">Triven</a>
+</footer>
+`.trim())
+  })
 });

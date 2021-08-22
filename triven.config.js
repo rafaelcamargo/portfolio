@@ -10,6 +10,7 @@ const config = {
     article: './src/scripts/blog/templates/article.html',
     homepage: './src/scripts/blog/templates/homepage.html',
     vars: {
+      credits: trivenService.buildTrivenCredits(),
       metaTags: trivenService.buildMetaTags(),
       plausible: trivenService.buildPlausibleScriptTags(),
       newsletterForm: lang => trivenService.buildNewsletterForm(lang)

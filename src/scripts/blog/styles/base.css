@@ -50,6 +50,13 @@ ul:not(.tn-settings-list) li + li {
   border-radius: 0 4px 4px 0;
 }
 
+.rc-triven-credits {
+  padding: 20px 0;
+  background-color: #F6F8FA;
+  font-size: 0.666666666666667rem;
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   .rc-newsletter-form-container {
     margin-top: 100px;
