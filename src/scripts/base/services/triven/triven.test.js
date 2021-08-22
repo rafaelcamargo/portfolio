@@ -3,7 +3,7 @@ const trivenService = require('./triven');
 describe('Triven Service', () => {
   it('should build plausible script tags', () => {
     expect(trivenService.buildPlausibleScriptTags()).toEqual(`
-<script src="https://unpkg.com/@glorious/analytics@0.1.1/dist/ganalytics.min.js"></script>
+<script src="https://unpkg.com/@glorious/analytics@0.1.2/dist/ganalytics.min.js"></script>
 <script type="text/javascript">
   (function(){
     const analytics = new GAnalytics();
