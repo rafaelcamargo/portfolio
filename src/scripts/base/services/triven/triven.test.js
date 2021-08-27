@@ -13,7 +13,7 @@ describe('Triven Service', () => {
 <script src="https://unpkg.com/@glorious/analytics@0.1.2/dist/ganalytics.min.js"></script>
 <script type="text/javascript">
   (function(){
-    if(GAnalytics) {
+    if(window.GAnalytics) {
       const analytics = new GAnalytics();
       analytics.init('dev.rafaelcamargo.com', {"trackLocalhost":false});
       analytics.trackPageview();
@@ -29,7 +29,7 @@ describe('Triven Service', () => {
 <script src="https://unpkg.com/@glorious/analytics@0.1.2/dist/ganalytics.min.js"></script>
 <script type="text/javascript">
   (function(){
-    if(GAnalytics) {
+    if(window.GAnalytics) {
       const analytics = new GAnalytics();
       analytics.init('rafaelcamargo.com');
       analytics.trackPageview();

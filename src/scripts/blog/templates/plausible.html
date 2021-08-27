@@ -1,7 +1,7 @@
 <script src="https://unpkg.com/@glorious/analytics@{{ version }}/dist/ganalytics.min.js"></script>
 <script type="text/javascript">
   (function(){
-    if(GAnalytics) {
+    if(window.GAnalytics) {
       const analytics = new GAnalytics();
       analytics.init('{{ domain }}'{{ options }});
       analytics.trackPageview();
