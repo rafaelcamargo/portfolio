@@ -5,7 +5,7 @@ keywords: developer first, developer, precision, productivity
 
 ---
 
-Over the past few years, we have heard several strategies supersede the dispute for how best to approach software development. A few years ago, it was common to use the term API-first. More recently, the enthusiasm was with AI-first. As a developer, I suggest the adoption of a new strategy. A strategy that does not exclude any other one already in progress. One that maintains the same suffix as those already mentioned, but adds the human factor as radical. Developer-First.
+Over the past few years, we have heard several strategies supersede the dispute for how best to approach software development. A few years ago, it was common to use the term API-first. More recently, the enthusiasm was with AI-first. As a developer, I suggest the adoption of a new strategy. A strategy that does not exclude any other one already in progress. One that maintains the same aforementioned suffix, but adds the human factor as radical. Developer-First.
 
 Right now, you might think I want to make developers the centrepiece of software development. If that was your impression, don't worry. You’re right. Don’t get me wrong, I don’t mean that a product should not put customers' needs as the main reason for its development. Note that I used the term software development - not product development - because I consider that customers' needs are already clear at this stage. It is also clear that the solution involves software. The end remains to solve someone's problem. What is suggested here is how to better deal with the means. Software development.
 
