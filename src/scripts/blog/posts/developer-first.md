@@ -27,6 +27,6 @@ Developing the most accurate software in the world wins no claps if it never get
 
 Turning something on/off at a specific hour of the day or writing similar lines of code for every new feature will get you bored very fast. And when boredom gets in, engagement gets out. Repetitive tasks must be automated as well as every pattern in code must be abstracted.
 
-If it doesn’t make sense to launch very fast, something that doesn’t work, it’s also not viable never to ship something because we’re not sure if it works properly. Precision and Productivity are two ingredients that perfectly balance out each other. **Developer-first is an approach that values high developer engagement. And high engagement only happens when we can build very fast, something that works very well.**
+If it doesn’t make sense to launch very fast, something that doesn’t work, it’s also not viable never to ship something because we’re not sure if it works properly. Precision and Productivity are two ingredients that perfectly balance out each other.
 
-Adopting this strategy doesn't demand the seal of any manager or director. It's only on us, developers. Therefore, when you have to take any decision along with the software development, ask yourself: *How does it collaborate to make our software more precise? How would it make us write tests more easily? How does it make our code more understandable? How does it allow us to write less code? How it will speed us up?* If the decision taken is not able to satisfy one of these questions, great are the chances it's not Developer-first.
+Developer-first is an approach that values high developer engagement. And high engagement only happens when we can build very fast, something that works very well.
