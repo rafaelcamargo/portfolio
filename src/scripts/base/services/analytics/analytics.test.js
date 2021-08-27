@@ -16,7 +16,7 @@ describe('Analytics Service', () => {
     analyticsService.init();
     expect(ganalyticsInstanceMock.init).toHaveBeenCalledWith(
       ENV.ANALYTICS.PLAUSIBLE.DOMAIN, {
-        trackLocalhost: ENV.ANALYTICS.ENABLED
+        trackLocalhost: false
       }
     );
   });

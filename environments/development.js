@@ -3,9 +3,9 @@ module.exports = {
     BASE_URL: 'http://localhost:8080'
   },
   ANALYTICS: {
-    ENABLED: false,
     PLAUSIBLE: {
-      DOMAIN: 'dev.rafaelcamargo.com'
+      DOMAIN: 'dev.rafaelcamargo.com',
+      OPTIONS: { trackLocalhost: false }
     }
   },
   NEWSLETTER_ID: 'vervet',

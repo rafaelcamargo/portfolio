@@ -4,7 +4,6 @@ const { dependencies } = require('../../../../../package.json');
 const enUS = require('../../constants/triven-en');
 const ptBR = require('../../constants/triven-pt');
 const environmentService = require('../environment/environment');
-const ENV = environmentService.get(process.env.NODE_ENV);
 
 const _public = {};
 
@@ -13,14 +12,18 @@ _public.buildMetaTags = () => {
 };
 
 _public.buildPlausibleScriptTags = () => {
+  const ENV = getEnvironment();
+  const { DOMAIN, OPTIONS } = ENV.ANALYTICS.PLAUSIBLE;
+  const options = OPTIONS ? `, ${JSON.stringify(OPTIONS)}` : '';
   const html = getHTMLTemplateByFilename('plausible');
   return html
     .replace('{{ version }}', dependencies['@glorious/analytics'].replace('^',''))
-    .replace('{{ domain }}', ENV.ANALYTICS.PLAUSIBLE.DOMAIN)
-    .replace('{{ trackLocalhost }}', ENV.ANALYTICS.ENABLED);
+    .replace('{{ domain }}', DOMAIN)
+    .replace('{{ options }}', options);
 };
 
 _public.buildNewsletterForm = lang => {
+  const ENV = getEnvironment();
   const translations = getTranslation(lang);
   return `
 <div class="rc-newsletter-form-container">
@@ -60,6 +63,10 @@ function getHTMLTemplateByFilename(filename){
 
 function getTranslation(lang){
   return lang == 'pt-BR' ? ptBR : enUS;
+}
+
+function getEnvironment(){
+  return environmentService.get(process.env.NODE_ENV);
 }
 
 module.exports = _public;

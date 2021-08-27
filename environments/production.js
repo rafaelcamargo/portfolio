@@ -3,7 +3,6 @@ module.exports = {
     BASE_URL: 'https://rafaelcamargo.com'
   },
   ANALYTICS: {
-    ENABLED: true,
     PLAUSIBLE: {
       DOMAIN: 'rafaelcamargo.com'
     }

@@ -1,14 +1,39 @@
+const DEV_ENV = require('../../../../../environments/development')
+const PROD_ENV = require('../../../../../environments/production')
+const environmentService = require('../environment/environment')
 const trivenService = require('./triven');
 
 describe('Triven Service', () => {
-  it('should build plausible script tags', () => {
+  beforeEach(() => {
+    environmentService.get = jest.fn(() => DEV_ENV);
+  })
+
+  it('should build plausible script tags passing options if environment is development', () => {
     expect(trivenService.buildPlausibleScriptTags()).toEqual(`
 <script src="https://unpkg.com/@glorious/analytics@0.1.2/dist/ganalytics.min.js"></script>
 <script type="text/javascript">
   (function(){
-    const analytics = new GAnalytics();
-    analytics.init('dev.rafaelcamargo.com', { trackLocalhost: false });
-    analytics.trackPageview();
+    if(GAnalytics) {
+      const analytics = new GAnalytics();
+      analytics.init('dev.rafaelcamargo.com', {"trackLocalhost":false});
+      analytics.trackPageview();
+    }
+  }());
+</script>
+`.trim());
+  });
+
+  it('should build plausible script tags not passing options if environment is production', () => {
+    environmentService.get = jest.fn(() => PROD_ENV);
+    expect(trivenService.buildPlausibleScriptTags()).toEqual(`
+<script src="https://unpkg.com/@glorious/analytics@0.1.2/dist/ganalytics.min.js"></script>
+<script type="text/javascript">
+  (function(){
+    if(GAnalytics) {
+      const analytics = new GAnalytics();
+      analytics.init('rafaelcamargo.com');
+      analytics.trackPageview();
+    }
   }());
 </script>
 `.trim());

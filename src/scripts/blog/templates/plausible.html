@@ -1,8 +1,10 @@
 <script src="https://unpkg.com/@glorious/analytics@{{ version }}/dist/ganalytics.min.js"></script>
 <script type="text/javascript">
   (function(){
-    const analytics = new GAnalytics();
-    analytics.init('{{ domain }}', { trackLocalhost: {{ trackLocalhost }} });
-    analytics.trackPageview();
+    if(GAnalytics) {
+      const analytics = new GAnalytics();
+      analytics.init('{{ domain }}'{{ options }});
+      analytics.trackPageview();
+    }
   }());
 </script>

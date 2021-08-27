@@ -6,10 +6,9 @@ let analytics;
 const _public = {};
 
 _public.init = () => {
+  const { DOMAIN, OPTIONS } = ENV.ANALYTICS.PLAUSIBLE;
   analytics = new GAnalytics();
-  analytics.init(ENV.ANALYTICS.PLAUSIBLE.DOMAIN, {
-    trackLocalhost: ENV.ANALYTICS.ENABLED
-  });
+  analytics.init(DOMAIN, OPTIONS);
   _public.trackPageView();
 };
 
