@@ -5,7 +5,7 @@ keywords: clean, code
 
 ---
 
-This is one of the most famous books in the programming universe. Its fame seems only not to be bigger than the number of developers that still has not read it. Some of them complain about the examples shown in the book to be written in Java, wrongly considering the language as an obstacle to understand what clean code is. I have also heard that clean code would be a utopia, that functions containing four or five statements would be reserved for the software development Olympus.
+This is one of the most famous books in the programming universe. Its fame seems only not to be bigger than the number of developers that still haven't read it. Some of them complain about the examples shown in the book to be written in Java, wrongly considering the language as an obstacle to understand what clean code is. I have also heard that clean code would be a utopia, that functions containing four or five statements would be reserved for the software development Olympus.
 
 The book, a few moments, may give excessive attention to not-so-pragmatic details, but much of it shares a pearl of unique wisdom. Below, I will highlight the pieces that better describe the path that leads to the clean code - from my point of view.
 
