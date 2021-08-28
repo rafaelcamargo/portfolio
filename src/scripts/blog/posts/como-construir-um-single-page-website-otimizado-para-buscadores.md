@@ -1,7 +1,7 @@
 title: Como construir um Single Page Website otimizado para buscadores
 date: 2021-08-27
 description: Gatsby, Next.js, Jekyll e Hugo são alguns frameworks considerados Static Site Generators que você poderia utilizar para alcançar esse objetivo, mas o foco desse post é te apresentar uma solução muito mais simples e desacoplada de frameworks.
-keywords: spa, single page aplication, website, buscadores, seo, react, vue, static site generator
+keywords: spa, single page application, website, buscadores, seo, react, vue, static site generator
 lang: pt-BR
 
 ---
@@ -15,7 +15,6 @@ Embora esse impedimento ainda seja realidade para diversos sites, já é possív
 Gatsby, Next.js, Jekyll e Hugo são alguns frameworks considerados "Static Site Generators" que você poderia utilizar para alcançar esse objetivo, mas o foco desse post é te apresentar uma solução muito mais simples e desacoplada de frameworks. Sendo assim, pouco importa se você optou por React, Angular, Vue ou alguma outra tecnologia para rodar seu Single Page Website, essa solução é compatível com qualquer uma delas: **Prerender SPA Plugin**. Sim, um simples plugin para Webpack desenvolvido por [Chris Fritz](https://github.com/chrisvfritz). Veja abaixo as poucas linhas que você precisa adicionar à configuração do Webpack para que o conteúdo de todas as "páginas" do seu site sejam indexadas da mesma maneira que um site tradicional.
 
 Instale o plugin via NPM:
-
 ```
 npm i -D prerender-spa-plugin
 ```
