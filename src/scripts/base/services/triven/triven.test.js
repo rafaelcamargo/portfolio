@@ -46,8 +46,8 @@ describe('Triven Service', () => {
 <meta http-equiv="expires" content="0">
 <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT">
 <meta http-equiv="pragma" content="no-cache">
-<meta property="og:image" content="/assets/images/favicon-260x260.png?v=1">
-<meta name="twitter:image" content="/assets/images/favicon-260x260.png?v=1">
+<meta property="og:image" content="https://rafaelcamargo.com/assets/images/favicon-260x260.png?v=1">
+<meta name="twitter:image" content="https://rafaelcamargo.com/assets/images/favicon-260x260.png?v=1">
 <link rel="icon" href="/assets/images/favicon_32x32.png?v=1" type="image/x-icon">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/apple-touch-icon-76x76.png">
