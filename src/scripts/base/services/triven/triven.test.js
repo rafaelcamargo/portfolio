@@ -62,10 +62,10 @@ describe('Triven Service', () => {
     expect(trivenService.buildNewsletterForm()).toEqual(`
 <div class="rc-newsletter-form-container">
   <p>Subscribe to get future updates:</p>
-  <form action="https://buttondown.email/api/emails/embed-subscribe/vervet"
+  <form action="https://tinyletter.com/vervet"
     method="post"
     target="popupwindow"
-    onsubmit="window.open('https://buttondown.email/vervet', 'popupwindow')"
+    onsubmit="window.open('https://tinyletter.com/vervet', 'popupwindow')"
     class="rc-newsletter-form"
   >
     <input
@@ -75,7 +75,7 @@ describe('Triven Service', () => {
       placeholder="Your email address"
       required
     /><button type="submit">Subscribe</button>
-    <input type="hidden" value="1" name="embed" />
+    <input type="hidden" value="1" name="embed"/>
   </form>
   <p>You can stay in the loop by <a href='/blog/l/en-US/feed.atom' target='_blank'>RSS</a> too.</p>
 </div>
@@ -86,10 +86,10 @@ describe('Triven Service', () => {
     expect(trivenService.buildNewsletterForm('pt-BR')).toEqual(`
 <div class="rc-newsletter-form-container">
   <p>Fique por dentro das futuras atualizações:</p>
-  <form action="https://buttondown.email/api/emails/embed-subscribe/vervet"
+  <form action="https://tinyletter.com/vervet"
     method="post"
     target="popupwindow"
-    onsubmit="window.open('https://buttondown.email/vervet', 'popupwindow')"
+    onsubmit="window.open('https://tinyletter.com/vervet', 'popupwindow')"
     class="rc-newsletter-form"
   >
     <input
@@ -99,7 +99,7 @@ describe('Triven Service', () => {
       placeholder="Seu endereço de email"
       required
     /><button type="submit">Assinar</button>
-    <input type="hidden" value="1" name="embed" />
+    <input type="hidden" value="1" name="embed"/>
   </form>
   <p>Você pode ser notificado por <a href='/blog/l/pt-BR/feed.atom' target='_blank'>RSS</a> também.</p>
 </div>

@@ -28,10 +28,10 @@ _public.buildNewsletterForm = lang => {
   return `
 <div class="rc-newsletter-form-container">
   <p>${translations.newsletterFormTitle}:</p>
-  <form action="https://buttondown.email/api/emails/embed-subscribe/${ENV.NEWSLETTER_ID}"
+  <form action="https://tinyletter.com/${ENV.NEWSLETTER_ID}"
     method="post"
     target="popupwindow"
-    onsubmit="window.open('https://buttondown.email/${ENV.NEWSLETTER_ID}', 'popupwindow')"
+    onsubmit="window.open('https://tinyletter.com/${ENV.NEWSLETTER_ID}', 'popupwindow')"
     class="rc-newsletter-form"
   >
     <input
@@ -41,7 +41,7 @@ _public.buildNewsletterForm = lang => {
       placeholder="${translations.newsletterFormEmailPlaceholder}"
       required
     /><button type="submit">${translations.newsletterFormButtonLabel}</button>
-    <input type="hidden" value="1" name="embed" />
+    <input type="hidden" value="1" name="embed"/>
   </form>
   <p>${translations.newsletterFormRSSCaption}</p>
 </div>

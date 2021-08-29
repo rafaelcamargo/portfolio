@@ -7,7 +7,7 @@ module.exports = {
       DOMAIN: 'rafaelcamargo.com'
     }
   },
-  NEWSLETTER_ID: 'rcamargo',
+  NEWSLETTER_ID: 'rafaelcamargo',
   VERVET: {
     BASE_URL: 'https://vervetapp.herokuapp.com',
     PROJECTS: {
