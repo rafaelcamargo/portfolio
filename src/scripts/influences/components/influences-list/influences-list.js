@@ -30,6 +30,11 @@ export class InfluencesList extends Component {
             </ExternalLink>, <em>Epictetus</em>
           </li>
           <li>
+            <ExternalLink href="https://sive.rs/n">
+              Hell Yeah or No
+            </ExternalLink>, <em>Derek Sivers</em>
+          </li>
+          <li>
             <ExternalLink href="https://www.amazon.com.br/Anything-You-Want-Lessons-Entrepreneur/dp/0241209048">
               Anything You Want
             </ExternalLink>, <em>Derek Sivers</em>
