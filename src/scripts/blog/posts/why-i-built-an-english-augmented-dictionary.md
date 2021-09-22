@@ -5,7 +5,7 @@ keywords: augmented dictionary, english, typenik
 
 ---
 
-In my mother language, Carta de Apresentação is the term that translates to cover letter in English.
+In my mother language, Carta de Apresentação is the term that translates to Cover Letter in English.
 
 At the start of the past year, I wrote a cover letter to compete for a position at Basecamp. Along with my text, I wanted to use a metaphor. After all, Basecamp is the "cradle" of Rails. But how to be sure that "cradle of" would express in English the same meaning this metaphor has in Portuguese? One option would be forgetting that metaphor and express the intent literally: *the company where Rails was created*. Ok, it would vanish any possibility of committing a mistake. But, removing that possibility would also remove a little of the "flavor" of my writing. And a tasteless cover letter wouldn't increase my chances. I needed to keep my copy well seasoned as much as I could.
 
