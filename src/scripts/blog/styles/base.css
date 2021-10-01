@@ -10,7 +10,13 @@ em {
   font-style: italic;
 }
 
-ul:not(.tn-settings-list) li + li {
+ul:not(.tn-settings-list),
+ol:not(.tn-settings-list) {
+  margin: 30px 0;
+}
+
+ul:not(.tn-settings-list) li + li,
+ol:not(.tn-settings-list) li + li {
   margin-top: 10px;
 }
 

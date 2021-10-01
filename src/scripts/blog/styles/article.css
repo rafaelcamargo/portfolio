@@ -11,6 +11,10 @@ hr {
   border-color: #C4CDD5;
 }
 
+pre {
+  margin: 40px 0;
+}
+
 .rc-newsletter-form-container {
   margin: 50px auto 100px;
 }
