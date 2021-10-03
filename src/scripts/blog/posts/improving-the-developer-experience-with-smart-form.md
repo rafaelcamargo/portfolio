@@ -5,15 +5,15 @@ keywords: forms, smart, experience, developer, react, vue
 
 ---
 
-Every time I read the documentation of libraries that promise to make the development of forms easier, I get deep frustrated. I can't believe someone looks to those libraries and thinks they really improve the development experience.
+Every time I read the documentation of libraries that promise to make the development of forms easier, I get deeply frustrated. I can't believe someone looks to those libraries and thinks they really improve the development experience.
 
 Some of the reasons would include the counterintuitiveness of those APIs, the amount of code a developer still needs to write, and the difficulties of reusing that code. But the root cause behind all these reasons is the same. The lack of audacity at the moment those libraries were designed. Yes, in my opinion, those libraries seem to start solving the problem ahead of the desired starting point. The moment in which "we can be crazy" or the "what if we tried a completely different thing" moment. Those libraries have internalized the boringness involved in developing a form, so they can't find any way to overcome it.
 
 At some point in my career, I started to dream with two HTML improvements that would make me very, very, very happy.
 
-The first one regards the form control elements. That is, `<input>`, `<select>` and `<textarea>`, basically. My desire was that they had a property called `validations`. It will accept an Array of objects, each containing the attributes `isValid` - a function returning a Boolean value - and `errorMessage`, a String to be shown in the case of `isValid` returns false. This attribute would allow us to run several validations against a form control and set a specific message for each possible error.
+The first one regards the form control elements. That is, `<input>`, `<select>` and `<textarea>`. My desire was that they had a property called `validations`. It will accept an Array of objects, each containing the attributes `isValid` - a function returning a Boolean value - and `errorMessage`, a String to be shown in the case of `isValid` returns false. This attribute would allow us to run several validations against a form control and set a specific message for each possible error.
 
-The second improvement target is the `<form>` element. For SPAs, it would be great to use properties like `successMessage` and `errorMessage`. On submit success, the form would show the success message along with a toast. If the request failed, a banner would show the error message with a retry button at the top of the form.
+The second improvement target is the `<form>` element. For Single Page Applications, it would be great to use properties like `successMessage` and `errorMessage`. On submit success, the form would show the success message along with a toast. If the request failed, a banner would show the error message with a retry button at the top of the form.
 
 Translating my dream to HTML, we'd have something like this:
 
@@ -34,7 +34,7 @@ Translating my dream to HTML, we'd have something like this:
 </form>
 ```
 
-For three years, my tiny letters to Santa Claus banged to that dream become true. So at the end of 2020, convinced that Santa would ignore me one more time, I decided to put my hands on it and make it happen by force.
+For three years, my tiny letters to Santa Claus banged for that dream to become true. So at the end of 2020, convinced that Santa would ignore me one more time, I decided to put my hands on it and make it happen by force.
 
 The form creation experience was the true motivation behind [Taslonic](https://taslonic.com). I created it to set me free from the ordinary work and focus on the extraordinary one. No one deserves to waste hours of life implementing the same form use cases, again and again, every time the application needs another form. Besides wasting time, the repetitive implementation of those cases - feedbacks for success/error/processing - leads to uncountable inconsistencies in the use of the application. Sometimes a developer implements them one way, sometimes another developer makes them another way. Not to say the times some of those use cases are forgotten. Who hasn't ever stood before a never-ending *loading* even after a request failure?
 

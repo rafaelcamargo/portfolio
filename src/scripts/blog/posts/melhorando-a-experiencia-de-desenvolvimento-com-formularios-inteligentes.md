@@ -12,7 +12,7 @@ Eu poderia citar alguns motivos como a contra intuitividade de algumas APIs, a q
 
 A partir de um determinado momento na minha carreira, eu comecei a sonhar com duas melhorias no HTML que me deixariam muito, muito, muito feliz.
 
-A primeira delas diz respeito aos elementos que controlam dados de um formulário. Ou seja, `<input>`, `<select>` e `<textarea>`, basicamente. O meu desejo é que eles tivessem uma propriedade chamada `validations`. Ela aceitaria um Array de objetos, cada um contendo os atributos `isValid` - função que retornaria um valor Booleano - e `errorMessage`, uma String a ser exibida no caso de `isValid` retornar falso. Ou seja, eu poderia efetuar diversas validações contra um campo de formulário e definir uma mensagem para cada um dos possíveis erros.
+A primeira delas diz respeito aos elementos que controlam dados de um formulário. Ou seja, `<input>`, `<select>` e `<textarea>`. O meu desejo é que eles tivessem uma propriedade chamada `validations`. Ela aceitaria um Array de objetos, cada um contendo os atributos `isValid` - função que retornaria um valor Booleano - e `errorMessage`, uma String a ser exibida no caso de `isValid` retornar falso. Ou seja, eu poderia efetuar diversas validações contra um campo de formulário e definir uma mensagem para cada um dos possíveis erros.
 
 A segunda melhoria seria no elemento `<form>`. Em tempos de *Single Page Applications*, seria incrível se esse elemento oferecesse as propriedades `successMessage` e `errorMessage`. Em caso de sucesso, um *toast* poderia ser exibido na tela com a mensagem de sucesso. Caso a requisição falhasse, um *banner* ao topo do formulário exibiria a mensagem de erro junto com um botão que permitisse o reenvio dos dados.
 
