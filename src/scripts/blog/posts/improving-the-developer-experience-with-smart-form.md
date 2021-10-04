@@ -34,7 +34,7 @@ Translating my dream to HTML, we'd have something like this:
 </form>
 ```
 
-For three years, my letters to Santa Claus banged for that dream to become true. So at the end of 2020, convinced that Santa would ignore me one more time, I decided to put my hands on it and make it happen by myself.
+For three years, my letters to Santa Claus banged for that dream come true. So at the end of 2020, convinced that Santa would ignore me one more time, I decided to put my hands on it and make it happen by myself.
 
 The form creation experience was the true motivation behind [Taslonic](https://taslonic.com). I created it to set me free from the ordinary work and focus on the extraordinary one. No one deserves to waste hours of life implementing the same form use cases, again and again, every time the application needs another form. Besides wasting time, the repetitive implementation of those cases - feedbacks for success, error, and processing - leads to uncountable inconsistencies in the use of the application. Sometimes a developer implements them one way, sometimes another developer makes them another way. Not to say the times some of those use cases are forgotten. Who hasn't ever stood before a never-ending *loading* even after a request failure?
 
