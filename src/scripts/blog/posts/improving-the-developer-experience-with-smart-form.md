@@ -19,9 +19,9 @@ Translating my dream to HTML, we'd have something like this:
 
 ``` html
 <form
-  onSubmit="() => axios.post(...)"
-  successMessage="Alright, thank you!"
-  errorMessage="Something went wrong. Please, try again."
+  onsubmit="() => axios.post(...)"
+  success-message="Alright, thank you!"
+  error-message="Something went wrong. Please, try again."
 >
   <input
     aria-label="Enter a programming language"
