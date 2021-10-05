@@ -72,7 +72,7 @@ Explore this example of a newsletter form made with Taslonic.
 </div>
 <script src="../scripts/smart-form.js"></script>
 
-- Here is all I needed to code while creating this form:
+Here is all I needed to code while creating this form:
 
 - Email address validation
 - Request fired on submit
