@@ -6,7 +6,7 @@ lang: pt-BR
 
 ---
 
-Durante um longo período da minha carreira, escrever sobre programação significava escrever em inglês. Essa parece ser uma tendência natural numa profissão que tem como maiores expoentes pessoas que falam inglês nativamente. A propósito, um enorme número de ferramentas usadas na programação são também oferecidos apenas nesse idioma. Muitos dos termos usados diariamente por nós, não nativos em inglês, são *Franksteins-linguísticos* que incluem os verbos *mergear* e *deployar*, por exemplo.
+Durante um longo período da minha carreira, escrever sobre programação significava escrever em inglês. Essa parece ser uma tendência natural numa profissão que tem como maiores expoentes pessoas que falam inglês nativamente. A propósito, um enorme número de ferramentas usadas na programação são também oferecidos apenas nesse idioma. Muitos dos termos usados diariamente por nós, não nativos em inglês, são *Frankensteins-linguísticos* que incluem os verbos *mergear* e *deployar*, por exemplo.
 
 Essa minha *anglo-postura* de escrever *english-only* começou a mudar quando fui apresentando ao [@fernahh](https://twitter.com/fernahh), que além de excelente profissional viria a se tornar um grande amigo. Em seu [site](https://fernahh.com.br/), ele compartilha várias de suas ideias no bom e velho português. Ao ler seus textos, me fiz a seguinte pergunta: se obviamente tenho condições de me expressar melhor no meu idioma nativo, por que diabos não escrevo em português?
 
