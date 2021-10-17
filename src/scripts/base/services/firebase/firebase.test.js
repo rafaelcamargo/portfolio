@@ -26,6 +26,14 @@ describe('Firebase Service', () => {
       destination: '/blog',
       type: 301
     }));
+    expect(findRedirectBySource(hosting.redirects, '/blog/l/en-us')).toEqual(expect.objectContaining({
+      destination: '/blog/l/en-US',
+      type: 301
+    }));
+    expect(findRedirectBySource(hosting.redirects, '/blog/l/pt-br')).toEqual(expect.objectContaining({
+      destination: '/blog/l/pt-BR',
+      type: 301
+    }));
     REDIRECTED_ROUTES.forEach(route => {
       expect(findRedirectBySource(hosting.redirects, route)).toEqual(expect.objectContaining({
         destination: `/blog${route}`,

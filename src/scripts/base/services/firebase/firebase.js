@@ -21,6 +21,8 @@ _public.buildConfig = () => {
       ],
       redirects: [
         { source: '/stories', destination: '/blog', type: 301 },
+        { source: '/blog/l/en-us', destination: '/blog/l/en-US', type: 301 },
+        { source: '/blog/l/pt-br', destination: '/blog/l/pt-BR', type: 301 },
         ...buildRedirects()
       ]
     }
