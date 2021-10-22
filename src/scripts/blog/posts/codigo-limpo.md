@@ -47,12 +47,14 @@ Se em algum momento você se pegar escrevendo um comentário na tentativa de mel
 
 ## Edite brilhantemente.
 
-*Red, Green, Blue*. Essa é uma expressão associada ao desenvolvimento orientado a testes - TDD. A tríade de cores significa as seguintes etapas de desenvolvimento:
+*Red, Green, Blue*. Essa é o mantra do desenvolvimento orientado a testes - TDD. A tríade de cores significa as seguintes etapas de desenvolvimento:
 
 - Red: Por ter escrito o teste antes da implementação, ele quebra ao ser rodado pela primeira vez.
 - Green: Você evolui a implementação até que o teste passe.
-- Blue: Assim que o teste passa, você transforma aquilo que apenas funciona em algo que funciona bem.
+- Blue: Assim que o teste passa, você transforma aquilo que apenas funciona em algo que **funciona bem**.
 
 É com a segurança fornecida pelo teste passando que você relê seu código e verifica se a nomenclatura escolhida continua fazendo sentido. Se linhas de código podem ser removidas. Se a implementação pode ser mais limpa, mais clara. Se você não envia um email tão logo termina de escrevê-lo, por quê consideraria a implementação concluída tão logo ela funcione?
 
-Sobre a importância de editar, Jason Fried escreveu [Eureka! We’re editors](https://signalvnoise.com/posts/2930-svn-flashback-eureka-were-editors) e Carolyn Cherry muito bem lembrou: It is perfectly okay to write garbage as long as you edit brilliantly.
+Sobre a importância de editar, Jason Fried escreveu [Eureka! We’re editors](https://signalvnoise.com/posts/2930-svn-flashback-eureka-were-editors) e Carolyn Cherry muito bem lembrou:
+
+> It is perfectly okay to write garbage as long as you edit brilliantly.

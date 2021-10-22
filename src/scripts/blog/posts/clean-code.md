@@ -54,4 +54,6 @@ If at some point you find yourself writing a comment trying to better explain yo
 
 After having a passing test, you have all the safety you need to re-read your code and make sure the names you have chosen are still making sense. If a couple lines of code can be removed. If the implementation could be cleaner. If you don’t hit the submit button as soon as you finish writing an email, why would you consider the implementation done as soon as it works?
 
-About the importance of editing, Jason Fried wrote [Eureka! We’re editors](https://signalvnoise.com/posts/2930-svn-flashback-eureka-were-editors), and Carolyn Cherry noticed it very well: It is perfectly okay to write garbage as long as you edit brilliantly.
+About the importance of editing, Jason Fried wrote [Eureka! We’re editors](https://signalvnoise.com/posts/2930-svn-flashback-eureka-were-editors), and Carolyn Cherry noticed it very well:
+
+> It is perfectly okay to write garbage as long as you edit brilliantly.
