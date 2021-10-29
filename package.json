@@ -8,8 +8,8 @@
     "build:blog": "rm -rf ./dist/blog && triven build",
     "parse:assets": "node ./src/scripts/base/services/assets",
     "format": "eslint ./src/**/*.js",
-    "start": "webpack-dev-server",
-    "serve": "npm run build && http-server ./dist",
+    "start": "webpack-dev-server && ",
+    "serve:blog": "npm run build:blog && http-server ./dist",
     "test": "jest",
     "deploy": "rm -f ./firebase.json && node ./firebase.js && firebase deploy --non-interactive"
   },
