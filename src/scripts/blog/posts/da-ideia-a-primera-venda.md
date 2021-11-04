@@ -28,7 +28,7 @@ Com o milagre em mente, hora de me concentrar na reza. Expliquei o que era um [E
 ![Discussão no Indie Hackers](../images/typenik-indie-hackers.png)  
 _Discussão no Indie Hackers_
 
-A primeira venda para uma pessoas desconhecida finalmente acontece quase cinco meses depois de ter colocado o produto no ar. Maior que a surpresa com a venda foi a surpresa em saber que o meu mais novo cliente era um designer que eu muito admiro. Uma espécie de ciclo de surpresas positivas se completava na minha frente, já que o [Pliim](https://pliim.app/), produto criado por esse designer, foi justamente um dos que me inspiraram a criar o meu próprio produto.
+A primeira venda para uma pessoas desconhecida finalmente acontece quase cinco meses depois de ter colocado o produto no ar. Maior que a surpresa com a venda foi a felicidade em saber que o meu mais novo cliente era um designer que eu muito admiro. Uma espécie de ciclo de surpresas positivas se completava na minha frente, já que o [Pliim](https://pliim.app/), produto criado por esse designer, foi justamente um dos que me inspiraram a criar o meu próprio produto.
 
 Construir e vender um software de maneira independente me fez desconfiar que é possível desenvolver produtos com uma visão muito diferente daquela na qual nós programadores estamos acostumados a lidar diariamente. Uma visão oposta àquela disseminada pela Igreja do Sétimo Dia da Disrupt-o-mania e baseada nos evangelhos do Growth Hacking, Three Comma Club e 30 Under 30. Uma visão guiada pelo suficiente e não pela ostentação. Que prefere se mover lentamente sem quebrar as coisas. Que amadurece o mundo ao invés de apodrecê-lo.
 
