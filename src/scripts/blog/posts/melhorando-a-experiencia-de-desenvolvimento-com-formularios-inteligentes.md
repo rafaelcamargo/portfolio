@@ -35,7 +35,7 @@ Traduzindo o meu sonho para HTML, teríamos algo mais ou menos assim:
 </form>
 ```
 
-Durante três anos, minhas cartas para o Papai Noel imploraram para que esse sonho se torna-se realidade. Até que no final de 2020, com a certeza que o velhinho iria me ignorar mais uma vez, decidi arregaçar as mangas e realizá-lo na marra.
+Durante três anos, minhas cartas para o Papai Noel imploraram para que esse sonho se tornasse realidade. Até que no final de 2020, com a certeza que o velhinho iria me ignorar mais uma vez, decidi arregaçar as mangas e realizá-lo na marra.
 
 Esse foi o principal motivo por trás da criação do [Taslonic](https://taslonic.com). Eu o criei com a intenção de me livrar de tarefas ordinárias e assim poder focar em coisas extraordinárias. Ninguém merece perder horas preciosas da vida tendo que tratar os mesmos casos de uso em todo novo formulário que a aplicação precisar. Além do desperdício de tempo, a implementação repetitiva desses casos de uso - feedbacks de sucesso/erro/processamento - leva a inevitáveis inconsistências na experiência de uso da aplicação, pois oras serão implementados de uma maneira, oras de outra. Isso para não falar das vezes em que alguns casos de uso são esquecidos. Quem nunca ficou diante de um *loader* que nunca sumiu da tela mesmo após a requisição já ter falhado?
 
