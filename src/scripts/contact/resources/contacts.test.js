@@ -10,7 +10,7 @@ describe('Contacts Resource', () => {
     const message = { some: 'message' };
     contactsResource.send(message);
     expect(vervetResource.post).toHaveBeenCalledWith(
-      '11cec322-625b-49af-9add-a20bcfa66c7e',
+      '21305430-cba4-48b5-a5c0-b6e72c43e48f',
       'messages',
       message
     );

@@ -12,7 +12,7 @@ module.exports = {
     BASE_URL: 'https://vervetapp.herokuapp.com',
     PROJECTS: {
       MAILER: {
-        ID: 'b0031d0f-b282-41af-bc89-ef6f97a398f2',
+        ID: 'be51fc60-6e82-41cd-8e5a-091cc1fa6380',
         RECIPIENT: 'hello@rafaelcamargo.com'
       }
     }

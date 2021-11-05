@@ -13,7 +13,7 @@ module.exports = {
     BASE_URL: 'http://localhost:9001',
     PROJECTS: {
       MAILER: {
-        ID: '11cec322-625b-49af-9add-a20bcfa66c7e',
+        ID: '21305430-cba4-48b5-a5c0-b6e72c43e48f',
         RECIPIENT: 'vervetapp@gmail.com'
       }
     }
