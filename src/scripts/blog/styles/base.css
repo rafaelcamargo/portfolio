@@ -1,4 +1,5 @@
 @import url(https://rsms.me/inter/inter.css);
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
 
 html,
 body {
@@ -6,7 +7,7 @@ body {
 }
 
 em {
-  font-family: Georgia, serif;
+  font-family: 'Libre Baskerville', Georgia, serif;
   font-style: italic;
 }
 
