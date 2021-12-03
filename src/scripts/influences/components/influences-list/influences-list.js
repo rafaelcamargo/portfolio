@@ -149,11 +149,6 @@ export class InfluencesList extends Component {
                Speech at Stanford
             </ExternalLink>, <em>Steve Jobs</em>
           </li>
-          <li>
-            <ExternalLink href="https://www.ted.com/talks/dan_pink_the_puzzle_of_motivation">
-              The puzzle of motivation
-            </ExternalLink>, <em>Daniel Pink</em>
-          </li>
         </ul>
         <h2>
           Posts
@@ -203,11 +198,6 @@ export class InfluencesList extends Component {
             <ExternalLink href="https://sivers.org/polut">
               Digital pollution
             </ExternalLink>, <em>Derek Sivers</em>
-          </li>
-          <li>
-            <ExternalLink href="https://pingr.io/blog/having-170-competitors-is-not-an-obstacle/">
-              Having 170 competitors is not an obstacle
-            </ExternalLink>, <em>Victor Ponamariov</em>
           </li>
         </ul>
       </div>
