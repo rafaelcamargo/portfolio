@@ -11,11 +11,7 @@ Reading his first book - [Anything You Want](https://www.amazon.com.br/Anything-
 
 I started to put an end to those tasks in the second quarter of this year. Ten weeks later, [Typenik](https://typenik.com/) has launched. An [English Augmented Dictionary](../why-i-built-an-english-augmented-dictionary/) for non-native speakers. Besides delivering everything a traditional dictionary does, Typenik allows you to search for terms containing more than one word, conjugates irregular and regular verbs and clears up the real meaning behind expressions.
 
-My goal was modest: one single license sold until the end of this year. One inch of trade. Miles of satisfaction.
-
-> Money is the ultimate feedback.
->
-> [Extreme Programming Explained](https://www.amazon.com/-/es/gp/product/0321278658)
+My goal was modest: one single license sold until the end of this year. One inch of trade. Miles of satisfaction. *Money is the ultimate feedback*, wrote Kent Beck in the book [Extreme Programming Explained](https://www.amazon.com/-/es/gp/product/0321278658).
 
 ![Typenik's checkout page](../images/typenik-checkout-page.png)  
 _Typenik's checkout page_
@@ -29,6 +25,6 @@ _Discussion at Indie Hackers_
 
 The first purchase made by an unknown person finally happened almost five months after the product to be on the market. Bigger than the surprise with the sale was the happiness of noticing that my newest client was a designer I admire so much. A cycle of positive surprises had just been completed in front of me because [Pliim](https://pliim.app/), a product created by that designer, was a great inspiration for me to create my own too.
 
-Building and selling software independently has made me reflect on the possibility of developing products with a vision quite different from the one disseminated by the Disrupt-o-mania Church and based on the gospel of Growth Hacking, Three Comma Club, and 30 Under 30. A vision guided by sufficient, not excessiveness. One that moves slowly without breaking things. One that ripens the world instead of rotting it.
+Building and selling software independently has made me reflect on the possibility of developing products with a vision quite different from the one disseminated by the Disrupt-o-mania Church and based on the gospel of Growth Hacking, Three Comma Club, and 30 Under 30. A vision guided by sufficient, not excessiveness, and that moves slowly without breaking anything.
 
 Thanks, [Zé](https://twitter.com/zehf)!
