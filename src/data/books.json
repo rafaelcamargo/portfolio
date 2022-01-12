@@ -78,18 +78,6 @@
     "reading_on": "2022-03"
   },
   {
-    "title": "Out of the Wreckage",
-    "author": "George Monboit",
-    "url": "https://www.amazon.com/gp/product/1786632888",
-    "reading_on": "2022-03"
-  },
-  {
-    "title": "It Doesn’t Have To Be Crazy at Work",
-    "author": "Jason Fried & DHH",
-    "url": "https://www.amazon.com/Doesnt-Have-Be-Crazy-Work/dp/0062874780/",
-    "reading_on": "2022-03"
-  },
-  {
     "title": "Pedagogia da Autonomia",
     "author": "Paulo Freire",
     "url": "https://www.amazon.com.br/Pedagogia-autonomia-Capa-nova-necess%25C3%25A1rios/dp/857753409X",
@@ -100,6 +88,18 @@
     "author": "Machado de Assis",
     "url": "https://www.amazon.com.br/Quincas-Borba-51-Machado-Assis/dp/8525406686",
     "reading_on": "2022-02"
+  },
+  {
+    "title": "Out of the Wreckage",
+    "author": "George Monboit",
+    "url": "https://www.amazon.com/gp/product/1786632888",
+    "reading_on": "2022-03"
+  },
+  {
+    "title": "It Doesn’t Have To Be Crazy at Work",
+    "author": "Jason Fried & DHH",
+    "url": "https://www.amazon.com/Doesnt-Have-Be-Crazy-Work/dp/0062874780/",
+    "read_on": "2022-01-10"
   },
   {
     "title": "As intermitências da morte",
