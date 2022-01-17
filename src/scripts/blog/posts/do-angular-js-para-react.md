@@ -18,7 +18,7 @@ Em suas configurações, definimos um módulo que será o ponto de partida *(en
 
 ![Webpack](../images/webpack.svg)
 
-Como se pode ver na imagem, foram incluídos no pacote todos os módulos necessários para a resolução do *entry point*. O pacote produzido pelo Webpack contém os módulos *index.js (entry point)*, *a.js*, *b.js* e *c.js*. Como nenhum módulo no caminho da resolução do *entry point* importou o módulo *d.js*, ele ficou de fora. Isso é ótimo porque significa que módulos que não são efetivamente usados pela aplicação não são empacotados evitando assim peso desnecessário.
+Como se pode ver na imagem, foram incluídos no pacote todos os módulos necessários para a resolução do *entry point*. O pacote produzido pelo Webpack contém os módulos *index.js (entry point)*, *a.js*, *b.js* e *c.js*. Como nenhum módulo no caminho da resolução do *entry point* importou o módulo *d.js*, ele ficou de fora. Isso é ótimo porque módulos que não são efetivamente usados pela aplicação não são empacotados evitando assim peso desnecessário.
 
 ## Babel
 
@@ -26,7 +26,7 @@ Comparado ao Webpack, o Babel é bem mais simples de entender. Ele é um transpi
 
 ![Babel](../images/babel.svg)
 
-Nesse [repositório](https://github.com/rafaelcamargo/minimal-react), você pode conferir os arquivos de configuração *.babelrc* e *webpack.config.js* contendo apenas o que é minimamente necessário para empacotar e executar uma aplicação React.
+Nesse [repositório](https://github.com/rafaelcamargo/minimal-react), você pode conferir os arquivos de configuração *.babelrc* e *webpack.config.js* contendo apenas o que é minimamente necessário para empacotar e executar uma aplicação React.
 
 ## Template Engine
 
