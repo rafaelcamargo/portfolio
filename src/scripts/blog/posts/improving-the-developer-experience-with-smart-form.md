@@ -82,7 +82,7 @@ Below, everything the form brings to me without making me write one single line 
 
 1. Shows an asterisk aside required field labels
 2. Shows the error message for invalid fields only after the user blurs them at least once.
-3. Shows the error messages for all invalid fields on submit if the user tries to submit the form without filling them correctly.
+3. Shows the error messages for all invalid fields on submit if the user tries to submit the form without filling them correctly, and focus the first invalid field.
 4. Replaces the submit button label with a *loader* during the request and returns it to the original state when the request is complete.
 5. Disables the submit button during the request processing to avoid multiple submissions.
 6. Fires a toast containing a custom message on submit success.

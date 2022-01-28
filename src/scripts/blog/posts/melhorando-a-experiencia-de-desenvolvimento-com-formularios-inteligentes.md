@@ -83,7 +83,7 @@ Abaixo, tudo que o formulário me entrega sem que eu precisasse escrever uma ún
 
 1. Exibe um asterisco nos labels de campos que são obrigatórios.
 2. Exibe a mensagem de erro sob um campo inválido só depois que o usuário desfoca o campo ao menos uma vez, evitando que a mensagem de erro seja exibida enquanto o campo ainda está sendo preenchido.
-3. Exibe a mensagem de erro de todos os campos inválidos caso o usuário submeta o formulário sem preenchê-los corretamente.
+3. Exibe as mensagens de erro de todos os campos inválidos caso o usuário submeta o formulário sem preenchê-los corretamente, e foca o primeiro campo inválido.
 4. Substitui o texto do botão de envio por um *loader* durante a requisição e o retorna ao estado inicial quando a requisição é concluída.
 5. Desabilita o botão de envio durante o processamento da requisição para evitar múltiplos envios.
 6. Lança um toast contendo uma mensagem personalizada no sucesso do envio.
