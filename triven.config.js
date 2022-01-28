@@ -4,7 +4,7 @@ const trivenService = require('./src/scripts/base/services/triven/triven');
 const config = {
   title: 'Rafael Camargo',
   url: 'https://rafaelcamargo.com/blog',
-  sourceDirectory: './src/scripts/blog',
+  sourceDirectory: './src/scripts/blog/posts',
   outputDirectory: './dist/blog',
   templates: {
     article: './src/scripts/blog/templates/article.html',
