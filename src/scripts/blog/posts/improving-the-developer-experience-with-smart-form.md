@@ -82,13 +82,13 @@ Below, everything the form brings to me without making me write one single line 
 
 1. Shows an asterisk aside required field labels
 2. Shows the error message for invalid fields only after the user blurs them at least once.
-3. Shows the error messages for all invalid fields on submit if the user tries to submit the form without filling them correctly, and focus the first invalid field.
+3. Shows the error messages for all invalid fields on submit if the user tries to submit the form without filling them correctly, and focuses on the first invalid field.
 4. Replaces the submit button label with a *loader* during the request and returns it to the original state when the request is complete.
 5. Disables the submit button during the request processing to avoid multiple submissions.
 6. Fires a toast containing a custom message on submit success.
 7. Shows a banner at the top of the form containing a button that allows users to resend data on submit error.
 
-**They represent seven use cases that I didn't need to implement and, consequently, test**. Are you curious to see the code? Here are some links:
+**They represent seven use cases that I didn't need to implement and, consequently, test**. Are you curious to sse the code? Here are some links:
 
 <ul>
   <li>
@@ -102,12 +102,12 @@ Below, everything the form brings to me without making me write one single line 
     </a>
   </li>
   <li>
-    <a href="https://components.taslonic.com/#!/components/vue/form" target="_blank">
+    <a href="https://taslonic.com/vue" target="_blank">
       Taslonic docs: Vue
     </a>
   </li>
   <li>
-    <a href="https://components.taslonic.com/#!/components/react/form" target="_blank">
+    <a href="https://taslonic.com/react" target="_blank">
       Taslonic docs: React
     </a>
   </li>

@@ -103,12 +103,12 @@ Abaixo, tudo que o formulário me entrega sem que eu precisasse escrever uma ún
     </a>
   </li>
   <li>
-    <a href="https://components.taslonic.com/#!/components/vue/form" target="_blank">
+    <a href="https://taslonic.com/vue" target="_blank">
       Documentação Taslonic: Vue
     </a>
   </li>
   <li>
-    <a href="https://components.taslonic.com/#!/components/react/form" target="_blank">
+    <a href="https://taslonic.com/react" target="_blank">
       Documentação Taslonic: React
     </a>
   </li>
