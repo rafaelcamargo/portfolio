@@ -6,12 +6,6 @@
     "reading_on": "2022-07"
   },
   {
-    "title": "Utopia Selvagem",
-    "author": "Darcy Ribeiro",
-    "url": "https://www.amazon.com.br/Utopia-Selvagem-V%25C3%25A1rios-Autores/dp/8526019341",
-    "reading_on": "2022-07"
-  },
-  {
     "title": "Coisas de Índio: Versão Infantil",
     "author": "Daniel Munduruku",
     "url": "https://www.amazon.com.br/Coisas-%25C3%258Dndio-Infantil-Daniel-Munduruku/dp/8545400756",
@@ -47,12 +41,7 @@
     "url": "https://www.amazon.com.br/Tembet%25C3%25A1-conversas-com-pensadores-ind%25C3%25ADgenas/dp/8579202280",
     "reading_on": "2022-05"
   },
-  {
-    "title": "Um jeito de fazer política",
-    "author": "Eduardo Suplicy",
-    "url": "https://loja-editoracontracorrente.com.br/produto/um-jeito-de-fazer-politica/",
-    "reading_on": "2022-05"
-  },
+
   {
     "title": "As serpentes que roubaram a noite",
     "author": "Daniel Munduruku",
@@ -78,6 +67,18 @@
     "reading_on": "2022-03"
   },
   {
+    "title": "Utopia Selvagem",
+    "author": "Darcy Ribeiro",
+    "url": "https://www.amazon.com.br/Utopia-Selvagem-V%25C3%25A1rios-Autores/dp/8526019341",
+    "reading_on": "2022-03"
+  },
+  {
+    "title": "Um jeito de fazer política",
+    "author": "Eduardo Suplicy",
+    "url": "https://loja-editoracontracorrente.com.br/produto/um-jeito-de-fazer-politica/",
+    "reading_on": "2022-03"
+  },
+  {
     "title": "Pedagogia da Autonomia",
     "author": "Paulo Freire",
     "url": "https://www.amazon.com.br/Pedagogia-autonomia-Capa-nova-necess%25C3%25A1rios/dp/857753409X",
@@ -93,7 +94,7 @@
     "title": "Out of the Wreckage",
     "author": "George Monboit",
     "url": "https://www.amazon.com/gp/product/1786632888",
-    "reading_on": "2022-03"
+    "read_on": "2022-01-29"
   },
   {
     "title": "It Doesn’t Have To Be Crazy at Work",
