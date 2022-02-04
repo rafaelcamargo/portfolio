@@ -4,8 +4,8 @@
   "description": "My Personal Website",
   "main": "src/scripts/app.js",
   "scripts": {
-    "build": "rm -rf ./dist && webpack && npm run build:blog && npm run parse:assets",
-    "build:blog": "rm -rf ./dist/blog && triven build",
+    "build": "rm -rf ./dist && npm run build:blog && webpack && npm run parse:assets",
+    "build:blog": "triven build",
     "parse:assets": "node ./src/scripts/base/services/assets",
     "format": "eslint ./src/**/*.js",
     "start": "npm run build:blog && webpack-dev-server",
