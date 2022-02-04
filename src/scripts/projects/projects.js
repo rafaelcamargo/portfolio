@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Avatron } from '@scripts/base/components/avatron/avatron';
 import { Col } from '@scripts/base/components/col/col';
-import { CtaLink } from '@scripts/base/components/cta-link/cta-link';
 import { Hero } from '@scripts/base/components/hero/hero';
 import { ProjectList } from '@scripts/projects/components/project-list/project-list';
 import { Row } from '@scripts/base/components/row/row';
