@@ -9,7 +9,7 @@ export const HomeHero = () => {
       <ProjectFeaturedList />
       <h1>
         All those side projects were fully covered with automated tests.<br />
-        My name is Rafael Camargo. I am a programmer, designer, and believe it's quite possible to make very fast something that works very well.
+        My name is Rafael Camargo. I am a programmer, designer, and believe it's quite possible to build very quickly software that works very well.
       </h1>
       <CtaLink to="/projects" text="See all projects" />
     </div>
