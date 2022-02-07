@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Glorious Demo",
+    "description": "I created a library that produces animations simulating the use of Editor and Terminal applications to show some code in action.",
+    "days_invested": 23
+  },
+  {
+    "name": "Triven",
+    "description": "I created a multi-languag static blog generator based in Markdown.",
+    "days_invested": 24
+  },
+  {
+    "name": "Typenik",
+    "description": "I created an English Augmented Dictionary called Typenik.",
+    "days_invested": 45
+  }
+]

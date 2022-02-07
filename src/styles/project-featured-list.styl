@@ -1,0 +1,19 @@
+@require '_variables'
+@require '_mixins'
+
+.r-project-featured-list
+  display grid
+  grid-template-columns 1fr 1fr 1fr
+  grid-gap 80px
+  h2
+    font-size $font-size-xxs
+    font-weight bold
+    text-transform uppercase
+  p
+    margin-top 5px
+    font-size $font-size-xs
+
++breakpoint('xs')
+  .r-project-featured-list
+    grid-template-columns 1fr
+    grid-gap 40px
