@@ -29,7 +29,8 @@ module.exports = {
       '@data': `${__dirname}/${project.data.source.root}`,
       '@environment$': `${__dirname}/${project.environments.source.root}/${env}.js`,
       '@scripts': `${__dirname}/${project.scripts.source.root}`,
-      '@styles': `${__dirname}/${project.styles.source.root}`
+      '@styles': `${__dirname}/${project.styles.source.root}`,
+      '@dist': `${__dirname}/${project.scripts.dist.root}`
     }
   },
   plugins: [

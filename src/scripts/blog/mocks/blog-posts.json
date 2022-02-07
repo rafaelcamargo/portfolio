@@ -1,0 +1,92 @@
+[
+  {
+    "url": "da-ideia-a-primera-venda.html",
+    "title": "Da ideia à primeira venda",
+    "lang": "pt-BR",
+    "date": "2021-10-22",
+    "description": "Minha meta era modesta. Vender uma única licença até o final deste ano. Uma milimétrica movimentação financeira. Quilômetros de satisfação.",
+    "keywords": "ideia, Typenik, venda, Derek Sivers, Zeh Fernandes, Pliim, dicionário, inglês",
+    "excerpt": "Se você nunca ouviu falar sobre Derek Sivers, visite imediatamente seu site e leia pelo menos meia dúzia de seus textos. Parágrafo a parágrafo, seu pescoço vai ganhar mais elasticidade, e sua cabeça, cada vez mais livre para girar, começará a perceber um mundo muito maior do que aquele que até então você conhecia. Foi lendo seu primeir..."
+  },
+  {
+    "url": "from-idea-to-the-first-sale.html",
+    "title": "From idea to the first sale",
+    "lang": "en-US",
+    "date": "2021-10-29",
+    "description": "My goal was modest: one single license sold until the end of this year. One inch of trade. Miles of satisfaction.",
+    "keywords": "idea, Typenik, sale, Derek Sivers, Zeh Fernandes, Pliim, dictionary, english",
+    "excerpt": "If you haven't ever heard about Derek Sivers, visit his website now and read a couple of their blog posts. Paragraph by paragraph, your neck will become more elastic, and your head, freer to spin around, will start to notice a larger world than the one you were used to. Reading his first book - Anything You Want - by September of the l..."
+  },
+  {
+    "url": "generating-a-multi-language-blog-based-in-markdown.html",
+    "title": "Generating a multi-language blog based in Markdown",
+    "lang": "en-US",
+    "date": "2021-10-11",
+    "description": "For a long time in my career, writing about programming meant writing in English. This kind of 'anglo-driven' behavior started to change when I got introduced to an excellent professional who became one of my best friends.",
+    "keywords": "blog, generator, markdown, multi-language, triven",
+    "excerpt": "For a long time in my career, writing about programming meant writing in English instead of my mother-language Portuguese. It seems to be the usual way in a profession mainly led by native English speakers. By the way, a large number of programming tools are available in English only, leading non-native English speakers like me to inve..."
+  },
+  {
+    "url": "gerando-um-blog-multi-idiomas-baseado-em-markdown.html",
+    "title": "Gerando um blog multi-idiomas baseado em Markdown",
+    "lang": "pt-BR",
+    "date": "2021-10-10",
+    "description": "Durante um longo período da minha carreira, escrever sobre programação significava escrever em inglês. Essa minha 'anglo-postura' em escrever 'english-only' começou a mudar quando fui apresentando a um excelente profissional que viria se tornar um grande amigo.",
+    "keywords": "blog, gerador, markdown, multi-idiomas, triven",
+    "excerpt": "Durante um longo período da minha carreira, escrever sobre programação significava escrever em inglês. Essa parece ser uma tendência natural numa profissão que tem como maiores expoentes pessoas que falam inglês nativamente. A propósito, um enorme número de ferramentas usadas na programação são também oferecidos apenas nesse idioma. Mu..."
+  },
+  {
+    "url": "improving-the-developer-experience-with-smart-form.html",
+    "title": "Improving the developer experience with smart forms",
+    "lang": "en-US",
+    "date": "2021-10-02",
+    "description": "At some point in my career, I started to dream with two HTML improvements that would make me very, very, very happy.",
+    "keywords": "forms, smart, experience, developer, react, vue",
+    "excerpt": "Every time I read the documentation of libraries that promise to make the development of forms easier, I get deeply frustrated. I can't believe someone looks to those libraries and thinks they really improve the development experience. Some of the reasons would include the counterintuitiveness of those APIs, the amount of code a develo..."
+  },
+  {
+    "url": "melhorando-a-experiencia-de-desenvolvimento-com-formularios-inteligentes.html",
+    "title": "Melhorando a experiência de desenvolvimento com formulários inteligentes",
+    "lang": "pt-BR",
+    "date": "2021-10-01",
+    "description": "A partir de um determinado momento na minha carreira, eu comecei a sonhar com duas melhorias no HTML que me deixariam muito, muito, muito feliz.",
+    "keywords": "formulários, inteligentes, experiência, desenvolvimento, react, vue",
+    "excerpt": "Toda vez que eu consulto a documentação de uma biblioteca que promete facilitar o desenvolvimento de formulários, tenho uns três tipos diferentes de decepção. Não consigo acreditar que alguém olhe para a solução proposta e ache que ela realmente vai melhorar a experiência de desenvolvimento. Eu poderia citar alguns motivos como a contr..."
+  },
+  {
+    "url": "porque-criei-um-dicionario-aumentado-de-ingles.html",
+    "title": "Porque criei um Dicionário Aumentado de Inglês",
+    "lang": "pt-BR",
+    "date": "2021-09-17",
+    "description": "No início do ano passado, estava eu construindo uma cover letter a fim de disputar espaço numa empresa chamada Basecamp. Ao longo do texto, me deparei com a necessidade de usar uma metáfora, afinal a Basecamp é o 'berço do Rails'. Mas como ter certeza que 'cradle of Rails' expressaria em inglês o mesmo significado que a metáfora tem em português?",
+    "keywords": "dicionário aumentado, inglês, typenik",
+    "excerpt": "Cover letter é o termo em inglês para o que conhecemos por Carta de Apresentação. Se você já aplicou para uma vaga de emprego em uma empresa gringa, provavelmente já se deparou com ele. No início do ano passado, estava eu construindo uma cover letter a fim de disputar espaço numa empresa chamada Basecamp. Ao longo do texto, me deparei ..."
+  },
+  {
+    "url": "testar-ou-nao-testar-uma-aplicacao.html",
+    "title": "Testar ou não testar uma aplicação?",
+    "lang": "pt-BR",
+    "date": "2021-11-19",
+    "description": "Acredite você ou não, todo software é testado enquanto é desenvolvido. A opção 'sem testes' pode até existir na teoria, mas na prática eles sempre são feitos. A questão é definir como você os faz.",
+    "keywords": "testes automatizados, aplicação, desenvolvimento",
+    "excerpt": "Essa é uma pergunta recorrente no desenvolvimento de software. Respostas para essa pergunta costumam gerar debates acalorados que confrontam vários pontos de vista. Mas apesar da pergunta parecer complexa ao sugerir um dilema, a única resposta possível me parece bem óbvia. Alguns dizem que testes adicionam ao projeto um custo adicional..."
+  },
+  {
+    "url": "to-test-or-not-to-test-an-application.html",
+    "title": "To test or not to test an application?",
+    "lang": "en-US",
+    "date": "2021-11-28",
+    "description": "Believe it or not, every software gets tested during its development. The option 'no tests' may exist in theory, but they are always made in practice. The point is to define how you do them.",
+    "keywords": "automated tests, application, development",
+    "excerpt": "This is a recurring question in software development. Responses to this question usually lead developers to an intense debate confronting several points of view. Even though the question seems complex, the only possible answer seems very obvious to me. Some say that tests result in additional costs to the project because they stretch d..."
+  },
+  {
+    "url": "why-i-built-an-english-augmented-dictionary.html",
+    "title": "Why I built an English Augmented Dictionary",
+    "lang": "en-US",
+    "date": "2021-09-19",
+    "description": "At the start of the past year, I was creating a cover letter to compete for a position at Basecamp. Along with my text, I wanted to use a metaphor. After all, Basecamp is the 'cradle' of Rails. But how to be sure that 'cradle of' would express in English the same meaning this metaphor has in Portuguese, my mother language?",
+    "keywords": "augmented dictionary, english, typenik",
+    "excerpt": "In my mother language, Carta de Apresentação is the term that translates to Cover Letter in English. At the start of the past year, I wrote a cover letter to compete for a position at Basecamp. Along with my text, I wanted to use a metaphor. After all, Basecamp is the \"cradle\" of Rails. But how to be sure that \"cradle of\" would express..."
+  }
+]
