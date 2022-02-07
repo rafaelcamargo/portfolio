@@ -1,57 +1,33 @@
 @require '_variables'
 @require '_mixins'
 
-$link-color = $color-grey-dark
-
 .r-footer
-  padding 0 0 50px
-  border-top 1px solid $color-grey
-  clearfix()
+  position relative
+  padding 60px 0
+  background-color $color-grey-lighter
+  text-align center
+  .r-icon-circles
+    position absolute
+    top 0
+    left 50%
+    width 130px
+    height 3px
+    background-color $color-grey
+    transform('translateX(-50%)')
   h3
-    margin 50px 0 10px
     font-size $font-size-xxs
-    font-weight 600
+    font-weight bold
     text-transform uppercase
+  p
+    margin-top 50px
+    font-size $font-size-xxxs
 
-.r-footer-section
-  float left
+.r-footer-links
+  display flex
+  justify-content center
+  li + li
+    margin-left 25px
 
-.r-footer-keywords-container
-  margin 0 -5px
-  clearfix()
-
-.r-footer-keyword-crumb
-  float left
-  margin 10px 0 0
-  padding 0 5px
-  width 11.1111111111111%
-  box-sizing border-box
-  a
-    color $color-grey-dark
-    font-size $font-size-xs
-    border 0
-    white-space nowrap
-    text-overflow ellipsis
-    overflow hidden
-    width 100%
-    +highlight()
-      color $color-purple
-
-.r-footer-section-experience,
-.r-footer-section-projects,
-.r-footer-section-social
-  width 33.3333333333333%
-  .r-footer-keyword-crumb
-    width 33.3333333333333%
-
-.r-footer-section-credits
-  width 100%
-
-+breakpoint('xs')
-  .r-footer-keyword-crumb
-    width 33.3333333333333%
-
-  .r-footer-section-experience,
-  .r-footer-section-projects,
-  .r-footer-section-social
-    width 100%
+.r-footer-content
+  margin 0 auto
+  max-width 800px
