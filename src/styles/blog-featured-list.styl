@@ -1,0 +1,22 @@
+@require '_variables'
+@require '_mixins'
+
+.r-blog-featured-list
+  display grid
+  grid-template-columns 1fr 1fr 1fr
+  grid-gap 80px
+  h2
+    font-size $font-size-xl
+    font-weight bold
+
+.r-blog-featured-list-item-date
+  margin-top 15px
+  font-size $font-size-xxs
+
+.r-blog-featured-list-cta-link-container
+  margin-top 60px
+
++breakpoint('xs')
+  .r-blog-featured-list
+    grid-template-columns 1fr
+    grid-gap 40px

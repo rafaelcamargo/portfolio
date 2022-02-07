@@ -15,4 +15,8 @@ describe('Date Service', () => {
   it('should format an US date', () => {
     expect(dateService.format('2020-05-07', 'en')).toEqual('5/7/2020');
   });
+
+  it('should format an US date descriptively', () => {
+    expect(dateService.formatDescriptively('1984-03-14')).toEqual('March 14, 1984');
+  });
 });
