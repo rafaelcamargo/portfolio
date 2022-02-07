@@ -21,7 +21,7 @@ export class ProjectList extends Component {
           subtitle="2020"
           badgeText="Open-Source"
           url="https://taslonic.com"
-          ctaText="See The Code"
+          ctaText="See the code"
           ctaUrl="https://github.com/glorious-codes/glorious-taslonic">
           Set yourself free from the ordinary work to focus on the
           extraordinary one. Taslonic makes form creation and data
@@ -34,7 +34,7 @@ export class ProjectList extends Component {
           badgeText="Open-Source"
           url="https://pitsby.com"
           ctaUrl="https://github.com/glorious-codes/glorious-pitsby"
-          ctaText="See The Code">
+          ctaText="See the code">
           Pitsby is a super simple tool to document UI components in a
           declarative way. Its main features are Lightning Setup, Wide
           Support, Playground, Analytics Integration, and Customization.
@@ -46,7 +46,7 @@ export class ProjectList extends Component {
           badgeText="Open-Source"
           url="https://glorious.codes/demo"
           ctaUrl="https://github.com/glorious-codes/glorious-demo"
-          ctaText="See The Code">
+          ctaText="See the code">
           The easiest way of creating animations to show your code in
           action. Glorious Demo is open-source, has been featured
           on sites like <a href="https://news.ycombinator.com/item?id=18363668" rel="noreferrer" target="_blank">
@@ -62,7 +62,7 @@ export class ProjectList extends Component {
           badgeText="Open-Source"
           url="https://weather-now-vue.web.app"
           ctaUrl="https://github.com/rafaelcamargo/weather-now-vue"
-          ctaText="See The Code">
+          ctaText="See the code">
           As a front-end developer at Conta Azul, I collaborated with
           the hiring process designing a technical challenge. The
           candidates should build a tiny and responsive app
@@ -78,7 +78,7 @@ export class ProjectList extends Component {
           badgeText="Open-Source"
           url="https://woblast-app.web.app/"
           ctaUrl="https://github.com/rafaelcamargo/woblast-web"
-          ctaText="See The Code">
+          ctaText="See the code">
           A small application that fetches currency rates and stock
           exchange variations, and monitors them in real-time. Built
           with React, HG Brasil Finance API, and ChartJS. Logo and
@@ -110,7 +110,7 @@ export class ProjectList extends Component {
           subtitle="2016"
           badgeText="Open-Source"
           url="https://chrome.google.com/webstore/detail/dollert/lkbhlmhaiggihoihajncjlnmbpigbkam"
-          ctaText="See The Code"
+          ctaText="See the code"
           ctaUrl="https://github.com/rafaelcamargo/dollert-extension">
           If USD rate impacts your daily life making you visit
           financial websites all day long, Dollert saves your energy.
