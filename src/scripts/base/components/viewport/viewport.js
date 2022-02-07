@@ -12,6 +12,7 @@ export const Viewport = ({
   twitterCard,
   image,
   hideMenu,
+  showFooterDivider,
   children
 }) => {
   return (
@@ -31,7 +32,7 @@ export const Viewport = ({
           {children}
         </article>
       </main>
-      <Footer />
+      <Footer showDivider={showFooterDivider} />
     </div>
   )
 }

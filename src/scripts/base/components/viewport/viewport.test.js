@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import { Footer } from '@scripts/base/components/footer/footer';
 import { Meta } from '@scripts/base/components/meta/meta';
 import { Topbar } from '@scripts/base/components/topbar/topbar';
 import { Viewport } from '@scripts/base/components/viewport/viewport';
@@ -14,7 +15,9 @@ describe('Row', () => {
         twitterCard={ props.twitterCard }
         image={ props.image }
         lang={ props.lang }
-        hideMenu={ props.hideMenu }>
+        hideMenu={ props.hideMenu }
+        showFooterDivider={ props.showFooterDivider }
+      >
         { props.content }
       </Viewport>
     );
@@ -53,5 +56,15 @@ describe('Row', () => {
   it('should optionally not render menu', () => {
     const wrapper = mount({ hideMenu: true });
     expect(wrapper.find(Topbar).prop('hideMenu')).toEqual(true)
+  });
+
+  it('should not show divider by default', () => {
+    const wrapper = mount();
+    expect(wrapper.find(Footer).prop('showDivider')).not.toBeDefined();
+  });
+
+  it('should optionally show divider', () => {
+    const wrapper = mount({ showFooterDivider: true });
+    expect(wrapper.find(Footer).prop('showDivider')).toEqual(true);
   });
 });

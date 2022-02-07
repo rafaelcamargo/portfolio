@@ -6,7 +6,7 @@ import { HomeHero } from '@scripts/home/components/home-hero/home-hero';
 
 export const Home = () => {
   return (
-    <Viewport hideMenu>
+    <Viewport hideMenu showFooterDivider>
       <Section>
         <HomeHero />
       </Section>

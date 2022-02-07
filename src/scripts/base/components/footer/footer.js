@@ -3,10 +3,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Icon } from '@scripts/base/components/icon/icon';
 
-export const Footer = () => {
+export const Footer = ({ showDivider }) => {
   return (
     <footer className="r-footer">
-      <Icon name="circles" />
+      {showDivider && <Icon name="circles" />}
       <div className="r-footer-content">
         <ul className="r-footer-links">
           {getLinks().map(({ to, text }, index) => (
