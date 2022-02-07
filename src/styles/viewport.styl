@@ -2,8 +2,17 @@
 @require '_mixins'
 
 .r-viewport
-  position relative
-  padding-top 70px
+  header
+    position sticky
+    top 0
+  &.r-viewport-menuless
+    header
+      position relative
+      .r-topbar
+        background-color transparent
+        .r-logo
+          left 0
+          transform none
   .r-sidebar
     position fixed
     top 0
@@ -17,11 +26,3 @@
     &.r-sidebar-visible
       transform('translate3d(0,0,0)')
       box-shadow(3px 0 32px 0 alpha($color-darkest, .25))
-  .r-topbar
-    position fixed
-    top 0
-    width 100%
-
-+breakpoint('xs')
-  .r-viewport
-    padding-top 35px

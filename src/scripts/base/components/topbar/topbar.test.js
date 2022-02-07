@@ -4,9 +4,9 @@ import { Topbar } from '@scripts/base/components/topbar/topbar';
 import sidebarState from '@scripts/base/components/sidebar/sidebar.state';
 
 describe('Topbar', () => {
-  function mount(){
+  function mount({ hideMenu } = {}){
     return shallow(
-      <Topbar />
+      <Topbar hideMenu={hideMenu} />
     );
   }
 
@@ -24,4 +24,10 @@ describe('Topbar', () => {
     wrapper.find('[data-menu-button]').simulate('click');
     expect(sidebarState.toggle).toHaveBeenCalled();
   });
+
+  it('should optionally not render menu', () => {
+    const wrapper = mount({ hideMenu: true });
+    expect(wrapper.find('[data-menu]').length).toEqual(0);
+    expect(wrapper.find('[data-menu-button]').length).toEqual(0);
+  })
 });

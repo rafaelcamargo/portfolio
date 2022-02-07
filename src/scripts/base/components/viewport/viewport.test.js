@@ -1,6 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { Meta } from '@scripts/base/components/meta/meta';
+import { Topbar } from '@scripts/base/components/topbar/topbar';
 import { Viewport } from '@scripts/base/components/viewport/viewport';
 
 describe('Row', () => {
@@ -12,7 +13,8 @@ describe('Row', () => {
         keywords={ props.keywords }
         twitterCard={ props.twitterCard }
         image={ props.image }
-        lang={ props.lang }>
+        lang={ props.lang }
+        hideMenu={ props.hideMenu }>
         { props.content }
       </Viewport>
     );
@@ -23,13 +25,18 @@ describe('Row', () => {
     expect(wrapper.prop('className')).toEqual('r-viewport');
   });
 
+  it('should optionally set a css class for menuless viewport version', () => {
+    const wrapper = mount({ hideMenu: true });
+    expect(wrapper.prop('className').includes('r-viewport-menuless')).toEqual(true);
+  });
+
   it('should render some content', () => {
     const content = <p>Hello!</p>;
     const wrapper = mount({ content });
     expect(wrapper.find('p').text().trim()).toEqual('Hello!');
   });
 
-  it('should accept meta info', () => {
+  it('should set meta tags', () => {
     const title = 'Title';
     const description = 'Description';
     const keywords = 'key, words';
@@ -43,14 +50,8 @@ describe('Row', () => {
     expect(wrapper.find(Meta).prop('image')).toEqual(image);
   });
 
-  it('should set article language as english by default', () => {
-    const wrapper = mount();
-    expect(wrapper.find('article').prop('lang')).toEqual('en');
-  });
-
-  it('should optionally set article custom language', () => {
-    const lang = 'pt';
-    const wrapper = mount({ lang });
-    expect(wrapper.find('article').prop('lang')).toEqual(lang);
+  it('should optionally not render menu', () => {
+    const wrapper = mount({ hideMenu: true });
+    expect(wrapper.find(Topbar).prop('hideMenu')).toEqual(true)
   });
 });
