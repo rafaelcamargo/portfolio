@@ -2,13 +2,13 @@
 @require '_mixins'
 
 .r-home-hero
-  p
-    font-weight 400
+  h1
+    margin 60px 0
     font-size $font-size-xxl
-    line-height 1
+    font-weight bold
     letter-spacing -1px
 
-+breakpoint('xs-sm')
++breakpoint('xs')
   .r-home-hero
-    p
-      line-height 1.2
+    h1
+      font-size $font-size-xl

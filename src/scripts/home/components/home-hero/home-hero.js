@@ -1,20 +1,17 @@
 import '@styles/home-hero.styl';
-import React, { Component } from 'react';
-import { Hero } from '@scripts/base/components/hero/hero';
+import React from 'react';
+import { CtaLink } from '@scripts/base/components/cta-link/cta-link';
+import { ProjectFeaturedList } from '@scripts/projects/components/project-featured-list/project-featured-list';
 
-export class HomeHero extends Component {
-  render() {
-    return (
-      <div className="r-home-hero">
-        <Hero size="large">
-          <h1>
-            My name is Rafael.
-          </h1>
-          <p>
-            A coder who <em>designs</em>. A designer who <em>codes</em>.
-          </p>
-        </Hero>
-      </div>
-    );
-  }
+export const HomeHero = () => {
+  return (
+    <div className="r-home-hero">
+      <ProjectFeaturedList />
+      <h1>
+        All those projects were fully covered with automated tests.<br />
+        My name is Rafael Camargo. I am a programmer, designer, and believe it's quite possible to make very fast something that works very well.
+      </h1>
+      <CtaLink to="/projects" text="See all projects" />
+    </div>
+  )
 }
