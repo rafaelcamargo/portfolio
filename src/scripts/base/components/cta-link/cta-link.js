@@ -1,27 +1,36 @@
 import '@styles/cta-link.styl';
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { Icon } from '@scripts/base/components/icon/icon';
 
-export class CtaLink extends Component {
-  render() {
-    return (
-      <span className="r-cta-link">
-        { buildLink(this.props.to, this.props.href, this.props.onClick, buildText(this.props.text)) }
-      </span>
-    );
-  }
+export const CtaLink = ({ to, href, text }) => {
+  return (
+    <span className="r-cta-link">
+      {buildLink(to, href, buildTextElement(text))}
+    </span>
+  );
 }
 
-function buildLink(to, href, onClick, text){
-  const arrow = <Icon name="arrow" />;
-  return to ?
-    <Link to={ to }>{ text }{ arrow }</Link> :
-    <a href={ href } target="_blank" rel="noreferrer" onClick={ onClick }>{ text }{ arrow }</a>;
+function buildLink(to, href, text){
+  return to ? buildRouteLink(to, text) : buildAnchorLink(href, text);
 }
 
-function buildText(text){
-  return  <span className="r-cta-link-text" data-cta-link-text>
-            { text }
-          </span>;
+function buildTextElement(text){
+  return (
+    <span className="r-cta-link-text" data-cta-link-text>
+      {text}
+    </span>
+  );
+}
+
+function buildRouteLink(to, text){
+  return <Link to={to}>{text}{buildIcon()}</Link>;
+}
+
+function buildAnchorLink(href, text){
+  return <a href={href} target="_blank" rel="noreferrer">{text}{buildIcon()}</a>;
+}
+
+function buildIcon(){
+  return <Icon name="arrow" />;
 }

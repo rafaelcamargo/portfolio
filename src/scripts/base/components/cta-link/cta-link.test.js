@@ -37,11 +37,4 @@ describe('CTA Link', () => {
     expect(wrapper.find(Icon).prop('name')).toEqual('arrow');
     expect(wrapper.find('[data-cta-link-text]').text()).toEqual(text);
   });
-
-  it('should execute click callback on external link click if callback has been provided', () => {
-    const onClick = jest.fn();
-    const wrapper = mount({ onClick });
-    wrapper.find('a').simulate('click');
-    expect(onClick).toHaveBeenCalled();
-  });
 });
