@@ -20,7 +20,7 @@ describe('Blog Featured List', () => {
     expect(wrapper.prop('className')).toEqual('r-blog-featured-list-container');
   });
 
-  it('should a list of featured blog posts', () => {
+  it('should show a list of featured blog posts', () => {
     const wrapper = mount();
     expect(wrapper.find('ul').prop('className')).toEqual('r-blog-featured-list');
   });
@@ -31,9 +31,11 @@ describe('Blog Featured List', () => {
     const expectedBlogPosts = [blogPostsMock[8], blogPostsMock[1], blogPostsMock[2]]
     expect(items.length).toEqual(3);
     items.forEach((item, index) => {
-      const { title, date } = expectedBlogPosts[index];
+      const { title, description, url, date } = expectedBlogPosts[index];
       const formattedDate = dateService.formatDescriptively(date)
-      expect(item.find('h2').text()).toEqual(title);
+      expect(item.find('a').prop('href')).toEqual(`/blog/${url.replace('.html', '/')}`);
+      expect(item.find('a').text()).toEqual(title);
+      expect(item.find('p').text()).toEqual(description);
       expect(item.find('[data-blog-post-date]').text()).toEqual(formattedDate);
     })
   });
