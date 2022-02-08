@@ -6,12 +6,12 @@
   },
   {
     "name": "Triven",
-    "description": "I created a multi-language static blog generator based in Markdown.",
+    "description": "I created a multi-language static blog generator based in Markdown. Besides english, Triven allows me to write in my mother language portuguese.",
     "days_invested": 24
   },
   {
     "name": "Typenik",
-    "description": "I created an English Augmented Dictionary called Typenik.",
+    "description": "I created an English Augmented Dictionary called Typenik to address the peculiar needs of non-native english speakers.",
     "days_invested": 45
   }
 ]
