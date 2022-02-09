@@ -5,7 +5,7 @@ import { Meta } from '@scripts/base/components/meta/meta';
 
 describe('Meta', () => {
   const DEFAULT_TITLE = 'Rafael Camargo';
-  const DEFAULT_DESCRIPTION = 'My name is Rafael. I am an expert in building UI components.';
+  const DEFAULT_DESCRIPTION = 'My name is Rafael Camargo. I am a programmer, designer, and believe it\'s quite possible to build very quickly software that works very well.';
   const DEFAULT_KEYWORDS = 'rafael, camargo, programmer, designer';
   const DEFAULT_IMAGE = `${ENV.APP.BASE_URL}/assets/images/portfolio-logo-256x256.png`;
 

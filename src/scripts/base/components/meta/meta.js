@@ -29,7 +29,7 @@ function buildImageUrl(image){
 
 Meta.defaultProps = {
   title: 'Rafael Camargo',
-  description: 'My name is Rafael. I am an expert in building UI components.',
+  description: 'My name is Rafael Camargo. I am a programmer, designer, and believe it\'s quite possible to build very quickly software that works very well.',
   keywords: 'rafael, camargo, programmer, designer',
   image: 'portfolio-logo-256x256.png',
   twitterCard: 'summary'
