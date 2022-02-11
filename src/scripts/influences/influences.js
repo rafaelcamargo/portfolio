@@ -19,7 +19,7 @@ export class Influences extends Component {
         title={ meta.title }
         description={ meta.description }
         keywords={ meta.keywords }>
-        <Hero title="Influences" size="small" />
+        <Hero title="Influences" size="small" sectionTheme="primary" />
         <Section>
           <Row>
             <Col size="12">

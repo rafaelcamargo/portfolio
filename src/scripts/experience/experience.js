@@ -19,7 +19,7 @@ export class Experience extends Component {
         title={ meta.title }
         description={ meta.description }
         keywords={ meta.keywords }>
-        <Hero title="Experience" size="small" />
+        <Hero title="Experience" size="small" sectionTheme="primary" />
         <Section>
           <Row>
             <Col size="6">

@@ -20,7 +20,7 @@ export class Projects extends Component {
         title={ meta.title }
         description={ meta.description }
         keywords={ meta.keywords }>
-        <Hero title="Projects" size="small" />
+        <Hero title="Projects" size="small" sectionTheme="primary" />
         <Section>
           <Row>
             <Col size="12">

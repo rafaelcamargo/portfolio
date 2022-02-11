@@ -19,7 +19,7 @@ export class Contact extends Component {
         title={ meta.title }
         description={ meta.description }
         keywords={ meta.keywords }>
-        <Hero title="Contact" size="small" />
+        <Hero title="Contact" size="small" sectionTheme="primary" />
         <Section>
           <Row>
             <Col size="12">

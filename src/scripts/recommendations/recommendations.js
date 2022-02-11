@@ -20,7 +20,7 @@ export class Recommendations extends Component {
         title={meta.title}
         description={meta.description}
         keywords={meta.keywords}>
-        <Hero title="Recommendations" size="small" />
+        <Hero title="Recommendations" size="small" sectionTheme="primary" />
         <Section>
           <Row>
             <Col size="12">
