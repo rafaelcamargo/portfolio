@@ -1,5 +1,6 @@
 import '@glorious/taslonic/taslonic.css';
 import '@styles/_native.styl';
+import '@styles/_taslonic.styl';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import AppRouter from './router';

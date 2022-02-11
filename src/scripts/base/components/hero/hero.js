@@ -3,20 +3,14 @@ import { Col } from '@scripts/base/components/col/col';
 import { Row } from '@scripts/base/components/row/row';
 import { Section } from '@scripts/base/components/section/section';
 
-export class Hero extends Component {
-  render() {
-    return (
-      <div className="r-hero">
-        <Section theme="primary" size={ this.props.size }>
-          <Row>
-            <Col size="12">
-              { buildCustomContent(this.props.title, this.props.children) }
-            </Col>
-          </Row>
-        </Section>
-      </div>
-    );
-  }
+export const Hero = ({ size, title, sectionTheme, containerSize, children }) => {
+  return (
+    <div className="r-hero">
+      <Section theme={sectionTheme} size={size} containerSize={containerSize}>
+        {buildCustomContent(title, children)}
+      </Section>
+    </div>
+  )
 }
 
 function buildCustomContent(title, children){

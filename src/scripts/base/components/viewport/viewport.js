@@ -13,6 +13,7 @@ export const Viewport = ({
   image,
   hideMenu,
   showFooterDivider,
+  topbarContainerSize,
   children
 }) => {
   return (
@@ -25,7 +26,7 @@ export const Viewport = ({
         image={image}/>
       <header>
         <Sidebar />
-        <Topbar hideMenu={hideMenu} />
+        <Topbar hideMenu={hideMenu} containerSize={topbarContainerSize} />
       </header>
       <main>
         <article className="r-viewport-content">

@@ -4,10 +4,10 @@ import { Section } from '@scripts/base/components/section/section';
 import { Hero } from '@scripts/base/components/hero/hero';
 
 describe('Hero', () => {
-  function mount(props = {}){
+  function mount({ size, title, sectionTheme, containerSize, content } = {}){
     return shallow(
-      <Hero title={props.title} size={ props.size }>
-        { props.content }
+      <Hero title={title} size={size} sectionTheme={sectionTheme} containerSize={containerSize}>
+        {content}
       </Hero>
     );
   }
@@ -23,14 +23,29 @@ describe('Hero', () => {
     expect(wrapper.find('h1').text().trim()).toEqual(title);
   });
 
-  it('should optinally set a small hero', () => {
+  it('should contain a section', () => {
+    const wrapper = mount();
+    expect(wrapper.find(Section).prop('theme')).toBeUndefined();
+  });
+
+  it('should optinally set hero section as small', () => {
     const wrapper = mount({ size: 'small' });
     expect(wrapper.find(Section).prop('size')).toEqual('small');
   });
 
-  it('should optinally set a large hero', () => {
+  it('should optinally set hero section as large', () => {
     const wrapper = mount({ size: 'large' });
     expect(wrapper.find(Section).prop('size')).toEqual('large');
+  });
+
+  it('should optinally set hero section container as small', () => {
+    const wrapper = mount({ containerSize: 'sm' });
+    expect(wrapper.find(Section).prop('containerSize')).toEqual('sm');
+  });
+
+  it('should optinally set hero section theme as primary', () => {
+    const wrapper = mount({ sectionTheme: 'primary' });
+    expect(wrapper.find(Section).prop('theme')).toEqual('primary');
   });
 
   it('should optionally render some content', () => {

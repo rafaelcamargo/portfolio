@@ -9,16 +9,17 @@ describe('Row', () => {
   function mount(props = {}){
     return shallow(
       <Viewport
-        title={ props.title }
-        description={ props.description }
-        keywords={ props.keywords }
-        twitterCard={ props.twitterCard }
-        image={ props.image }
-        lang={ props.lang }
-        hideMenu={ props.hideMenu }
-        showFooterDivider={ props.showFooterDivider }
+        title={props.title}
+        description={props.description}
+        keywords={props.keywords}
+        twitterCard={props.twitterCard}
+        image={props.image}
+        lang={props.lang}
+        hideMenu={props.hideMenu}
+        showFooterDivider={props.showFooterDivider}
+        topbarContainerSize={props.topbarContainerSize}
       >
-        { props.content }
+        {props.content}
       </Viewport>
     );
   }
@@ -28,9 +29,20 @@ describe('Row', () => {
     expect(wrapper.prop('className')).toEqual('r-viewport');
   });
 
-  it('should optionally set a css class for menuless viewport version', () => {
+  it('should contain a topbar', () => {
+    const wrapper = mount();
+    expect(wrapper.find(Topbar).prop('containerSize')).toBeUndefined();
+  });
+
+  it('should optionally set topbar container as small', () => {
+    const wrapper = mount({ topbarContainerSize: 'sm' });
+    expect(wrapper.find(Topbar).prop('containerSize')).toEqual('sm');
+  });
+
+  it('should optionally hide website menu', () => {
     const wrapper = mount({ hideMenu: true });
     expect(wrapper.prop('className').includes('r-viewport-menuless')).toEqual(true);
+    expect(wrapper.find(Topbar).prop('hideMenu')).toEqual(true)
   });
 
   it('should render some content', () => {
@@ -51,11 +63,6 @@ describe('Row', () => {
     expect(wrapper.find(Meta).prop('keywords')).toEqual(keywords);
     expect(wrapper.find(Meta).prop('twitterCard')).toEqual(twitterCard);
     expect(wrapper.find(Meta).prop('image')).toEqual(image);
-  });
-
-  it('should optionally not render menu', () => {
-    const wrapper = mount({ hideMenu: true });
-    expect(wrapper.find(Topbar).prop('hideMenu')).toEqual(true)
   });
 
   it('should not show divider by default', () => {

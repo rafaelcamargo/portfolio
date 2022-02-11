@@ -1,15 +1,15 @@
 import '@styles/topbar.styl';
 import React from 'react';
+import { Container } from '@glorious/taslonic/react';
 import { Button } from '@scripts/base/components/button/button';
-import { Container } from '@scripts/base/components/container/container';
 import { Logo } from '@scripts/base/components/logo/logo';
 import { Menu } from '@scripts/base/components/menu/menu';
 import sidebarState from '@scripts/base/components/sidebar/sidebar.state';
 
-export const Topbar = ({ hideMenu }) => {
+export const Topbar = ({ hideMenu, containerSize }) => {
   return (
     <div className="r-topbar">
-      <Container>
+      <Container size={containerSize}>
         {
           !hideMenu && (
             <Button

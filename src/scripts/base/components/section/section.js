@@ -1,23 +1,17 @@
 import '@styles/section.styl';
 import React, { Component } from 'react';
-import { Container } from '@scripts/base/components/container/container';
+import { Container } from '@glorious/taslonic/react';
 
 const BASE_CLASS_NAME = 'r-section';
 
-export class Section extends Component {
-  constructor(props){
-    super(props);
-    this.state = { className: buildClassName(props.theme, props.size) };
-  }
-  render() {
-    return (
-      <section className={ this.state.className }>
-        <Container>
-          { this.props.children }
-        </Container>
-      </section>
-    );
-  }
+export const Section = ({ theme, size, containerSize, children }) => {
+  return (
+    <section className={buildClassName(theme, size)}>
+      <Container size={containerSize}>
+        {children}
+      </Container>
+    </section>
+  )
 }
 
 function buildClassName(theme, size){

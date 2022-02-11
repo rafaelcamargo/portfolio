@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import { Container } from '@glorious/taslonic/react';
 import { Topbar } from '@scripts/base/components/topbar/topbar';
 import sidebarState from '@scripts/base/components/sidebar/sidebar.state';
 
 describe('Topbar', () => {
-  function mount({ hideMenu } = {}){
+  function mount({ hideMenu, containerSize } = {}){
     return shallow(
-      <Topbar hideMenu={hideMenu} />
+      <Topbar hideMenu={hideMenu} containerSize={containerSize} />
     );
   }
 
@@ -17,6 +18,16 @@ describe('Topbar', () => {
   it('should have appropriate css class', () => {
     const wrapper = mount();
     expect(wrapper.prop('className')).toEqual('r-topbar');
+  });
+
+  it('should contain a container', () => {
+    const wrapper = mount();
+    expect(wrapper.find(Container).prop('size')).toBeUndefined();
+  });
+
+  it('should optionally set container as small', () => {
+    const wrapper = mount({ containerSize: 'sm' });
+    expect(wrapper.find(Container).prop('size')).toEqual('sm');
   });
 
   it('should toggle sidebar visibility on menu button click', () => {
