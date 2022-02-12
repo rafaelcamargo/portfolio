@@ -1,549 +1,548 @@
-[
-  {
+{
+  "the_elements_of_style": {
     "title": "The Elements of Style",
     "author": "Charles Osgood",
     "url": "https://www.amazon.com.br/Elements-Style-Charles-Osgood/dp/020530902X",
     "reading_on": "2022-07"
   },
-  {
+  "coisas_de_indio_versao_infantil": {
     "title": "Coisas de Índio: Versão Infantil",
     "author": "Daniel Munduruku",
     "url": "https://www.amazon.com.br/Coisas-%25C3%258Dndio-Infantil-Daniel-Munduruku/dp/8545400756",
     "reading_on": "2022-07"
   },
-  {
+  "refactoring": {
     "title": "Refactoring",
     "author": "Martin Fowler",
     "url": "https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599",
     "reading_on": "2022-06"
   },
-  {
+  "the_blue_book_of_grammar_and_punctuation": {
     "title": "The Blue Book of Grammar and Punctuation",
     "author": "Lester Kaufman",
     "url": "https://www.amazon.com/Blue-Book-Grammar-Punctuation-Easy/dp/1119653029",
     "reading_on": "2022-06"
   },
-  {
+  "pequeno_manual_antirracista": {
     "title": "Pequeno manual antirracista",
     "author": "Djamila Ribeiro",
     "url": "https://www.amazon.com.br/Pequeno-manual-antirracista-Djamila-Ribeiro/dp/8535932879",
     "reading_on": "2022-06"
   },
-  {
+  "poema_piada_breve_antologia_da_poesia_engracada": {
     "title": "Poema-piada: Breve antologia da poesia engraçada",
     "author": "Gregório Duvivier",
     "url": "https://www.amazon.com.br/Poema-piada-Breve-antologia-poesia-engra%25C3%25A7ada/dp/8592886554",
     "reading_on": "2022-05"
   },
-  {
+  "tambeta": {
     "title": "Tambetá",
     "author": "Idjahure Kadiwéu",
     "url": "https://www.amazon.com.br/Tembet%25C3%25A1-conversas-com-pensadores-ind%25C3%25ADgenas/dp/8579202280",
     "reading_on": "2022-05"
   },
-
-  {
+  "as_serpentes_que_roubaram_a_noite": {
     "title": "As serpentes que roubaram a noite",
     "author": "Daniel Munduruku",
     "url": "https://www.amazon.com.br/Serpentes-Roubaram-Noite-Outros-Mitos/dp/8585663588",
     "reading_on": "2022-04"
   },
-  {
+  "contos_indigenas_brasileiros": {
     "title": "Contos indígenas brasileiros",
     "author": "Daniel Munduruku",
     "url": "https://www.amazon.com.br/Contos-Ind%25C3%25ADgenas-Brasileiros-Daniel-Munduruku/dp/8526009362",
     "reading_on": "2022-04"
   },
-  {
+  "nos_uma_antologia_de_literatura_indigena": {
     "title": "Nós: Uma antologia de literatura indígena",
     "author": "Vários Autores",
     "url": "https://www.amazon.com.br/N%25C3%25B3s-Uma-antologia-literatura-ind%25C3%25ADgena/dp/8574068640",
     "reading_on": "2022-04"
   },
-  {
+  "clean_architecture": {
     "title": "Clean Architecture",
     "author": "Robert Martin",
     "url": "https://www.amazon.com/-/es/gp/product/0134494164",
     "reading_on": "2022-03"
   },
-  {
+  "utopia_selvagem": {
     "title": "Utopia Selvagem",
     "author": "Darcy Ribeiro",
     "url": "https://www.amazon.com.br/Utopia-Selvagem-V%25C3%25A1rios-Autores/dp/8526019341",
     "reading_on": "2022-03"
   },
-  {
+  "um_jeito_de_fazer_politica": {
     "title": "Um jeito de fazer política",
     "author": "Eduardo Suplicy",
     "url": "https://loja-editoracontracorrente.com.br/produto/um-jeito-de-fazer-politica/",
     "reading_on": "2022-03"
   },
-  {
+  "pedagogia_da_autonomia": {
     "title": "Pedagogia da Autonomia",
     "author": "Paulo Freire",
     "url": "https://www.amazon.com.br/Pedagogia-autonomia-Capa-nova-necess%25C3%25A1rios/dp/857753409X",
     "reading_on": "2022-02"
   },
-  {
+  "quincas_borba": {
     "title": "Quincas Borba",
     "author": "Machado de Assis",
     "url": "https://www.amazon.com.br/Quincas-Borba-51-Machado-Assis/dp/8525406686",
     "read_on": "2022-02-07"
   },
-  {
+  "out_of_the_wreckage": {
     "title": "Out of the Wreckage",
     "author": "George Monboit",
     "url": "https://www.amazon.com/gp/product/1786632888",
     "read_on": "2022-01-29"
   },
-  {
+  "it_doesnt_have_to_be_crazy_at_work": {
     "title": "It Doesn’t Have To Be Crazy at Work",
     "author": "Jason Fried & DHH",
     "url": "https://www.amazon.com/Doesnt-Have-Be-Crazy-Work/dp/0062874780/",
     "read_on": "2022-01-10"
   },
-  {
+  "as_intermitencias_da_morte": {
     "title": "As intermitências da morte",
     "author": "José Saramago",
     "url": "https://www.amazon.com.br/As-Intermit%25C3%25AAncias-Morte-Jos%25C3%25A9-Saramago/dp/8535930345",
     "read_on": "2022-01-03"
   },
-  {
+  "se_nao_entenderes_eu_conto_de_novo_pa": {
     "title": "Se não entenderes eu conto de novo, pá",
     "author": "Ricardo Araújo Pereira",
     "url": "https://www.amazon.com.br/Se-n%25C3%25A3o-Entenderes-Conto-Novo/dp/8565500004",
     "read_on": "2021-12-30"
   },
-  {
+  "put_some_farofa": {
     "title": "Put some farofa",
     "author": "Gregório Duvivier",
     "url": "https://www.amazon.com.br/gp/product/8535925066",
     "read_on": "2021-12-20"
   },
-  {
+  "several_short_sentences_about_writing": {
     "title": "Several short sentences about writing",
     "author": "Verlyn Klinkenborg",
     "url": "https://www.amazon.com/gp/product/0307279413",
     "read_on": "2021-12"
   },
-  {
+  "how_to_live": {
     "title": "How to Live",
     "author": "Derek Sivers",
     "url": "https://sive.rs/h",
     "read_on": "2021-11"
   },
-  {
+  "encontros": {
     "title": "Encontros",
     "author": "Ailton Krenak",
     "url": "https://www.amazon.com.br/Ailton-Krenak-Encontros-Sergio-Cohn/dp/8579201675",
     "read_on": "2021-11"
   },
-  {
+  "o_carater_educativo_do_movimento_indigena_brasileiro_1970_1990": {
     "title": "O caráter educativo do movimento indígena brasileiro: 1970-1990",
     "author": "Daniel Munduruku",
     "url": "https://www.amazon.com.br/Car%25C3%25A1ter-Educativo-Movimento-Ind%25C3%25ADgena-Brasileiro/dp/8535633049",
     "read_on": "2021-11"
   },
-  {
+  "historias_de_indio": {
     "title": "Histórias de índio",
     "author": "Daniel Munduruku",
     "url": "https://www.amazon.com.br/Hist%25C3%25B3rias-%25C3%25ADndio-Daniel-Munduruku/dp/858546660X",
     "read_on": "2021-11"
   },
-  {
+  "como_surgiu": {
     "title": "Como surgiu",
     "author": "Daniel Munduruku",
     "url": "https://www.amazon.com.br/Como-Surgiu-Mitos-Ind%25C3%25ADgenas-Brasileiros/dp/8574165905",
     "read_on": "2021-11"
   },
-  {
+  "o_homem_que_roubava_horas": {
     "title": "O homem que roubava horas",
     "author": "Daniel Munduruku",
     "url": "https://www.amazon.com.br/Homem-que-Roubava-Horas/dp/8574121746",
     "read_on": "2021-11"
   },
-  {
+  "paca_tatu_cutia_glossario_ilustrado_de_tupi": {
     "title": "Paca, Tatu, Cutia! Glossário ilustrado de Tupi",
     "author": "Mouzar Benedito",
     "url": "https://www.amazon.com.br/Paca-tatu-cutia-Gloss%25C3%25A1rio-ilustrado/dp/8506074835",
     "read_on": "2021-11"
   },
-  {
+  "a_carta_de_pero_vaz_de_caminha": {
     "title": "A Carta de Pero Vaz de Caminha",
     "author": "Pero Vaz de Caminha",
     "url": "https://www.amazon.com.br/gp/product/853266024X",
     "read_on": "2021-10"
   },
-  {
+  "o_caso_dos_exploradores_de_cavernas": {
     "title": "O caso dos exploradores de cavernas",
     "author": "Lon Fuller",
     "url": "https://www.amazon.com.br/caso-dos-exploradores-cavernas/dp/8520937438",
     "read_on": "2021-10"
   },
-  {
+  "o_banquete_dos_deuses": {
     "title": "O banquete dos deuses",
     "author": "Daniel Munduruku",
     "url": "https://www.amazon.com.br/Banquete-dos-Deuses-Daniel-Munduruku/dp/8526013971",
     "read_on": "2021-10"
   },
-  {
+  "cronicas_de_sao_paulo": {
     "title": "Crônicas de São Paulo",
     "author": "Daniel Munduruku",
     "url": "https://www.amazon.com.br/Cr%25C3%25B4nicas-S%25C3%25A3o-Paulo-Olhar-Ind%25C3%25ADgena/dp/857416366X",
     "read_on": "2021-10"
   },
-  {
+  "cronicas_indigenas_para_rir_e_refletir_na_escola": {
     "title": "Crônicas indígenas: para rir e refletir na escola",
     "author": "Daniel Munduruku",
     "url": "https://www.amazon.com.br/Cronicas-Indigenas-Refletir-Daniel-Munduruku/dp/6557790056",
     "read_on": "2021-10"
   },
-  {
+  "o_karaiba": {
     "title": "O Karaíba",
     "author": "Daniel Munduruku",
     "url": "https://www.amazon.com.br/Kara%25C3%25ADba-Uma-Hist%25C3%25B3ria-pr%25C3%25A9-Brasil/dp/8506083192",
     "read_on": "2021-10"
   },
-  {
+  "duas_viagens_ao_brasil": {
     "title": "Duas viagens ao Brasil",
     "author": "Hans Staden",
     "url": "https://www.amazon.com.br/Duas-viagens-ao-Brasil-674/dp/8525417335",
     "read_on": "2021-10"
   },
-  {
+  "carta_sobre_a_felicidade": {
     "title": "Carta sobre a felicidade",
     "author": "Epicuro",
     "url": "https://www.amazon.com.br/dp/B00SG7AHT8",
     "read_on": "2021-10"
   },
-  {
+  "para_sempre_nunca_mais": {
     "title": "Para sempre, Nunca mais",
     "author": "Susano Correia",
     "url": "https://en.susanocorreia.com.br/product-page/livro-para-sempre-nunca-mais",
     "read_on": "2021-09"
   },
-  {
+  "composing_software": {
     "title": "Composing Software",
     "author": "Eric Elliott",
     "url": "https://www.amazon.com/gp/product/1661212565",
     "read_on": "2021-09"
   },
-  {
+  "sete_breves_licoes_de_fisica": {
     "title": "Sete breves lições de física",
     "author": "Carlo Rovelli",
     "url": "https://www.amazon.com.br/dp/B0163GQ17U",
     "read_on": "2021-08"
   },
-  {
+  "racismo_estrutural": {
     "title": "Racismo Estrutural",
     "author": "Silvio Almeida",
     "url": "https://www.amazon.com.br/Racismo-Estrutural-Silvio-Almeida/dp/8598349747",
     "read_on": "2021-08"
   },
-  {
+  "o_progressista_de_ontem_e_do_amanha": {
     "title": "O progressista de ontem e do amanhã",
     "author": "Mark Lilla",
     "url": "https://www.amazon.com.br/progressista-ontem-amanh%25C3%25A3-p%25C3%25B3spol%25C3%25ADticas-identit%25C3%25A1rias/dp/8535931546",
     "read_on": "2021-08"
   },
-  {
+  "functional_thinking": {
     "title": "Functional Thinking",
     "author": "Neal Ford",
     "url": "https://www.amazon.com/-/es/gp/product/1449365515",
     "read_on": "2021-08"
   },
-  {
+  "o_livro_dos_abracos": {
     "title": "O livro dos abraços",
     "author": "Eduardo Galeano",
     "url": "https://www.amazon.com.br/livro-dos-abra%25C3%25A7os-465/dp/8525414883",
     "read_on": "2021-07"
   },
-  {
+  "hell_yeah_or_no": {
     "title": "Hell Yeah or No",
     "author": "Derek Sivers",
     "url": "https://sive.rs/n",
     "read_on": "2021-06"
   },
-  {
+  "o_povo_brasileiro": {
     "title": "O Povo Brasileiro",
     "author": "Darcy Ribeiro",
     "url": "https://www.amazon.com.br/Povo-Brasileiro-Forma%25C3%25A7%25C3%25A3o-Sentido-Brasil/dp/8526022253",
     "read_on": "2021-06"
   },
-  {
+  "a_terra_dos_mil_povos_historia_indigena_do_brasil_contada_por_um_indio": {
     "title": "A terra dos mil povos: História Indígena do Brasil Contada por um índio",
     "author": "Kaká Werá Jecupé",
     "url": "https://www.amazon.com.br/gp/product/6586028043",
     "read_on": "2021-05"
   },
-  {
+  "a_desobediencia_civil": {
     "title": "A Desobediência Civil",
     "author": "Henry Thoreau",
     "url": "https://www.amazon.com.br/gp/product/8572839682",
     "read_on": "2021-05"
   },
-  {
+  "caviar_e_uma_ova": {
     "title": "Caviar é uma ova",
     "author": "Gregório Duvivier",
     "url": "https://www.amazon.com.br/gp/product/8535928162",
     "read_on": "2021-05"
   },
-  {
+  "a_coroa_a_cruz_e_a_espada": {
     "title": "A Coroa, a cruz e a espada",
     "author": "Eduardo Bueno",
     "url": "https://www.amazon.com.br/coroa-cruz-espada-4/dp/8556080553",
     "read_on": "2021-05"
   },
-  {
+  "capitaes_do_brasil": {
     "title": "Capitães do Brasil",
     "author": "Eduardo Bueno",
     "url": "https://www.amazon.com.br/Capit%25C3%25A3es-do-Brasil-Eduardo-Bueno/dp/8556080545",
     "read_on": "2021-05"
   },
-  {
+  "intro_to_ruby_programming": {
     "title": "Intro To Ruby Programming",
     "author": "John Elder",
     "url": "https://www.amazon.com/Intro-Ruby-Programming-Beginners-Guide-ebook-dp-B01FPPNUU6/dp/B01FPPNUU6",
     "read_on": "2021-04"
   },
-  {
+  "sql_the_ultimate_beginners_guide": {
     "title": "SQL: The Ultimate Beginner's Guide",
     "author": "Mark Reed",
     "url": "https://www.amazon.com/SQL-Beginners-Programming-Step-Step-ebook/dp/B08VRJ5BNY",
     "read_on": "2021-04"
   },
-  {
+  "a_vida_nao_e_util": {
     "title": "A vida não é útil",
     "author": "Ailton Krenak",
     "url": "https://www.amazon.com.br/vida-n%25C3%25A3o-%25C3%25A9-%25C3%25BAtil/dp/8535933697",
     "read_on": "2021-04"
   },
-  {
+  "ideias_para_adiar_o_fim_do_mundo": {
     "title": "Ideias para adiar o fim do mundo",
     "author": "Ailton Krenak",
     "url": "https://www.amazon.com.br/Ideias-para-adiar-mundo-edi%25C3%25A7%25C3%25A3o/dp/8535933581",
     "read_on": "2021-04"
   },
-  {
+  "diario_de_um_pintor": {
     "title": "Diário de um Pintor",
     "author": "Susano Correia",
     "url": "https://en.susanocorreia.com.br/product-page/livro-di%25C3%25A1rio-de-um-pintor-impress%25C3%25A3o-certificada-exclusiva-black-friday",
     "read_on": "2021-04"
   },
-  {
-    "title": "Traficantes, náufragos e ",
+  "traficantes_naufragos_e_degredados": {
+    "title": "Traficantes, náufragos e degredados",
     "author": "Eduardo Bueno",
     "url": "https://www.amazon.com.br/N%25C3%25A1ufragos-traficantes-degredados-Eduardo-Bueno/dp/8556080537",
     "read_on": "2021-03"
   },
-  {
+  "ruined_by_design": {
     "title": "Ruined By Design",
     "author": "Mike Monteiro",
     "url": "https://www.ruinedby.design",
     "read_on": "2021-02"
   },
-  {
+  "a_viagem_do_descobrimento": {
     "title": "A viagem do descobrimento",
     "author": "Eduardo Bueno",
     "url": "https://www.amazon.com.br/viagem-do-descobrimento-1/dp/8556080529",
     "read_on": "2021-01"
   },
-  {
+  "test_driven_development_by_example": {
     "title": "Test-Driven Development by Example",
     "author": "Kent Back",
     "url": "https://www.amazon.com.br/Test-Driven-Development-Kent-Beck/dp/0321146530",
     "read_on": "2020-12"
   },
-  {
+  "cronicas_para_ler_em_qualquer_lugar": {
     "title": "Crônicas para ler em qualquer lugar",
     "author": "Gregório Duvivier/Xico Sá/Maria Ribeiro",
     "url": "https://www.amazon.com.br/Cr%25C3%25B4nicas-para-ler-qualquer-lugar/dp/6580309377",
     "read_on": "2020-12"
   },
-  {
+  "dicionario_da_independencia": {
     "title": "Dicionário da Independência",
     "author": "Eduardo Bueno",
     "url": "https://www.amazon.com.br/Dicion%C3%A1rio-Independ%C3%AAncia-200-Anos-Verbetes/dp/6599147186",
     "read_on": "2020-11"
   },
-  {
+  "walden": {
     "title": "Walden",
     "author": "Henry David Thoreau",
     "url": "https://www.amazon.com/Walden-Modern-English-Translation-Thoreau/dp/1095033859",
     "read_on": "2020-10"
   },
-  {
+  "sapiens_uma_breve_historia_da_humanidade": {
     "title": "Sapiens: Uma Breve História da Humanidade",
     "author": "Yuval Harari",
     "url": "https://www.amazon.com.br/Sapiens-Nova-edi%C3%A7%C3%A3o-hist%C3%B3ria-humanidade/dp/8535933921",
     "read_on": "2020-09"
   },
-  {
+  "the_old_man_and_the_sea": {
     "title": "The Old Man and the Sea",
     "author": "Ernest Hemingway",
     "url": "https://www.amazon.com/Ernest-Hemingway/dp/0684801221",
     "read_on": "2020-08"
   },
-  {
+  "anything_you_want": {
     "title": "Anything you want",
     "author": "Derek Sivers",
     "url": "https://www.amazon.com.br/Anything-You-Want-Lessons-Entrepreneur/dp/0241209048",
     "read_on": "2020-07"
   },
-  {
+  "meditations": {
     "title": "Meditations",
     "author": "Marcus Aurelius",
     "url": "https://www.amazon.com.br/Meditations-New-Translation-Aurelius-Marcus/dp/0812968255",
     "read_on": "2020-05"
   },
-  {
+  "remote": {
     "title": "Remote",
     "author": "Jason Fried & DHH",
     "url": "https://www.amazon.com.br/Remote-Required-David-Heinemeier-Hansson/dp/0091954673",
     "read_on": "2020-05"
   },
-  {
+  "sobre_a_brevidade_da_vida": {
     "title": "Sobre a brevidade da vida",
     "author": "Sêneca",
     "url": "https://www.amazon.com.br/gp/product/852541512X",
     "read_on": "2020-04"
   },
-  {
+  "pedagogia_do_oprimido": {
     "title": "Pedagogia do oprimido",
     "author": "Paulo Freire",
     "url": "https://www.amazon.com.br/Pedagogia-do-oprimido-Paulo-Freire/dp/8577534189",
     "read_on": "2020-03"
   },
-  {
+  "as_veias_abertas_da_america_latina": {
     "title": "As Veias Abertas da América Latina",
     "author": "Eduardo Galeano",
     "url": "https://www.amazon.com.br/As-Veias-Abertas-Am%25C3%25A9rica-Latina/dp/8525420697",
     "read_on": "2020-02"
   },
-  {
+  "the_manual_a_philosophers_guide_to_life": {
     "title": "The Manual: A philosopher’s guide to life",
     "author": "Epictetus",
     "url": "https://www.amazon.com/-/es/Epictetus/dp/1545461112",
     "read_on": "2020-01"
   },
-  {
+  "the_pragmatic_programmer": {
     "title": "The Pragmatic Programmer",
     "author": "Andrew Hunt / David Thomas",
     "url": "https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052",
     "read_on": "2019-12"
   },
-  {
+  "de_pernas_pro_ar": {
     "title": "De pernas pro ar",
     "author": "Eduardo Galeano",
     "url": "https://www.amazon.com.br/pernas-pro-ar-820/dp/8525419427",
     "read_on": "2019-11"
   },
-  {
+  "shape_up": {
     "title": "Shape up",
     "author": "Ryan Singer",
     "url": "https://basecamp.com/shapeup",
     "read_on": "2019-10"
   },
-  {
+  "textos_contra_culturais_cronicas_anacronicas_e_outras_viagens": {
     "title": "Textos contra culturais, crônicas anacrônicas e outras viagens",
     "author": "Eduardo Bueno",
     "url": "https://www.amazon.com.br/Textos-contraculturais-cr%C3%B4nicas-anacr%C3%B4nicas-viagens/dp/8525438405",
     "read_on": "2019-09"
   },
-  {
+  "desigualdade_e_caminhos_para_uma_sociedade_mais_justa": {
     "title": "Desigualdade e caminhos para uma sociedade mais justa",
     "author": "Eduardo Moreira",
     "url": "https://www.amazon.com.br/Desigualdade-caminhos-para-sociedade-justa/dp/8520013937",
     "read_on": "2019-08"
   },
-  {
+  "o_que_os_donos_do_poder_nao_querem_que_voce_saiba": {
     "title": "O que os donos do poder não querem que você saiba",
     "author": "Eduardo Moreira",
     "url": "https://www.amazon.com.br/donos-poder-querem-voc%C3%AA-saiba/dp/8520014070",
     "read_on": "2019-08"
   },
-  {
+  "getting_real": {
     "title": "Getting Real",
     "author": "Jason Fried & David Hansson",
     "url": "https://basecamp.com/books/getting-real",
     "read_on": "2019-07"
   },
-  {
+  "rework": {
     "title": "Rework",
     "author": "Jason Fried & David Hansson",
     "url": "https://www.amazon.com/Rework-Change-Way-Work-Forever/dp/0091929784",
     "read_on": "2019-06"
   },
-  {
+  "finding_flow": {
     "title": "Finding Flow",
     "author": "Mihaly Csikszentmihalyi",
     "url": "https://www.amazon.com/Finding-Flow-Psychology-Engagement-Masterminds/dp/0465024114",
     "read_on": "2019-04"
   },
-  {
+  "escola_sem_sala_de_aula": {
     "title": "Escola sem sala de aula",
     "author": "Ricardo Semler",
     "url": "https://www.amazon.com.br/Escola-Sala-Aula-Ricardo-Semler/dp/8561773189",
     "read_on": "2019-01"
   },
-  {
+  "voce_esta_louco": {
     "title": "Você está louco!",
     "author": "Ricardo Semler",
     "url": "https://www.amazon.com.br/Voc%C3%AA-Louco-Administrada-Outra-Forma/dp/8532520944",
     "read_on": "2019-01"
   },
-  {
+  "virando_a_propria_mesa": {
     "title": "Virando a própria mesa",
     "author": "Ricardo Semler",
     "url": "https://www.amazon.com.br/Virando-Pr%C3%B3pria-Mesa-Ricardo-Semler/dp/8532513484",
     "read_on": "2019-01"
   },
-  {
+  "scrum": {
     "title": "SCRUM",
     "author": "Jeff Sutherland",
     "url": "https://www.amazon.com/Scrum-Fazer-Trabalho-Metade-Portuguese/dp/9892335937",
     "read_on": "2018-04"
   },
-  {
-    "title": "Clean Code",
+  "clean_code": {
+    "title": "Clean code",
     "author": "Robert Martin",
     "url": "https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882",
     "read_on": "2016-08"
   },
-  {
+  "javascript_design_patterns": {
     "title": "JavaScript Design Patterns",
     "author": "Addy Osmani",
     "url": "https://www.amazon.com/Learning-JavaScript-Design-Patterns-Developers/dp/1449331815",
     "read_on": "2015-08"
   },
-  {
+  "testable_javascript": {
     "title": "Testable JavaScript",
     "author": "Mark Ethan Trostler",
     "url": "https://www.amazon.com/Testable-JavaScript-Ensuring-Reliable-Code/dp/1449323391",
     "read_on": "2015-04"
   },
-  {
+  "smacss": {
     "title": "SMACSS",
     "author": "Jonathan Snook",
     "url": "http://smacss.com/",
     "read_on": "2013-07"
   },
-  {
+  "responsive_web_design": {
     "title": "Responsive Web Design",
     "author": "Ethan Marcotte",
     "url": "https://www.amazon.com/Responsive-Design-Brief-People-Websites/dp/098444257X",
     "read_on": "2012-11"
   },
-  {
+  "bauhaus_1919_1933": {
     "title": "Bauhaus 1919-1933",
     "author": "Magdalena Droste",
     "url": "https://www.amazon.com/Bauhaus-Bibliotheca-Universalis-Magdalena-Droste/dp/3836565544",
     "read_on": "2012-08"
   },
-  {
+  "dont_make_me_think": {
     "title": "Don't Make Me Think",
     "author": "Steve Krug",
     "url": "https://www.amazon.com/Dont-Make-Me-Think-Usability/dp/0321344758",
     "read_on": "2012-04"
   }
-]
+}

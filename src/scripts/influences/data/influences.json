@@ -1,0 +1,92 @@
+{
+  "books": [
+    "the_manual_a_philosophers_guide_to_life",
+    "sobre_a_brevidade_da_vida",
+    "hell_yeah_or_no",
+    "virando_a_propria_mesa",
+    "rework",
+    "sapiens_uma_breve_historia_da_humanidade",
+    "de_pernas_pro_ar",
+    "getting_real",
+    "clean_code",
+    "test_driven_development_by_example",
+    "shape_up",
+    "pedagogia_do_oprimido",
+    "dont_make_me_think",
+    "bauhaus_1919_1933"
+  ],
+  "posts": [
+    {
+      "title": "How I got rich on the other hand",
+      "author": "Derek Sivers",
+      "url": "https://sivers.org/richand"
+    },
+    {
+      "title": "Subtract",
+      "author": "Derek Sivers",
+      "url": "https://sivers.org/subtract"
+    },
+    {
+      "title": "What if you didn’t need money or attention?",
+      "author": "Derek Sivers",
+      "url": "https://sivers.org/full"
+    },
+    {
+      "title": "Reconsider",
+      "author": "David Hanson",
+      "url": "https://m.signalvnoise.com/reconsider/"
+    },
+    {
+      "title": "Exponential growth devours and corrupts",
+      "author": "David Hanson",
+      "url": "https://m.signalvnoise.com/exponential-growth-devours-and-corrupts/"
+    },
+    {
+      "title": "Reflecting on My Failure to Build a Billion-Dollar Company",
+      "author": "Sahil Lavingia",
+      "url": "https://sahillavingia.com/reflecting"
+    },
+    {
+      "title": "Eureka! We’re editors",
+      "author": "Jason Fried",
+      "url": "http://blog.cleancoder.com/uncle-bob/2011/01/17/software-craftsmanship-is-about.html"
+    },
+    {
+      "title": "Building A Component-Based Web UI",
+      "author": "Derick Bailey",
+      "url": "https://derickbailey.com/2015/08/26/building-a-component-based-web-ui-with-modern-javascript-frameworks/"
+    },
+    {
+      "title": "Digital pollution",
+      "author": "Derek Sivers",
+      "url": "https://sivers.org/polut"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Sangue Latino",
+      "author": "Eduardo Galeano",
+      "url": "https://www.youtube.com/watch?v=47aFAIDierM"
+    },
+    {
+      "title": "Pale Blue Dot",
+      "author": "Carl Sagan",
+      "url": "https://www.youtube.com/watch?v=cGXs58RioPA"
+    },
+    {
+      "title": "How to run a company with (almost) no rules",
+      "author": "Ricardo Semler",
+      "url": "https://www.ted.com/talks/ricardo_semler_how_to_run_a_company_with_almost_no_rules"
+    },
+    {
+      "title": "How to start a movement",
+      "author": "Derek Sivers",
+      "url": "https://www.ted.com/talks/derek_sivers_how_to_start_a_movement"
+    },
+    {
+      "title": "Dance monkeys, dance!",
+      "author": "Ernest Cline",
+      "url": "https://www.youtube.com/watch?v=m89rYW0epTs"
+    }
+  ]
+}
