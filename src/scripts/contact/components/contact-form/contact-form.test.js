@@ -15,6 +15,15 @@ describe('Contact Form', () => {
     return { target: { name, value } };
   }
 
+  function buildFormData(){
+    return {
+      name: 'Rafael',
+      email: 'some@email.com',
+      subject: 'Some subject',
+      message: 'Some message'
+    };
+  }
+
   beforeEach(() => {
     contactResource.send = jest.fn();
   });
@@ -25,10 +34,7 @@ describe('Contact Form', () => {
   });
 
   it('should send contact on submit', () => {
-    const name = 'Rafael';
-    const email = 'some@email.com';
-    const subject = 'Some subject';
-    const message = 'Some message';
+    const { name, email, subject, message } = buildFormData()
     const wrapper = mount();
     wrapper.find(Input).at(0).simulate('change', mockFormControlEvent('name', name))
     wrapper.find(Input).at(1).simulate('change', mockFormControlEvent('email', email))
@@ -45,10 +51,7 @@ describe('Contact Form', () => {
   });
 
   it('should clear form controls on submit success', () => {
-    const name = 'Rafael';
-    const email = 'some@email.com';
-    const subject = 'Some subject';
-    const message = 'Some message';
+    const { name, email, subject, message } = buildFormData()
     const wrapper = mount();
     wrapper.find(Input).at(0).simulate('change', mockFormControlEvent('name', name))
     wrapper.find(Input).at(1).simulate('change', mockFormControlEvent('email', email))
