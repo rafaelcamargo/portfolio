@@ -1,17 +1,17 @@
 [
   {
     "name": "Glorious Demo",
-    "description": "I created a library to produce web animations. Glorious Demo simulates the use of Editor and Terminal to show some code in action.",
+    "description": "I created a library to produce web animations. Glorious Demo simulates the use of a Code Editor and a Terminal to demonstrate some code in action.",
     "days_invested": 23
   },
   {
     "name": "Triven",
-    "description": "I created a multi-language static blog generator based in Markdown. Besides English, Triven allows me to write in my mother language Portuguese.",
+    "description": "I created a multi-language static blog generator based in Markdown. Triven powers my personal blog and allows me to write posts also in Portuguese.",
     "days_invested": 24
   },
   {
     "name": "Typenik",
-    "description": "I created an English Augmented Dictionary called Typenik - available for Web, Windows & Mac - to solve peculiar needs of non-native english speakers.",
+    "description": "I created an English Augmented Dictionary called Typenik - available for Web, Windows & Mac - to solve peculiar needs of non-native English speakers.",
     "days_invested": 45
   }
 ]
