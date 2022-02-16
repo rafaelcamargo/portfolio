@@ -15,7 +15,11 @@ export const Section = ({ theme, size, containerSize, children }) => {
 }
 
 function buildClassName(theme, size){
-  return `${BASE_CLASS_NAME} ${buildThemeCssClass(theme)} ${buildSizeCssClass(size)}`.trim();
+  return [
+    BASE_CLASS_NAME,
+    buildThemeCssClass(theme),
+    buildSizeCssClass(size)
+  ].filter(cssClass => !!cssClass).join(' ');
 }
 
 function buildThemeCssClass(theme){
