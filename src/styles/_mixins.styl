@@ -48,6 +48,12 @@ mask-image($filename)
   -webkit-mask-image  url($path-images + $filename)
   mask-image  url($path-images + $filename)
 
+no-scrollbar()
+  -ms-overflow-style none
+  scrollbar-width none
+  &::-webkit-scrollbar
+    display none
+
 placeholder()
   ::-webkit-input-placeholder {
     {block}

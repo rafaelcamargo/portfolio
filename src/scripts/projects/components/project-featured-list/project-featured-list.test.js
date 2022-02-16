@@ -11,7 +11,7 @@ describe('Project Featured List', () => {
 
   it('should have appropriate css class', () => {
     const wrapper = mount();
-    expect(wrapper.prop('className')).toEqual('r-project-featured-list');
+    expect(wrapper.prop('className')).toEqual('r-project-featured-list-wrapper');
   });
 
   it('should list three projects', () => {

@@ -1,6 +1,10 @@
 @require '_variables'
 @require '_mixins'
 
+.r-project-featured-list-container
+  overflow-x scroll
+  no-scrollbar()
+
 .r-project-featured-list
   display grid
   grid-template-columns 1fr 1fr 1fr
@@ -15,5 +19,23 @@
 
 +breakpoint('xs')
   .r-project-featured-list
-    grid-template-columns 1fr
-    grid-gap 40px
+    width 650px
+    grid-gap 25px
+    li
+      width 200px
+  .r-project-featured-list-container
+    padding 0 25% 0 5%
+  .r-project-featured-list-wrapper
+    position relative
+    &:after
+      position absolute
+      content ''
+      top 0
+      right 0
+      bottom 0
+      width 25%
+      background linear-gradient(-90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,.9) 25%, rgba(255,255,255,0) 100%)
+
++breakpoint('sm')
+  .r-project-featured-list
+    grid-gap 50px
