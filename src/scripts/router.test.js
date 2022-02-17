@@ -2,15 +2,16 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import { BrowserRouter as Router } from 'react-router-dom';
 import ScrollToTop from 'react-router-scroll-top';
-import AppRouter from './router';
+import History from '@scripts/base/components/history/history';
 import { Contact } from '@scripts/contact/contact';
 import { Experience } from '@scripts/experience/experience';
-import History from '@scripts/base/components/history/history';
 import { Home } from '@scripts/home/home';
 import { Influences } from '@scripts/influences/influences';
 import { Projects } from '@scripts/projects/projects';
 import { Recommendations } from '@scripts/recommendations/recommendations';
 import { Skills } from '@scripts/skills/skills';
+import { Reads } from '@scripts/reads/reads';
+import { AppRouter } from './router';
 
 describe('App Router', () => {
   function mount(){
@@ -81,5 +82,13 @@ describe('App Router', () => {
     expect(route.prop('path')).toEqual('/skills');
     expect(route.prop('exact')).toEqual(true);
     expect(route.prop('component')).toEqual(Skills);
+  });
+
+  it('should contain Reads route', () => {
+    const wrapper = mount();
+    const route = wrapper.find(ScrollToTop).children().at(7);
+    expect(route.prop('path')).toEqual('/reads');
+    expect(route.prop('exact')).toEqual(true);
+    expect(route.prop('component')).toEqual(Reads);
   });
 });

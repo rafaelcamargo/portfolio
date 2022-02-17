@@ -13,7 +13,8 @@ function getRoutePaths(){
     '/projects',
     '/recommendations',
     '/skills',
-    '/influences'
+    '/influences',
+    '/reads'
   ];
 }
 

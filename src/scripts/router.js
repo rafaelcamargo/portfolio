@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ScrollToTop from 'react-router-scroll-top';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Contact } from '@scripts/contact/contact';
@@ -9,25 +9,23 @@ import { Influences } from '@scripts/influences/influences';
 import { Projects } from '@scripts/projects/projects';
 import { Recommendations } from '@scripts/recommendations/recommendations';
 import { Skills } from '@scripts/skills/skills';
+import { Reads } from '@scripts/reads/reads';
 
-class AppRouter extends Component {
-  render(){
-    return (
-      <Router>
-        <History>
-          <ScrollToTop>
-            <Route path="/" exact component={ Home } />
-            <Route path="/contact" exact component={ Contact } />
-            <Route path="/experience" exact component={ Experience } />
-            <Route path="/influences" exact component={ Influences } />
-            <Route path="/projects" exact component={ Projects } />
-            <Route path="/recommendations" exact component={ Recommendations } />
-            <Route path="/skills" exact component={ Skills } />
-          </ScrollToTop>
-        </History>
-      </Router>
-    );
-  }
-}
-
-export default AppRouter;
+export const AppRouter = () => {
+  return (
+    <Router>
+      <History>
+        <ScrollToTop>
+          <Route path="/" exact component={Home} />
+          <Route path="/contact" exact component={Contact} />
+          <Route path="/experience" exact component={Experience} />
+          <Route path="/influences" exact component={Influences} />
+          <Route path="/projects" exact component={Projects} />
+          <Route path="/recommendations" exact component={Recommendations} />
+          <Route path="/skills" exact component={Skills} />
+          <Route path="/reads" exact component={Reads} />
+        </ScrollToTop>
+      </History>
+    </Router>
+  );
+};
