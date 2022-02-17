@@ -19,4 +19,8 @@ describe('Date Service', () => {
   it('should format an US date descriptively', () => {
     expect(dateService.formatDescriptively('1984-03-14')).toEqual('March 14, 1984');
   });
+
+  it('should format month descriptively', () => {
+    expect(dateService.formatMonthDescriptively('1984-03')).toEqual('1984 March');
+  });
 });

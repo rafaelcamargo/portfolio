@@ -28,7 +28,13 @@ _public.formatDescriptively = isoString => {
   const [year, month, day] = getDatePartsFromIsoString(isoString);
   const monthNameIndex = parseInt(month) - 1;
   return `${MONTH_NAMES[monthNameIndex]} ${day}, ${year}`;
-}
+};
+
+_public.formatMonthDescriptively = monthString => {
+  const [year, month] = getDatePartsFromIsoString(monthString);
+  const monthNameIndex = parseInt(month) - 1;
+  return `${year} ${MONTH_NAMES[monthNameIndex]}`;
+};
 
 function getDatePartsFromIsoString(isoString){
   return isoString.split('-');
