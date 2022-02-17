@@ -1,4 +1,3 @@
-import '@styles/hero.styl';
 import React from 'react';
 import { Col } from '@scripts/base/components/col/col';
 import { Row } from '@scripts/base/components/row/row';
