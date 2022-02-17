@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import '@styles/hero.styl';
+import React from 'react';
 import { Col } from '@scripts/base/components/col/col';
 import { Row } from '@scripts/base/components/row/row';
 import { Section } from '@scripts/base/components/section/section';
