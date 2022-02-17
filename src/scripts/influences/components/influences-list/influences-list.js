@@ -1,6 +1,6 @@
 import '@styles/influences-list.styl';
 import React from 'react';
-import books from '@scripts/influences/data/books.json';
+import reads from '@scripts/reads/data/reads.json';
 import influences from '@scripts/influences/data/influences.json';
 
 export const InfluencesList = () => {
@@ -8,7 +8,7 @@ export const InfluencesList = () => {
     <ul className="r-influences-list">
       {filterInfluencingBooks().map(({ title, author }, index) => (
         <li key={index}>
-          <p className="r-influences-list-item-title" data-title>{title}</p>
+          <h3 className="r-influences-list-item-title" data-title>{title}</h3>
           <p className="r-influences-list-item-author">{author}</p>
         </li>
       ))}
@@ -17,5 +17,5 @@ export const InfluencesList = () => {
 }
 
 function filterInfluencingBooks(){
-  return influences.books.map(bookId => books[bookId]);
+  return influences.books.map(bookId => reads[bookId]);
 }

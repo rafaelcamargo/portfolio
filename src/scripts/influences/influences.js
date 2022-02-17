@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col } from '@glorious/taslonic/react';
+import { CtaLink } from '@scripts/base/components/cta-link/cta-link';
 import { Hero } from '@scripts/base/components/hero/hero';
 import { Section } from '@scripts/base/components/section/section';
 import { Viewport } from '@scripts/base/components/viewport/viewport';
@@ -39,6 +40,11 @@ export const Influences = () => {
         <Row offsetXs="4">
           <Col xs="12">
             <InfluencesList />
+          </Col>
+        </Row>
+        <Row offsetXs="4">
+          <Col xs="12">
+            <CtaLink to="/reads" text="See my latest reads" />
           </Col>
         </Row>
       </Section>
