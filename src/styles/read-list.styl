@@ -1,0 +1,47 @@
+@require '_variables'
+
+.r-read-list
+  margin 0
+
+.r-read-list-group
+  position relative
+  padding-left 10px
+  &:before
+    position absolute
+    content ''
+    top 3px
+    left -2px
+    width 5px
+    height 5px
+    background-color $color-grey
+    border-radius 50%
+    z-index $layer-base
+  &:after
+    position absolute
+    content ''
+    top 8px
+    left 0
+    bottom -3px
+    border-left 1px solid $color-grey-light
+  ul
+    padding 35px 0 35px 40px
+  li + li
+    margin-top 10px
+  h2
+    position relative
+    top -4px
+    color alpha($color-grey-dark, .6)
+    font-size $font-size-xs
+    font-weight bold
+  h3
+    font-weight bold
+  p
+    margin 0
+    font-family $font-family-secondary
+    font-size $font-size-xs
+    font-style italic
+
+.r-read-list-group:last-child
+  border-left 0
+  &:after
+    border-left 0
