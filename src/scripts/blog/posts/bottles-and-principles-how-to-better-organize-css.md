@@ -43,7 +43,7 @@ What we can see here is an empty bottle. Once the bottle is an object, it has it
 
 ## Specializing objects
 
-After having created a bottle, your project demands a wine bottle. Now what? How to organize the code? Should I create a class named as *bottle-content-wine* and add it to the *<div>* that already contains the *bottle-content* class? Should I create a theme named as *bottle-wine* to the bottle and add it to the *<div>* that already contains the class *bottle*? Notice, every one of the above suggestions would be violating the *Open-Closed* principle because all of them would be modifying the bottle code. The best way to handle the wine bottle is by creating another object in your system that makes use of the base bottle without modifying it. Take a look:
+After having created a bottle, your project demands a wine bottle. Now what? How to organize the code? Should I create a class named as *bottle-content-wine* and add it to the `<div>` that already contains the *bottle-content* class? Should I create a theme named as *bottle-wine* to the bottle and add it to the `<div>` that already contains the class *bottle*? Notice, every one of the above suggestions would be violating the *Open-Closed* principle because all of them would be modifying the bottle code. The best way to handle the wine bottle is by creating another object in your system that makes use of the base bottle without modifying it. Take a look:
 
 ``` html
 <div class="wine-bottle">
