@@ -4,12 +4,13 @@
   "description": "My Personal Website",
   "main": "src/scripts/app.js",
   "scripts": {
-    "build": "rm -rf ./dist && npm run build:blog && webpack && npm run parse:assets",
+    "build": "npm run build:clear && npm run build:blog && webpack && npm run parse:assets",
     "build:blog": "triven build",
+    "build:clear": "rm -rf ./dist",
     "parse:assets": "node ./src/scripts/base/services/assets",
     "format": "eslint ./src/**/*.js",
     "start": "npm run build:blog && webpack-dev-server",
-    "serve:blog": "npm run build:blog && http-server ./dist",
+    "serve:blog": "npm run build:clear && npm run build:blog && http-server ./dist/blog",
     "test": "jest",
     "deploy": "rm -f ./firebase.json && node ./firebase.js && firebase deploy --non-interactive"
   },
