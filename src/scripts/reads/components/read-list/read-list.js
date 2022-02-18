@@ -9,7 +9,6 @@ export const ReadList = () => {
     <ul className="r-read-list">
       {Object.keys(reads).map(monthString => (
         <li key={monthString} className="r-read-list-group" data-read-group>
-          <h2>{buildGroupTitle(monthString)}</h2>
           <ul>
             {reads[monthString].map(({ title, author }, index) => (
               <li key={index}>
@@ -18,6 +17,7 @@ export const ReadList = () => {
               </li>
             ))}
           </ul>
+          <h2>{buildGroupTitle(monthString)}</h2>
         </li>
       ))}
     </ul>
