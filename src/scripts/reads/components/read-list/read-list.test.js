@@ -5,7 +5,7 @@ import readService from '@scripts/reads/services/read/read';
 import { ReadList } from '@scripts/reads/components/read-list/read-list';
 
 describe('Read List', () => {
-  function mount(props = {}){
+  function mount(){
     return shallow(<ReadList />);
   }
 
