@@ -65,23 +65,23 @@
     "url": "https://www.amazon.com/-/es/gp/product/0134494164",
     "reading_on": "2022-03"
   },
-  "utopia_selvagem": {
-    "title": "Utopia Selvagem",
-    "author": "Darcy Ribeiro",
-    "url": "https://www.amazon.com.br/Utopia-Selvagem-V%25C3%25A1rios-Autores/dp/8526019341",
-    "reading_on": "2022-03"
-  },
   "um_jeito_de_fazer_politica": {
     "title": "Um jeito de fazer política",
     "author": "Eduardo Suplicy",
     "url": "https://loja-editoracontracorrente.com.br/produto/um-jeito-de-fazer-politica/",
     "reading_on": "2022-03"
   },
+  "utopia_selvagem": {
+    "title": "Utopia Selvagem",
+    "author": "Darcy Ribeiro",
+    "url": "https://www.amazon.com.br/Utopia-Selvagem-V%25C3%25A1rios-Autores/dp/8526019341",
+    "reading_on": "2022-03"
+  },
   "pedagogia_da_autonomia": {
     "title": "Pedagogia da Autonomia",
     "author": "Paulo Freire",
     "url": "https://www.amazon.com.br/Pedagogia-autonomia-Capa-nova-necess%25C3%25A1rios/dp/857753409X",
-    "reading_on": "2022-02"
+    "read_on": "2022-02-26"
   },
   "quincas_borba": {
     "title": "Quincas Borba",
