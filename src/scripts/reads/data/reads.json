@@ -1,4 +1,10 @@
 {
+  "": {
+    "title": "Povos Originários: Guerreiros do Tempo",
+    "author": "Ricardo Stuckert",
+    "url": "https://www.livrariadavila.com.br/povos-originarios--guerreiros-do-tempo-808325/p",
+    "reading_on": "2022-07"
+  },
   "the_elements_of_style": {
     "title": "The Elements of Style",
     "author": "Charles Osgood",
@@ -427,7 +433,7 @@
   },
   "the_pragmatic_programmer": {
     "title": "The Pragmatic Programmer",
-    "author": "Andrew Hunt / David Thomas",
+    "author": "Andrew Hunt & David Thomas",
     "url": "https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052",
     "read_on": "2019-12"
   },
