@@ -4,17 +4,17 @@ import { CtaLink } from '@scripts/base/components/cta-link/cta-link';
 import { Hero } from '@scripts/base/components/hero/hero';
 import { Section } from '@scripts/base/components/section/section';
 import { Viewport } from '@scripts/base/components/viewport/viewport';
-import { TechnologyList } from '@scripts/technologies/components/technology-list/technology-list';
+import { ToolList } from '@scripts/tools/components/tool-list/tool-list';
 
 const meta = {
-  title: 'Technologies',
-  description: 'This is a list of all technologies I have used till now',
-  keywords: 'technologies, latest'
+  title: 'Tools',
+  description: 'This is a list of all tools I have used till now',
+  keywords: 'tools, latest'
 };
 
 const CONTAINER_SIZE = 'sm';
 
-export const Technologies = () => {
+export const Tools = () => {
   return (
     <Viewport
       title={ meta.title }
@@ -22,11 +22,11 @@ export const Technologies = () => {
       keywords={ meta.keywords }
       topbarContainerSize={CONTAINER_SIZE}
       hideMenu>
-      <Hero title="Technologies" size="small" containerSize={CONTAINER_SIZE} />
+      <Hero title="Tools" size="small" containerSize={CONTAINER_SIZE} />
       <Section size="small" containerSize={CONTAINER_SIZE}>
-        <Row offsetXs="4">
+        <Row>
           <Col xs="12">
-            <TechnologyList />
+            <ToolList />
           </Col>
         </Row>
       </Section>

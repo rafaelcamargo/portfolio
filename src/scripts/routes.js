@@ -7,5 +7,5 @@ module.exports = [
   '/skills',
   '/influences',
   '/reads',
-  '/technologies'
+  '/tools'
 ];

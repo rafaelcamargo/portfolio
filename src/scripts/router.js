@@ -10,7 +10,7 @@ import { Projects } from '@scripts/projects/projects';
 import { Recommendations } from '@scripts/recommendations/recommendations';
 import { Skills } from '@scripts/skills/skills';
 import { Reads } from '@scripts/reads/reads';
-import { Technologies } from '@scripts/technologies/technologies';
+import { Tools } from '@scripts/tools/tools';
 import routes from '@scripts/routes';
 
 export const AppRouter = () => {
@@ -37,6 +37,6 @@ function getComponentByRoutePath(path){
     '/skills': Skills,
     '/influences': Influences,
     '/reads': Reads,
-    '/technologies': Technologies
+    '/tools': Tools
   }[path];
 }

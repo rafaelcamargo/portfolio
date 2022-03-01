@@ -1,7 +1,7 @@
 @require '_variables'
 @require '_mixins'
 
-.r-technology-list-group
+.r-tool-list-group
   h2
     color alpha($color-grey-dark, .6)
     font-size $font-size-xs
@@ -11,10 +11,10 @@
     grid-template-columns 1fr 1fr 1fr
     grid-gap 20px
     margin-top 20px
-  & + .r-technology-list-group
+  & + .r-tool-list-group
     margin-top 80px
 
-.r-technology-list-group-item
+.r-tool-list-group-item
   padding 20px
   border-radius 3px
   box-sizing border-box
@@ -32,7 +32,7 @@
     & + li
       margin-top 2px
 
-.r-technology-list-group-detail-value
+.r-tool-list-group-detail-value
   margin-left 5px
   padding 5px
   background-color $color-grey-lighter
@@ -40,6 +40,6 @@
   border-radius 3px
 
 +breakpoint('xs')
-  .r-technology-list-group
+  .r-tool-list-group
     & > ul
       grid-template-columns 1fr 1fr

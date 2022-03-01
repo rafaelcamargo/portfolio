@@ -11,7 +11,7 @@ import { Projects } from '@scripts/projects/projects';
 import { Recommendations } from '@scripts/recommendations/recommendations';
 import { Skills } from '@scripts/skills/skills';
 import { Reads } from '@scripts/reads/reads';
-import { Technologies } from '@scripts/technologies/technologies';
+import { Tools } from '@scripts/tools/tools';
 import { AppRouter } from './router';
 
 describe('App Router', () => {
@@ -97,11 +97,11 @@ describe('App Router', () => {
     expect(route.prop('component')).toEqual(Reads);
   });
 
-  it('should contain Technologies route', () => {
+  it('should contain Tools route', () => {
     const wrapper = mount();
     const route = getRouteByIndex(wrapper, 8);
-    expect(route.prop('path')).toEqual('/technologies');
+    expect(route.prop('path')).toEqual('/tools');
     expect(route.prop('exact')).toEqual(true);
-    expect(route.prop('component')).toEqual(Technologies);
+    expect(route.prop('component')).toEqual(Tools);
   });
 });

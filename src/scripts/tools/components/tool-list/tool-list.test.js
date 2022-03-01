@@ -1,20 +1,20 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import categories from '@scripts/technologies/data/categories.json';
-import { buildOrderBasedOnCategoryIds } from '@scripts/technologies/services/technology/technology';
-import { TechnologyList } from '@scripts/technologies/components/technology-list/technology-list';
+import categories from '@scripts/tools/data/categories.json';
+import { buildOrderBasedOnCategoryIds } from '@scripts/tools/services/tool/tool';
+import { ToolList } from '@scripts/tools/components/tool-list/tool-list';
 
 describe('Technology List', () => {
   function mount(){
-    return shallow(<TechnologyList />);
+    return shallow(<ToolList />);
   }
 
   it('should have appropriate css class', () => {
     const wrapper = mount();
-    expect(wrapper.prop('className')).toEqual('r-technology-list');
+    expect(wrapper.prop('className')).toEqual('r-tool-list');
   });
 
-  it('should group technologies by category', () => {
+  it('should group tools by category', () => {
     const wrapper = mount();
     const groups = wrapper.find('[data-tech-group]');
     buildOrderBasedOnCategoryIds().forEach((categoryId, index) => {
@@ -32,7 +32,7 @@ describe('Technology List', () => {
     expect(items.at(3).find('h3').text()).toEqual('LESS');
   });
 
-  it('should group item contain technology details', () => {
+  it('should group item contain tool details', () => {
     const wrapper = mount();
     const cssPreProcessorsGroup = wrapper.find('[data-tech-group]').at(5);
     const sassTech = cssPreProcessorsGroup.find('ul > li').at(2);

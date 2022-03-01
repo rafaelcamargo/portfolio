@@ -1,27 +1,27 @@
-import '@styles/technology-list.styl';
+import '@styles/tool-list.styl';
 import React from 'react';
 import { Tag } from '@glorious/taslonic/react';
-import categories from '@scripts/technologies/data/categories'
-import technologyService from '@scripts/technologies/services/technology/technology';
+import categories from '@scripts/tools/data/categories'
+import toolService from '@scripts/tools/services/tool/tool';
 
-export const TechnologyList = () => {
-  const groups = technologyService.get();
+export const ToolList = () => {
+  const groups = toolService.get();
   return (
-    <ul className="r-technology-list">
-      {groups.map(({ categoryName, technologies }) => (
-        <li key={categoryName} className="r-technology-list-group" data-tech-group>
+    <ul className="r-tool-list">
+      {groups.map(({ categoryName, tools }) => (
+        <li key={categoryName} className="r-tool-list-group" data-tech-group>
           <h2>{categoryName}</h2>
           <ul>
-            {technologies.map(({ name, experience, usage, first_adopted }) => (
-              <li key={name} className="r-technology-list-group-item">
+            {tools.map(({ name, experience, usage, first_adopted }) => (
+              <li key={name} className="r-tool-list-group-item">
                 <h3>{name}</h3>
                 <ul>
                   {buildDetailElements({ experience, usage, first_adopted }).map(({ label, value }, index) => (
                     <li key={index}>
-                      <div className="r-technology-list-group-detail-label" data-detail-label>
+                      <div className="r-tool-list-group-detail-label" data-detail-label>
                         {label}
                       </div>
-                      <div className="r-technology-list-group-detail-value" data-detail-value>
+                      <div className="r-tool-list-group-detail-value" data-detail-value>
                         {value}
                       </div>
                     </li>
