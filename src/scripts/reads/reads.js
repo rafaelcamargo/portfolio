@@ -24,7 +24,7 @@ export const Reads = () => {
       hideMenu>
       <Hero title="Reads" size="small" containerSize={CONTAINER_SIZE} />
       <Section size="small" containerSize={CONTAINER_SIZE}>
-        <Row offsetXs="4">
+        <Row>
           <Col xs="12">
             <ReadList />
           </Col>
