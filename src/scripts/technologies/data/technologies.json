@@ -1,0 +1,198 @@
+[
+  {
+    "name": "Vue",
+    "category_id": 1,
+    "experience_id": 3,
+    "usage_id": 1,
+    "first_adopted": "2016"
+  },
+  {
+    "name": "Vue Test Utils",
+    "category_id": 2,
+    "experience_id": 3,
+    "usage_id": 1,
+    "first_adopted": "2016"
+  },
+  {
+    "name": "AngularJS",
+    "category_id": 5,
+    "experience_id": 3,
+    "usage_id": 1,
+    "first_adopted": "2014"
+  },
+  {
+    "name": "React",
+    "category_id": 1,
+    "experience_id": 2,
+    "usage_id": 1,
+    "first_adopted": "2019"
+  },
+  {
+    "name": "Testing Library",
+    "category_id": 2,
+    "experience_id": 2,
+    "usage_id": 1,
+    "first_adopted": "2020"
+  },
+  {
+    "name": "Enzyme",
+    "category_id": 2,
+    "experience_id": 2,
+    "usage_id": 1,
+    "first_adopted": "2019"
+  },
+  {
+    "name": "React i18next",
+    "category_id": 7,
+    "experience_id": 1,
+    "usage_id": 1,
+    "first_adopted": "2020"
+  },
+  {
+    "name": "Lerna",
+    "category_id": 12,
+    "experience_id": 1,
+    "usage_id": 1,
+    "first_adopted": "2020"
+  },
+  {
+    "name": "Stylus",
+    "category_id": 6,
+    "experience_id": 3,
+    "usage_id": 1,
+    "first_adopted": "2015"
+  },
+  {
+    "name": "Post CSS",
+    "category_id": 6,
+    "experience_id": 2,
+    "usage_id": 0,
+    "first_adopted": "2018"
+  },
+  {
+    "name": "Sass",
+    "category_id": 6,
+    "experience_id": 2,
+    "usage_id": 0,
+    "first_adopted": "2015"
+  },
+  {
+    "name": "LESS",
+    "category_id": 6,
+    "experience_id": 2,
+    "usage_id": 0,
+    "first_adopted": "2013"
+  },
+  {
+    "name": "Jest",
+    "category_id": 3,
+    "experience_id": 3,
+    "usage_id": 1,
+    "first_adopted": "2018"
+  },
+  {
+    "name": "Jasmine",
+    "category_id": 2,
+    "experience_id": 2,
+    "usage_id": 0,
+    "first_adopted": "2015"
+  },
+  {
+    "name": "Karma",
+    "category_id": 3,
+    "experience_id": 2,
+    "usage_id": 0,
+    "first_adopted": "2015"
+  },
+  {
+    "name": "RequireJS",
+    "category_id": 11,
+    "experience_id": 2,
+    "usage_id": 0,
+    "first_adopted": "2014"
+  },
+  {
+    "name": "ES Lint",
+    "category_id": 8,
+    "experience_id": 3,
+    "usage_id": 1,
+    "first_adopted": "2018"
+  },
+  {
+    "name": "JS Hint",
+    "category_id": 8,
+    "experience_id": 1,
+    "usage_id": 0,
+    "first_adopted": "2015"
+  },
+  {
+    "name": "Webpack",
+    "category_id": 9,
+    "experience_id": 3,
+    "usage_id": 1,
+    "first_adopted": "2017"
+  },
+  {
+    "name": "Gulp",
+    "category_id": 10,
+    "experience_id": 2,
+    "usage_id": 1,
+    "first_adopted": "2015"
+  },
+  {
+    "name": "Grunt",
+    "category_id": 10,
+    "experience_id": 2,
+    "usage_id": 1,
+    "first_adopted": "2014"
+  },
+  {
+    "name": "Circle CI",
+    "category_id": 13,
+    "experience_id": 2,
+    "usage_id": 1,
+    "first_adopted": "2018"
+  },
+  {
+    "name": "Travis CI",
+    "category_id": 13,
+    "experience_id": 1,
+    "usage_id": 0,
+    "first_adopted": "2015"
+  },
+  {
+    "name": "Codecov",
+    "category_id": 4,
+    "experience_id": 1,
+    "usage_id": 0,
+    "first_adopted": "2017"
+  },
+  {
+    "name": "Coveralls",
+    "category_id": 4,
+    "experience_id": 1,
+    "usage_id": 1,
+    "first_adopted": "2020"
+  },
+  {
+    "name": "Firebase",
+    "category_id": 16,
+    "experience_id": 2,
+    "usage_id": 1,
+    "first_adopted": "2017"
+  },
+  {
+    "name": "Express",
+    "category_id": 14,
+    "experience_id": 2,
+    "usage_id": 1,
+    "first_adopted": "2017"
+  },
+  {
+    "name": "Node.js",
+    "category_id": 15,
+    "experience_id": 2,
+    "usage_id": 1,
+    "first_adopted": "2017"
+  }
+]
