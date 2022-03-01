@@ -14,7 +14,7 @@ describe('Technology Service', () => {
     const tools = toolService.get();
     const expectedOrder = {
       0: ['Vue', 'React'],
-      5: ['Stylus', 'Post CSS', 'Sass', 'LESS']
+      6: ['Stylus', 'Post CSS', 'Sass', 'LESS']
     };
     Object.keys(expectedOrder).forEach(groupIndex => {
       const group = tools[groupIndex];

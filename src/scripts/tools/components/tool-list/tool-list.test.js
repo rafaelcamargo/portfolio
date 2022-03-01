@@ -24,7 +24,7 @@ describe('Technology List', () => {
 
   it('should order group items by experience, usage and adoption', () => {
     const wrapper = mount();
-    const cssPreProcessorsGroup = wrapper.find('[data-tech-group]').at(5);
+    const cssPreProcessorsGroup = wrapper.find('[data-tech-group]').at(6);
     const items = cssPreProcessorsGroup.find('ul > li');
     expect(items.at(0).find('h3').text()).toEqual('Stylus');
     expect(items.at(1).find('h3').text()).toEqual('Post CSS');
@@ -34,7 +34,7 @@ describe('Technology List', () => {
 
   it('should group item contain tool details', () => {
     const wrapper = mount();
-    const cssPreProcessorsGroup = wrapper.find('[data-tech-group]').at(5);
+    const cssPreProcessorsGroup = wrapper.find('[data-tech-group]').at(6);
     const sassTech = cssPreProcessorsGroup.find('ul > li').at(2);
     const details = sassTech.find('ul > li');
     expect(details.at(0).find('[data-detail-label]').text()).toEqual('Experience');

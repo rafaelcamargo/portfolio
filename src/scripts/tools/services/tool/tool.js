@@ -20,7 +20,7 @@ function getGroupByCategoryId(groups, id){
 }
 
 function buildOrderBasedOnCategoryIds(){
-  return [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
+  return [1, 2, 3, 4, 17, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
 }
 
 function orderByExperienceUsageAndAdoption(tools){

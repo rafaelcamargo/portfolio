@@ -49,6 +49,13 @@
     "first_adopted": "2020"
   },
   {
+    "name": "Angular Translate",
+    "category_id": 7,
+    "experience_id": 1,
+    "usage_id": 0,
+    "first_adopted": "2016"
+  },
+  {
     "name": "Lerna",
     "category_id": 12,
     "experience_id": 1,
@@ -194,5 +201,19 @@
     "experience_id": 2,
     "usage_id": 1,
     "first_adopted": "2017"
+  },
+  {
+    "name": "Adobe Illustrator",
+    "category_id": 17,
+    "experience_id": 3,
+    "usage_id": 1,
+    "first_adopted": "2008"
+  },
+  {
+    "name": "Adobe Photophop",
+    "category_id": 17,
+    "experience_id": 3,
+    "usage_id": 1,
+    "first_adopted": "2005"
   }
 ]
