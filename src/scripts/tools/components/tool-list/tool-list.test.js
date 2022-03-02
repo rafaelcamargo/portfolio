@@ -39,9 +39,7 @@ describe('Technology List', () => {
     const details = sassTech.find('ul > li');
     expect(details.at(0).find('[data-detail-label]').text()).toEqual('Experience');
     expect(details.at(0).find('[data-detail-value]').text()).toEqual('Intermediate');
-    expect(details.at(1).find('[data-detail-label]').text()).toEqual('Usage');
-    expect(details.at(1).find('[data-detail-value]').text()).toEqual('Dropped');
-    expect(details.at(2).find('[data-detail-label]').text()).toEqual('First Adopted');
-    expect(details.at(2).find('[data-detail-value]').text()).toEqual('2015');
+    expect(details.at(1).find('[data-detail-label]').text()).toEqual('First Adopted');
+    expect(details.at(1).find('[data-detail-value]').text()).toEqual('2015');
   });
 });

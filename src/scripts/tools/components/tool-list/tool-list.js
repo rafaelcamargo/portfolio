@@ -39,7 +39,6 @@ export const ToolList = () => {
 function buildDetailElements({ experience, usage, first_adopted }){
   return [
     { label: 'Experience', value: experience },
-    { label: 'Usage', value: usage },
     { label: 'First Adopted', value: first_adopted }
   ];
 }
