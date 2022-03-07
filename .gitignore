@@ -207,5 +207,6 @@ $RECYCLE.BIN/
 # Distribution files
 dist
 firebase.json
+src/scripts/blog/drafts
 
 # End of https://www.gitignore.io/api/git,node,linux,macos,windows,sublimetext
