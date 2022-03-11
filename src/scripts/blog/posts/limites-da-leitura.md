@@ -1,12 +1,12 @@
 title: Limites da leitura
 date: 2022-03-11
-description: Jamais tive dificuldades para encontrar o portão de embarque indicado na minha passagem. Tão pouco tenho dificuldades para detectar onde e quando ocorre o evento anunciado num convite recebido por email. Ler sempre foi uma atividade fácil.
+description: Jamais tive dificuldades para encontrar o portão de embarque indicado na minha passagem. Tampouco tenho dificuldades para detectar onde e quando ocorre o evento anunciado num convite recebido por email. Ler sempre foi uma atividade fácil.
 keywords: limites, leitura, José Saramago
 lang: pt-BR
 
 ---
 
-Jamais tive dificuldades para encontrar o portão de embarque indicado na minha passagem. Tão pouco tenho dificuldades para detectar onde e quando ocorre o evento anunciado num convite recebido por email. Ler sempre foi uma atividade fácil. Desde que me tornei capaz de associar um conjunto de letras a uma palavra, considerava adquirida a habilidade de ler.
+Jamais tive dificuldades para encontrar o portão de embarque indicado na minha passagem. Tampouco tenho dificuldades para detectar onde e quando ocorre o evento anunciado num convite recebido por email. Ler sempre foi uma atividade fácil. Desde que me tornei capaz de associar um conjunto de letras a uma palavra, considerava adquirida a habilidade de ler.
 
 Esse atestado de habilidade adquirida começou a ser ameaçado ao ler um trecho do livro *Several Short Sentences About Writing*:
 
