@@ -28,8 +28,15 @@ describe('Blog Featured List', () => {
   it('should list the latest three english blog posts', () => {
     const wrapper = mount();
     const items = wrapper.find('li');
-    const expectedBlogPosts = [blogPostsMock[8], blogPostsMock[1], blogPostsMock[2]]
-    expect(items.length).toEqual(3);
+    const expectedBlogPosts = [
+      blogPostsMock[35],
+      blogPostsMock[19],
+      blogPostsMock[21],
+      blogPostsMock[25],
+      blogPostsMock[39],
+      blogPostsMock[24]
+    ]
+    expect(items.length).toEqual(6);
     items.forEach((item, index) => {
       const { title, description, url, date } = expectedBlogPosts[index];
       const formattedDate = dateService.formatDescriptively(date)

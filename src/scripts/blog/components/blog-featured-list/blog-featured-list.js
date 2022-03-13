@@ -29,7 +29,16 @@ export const BlogFeaturedList = () => {
 }
 
 function getLatestEnglishPosts(){
-  return blogPostsService.get().filter(isEnglishPost).sort(orderPostsByDescDate).slice(0, 3);
+  // const allposts = blogPostsService.get()
+  // console.log([
+  //   'to-test-or-not-to-test-an-application.html',
+  //   'from-idea-to-the-first-sale.html',
+  //   'generating-a-multi-language-blog-based-in-markdown.html',
+  //   'improving-the-developer-experience-with-smart-form.html',
+  //   'why-i-built-an-english-augmented-dictionary.html',
+  //   'how-to-build-a-seo-friendly-single-page-website.html'
+  // ].map(url => ({ [url]: allposts.findIndex(p => p.url === url) })))
+  return blogPostsService.get().filter(isEnglishPost).sort(orderPostsByDescDate).slice(0, 6);
 }
 
 function isEnglishPost({ lang }){

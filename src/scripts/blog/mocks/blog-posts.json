@@ -1,5 +1,92 @@
 [
   {
+    "url": "https://engineering.contaazul.com/avoiding-traps-in-event-driven-programming-b996f5aa6248",
+    "external": true,
+    "title": "Avoiding traps in event-driven programming",
+    "lang": "en-US",
+    "date": "2017-04-07",
+    "excerpt": "Every developer knows the importance of keeping the code as much decoupled as possible. Loosely coupling drives your code to smaller responsibilities and, consequently, granular objects which bring us fast understanding and easy maintenance. Sometimes, one of the strategies which can aid you to achieve this is to use events to make tho..."
+  },
+  {
+    "url": "bottles-and-principles-how-to-better-organize-css.html",
+    "title": "Bottles and principles. How to better organize CSS.",
+    "lang": "en-US",
+    "date": "2020-07-01",
+    "description": "Something curious about lots of the most popular programming concepts, principles and good practices is that they seem to disappear or, at least, keep distant, when the software we are talking about is a web-client, also known as a front-end application.",
+    "keywords": "component, css, stylesheet, open-closed",
+    "excerpt": "Something curious about lots of the most popular programming concepts, principles and good practices is that they seem to disappear or, at least, keep distant, when the software we are talking about is a web-client, also known as a front-end application. Very few front-end projects that I have seen in my life had a minimum of logical d..."
+  },
+  {
+    "url": "clean-code.html",
+    "title": "Clean code",
+    "lang": "en-US",
+    "date": "2020-05-13",
+    "description": "This is one of the most famous books in the programming universe. Its fame seems only not to be bigger than the number of developers that still has not read it. Some of them complain about the examples shown in the book to be written in Java, wrongly considering the language as an obstacle to understand what clean code is. I have also heard that clean code would be a utopia, that functions containing four or five statements would be reserved for the software development Olympus.",
+    "keywords": "clean, code",
+    "excerpt": "This is one of the most famous books in the programming universe. Its fame seems only not to be bigger than the number of developers that still haven't read it. Some of them complain about the examples shown in the book to be written in Java, wrongly considering the language as an obstacle to understand what clean code is. I have also ..."
+  },
+  {
+    "url": "clean-setup.html",
+    "title": "Clean setup",
+    "lang": "en-US",
+    "date": "2020-08-07",
+    "description": "Then you face the opportunity to walk through an untouchable and green field. A road still free from any obstacle. That is, it is time to start a new, promising and shining application from scratch. First step? Set it up, of course. That is the moment in which not-so-interesting decisions could rapidly make that green field yellow and drop the first stones over that clean road.",
+    "keywords": "setup, clean, aurelia, weather now",
+    "excerpt": "Then you face the opportunity to walk through an untouchable and green field. A road still free from any obstacle. That is, it is time to start a new, promising and shining application from scratch. First step? Set it up, of course. That is the moment in which not-so-interesting decisions could rapidly make that green field yellow and ..."
+  },
+  {
+    "url": "codigo-limpo.html",
+    "title": "Código limpo",
+    "lang": "pt-BR",
+    "date": "2020-05-09",
+    "description": "Esse é um dos livros mais famosos do universo da programação. Sua fama parece só não ser maior do que o número de programadores que ainda não leu esse livro. Alguns reclamam que os exemplos exibidos ao longo do livro estão escritos em Java, como se a linguagem de programação fosse um obstáculo para entender o que é código limpo. Já ouvi também que o tal código limpo seria uma utopia, que funções contendo quatro ou cinco linhas estariam reservadas ao Olimpo do desenvolvimento de software.",
+    "keywords": "código, limpo",
+    "excerpt": "Esse é um dos livros mais famosos do universo da programação. Sua fama parece só não ser maior do que o número de programadores que ainda não leu esse livro. Alguns reclamam que os exemplos exibidos ao longo do livro estão escritos em Java, como se a linguagem de programação fosse um obstáculo para entender o que é código limpo. Já ouv..."
+  },
+  {
+    "url": "como-construir-um-single-page-website-otimizado-para-buscadores.html",
+    "title": "Como construir um Single Page Website otimizado para buscadores",
+    "lang": "pt-BR",
+    "date": "2021-08-27",
+    "description": "Gatsby, Next.js, Jekyll e Hugo são alguns frameworks considerados Static Site Generators que você poderia utilizar para alcançar esse objetivo, mas o foco desse post é te apresentar uma solução muito mais simples e desacoplada de frameworks.",
+    "keywords": "spa, single page application, website, buscadores, seo, react, vue, static site generator",
+    "excerpt": "Com o surgimento de tecnologias como Angular e React anos atrás, começamos a compreender que a interface gráfica poderia ser estruturada de uma maneira diferente do tradicional conceito MVC (Model-View-Controller). Essa maneira, hoje comum, é chamada de Arquitetura Baseada em Componentes. Essa nova estratégia entrega benefícios que vão..."
+  },
+  {
+    "url": "component-maturity-model.html",
+    "title": "Component maturity model",
+    "lang": "en-US",
+    "date": "2019-11-30",
+    "description": "Think you are a programmer, a front-end programmer. You collaborate with the development of a web product. Your workmates are back-end programmers, designers, and product owners. So, on an ordinary day, in a casual meeting, in a simple presentation or in a regular chat among team members, you make use of a word, a much simple word: Component.",
+    "keywords": "component, maturity, front-end",
+    "excerpt": "Think you are a programmer, a front-end programmer. You collaborate with the development of a web product. Your workmates are back-end programmers, designers, and product owners. So, on an ordinary day, in a casual meeting, in a simple presentation or in a regular chat among team members, you make use of a word, a much simple word: Com..."
+  },
+  {
+    "url": "https://tableless.com.br/componentes-alem-do-reuso/",
+    "external": true,
+    "title": "Componentes além do reuso",
+    "lang": "pt-BR",
+    "date": "2018-02-18",
+    "excerpt": "Vivemos tempos em que o conceito Model/View/Controller está ficando cada vez mais obsoleto fazendo da abordagem Component-Based o padrão atual no desenvolvimento de aplicações web. Porém, ao mesmo tempo que a abordagem Component-Based tem se tornado cada vez mais popular, percebo ainda muitos desenvolvedores entendendo componentes..."
+  },
+  {
+    "url": "https://medium.com/hackernoon/components-beyond-reuse-6cef6848a748",
+    "external": true,
+    "title": "Components beyond reuse",
+    "lang": "en-US",
+    "date": "2018-02-20",
+    "excerpt": "We are living times where the Model/View/Controller concept is getting more and more obsolete making Component-Based approach the new standard to develop web applications now. However, as well as Component-based has become a so popular concept, I still see a lot of developers understanding components in a surprisingly weird way."
+  },
+  {
+    "url": "configuracao-limpa.html",
+    "title": "Configuração limpa",
+    "lang": "pt-BR",
+    "date": "2020-08-06",
+    "description": "Nasce então a oportunidade de caminhar por um campo intocado e verdejante. Uma estrada ainda livre de qualquer pedregulho. Enfim, é hora de começar uma nova, promissora e reluzente aplicação. O primeiro passo? Configurar a aplicação, claro. É nesse momento que decisões não tão interessantes podem rapidamente amarelar o lindo campo verdejante e largar as primeiras pedras sobre aquela lisa estrada.",
+    "keywords": "configuração, limpa, aurelia, weather now",
+    "excerpt": "Nasce então a oportunidade de caminhar por um campo intocado e verdejante. Uma estrada ainda livre de qualquer pedregulho. Enfim, é hora de começar uma nova, promissora e reluzente aplicação. O primeiro passo? Configurar a aplicação, claro. É nesse momento que decisões não tão interessantes podem rapidamente amarelar o lindo campo verd..."
+  },
+  {
     "url": "da-ideia-a-primera-venda.html",
     "title": "Da ideia à primeira venda",
     "lang": "pt-BR",
@@ -9,6 +96,76 @@
     "excerpt": "Se você nunca ouviu falar sobre Derek Sivers, visite imediatamente seu site e leia pelo menos meia dúzia de seus textos. Parágrafo a parágrafo, seu pescoço vai ganhar mais elasticidade, e sua cabeça, cada vez mais livre para girar, começará a perceber um mundo muito maior do que aquele que até então você conhecia. Foi lendo seu primeir..."
   },
   {
+    "url": "https://medium.com/rd-shipit/de-frente-pra-tr%C3%A1s-951a71f42f9f",
+    "external": true,
+    "title": "De frente pra trás",
+    "lang": "pt-BR",
+    "date": "2021-06-22",
+    "excerpt": "Quem trabalha como programador na RD desfruta de uma oportunidade rara no mercado. Todo semestre você tem a chance de se desenvolver profissionalmente nos aspectos que julgar mais interessantes para o momento atual da sua carreira. O benefício não se restringe apenas ao suporte que sua liderança fornece na definição dos tópicos nos qua..."
+  },
+  {
+    "url": "developer-first-pt.html",
+    "title": "Developer first",
+    "lang": "pt-BR",
+    "date": "2020-05-24",
+    "description": "Ao longo dos últimos anos temos ouvido uma variedade de estratégias se sucederem na disputa por como melhor abordar o desenvolvimento de um software. Há poucos anos, era corriqueiro o uso do termo API-First. Mais recentemente, o entusiasmo foi com AI-First. Sendo desenvolvedor, sugiro a adoção de uma nova estratégia.",
+    "keywords": "developer first, desenvolvedor, precisão, produtividade",
+    "excerpt": "Ao longo dos últimos anos temos ouvido uma variedade de estratégias se sucederem na disputa por como melhor abordar o desenvolvimento de um software. Há poucos anos, era corriqueiro o uso do termo API-First. Mais recentemente, o entusiasmo foi com AI-First. Sendo desenvolvedor, sugiro a adoção de uma nova estratégia. Uma estratégia que..."
+  },
+  {
+    "url": "developer-first.html",
+    "title": "Developer first",
+    "lang": "en-US",
+    "date": "2020-06-26",
+    "description": "Over the past few years, we have heard a variety of strategies succeed in the dispute for how best to approach software development. A few years ago, it was common to use the term API-first. More recently, the enthusiasm was with AI-first. As a developer, I suggest adopting a new strategy.",
+    "keywords": "developer first, developer, precision, productivity",
+    "excerpt": "Over the past few years, we have heard several strategies supersede the dispute for how best to approach software development. A few years ago, it was common to use the term API-first. More recently, the enthusiasm was with AI-first. As a developer, I suggest the adoption of a new strategy. A strategy that does not exclude any other on..."
+  },
+  {
+    "url": "do-angular-js-para-react.html",
+    "title": "Do AngularJS para React",
+    "lang": "pt-BR",
+    "date": "2020-07-26",
+    "description": "Para quem muito programou usando AngularJS, a primeira impressão ao se deparar com um componente React pode não ser das melhores. O impacto provavelmente mais significativo é ver JavaScript e HTML dividindo o mesmo espaço. Mas não se deixe levar pelas aparências. O React é bem menos estranho do que a primeira impressão pode sugerir.",
+    "keywords": "angularjs, react, diferenças",
+    "excerpt": "Para quem muito programou usando AngularJS, a primeira impressão ao se deparar com um componente React pode não ser das melhores. O impacto provavelmente mais significativo é ver JavaScript e HTML dividindo o mesmo espaço. Mas não se deixe levar pelas aparências. O React é bem menos estranho do que a primeira impressão pode sugerir. An..."
+  },
+  {
+    "url": "https://medium.com/rd-shipit/embarque-remoto-dfb68533ad69",
+    "external": true,
+    "title": "Embarque remoto",
+    "lang": "pt-BR",
+    "date": "2020-08-12",
+    "excerpt": "Lançar-se a uma nova empresa buscando novos desafios resulta num belo sentimento de euforia e numa pequena dose de frio na barriga. À expectativa, vão se somando algumas perguntas. Como será trabalhar diariamente com as pessoas com quem conversei até agora? Quem serão as pessoas do time para as quais ainda não fui apresentado? Como ser..."
+  },
+  {
+    "url": "formatando-qualidade.html",
+    "title": "Formatando qualidade",
+    "lang": "pt-BR",
+    "date": "2020-01-17",
+    "description": "Era meados de 2018 e eu precisava criar uma aplicação de uso interno na empresa onde trabalhava. O projeto era colocar no ar um cliente web para monitorar as releases da aplicação principal da empresa. Eu era o único front-end trabalhando no projeto e, tendo totais poderes para estruturar a aplicação da maneira que eu achasse melhor, não pude deixar passar a oportunidade de orientar a aplicação à qualidade.",
+    "keywords": "eslint, eslint, formatação, código, qualidade",
+    "excerpt": "Era meados de 2018 e eu precisava criar uma aplicação de uso interno na empresa onde trabalhava. O projeto era colocar no ar um cliente web para monitorar as releases da aplicação principal da empresa. Eu era o único front-end trabalhando no projeto e, tendo totais poderes para estruturar a aplicação da maneira que eu achasse melhor, n..."
+  },
+  {
+    "url": "formatting-quality.html",
+    "title": "Formatting quality",
+    "lang": "en-US",
+    "date": "2020-01-17",
+    "description": "It was mid-2018, and I needed to build an application for internal use at the company I was working for. The project consisted of building a panel to monitor the main application releases of the company. I was the only front-end developer in the project. I had all the powers to structure it the way I considered best. So I didn't miss the opportunity to drive it to quality.",
+    "keywords": "eslint, eslint, formatting, code, quality",
+    "excerpt": "It was mid-2018, and I needed to build an application for internal use at the company I was working for. The project consisted of building a panel to monitor the main application releases of the company. I was the only front-end developer in the project. I had all the powers to structure it the way I considered best. So I didn't miss t..."
+  },
+  {
+    "url": "from-angular-js-to-react.html",
+    "title": "From AngularJS to React",
+    "lang": "en-US",
+    "date": "2020-08-01",
+    "description": "For those who have programmed a lot using AngularJS, the first impression when coming across a React component may not be the best. Seeing JavaScript and HTML sharing the same space is likely the most significant impact. But do not get carried away by appearances. React is far less strange than the first impression might suggest.",
+    "keywords": "angularjs, react, differences",
+    "excerpt": "For those who have programmed a lot using AngularJS, the first impression when coming across a React component may not be the best. Seeing JavaScript and HTML sharing the same space is likely the most significant impact. But do not get carried away by appearances. React is far less strange than the first impression might suggest. Befor..."
+  },
+  {
     "url": "from-idea-to-the-first-sale.html",
     "title": "From idea to the first sale",
     "lang": "en-US",
@@ -16,6 +173,14 @@
     "description": "My goal was modest: one single license sold until the end of this year. One inch of trade. Miles of satisfaction.",
     "keywords": "idea, Typenik, sale, Derek Sivers, Zeh Fernandes, Pliim, dictionary, english",
     "excerpt": "If you haven't ever heard about Derek Sivers, visit his website now and read a couple of their blog posts. Paragraph by paragraph, your neck will become more elastic, and your head, freer to spin around, will start to notice a larger world than the one you were used to. Reading his first book - Anything You Want - by September of the l..."
+  },
+  {
+    "url": "https://rcamargo.medium.com/entre-garrafas-e-princ%C3%ADpios-como-organizar-melhor-seu-css-4f1572159a04",
+    "external": true,
+    "title": "Garrafas e princípios. Como melhor organizar CSS.",
+    "lang": "pt-BR",
+    "date": "2019-08-22",
+    "excerpt": "Algo realmente curioso em relação a vários dos consagrados conceitos, princípios e boas práticas de programação é que eles parecem simplesmente desaparecer, ou ao menos soar distante, quando o software em questão é o cliente web, vulgo front-end."
   },
   {
     "url": "generating-a-multi-language-blog-based-in-markdown.html",
@@ -36,6 +201,23 @@
     "excerpt": "Durante um longo período da minha carreira, escrever sobre programação significava escrever em inglês. Essa parece ser uma tendência natural numa profissão que tem como maiores expoentes pessoas que falam inglês nativamente. A propósito, um enorme número de ferramentas usadas na programação são também oferecidos apenas nesse idioma. Mu..."
   },
   {
+    "url": "https://engineering.contaazul.com/handling-environment-variables-in-the-browser-bbde35661798",
+    "external": true,
+    "title": "Handling environment variables in the browser",
+    "lang": "en-US",
+    "date": "2017-08-31",
+    "excerpt": "Front end projects usually make use of external resources through URLs, API Keys, etc. Those things may change depending on which environment you are running your code. If you are in a development environment, you don’t want to mess your metrics like Mixpanel or Google Analytics, for example."
+  },
+  {
+    "url": "how-to-build-a-seo-friendly-single-page-website.html",
+    "title": "How to build a SEO friendly Single Page Website",
+    "lang": "en-US",
+    "date": "2021-08-28",
+    "description": "Gatsby, Next.js, Jekyll, and Hugo are frameworks considered 'Static Site Generators' you can use to achieve that goal. However, the purpose of this post is to present a solution that makes it simpler, decoupled from any framework.",
+    "keywords": "spa, single page application, website, search engines, seo, react, vue, static site generator",
+    "excerpt": "When Angular and React got on the stage years ago, we started to realize a way of building graphic interfaces other than the traditional MVC (Model-View-Controller). That way, popular these days, is called Component-Based Architecture. The new strategy delivers some benefits beyond components reuse and brings the foundations to better ..."
+  },
+  {
     "url": "improving-the-developer-experience-with-smart-form.html",
     "title": "Improving the developer experience with smart forms",
     "lang": "en-US",
@@ -45,6 +227,24 @@
     "excerpt": "Every time I read the documentation of libraries that promise to make the development of forms easier, I get deeply frustrated. I can't believe someone looks to those libraries and thinks they really improve the development experience. Some of the reasons would include the counterintuitiveness of those APIs, the amount of code a develo..."
   },
   {
+    "url": "incondicional-inhotim.html",
+    "title": "Incondicional Inhotim",
+    "lang": "pt-BR",
+    "date": "2020-06-06",
+    "description": "Temos todos a capacidade de reconhecer a beleza no imediato momento em que nos colocamos diante dela. Essa foi a certeza que tomou conta de mim no dia que visitei o maior museu de arte contemporânea a céu aberto do mundo. Um jardim que poderia ser perfeitamente chamado de paraíso. Inhotim.",
+    "keywords": "Inhotim, arte, Hélio Oiticica, Adriana Varejão, Valeska Soares",
+    "excerpt": "Temos todos a capacidade de reconhecer a beleza no imediato momento em que nos colocamos diante dela. Essa foi a certeza que tomou conta de mim no dia que visitei o maior museu de arte contemporânea a céu aberto do mundo. Um jardim que poderia ser perfeitamente chamado de paraíso. Inhotim. Dentro da galeria Cosmococa você deita na cama..."
+  },
+  {
+    "url": "limites-da-leitura.html",
+    "title": "Limites da leitura",
+    "lang": "pt-BR",
+    "date": "2022-03-11",
+    "description": "Jamais tive dificuldades para encontrar o portão de embarque indicado na minha passagem. Tampouco tenho dificuldades para detectar onde e quando ocorre o evento anunciado num convite recebido por email. Ler sempre foi uma atividade fácil.",
+    "keywords": "limites, leitura, José Saramago",
+    "excerpt": "Jamais tive dificuldades para encontrar o portão de embarque indicado na minha passagem. Tampouco tenho dificuldades para detectar onde e quando ocorre o evento anunciado num convite recebido por email. Ler sempre foi uma atividade fácil. Desde que me tornei capaz de associar um conjunto de letras a uma palavra, considerava adquirida a..."
+  },
+  {
     "url": "melhorando-a-experiencia-de-desenvolvimento-com-formularios-inteligentes.html",
     "title": "Melhorando a experiência de desenvolvimento com formulários inteligentes",
     "lang": "pt-BR",
@@ -52,6 +252,24 @@
     "description": "A partir de um determinado momento na minha carreira, eu comecei a sonhar com duas melhorias no HTML que me deixariam muito, muito, muito feliz.",
     "keywords": "formulários, inteligentes, experiência, desenvolvimento, react, vue",
     "excerpt": "Toda vez que eu consulto a documentação de uma biblioteca que promete facilitar o desenvolvimento de formulários, tenho uns três tipos diferentes de decepção. Não consigo acreditar que alguém olhe para a solução proposta e ache que ela realmente vai melhorar a experiência de desenvolvimento. Eu poderia citar alguns motivos como a contr..."
+  },
+  {
+    "url": "modelo-de-maturidade-de-componentes.html",
+    "title": "Modelo de maturidade de componentes",
+    "lang": "pt-BR",
+    "date": "2019-11-30",
+    "description": "Pense que você é um programador, um programador front-end. Você colabora com o desenvolvimento de um produto web. Você trabalha junto com designers, programadores back-end e product owners. Então um belo dia numa reunião, numa apresentação ou num simples bate papo entre membros do time, você faz uso de uma palavra muito simples. Componente.",
+    "keywords": "componente, maturidade, front-end",
+    "excerpt": "Pense que você é um programador, um programador front-end. Você colabora com o desenvolvimento de um produto web. Você trabalha junto com designers, programadores back-end e product owners. Então um belo dia numa reunião, numa apresentação ou num simples bate papo entre membros do time, você faz uso de uma palavra muito simples. Compon..."
+  },
+  {
+    "url": "perolas-e-mariscos.html",
+    "title": "Pérolas e mariscos",
+    "lang": "pt-BR",
+    "date": "2020-05-31",
+    "description": "Octocash. Esse era o nome do produto que eu e dois colegas lançamos há quatro anos. Começar a construir o próprio produto tendo apenas dois anos de profissão é uma experiência deslumbrante. Todos os integrantes transbordam otimismo. É tanto otimismo que ele sozinho é mais do que suficiente para desenvolver o produto. É tanta euforia que entender profundamente um problema passa a ser opcional. Após desenharmos um logo e as primeiras telas, programamos loucamente até colocar o produto no ar. Visitante após visitante, começamos a coletar então a amarga métrica de zero conversões. Ops! Ficou evidente que era preciso mais que só abrir a porta da loja pro negócio dar certo.",
+    "keywords": "perolas, mariscos, features, desenvolvimento de produto",
+    "excerpt": "Octocash. Esse era o nome do produto que eu e dois colegas lançamos há quatro anos. Começar a construir o próprio produto tendo apenas dois anos de profissão é uma experiência deslumbrante. Todos os integrantes transbordam otimismo. É tanto otimismo que ele sozinho é mais do que suficiente para desenvolver o produto. É tanta euforia qu..."
   },
   {
     "url": "porque-criei-um-dicionario-aumentado-de-ingles.html",
@@ -72,6 +290,24 @@
     "excerpt": "Essa é uma pergunta recorrente no desenvolvimento de software. Respostas para essa pergunta costumam gerar debates acalorados que confrontam vários pontos de vista. Mas apesar da pergunta parecer complexa ao sugerir um dilema, a única resposta possível me parece bem óbvia. Alguns dizem que testes adicionam ao projeto um custo adicional..."
   },
   {
+    "url": "the-pearl-and-the-mussels.html",
+    "title": "The pearl and the mussels",
+    "lang": "en-US",
+    "date": "2020-06-28",
+    "description": "Octocash. That was the name of the product that I, and two colleagues, launched four years ago. Starting to build a product in the early stage of your career is such a great experience. Every member overflows optimism. Optimism is so abundant that nothing more is necessary to develop the product. The level of enthusiasm is so high that understanding profoundly a problem becomes optional. After designing a logo and the first application views, we worked hard until putting the product in the market. Visitor after visitor, we begin to measure a bitter result of zero conversions. So we sadly realized that it required more than just opening the store to make a business succeed.",
+    "keywords": "pearl, mussels, product feature, rework, glorious demo, JavaScript",
+    "excerpt": "Octocash. That was the name of the product that I, and two colleagues, launched four years ago. Starting to build a product in the early stage of your career is such a great experience. Every member overflows optimism. Optimism is so abundant that nothing more is necessary to develop the product. The level of enthusiasm is so high that..."
+  },
+  {
+    "url": "thirty-seven.html",
+    "title": "Thirty seven",
+    "lang": "en-US",
+    "date": "2020-05-24",
+    "description": "Mankind constantly analyzes radio waves from outer space in the search for extraterrestrial intelligence. Since this analysis started, almost all of the signal sources have been identified. 37 signals, however, remain unexplained.",
+    "keywords": "thirty seven, 37signals, manifesto",
+    "excerpt": "Mankind constantly analyzes radio waves from outer space in the search for extraterrestrial intelligence. Since this analysis started, almost all of the signal sources have been identified. 37 signals, however, remain unexplained. Inspiration for the name 37signals As intriguing as the quote above, it has been the capacity of a small c..."
+  },
+  {
     "url": "to-test-or-not-to-test-an-application.html",
     "title": "To test or not to test an application?",
     "lang": "en-US",
@@ -79,6 +315,30 @@
     "description": "Believe it or not, every software gets tested during its development. The option 'no tests' may exist in theory, but they are always made in practice. The point is to define how you do them.",
     "keywords": "automated tests, application, development",
     "excerpt": "This is a recurring question in software development. Responses to this question usually lead developers to an intense debate confronting several points of view. Even though the question seems complex, the only possible answer seems very obvious to me. Some say that tests result in additional costs to the project because they stretch d..."
+  },
+  {
+    "url": "trinta-e-sete.html",
+    "title": "Trinta e sete",
+    "lang": "pt-BR",
+    "date": "2020-05-17",
+    "description": "A humanidade frequentemente analisa as ondas de rádio vindas do espaço na busca por inteligência extraterrestre. Desde que essas análises começaram, a origem de quase todos os sinais foi identificada. Trinta e sete delas, porém, permanecem sem explicação.",
+    "keywords": "trinta e sete, 37signals, manifesto",
+    "excerpt": "A humanidade frequentemente analisa as ondas de rádio vindas do espaço na busca por inteligência extraterrestre. Desde que essas análises começaram, a origem de quase todos os sinais foi identificada. Trinta e sete delas, porém, permanecem sem explicação. Origem do nome 37signals Tão intrigante quanto ondas de radio vindas do além, foi..."
+  },
+  {
+    "url": "unconditional-inhotim.html",
+    "title": "Unconditional Inhotim",
+    "lang": "en-US",
+    "date": "2020-06-28",
+    "excerpt": "We all can recognize beauty at the right moment we stand before it. That was the certainty that I had the day I visited the world's largest open-air contemporary art museum. It's a garden that could be called paradise. Inhotim. Inside the Cosmococa gallery, you lie in bed, rest in the hammock, dive in the pool. The five quasi-cinemas -..."
+  },
+  {
+    "url": "https://rcamargo.medium.com/webpacking-environment-variables-8515e2b95002",
+    "external": true,
+    "title": "Webpacking environment variables",
+    "lang": "en-US",
+    "date": "2018-03-08",
+    "excerpt": "This is a complement to a previous post about bundling environment variables using Gulp. Keeping with the same expectation of maintaining a simple, easy to understand and crystal clear way to manage environment variables in the browser without having to make any trick or write unnecessary code, I show below how to achieve that same res..."
   },
   {
     "url": "why-i-built-an-english-augmented-dictionary.html",
