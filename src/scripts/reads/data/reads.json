@@ -17,16 +17,16 @@
     "url": "https://www.amazon.com.br/Elements-Style-Charles-Osgood/dp/020530902X",
     "reading_on": "2022-07"
   },
-  "coisas_de_indio_versao_infantil": {
-    "title": "Coisas de Índio: Versão Infantil",
-    "author": "Daniel Munduruku",
-    "url": "https://www.amazon.com.br/Coisas-%25C3%258Dndio-Infantil-Daniel-Munduruku/dp/8545400756",
-    "reading_on": "2022-07"
-  },
   "refactoring": {
     "title": "Refactoring",
     "author": "Martin Fowler",
     "url": "https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599",
+    "reading_on": "2022-06"
+  },
+  "laws_of_ux": {
+    "title": "Laws of UX",
+    "author": "Jon Yablonski",
+    "url": "https://www.amazon.com/gp/product/149205531X",
     "reading_on": "2022-06"
   },
   "the_blue_book_of_grammar_and_punctuation": {
@@ -40,6 +40,18 @@
     "author": "Djamila Ribeiro",
     "url": "https://www.amazon.com.br/Pequeno-manual-antirracista-Djamila-Ribeiro/dp/8535932879",
     "reading_on": "2022-06"
+  },
+  "the_longest_day_of_the_future": {
+    "title": "The Longest Day Of The Future",
+    "author": "Lucas Varela",
+    "url": "https://www.amazon.com/gp/product/1606999516",
+    "reading_on": "2022-05"
+  },
+  "design_is_storytelling": {
+    "title": "Design Is Storytelling",
+    "author": "Ellen Lupton",
+    "url": "https://www.amazon.com/gp/product/194230319X",
+    "reading_on": "2022-05"
   },
   "poema_piada_breve_antologia_da_poesia_engracada": {
     "title": "Poema-piada: Breve antologia da poesia engraçada",
@@ -57,6 +69,12 @@
     "title": "As serpentes que roubaram a noite",
     "author": "Daniel Munduruku",
     "url": "https://www.amazon.com.br/Serpentes-Roubaram-Noite-Outros-Mitos/dp/8585663588",
+    "reading_on": "2022-05"
+  },
+  "the_design_of_everyday_things": {
+    "title": "The Design of Everyday Things",
+    "author": "Don Norman",
+    "url": "https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654",
     "reading_on": "2022-04"
   },
   "contos_indigenas_brasileiros": {
