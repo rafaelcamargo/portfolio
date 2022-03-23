@@ -53,22 +53,10 @@
     "url": "https://www.amazon.com/gp/product/194230319X",
     "reading_on": "2022-05"
   },
-  "poema_piada_breve_antologia_da_poesia_engracada": {
-    "title": "Poema-piada: Breve antologia da poesia engraçada",
-    "author": "Gregório Duvivier",
-    "url": "https://www.amazon.com.br/Poema-piada-Breve-antologia-poesia-engra%25C3%25A7ada/dp/8592886554",
-    "reading_on": "2022-05"
-  },
   "tambeta": {
     "title": "Tambetá",
     "author": "Idjahure Kadiwéu",
     "url": "https://www.amazon.com.br/Tembet%25C3%25A1-conversas-com-pensadores-ind%25C3%25ADgenas/dp/8579202280",
-    "reading_on": "2022-05"
-  },
-  "as_serpentes_que_roubaram_a_noite": {
-    "title": "As serpentes que roubaram a noite",
-    "author": "Daniel Munduruku",
-    "url": "https://www.amazon.com.br/Serpentes-Roubaram-Noite-Outros-Mitos/dp/8585663588",
     "reading_on": "2022-05"
   },
   "the_design_of_everyday_things": {
@@ -88,6 +76,18 @@
     "author": "Vários Autores",
     "url": "https://www.amazon.com.br/N%25C3%25B3s-Uma-antologia-literatura-ind%25C3%25ADgena/dp/8574068640",
     "reading_on": "2022-04"
+  },
+  "as_serpentes_que_roubaram_a_noite": {
+    "title": "As serpentes que roubaram a noite",
+    "author": "Daniel Munduruku",
+    "url": "https://www.amazon.com.br/Serpentes-Roubaram-Noite-Outros-Mitos/dp/8585663588",
+    "read_on": "2022-03-22"
+  },
+  "poema_piada_breve_antologia_da_poesia_engracada": {
+    "title": "Poema-piada: Breve antologia da poesia engraçada",
+    "author": "Gregório Duvivier",
+    "url": "https://www.amazon.com.br/Poema-piada-Breve-antologia-poesia-engra%25C3%25A7ada/dp/8592886554",
+    "read_on": "2022-03-22"
   },
   "clean_architecture": {
     "title": "Clean Architecture",
