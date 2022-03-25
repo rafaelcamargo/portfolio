@@ -16,7 +16,7 @@ Sim, devo confessar que lembro. Sempre torcia para que na minha vez o parágrafo
 
 Ler àquela maneira é como ser capaz de identificar corretamente todas as notas de uma canção, mas não necessariamente ser capaz de executá-las no ritmo correto - e se você já ouviu alguém bater palmas no contrapé da melodia, sabe o quanto o ritmo importa.
 
-![Trecho da crônica O Ovo de Gregório Duvivier](../images/o-ovo.jpg)  
+![Trecho da crônica O Ovo de Gregório Duvivier](../../images/o-ovo.jpg)  
 _Trecho da crônica O Ovo de Gregório Duvivier_
 
 A constatação definitiva de que os limites da minha leitura eram bastante tímidos se revelou ao longo das dezenas de páginas iniciais de *As intermitências da morte*. Depois de tantas vezes precisar reler as frases, cheguei a me questionar se tal dificuldade chamava-se analfabetismo funcional. É impossível ler *José Saramago* se você for incapaz de entrar no ritmo que ele impõe à prosa. Uma mesma ideia se estende por vírgulas a fio. Não é raro que o sujeito já tenha escapado da sua memória no momento em que você alcança o predicado. Leituras como essa demandam um vigor intelectual que nenhuma publicidade, placa de trânsito ou SMS tinham exigido de mim até então. Foi preciso meio livro de exercícios até retomar minha fluência no Português.

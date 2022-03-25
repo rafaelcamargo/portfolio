@@ -35,7 +35,7 @@ Daí pra frente é só focar no conteúdo. Sem escrever uma linha sequer de conf
 
 Além dos benefícios acima, o Triven pode ser facilmente conectado a qualquer site já existente. Por padrão, os arquivos estáticos são gerados num diretório chamado `triven` na raiz do seu projeto. Porém, esses arquivos podem ser salvos em qualquer outro lugar. Ou seja, se você já possui um site, basta definir esse local como sendo `/blog`, por exemplo - exatamente como fiz no meu site.
 
-![Menu de idiomas do Triven](../images/language-menu.gif)  
+![Menu de idiomas do Triven](../../images/language-menu.gif)  
 _Menu de idiomas gerado automaticamente pelo Triven_
 
 Se você não é dos que se satisfazem com o conceito *zero config* e gosta mesmo é de personalizar o seu blog de cabo a rabo, sem problemas. No [repositório](https://github.com/glorious-codes/glorious-triven#triven) do projeto você encontra todas as informações que precisa para personalizar tudo que desejar.

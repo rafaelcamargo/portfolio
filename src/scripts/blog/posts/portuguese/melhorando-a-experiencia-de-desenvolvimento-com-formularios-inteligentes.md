@@ -71,7 +71,7 @@ Experimente o comportamento desse formulário feito com Taslonic simulando a ins
     </t-col>
   </t-row>
 </div>
-<script src="../scripts/smart-form.js"></script>
+<script src="../../scripts/smart-form.js"></script>
 
 Aqui está tudo que precisei implementar para criar o formulário:
 

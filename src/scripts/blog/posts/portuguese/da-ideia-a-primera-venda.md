@@ -14,14 +14,14 @@ Comecei a dar fim naquelas tarefas repetitivas no segundo trimestre desse ano. D
 
 Minha meta era modesta. Vender uma única licença até o final deste ano. Uma milimétrica movimentação financeira. Quilômetros de satisfação. *Money is the ultimate feedback*, escreveu Kent Beck em [Extreme Programming Explained](https://www.amazon.com/-/es/gp/product/0321278658).
 
-![Página de compra do Typenik](../images/typenik-checkout-page.png)  
+![Página de compra do Typenik](../../images/typenik-checkout-page.png)  
 _Página de compra do Typenik_
 
 Passou-se uma semana. Duas, três, quatro. Zero vendas. Tudo bem, eu ainda não havia divulgado nada em lugar algum e o bom senso me ensinou que até o milagre precisa da reza para acontecer. Então na oitava semana do produto no ar, uma venda. Ainda tomado pela surpresa, percebi que a compra tinha sido feita por uma pessoa próxima a mim. Meta alcançada? Vejamos... Afim de me assegurar que a compra fosse consequência do interesse genuíno no produto, preferi considerar que a meta só seria alcançada quando a compra fosse feita por alguém que eu não conhecesse.
 
 Com o milagre em mente, hora de me concentrar na reza. Expliquei o que era um [English Augmented Dictionary](https://typenik.com/blog/what-is-an-english-augmented-dictionary/) no primeiro texto publicado no [Blog do Typenik](https://typenik.com/blog/), comecei a promover o [Typenik no Twitter](https://twitter.com/typenik) e busquei entender melhor o que se passava na cabeça de outros não nativos em inglês no [Reddit](https://www.reddit.com/r/EnglishLearning/comments/pupqbb/nonnative_english_speakers_i_want_to_hear_from_you/), [Hacker News](https://news.ycombinator.com/item?id=28646069#28646878) e [Indie Hackers](https://www.indiehackers.com/post/non-native-english-speakers-i-want-to-hear-from-you-07477fba11).
 
-![Discussão no Indie Hackers](../images/typenik-indie-hackers.png)  
+![Discussão no Indie Hackers](../../images/typenik-indie-hackers.png)  
 _Discussão no Indie Hackers_
 
 A primeira venda para uma pessoas desconhecida finalmente acontece quase cinco meses depois de ter colocado o produto no ar. Maior que a surpresa com a venda foi a felicidade em saber que o meu mais novo cliente era um designer que eu muito admiro. Uma espécie de ciclo de surpresas positivas se completava na minha frente, já que o [Pliim](https://pliim.app/), produto criado por esse designer, foi justamente um dos que me inspiraram a criar o meu próprio produto.

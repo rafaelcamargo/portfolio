@@ -34,7 +34,7 @@ From now on, you only need to focus on your content. Without writing one single 
 
 Another great trait is that Triven easily connects to any existing website. By default, Triven generates all its assets in a directory called `triven` at the root of your project. However, Triven can output those files to any other place. That is, if you already have a website, you only need to set `/blog` as the output directory for Triven generated files, and that's it - exactly what I did on my website.
 
-![Language menu automatically built by Triven](../images/language-menu.gif)  
+![Language menu automatically built by Triven](../../images/language-menu.gif)  
 _Language menu automatically built by Triven_
 
 Finally, if you prefer customize every detail of your blog, no problem. On [Triven's repository](https://github.com/glorious-codes/glorious-triven#triven), you find all the information you need to customize everything you want.

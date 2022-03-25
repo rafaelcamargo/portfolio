@@ -15,7 +15,7 @@ Webpack allows us to organize the code into *modules*. Every variable or functi
 
 On the Webpack configuration file, we set a module as an *entry-point*. Then Webpack will resolve the modules imported by the entry-point, as well as all the other modules imported by subsequent modules. Through a long *module-by-module* scan, Webpack creates a dependency tree and connects them into a single file called *bundle*.
 
-![Webpack](../images/webpack.svg)
+![Webpack](../../images/webpack.svg)
 
 As we can see in the image, all the necessary modules to resolve the entry-point were included in the bundle. The bundle contains *index.js (entry-point)*, *a.js*, *b.js* e *c.js*. Since no module imported *d.js* during the entry-point resolution, it was left out. This is nice because it means that modules that are not effectively used by the application are not bundled, avoiding unnecessary weight.
 
@@ -23,7 +23,7 @@ As we can see in the image, all the necessary modules to resolve the entry-point
 
 Compared to Webpack, Babel is much simpler to understand. It is a code transpiler and allows us to use JavaScript language features that are not fully supported by browsers yet. In the case of React, it goes a little further and, through a specific preset, makes it possible to use HTML within JavaScript code. This syntax is popularly called *JSX*.
 
-![Babel](../images/babel.svg)
+![Babel](../../images/babel.svg)
 
 In this [repository](https://github.com/rafaelcamargo/minimal-react), you can check the *.babelrc* and *webpack.config.js* configuration files containing only what is minimally required to bundle and run a React application.
 

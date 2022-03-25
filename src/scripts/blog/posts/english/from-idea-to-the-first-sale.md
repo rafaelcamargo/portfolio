@@ -13,14 +13,14 @@ I started to put an end to those tasks in the second quarter of this year. Ten w
 
 My goal was modest: one single license sold until the end of this year. One inch of trade. Miles of satisfaction. *Money is the ultimate feedback*, wrote Kent Beck in the book [Extreme Programming Explained](https://www.amazon.com/-/es/gp/product/0321278658).
 
-![Typenik's checkout page](../images/typenik-checkout-page.png)  
+![Typenik's checkout page](../../images/typenik-checkout-page.png)  
 _Typenik's checkout page_
 
 One week has passed since launch. No sales. Two, three, four weeks later. Zero licenses sold. Alright, I haven't promoted Typenik at any place yet, and popular wisdom has taught me that even a miracle needs some prayer to happen. Then, eight weeks after launch, one license has been sold. Still surprised, I noticed that the purchase had been made by someone close to me. Goal reached? Well... To have no doubts that a purchase was a consequence of genuine interest in the product, I decided that the objective would be satisfied with a purchase made by a person I didn't know.
 
 With the miracle in mind, that was time to focus on the prayer. I explained what an [English Augmented Dictionary](https://typenik.com/blog/what-is-an-english-augmented-dictionary/) was in the first blog post of [Typenik's Blog](https://typenik.com/blog/), started to promote [Typenik on Twitter](https://twitter.com/typenik), and learned more about the habits of non-native English writers on [Reddit](https://www.reddit.com/r/EnglishLearning/comments/pupqbb/nonnative_english_speakers_i_want_to_hear_from_you/), [Hacker News](https://news.ycombinator.com/item?id=28646069#28646878), and [Indie Hackers](https://www.indiehackers.com/post/non-native-english-speakers-i-want-to-hear-from-you-07477fba11).
 
-![Discussion at Indie Hackers](../images/typenik-indie-hackers.png)  
+![Discussion at Indie Hackers](../../images/typenik-indie-hackers.png)  
 _Discussion at Indie Hackers_
 
 The first purchase made by an unknown person finally happened almost five months after the product to be on the market. Bigger than the surprise with the sale was the happiness of noticing that my newest client was a designer I admire so much. A cycle of positive surprises had just been completed in front of me because [Pliim](https://pliim.app/), a product created by that designer, was a great inspiration for me to create my own too.

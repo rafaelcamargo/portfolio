@@ -7,21 +7,21 @@ We all can recognize beauty at the right moment we stand before it. That was the
 
 Inside the Cosmococa gallery, you lie in bed, rest in the hammock, dive in the pool. The five quasi-cinemas - a concept created by Hélio Oiticica - invade your senses as you invade them. From the terrace of Adriana Varejão gallery, you admire the beautiful water mirror as you dazzle with species of birds from the Amazon region hand-painted on tiles by Beatriz Sauer. And walking through the high vegetation, you find yourself in the mirrors of the work Folly as you discover the gallery of Valeska Soares.
 
-![_Adriana Varejão Gallery](../images/varejao.jpg)  
+![_Adriana Varejão Gallery](../../images/varejao.jpg)  
 _Adriana Varejão Gallery*_
 
-![Cosmococa Galllery](../images/cosmococa.jpg)  
+![Cosmococa Galllery](../../images/cosmococa.jpg)  
 _Cosmococa Galllery*_
 
-![Valeska Soares Gallery](../images/valeska-soares-folly.jpg)  
+![Valeska Soares Gallery](../../images/valeska-soares-folly.jpg)  
 _Valeska Soares Gallery*_
 
 Those are three out more than twenty art galleries present in the garden. The space between each one of them is filled with extraordinary Brazilian nature. The nature that we hear so much throughout our lives, but at thirty-two years, I still had no idea of what it really meant. Inhotim is a big garden, not in size only. It is also a giant in meaning and beauty.
 
-![Alpha Theater Terrace](../images/inhotim-garden.jpg)  
+![Alpha Theater Terrace](../../images/inhotim-garden.jpg)  
 _Alpha Theater Terrace*_
 
-![True Rouge Gallery](../images/true-rouge.jpg)  
+![True Rouge Gallery](../../images/true-rouge.jpg)  
 _True Rouge Gallery*_
 
 ## No explanation
@@ -30,7 +30,7 @@ Years later, I am hanging out with colleagues in a city bar. They're all program
 
 In the conversation, my compliments to Inhotim are inevitable. The curiosity of my colleagues comes out, and one of them turns to the mobile phone to do a quick search. He asks me what's the point of suspending a red cube as he shows me the work Red by Tsuruko Yamazaki's on his cell phone. It was uncomfortable for him to see that something didn't necessarily have an answer. That something was not explainable. That something had no logic.
 
-![Red - Tsuruko Yamazaki](../images/red-tsuruko-yamazaki.jpg)  
+![Red - Tsuruko Yamazaki](../../images/red-tsuruko-yamazaki.jpg)  
 _Red by Tsuruko Yamazaki*_
 
 ## Lots of opportunities

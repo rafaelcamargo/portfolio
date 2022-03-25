@@ -70,7 +70,7 @@ Explore this example of a newsletter form made with Taslonic.
     </t-col>
   </t-row>
 </div>
-<script src="../scripts/smart-form.js"></script>
+<script src="../../scripts/smart-form.js"></script>
 
 Here is all I needed to code while creating this form:
 
