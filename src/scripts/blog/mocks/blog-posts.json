@@ -348,5 +348,11 @@
     "description": "At the start of the past year, I was creating a cover letter to compete for a position at Basecamp. Along with my text, I wanted to use a metaphor. After all, Basecamp is the 'cradle' of Rails. But how to be sure that 'cradle of' would express in English the same meaning this metaphor has in Portuguese, my mother language?",
     "keywords": "augmented dictionary, english, typenik",
     "excerpt": "In my mother language, Carta de Apresentação is the term that translates to Cover Letter in English. At the start of the past year, I wrote a cover letter to compete for a position at Basecamp. Along with my text, I wanted to use a metaphor. After all, Basecamp is the \"cradle\" of Rails. But how to be sure that \"cradle of\" would express..."
+  },
+  {
+    "url": "unlisted.html",
+    "title": "Unlisted",
+    "lang": "en-US",
+    "unlisted": true
   }
 ]

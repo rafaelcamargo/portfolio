@@ -25,7 +25,7 @@ describe('Blog Featured List', () => {
     expect(wrapper.find('ul').prop('className')).toEqual('r-blog-featured-list');
   });
 
-  it('should list the latest three english blog posts', () => {
+  it('should list the latest six english blog posts', () => {
     const wrapper = mount();
     const items = wrapper.find('li');
     const expectedBlogPosts = [
