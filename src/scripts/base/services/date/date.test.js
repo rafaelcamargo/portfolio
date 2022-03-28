@@ -16,9 +16,17 @@ describe('Date Service', () => {
     expect(dateService.format('2020-05-07', 'en')).toEqual('5/7/2020');
   });
 
-  it('should format an US date descriptively', () => {
-    expect(dateService.formatDescriptively('1984-03-14')).toEqual('March 14, 1984');
+  it('should format a date descriptively as American English by default', () => {
+    expect(dateService.formatDescriptively('1984-03-07')).toEqual('March 7, 1984');
   });
+
+  it('should optionally format date descriptively as Brazilian Portuguse', () => {
+    expect(dateService.formatDescriptively('1984-03-07', 'pt-BR')).toEqual('7 de Março de 1984');
+  });
+
+  it('should return an empty string when formatting date descriptively if no date has been given', () => {
+    expect(dateService.formatDescriptively()).toEqual('');
+  })
 
   it('should format month descriptively', () => {
     expect(dateService.formatMonthDescriptively('1984-03')).toEqual('1984 March');

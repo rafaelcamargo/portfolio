@@ -1,17 +1,6 @@
-const MONTH_NAMES = [
-  'January',
-  'February',
-  'March',
-  'April',
-  'May',
-  'June',
-  'July',
-  'August',
-  'September',
-  'October',
-  'November',
-  'December'
-];
+const MONTH_NAMES = require('../../constants/month-names');
+
+const DEFAULT_LANG = 'en-US';
 
 const _public = {};
 
@@ -24,20 +13,22 @@ _public.format = (isoString, lang) => {
   return lang == 'en' ? `${parseInt(month)}/${parseInt(day)}/${year}` : `${day}/${month}/${year}`;
 };
 
-_public.formatDescriptively = isoString => {
+_public.formatDescriptively = (isoString, lang = DEFAULT_LANG) => {
+  if(!isoString) return '';
   const [year, month, day] = getDatePartsFromIsoString(isoString);
-  const monthNameIndex = parseInt(month) - 1;
-  return `${MONTH_NAMES[monthNameIndex]} ${day}, ${year}`;
+  const monthName = MONTH_NAMES[lang][parseInt(month)-1];
+  if(lang == 'pt-BR') return `${parseInt(day)} de ${monthName} de ${year}`;
+  return `${monthName} ${parseInt(day)}, ${year}`;
 };
 
-_public.formatMonthDescriptively = monthString => {
+_public.formatMonthDescriptively = (monthString, lang = DEFAULT_LANG) => {
   const [year, month] = getDatePartsFromIsoString(monthString);
   const monthNameIndex = parseInt(month) - 1;
-  return `${year} ${MONTH_NAMES[monthNameIndex]}`;
+  return `${year} ${MONTH_NAMES[lang][monthNameIndex]}`;
 };
 
 function getDatePartsFromIsoString(isoString){
   return isoString.split('-');
 }
 
-export default _public;
+module.exports = _public;

@@ -1,4 +1,5 @@
 const ptBR = require('./src/scripts/base/constants/triven-pt.json');
+const dateService = require('./src/scripts/base/services/date/date');
 const trivenService = require('./src/scripts/base/services/triven/triven');
 
 const config = {
@@ -18,6 +19,9 @@ const config = {
   },
   translations: {
     'pt-BR': ptBR
+  },
+  formatters: {
+    date: (isoDateString, lang) => dateService.formatDescriptively(isoDateString, lang)
   }
 }
 
