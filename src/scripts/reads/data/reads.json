@@ -65,35 +65,29 @@
     "url": "https://www.amazon.com/Blue-Book-Grammar-Punctuation-Easy/dp/1119653029",
     "reading_on": "2022-06"
   },
-  "pequeno_manual_antirracista": {
-    "title": "Pequeno manual antirracista",
-    "author": "Djamila Ribeiro",
-    "url": "https://www.amazon.com.br/Pequeno-manual-antirracista-Djamila-Ribeiro/dp/8535932879",
-    "reading_on": "2022-06"
-  },
-  "the_longest_day_of_the_future": {
-    "title": "The Longest Day Of The Future",
-    "author": "Lucas Varela",
-    "url": "https://www.amazon.com/gp/product/1606999516",
-    "reading_on": "2022-05"
-  },
   "design_is_storytelling": {
     "title": "Design Is Storytelling",
     "author": "Ellen Lupton",
     "url": "https://www.amazon.com/gp/product/194230319X",
     "reading_on": "2022-05"
   },
-  "tambeta": {
-    "title": "Tambetá",
-    "author": "Idjahure Kadiwéu",
-    "url": "https://www.amazon.com.br/Tembet%25C3%25A1-conversas-com-pensadores-ind%25C3%25ADgenas/dp/8579202280",
-    "reading_on": "2022-05"
-  },
   "the_design_of_everyday_things": {
     "title": "The Design of Everyday Things",
     "author": "Don Norman",
     "url": "https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654",
+    "reading_on": "2022-05"
+  },
+  "pequeno_manual_antirracista": {
+    "title": "Pequeno manual antirracista",
+    "author": "Djamila Ribeiro",
+    "url": "https://www.amazon.com.br/Pequeno-manual-antirracista-Djamila-Ribeiro/dp/8535932879",
     "reading_on": "2022-04"
+  },
+  "tembeta": {
+    "title": "Tembetá",
+    "author": "Idjahure Kadiwéu",
+    "url": "https://www.amazon.com.br/Tembet%25C3%25A1-conversas-com-pensadores-ind%25C3%25ADgenas/dp/8579202280",
+    "read_on": "2022-04-21"
   },
   "contos_indigenas_brasileiros": {
     "title": "Contos indígenas brasileiros",
