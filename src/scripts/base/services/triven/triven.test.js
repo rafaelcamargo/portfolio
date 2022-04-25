@@ -77,7 +77,7 @@ describe('Triven Service', () => {
     /><button type="submit">Subscribe</button>
     <input type="hidden" value="1" name="embed"/>
   </form>
-  <p>You can stay in the loop by <a href='/blog/l/en-US/feed.atom' target='_blank'>RSS</a> too.</p>
+  <p>You can also stay in the loop via <a href='/blog/l/en-US/feed.atom' target='_blank'>RSS</a>.</p>
 </div>
 `.trim())
   });
