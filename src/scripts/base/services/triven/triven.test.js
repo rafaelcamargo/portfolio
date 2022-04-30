@@ -10,7 +10,7 @@ describe('Triven Service', () => {
 
   it('should build plausible script tags passing options if environment is development', () => {
     expect(trivenService.buildPlausibleScriptTags()).toEqual(`
-<script src="https://unpkg.com/@glorious/analytics@0.1.2/dist/ganalytics.min.js"></script>
+<script src="https://unpkg.com/@glorious/analytics@0.2.1/dist/ganalytics.min.js"></script>
 <script type="text/javascript">
   (function(){
     if(window.GAnalytics) {
@@ -26,7 +26,7 @@ describe('Triven Service', () => {
   it('should build plausible script tags not passing options if environment is production', () => {
     environmentService.get = jest.fn(() => PROD_ENV);
     expect(trivenService.buildPlausibleScriptTags()).toEqual(`
-<script src="https://unpkg.com/@glorious/analytics@0.1.2/dist/ganalytics.min.js"></script>
+<script src="https://unpkg.com/@glorious/analytics@0.2.1/dist/ganalytics.min.js"></script>
 <script type="text/javascript">
   (function(){
     if(window.GAnalytics) {
