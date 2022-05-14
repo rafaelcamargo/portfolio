@@ -53,23 +53,23 @@
     "url": "https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599",
     "reading_on": "2022-06"
   },
-  "laws_of_ux": {
-    "title": "Laws of UX",
-    "author": "Jon Yablonski",
-    "url": "https://www.amazon.com/gp/product/149205531X",
-    "reading_on": "2022-06"
-  },
   "the_blue_book_of_grammar_and_punctuation": {
     "title": "The Blue Book of Grammar and Punctuation",
     "author": "Lester Kaufman",
     "url": "https://www.amazon.com/Blue-Book-Grammar-Punctuation-Easy/dp/1119653029",
     "reading_on": "2022-06"
   },
+  "laws_of_ux": {
+    "title": "Laws of UX",
+    "author": "Jon Yablonski",
+    "url": "https://www.amazon.com/gp/product/149205531X",
+    "reading_on": "2022-05"
+  },
   "design_is_storytelling": {
     "title": "Design Is Storytelling",
     "author": "Ellen Lupton",
     "url": "https://www.amazon.com/gp/product/194230319X",
-    "reading_on": "2022-05"
+    "read_on": "2022-05-14"
   },
   "the_design_of_everyday_things": {
     "title": "The Design of Everyday Things",
