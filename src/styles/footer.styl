@@ -3,36 +3,34 @@
 
 .r-footer
   position relative
-  padding 60px 0
-  background-color $color-grey-lighter
-  text-align center
-  .r-icon-circles
-    position absolute
-    top 0
-    left 50%
-    width 130px
-    height 3px
-    background-color $color-grey
-    transform('translateX(-50%)')
+  color $color-grey-dark
+  overflow hidden
   p
     margin-top 20px
     font-size $font-size-xxxs
-    a
-      font-family $font-family-secondary
-      font-style italic
+  a
+    color $color-grey-dark
 
 .r-footer-links
   display flex
-  justify-content center
   li + li
     margin-left 25px
   h3
     font-size $font-size-xxs
     font-weight bold
     text-transform uppercase
-    a
-      color $color-grey-dark
 
 .r-footer-content
+  position relative
   margin 0 auto
-  max-width 800px
+  padding 60px 0
+  width 90%
+  max-width 600px
+  &:before
+    position absolute
+    content ' '
+    top 0
+    left 0
+    width 100vw
+    height 1px
+    border-top 1px solid $color-grey

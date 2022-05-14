@@ -16,17 +16,6 @@ describe('Footer', () => {
     expect(wrapper.prop('className')).toEqual('r-footer');
   });
 
-  it('should not show divider by default', () => {
-    const wrapper = mount();
-    expect(wrapper.find(Icon).length).toEqual(0);
-  });
-
-  it('should optionally show divider', () => {
-    const wrapper = mount({ showDivider: true });
-    expect(wrapper.find(Icon).length).toEqual(1);
-    expect(wrapper.find(Icon).prop('name')).toEqual('circles');
-  });
-
   it('should contain a link to skills', () => {
     const wrapper = mount();
     expect(wrapper.find(Link).at(0).props()).toEqual({

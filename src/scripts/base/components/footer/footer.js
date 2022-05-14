@@ -3,10 +3,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Icon } from '@scripts/base/components/icon/icon';
 
-export const Footer = ({ showDivider }) => {
+export const Footer = () => {
   return (
     <footer className="r-footer">
-      {showDivider && <Icon name="circles" />}
       <div className="r-footer-content">
         <ul className="r-footer-links">
           {getLinks().map(({ to, text }, index) => (
@@ -14,8 +13,8 @@ export const Footer = ({ showDivider }) => {
           ))}
         </ul>
         <p>
-          This is an {buildExternalLink('https://github.com/rafaelcamargo/portfolio', 'open-source website')} based
-          on {buildExternalLink('https://taslonic.com/', 'Taslonic components')}.
+          This is an {buildExternalLink('https://github.com/rafaelcamargo/portfolio', 'open-source website')} powered
+          by {buildExternalLink('https://taslonic.com/', 'Taslonic components')}.
         </p>
       </div>
     </footer>

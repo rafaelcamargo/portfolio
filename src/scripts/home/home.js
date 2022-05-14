@@ -10,7 +10,7 @@ export const Home = () => {
       <Section>
         <HomeHero />
       </Section>
-      <Section theme="primary">
+      <Section>
         <BlogFeaturedList />
       </Section>
     </Viewport>
