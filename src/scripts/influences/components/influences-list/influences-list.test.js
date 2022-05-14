@@ -15,6 +15,6 @@ describe('Influences List', () => {
   it('should order influences accordingly', () => {
     const wrapper = mount();
     expect(wrapper.find('[data-title]').at(0).text()).toEqual('The Manual: A philosopher’s guide to life')
-    expect(wrapper.find('[data-title]').at(13).text()).toEqual('Bauhaus 1919-1933')
+    expect(wrapper.find('[data-title]').at(10).text()).toEqual('Bauhaus 1919-1933')
   })
 });
