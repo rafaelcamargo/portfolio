@@ -13,8 +13,8 @@ export const Footer = () => {
           ))}
         </ul>
         <p>
-          This is an {buildExternalLink('https://github.com/rafaelcamargo/portfolio', 'open-source website')} powered
-          by {buildExternalLink('https://taslonic.com/', 'Taslonic components')}.
+          This is an {buildExternalLink('https://github.com/rafaelcamargo/portfolio', 'open-source website')} built
+          with {buildExternalLink('https://taslonic.com/', 'Taslonic components')}.
         </p>
       </div>
     </footer>
