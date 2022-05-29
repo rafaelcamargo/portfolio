@@ -7,11 +7,15 @@ export const HomeHero = () => {
   return (
     <div className="r-home-hero">
       <ProjectFeaturedList />
-      <h1>
-        All those side projects were fully covered with automated tests.<br />
-        My name is Rafael Camargo. I am a programmer, designer, and believe it's quite possible to build very quickly software that works very well.
-      </h1>
-      <CtaLink to="/projects" text="See all projects" />
+      <div className="r-home-hero-heading-wrapper">
+        <h1>
+          All those side projects were fully covered with automated tests.<br />
+          My name is Rafael Camargo. I am a programmer, designer, and believe it's quite possible to build very quickly software that works very well.
+        </h1>
+        <div className="r-home-hero-cta-link-wrapper">
+          <CtaLink to="/projects" text="See all projects" />
+        </div>
+      </div>
     </div>
   )
 }
