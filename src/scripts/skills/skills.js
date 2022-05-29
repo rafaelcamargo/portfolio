@@ -29,14 +29,14 @@ export const Skills = () => {
               One of the greatest Brazilian songwriters is not just a songwriter.
               She also composes, sings and plays. Marisa Monte masters the creative
               process from idea to production. Her work is astonishing because
-              she knows profoundly every detail of the whole.
+              she knows profoundly every detail present in the whole.
             </p>
             <p>
               Splitting user interface development between design and programming
               roles is a mistake. Isolated in their specializations, both are
               incapable of understanding the whole. A messy interface makes
-              excellent code useless. A messy code makes impressive interfaces
-              buggy.
+              excellent code useless. A messy code makes delightful interfaces
+              disappointing.
             </p>
             <p>
               Before becoming a programmer, I worked as a graphic designer for
@@ -45,9 +45,11 @@ export const Skills = () => {
               not to be a programmer only.
             </p>
             <p>
-              Clean code is as important as clean interfaces. SOLID principles
-              are as valuable as Gestalt principles. I code considering design.
-              I design considering code. I know profoundly every detail of the whole.
+              Clean code isn't less important than clean interfaces. SOLID
+              principles are as valuable as Gestalt principles. I code without
+              forgetting the importance of good design and design without
+              forgetting the importance of good code. I know profoundly every
+              detail present in the whole.
             </p>
           </Col>
         </Row>
