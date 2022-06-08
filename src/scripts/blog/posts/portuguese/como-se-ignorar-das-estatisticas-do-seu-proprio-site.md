@@ -22,7 +22,7 @@ analytics.init('rafaelcamargo.com');
 analytics.trackPageview();
 ```
 
-Opcionalmente, você pode adaptar a biblioteca para usar o Glorious Analytics:
+Opcionalmente, você pode adaptar a biblioteca para usar o Google Analytics:
 
 ``` javascript
 import GAnalytics from '@glorious/analytics';
