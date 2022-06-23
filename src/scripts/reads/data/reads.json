@@ -1,14 +1,56 @@
 {
-  "sociedade_do_cansaco": {
+  "bury_my_hart_at_wounded_knee": {
+    "title": "Bury My Heart at Wounded Knee",
+    "author": "Dee Brown",
+    "url": "https://www.amazon.com.br/Bury-My-Heart-Wounded-Knee/dp/0805086846",
+    "reading_on": "2022-10"
+  },
+  "writing_is_design": {
+    "title": "Writing Is Designing: Words and the User Experience",
+    "author": "Andy Welfle & Michael Metts",
+    "url": "https://www.amazon.com/gp/product/1933820667",
+    "reading_on": "2022-09"
+  },
+  "ligue_os_pontos": {
+    "title": "Ligue os Pontos",
+    "author": "Gregório Duvivier",
+    "url": "https://www.amazon.com.br/Ligue-os-pontos-Gregorio-Duvivier/dp/8535923640",
+    "reading_on": "2022-09"
+  },
+  "dumbing_us_down": {
+    "title": "Dumbing Us Down",
+    "author": "John Taylor Gatto",
+    "url": "https://www.amazon.com/Dumbing-Down-Curriculum-Compulsory-Anniversary/dp/0865714487",
+    "reading_on": "2022-09"
+  },
+  "perca_tempos": {
+    "title": "Percatempos",
+    "author": "Gregório Duvivier",
+    "url": "https://www.amazon.com.br/Percatempos-Gregorio-Duvivier/dp/8535926585",
+    "reading_on": "2022-08"
+  },
+  "the_burnout_society": {
     "title": "The Burnout Society",
     "author": "Byung-Chul Han",
     "url": "https://www.amazon.com.br/Burnout-Society-Byung-Chul-Han/dp/0804795096",
+    "reading_on": "2022-08"
+  },
+  "the_elements_of_style": {
+    "title": "The Elements of Style",
+    "author": "Charles Osgood",
+    "url": "https://www.amazon.com.br/Elements-Style-Charles-Osgood/dp/020530902X",
     "reading_on": "2022-08"
   },
   "viva_a_lingua_brasileira": {
     "title": "Viva a língua brasileira!",
     "author": "Sérgio Rodrigues",
     "url": "https://www.amazon.com.br/Viva-l%C3%ADngua-brasileira-S%C3%A9rgio-Rodrigues/dp/853592762X",
+    "reading_on": "2022-08"
+  },
+  "sonetos_de_amor_e_sacanagem": {
+    "title": "Sonetos de amor e sacanagem",
+    "author": "Gregório Duvivier",
+    "url": "https://www.amazon.com.br/Sonetos-amor-sacanagem-Gregorio-Duvivier/dp/655921317X",
     "reading_on": "2022-07"
   },
   "povos_originarios_guerreiros_do_tempo": {
@@ -23,10 +65,10 @@
     "url": "https://www.amazon.com.br/Lugares-origem-Ailton-Krenak/dp/6587113699",
     "reading_on": "2022-07"
   },
-  "the_elements_of_style": {
-    "title": "The Elements of Style",
-    "author": "Charles Osgood",
-    "url": "https://www.amazon.com.br/Elements-Style-Charles-Osgood/dp/020530902X",
+  "the_down_of_everything": {
+    "title": "The Dawn of Everything: A New History of Humanity",
+    "author": "David Greber & David Wengrow",
+    "url": "https://www.amazon.com.br/Dawn-Everything-New-History-Humanity/dp/1250858801",
     "reading_on": "2022-07"
   },
   "refactoring": {
