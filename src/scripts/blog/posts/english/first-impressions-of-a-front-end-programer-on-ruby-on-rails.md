@@ -47,4 +47,4 @@ Below, I share the links that helped me to overcome the barriers. If you are a f
 - [Continuous Integration: Circle CI](https://circleci.com/docs/2.0/language-ruby)
 - [Continuous Delivery: Heroku](https://circleci.com/developer/orbs/orb/circleci/heroku)
 
-Before finishing this post, I need to thank some programmers - workmates and friends - who gave me valuable tips during my journey: *Gabriel Escodino*, *Rodrigo Campos*, *Almir Mendes*, *Lucas Cunha* and *Lucas Merencia*. Thank you so much!
+Before finishing this post, I need to thank some programmers - workmates and friends - who gave me valuable tips during my journey: [Gabriel Escodino](https://github.com/gabrielescodino), [Rodrigo Campos](https://github.com/kykocamp), [Almir Mendes](https://github.com/m3nd3s), [Lucas Cunha](https://github.com/lucasfcunha) and [Lucas Merencia](https://github.com/merencia). Thank you so much!

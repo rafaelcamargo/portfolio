@@ -53,4 +53,4 @@ Compartilhando abaixo os links que foram essenciais para que eu superasse os obs
 - [Continuous Integration: Circle CI](https://circleci.com/docs/2.0/language-ruby)
 - [Continuous Delivery: Heroku](https://circleci.com/developer/orbs/orb/circleci/heroku)
 
-Antes de encerrar, eu não poderia deixar de agradecer a alguns programadores - alguns com quem trabalho, outro com quem já trabalhei - que me forneceram dicas valiosas ao longo do caminho: *Gabriel Escodino*, *Rodrigo Campos*, *Almir Mendes*, *Lucas Cunha* e *Lucas Merencia*. Muito obrigado, meus caros!
+Antes de encerrar, eu não poderia deixar de agradecer a alguns programadores - alguns com quem trabalho, outro com quem já trabalhei - que me forneceram dicas valiosas ao longo do caminho: [Gabriel Escodino](https://github.com/gabrielescodino), [Rodrigo Campos](https://github.com/kykocamp), [Almir Mendes](https://github.com/m3nd3s), [Lucas Cunha](https://github.com/lucasfcunha) e [Lucas Merencia](https://github.com/merencia). Muito obrigado, meus caros!
