@@ -1,9 +1,8 @@
 title: Primeiras impressões de um programador front-end sobre Ruby on Rails
 description: Esse é o desfecho de uma história que começou no ano passado quando eu, um programador front-end, decidi estudar Ruby e SQL. Nessa última etapa, o desafio era construir uma API usando Rails e PostgreSQL.
 keywords: Ruby, Rails, PostgreSQL, front-end, Rest, API, Pry, Rubocop, Heroku
-date: 2022-06-29
+date: 2022-06-30
 lang: pt-BR
-unlisted: true
 
 ---
 
@@ -12,7 +11,7 @@ O que acontece ao programador front-end que decide criar sua primeira API com Ra
 Acabo de concluir meus estudos relacionados a backend e finalmente coloquei no ar uma API construída com o framework mais popular do universo Ruby, o Rails. Se eu tivesse que resumir a experiência em uma frase, eu diria: Aprender Rails é que nem aprender a tocar violão; durante um interminável primeiro mês você pensa diariamente em desistir,
 mas basta conseguir trocar três acordes para começar a achar que possui um dom divino.
 
-Minha intenção não será descrever o passo-a-passo sobre como chegar ao resultado que obtive. Dispensar os detalhes técnicos e focar nos *destaques & entraves* que pipocaram pelo caminho me parece uma alternativa mais divertida, e evita que o texto se torne uma colagem entediante de tutoriais disponíveis em diversos sites.
+Minha intenção não será descrever o passo-a-passo sobre como chegar ao resultado que obtive. Dispensar os detalhes técnicos e focar nos *entraves & destaques* que pipocaram pelo caminho me parece uma alternativa mais divertida, e evita que o texto se torne uma colagem entediante de tutoriais já disponíveis em outros sites.
 
 Em projetos que desenvolvo usando JavaScript, seja no Browser ou no servidor (Node), tenho o hábito de criar manualmente, um a um, todos os arquivos necessários - e somente o que é necessário - ao projeto, ao que chamo de [configuração limpa](https://rafaelcamargo.com/blog/configuracao-limpa/). Ao executar o comando do Rails que estrutura um novo projeto, me deparei com uma grande quantidade de diretórios e arquivos gerados.
 Não podendo conter minha curiosidade, acessei diretório por diretório, arquivo por arquivo, para bisbilhotar do que se tratavam.
@@ -42,9 +41,7 @@ O último destaque ficou por conta do deploy em produção. Eu já havia usado o
 ![Visão geral da API](../../images/kobbogo-summary.png)  
 _Visão geral retornada pelo root path da API_
 
-Antes de encerrar, eu não poderia deixar de agradecer a alguns programadores que trabalham comigo diariamente e que me forneceram auxílios pontuais e valiosos ao longo do caminho: *Gabriel Escodino* e *Rodrigo Campos*. Muito obrigado, meus caros!
-
-Finalizo compartilhando os links que foram essenciais para que eu superasse alguns obstáculos. Se você é também um programador front-end e se inspirou com essa história, esteja certo que esses links servirão de base para que você consiga criar a sua primeira API também:
+Compartilhando abaixo os links que foram essenciais para que eu superasse os obstáculos que surgiram. Se você é um programador front-end e se inspirou com essa história, esteja certo que esses links servirão de base para que você consiga criar também a sua primeira API:
 
 - [Rest API with Ruby on Rails](https://www.udemy.com/course/ruby-on-rails-api-the-complete-guide/)
 - [Testing for Beginners](https://testing-for-beginners.rubymonstas.org/)
@@ -55,3 +52,5 @@ Finalizo compartilhando os links que foram essenciais para que eu superasse algu
 - [Static Code Analyzer](https://rubocop.org/)
 - [Continuous Integration: Circle CI](https://circleci.com/docs/2.0/language-ruby)
 - [Continuous Delivery: Heroku](https://circleci.com/developer/orbs/orb/circleci/heroku)
+
+Antes de encerrar, eu não poderia deixar de agradecer a alguns programadores - alguns com quem trabalho, outro com quem já trabalhei - que me forneceram dicas valiosas ao longo do caminho: *Gabriel Escodino*, *Rodrigo Campos*, *Almir Mendes*, *Lucas Cunha* e *Lucas Merencia*. Muito obrigado, meus caros!
