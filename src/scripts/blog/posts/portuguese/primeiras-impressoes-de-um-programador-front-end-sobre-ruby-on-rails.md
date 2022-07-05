@@ -41,7 +41,7 @@ O último destaque ficou por conta do deploy em produção. Eu já havia usado o
 ![Visão geral da API](../../images/kobbogo-summary.png)  
 _Visão geral retornada pelo root path da API_
 
-Compartilhando abaixo os links que foram essenciais para que eu superasse os obstáculos que surgiram. Se você é um programador front-end e se inspirou com essa história, esteja certo que esses links servirão de base para que você consiga criar também a sua primeira API:
+Compartilho abaixo os links que foram essenciais para que eu superasse os obstáculos que surgiram. Se você é um programador front-end e se inspirou com essa história, esteja certo que esses links servirão de base para que você consiga criar também a sua primeira API:
 
 - [Rest API with Ruby on Rails](https://www.udemy.com/course/ruby-on-rails-api-the-complete-guide/)
 - [Testing for Beginners](https://testing-for-beginners.rubymonstas.org/)
