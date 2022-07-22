@@ -40,7 +40,7 @@ describe('Triven Service', () => {
   });
 
   it('should build meta tags markup', () => {
-    expect(trivenService.buildMetaTags()).toEqual(`
+    expect(trivenService.buildBaseMetaTags()).toEqual(`
 <meta http-equiv="cache-control" content="no-cache">
 <meta http-equiv="cache-control" content="max-age=0">
 <meta http-equiv="expires" content="0">
@@ -112,5 +112,20 @@ describe('Triven Service', () => {
   Powered by <a href="https://github.com/glorious-codes/glorious-triven" target="_blank">Triven</a>
 </footer>
 `.trim())
-  })
+  });
+
+  it('should build description meta tag in english by default', () => {
+    expect(trivenService.buildDescriptionMetaTag()).toEqual(`
+<meta name="description" content="Good writing is an art that I aim to learn. Once in a while, I find some time to share on my blog a bit of the experience I get along the way.">
+<meta property="og:description" content="Good writing is an art that I aim to learn. Once in a while, I find some time to share on my blog a bit of the experience I get along the way.">
+`.trim());
+  });
+
+
+  it('should optionally build description meta tag in portuguese', () => {
+    expect(trivenService.buildDescriptionMetaTag('pt-BR')).toEqual(`
+<meta name="description" content="Escrever bem é uma arte que almejo aprender. De vez em quando, descolo um tempo para compartilhar no blog um pouco da experiência que adquiro pelo caminho.">
+<meta property="og:description" content="Escrever bem é uma arte que almejo aprender. De vez em quando, descolo um tempo para compartilhar no blog um pouco da experiência que adquiro pelo caminho.">
+`.trim());
+  });
 });

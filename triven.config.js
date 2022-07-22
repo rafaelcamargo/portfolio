@@ -12,7 +12,8 @@ const config = {
     homepage: './src/scripts/blog/templates/homepage.html',
     vars: {
       credits: trivenService.buildTrivenCredits(),
-      metaTags: trivenService.buildMetaTags(),
+      baseMetaTags: trivenService.buildBaseMetaTags(),
+      descriptionMetaTag: lang => trivenService.buildDescriptionMetaTag(lang),
       plausible: trivenService.buildPlausibleScriptTags(),
       newsletterForm: lang => trivenService.buildNewsletterForm(lang)
     }

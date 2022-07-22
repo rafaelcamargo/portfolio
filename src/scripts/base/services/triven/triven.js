@@ -7,8 +7,16 @@ const environmentService = require('../environment/environment');
 
 const _public = {};
 
-_public.buildMetaTags = () => {
+_public.buildBaseMetaTags = () => {
   return getHTMLTemplateByFilename('meta-tags');
+};
+
+_public.buildDescriptionMetaTag = lang => {
+  const { blogDescription } = getTranslations(lang);
+  return [
+    `<meta name="description" content="${blogDescription}">`,
+    `<meta property="og:description" content="${blogDescription}">`
+  ].join('\n');
 };
 
 _public.buildPlausibleScriptTags = () => {
@@ -24,7 +32,7 @@ _public.buildPlausibleScriptTags = () => {
 
 _public.buildNewsletterForm = lang => {
   const ENV = getEnvironment();
-  const translations = getTranslation(lang);
+  const translations = getTranslations(lang);
   return `
 <div class="rc-newsletter-form-container">
   <p>${translations.newsletterFormTitle}:</p>
@@ -61,7 +69,7 @@ function getHTMLTemplateByFilename(filename){
   return fs.readFileSync(filepath, 'utf-8').trim();
 }
 
-function getTranslation(lang){
+function getTranslations(lang){
   return lang == 'pt-BR' ? ptBR : enUS;
 }
 
