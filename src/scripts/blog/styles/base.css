@@ -60,8 +60,9 @@ ol:not(.tn-settings-list) li + li {
 .rc-triven-credits {
   padding: 20px 0;
   background-color: #F6F8FA;
-  font-size: 0.666666666666667rem;
+  font-size: 0.875rem;
   text-align: center;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
