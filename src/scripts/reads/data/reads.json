@@ -29,23 +29,11 @@
     "url": "https://www.amazon.com/gp/product/1933820667",
     "reading_on": "2022-09"
   },
-  "ligue_os_pontos": {
-    "title": "Ligue os Pontos",
-    "author": "Gregório Duvivier",
-    "url": "https://www.amazon.com.br/Ligue-os-pontos-Gregorio-Duvivier/dp/8535923640",
-    "reading_on": "2022-09"
-  },
   "dumbing_us_down": {
     "title": "Dumbing Us Down",
     "author": "John Taylor Gatto",
     "url": "https://www.amazon.com/Dumbing-Down-Curriculum-Compulsory-Anniversary/dp/0865714487",
     "reading_on": "2022-09"
-  },
-  "the_burnout_society": {
-    "title": "The Burnout Society",
-    "author": "Byung-Chul Han",
-    "url": "https://www.amazon.com.br/Burnout-Society-Byung-Chul-Han/dp/0804795096",
-    "reading_on": "2022-08"
   },
   "the_elements_of_style": {
     "title": "The Elements of Style",
@@ -64,6 +52,18 @@
     "author": "Gregório Duvivier",
     "url": "https://www.amazon.com.br/Sonetos-amor-sacanagem-Gregorio-Duvivier/dp/655921317X",
     "reading_on": "2022-07"
+  },
+  "ligue_os_pontos": {
+    "title": "Ligue os Pontos",
+    "author": "Gregório Duvivier",
+    "url": "https://www.amazon.com.br/Ligue-os-pontos-Gregorio-Duvivier/dp/8535923640",
+    "read_on": "2022-07-31"
+  },
+  "the_burnout_society": {
+    "title": "The Burnout Society",
+    "author": "Byung-Chul Han",
+    "url": "https://www.amazon.com.br/Burnout-Society-Byung-Chul-Han/dp/0804795096",
+    "read_on": "2022-07-29"
   },
   "povos_originarios_guerreiros_do_tempo": {
     "title": "Povos Originários: Guerreiros do Tempo",
