@@ -39,7 +39,19 @@
     "title": "The Elements of Style",
     "author": "Charles Osgood",
     "url": "https://www.amazon.com.br/Elements-Style-Charles-Osgood/dp/020530902X",
-    "reading_on": "2022-08"
+    "reading_on": "2022-09"
+  },
+  "the_down_of_everything": {
+    "title": "The Dawn of Everything: A New History of Humanity",
+    "author": "David Greber & David Wengrow",
+    "url": "https://www.amazon.com.br/Dawn-Everything-New-History-Humanity/dp/1250858801",
+    "reading_on": "2022-09"
+  },
+  "sonetos_de_amor_e_sacanagem": {
+    "title": "Sonetos de amor e sacanagem",
+    "author": "Gregório Duvivier",
+    "url": "https://www.amazon.com.br/Sonetos-amor-sacanagem-Gregorio-Duvivier/dp/655921317X",
+    "reading_on": "2022-07"
   },
   "viva_a_lingua_brasileira": {
     "title": "Viva a língua brasileira!",
@@ -47,11 +59,11 @@
     "url": "https://www.amazon.com.br/Viva-l%C3%ADngua-brasileira-S%C3%A9rgio-Rodrigues/dp/853592762X",
     "reading_on": "2022-08"
   },
-  "sonetos_de_amor_e_sacanagem": {
-    "title": "Sonetos de amor e sacanagem",
-    "author": "Gregório Duvivier",
-    "url": "https://www.amazon.com.br/Sonetos-amor-sacanagem-Gregorio-Duvivier/dp/655921317X",
-    "reading_on": "2022-07"
+  "refactoring": {
+    "title": "Refactoring",
+    "author": "Martin Fowler",
+    "url": "https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599",
+    "read_on": "2022-08-16"
   },
   "ligue_os_pontos": {
     "title": "Ligue os Pontos",
@@ -70,18 +82,6 @@
     "author": "Ricardo Stuckert",
     "url": "https://www.livrariadavila.com.br/povos-originarios--guerreiros-do-tempo-808325/p",
     "read_on": "2022-07-17"
-  },
-  "the_down_of_everything": {
-    "title": "The Dawn of Everything: A New History of Humanity",
-    "author": "David Greber & David Wengrow",
-    "url": "https://www.amazon.com.br/Dawn-Everything-New-History-Humanity/dp/1250858801",
-    "reading_on": "2022-07"
-  },
-  "refactoring": {
-    "title": "Refactoring",
-    "author": "Martin Fowler",
-    "url": "https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599",
-    "reading_on": "2022-06"
   },
   "perca_tempos": {
     "title": "Percatempos",
