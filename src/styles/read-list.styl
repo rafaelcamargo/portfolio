@@ -1,16 +1,7 @@
 @require '_variables'
 
 .r-read-list
-  position relative
   margin 0
-  padding-bottom 100px
-  &:after
-    position absolute
-    content ''
-    bottom 0
-    width 1px
-    height 100px
-    background linear-gradient(180deg, $color-grey-light 0%, rgba(255,255,255,0) 100%)
 
 .r-read-list-group
   position relative
@@ -18,7 +9,7 @@
   &:before
     position absolute
     content ''
-    bottom -8px
+    top 3px
     left -2px
     width 5px
     height 5px
@@ -33,12 +24,12 @@
     bottom -3px
     border-left 1px solid $color-grey-light
   ul
-    padding 50px 0 30px 40px
+    padding 35px 0 35px 40px
   li + li
     margin-top 10px
   h2
     position relative
-    bottom -12px
+    top -4px
     color alpha($color-grey-dark, .6)
     font-size $font-size-xs
     font-weight bold
@@ -50,6 +41,6 @@
     font-size $font-size-xs
     font-style italic
 
-.r-read-list-group:first-child
+.r-read-list-group:last-child
   &:after
     border-left 1px dashed $color-grey-light
