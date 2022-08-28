@@ -1,10 +1,4 @@
 {
-  "bury_my_hart_at_wounded_knee": {
-    "title": "Bury My Heart at Wounded Knee",
-    "author": "Dee Brown",
-    "url": "https://www.amazon.com.br/Bury-My-Heart-Wounded-Knee/dp/0805086846",
-    "reading_on": "2022-10"
-  },
   "estar_vivo_aleija": {
     "title": "Estar Vivo Aleija",
     "author": "Ricardo Araújo Pereira",
@@ -46,6 +40,30 @@
     "author": "David Greber & David Wengrow",
     "url": "https://www.amazon.com.br/Dawn-Everything-New-History-Humanity/dp/1250858801",
     "reading_on": "2022-09"
+  },
+  "ensaio_sobre_a_lucidez": {
+    "title": "Ensaio sobre a lucidez",
+    "author": "José Saramago",
+    "url": "https://www.amazon.com.br/gp/product/8535930353",
+    "reading_on": "2022-09"
+  },
+  "a_partir_de_amanha_eu_juro_que_a_vida_vai_ser_agora": {
+    "title": "A partir de amanhã eu juro que a vida vai ser agora",
+    "author": "Gregório Duvivier",
+    "url": "https://www.amazon.com.br/Partir-Amanha-Juro-Vida-Agora/dp/8575777874",
+    "reading_on": "2022-09"
+  },
+  "a_falta": {
+    "title": "A falta",
+    "author": "Xico Sá",
+    "url": "https://www.amazon.com.br/gp/product/6555357347",
+    "reading_on": "2022-09"
+  },
+  "a_vida_futura": {
+    "title": "A vida futura",
+    "author": "Sérgio Rodriguez",
+    "url": "https://www.amazon.com.br/gp/product/6559211991",
+    "read_on": "2022-08-28"
   },
   "sonetos_de_amor_e_sacanagem": {
     "title": "Sonetos de amor e sacanagem",
