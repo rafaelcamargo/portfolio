@@ -3,42 +3,48 @@
     "title": "Estar Vivo Aleija",
     "author": "Ricardo Araújo Pereira",
     "url": "https://www.almedina.net/estar-vivo-aleija-1564012816.html",
-    "reading_on": "2022-10"
+    "reading_on": "2022-11"
   },
   "reaccionario_com_dois_ces": {
     "title": "Reaccionário com Dois Cês",
     "author": "Ricardo Araújo Pereira",
     "url": "https://www.almedina.net/reaccion-rio-com-dois-c-s-1564012616.html",
-    "reading_on": "2022-10"
+    "reading_on": "2022-11"
   },
   "a_doenca_o_sofrimento_e_a_morte_entram_num_bar": {
     "title": "A Doença, o Sofrimento e a Morte Entram Num Bar",
     "author": "Ricardo Araújo Pereira",
     "url": "https://www.almedina.net/a-doen-a-o-sofrimento-e-a-morte-entram-num-bar-1564012448.html",
-    "reading_on": "2022-10"
-  },
-  "writing_is_design": {
-    "title": "Writing Is Designing: Words and the User Experience",
-    "author": "Andy Welfle & Michael Metts",
-    "url": "https://www.amazon.com/gp/product/1933820667",
-    "reading_on": "2022-09"
+    "reading_on": "2022-11"
   },
   "dumbing_us_down": {
     "title": "Dumbing Us Down",
     "author": "John Taylor Gatto",
     "url": "https://www.amazon.com/Dumbing-Down-Curriculum-Compulsory-Anniversary/dp/0865714487",
-    "reading_on": "2022-09"
+    "reading_on": "2022-11"
+  },
+  "writing_is_design": {
+    "title": "Writing Is Designing: Words and the User Experience",
+    "author": "Andy Welfle & Michael Metts",
+    "url": "https://www.amazon.com/gp/product/1933820667",
+    "reading_on": "2022-10"
   },
   "the_elements_of_style": {
     "title": "The Elements of Style",
     "author": "Charles Osgood",
     "url": "https://www.amazon.com.br/Elements-Style-Charles-Osgood/dp/020530902X",
-    "reading_on": "2022-09"
+    "reading_on": "2022-10"
   },
   "the_down_of_everything": {
     "title": "The Dawn of Everything: A New History of Humanity",
     "author": "David Greber & David Wengrow",
     "url": "https://www.amazon.com.br/Dawn-Everything-New-History-Humanity/dp/1250858801",
+    "reading_on": "2022-10"
+  },
+  "a_partir_de_amanha_eu_juro_que_a_vida_vai_ser_agora": {
+    "title": "A partir de amanhã eu juro que a vida vai ser agora",
+    "author": "Gregório Duvivier",
+    "url": "https://www.amazon.com.br/Partir-Amanha-Juro-Vida-Agora/dp/8575777874",
     "reading_on": "2022-09"
   },
   "ensaio_sobre_a_lucidez": {
@@ -47,17 +53,11 @@
     "url": "https://www.amazon.com.br/gp/product/8535930353",
     "reading_on": "2022-09"
   },
-  "a_partir_de_amanha_eu_juro_que_a_vida_vai_ser_agora": {
-    "title": "A partir de amanhã eu juro que a vida vai ser agora",
-    "author": "Gregório Duvivier",
-    "url": "https://www.amazon.com.br/Partir-Amanha-Juro-Vida-Agora/dp/8575777874",
-    "reading_on": "2022-09"
-  },
   "a_falta": {
     "title": "A falta",
     "author": "Xico Sá",
     "url": "https://www.amazon.com.br/gp/product/6555357347",
-    "reading_on": "2022-09"
+    "read_on": "2022-09-02"
   },
   "a_vida_futura": {
     "title": "A vida futura",
