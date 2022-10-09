@@ -1,26 +1,38 @@
 {
-  "estar_vivo_aleija": {
-    "title": "Estar Vivo Aleija",
-    "author": "Ricardo Araújo Pereira",
-    "url": "https://www.almedina.net/estar-vivo-aleija-1564012816.html",
-    "reading_on": "2022-12"
-  },
   "reaccionario_com_dois_ces": {
     "title": "Reaccionário com Dois Cês",
     "author": "Ricardo Araújo Pereira",
     "url": "https://www.almedina.net/reaccion-rio-com-dois-c-s-1564012616.html",
-    "reading_on": "2022-11"
+    "reading_on": "2022-12"
   },
-  "a_doenca_o_sofrimento_e_a_morte_entram_num_bar": {
-    "title": "A Doença, o Sofrimento e a Morte Entram Num Bar",
-    "author": "Ricardo Araújo Pereira",
-    "url": "https://www.almedina.net/a-doen-a-o-sofrimento-e-a-morte-entram-num-bar-1564012448.html",
-    "reading_on": "2022-11"
+  "travessia": {
+    "title": "Travessia",
+    "author": "Eduardo Moreira",
+    "url": "https://www.amazon.com.br/Travessia-banqueiro-companheiro-Eduardo-Moreira/dp/6558020483",
+    "reading_on": "2022-12"
+  },
+  "economia_do_desejo": {
+    "title": "Economia do desejo",
+    "author": "Eduardo Moreira",
+    "url": "https://www.amazon.com.br/Economia-desejo-farsa-tese-neoliberal/dp/8520014143",
+    "reading_on": "2022-12"
   },
   "writing_is_design": {
     "title": "Writing Is Designing: Words and the User Experience",
     "author": "Andy Welfle & Michael Metts",
     "url": "https://www.amazon.com/gp/product/1933820667",
+    "reading_on": "2022-11"
+  },
+  "estar_vivo_machuca": {
+    "title": "Estar vivo machuca",
+    "author": "Ricardo Araújo Pereira",
+    "url": "https://www.amazon.com.br/Estar-vivo-machuca-melhores-cr%C3%B4nicas/dp/6584835073",
+    "reading_on": "2022-11"
+  },
+  "a_doenca_o_sofrimento_e_a_morte_entram_num_bar": {
+    "title": "A Doença, o sofrimento e a morte entram num bar",
+    "author": "Ricardo Araújo Pereira",
+    "url": "https://www.amazon.com.br/doen%C3%A7a-sofrimento-morte-entram-num/dp/6584835065",
     "reading_on": "2022-10"
   },
   "the_elements_of_style": {
@@ -28,6 +40,12 @@
     "author": "Charles Osgood",
     "url": "https://www.amazon.com.br/Elements-Style-Charles-Osgood/dp/020530902X",
     "reading_on": "2022-10"
+  },
+  "n_d_a": {
+    "title": "n.d.a",
+    "author": "Arnaldo Antunes",
+    "url": "https://www.amazon.com.br/N-D-Arnaldo-Antunes/dp/8573213191",
+    "read_on": "2022-10-08"
   },
   "tudos": {
     "title": "Tudos",
