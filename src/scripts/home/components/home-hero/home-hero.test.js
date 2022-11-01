@@ -25,7 +25,7 @@ describe('Home Hero', () => {
     const wrapper = mount();
     expect(wrapper.find(CtaLink).props()).toEqual({
       to: '/projects',
-      text: 'See all projects'
+      text: 'View all projects'
     });
   });
 });

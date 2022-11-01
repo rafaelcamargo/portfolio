@@ -13,7 +13,7 @@ export const HomeHero = () => {
           My name is Rafael Camargo. I am a programmer, designer, and believe it's quite possible to build very quickly software that works very well.
         </h1>
         <div className="r-home-hero-cta-link-wrapper">
-          <CtaLink to="/projects" text="See all projects" />
+          <CtaLink to="/projects" text="View all projects" />
         </div>
       </div>
     </div>
