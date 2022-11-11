@@ -9,7 +9,7 @@ module.exports = {
   },
   NEWSLETTER_ID: 'rafaelcamargo',
   VERVET: {
-    BASE_URL: 'https://vervet-production.up.railway.app',
+    BASE_URL: 'https://vervet-api.vercel.app',
     PROJECTS: {
       MAILER: {
         ID: 'be51fc60-6e82-41cd-8e5a-091cc1fa6380',
