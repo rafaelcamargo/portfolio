@@ -1,6 +1,6 @@
 title: Little improvements to Pitsby
 date: 2022-08-12
-description: Better late than never. After a long break, good winds are blowing back on the latest version of the library. Performance and appearance were the topics that got improvements. In addition to the already known simplicity, from now on, documenting components will be fancier and faster.
+description: Better late than never. After a long break, good winds are blowing again on the latest version of the library. Performance and appearance were the topics that got improvements. In addition to the already known simplicity, from now on, documenting components will be fancier and faster.
 keywords: pitsby, documentation, components, storybook, performance, appearance
 
 ---

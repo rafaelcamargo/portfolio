@@ -1,6 +1,6 @@
 title: A couple of improvements to Triven
 date: 2022-04-12
-description: What would be the best way of allowing custom date formats for articles? And how to make it possible to keep posts out of the blog homepage? Discover in here the strategies I adopted to implement these new functionalities.
+description: What would be the best way of allowing custom date formats for articles? And how to make it possible to keep posts out of the blog's homepage? Discover in here the strategies I adopted to implement these new functionalities.
 keywords: improvements, Triven, formatting, date, plugin, architecture
 
 ---
