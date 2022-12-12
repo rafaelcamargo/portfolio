@@ -36,7 +36,7 @@ Mas nem só de entraves foi feita a jornada. Houve também boas surpresas. Para 
 
 O segundo destaque ficou por conta da gem *Rubocop*, uma biblioteca que analisa aspectos estáticos do código e oferece sugestões relacionadas a estilo, complexidade, entre outras questões. Ao rodar a análise pela primeira vez, me deparei com dezenas de sugestões. A grande maioria era relacionada a estilo, mas uma delas me deixou surpreso. O *Rubocop* foi capaz de detectar a ausência de um índice em uma das tabelas do banco de dados e sugeriu que eu o adicionasse, já que uma de suas colunas tinha a restrição de ser valor único, o *username* do usuário.
 
-O último destaque ficou por conta do deploy em produção. Eu já havia usado o *Heroku* algumas vezes para publicar projetos usando Node, porém sem fazer uso de qualquer banco de dados. Desta vez, seria necessário um PostgreSQL. Dezenas de configurações começaram a pairar sobre minha cabeça anunciando um tremendo esforço pela frente. Para a minha surpresa, o *Heroku* não exigiu mais do que um commit de mim para que tudo estivesse rodando liso em seus servidores, uma experiência de deploy surpreendente. Para quem quiser experimentar a API, ela está disponível em [kobbogo.herokuapp.com](https://kobbogo.herokuapp.com/) e a documentação dos endpoints está em seu repositório no [Github](https://github.com/rafaelcamargo/kobbogo-api).
+O último destaque ficou por conta do deploy em produção. Eu já havia usado o *Heroku* algumas vezes para publicar projetos usando Node, porém sem fazer uso de qualquer banco de dados. Desta vez, seria necessário um PostgreSQL. Dezenas de configurações começaram a pairar sobre minha cabeça anunciando um tremendo esforço pela frente. Para a minha surpresa, o *Heroku* não exigiu mais do que um commit de mim para que tudo estivesse rodando liso em seus servidores, uma experiência de deploy surpreendente. Para quem quiser experimentar a API, ela está disponível em *kobbogo.herokuapp.com** e a documentação dos endpoints está em seu repositório no [Github](https://github.com/rafaelcamargo/kobbogo-api).
 
 ![Visão geral da API](../../images/kobbogo-summary.png)  
 _Visão geral retornada pelo root path da API_
@@ -54,3 +54,6 @@ Compartilho abaixo os links que foram essenciais para que eu superasse os obstá
 - [Continuous Delivery: Heroku](https://circleci.com/developer/orbs/orb/circleci/heroku)
 
 Antes de encerrar, eu não poderia deixar de agradecer a alguns programadores - alguns com quem trabalho, outro com quem já trabalhei - que me forneceram dicas valiosas ao longo do caminho: [Gabriel Escodino](https://github.com/gabrielescodino), [Rodrigo Campos](https://github.com/kykocamp), [Almir Mendes](https://github.com/m3nd3s), [Lucas Cunha](https://github.com/lucasfcunha) e [Lucas Merencia](https://github.com/merencia). Muito obrigado, meus caros!
+
+***Atualização: 12 de Dezembro de 2022**  
+A partir de 28/11/22 o Heroku deixou de oferecer *Free Dynos*. A API encontra-se agora hospedada no [Fly.io](https://fly.io/) através da URL: [https://kobbogo-api.fly.dev/](https://kobbogo-api.fly.dev/)
