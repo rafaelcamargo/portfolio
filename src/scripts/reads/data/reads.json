@@ -23,12 +23,6 @@
     "url": "https://www.amazon.com.br/Mem%C3%B3rias-P%C3%B3stumas-Cubas-Machado-Assis/dp/8594318618",
     "reading_on": "2023-01"
   },
-  "o_brasil_nao_e_uma_piada": {
-    "title": "O Brasil (não) é uma piada",
-    "author": "André Marinho",
-    "url": "https://www.amazon.com.br/Brasil-N%C3%A3o-%C3%A9-uma-piada/dp/6555603895",
-    "reading_on": "2022-12"
-  },
   "travessia": {
     "title": "Travessia",
     "author": "Eduardo Moreira",
@@ -40,6 +34,12 @@
     "author": "Eduardo Moreira",
     "url": "https://www.amazon.com.br/Economia-desejo-farsa-tese-neoliberal/dp/8520014143",
     "reading_on": "2022-12"
+  },
+  "o_brasil_nao_e_uma_piada": {
+    "title": "O Brasil (não) é uma piada",
+    "author": "André Marinho",
+    "url": "https://www.amazon.com.br/Brasil-N%C3%A3o-%C3%A9-uma-piada/dp/6555603895",
+    "read_on": "2022-12-13"
   },
   "the_great_gatsby": {
     "title": "The Great Gatsby",
