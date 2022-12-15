@@ -11,12 +11,6 @@
     "url": "https://www.amazon.com.br/dp/8535906436",
     "reading_on": "2023-01"
   },
-  "distraidos_venceremos": {
-    "title": "Distraídos veceremos",
-    "author": "Paulo Leminski",
-    "url": "https://www.amazon.com.br/dp/853592888X",
-    "reading_on": "2023-01"
-  },
   "memorias_postumas_de_bras_cubas": {
     "title": "Memórias póstumas de Brás Cubas",
     "author": "Machado de Assis",
@@ -34,6 +28,12 @@
     "author": "Eduardo Moreira",
     "url": "https://www.amazon.com.br/Economia-desejo-farsa-tese-neoliberal/dp/8520014143",
     "reading_on": "2022-12"
+  },
+  "distraidos_venceremos": {
+    "title": "Distraídos veceremos",
+    "author": "Paulo Leminski",
+    "url": "https://www.amazon.com.br/dp/853592888X",
+    "read_on": "2022-12-14"
   },
   "o_brasil_nao_e_uma_piada": {
     "title": "O Brasil (não) é uma piada",
