@@ -7,6 +7,18 @@ export class ProjectList extends Component {
     return (
       <ul className="r-project-list">
         <Project
+          image="logo-four-day-week.svg"
+          title="Four-Day Week"
+          subtitle="2022"
+          badgeText="Open-Source"
+          url="https://4dayweek.rafaelcamargo.com"
+          ctaText="See the code"
+          ctaUrl="https://github.com/rafaelcamargo/4dayweek">
+          A collaborative list of companies that already practice or ecourage
+          a four-day work week. Contribute to this project filling a
+          Google Form or opening a pull request on Github.
+        </Project>
+        <Project
           image="logo-typenik.svg"
           title="Typenik"
           subtitle="2021"
@@ -56,6 +68,19 @@ export class ProjectList extends Component {
           Product Hunt</a>.
         </Project>
         <Project
+          image="logo-woblast.svg"
+          title="Woblast"
+          subtitle="2019"
+          badgeText="Open-Source"
+          url="https://woblast-app.web.app/"
+          ctaUrl="https://github.com/rafaelcamargo/woblast-web"
+          ctaText="See the code">
+          A small application that fetches currency rates and stock
+          exchange variations, and monitors them in real-time. Built
+          with React, HG Brasil Finance API, and ChartJS. Logo and
+          components designed by me.
+        </Project>
+        <Project
           image="logo-weather-now.svg"
           title="Weather Now"
           subtitle="2018"
@@ -70,19 +95,6 @@ export class ProjectList extends Component {
           auto refreshed them after a couple minutes, using local
           cache in the meantime. This is my own implementation for
           the challenge using VueJS.
-        </Project>
-        <Project
-          image="logo-woblast.svg"
-          title="Woblast"
-          subtitle="2019"
-          badgeText="Open-Source"
-          url="https://woblast-app.web.app/"
-          ctaUrl="https://github.com/rafaelcamargo/woblast-web"
-          ctaText="See the code">
-          A small application that fetches currency rates and stock
-          exchange variations, and monitors them in real-time. Built
-          with React, HG Brasil Finance API, and ChartJS. Logo and
-          components designed by me.
         </Project>
         <Project
           image="logo-nashios.svg"
@@ -103,19 +115,6 @@ export class ProjectList extends Component {
           interests in the next 24h. I did this to learn how to build a
           mobile app using Ionic and AngularJS. Logo and components
           designed by me.
-        </Project>
-        <Project
-          image="logo-dollert.svg"
-          title="Dollert"
-          subtitle="2016"
-          badgeText="Open-Source"
-          url="https://chrome.google.com/webstore/detail/dollert/lkbhlmhaiggihoihajncjlnmbpigbkam"
-          ctaText="See the code"
-          ctaUrl="https://github.com/rafaelcamargo/dollert-extension">
-          If USD rate impacts your daily life making you visit
-          financial websites all day long, Dollert saves your energy.
-          Enter the USD rates you are awaiting for and Dollert will
-          notify you when one of those rates gets reached.
         </Project>
       </ul>
     );
