@@ -28,6 +28,6 @@ De nada adiantaria desenvolver o software mais preciso do mundo se ele nunca fos
 
 Seja tendo que lembrar de ligar ou desligar algo em um determinado momento do dia ou seja tendo que escrever a mesma porção de código a cada nova funcionalidade, iremos nos entediar rapidamente. E quando o tédio entra por uma porta, o engajamento sai por outra. Tarefas rotineiras devem ser automatizadas, da mesma maneira que todo padrão comum deve ser abstraído.
 
-Assim como não faz sentido lançar rapidamente algo que não funciona, tão pouco seria celebrável jamais conseguir lançar algo por não estarmos certos de que funcione. Precisão e produtividade são dois ingredientes que funcionam como o exato contra-peso um do outro.
+Assim como não faz sentido lançar rapidamente algo que não funciona, tampouco pouco seria celebrável jamais conseguir lançar algo por não estarmos certos de que funcione. Precisão e produtividade são ingredientes que funcionam como exatos contrapesos um do outro.
 
 Developer-first é uma abordagem que preza pelo alto engajamento do desenvolvedor. E o alto engajamento acontece justamente quando conseguimos fazer muito rápido algo que funciona muito bem.
