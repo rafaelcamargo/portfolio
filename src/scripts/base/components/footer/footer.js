@@ -23,6 +23,7 @@ export const Footer = () => {
 
 function getLinks(){
   return [
+    { to: '/hello', text: 'Hello' },
     { to: '/skills', text: 'Skills' },
     { to: '/influences', text: 'Influences' },
     { to: '/contact', text: 'Contact' }

@@ -5,6 +5,7 @@ import ScrollToTop from 'react-router-scroll-top';
 import History from '@scripts/base/components/history/history';
 import { Contact } from '@scripts/contact/contact';
 import { Experience } from '@scripts/experience/experience';
+import { Hello } from '@scripts/hello/hello';
 import { Home } from '@scripts/home/home';
 import { Influences } from '@scripts/influences/influences';
 import { Projects } from '@scripts/projects/projects';
@@ -33,75 +34,25 @@ describe('App Router', () => {
     expect(wrapper.find(History)).toBeDefined();
   });
 
-  it('should contain Home route', () => {
+  it('should contain menu links', () => {
+    const links = [
+      { path: '/', component: Home },
+      { path: '/contact', component: Contact },
+      { path: '/experience', component: Experience },
+      { path: '/hello', component: Hello },
+      { path: '/projects', component: Projects },
+      { path: '/recommendations', component: Recommendations },
+      { path: '/skills', component: Skills },
+      { path: '/influences', component: Influences },
+      { path: '/reads', component: Reads },
+      { path: '/tools', component: Tools }
+    ];
     const wrapper = mount();
-    const route = getRouteByIndex(wrapper, 0);
-    expect(route.prop('path')).toEqual('/');
-    expect(route.prop('exact')).toEqual(true);
-    expect(route.prop('component')).toEqual(Home);
-  });
-
-  it('should contain Contact route', () => {
-    const wrapper = mount();
-    const route = getRouteByIndex(wrapper, 1);
-    expect(route.prop('path')).toEqual('/contact');
-    expect(route.prop('exact')).toEqual(true);
-    expect(route.prop('component')).toEqual(Contact);
-  });
-
-  it('should contain Experience route', () => {
-    const wrapper = mount();
-    const route = getRouteByIndex(wrapper, 2);
-    expect(route.prop('path')).toEqual('/experience');
-    expect(route.prop('exact')).toEqual(true);
-    expect(route.prop('component')).toEqual(Experience);
-  });
-
-  it('should contain Projects route', () => {
-    const wrapper = mount();
-    const route = getRouteByIndex(wrapper, 3);
-    expect(route.prop('path')).toEqual('/projects');
-    expect(route.prop('exact')).toEqual(true);
-    expect(route.prop('component')).toEqual(Projects);
-  });
-
-  it('should contain Recommendations route', () => {
-    const wrapper = mount();
-    const route = getRouteByIndex(wrapper, 4);
-    expect(route.prop('path')).toEqual('/recommendations');
-    expect(route.prop('exact')).toEqual(true);
-    expect(route.prop('component')).toEqual(Recommendations);
-  });
-
-  it('should contain Skills route', () => {
-    const wrapper = mount();
-    const route = getRouteByIndex(wrapper, 5);
-    expect(route.prop('path')).toEqual('/skills');
-    expect(route.prop('exact')).toEqual(true);
-    expect(route.prop('component')).toEqual(Skills);
-  });
-
-  it('should contain Influences route', () => {
-    const wrapper = mount();
-    const route = getRouteByIndex(wrapper, 6);
-    expect(route.prop('path')).toEqual('/influences');
-    expect(route.prop('exact')).toEqual(true);
-    expect(route.prop('component')).toEqual(Influences);
-  });
-
-  it('should contain Reads route', () => {
-    const wrapper = mount();
-    const route = getRouteByIndex(wrapper, 7);
-    expect(route.prop('path')).toEqual('/reads');
-    expect(route.prop('exact')).toEqual(true);
-    expect(route.prop('component')).toEqual(Reads);
-  });
-
-  it('should contain Tools route', () => {
-    const wrapper = mount();
-    const route = getRouteByIndex(wrapper, 8);
-    expect(route.prop('path')).toEqual('/tools');
-    expect(route.prop('exact')).toEqual(true);
-    expect(route.prop('component')).toEqual(Tools);
+    links.forEach((link, index) => {
+      const route = getRouteByIndex(wrapper, index);
+      expect(route.prop('path')).toEqual(link.path);
+      expect(route.prop('exact')).toEqual(true);
+      expect(route.prop('component')).toEqual(link.component);
+    });
   });
 });

@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import History from '@scripts/base/components/history/history';
 import { Contact } from '@scripts/contact/contact';
 import { Experience } from '@scripts/experience/experience';
+import { Hello } from '@scripts/hello/hello';
 import { Home } from '@scripts/home/home';
 import { Influences } from '@scripts/influences/influences';
 import { Projects } from '@scripts/projects/projects';
@@ -32,6 +33,7 @@ function getComponentByRoutePath(path){
     '/': Home,
     '/contact': Contact,
     '/experience': Experience,
+    '/hello': Hello,
     '/projects': Projects,
     '/recommendations': Recommendations,
     '/skills': Skills,

@@ -16,9 +16,17 @@ describe('Footer', () => {
     expect(wrapper.prop('className')).toEqual('r-footer');
   });
 
-  it('should contain a link to skills', () => {
+  it('should contain a link to hello', () => {
     const wrapper = mount();
     expect(wrapper.find(Link).at(0).props()).toEqual({
+      to: '/hello',
+      children: 'Hello'
+    });
+  });
+
+  it('should contain a link to skills', () => {
+    const wrapper = mount();
+    expect(wrapper.find(Link).at(1).props()).toEqual({
       to: '/skills',
       children: 'Skills'
     });
@@ -26,7 +34,7 @@ describe('Footer', () => {
 
   it('should contain a link to influences', () => {
     const wrapper = mount();
-    expect(wrapper.find(Link).at(1).props()).toEqual({
+    expect(wrapper.find(Link).at(2).props()).toEqual({
       to: '/influences',
       children: 'Influences'
     });
@@ -34,7 +42,7 @@ describe('Footer', () => {
 
   it('should contain a link to contact', () => {
     const wrapper = mount();
-    expect(wrapper.find(Link).at(2).props()).toEqual({
+    expect(wrapper.find(Link).at(3).props()).toEqual({
       to: '/contact',
       children: 'Contact'
     });
