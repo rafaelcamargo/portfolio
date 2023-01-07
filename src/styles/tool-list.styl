@@ -1,6 +1,11 @@
 @require '_variables'
 @require '_mixins'
 
+.r-tool-list
+  margin 0
+  padding 0
+  list-style-type none
+
 .r-tool-list-group
   h2
     color alpha($color-grey-dark, .6)
@@ -11,6 +16,8 @@
     grid-template-columns 1fr 1fr 1fr
     grid-gap 20px
     margin-top 20px
+    padding 0
+    list-style-type none
   & + .r-tool-list-group
     margin-top 80px
 
@@ -24,6 +31,8 @@
     font-weight bold
   ul
     margin-top 12px
+    padding 0
+    list-style-type none
   li
     display flex
     align-items baseline
