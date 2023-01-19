@@ -29,8 +29,8 @@ export const Hello = () => {
               for your visit.
             </p>
             <p>
-              After having worked for more than seven years as
-              graphic designer, I have been working since 2013 as
+              After having worked for more than seven years as a
+              graphic designer, I have been working since 2013 as a
               software developer.
             </p>
             <p>
@@ -38,7 +38,7 @@ export const Hello = () => {
             </p>
             <ul>
               <li>
-                Working as front-end developer at <a href="https://www.rdstation.com/en/">
+                Working as a front-end developer at <a href="https://www.rdstation.com/en/">
                 RD Station</a>.
               </li>
               <li>
