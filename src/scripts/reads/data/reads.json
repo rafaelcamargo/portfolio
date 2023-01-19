@@ -11,12 +11,6 @@
     "url": "https://www.amazon.com.br/dp/0008460981",
     "reading_on": "2023-03"
   },
-  "a_metamorfose": {
-    "title": "A Metamorfose",
-    "author": "Franz Kafka",
-    "url": "https://www.amazon.com.br/dp/8542812077",
-    "reading_on": "2023-02"
-  },
   "o_castelo": {
     "title": "O Castelo",
     "author": "Franz Kafka",
@@ -29,17 +23,23 @@
     "url": "https://www.amazon.com.br/dp/8542812077",
     "reading_on": "2023-02"
   },
-  "futuro_ancestral": {
-    "title": "Futuro ancestral",
-    "author": "Ailton Krenak",
-    "url": "https://www.amazon.com.br/dp/6559211541",
-    "reading_on": "2023-01"
-  },
   "reaccionario_com_dois_ces": {
     "title": "Reaccionário com Dois Cês",
     "author": "Ricardo Araújo Pereira",
     "url": "https://www.almedina.net/reaccion-rio-com-dois-c-s-1564012616.html",
     "reading_on": "2023-01"
+  },
+  "a_metamorfose": {
+    "title": "A Metamorfose",
+    "author": "Franz Kafka",
+    "url": "https://www.amazon.com.br/dp/8542812077",
+    "reading_on": "2023-02"
+  },
+  "futuro_ancestral": {
+    "title": "Futuro ancestral",
+    "author": "Ailton Krenak",
+    "url": "https://www.amazon.com.br/dp/6559211541",
+    "read_on": "2023-01-19"
   },
   "travessia": {
     "title": "Travessia",
