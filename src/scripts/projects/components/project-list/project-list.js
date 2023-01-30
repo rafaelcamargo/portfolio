@@ -15,7 +15,7 @@ export class ProjectList extends Component {
           ctaText="See the code"
           ctaUrl="https://github.com/rafaelcamargo/4dayweek">
           A collaborative list of companies that already practice or ecourage
-          a four-day work week. Contribute to this project filling a
+          a four-day work week. Contribute to this project by filling out a
           Google Form or opening a pull request on Github.
         </Project>
         <Project
