@@ -1,8 +1,14 @@
 {
-  "animal_farm": {
-    "title": "Animal Farm",
-    "author": "George Orwell",
-    "url": "https://www.amazon.com.br/dp/0008460981",
+  "o_homem_duplicado": {
+    "title": "O homem duplicado",
+    "author": "José Saramago",
+    "url": "https://www.amazon.com.br/homem-duplicado-Nova-edi%C3%A7%C3%A3o/dp/8535930361",
+    "reading_on": "2023-03"
+  },
+  "escute_as_feras": {
+    "title": "Escute as feras",
+    "author": "Nastassja Martin",
+    "url": "https://www.amazon.com.br/Escute-as-feras-Nastassja-Martin/dp/6555250828",
     "reading_on": "2023-03"
   },
   "o_castelo": {
@@ -15,6 +21,12 @@
     "title": "Reaccionário com Dois Cês",
     "author": "Ricardo Araújo Pereira",
     "url": "https://www.almedina.net/reaccion-rio-com-dois-c-s-1564012616.html",
+    "reading_on": "2023-02"
+  },
+  "animal_farm": {
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "url": "https://www.amazon.com.br/dp/0008460981",
     "reading_on": "2023-02"
   },
     "1984": {
