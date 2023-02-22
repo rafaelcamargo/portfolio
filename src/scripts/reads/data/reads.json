@@ -17,12 +17,6 @@
     "url": "https://www.amazon.com.br/dp/8542812077",
     "reading_on": "2023-03"
   },
-  "reaccionario_com_dois_ces": {
-    "title": "Reaccionário com Dois Cês",
-    "author": "Ricardo Araújo Pereira",
-    "url": "https://www.almedina.net/reaccion-rio-com-dois-c-s-1564012616.html",
-    "reading_on": "2023-02"
-  },
   "animal_farm": {
     "title": "Animal Farm",
     "author": "George Orwell",
@@ -34,6 +28,12 @@
     "author": "George Orwell",
     "url": "https://www.amazon.com.br/dp/0008460981",
     "reading_on": "2023-02"
+  },
+  "reaccionario_com_dois_ces": {
+    "title": "Reaccionário com Dois Cês",
+    "author": "Ricardo Araújo Pereira",
+    "url": "https://www.almedina.net/reaccion-rio-com-dois-c-s-1564012616.html",
+    "read_on": "2023-02-20"
   },
   "o_processo": {
     "title": "O Processo",
