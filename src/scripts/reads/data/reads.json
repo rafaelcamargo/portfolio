@@ -1,33 +1,39 @@
 {
-  "latim_em_po": {
-    "title": "Latim em Pó",
-    "author": "Caetano Galindo",
-    "url": "https://www.amazon.com.br/Latim-p%C3%B3-passeio-forma%C3%A7%C3%A3o-portugu%C3%AAs/dp/6559213536",
-    "reading_on": "2023-03"
-  },
   "o_homem_duplicado": {
     "title": "O homem duplicado",
     "author": "José Saramago",
     "url": "https://www.amazon.com.br/homem-duplicado-Nova-edi%C3%A7%C3%A3o/dp/8535930361",
-    "reading_on": "2023-03"
+    "reading_on": "2023-05"
+  },
+  "latim_em_po": {
+    "title": "Latim em Pó",
+    "author": "Caetano Galindo",
+    "url": "https://www.amazon.com.br/Latim-p%C3%B3-passeio-forma%C3%A7%C3%A3o-portugu%C3%AAs/dp/6559213536",
+    "reading_on": "2023-04"
   },
   "escute_as_feras": {
     "title": "Escute as feras",
     "author": "Nastassja Martin",
     "url": "https://www.amazon.com.br/Escute-as-feras-Nastassja-Martin/dp/6555250828",
-    "reading_on": "2023-03"
+    "reading_on": "2023-04"
   },
   "o_castelo": {
     "title": "O Castelo",
     "author": "Franz Kafka",
     "url": "https://www.amazon.com.br/dp/8542812077",
+    "reading_on": "2023-04"
+  },
+  "thinking_with_type": {
+    "title": "Thinking with type",
+    "author": "Ellen Lupton",
+    "url": "https://www.amazon.com.br/gp/product/1568989695",
     "reading_on": "2023-03"
   },
   "animal_farm": {
     "title": "Animal Farm",
     "author": "George Orwell",
     "url": "https://www.amazon.com.br/dp/0008460981",
-    "reading_on": "2023-02"
+    "reading_on": "2023-03"
   },
     "1984": {
     "title": "1984",
