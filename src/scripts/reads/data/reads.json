@@ -1,14 +1,86 @@
 {
+  "if_it_is_smart_it_is_vunerable": {
+    "title": "If It's Smart, It's Vulnerable",
+    "author": "Mikko Hypponen",
+    "url": "https://www.amazon.com/If-Its-Smart-Vulnerable/dp/1119895189",
+    "reading_on": "2023-06"
+  },
+  "grokking_artificial_intelligence_algorithms": {
+    "title": "Grokking Artificial Intelligence Algorithms",
+    "author": "Rishal Hurbans",
+    "url": "https://www.amazon.com/Grokking-Artificial-Intelligence-Algorithms-Hurbans/dp/161729618X",
+    "reading_on": "2023-06"
+  },
+  "artificial_intelligence_basics": {
+    "title": "Artificial Intelligence Basics",
+    "author": "Tom Taulli",
+    "url": "https://www.amazon.com/Artificial-Intelligence-Basics-Non-Technical-Introduction/dp/1484250273",
+    "reading_on": "2023-06"
+  },
+  "a_brief_guide_to_artificial_intelligence": {
+    "title": "A Brief Guide to Artificial Intelligence",
+    "author": "James Stone",
+    "url": "https://www.amazon.com/Brief-Guide-Artificial-Intelligence/dp/1916279112",
+    "reading_on": "2023-06"
+  },
+  "a_nausea": {
+    "title": "A náusea",
+    "author": "Jean Paul Sartre",
+    "url": "https://www.amazon.com.br/n%C3%A1usea-Jean-Paul-Sartre/dp/6556401382",
+    "reading_on": "2023-05"
+  },
+  "o_muro": {
+    "title": "O muro",
+    "author": "Jean Paul Sartre",
+    "url": "https://www.amazon.com.br/muro-Jean-Paul-Sartre/dp/6556402184",
+    "reading_on": "2023-05"
+  },
+  "entre_quatro_paredes": {
+    "title": "Entre quatro paredes",
+    "author": "Jean Paul Sartre",
+    "url": "https://www.amazon.com.br/Entre-quatro-paredes-Jean-Paul-Sartre/dp/6558020637",
+    "reading_on": "2023-05"
+  },
+  "o_homem_que_falava_javanes": {
+    "title": "O homem que falava javanês",
+    "author": "Lima Barreto",
+    "url": "https://www.amazon.com.br/homem-sabia-javan%C3%AAs-outros-contos/dp/6550970016",
+    "reading_on": "2023-05"
+  },
+  "nada_me_faltara": {
+    "title": "Nada me faltará",
+    "author": "Lourenço Mutarelli",
+    "url": "https://www.amazon.com.br/Nada-me-faltar%C3%A1-Louren%C3%A7o-Mutarelli/dp/8535917403",
+    "reading_on": "2023-05"
+  },
+  "the_catcher_in_the_rye": {
+    "title": "The Catcher in the Rye",
+    "author": "Jerome Salinger",
+    "url": "https://www.amazon.com.br/Catcher-Rye-J-D-Salinger/dp/0316769487",
+    "reading_on": "2023-05"
+  },
+  "keep_the_aspidistra_flying": {
+    "title": "Keep the Aspridistra Flying",
+    "author": "George Orwell",
+    "url": "https://www.amazon.com.br/Keep-Aspidistra-Flying-George-Orwell/dp/9390575400",
+    "reading_on": "2023-05"
+  },
+  "o_drible": {
+    "title": "O drible",
+    "author": "Sérgio Rodrigues",
+    "url": "https://www.amazon.com.br/drible-S%C3%A9rgio-Rodrigues/dp/8535923268",
+    "reading_on": "2023-05"
+  },
+  "o_homem_que_matou_o_escritor": {
+    "title": "O homem que matou o escritor",
+    "author": "Sérgio Rodrigues",
+    "url": "https://www.amazon.com.br/homem-matou-escritor-Edi%C3%A7%C3%A3o-bolso/dp/6559212017",
+    "reading_on": "2023-04"
+  },
   "o_homem_duplicado": {
     "title": "O homem duplicado",
     "author": "José Saramago",
     "url": "https://www.amazon.com.br/homem-duplicado-Nova-edi%C3%A7%C3%A3o/dp/8535930361",
-    "reading_on": "2023-05"
-  },
-  "latim_em_po": {
-    "title": "Latim em Pó",
-    "author": "Caetano Galindo",
-    "url": "https://www.amazon.com.br/Latim-p%C3%B3-passeio-forma%C3%A7%C3%A3o-portugu%C3%AAs/dp/6559213536",
     "reading_on": "2023-04"
   },
   "escute_as_feras": {
@@ -17,11 +89,17 @@
     "url": "https://www.amazon.com.br/Escute-as-feras-Nastassja-Martin/dp/6555250828",
     "reading_on": "2023-04"
   },
+  "latim_em_po": {
+    "title": "Latim em Pó",
+    "author": "Caetano Galindo",
+    "url": "https://www.amazon.com.br/Latim-p%C3%B3-passeio-forma%C3%A7%C3%A3o-portugu%C3%AAs/dp/6559213536",
+    "reading_on": "2023-04"
+  },
   "o_castelo": {
     "title": "O Castelo",
     "author": "Franz Kafka",
     "url": "https://www.amazon.com.br/dp/8542812077",
-    "reading_on": "2023-04"
+    "reading_on": "2023-03"
   },
   "thinking_with_type": {
     "title": "Thinking with type",
