@@ -5,7 +5,7 @@ keywords: pitsby, documentation, components, storybook, performance, appearance
 
 ---
 
-More than one year after the last improvement, a few advances are more than welcome now. If Pitsby is still a non-existing word in your dictionary, you can now define it as a tool that aims to help you write UI components documentation easier. The main reason behind its existence was to offer an [alternative to Storybook](https://rcamargo.medium.com/the-alternative-to-storybookjs-fc48b18bfdeb) - the most popular tool at the time Pitsby was born - due to my tremendous uncomfortableness with Storybook's developer experience. These recent novelties, few but fabulous, focused on two topics.
+More than one year after the last improvement, a few advances are more than welcome now. If Pitsby is still a non-existing word in your dictionary, you can now define it as a tool that aims to help you write UI components documentation easier. The main reason behind its existence was to offer an [alternative to Storybook](https://rcamargo.medium.com/the-alternative-to-storybookjs-fc48b18bfdeb)—the most popular tool at the time Pitsby was born—due to my tremendous uncomfortableness with Storybook's developer experience. These recent novelties, few but fabulous, focused on two topics.
 
 ## Performance
 

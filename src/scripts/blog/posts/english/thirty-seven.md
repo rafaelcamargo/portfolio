@@ -11,7 +11,7 @@ keywords: thirty seven, 37signals, manifesto
 
 As intriguing as the quote above, it has been the capacity of a small company called [37signals](https://1999.37signals.com/) to throw uncountable meteors over common sense on design, business, and tech, since the late '90s.
 
-The first meteor was probably the document that marks the rise of the company. Written in 1999, its manifesto has 37 micro-texts that, two decades later, are full of freshness.
+The first meteor was probably the document that marks the rise of the company. Written in 1999, its manifesto has 37 *micro-texts* that, two decades later, are full of freshness.
 
 ## Grow a company doing better, not more.
 
@@ -26,7 +26,7 @@ Companies wish to grow. To do so, they figure out how to deliver more value. In 
 
 Technology powers our notion of newness. Newness boosts the desire to be up-to-date. And the desire to be up-to-date can misguide decisions. [Just Because You Can, Doesn't Mean You Should](https://1999.37signals.com/25.html) discards decisions based on a vague *it's so cool!* or on *everyone else is doing!* Some paragraphs ahead and, on [Tulipomania](https://1999.37signals.com/28.html), we find the following statement:
 
-> Trends are temporary. Don't just do something because everyone else is doing it -- do something because it makes sense.  
+> Trends are temporary. Don't just do something because everyone else is doing it—do something because it makes sense.  
 > [37signals Manifesto [28]](https://1999.37signals.com/28.html)
 
 ## Usability is secondary.

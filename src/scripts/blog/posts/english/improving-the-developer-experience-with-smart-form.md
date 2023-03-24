@@ -11,7 +11,7 @@ Some of the reasons would include the counterintuitiveness of those APIs, the am
 
 At some point in my career, I started to dream with two HTML improvements that would make me very, very, very happy.
 
-The first one regards the form control elements. That is, `<input>`, `<select>` and `<textarea>`. My desire was that they had a property called `validations`. It will accept an Array of objects, each containing the attributes `isValid` - a function returning a Boolean value - and `errorMessage`, a String to be shown in the case of `isValid` returns false. This attribute would allow us to run several validations against a form control and set a specific message for each possible error.
+The first one regards the form control elements. That is, `<input>`, `<select>` and `<textarea>`. My desire was that they had a property called `validations`. It will accept an Array of objects, each containing the attributes `isValid` (function returning a Boolean value) and `errorMessage` (String to be shown in the case of `isValid` returns false). This attribute would allow us to run several validations against a form control and set a specific message for each possible error.
 
 The second improvement target is the `<form>` element. For Single Page Applications, it would be great to use properties like `successMessage` and `errorMessage`. On submit success, the form would show the success message on a toast. If the request failed, a banner would display the error message with a retry button at the top of the form.
 
@@ -36,7 +36,7 @@ Translating my dream to HTML, we'd have something like this:
 
 For three years, my letters to Santa Claus banged for that dream come true. So at the end of 2020, convinced that Santa would ignore me one more time, I decided to put my hands on it and make it happen by myself.
 
-The form creation experience was the true motivation behind [Taslonic](https://taslonic.com). I created it to set me free from the ordinary work and focus on the extraordinary one. No one deserves to waste hours of life implementing the same form use cases, again and again, every time the application needs another form. Besides wasting time, the repetitive implementation of those cases - feedbacks for success, error, and processing - leads to uncountable inconsistencies in the use of the application. Sometimes a developer implements them one way, sometimes another developer makes them another way. Not to say the times some of those use cases are forgotten. Who hasn't ever stood before a never-ending *loading* even after a request failure?
+The form creation experience was the true motivation behind [Taslonic](https://taslonic.com). I created it to set me free from the ordinary work and focus on the extraordinary one. No one deserves to waste hours of life implementing the same form use cases, again and again, every time the application needs another form. Besides wasting time, the repetitive implementation of those cases (feedbacks for success, error, and processing) leads to uncountable inconsistencies in the use of the application. Sometimes a developer implements them one way, sometimes another developer makes them another way. Not to say the times some of those use cases are forgotten. Who hasn't ever stood before a never-ending *loading* even after a request failure?
 
 Explore this example of a newsletter form made with Taslonic.
 

@@ -13,7 +13,7 @@ mas basta conseguir trocar três acordes para começar a achar que possui um dom
 
 Minha intenção não será descrever o passo-a-passo sobre como chegar ao resultado que obtive. Dispensar os detalhes técnicos e focar nos *entraves & destaques* que pipocaram pelo caminho me parece uma alternativa mais divertida, e evita que o texto se torne uma colagem entediante de tutoriais já disponíveis em outros sites.
 
-Em projetos que desenvolvo usando JavaScript, seja no Browser ou no servidor (Node), tenho o hábito de criar manualmente, um a um, todos os arquivos necessários - e somente o que é necessário - ao projeto, ao que chamo de [configuração limpa](https://rafaelcamargo.com/blog/configuracao-limpa/). Ao executar o comando do Rails que estrutura um novo projeto, me deparei com uma grande quantidade de diretórios e arquivos gerados.
+Em projetos que desenvolvo usando JavaScript, seja no Browser ou no servidor (Node), tenho o hábito de criar manualmente, um a um, todos os arquivos necessários—e somente o que é necessário—ao projeto, ao que chamo de [configuração limpa](https://rafaelcamargo.com/blog/configuracao-limpa/). Ao executar o comando do Rails que estrutura um novo projeto, me deparei com uma grande quantidade de diretórios e arquivos gerados.
 Não podendo conter minha curiosidade, acessei diretório por diretório, arquivo por arquivo, para bisbilhotar do que se tratavam.
 Encontrei algumas classes vazias e arquivos integralmente comentados.
 Não removi nenhum deles, claro, mas fiquei com a impressão que estava mais uma vez diante da promessa que nos fazem na escola: você pode até não precisar disso agora, mas pode confiar, no futuro vai ser útil.
@@ -53,7 +53,7 @@ Compartilho abaixo os links que foram essenciais para que eu superasse os obstá
 - [Continuous Integration: Circle CI](https://circleci.com/docs/2.0/language-ruby)
 - [Continuous Delivery: Heroku](https://circleci.com/developer/orbs/orb/circleci/heroku)
 
-Antes de encerrar, eu não poderia deixar de agradecer a alguns programadores - alguns com quem trabalho, outro com quem já trabalhei - que me forneceram dicas valiosas ao longo do caminho: [Gabriel Escodino](https://github.com/gabrielescodino), [Rodrigo Campos](https://github.com/kykocamp), [Almir Mendes](https://github.com/m3nd3s), [Lucas Cunha](https://github.com/lucasfcunha) e [Lucas Merencia](https://github.com/merencia). Muito obrigado, meus caros!
+Antes de encerrar, eu não poderia deixar de agradecer a alguns programadores—alguns com quem trabalho, outros com quem já trabalhei—que me forneceram dicas valiosas ao longo do caminho: [Gabriel Escodino](https://github.com/gabrielescodino), [Rodrigo Campos](https://github.com/kykocamp), [Almir Mendes](https://github.com/m3nd3s), [Lucas Cunha](https://github.com/lucasfcunha) e [Lucas Merencia](https://github.com/merencia). Muito obrigado, meus caros!
 
 ***Atualização: 12 de Dezembro de 2022**  
 A partir de 28/11/22 o Heroku deixou de oferecer *Free Dynos*. A API encontra-se agora hospedada no [Fly.io](https://fly.io/) através da URL: [https://kobbogo-api.fly.dev/](https://kobbogo-api.fly.dev/)

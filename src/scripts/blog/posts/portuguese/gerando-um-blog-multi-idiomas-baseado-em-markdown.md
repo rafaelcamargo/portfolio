@@ -6,13 +6,13 @@ lang: pt-BR
 
 ---
 
-Durante um longo período da minha carreira, escrever sobre programação significava escrever em inglês. Essa parece ser uma tendência natural numa profissão que tem como maiores expoentes pessoas que falam inglês nativamente. A propósito, um enorme número de ferramentas usadas na programação são também oferecidos apenas nesse idioma. Muitos dos termos usados diariamente por nós, não nativos em inglês, são *Frankensteins-linguísticos* que incluem os verbos *mergear* e *deployar*, por exemplo.
+Durante um longo período da minha carreira, escrever sobre programação significava escrever em inglês. Essa parece ser uma tendência natural numa profissão que tem como maiores expoentes pessoas que falam inglês nativamente. A propósito, um enorme número de ferramentas usadas na programação são também oferecidos apenas nesse idioma. Muitos dos termos usados diariamente por nós, não nativos em inglês, são *Frankensteins linguísticos* que incluem os verbos *mergear* e *deployar*, por exemplo.
 
 Essa minha *anglo-postura* de escrever *english-only* começou a mudar quando fui apresentando ao [@fernahh](https://twitter.com/fernahh), que além de excelente profissional viria a se tornar um grande amigo. Em seu [site](https://fernahh.com.br/), ele compartilha várias de suas ideias no bom e velho português. Ao ler seus textos, me fiz a seguinte pergunta: se obviamente tenho condições de me expressar melhor no meu idioma nativo, por que diabos não escrevo em português?
 
-Então a partir de 2019, comecei a escrever textos como este, em português. Isso resultou em duas descobertas. A primeira é que sou bem mais crítico a mim mesmo ao me ler em meu próprio idioma. A segunda descoberta deriva da primeira. Percebi finalmente o quão mal eu escrevo - obrigado a você que leu até aqui.
+Então a partir de 2019, comecei a escrever textos como este, em português. Isso resultou em duas descobertas. A primeira é que sou bem mais crítico a mim mesmo ao me ler em meu próprio idioma. A segunda descoberta deriva da primeira. Percebi finalmente o quão mal eu escrevo—muito obrigado a você que leu até aqui.
 
-Tendo me decidido por escrever também em português, o próximo passo era encontrar uma ferramenta que facilitasse esse trabalho. Buscava eu por um gerador de blog estático que incluísse em suas funcionalidades o suporte a múltiplos idiomas. Me deparei com os famosos *Static Site Generators*. Ofereciam muito do que eu não precisava - Temas, Comentários, CMS, E-Commerce, etc - e nada ofereciam em relação ao que eu buscava - **suporte deslumbrante a múltiplos idiomas**. Além disso, os dois mais populares são escritos em Ruby e Go e não na linguagem mais amada do planeta, JavaScript.
+Tendo me decidido por escrever também em português, o próximo passo era encontrar uma ferramenta que facilitasse esse trabalho. Buscava eu por um gerador de blog estático que incluísse em suas funcionalidades o suporte a múltiplos idiomas. Me deparei com os famosos *Static Site Generators*. Ofereciam muito do que eu não precisava—Temas, Comentários, CMS, E-Commerce, etc—e nada ofereciam em relação ao que eu buscava: **suporte deslumbrante a múltiplos idiomas**. Além disso, os dois mais populares são escritos em Ruby e Go e não na linguagem mais amada do planeta, JavaScript.
 
 Diante dessa situação, decidi criar o [Triven](https://github.com/glorious-codes/glorious-triven). Se o que você precisa é de um gerador de blog estático baseado em Markdown com **suporte deslumbrante a múltiplos idiomas**, saiba que você está a dois comandos do paraíso:
 
@@ -33,7 +33,7 @@ Daí pra frente é só focar no conteúdo. Sem escrever uma linha sequer de conf
 ✅ 2.3kb de CSS.  
 ✅ 0kb de JavaScript.
 
-Além dos benefícios acima, o Triven pode ser facilmente conectado a qualquer site já existente. Por padrão, os arquivos estáticos são gerados num diretório chamado `triven` na raiz do seu projeto. Porém, esses arquivos podem ser salvos em qualquer outro lugar. Ou seja, se você já possui um site, basta definir esse local como sendo `/blog`, por exemplo - exatamente como fiz no meu site.
+Além dos benefícios acima, o Triven pode ser facilmente conectado a qualquer site já existente. Por padrão, os arquivos estáticos são gerados num diretório chamado `triven` na raiz do seu projeto. Porém, esses arquivos podem ser salvos em qualquer outro lugar. Ou seja, se você já possui um site, basta definir esse local como sendo `/blog`, por exemplo—exatamente como fiz no meu site.
 
 ![Menu de idiomas do Triven](../../images/language-menu.gif)  
 _Menu de idiomas gerado automaticamente pelo Triven_

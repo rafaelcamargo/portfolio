@@ -12,9 +12,9 @@ Esse atestado de habilidade adquirida começou a ser ameaçado ao ler um trecho 
 
 > Do you remember, in school, going around the room, each student in turn reading a paragraph out loud? Remember how well some students read and others, how badly? It was a difference in comprehension, not of the sentence's meaning, but of its texture, pace, structure, actuality.
 
-Sim, devo confessar que lembro. Sempre torcia para que na minha vez o parágrafo fosse curto - a exposição pública e a possibilidade de errar seriam então mínimas. Naquela época, eu poderia relacionar *passo* a muitas coisas, menos a uma frase. Meu conceito de leitura se limitava a agrupar palavras e alcançar com elas um significado. Respeitava religiosamente os *espaços*, sem ainda me dar conta que o *tempo* de cada pausa era bastante relativo.
+Sim, devo confessar que lembro. Sempre torcia para que na minha vez o parágrafo fosse curto—a exposição pública e a possibilidade de errar seriam então mínimas. Naquela época, eu poderia relacionar *passo* a muitas coisas, menos a uma frase. Meu conceito de leitura se limitava a agrupar palavras e alcançar com elas um significado. Respeitava religiosamente os *espaços*, sem ainda me dar conta que o *tempo* de cada pausa era bastante relativo.
 
-Ler àquela maneira é como ser capaz de identificar corretamente todas as notas de uma canção, mas não necessariamente ser capaz de executá-las no ritmo correto - e se você já ouviu alguém bater palmas no contrapé da melodia, sabe o quanto o ritmo importa.
+Ler àquela maneira é como ser capaz de identificar corretamente todas as notas de uma canção, mas não necessariamente ser capaz de executá-las no ritmo correto—e se você já ouviu alguém bater palmas no contrapé da melodia, sabe o quanto o ritmo importa.
 
 ![Trecho da crônica O Ovo de Gregório Duvivier](../../images/o-ovo.jpg)  
 _Trecho da crônica O Ovo, de Gregório Duvivier_

@@ -18,7 +18,7 @@ In September of the last year, a new feature was added to [Pitsby](https://pitsb
 }
 ```
 
-A few months later, an issue became evident. It was only possible to import modules from relative paths. In the case of absolute paths -- when a third-party code is imported from `node_modules` directory, for example -- it wasn't possible to go ahead.
+A few months later, an issue became evident. It was only possible to import modules from relative paths. In the case of absolute paths—when a third party code is imported from `node_modules` directory, for example—it wasn't possible to go ahead.
 
 Version `1.33.0` of Pitsby, launched this month, overcomes this limitation. Pitsby now supports scripts set as [*importmap*](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type/importmap), allowing users to tell Browsers how to resolve modules imported from absolute paths. It's worth noticing that Browser still does not support scripts set as importmap to come from external sources. So, in these cases, you need to inform Pitsby that the script should be inlined:
 

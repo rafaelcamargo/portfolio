@@ -7,7 +7,7 @@ keywords: clean, code
 
 This is one of the most famous books in the programming universe. Its fame seems only not to be bigger than the number of developers that still haven't read it. Some of them complain about the examples shown in the book to be written in Java, wrongly considering the language as an obstacle to understand what clean code is. I have also heard that clean code would be a utopia, that functions containing four or five statements would be reserved for the software development Olympus.
 
-The book, a few moments, may give excessive attention to not-so-pragmatic details, but much of it shares a pearl of unique wisdom. Below, I will highlight the pieces that better describe the path that leads to the clean code - from my point of view.
+The book, a few moments, may give excessive attention to *not-so-pragmatic* details, but much of it shares a pearl of unique wisdom. Below, I will highlight the pieces that better describe the leading path to clean code, from my point of view.
 
 ## Letter over numbers.
 
@@ -22,9 +22,9 @@ The book introduction gets started with the statement above. It seems to anticip
 >
 > [Clean Code](https://www.thriftbooks.com/w/clean-code-a-handbook-of-agile-software-craftsmanship-robert-c-martin-series_robert-c-martin/332840/#isbn=0132350882&idiq=10169803)
 
-Communication is a must-have skill to write clean code. Naming a variable is communication. Naming files is communication. Grouping files into directories is communication.
+Communication is a *must-have* skill to write clean code. Naming a variable is communication. Naming files is communication. Grouping files into directories is communication.
 
-Some time ago, I turned to a friend and said: *Do you know what I would like to do when I read code like this?* He asked me back: *What?* *I would like to pass my finger on the screen. It looks like Braille*, I answered. That file was plenty of single-letter variables.
+Some time ago, I turned to a friend and said: *Do you know what I would like to do when I read code like this?* He asked me back: *What?* *I would like to pass my finger on the screen. It looks like Braille*, I answered. That file was plenty of single letter variables.
 
 Do not be afraid of giving long names to your variables, functions, files, and directories. Be sure they have the meaning they need to have. One minute invested in a great name can save ten other minutes from who needs to understand it. One letter at a time. Never one letter only.
 
@@ -46,13 +46,13 @@ If at some point you find yourself writing a comment trying to better explain yo
 
 ## Edit brilliantly.
 
-*Red, Green, Blue*. This is an expression related to Test Driven Development - TDD. Those three colors represent the following development steps:
+*Red, Green, Blue*. This is an expression related to Test Driven Development (TDD). Those three colors represent the following development steps:
 
 - Red: Once you write a test before implementing it, the test fails when it runs for the first time.
 - Green: You iterate through the implementation up to the test succeed.
 - Blue: As soon as the test passes, you transform the code that only works into a code that works very well.
 
-After having a passing test, you have all the safety you need to re-read your code and make sure the names you have chosen are still making sense. If a couple lines of code can be removed. If the implementation could be cleaner. If you don’t hit the submit button as soon as you finish writing an email, why would you consider the implementation done as soon as it works?
+After having a passing test, you have all the safety you need to reread your code and make sure the names you have chosen are still making sense. If a couple lines of code can be removed. If the implementation could be cleaner. If you don’t hit the submit button as soon as you finish writing an email, why would you consider the implementation done as soon as it works?
 
 About the importance of editing, Jason Fried wrote [Eureka! We’re editors](https://signalvnoise.com/posts/2930-svn-flashback-eureka-were-editors), and Carolyn Cherry noticed it very well:
 

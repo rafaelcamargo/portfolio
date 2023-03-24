@@ -47,7 +47,7 @@ Se em algum momento você se pegar escrevendo um comentário na tentativa de mel
 
 ## Edite brilhantemente.
 
-*Red, Green, Blue*. Essa é o mantra do desenvolvimento orientado a testes - TDD. A tríade de cores significa as seguintes etapas de desenvolvimento:
+*Red, Green, Blue*. Essa é o mantra do desenvolvimento orientado a testes (TDD). A tríade de cores significa as seguintes etapas de desenvolvimento:
 
 - Red: Por ter escrito o teste antes da implementação, ele quebra ao ser rodado pela primeira vez.
 - Green: Você evolui a implementação até que o teste passe.

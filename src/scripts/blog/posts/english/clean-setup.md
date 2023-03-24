@@ -1,6 +1,6 @@
 title: Clean setup
 date: 2020-08-07
-description: Then you face the opportunity to walk through an untouchable and green field. A road still free from any obstacle. That is, it is time to start a new, promising and shining application from scratch. First step? Set it up, of course. That is the moment in which not-so-interesting decisions could rapidly make that green field yellow and drop the first stones over that clean road.
+description: Then you face the opportunity to walk through an untouchable and green field. A road still free from any obstacle. That is, it is time to start a new, promising and shining application from scratch. First step? Set it up, of course. That is the moment in which *not-so-interesting* decisions could rapidly make that green field yellow and drop the first stones over that clean road.
 keywords: setup, clean, aurelia, weather now
 
 ---

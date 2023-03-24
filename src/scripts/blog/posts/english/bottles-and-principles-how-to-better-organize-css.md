@@ -1,15 +1,15 @@
 title: Bottles and principles. How to better organize CSS.
 date: 2020-07-01
-description: Something curious about lots of the most popular programming concepts, principles and good practices is that they seem to disappear or, at least, keep distant, when the software we are talking about is a web-client, also known as a front-end application.
+description: Something curious about lots of the most popular programming concepts, principles and good practices is that they seem to disappear or, at least, keep distant, when the software we are talking about is a web client, also known as a front-end application.
 keywords: component, css, stylesheet, open-closed
 
 ---
 
-Something curious about lots of the most popular programming concepts, principles and good practices is that they seem to disappear or, at least, keep distant, when the software we are talking about is a web-client, also known as a front-end application.
+Something curious about lots of the most popular programming concepts, principles and good practices is that they seem to disappear or, at least, keep distant, when the software we are talking about is a web client, also known as a front-end application.
 
 Very few front-end projects that I have seen in my life had a minimum of logical dignity regarding how they organized code. Most of them were just a bunch of code lines highly interdependent with bad delimited responsibilities. A real mess that didn't get even close from any of the letters S.O.L.I.D.
 
-In the middle of that blurry and mysterious representation of what would be the web-client raises something that is likely the principal cause for the despair felt by who needs to maintain and improve that mess. Style sheets. Yes, CSS. I have met programmers that felt real terror for CSS. Among other lovely statements, I have already heard:
+In the middle of that blurry and mysterious representation of what would be the web client raises something that is likely the principal cause for the despair felt by who needs to maintain and improve that mess. Style sheets. Yes, CSS. I have met programmers that felt real terror for CSS. Among other lovely statements, I have already heard:
 
 *(a) Pure s... (b) Very easy to f... that all (c) CSS is like Lego. If you start it wrong, it gets hard to change the pieces after some later s... has been made (d) F..... confusing.*
 
@@ -65,7 +65,7 @@ Done!
 
 To make things easier to understand, ignore for now the several different colors wines could be. The most important thing here is that the bottle didn't get modified. Doing so, wherever I put a bottle in my system, it will always look the same. This same warranty should exist for the wine bottle and for any other object you create.
 
-Also, notice that following the *Open-Closed* principle, you automatically dose your selector specificity at the exact weight for your necessity. That is an essential requirement to keep the bottle and the wine-bottle open for extension. If you over-specify your selectors, you may end up blocking the extension and, that way, violating the principle.
+Also, notice that following the *Open-Closed* principle, you automatically dose your selector specificity at the exact weight for your necessity. That is an essential requirement to keep the bottle and the wine-bottle open for extension. If you *overspecify* your selectors, you may end up blocking the extension and, that way, violating the principle.
 
 ## Variations of the same object
 

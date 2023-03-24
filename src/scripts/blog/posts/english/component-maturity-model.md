@@ -9,7 +9,7 @@ Think you are a programmer, a front-end programmer. You collaborate with the dev
 
 You could be sharing something you learned on your latest reading, making a suggestion about the way of developing user interfaces, or just making a joke. Regardless of what you were doing, at the moment you finished to pronounce the last syllable of that much simple word called *component*, something complex is gonna start to happen.
 
-The designers will invoke the powers of the Design System god, blessed with the glory of the Atomic Design and baptized with each variable contained in his set of Design Tokens. The Product Owner, bewitched by the reusability magic - and suffocated by the Gantt chart that demands him to ship dozens of new features - will ask you a thousand times: *So does it allow us to deliver more features in less time?* Finally, the back-end programmer will say nothing more than: *I already used Bootstrap once. I hate CSS*.
+The designers will invoke the powers of the Design System god, blessed with the glory of the Atomic Design and baptized with each variable contained in his set of Design Tokens. The Product Owner, bewitched by the reusability magic, and suffocated by the Gantt chart that demands him to ship dozens of new feature, will ask you a thousand times: *So does it allow us to deliver more features in less time?* Finally, the back-end programmer will say nothing more than: *I already used Bootstrap once. I hate CSS*.
 
 Even though it has just three syllables, the word *component* causes zillions of different interpretations and expectations. So easy to say it, so hard to define it.
 
@@ -42,7 +42,7 @@ Welcome to the chaos. At this level, anyone of those zillions of different inter
 </div>
 ```
 
-A generic button for uploading files got coupled to a stylesheet already connected to a business domain - *finance*. Markup and logic are not encapsulated and will be replicated with other classes and markup on every part of the system that needs a file upload button.
+A generic button for uploading files got coupled to a stylesheet already connected to a business domain (*finance*). Markup and logic are not encapsulated and will be replicated with other classes and markup on every part of the system that needs a file upload button.
 
 ## Level One: CSS Components
 
@@ -95,6 +95,6 @@ Welcome, productivity! This is the stage in which everything, absolutely everyth
 </my-button>
 ```
 
-The custom element above - *my-button* - is the single part of the system where anything related to all application buttons is handled.
+The custom element above, *my-button*, is the single part of the system where anything related to all application buttons is handled.
 
 As you can see, that one-and-only definition, I really cannot offer at this time. But I hope these three levels of maturity may help you to explain to your workmates what kind of components are you talking about, what maturity level you expected to have and which level you would like to reach.

@@ -10,7 +10,7 @@ Pense que você é um programador, um programador front-end. Você colabora com 
 
 Você poderia estar compartilhando algo que você aprendeu em sua mais recente leitura, sugerindo outra maneira de desenvolver a interface gráfica ou estar fazendo apenas uma piada mesmo. Independentemente do que você estava fazendo, no exato momento em que você terminar de pronunciar a última sílaba desta palavra tão simples chamada *componente*, algo muito complexo vai começar a acontecer.
 
-O designer vai invocar os poderes do deus Design System, ungido pela glória do Design Atômico e batizado com cada uma das variáveis de seu conjunto de Design Tokens. O Product Owner, enfeitiçado pela magia da reusabilidade - e asfixiado pelo gráfico de Gantt que lhe cobra a entrega de dezenas de novas funcionalidades - o indagará repetidas vezes: *Então seria possível entregar mais telas em menos tempo?*. E, por fim, o programador back-end se limitará a dizer: *Já usei Bootstrap uma vez. Odeio CSS*.
+O designer vai invocar os poderes do deus Design System, ungido pela glória do Design Atômico e batizado com cada uma das variáveis de seu conjunto de Design Tokens. O Product Owner, enfeitiçado pela magia da reusabilidade—e asfixiado pelo gráfico de Gantt que lhe cobra a entrega de dezenas de novas funcionalidades—o indagará repetidas vezes: *Então seria possível entregar mais telas em menos tempo?*. E, por fim, o programador back-end se limitará a dizer: *Já usei Bootstrap uma vez. Odeio CSS*.
 
 Embora tenha apenas quatro sílabas, a palavra *componente* provoca zilhões de diferentes interpretações e expectativas. Uma palavra tão fácil de pronunciar e tão difícil de definir.
 
@@ -43,7 +43,7 @@ Bem vindos ao caos. Nesse nível, qualquer uma daquelas zilhões de interpretaç
 </div>
 ```
 
-Um botão genérico de upload de arquivo foi acoplado a uma folha de estilo já relacionada a um domínio de negócio - *finance*. Comportamento e marcação não estão encapsulados e serão replicados usando outras classes e outra marcação onde quer que o botão seja utilizado novamente.
+Um botão genérico de upload de arquivo foi acoplado a uma folha de estilo já relacionada a um domínio de negócio (*finance*). Comportamento e marcação não estão encapsulados e serão replicados usando outras classes e outra marcação onde quer que o botão seja utilizado novamente.
 
 ## Nível Um: Componentes CSS
 
@@ -96,6 +96,6 @@ Seja muito bem vinda, produtividade! Esse é o estágio onde tudo, absolutamente
 </my-button>
 ```
 
-O custom element acima - *my-button* - é a única parte do sistema onde qualquer coisa relacionada a todos os botões da aplicação é tratada.
+O custom element acima, *my-button*, é a única parte do sistema onde qualquer coisa relacionada a todos os botões da aplicação é tratada.
 
 Pois bem, a definição de componentes única e retumbante eu vou ficar te devendo, mas espero que essas três possam servir de base para explicar aos seus colegas de qual nível de componentes vocês estão falando, qual nível de maturidade vocês esperavam ter e qual nível gostariam de alcançar.
