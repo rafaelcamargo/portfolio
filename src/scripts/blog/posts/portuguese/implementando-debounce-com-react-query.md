@@ -16,7 +16,7 @@ Um exemplo frequente de repique que culmina em requisições desnecessárias é 
 
 A biblioteca React Query oferece algumas facilidades para quem precisa gerenciar requisições feitas por uma aplicação React. Por padrão, ela previne requisições simultâneas para um mesmo recurso e faz cache de uma resposta a partir de um simples parâmetro passado opcionalmente a uma *query*.
 
-Entretanto, a prevenção de repiques, ou *debounce*, é uma solução que não vem embutida na biblioteca, e, nesse caso, precisamos embrulhá-la numa simples abstração que satisfaça também essa necessidade. O exemplo a seguir sugere uma maneira de estender a biblioteca, adicionando a nova funcionalidade com menos de quarenta linhas de código:
+Entretanto, a prevenção de repiques, ou *debounce*, é uma solução que não vem embutida na biblioteca, e, nesse caso, precisamos embrulhá-la numa simples abstração que satisfaça também essa necessidade. O exemplo a seguir sugere uma maneira de estender a biblioteca, adicionando a nova funcionalidade com pouco mais de vinte linhas de código:
 
 ``` javascript
 import { useState, useEffect } from 'react';

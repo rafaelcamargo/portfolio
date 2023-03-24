@@ -15,7 +15,7 @@ A frequent case of a *bounce* that fires unnecessary requests is filtering a lis
 
 The React Query library offers some benefits for those who need to manage requests within a React application. By default, it prevents simultaneous requests to the same resource and is able to cache responses as easily as passing a simple parameter to the query.
 
-However, debouncing is an advantage not brought by React Query, unfortunately. So we need to wrap it in a simple abstraction able to satisfy that necessity too. The following example suggests a way of extending React Query to add the new functionality with less than forty lines of code:
+However, debouncing is an advantage not brought by React Query, unfortunately. So we need to wrap it in a simple abstraction able to satisfy that necessity too. The following example suggests a way of extending React Query to add the new functionality with little more than twenty lines of code:
 
 ``` javascript
 import { useState, useEffect } from 'react';
