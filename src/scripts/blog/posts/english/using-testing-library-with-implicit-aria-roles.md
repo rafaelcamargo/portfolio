@@ -1,6 +1,6 @@
 title: Using Testing Library with implicit ARIA roles
 date: 2023-03-27
-description: Semantic HTML ensures neat structure and good accessibility o the document. Testing Library’s getByRole function is very helpful with this, but, not knowing elements’ implicit roles, its use can become a huge hurdle.
+description: Semantic HTML ensures neat structure and good accessibility to the document. Testing Library’s getByRole function is very helpful with this, but, not knowing elements’ implicit roles, its use can become a huge hurdle.
 keywords: getByRole, testing library, aria-role, role, implicit
 
 ---
