@@ -23,9 +23,8 @@
     },
     methods: {
       onSubmit(){
-        return axios.post('https://app.fakejson.com/q', {
-          token: '_WbOFuL1TtNQ5LEm0ot-nQ',
-          data: this.data,
+        return new Promise(resolve => {
+          setTimeout(resolve, 1000);
         });
       },
       onSubmitSuccess(){
