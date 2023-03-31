@@ -1,4 +1,4 @@
-import '@glorious/taslonic/taslonic.css';
+import '@glorious/taslonic-react/dist/taslonic.css';
 import '@styles/_native.styl';
 import '@styles/_taslonic.styl';
 import React from 'react';

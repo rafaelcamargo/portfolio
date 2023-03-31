@@ -1,7 +1,7 @@
 import '@styles/contact-form.styl';
 import ENV from '@environment';
 import React, { useState } from 'react';
-import { Row, Col, Button, Field, Form, Input, Textarea } from '@glorious/taslonic/react';
+import { Row, Col, Button, Field, Form, Input, Textarea } from '@glorious/taslonic-react';
 import emailService from '@scripts/base/services/email/email';
 import contactResource from '@scripts/contact/resources/contacts';
 

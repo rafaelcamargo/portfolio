@@ -1,6 +1,6 @@
 import '@styles/tool-list.styl';
 import React from 'react';
-import { Tag } from '@glorious/taslonic/react';
+import { Tag } from '@glorious/taslonic-react';
 import categories from '@scripts/tools/data/categories'
 import toolService from '@scripts/tools/services/tool/tool';
 

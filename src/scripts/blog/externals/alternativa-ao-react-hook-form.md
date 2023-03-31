@@ -44,7 +44,7 @@ Trocando o React Hook Form pelo **Taslonic**, esse mesmo formulário seria escri
 
 ``` jsx
 import React, { useState } from 'react';
-import { Form, Field, Input, Button } from '@glorious/taslonic/react';
+import { Form, Field, Input, Button } from '@glorious/taslonic-react';
 
 export const NewsletterForm = () => {
   const [data, setData] = useState({})

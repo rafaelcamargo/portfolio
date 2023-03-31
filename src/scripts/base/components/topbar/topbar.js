@@ -1,6 +1,6 @@
 import '@styles/topbar.styl';
 import React from 'react';
-import { Container } from '@glorious/taslonic/react';
+import { Container } from '@glorious/taslonic-react';
 import { Button } from '@scripts/base/components/button/button';
 import { Logo } from '@scripts/base/components/logo/logo';
 import { Menu } from '@scripts/base/components/menu/menu';

@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { Container } from '@glorious/taslonic/react';
+import { Container } from '@glorious/taslonic-react';
 import { Topbar } from '@scripts/base/components/topbar/topbar';
 import sidebarState from '@scripts/base/components/sidebar/sidebar.state';
 

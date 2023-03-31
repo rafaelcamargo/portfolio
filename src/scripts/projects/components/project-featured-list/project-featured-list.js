@@ -1,6 +1,6 @@
 import '@styles/project-featured-list.styl';
 import React from 'react';
-import { Tag } from '@glorious/taslonic/react';
+import { Tag } from '@glorious/taslonic-react';
 import projects from '@scripts/projects/data/featured-projects.json';
 
 export const ProjectFeaturedList = () => {

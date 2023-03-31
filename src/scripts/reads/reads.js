@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from '@glorious/taslonic/react';
+import { Row, Col } from '@glorious/taslonic-react';
 import { CtaLink } from '@scripts/base/components/cta-link/cta-link';
 import { Hero } from '@scripts/base/components/hero/hero';
 import { Section } from '@scripts/base/components/section/section';

@@ -40,9 +40,9 @@ The form creation experience was the true motivation behind [Taslonic](https://t
 
 Explore this example of a newsletter form made with Taslonic.
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glorious/taslonic/taslonic.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glorious/taslonic-vue/dist/taslonic.css">
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@glorious/taslonic/vue/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@glorious/taslonic-vue/dist/index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/axios@0.21.1/dist/axios.min.js"></script>
 <div data-root style="margin-bottom: 100px">
   <t-row align="center" offset-xs="10">

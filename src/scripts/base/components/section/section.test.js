@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { Container } from '@glorious/taslonic/react';
+import { Container } from '@glorious/taslonic-react';
 import { Section } from '@scripts/base/components/section/section';
 
 describe('Hello', () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { Form, Input, Textarea } from '@glorious/taslonic/react';
+import { Form, Input, Textarea } from '@glorious/taslonic-react';
 import { ContactForm } from '@scripts/contact/components/contact-form/contact-form';
 import contactResource from '@scripts/contact/resources/contacts';
 

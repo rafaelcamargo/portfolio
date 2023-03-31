@@ -1,6 +1,6 @@
 import '@styles/section.styl';
 import React, { Component } from 'react';
-import { Container } from '@glorious/taslonic/react';
+import { Container } from '@glorious/taslonic-react';
 
 const BASE_CLASS_NAME = 'r-section';
 
