@@ -13,11 +13,11 @@ Existem algumas maneiras de excluir mais de uma *tag* de uma só vez. A maneira 
 
 Se você precisar excluir algumas poucas *tags*, você pode passá-las diretamente:
 ```
-git tag -d <tag1> <tag2> <tag3> ...
+git tag -d <tag1> <tag2> <tag3> …
 ```
 O comando acima excluirá do seu repositório Git local todas as *tags* listadas. Para alcançar o mesmo resultado no seu repositório remoto, execute:
 ```
-git push -d <remote> <tag1> <tag2> <tag3> ...
+git push -d <remote> <tag1> <tag2> <tag3> …
 ```
 
 Caso a quantidade de *tags* seja grande demais para que você as informe uma a uma, é possível obtê-las filtrando as *tags* existentes a partir de um termo.
@@ -33,7 +33,7 @@ v0.6.0
 testing0.6.0-a
 testing0.6.0-b
 testing0.6.0-c
-...
+…
 testing0.6.0-z
 ```
 

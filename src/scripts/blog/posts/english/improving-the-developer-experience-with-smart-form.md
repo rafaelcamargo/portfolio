@@ -19,7 +19,7 @@ Translating my dream to HTML, we'd have something like this:
 
 ``` html
 <form
-  onsubmit="() => axios.post(...)"
+  onsubmit="() => axios.post(…)"
   success-message="Alright, thank you!"
   error-message="Something went wrong. Please, try again."
 >

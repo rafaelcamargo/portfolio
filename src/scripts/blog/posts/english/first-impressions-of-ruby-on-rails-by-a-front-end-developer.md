@@ -17,7 +17,7 @@ After getting the project's structure ready, it was time to write the first auto
 
 However, none of the above obstacles can be compared to the act of writing *User* in a controller and wondering for minutes how Rails knows what that variable means even though I haven't imported any file at all. I'm not sure if it's the way that happens to everybody else, but I got introduced to the *auto-loading* with the following error: *uninitialized constant ApplicationController::JsonWebToken*. This was the message that ended up leading me to the explanations I needed so much:
 
-> In a normal Ruby program, dependencies need to be loaded by hand ... This is not the case in Rails applications, where application classes and modules are just available everywhere. Idiomatic Rails applications only issue require calls to load stuff from their lib directory, the Ruby standard library, Ruby gems, etc.
+> In a normal Ruby program, dependencies need to be loaded by hand … This is not the case in Rails applications, where application classes and modules are just available everywhere. Idiomatic Rails applications only issue require calls to load stuff from their lib directory, the Ruby standard library, Ruby gems, etc.
 >
 > [Autoloading and Reloading Constants](https://guides.rubyonrails.org/autoloading_and_reloading_constants.html)
 

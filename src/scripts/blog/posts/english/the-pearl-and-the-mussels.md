@@ -9,7 +9,7 @@ Octocash. That was the name of the product that I, and two colleagues, launched 
 
 ## Mussels
 
-Still disappointed, we started to figure out the possible reasons that dared to drain our ocean of optimism. The bets have started. Most of them pointed out a missing feature as the principal cause. *Users do not convert because the product don't do this. Users do not convert because the product don't do that...* Very quickly, we had a big pile of work to do. The more we discussed, the more features we would like the product to have. We believed that with each new feature added to the product, we would be increasing the chances of someone to pay for it.
+Still disappointed, we started to figure out the possible reasons that dared to drain our ocean of optimism. The bets have started. Most of them pointed out a missing feature as the principal cause. *Users do not convert because the product don't do this. Users do not convert because the product don't do that…* Very quickly, we had a big pile of work to do. The more we discussed, the more features we would like the product to have. We believed that with each new feature added to the product, we would be increasing the chances of someone to pay for it.
 
 Given that long list of feature to do, and not believing that we would be delivering anything that competitors did not already do, I decided to quit the project. Even though we were very excited, I concluded that a complete lack of understanding about the problem made us unable to deliver anything that would delight our customers. We were trying to convince ourselves that the product could succeed by gathering as many mussels as possible, not noticing that we had no pearls to offer.
 

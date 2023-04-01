@@ -6,7 +6,7 @@ lang: pt-BR
 
 ---
 
-Tirando o fuso horário, data é talvez a pior coisa com a qual um programador tem que lidar. Meses com quantidade de dias variados, um deles sem sequer ter trinta dias, o ano não dura nem 370 dias, nem 360, dura 365, mas nem sempre. Pense na tarefa de subtrair cinco dias. Cinco dias *úteis* ou *regulares*? Feriado conta? Se a conta começar no segundo dia do mês, o resultado cai no mês anterior. E se o ano for bissexto, o mês anterior pode ter um dia a mais... O formato da data não fica pra trás. Dia, mês, ano? Mês, dia, ano? Separados com vírgula, barra ou traço?
+Tirando o fuso horário, data é talvez a pior coisa com a qual um programador tem que lidar. Meses com quantidade de dias variados, um deles sem sequer ter trinta dias, o ano não dura nem 370 dias, nem 360, dura 365, mas nem sempre. Pense na tarefa de subtrair cinco dias. Cinco dias *úteis* ou *regulares*? Feriado conta? Se a conta começar no segundo dia do mês, o resultado cai no mês anterior. E se o ano for bissexto, o mês anterior pode ter um dia a mais… O formato da data não fica pra trás. Dia, mês, ano? Mês, dia, ano? Separados com vírgula, barra ou traço?
 
 Triven é um [gerador de blog estático baseado em Markdown com suporte deslumbrante a múltiplos idiomas](/blog/gerando-um-blog-multi-idiomas-baseado-em-markdown). Enquanto criava sua primeira versão, os formatos definidos para data foram MM/DD/YYYY, para publicações no idioma estadounidense, e DD/MM/YYYY para publicações nos demais idiomas. Optei por essa estratégia porque ela não exigia nada mais que a própria data já informada pelo usuário no arquivo markdown da publicação. Porém, a incapacidade de apresentar datas num formato mais amigável, me deixava insatisfeito.
 

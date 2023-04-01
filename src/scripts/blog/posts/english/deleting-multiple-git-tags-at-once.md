@@ -12,12 +12,12 @@ There are some ways of deleting more than one tag at once. The most straightforw
 
 If you need to delete a few tags, you can pass them directly:
 ```
-git tag -d <tag1> <tag2> <tag3> ...
+git tag -d <tag1> <tag2> <tag3> …
 ```
 
 The above command will delete all the listed tags from your local Git repository. To achieve the same result in your remote repository, run:
 ```
-git push -d <remote> <tag1> <tag2> <tag3> ...
+git push -d <remote> <tag1> <tag2> <tag3> …
 ```
 If the amount of tags is too big to list them one by one, it's possible to list them by filtering all the existing tags by term.
 
@@ -32,7 +32,7 @@ v0.6.0
 testing0.6.0-a
 testing0.6.0-b
 testing0.6.0-c
-...
+…
 testing0.6.0-z
 ```
 

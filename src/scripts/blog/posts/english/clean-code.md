@@ -18,7 +18,7 @@ The book introduction gets started with the statement above. It seems to anticip
 
 ## One letter at a time.
 
-> The ratio of time spent reading vs. writing is well over 10:1. We are constantly reading old code as part of the effort to write new code. [...] You cannot write code if you cannot read the surrounding code. [...] So if you want to go fast, if you want to get done quickly, if you want your code to be easy to write, make it easy to read.
+> The ratio of time spent reading vs. writing is well over 10:1. We are constantly reading old code as part of the effort to write new code. […] You cannot write code if you cannot read the surrounding code. […] So if you want to go fast, if you want to get done quickly, if you want your code to be easy to write, make it easy to read.
 >
 > [Clean Code](https://www.thriftbooks.com/w/clean-code-a-handbook-of-agile-software-craftsmanship-robert-c-martin-series_robert-c-martin/332840/#isbn=0132350882&idiq=10169803)
 

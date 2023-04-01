@@ -11,7 +11,7 @@ Very few front-end projects that I have seen in my life had a minimum of logical
 
 In the middle of that blurry and mysterious representation of what would be the web client raises something that is likely the principal cause for the despair felt by who needs to maintain and improve that mess. Style sheets. Yes, CSS. I have met programmers that felt real terror for CSS. Among other lovely statements, I have already heard:
 
-*(a) Pure s... (b) Very easy to f... that all (c) CSS is like Lego. If you start it wrong, it gets hard to change the pieces after some later s... has been made (d) F..... confusing.*
+*(a) Pure s… (b) Very easy to f… that all (c) CSS is like Lego. If you start it wrong, it gets hard to change the pieces after some later s… has been made (d) F…. confusing.*
 
 Some developers blame the global nature of CSS. Others attack what they judge to be a universe of indecipherable symbols and relations. Even another part of them complains they cannot position a button at the exact place the designer would like in a fashion that mixes begging and despair.
 
