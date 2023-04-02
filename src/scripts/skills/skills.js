@@ -39,7 +39,7 @@ export const Skills = () => {
               disappointing.
             </p>
             <p>
-              Before becoming a programmer, I worked as a graphic designer for
+              Before becoming a software developer, I worked as a graphic designer for
               over seven years. I created logotypes, packages, websites,
               advertisements, and animations. My biggest skill as a programmer
               is not to be a programmer only.
