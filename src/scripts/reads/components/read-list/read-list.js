@@ -4,14 +4,14 @@ import readService from '@scripts/reads/services/read/read';
 import dateService from '@scripts/base/services/date/date';
 
 export const ReadList = () => {
-  const reads = groupReadsByMonth(readService.get());
+  const reads = convertToDescendingOrderedList(groupReadsByMonth(readService.get()));
   return (
     <ul className="r-read-list">
-      {Object.keys(reads).map(monthString => (
-        <li key={monthString} className="r-read-list-group" data-read-group>
-          <h2>{buildGroupTitle(monthString)}</h2>
+      {reads.map(({ group_key, books }) => (
+        <li key={group_key} className="r-read-list-group" data-read-group>
+          <h2>{buildGroupTitle(group_key)}</h2>
           <ul>
-            {reads[monthString].map(({ title, author }, index) => (
+            {books.map(({ title, author }, index) => (
               <li key={index}>
                 <h3>{title}</h3>
                 <p>{author}</p>
@@ -45,4 +45,19 @@ function getGroupByKey(groups, key){
 
 function buildGroupTitle(monthString){
   return dateService.formatMonthDescriptively(monthString);
+}
+
+function convertToDescendingOrderedList(groupsObject){
+  return orderListAsDescending(
+    convertToList(groupsObject).map(group => ({ ...group, books: orderListAsDescending(group.books, 'read_on') })),
+    'group_key'
+  );
+}
+
+function convertToList(groupsObject){
+  return Object.entries(groupsObject).map(([group_key, books]) => ({ group_key, books }))
+}
+
+function orderListAsDescending(list, attrName){
+  return list.sort((a, b) => a[attrName] < b[attrName] ? 1 : -1);
 }

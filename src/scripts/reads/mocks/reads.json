@@ -45,42 +45,48 @@
     "title": "Several short sentences about writing",
     "author": "Verlyn Klinkenborg",
     "url": "https://www.amazon.com/gp/product/0307279413",
-    "read_on": "2021-12"
+    "read_on": "2021-12-12"
   },
   "how_to_live": {
     "title": "How to Live",
     "author": "Derek Sivers",
     "url": "https://sive.rs/h",
-    "read_on": "2021-11"
+    "read_on": "2021-11-30"
   },
   "encontros": {
     "title": "Encontros",
     "author": "Ailton Krenak",
     "url": "https://www.amazon.com.br/Ailton-Krenak-Encontros-Sergio-Cohn/dp/8579201675",
-    "read_on": "2021-11"
+    "read_on": "2021-11-25"
   },
   "o_carater_educativo_do_movimento_indigena_brasileiro_1970_1990": {
     "title": "O caráter educativo do movimento indígena brasileiro: 1970-1990",
     "author": "Daniel Munduruku",
     "url": "https://www.amazon.com.br/Car%25C3%25A1ter-Educativo-Movimento-Ind%25C3%25ADgena-Brasileiro/dp/8535633049",
-    "read_on": "2021-11"
+    "read_on": "2021-11-23"
   },
   "historias_de_indio": {
     "title": "Histórias de índio",
     "author": "Daniel Munduruku",
     "url": "https://www.amazon.com.br/Hist%25C3%25B3rias-%25C3%25ADndio-Daniel-Munduruku/dp/858546660X",
-    "read_on": "2021-11"
+    "read_on": "2021-11-20"
   },
   "como_surgiu": {
     "title": "Como surgiu",
     "author": "Daniel Munduruku",
     "url": "https://www.amazon.com.br/Como-Surgiu-Mitos-Ind%25C3%25ADgenas-Brasileiros/dp/8574165905",
-    "read_on": "2021-11"
+    "read_on": "2021-11-12"
+  },
+  "1984": {
+    "title": "1984",
+    "author": "George Orwell",
+    "url": "https://www.amazon.com.br/dp/0008460981",
+    "read_on": "2021-11-10"
   },
   "o_homem_que_roubava_horas": {
     "title": "O homem que roubava horas",
     "author": "Daniel Munduruku",
     "url": "https://www.amazon.com.br/Homem-que-Roubava-Horas/dp/8574121746",
-    "read_on": "2021-11"
+    "read_on": "2021-11-05"
   }
 }

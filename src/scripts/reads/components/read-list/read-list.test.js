@@ -29,10 +29,12 @@ describe('Read List', () => {
     expect(groups.at(0).find('p').at(0).text()).toEqual('George Monboit');
     expect(groups.at(0).find('h3').at(2).text()).toEqual('As intermitências da morte');
     expect(groups.at(0).find('p').at(2).text()).toEqual('José Saramago');
-    expect(groups.at(2).find('h3')).toHaveLength(6)
+    expect(groups.at(2).find('h3')).toHaveLength(7)
     expect(groups.at(2).find('h3').at(0).text()).toEqual('How to Live');
     expect(groups.at(2).find('p').at(0).text()).toEqual('Derek Sivers');
-    expect(groups.at(2).find('h3').at(5).text()).toEqual('O homem que roubava horas');
-    expect(groups.at(2).find('p').at(5).text()).toEqual('Daniel Munduruku');
+    expect(groups.at(2).find('h3').at(5).text()).toEqual('1984');
+    expect(groups.at(2).find('p').at(5).text()).toEqual('George Orwell');
+    expect(groups.at(2).find('h3').at(6).text()).toEqual('O homem que roubava horas');
+    expect(groups.at(2).find('p').at(6).text()).toEqual('Daniel Munduruku');
   });
 });
