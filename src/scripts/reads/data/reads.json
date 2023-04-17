@@ -71,12 +71,6 @@
     "url": "https://www.amazon.com.br/Nada-me-faltar%C3%A1-Louren%C3%A7o-Mutarelli/dp/8535917403",
     "reading_on": "2023-04"
   },
-  "o_homem_que_matou_o_escritor": {
-    "title": "O homem que matou o escritor",
-    "author": "Sérgio Rodrigues",
-    "url": "https://www.amazon.com.br/homem-matou-escritor-Edi%C3%A7%C3%A3o-bolso/dp/6559212017",
-    "reading_on": "2023-04"
-  },
   "o_homem_duplicado": {
     "title": "O homem duplicado",
     "author": "José Saramago",
@@ -88,6 +82,12 @@
     "author": "Nastassja Martin",
     "url": "https://www.amazon.com.br/Escute-as-feras-Nastassja-Martin/dp/6555250828",
     "reading_on": "2023-04"
+  },
+  "o_homem_que_matou_o_escritor": {
+    "title": "O homem que matou o escritor",
+    "author": "Sérgio Rodrigues",
+    "url": "https://www.amazon.com.br/homem-matou-escritor-Edi%C3%A7%C3%A3o-bolso/dp/6559212017",
+    "read_on": "2023-04-16"
   },
   "latim_em_po": {
     "title": "Latim em Pó",
