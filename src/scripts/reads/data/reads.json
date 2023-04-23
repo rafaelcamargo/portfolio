@@ -17,6 +17,18 @@
     "url": "https://www.amazon.com/Artificial-Intelligence-Basics-Non-Technical-Introduction/dp/1484250273",
     "reading_on": "2023-06"
   },
+  "lord_of_the_flies": {
+    "title": "Lord of the Flies",
+    "author": "William Golding",
+    "url": "https://www.amazon.com.br/Lord-Flies-Introduced-Stephen-King/dp/0571371728",
+    "reading_on": "2023-06"
+  },
+  "brave_new_world": {
+    "title": "Brave New World",
+    "author": "Huxley Aldous",
+    "url": "https://www.amazon.com.br/Brave-New-World-Aldous-Huxley/dp/0099477467",
+    "reading_on": "2023-06"
+  },
   "a_nausea": {
     "title": "A náusea",
     "author": "Jean Paul Sartre",
@@ -75,7 +87,7 @@
     "title": "Escute as feras",
     "author": "Nastassja Martin",
     "url": "https://www.amazon.com.br/Escute-as-feras-Nastassja-Martin/dp/6555250828",
-    "reading_on": "2023-04"
+    "read_on": "2023-04-22"
   },
   "entre_quatro_paredes": {
     "title": "Entre quatro paredes",
