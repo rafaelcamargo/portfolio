@@ -17,16 +17,10 @@
     "url": "https://www.amazon.com/Artificial-Intelligence-Basics-Non-Technical-Introduction/dp/1484250273",
     "reading_on": "2023-06"
   },
-  "lord_of_the_flies": {
-    "title": "Lord of the Flies",
-    "author": "William Golding",
-    "url": "https://www.amazon.com.br/Lord-Flies-Introduced-Stephen-King/dp/0571371728",
-    "reading_on": "2023-06"
-  },
-  "brave_new_world": {
-    "title": "Brave New World",
-    "author": "Huxley Aldous",
-    "url": "https://www.amazon.com.br/Brave-New-World-Aldous-Huxley/dp/0099477467",
+  "o_drible": {
+    "title": "O drible",
+    "author": "Sérgio Rodrigues",
+    "url": "https://www.amazon.com.br/drible-S%C3%A9rgio-Rodrigues/dp/8535923268",
     "reading_on": "2023-06"
   },
   "a_nausea": {
@@ -53,10 +47,16 @@
     "url": "https://www.amazon.com.br/Catcher-Rye-J-D-Salinger/dp/0316769487",
     "reading_on": "2023-05"
   },
-  "o_drible": {
-    "title": "O drible",
-    "author": "Sérgio Rodrigues",
-    "url": "https://www.amazon.com.br/drible-S%C3%A9rgio-Rodrigues/dp/8535923268",
+  "lord_of_the_flies": {
+    "title": "Lord of the Flies",
+    "author": "William Golding",
+    "url": "https://www.amazon.com.br/Lord-Flies-Introduced-Stephen-King/dp/0571371728",
+    "reading_on": "2023-05"
+  },
+  "brave_new_world": {
+    "title": "Brave New World",
+    "author": "Huxley Aldous",
+    "url": "https://www.amazon.com.br/Brave-New-World-Aldous-Huxley/dp/0099477467",
     "reading_on": "2023-05"
   },
   "keep_the_aspidistra_flying": {
@@ -65,23 +65,23 @@
     "url": "https://www.amazon.com.br/Keep-Aspidistra-Flying-George-Orwell/dp/9390575400",
     "reading_on": "2023-05"
   },
-  "a_brief_guide_to_artificial_intelligence": {
-    "title": "A Brief Guide to Artificial Intelligence",
-    "author": "James Stone",
-    "url": "https://www.amazon.com.br/gp/product/1916279112",
-    "reading_on": "2023-05"
-  },
   "nada_me_faltara": {
     "title": "Nada me faltará",
     "author": "Lourenço Mutarelli",
     "url": "https://www.amazon.com.br/Nada-me-faltar%C3%A1-Louren%C3%A7o-Mutarelli/dp/8535917403",
-    "reading_on": "2023-04"
+    "reading_on": "2023-05"
+  },
+  "a_brief_guide_to_artificial_intelligence": {
+    "title": "A Brief Guide to Artificial Intelligence",
+    "author": "James Stone",
+    "url": "https://www.amazon.com.br/gp/product/1916279112",
+    "read_on": "2023-04-26"
   },
   "o_homem_duplicado": {
     "title": "O homem duplicado",
     "author": "José Saramago",
     "url": "https://www.amazon.com.br/homem-duplicado-Nova-edi%C3%A7%C3%A3o/dp/8535930361",
-    "reading_on": "2023-04"
+    "read_on": "2023-04-25"
   },
   "escute_as_feras": {
     "title": "Escute as feras",
