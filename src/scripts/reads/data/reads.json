@@ -35,6 +35,12 @@
     "url": "https://www.amazon.com.br/muro-Jean-Paul-Sartre/dp/6556402184",
     "reading_on": "2023-06"
   },
+  "keep_the_aspidistra_flying": {
+    "title": "Keep the Aspidistra Flying",
+    "author": "George Orwell",
+    "url": "https://www.amazon.com.br/Keep-Aspidistra-Flying-George-Orwell/dp/9390575400",
+    "reading_on": "2023-05"
+  },
   "o_homem_que_falava_javanes": {
     "title": "O homem que falava javanês",
     "author": "Lima Barreto",
@@ -59,17 +65,11 @@
     "url": "https://www.amazon.com.br/Brave-New-World-Aldous-Huxley/dp/0099477467",
     "reading_on": "2023-05"
   },
-  "keep_the_aspidistra_flying": {
-    "title": "Keep the Aspidistra Flying",
-    "author": "George Orwell",
-    "url": "https://www.amazon.com.br/Keep-Aspidistra-Flying-George-Orwell/dp/9390575400",
-    "reading_on": "2023-05"
-  },
   "nada_me_faltara": {
     "title": "Nada me faltará",
     "author": "Lourenço Mutarelli",
     "url": "https://www.amazon.com.br/Nada-me-faltar%C3%A1-Louren%C3%A7o-Mutarelli/dp/8535917403",
-    "reading_on": "2023-05"
+    "read_on": "2023-04-27"
   },
   "a_brief_guide_to_artificial_intelligence": {
     "title": "A Brief Guide to Artificial Intelligence",
