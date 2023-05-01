@@ -58,7 +58,7 @@
   },
   "dependencies": {
     "@glorious/analytics": "^0.3.0",
-    "@glorious/taslonic-react": "^1.0.1",
+    "@glorious/taslonic-react": "^1.1.1",
     "axios": "^0.21.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",

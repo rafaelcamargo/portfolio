@@ -9,7 +9,7 @@ const project = require('./project.json');
 
 module.exports = {
   mode: 'production',
-  devtool: 'cheap-source-map',
+  devtool: 'source-map',
   output: {
     filename: project.scripts.dist.filename.prod
   },
@@ -28,7 +28,6 @@ module.exports = {
     ]
   },
   plugins: [
-    new webpack.SourceMapDevToolPlugin(),
     new MiniCssExtractPlugin({
       filename: project.styles.dist.filename.prod
     }),
