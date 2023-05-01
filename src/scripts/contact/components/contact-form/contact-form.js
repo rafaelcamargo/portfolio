@@ -5,8 +5,14 @@ import { Row, Col, Button, Field, Form, Input, Textarea } from '@glorious/taslon
 import emailService from '@scripts/base/services/email/email';
 import contactResource from '@scripts/contact/resources/contacts';
 
+const NAME_FIELD_NAME = 'name';
+const EMAIL_FIELD_NAME = 'email';
+const SUBJECT_FIELD_NAME = 'subject';
+const MESSAGE_FIELD_NAME = 'message';
+
 export const ContactForm = () => {
   const [formData, setFormData] = useState(getFormDataInitialState());
+  const getFieldValue = fieldName => formData[fieldName] || '';
   const onFormDataChange = ({ target: { name, value } }) => setFormData(prevState => ({ ...prevState, [name]: value }));
   const onSubmit = () => contactResource.send({ to: getRecipientEmailAddress(), ...formData });
   const onSubmitSuccess = () => setFormData(getFormDataInitialState());
@@ -24,8 +30,8 @@ export const ContactForm = () => {
           <Col sm="6">
             <Field label="Name" block>
               <Input
-                name="name"
-                value={formData.name}
+                name={NAME_FIELD_NAME}
+                value={getFieldValue(NAME_FIELD_NAME)}
                 onChange={onFormDataChange}
                 required
                 block />
@@ -35,10 +41,10 @@ export const ContactForm = () => {
             <Field label="Email" block>
               <Input
                 type="email"
-                name="email"
-                value={formData.email}
+                name={EMAIL_FIELD_NAME}
+                value={getFieldValue(EMAIL_FIELD_NAME)}
                 onChange={onFormDataChange}
-                validations={ emailService.getValidations() }
+                validations={emailService.getValidations()}
                 required
                 block />
             </Field>
@@ -48,8 +54,8 @@ export const ContactForm = () => {
           <Col>
             <Field label="Subject" block>
               <Input
-                name="subject"
-                value={formData.subject}
+                name={SUBJECT_FIELD_NAME}
+                value={getFieldValue(SUBJECT_FIELD_NAME)}
                 onChange={onFormDataChange}
                 block />
             </Field>
@@ -59,8 +65,8 @@ export const ContactForm = () => {
           <Col>
             <Field label="Message" block>
               <Textarea
-                name="message"
-                value={formData.message}
+                name={MESSAGE_FIELD_NAME}
+                value={getFieldValue(MESSAGE_FIELD_NAME)}
                 onChange={onFormDataChange}
                 required
                 block />
