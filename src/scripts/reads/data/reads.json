@@ -41,12 +41,6 @@
     "url": "https://www.amazon.com.br/Keep-Aspidistra-Flying-George-Orwell/dp/9390575400",
     "reading_on": "2023-05"
   },
-  "o_homem_que_falava_javanes": {
-    "title": "O homem que falava javanês",
-    "author": "Lima Barreto",
-    "url": "https://www.amazon.com.br/homem-sabia-javan%C3%AAs-outros-contos/dp/6550970016",
-    "reading_on": "2023-05"
-  },
   "the_catcher_in_the_rye": {
     "title": "The Catcher in the Rye",
     "author": "Jerome Salinger",
@@ -64,6 +58,12 @@
     "author": "Huxley Aldous",
     "url": "https://www.amazon.com.br/Brave-New-World-Aldous-Huxley/dp/0099477467",
     "reading_on": "2023-05"
+  },
+  "o_homem_que_sabia_javanes": {
+    "title": "O homem que sabia javanês e outros contos",
+    "author": "Lima Barreto",
+    "url": "https://www.amazon.com.br/homem-sabia-javan%C3%AAs-outros-contos/dp/6550970016",
+    "read_on": "2023-05-09"
   },
   "nada_me_faltara": {
     "title": "Nada me faltará",
