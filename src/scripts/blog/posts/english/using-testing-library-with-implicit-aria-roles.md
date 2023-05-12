@@ -76,7 +76,7 @@ it('should contain a link to the blog', () => {
 });
 ```
 
-Important to notice that, depending on the number of elements rendered on the screen, getting elements by their roles can slow down the test execution. In those cases, the area scanned by the `getByRole` function can be drastically reduced to a small region of the screen by using the helper function `within`:
+Important to notice that, depending on the number of elements rendered on the screen, getting elements by their roles can slow down the test execution. To avoid possible performance issues, you can drastically reduce the area scanned by the `getByRole` function by using the helper function `within`:
 
 ``` javascript
 it('should contain a link to the blog', () => {

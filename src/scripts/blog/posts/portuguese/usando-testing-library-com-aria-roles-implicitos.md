@@ -77,7 +77,7 @@ it('should contain a link to the blog', () => {
 });
 ```
 
-É importante estar ciente que, dependendo da quantidade de elementos presentes na tela renderizada, encontrar um elemento através de seu papel (*role*) pode retardar a execução do teste. Uma alternativa nesses casos é diminuir o escopo da varredura a ser feita pela função `getByRole` a uma pequena porção da tela através da função `within`:
+É importante estar ciente que, dependendo da quantidade de elementos presentes na tela renderizada, encontrar um elemento através de seu papel (*role*) pode retardar a execução do teste. Nesses casos, uma alterantiva para evitar possíveis problemas de performance é reduzir o escopo da varredura feita pela função `getByRole` a uma pequena porção da tela através da função `within`:
 
 ``` javascript
 it('should contain a link to the blog', () => {
