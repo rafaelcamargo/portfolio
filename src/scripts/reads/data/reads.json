@@ -1,9 +1,9 @@
 {
-  "if_it_is_smart_it_is_vunerable": {
-    "title": "If It's Smart, It's Vulnerable",
-    "author": "Mikko Hypponen",
-    "url": "https://www.amazon.com/If-Its-Smart-Vulnerable/dp/1119895189",
-    "reading_on": "2023-06"
+  "domain_driven_design": {
+    "title": "Domain-Driven Design",
+    "author": "Eric Evans",
+    "url": "https://www.amazon.com/gp/product/0321125215",
+    "reading_on": "2023-07"
   },
   "grokking_artificial_intelligence_algorithms": {
     "title": "Grokking Artificial Intelligence Algorithms",
@@ -35,6 +35,12 @@
     "url": "https://www.amazon.com.br/muro-Jean-Paul-Sartre/dp/6556402184",
     "reading_on": "2023-06"
   },
+  "building_progressive_web_apps": {
+    "title": "Building Progressive Web Apps",
+    "author": "Tal Ater",
+    "url": "https://www.amazon.com/gp/product/1491961651",
+    "reading_on": "2023-06"
+  },
   "keep_the_aspidistra_flying": {
     "title": "Keep the Aspidistra Flying",
     "author": "George Orwell",
@@ -51,6 +57,12 @@
     "title": "Lord of the Flies",
     "author": "William Golding",
     "url": "https://www.amazon.com.br/Lord-Flies-Introduced-Stephen-King/dp/0571371728",
+    "reading_on": "2023-05"
+  },
+  "learning_functional_programming": {
+    "title": "Learning Functional Programming",
+    "author": "Jack Widman",
+    "url": "https://www.amazon.com/gp/product/1098111753",
     "reading_on": "2023-05"
   },
   "brave_new_world": {
