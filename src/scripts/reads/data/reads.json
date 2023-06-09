@@ -3,55 +3,61 @@
     "title": "Domain-Driven Design",
     "author": "Eric Evans",
     "url": "https://www.amazon.com/gp/product/0321125215",
-    "reading_on": "2023-07"
+    "reading_on": "2023-10"
   },
   "grokking_artificial_intelligence_algorithms": {
     "title": "Grokking Artificial Intelligence Algorithms",
     "author": "Rishal Hurbans",
     "url": "https://www.amazon.com/Grokking-Artificial-Intelligence-Algorithms-Hurbans/dp/161729618X",
-    "reading_on": "2023-06"
+    "reading_on": "2023-09"
+  },
+  "building_micro_frontends": {
+    "title": "Building Micro-Frontends",
+    "author": "Luca Mezzalira",
+    "url": "https://www.amazon.com/Building-Micro-Frontends-Projects-Empowering-Developers/dp/1492082996",
+    "reading_on": "2023-08"
   },
   "artificial_intelligence_basics": {
     "title": "Artificial Intelligence Basics",
     "author": "Tom Taulli",
     "url": "https://www.amazon.com/Artificial-Intelligence-Basics-Non-Technical-Introduction/dp/1484250273",
-    "reading_on": "2023-06"
+    "reading_on": "2023-08"
   },
   "o_drible": {
     "title": "O drible",
     "author": "Sérgio Rodrigues",
     "url": "https://www.amazon.com.br/drible-S%C3%A9rgio-Rodrigues/dp/8535923268",
-    "reading_on": "2023-06"
+    "reading_on": "2023-07"
   },
   "a_nausea": {
     "title": "A náusea",
     "author": "Jean Paul Sartre",
     "url": "https://www.amazon.com.br/n%C3%A1usea-Jean-Paul-Sartre/dp/6556401382",
-    "reading_on": "2023-06"
+    "reading_on": "2023-07"
   },
   "o_muro": {
     "title": "O muro",
     "author": "Jean Paul Sartre",
     "url": "https://www.amazon.com.br/muro-Jean-Paul-Sartre/dp/6556402184",
-    "reading_on": "2023-06"
+    "reading_on": "2023-07"
   },
   "building_progressive_web_apps": {
     "title": "Building Progressive Web Apps",
     "author": "Tal Ater",
     "url": "https://www.amazon.com/gp/product/1491961651",
-    "reading_on": "2023-06"
+    "reading_on": "2023-07"
   },
   "keep_the_aspidistra_flying": {
     "title": "Keep the Aspidistra Flying",
     "author": "George Orwell",
     "url": "https://www.amazon.com.br/Keep-Aspidistra-Flying-George-Orwell/dp/9390575400",
-    "reading_on": "2023-05"
+    "reading_on": "2023-06"
   },
   "the_catcher_in_the_rye": {
     "title": "The Catcher in the Rye",
     "author": "Jerome Salinger",
     "url": "https://www.amazon.com.br/Catcher-Rye-J-D-Salinger/dp/0316769487",
-    "reading_on": "2023-05"
+    "reading_on": "2023-06"
   },
   "lord_of_the_flies": {
     "title": "Lord of the Flies",
