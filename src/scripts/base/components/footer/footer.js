@@ -13,8 +13,9 @@ export const Footer = () => {
           ))}
         </ul>
         <p>
-          This is an {buildExternalLink('https://github.com/rafaelcamargo/portfolio', 'open-source website')} built
-          with {buildExternalLink('https://taslonic.com/', 'Taslonic components')}.
+        This website doesn’t use cookies, and 
+        its {buildExternalLink('https://plausible.io/rafaelcamargo.com?period=30d', 'analytics')} are
+        public.
         </p>
       </div>
     </footer>
