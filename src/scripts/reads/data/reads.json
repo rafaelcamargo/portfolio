@@ -41,17 +41,17 @@
     "url": "https://www.amazon.com.br/muro-Jean-Paul-Sartre/dp/6556402184",
     "reading_on": "2023-07"
   },
-  "building_progressive_web_apps": {
-    "title": "Building Progressive Web Apps",
-    "author": "Tal Ater",
-    "url": "https://www.amazon.com/gp/product/1491961651",
-    "reading_on": "2023-07"
-  },
   "keep_the_aspidistra_flying": {
     "title": "Keep the Aspidistra Flying",
     "author": "George Orwell",
     "url": "https://www.amazon.com.br/Keep-Aspidistra-Flying-George-Orwell/dp/9390575400",
-    "reading_on": "2023-06"
+    "reading_on": "2023-07"
+  },
+  "building_progressive_web_apps": {
+    "title": "Building Progressive Web Apps",
+    "author": "Tal Ater",
+    "url": "https://www.amazon.com/gp/product/1491961651",
+    "read_on": "2023-07-31"
   },
   "the_catcher_in_the_rye": {
     "title": "The Catcher in the Rye",
