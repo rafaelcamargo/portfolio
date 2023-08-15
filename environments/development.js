@@ -1,10 +1,14 @@
+const WEBSITE_DOMAIN = 'rafaelcamargo.com'
+
 module.exports = {
+  WEBSITE_DOMAIN,
   APP: {
     BASE_URL: 'http://localhost:8080'
   },
   ANALYTICS: {
+    ENABLED: false,
     PLAUSIBLE: {
-      DOMAIN: 'dev.rafaelcamargo.com',
+      DOMAIN: `dev.${WEBSITE_DOMAIN}`,
       OPTIONS: { trackLocalhost: false }
     }
   },
