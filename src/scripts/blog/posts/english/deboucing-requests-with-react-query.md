@@ -44,7 +44,7 @@ export const useCustomQuery = (
 ```
 In this [*gist*](https://gist.github.com/rafaelcamargo/eda94014a8e087334a201feea1f6e6df), you find an *index.html* containing all the necessary code to try the above implementation locally.
 
-![An animation containing two Safari windows. The first one filters a list without debouncing. The second one does the same, but with deboucing](../../images/debouncing-in-practice.gif)  
+![An animation containing two Safari windows. The first one filters a list without debouncing. The second one does the same, but with deboucing](../../images/debouncing-in-practice-2b.gif)  
 _Without debounce (left). With debounce (right)._
 
 The animation above shows the power of *debouncing* in practice. Without it (window at left), the application fires **12 requests** and exchanges **28.3 KB** of data. With it (window at right), the application fires only **1 request** and exchanges **294 B**. A total saving of 91% in requests and 99% in transmitted data.

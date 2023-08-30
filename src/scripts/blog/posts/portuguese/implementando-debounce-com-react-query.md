@@ -45,7 +45,7 @@ export const useCustomQuery = (
 ```
 Nesse [*gist*](https://gist.github.com/rafaelcamargo/eda94014a8e087334a201feea1f6e6df) você encontra um *index.html* contendo todo código necessário para experimentar localmente a implementação acima.
 
-![Animação contendo duas janelas do Safari. A primeira filtra a lista sem "debouce". A segunda faz o mesmo, mas com "debouce"](../../images/debouncing-in-practice.gif)  
+![Animação contendo duas janelas do Safari. A primeira filtra a lista sem "debouce". A segunda faz o mesmo, mas com "debouce"](../../images/debouncing-in-practice-2b.gif)  
 _Sem debounce (esquerda). Com debounce (direita)._
 
 A animação acima exibe o poder do *debounce* na prática. Sem o recurso (janela à esquerda), a aplicação faz **12 requisições** e trafega **28.3 KB**. Com o recurso (janela à direita), a aplicação passa a fazer apenas **1 requisição** e trafega **294 B**. Uma economia de 91% em requisições e 99% em dados trafegados.
