@@ -1,6 +1,6 @@
 title: Elements with multiple borders using pure CSS
 date: 2023-05-28
-description: Although very powerful, even CSS has its limitations. One of the moments in which you perfectly realize this is when you need to set multiple borders for a single element. With some creativity, however, it’s quite possible to code the style you wish.
+description: Although very powerful, even CSS has its limitations. One of the moments in which you perfectly realize this is when you need to set multiple borders for a single element. With some creativity, however, it's quite possible to code the style you wish.
 keywords: multiple borders, css, elements, outline, box-shadow
 
 ---
@@ -22,7 +22,7 @@ keywords: multiple borders, css, elements, outline, box-shadow
 
 Even though CSS is extremely powerful, some visual results may be impossible to achieve by using the language in its usual way, which demands a certain degree of creativity from developers at the moment they are writing their stylesheets. Setting multiple borders to an element is a perfect example of those cases.
 
-How good it’d be if we could set multiple borders needing nothing more than the attribute *border*. Perhaps in a few years, we’ll be allowed to write something like:
+How good it'd be if we could set multiple borders needing nothing more than the attribute *border*. Perhaps in a few years, we'll be allowed to write something like:
 ``` css
 div {
   border:

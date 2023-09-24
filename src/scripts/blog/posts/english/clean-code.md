@@ -30,7 +30,7 @@ Do not be afraid of giving long names to your variables, functions, files, and d
 
 ## One thing. One single thing. One thing only.
 
-If you can't have your cake and eat it too, why do expect it from your code? Directories, files, classes, modules, and functions. Everything should do one thing only. Everything should have one single responsibility. Remember that directory called *utils*. The first question that comes to mind is: If that directory contains the useful stuff, what kind of thing would I find inside the other ones? Utils is not only a bad name, but it’s also a great example of something that does much more than what it should. It’s a lack of limits.
+If you can't have your cake and eat it too, why do expect it from your code? Directories, files, classes, modules, and functions. Everything should do one thing only. Everything should have one single responsibility. Remember that directory called *utils*. The first question that comes to mind is: If that directory contains the useful stuff, what kind of thing would I find inside the other ones? Utils is not only a bad name, but it's also a great example of something that does much more than what it should. It's a lack of limits.
 
 Responsibility requires boundaries. It sets the start and the end. It defines what something does and, more importantly, what it does not. Usain Bolt became the faster man in history because he decided to do one thing well. One single thing. One thing only.
 
@@ -52,8 +52,8 @@ If at some point you find yourself writing a comment trying to better explain yo
 - Green: You iterate through the implementation up to the test succeed.
 - Blue: As soon as the test passes, you transform the code that only works into a code that works very well.
 
-After having a passing test, you have all the safety you need to reread your code and make sure the names you have chosen are still making sense. If a couple lines of code can be removed. If the implementation could be cleaner. If you don’t hit the submit button as soon as you finish writing an email, why would you consider the implementation done as soon as it works?
+After having a passing test, you have all the safety you need to reread your code and make sure the names you have chosen are still making sense. If a couple lines of code can be removed. If the implementation could be cleaner. If you don't hit the submit button as soon as you finish writing an email, why would you consider the implementation done as soon as it works?
 
-About the importance of editing, Jason Fried wrote [Eureka! We’re editors](https://signalvnoise.com/posts/2930-svn-flashback-eureka-were-editors), and Carolyn Cherry noticed it very well:
+About the importance of editing, Jason Fried wrote [Eureka! We're editors](https://signalvnoise.com/posts/2930-svn-flashback-eureka-were-editors), and Carolyn Cherry noticed it very well:
 
 > It is perfectly okay to write garbage as long as you edit brilliantly.

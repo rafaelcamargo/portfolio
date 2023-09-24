@@ -55,6 +55,6 @@ Se em algum momento você se pegar escrevendo um comentário na tentativa de mel
 
 É com a segurança fornecida pelo teste passando que você relê seu código e verifica se a nomenclatura escolhida continua fazendo sentido. Se linhas de código podem ser removidas. Se a implementação pode ser mais limpa, mais clara. Se você não envia um email tão logo termina de escrevê-lo, por quê consideraria a implementação concluída tão logo ela funcione?
 
-Sobre a importância de editar, Jason Fried escreveu [Eureka! We’re editors](https://signalvnoise.com/posts/2930-svn-flashback-eureka-were-editors) e Carolyn Cherry muito bem lembrou:
+Sobre a importância de editar, Jason Fried escreveu [Eureka! We're editors](https://signalvnoise.com/posts/2930-svn-flashback-eureka-were-editors) e Carolyn Cherry muito bem lembrou:
 
 > It is perfectly okay to write garbage as long as you edit brilliantly.

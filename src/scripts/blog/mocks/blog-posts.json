@@ -206,7 +206,7 @@
     "title": "Handling environment variables in the browser",
     "lang": "en-US",
     "date": "2017-08-31",
-    "excerpt": "Front end projects usually make use of external resources through URLs, API Keys, etc. Those things may change depending on which environment you are running your code. If you are in a development environment, you don’t want to mess your metrics like Mixpanel or Google Analytics, for example."
+    "excerpt": "Front end projects usually make use of external resources through URLs, API Keys, etc. Those things may change depending on which environment you are running your code. If you are in a development environment, you don't want to mess your metrics like Mixpanel or Google Analytics, for example."
   },
   {
     "url": "how-to-build-a-seo-friendly-single-page-website.html",

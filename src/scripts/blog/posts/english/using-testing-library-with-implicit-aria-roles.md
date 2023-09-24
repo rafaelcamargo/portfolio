@@ -1,13 +1,13 @@
 title: Using Testing Library with implicit ARIA roles
 date: 2023-03-27
-description: Semantic HTML ensures neat structure and good accessibility to the document. Testing Library’s getByRole function is very helpful with this, but, not knowing elements’ implicit roles, its use can become a huge hurdle.
+description: Semantic HTML ensures neat structure and good accessibility to the document. Testing Library's getByRole function is very helpful with this, but, not knowing elements' implicit roles, its use can become a huge hurdle.
 keywords: getByRole, testing library, aria-role, role, implicit
 
 ---
 
 Writing tests that interact with screen elements through their roles is a good strategy to ensure the proper semantics of an HTML document.
 
-Regarding structure and accessibility, it’s essential that the page headline has a *heading* role, that a select has a *combobox*—or *listbox*—role, that a textarea has a *textbox* role, and so on. However, when the *aria-role* attribute is not explicitly set to an element, it’s not easy to find out which role is implicitly associated with that.
+Regarding structure and accessibility, it's essential that the page headline has a *heading* role, that a select has a *combobox*—or *listbox*—role, that a textarea has a *textbox* role, and so on. However, when the *aria-role* attribute is not explicitly set to an element, it's not easy to find out which role is implicitly associated with that.
 
 The following table presents the roles that are implicitly tied to several elements commonly used in an HTML document:
 
@@ -63,7 +63,7 @@ The following table presents the roles that are implicitly tied to several eleme
 | tr |  | *row* |
 | ul |  | *list* |
 
-Knowing the respective implicit role of each HTML element makes the use of Testing Library’s `getByRole` function easy when you want to get them by their roles:
+Knowing the respective implicit role of each HTML element makes the use of Testing Library's `getByRole` function easy when you want to get them by their roles:
 
 ``` javascript
 it('should contain a link to the blog', () => {

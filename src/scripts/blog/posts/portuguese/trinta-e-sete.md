@@ -40,11 +40,11 @@ Para alguns, poderia soar como um sacrilégio dizer que usabilidade não é o fa
 
 ## Usuário lê.
 
-Uma premissa que de vez em sempre alguém adiciona a uma discussão é: usuário não lê. A propósito, O livro *Don’t Make Me Think* reserva um parágrafo em seu segundo capítulo para os devidos esclarecimentos sobre Como nós realmente usamos a web:
+Uma premissa que de vez em sempre alguém adiciona a uma discussão é: usuário não lê. A propósito, O livro *Don't Make Me Think* reserva um parágrafo em seu segundo capítulo para os devidos esclarecimentos sobre Como nós realmente usamos a web:
 
-> What users actually do most of the time (if we’re lucky) is glance at each new page, scan some of the text, and click on the first link that catches their interest or vaguely resembles the thing they’re looking for. There are usually parts of the page that they don’t even look at.
+> What users actually do most of the time (if we're lucky) is glance at each new page, scan some of the text, and click on the first link that catches their interest or vaguely resembles the thing they're looking for. There are usually parts of the page that they don't even look at.
 >
-> [Don’t Make Me Think](https://www.thriftbooks.com/w/dont-make-me-think-a-common-sense-approach-to-web-usability-second-edition_steve-krug/249342/#isbn=0321965515&idiq=4441288)
+> [Don't Make Me Think](https://www.thriftbooks.com/w/dont-make-me-think-a-common-sense-approach-to-web-usability-second-edition_steve-krug/249342/#isbn=0321965515&idiq=4441288)
 
 Seria o usuário realmente esse desespero em forma de pessoa, ou o desinteresse pela leitura seria porque a redação é apenas decepcionante? Em [Copy Righting](https://1999.37signals.com/11.html), a empresa lança a pergunta: Você o leria se não o tivesse escrito? Muitas empresas acreditam que se tá bonito, tá bom e cometem o pecado de não se importarem tanto o quanto deveriam com a redação de seus sites. Toda vez que um texto não seduz, não provoca ou não entretém, o usuário realmente não vai ler.
 

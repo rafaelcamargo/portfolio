@@ -5,7 +5,7 @@ keywords: multiple borders, css, gerator, bordiple
 
 ---
 
-At the moment I finished to write my last post about [elements with multiple borders using pure CSS](https://rafaelcamargo.com/blog/elements-with-multiple-borders-using-pure-css/), I kept wondering how productive it would be if there were an online tool that aid programmers and designers to create and visualize multiple borders elements. Since I haven’t found any, I decided to create [Bordiple](https://bordiple.rafaelcamargo.com/).
+At the moment I finished to write my last post about [elements with multiple borders using pure CSS](https://rafaelcamargo.com/blog/elements-with-multiple-borders-using-pure-css/), I kept wondering how productive it would be if there were an online tool that aid programmers and designers to create and visualize multiple borders elements. Since I haven't found any, I decided to create [Bordiple](https://bordiple.rafaelcamargo.com/).
 
 ![Animation demonstrating how the features Preferences and Sharing work](../../images/bordiple-preferences-share.gif)  
 _Preview and share your creations with ease_

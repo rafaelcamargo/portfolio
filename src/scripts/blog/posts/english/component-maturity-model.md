@@ -15,7 +15,7 @@ Even though it has just three syllables, the word *component* causes zillions of
 
 At this moment, you might be convinced that I am gonna introduce a definition for the word *component* that will cause you a *mind quake*. A definition that can incinerate any ambiguity.
 
-No man, I’m sorry. Unfortunately, I haven't found that one-and-only definition, but I’ll try to help you offering three! They represent what I called Component Maturity Model.
+No man, I'm sorry. Unfortunately, I haven't found that one-and-only definition, but I'll try to help you offering three! They represent what I called Component Maturity Model.
 
 ## Level Zero: Chaos
 
