@@ -13,7 +13,7 @@ One of the initial strategies used to simulate this use case is attempting to se
 it('should show page according page search param found on url', () => {
   window.location.search = 'page=2';
   render(<Component />);
-  // asserção de que a segunda página foi exibida
+  // expect the second page to have been shown
 });
 ```
 
@@ -32,7 +32,7 @@ it('should show page according page search param found on url', () => {
   const url = `${window.location.pathname}?page=2`;
   window.history.pushState({}, '', url);
   render(<Component />);
-  // asserção de que a segunda página foi exibida
+  // expect the second page to have been shown
 });
 ```
 
@@ -52,7 +52,7 @@ Finally, by rewriting the test once again using the utility function, it becomes
 it('should show page according page search param found on url', () => {
   mockSearchParams('page=2');
   render(<Component />);
-  // asserção de que a segunda página foi exibida
+  // expect the second page to have been shown
 });
 ```
 
