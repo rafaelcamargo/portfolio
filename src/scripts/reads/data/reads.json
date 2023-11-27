@@ -29,17 +29,17 @@
     "url": "https://www.amazon.com.br/muro-Jean-Paul-Sartre/dp/6556402184",
     "reading_on": "2023-07"
   },
-  "o_drible": {
-    "title": "O drible",
-    "author": "Sérgio Rodrigues",
-    "url": "https://www.amazon.com.br/drible-S%C3%A9rgio-Rodrigues/dp/8535923268",
-    "reading_on": "2023-08"
-  },
   "a_nausea": {
     "title": "A náusea",
     "author": "Jean Paul Sartre",
     "url": "https://www.amazon.com.br/n%C3%A1usea-Jean-Paul-Sartre/dp/6556401382",
     "reading_on": "2023-08"
+  },
+  "o_drible": {
+    "title": "O drible",
+    "author": "Sérgio Rodrigues",
+    "url": "https://www.amazon.com.br/drible-S%C3%A9rgio-Rodrigues/dp/8535923268",
+    "read_on": "2023-11-24"
   },
   "homo_deus": {
     "title": "Homo Deus",
