@@ -11,12 +11,6 @@
     "url": "https://www.amazon.com/Grokking-Artificial-Intelligence-Algorithms-Hurbans/dp/161729618X",
     "reading_on": "2023-09"
   },
-  "building_micro_frontends": {
-    "title": "Building Micro-Frontends",
-    "author": "Luca Mezzalira",
-    "url": "https://www.amazon.com/Building-Micro-Frontends-Projects-Empowering-Developers/dp/1492082996",
-    "reading_on": "2023-08"
-  },
   "artificial_intelligence_basics": {
     "title": "Artificial Intelligence Basics",
     "author": "Tom Taulli",
@@ -34,6 +28,12 @@
     "author": "Jean Paul Sartre",
     "url": "https://www.amazon.com.br/n%C3%A1usea-Jean-Paul-Sartre/dp/6556401382",
     "reading_on": "2023-08"
+  },
+  "building_micro_frontends": {
+    "title": "Building Micro-Frontends",
+    "author": "Luca Mezzalira",
+    "url": "https://www.amazon.com/Building-Micro-Frontends-Projects-Empowering-Developers/dp/1492082996",
+    "read_on": "2023-12-18"
   },
   "o_drible": {
     "title": "O drible",
