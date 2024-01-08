@@ -3,31 +3,43 @@
     "title": "Domain-Driven Design",
     "author": "Eric Evans",
     "url": "https://www.amazon.com/gp/product/0321125215",
-    "reading_on": "2023-10"
+    "reading_on": "2025-06"
   },
   "grokking_artificial_intelligence_algorithms": {
     "title": "Grokking Artificial Intelligence Algorithms",
     "author": "Rishal Hurbans",
     "url": "https://www.amazon.com/Grokking-Artificial-Intelligence-Algorithms-Hurbans/dp/161729618X",
-    "reading_on": "2023-09"
+    "reading_on": "2024-12"
   },
   "artificial_intelligence_basics": {
     "title": "Artificial Intelligence Basics",
     "author": "Tom Taulli",
     "url": "https://www.amazon.com/Artificial-Intelligence-Basics-Non-Technical-Introduction/dp/1484250273",
-    "reading_on": "2023-08"
+    "reading_on": "2024-06"
+  },
+  "o_despertar_de_tudo": {
+    "title": "O Despertar de Tudo",
+    "author": "David Graeber & David Wengrow",
+    "url": "https://www.amazon.com.br/despertar-tudo-nova-hist%C3%B3ria-humanidade/dp/655921172X",
+    "reading_on": "2024-03"
   },
   "o_muro": {
     "title": "O muro",
     "author": "Jean Paul Sartre",
     "url": "https://www.amazon.com.br/muro-Jean-Paul-Sartre/dp/6556402184",
-    "reading_on": "2023-07"
+    "reading_on": "2024-02"
   },
   "a_nausea": {
     "title": "A náusea",
     "author": "Jean Paul Sartre",
     "url": "https://www.amazon.com.br/n%C3%A1usea-Jean-Paul-Sartre/dp/6556401382",
-    "reading_on": "2023-08"
+    "reading_on": "2024-01"
+  },
+  "a_caverna": {
+    "title": "A Caverna",
+    "author": "José Saramago",
+    "url": "https://www.amazon.com.br/dp/8535930442",
+    "read_on": "2024-01-07"
   },
   "building_micro_frontends": {
     "title": "Building Micro-Frontends",
