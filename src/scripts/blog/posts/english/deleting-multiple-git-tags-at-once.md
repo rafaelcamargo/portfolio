@@ -82,4 +82,4 @@ To achieve the same result in your remote repository, run:
 git push -d <remote> $(git tag)
 ```
 
-Whether performing a local or remote cleanup, any of the above commands will get the job done almost instantly, saving you precious time. To learn more about the Git command responsible to manage tags, visit the [official documentation](https://git-scm.com/book/en/v2/Git-Basics-Tagging).
+Whether performing a local or remote cleanup, any of the above commands will get the job done almost instantly, saving you precious time. To learn more about the Git command responsible for managing tags, visit the [official documentation](https://git-scm.com/book/en/v2/Git-Basics-Tagging).
