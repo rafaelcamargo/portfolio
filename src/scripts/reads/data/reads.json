@@ -21,19 +21,43 @@
     "title": "O Despertar de Tudo",
     "author": "David Graeber & David Wengrow",
     "url": "https://www.amazon.com.br/despertar-tudo-nova-hist%C3%B3ria-humanidade/dp/655921172X",
+    "reading_on": "2024-06"
+  },
+  "caprichos_e_relaxos": {
+    "title": "Caprichos & Relaxos",
+    "author": "Paulo Leminski",
+    "url": "https://www.amazon.com.br/dp/8535927301",
+    "reading_on": "2024-05"
+  },
+  "macunaima": {
+    "title": "Macunaíma",
+    "author": "Mário Andrade",
+    "url": "https://www.amazon.com.br/dp/6554700153",
+    "reading_on": "2024-05"
+  },
+  "psia": {
+    "title": "Psia",
+    "author": "Arnaldo Antunes",
+    "url": "https://www.amazon.com.br/dp/8585219475",
+    "reading_on": "2024-04"
+  },
+  "contos_novos": {
+    "title": "Contos Novos",
+    "author": "Mário Andrade",
+    "url": "https://www.amazon.com.br/dp/6554700153",
+    "reading_on": "2024-04"
+  },
+  "amar_verbo_intransitivo": {
+    "title": "Amar, Verbo Intransitivo",
+    "author": "Mário Andrade",
+    "url": "https://www.amazon.com.br/dp/6554700153",
     "reading_on": "2024-03"
   },
-  "o_muro": {
-    "title": "O muro",
-    "author": "Jean Paul Sartre",
-    "url": "https://www.amazon.com.br/muro-Jean-Paul-Sartre/dp/6556402184",
-    "reading_on": "2024-02"
-  },
   "a_nausea": {
-    "title": "A náusea",
+    "title": "A Náusea",
     "author": "Jean Paul Sartre",
     "url": "https://www.amazon.com.br/n%C3%A1usea-Jean-Paul-Sartre/dp/6556401382",
-    "reading_on": "2024-01"
+    "read_on": "2024-02-25"
   },
   "a_caverna": {
     "title": "A Caverna",
