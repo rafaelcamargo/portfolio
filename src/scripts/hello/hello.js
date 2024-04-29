@@ -63,9 +63,6 @@ export const Hello = () => {
                 <a href="/contact">Email</a>
               </li>
               <li>
-                <a href="https://tinyletter.com/rafaelcamargo">Newsletter</a>
-              </li>
-              <li>
                 <a href="https://github.com/rafaelcamargo">Github</a>
               </li>
               <li>
