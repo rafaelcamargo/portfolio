@@ -23,12 +23,6 @@
     "url": "https://www.amazon.com.br/despertar-tudo-nova-hist%C3%B3ria-humanidade/dp/655921172X",
     "reading_on": "2024-06"
   },
-  "caprichos_e_relaxos": {
-    "title": "Caprichos & Relaxos",
-    "author": "Paulo Leminski",
-    "url": "https://www.amazon.com.br/dp/8535927301",
-    "reading_on": "2024-05"
-  },
   "macunaima": {
     "title": "Macunaíma",
     "author": "Mário de Andrade",
@@ -46,6 +40,12 @@
     "author": "Mário de Andrade",
     "url": "https://www.amazon.com.br/dp/6554700153",
     "reading_on": "2024-04"
+  },
+  "caprichos_e_relaxos": {
+    "title": "Caprichos & Relaxos",
+    "author": "Paulo Leminski",
+    "url": "https://www.amazon.com.br/dp/8535927301",
+    "read_on": "2024-04-29"
   },
   "amar_verbo_intransitivo": {
     "title": "Amar, Verbo Intransitivo",
