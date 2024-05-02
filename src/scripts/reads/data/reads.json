@@ -3,43 +3,55 @@
     "title": "Domain-Driven Design",
     "author": "Eric Evans",
     "url": "https://www.amazon.com/gp/product/0321125215",
-    "reading_on": "2025-06"
+    "reading_on": "2025-03"
   },
   "grokking_artificial_intelligence_algorithms": {
     "title": "Grokking Artificial Intelligence Algorithms",
     "author": "Rishal Hurbans",
     "url": "https://www.amazon.com/Grokking-Artificial-Intelligence-Algorithms-Hurbans/dp/161729618X",
-    "reading_on": "2024-12"
+    "reading_on": "2025-02"
   },
   "artificial_intelligence_basics": {
     "title": "Artificial Intelligence Basics",
     "author": "Tom Taulli",
     "url": "https://www.amazon.com/Artificial-Intelligence-Basics-Non-Technical-Introduction/dp/1484250273",
-    "reading_on": "2024-06"
+    "reading_on": "2025-01"
+  },
+  "tubes": {
+    "title": "Tubes",
+    "author": "Andrew Blum",
+    "url": "https://www.amazon.com.br/Tubes-Andrew-Blum/dp/1554689805",
+    "reading_on": "2024-09"
+  },
+  "ten_print_chrs_205_5_rnd_1_goto_ten": {
+    "title": "PRINT CHR$(205.5+RND(1)); : GOTO 10",
+    "author": "Nick Montfort, Patsy Baudoin, John Bell, Ian Bogost, Jeremy Douglass, Mark Marino, Michael Mateas, Casey Reas, Mark Sample & Noah Vawter",
+    "url": "https://www.amazon.com/10-PRINT-CHR-205-5-RND/dp/0262526743",
+    "reading_on": "2024-08"
   },
   "o_despertar_de_tudo": {
     "title": "O Despertar de Tudo",
     "author": "David Graeber & David Wengrow",
     "url": "https://www.amazon.com.br/despertar-tudo-nova-hist%C3%B3ria-humanidade/dp/655921172X",
-    "reading_on": "2024-06"
+    "reading_on": "2024-08"
   },
   "macunaima": {
     "title": "Macunaíma",
     "author": "Mário de Andrade",
     "url": "https://www.amazon.com.br/dp/6554700153",
-    "reading_on": "2024-05"
+    "reading_on": "2024-07"
   },
   "psia": {
     "title": "Psia",
     "author": "Arnaldo Antunes",
     "url": "https://www.amazon.com.br/dp/8585219475",
-    "reading_on": "2024-04"
+    "reading_on": "2024-06"
   },
   "contos_novos": {
     "title": "Contos Novos",
     "author": "Mário de Andrade",
     "url": "https://www.amazon.com.br/dp/6554700153",
-    "reading_on": "2024-04"
+    "reading_on": "2024-05"
   },
   "caprichos_e_relaxos": {
     "title": "Caprichos & Relaxos",
