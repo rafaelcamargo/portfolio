@@ -50,7 +50,7 @@ keywords: elements, html, details, dialog, math, meter, progress
   }
 </style>
 
-Since I created a component library called [Taslonic](https://components.taslonic.com/#!/components/react/input), I have been discovering how native HTML is more powerful than I imagined. How versatile it is. How harmonious is its integration to the operating system of any device. In brief words, how much this technology, often underestimated, can leverage our productivity by saving us from writing hundreds of lines of code.
+Since I created a component library called [Taslonic](https://taslonic-docs.compilorama.com/#!/components/react/input), I have been discovering how native HTML is more powerful than I imagined. How versatile it is. How harmonious is its integration to the operating system of any device. In brief words, how much this technology, often underestimated, can leverage our productivity by saving us from writing hundreds of lines of code.
 
 See below some native HTML elements which you might not have been introduced to yet.
 

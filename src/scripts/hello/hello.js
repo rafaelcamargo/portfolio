@@ -43,7 +43,7 @@ export const Hello = () => {
               </li>
               <li>
                 Maintaining open-source projects: <a href="https://glorious.codes/demo">
-                Glorious Demo</a>, <a href="https://pitsby.compilorama.com/">Pitsby</a>, and <a href="https://taslonic.com/">
+                Glorious Demo</a>, <a href="https://pitsby.compilorama.com/">Pitsby</a>, and <a href="https://taslonic.compilorama.com/">
                 Taslonic</a>.
               </li>
               <li>

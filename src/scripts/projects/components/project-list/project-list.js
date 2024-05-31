@@ -32,7 +32,7 @@ export class ProjectList extends Component {
           title="Taslonic"
           subtitle="2020"
           badgeText="Open-Source"
-          url="https://taslonic.com"
+          url="https://taslonic.compilorama.com"
           ctaText="See the code"
           ctaUrl="https://github.com/glorious-codes/glorious-taslonic">
           Set yourself free from the ordinary work to focus on the

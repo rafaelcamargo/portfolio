@@ -51,7 +51,7 @@ lang: pt-BR
   }
 </style>
 
-Desde que criei uma biblioteca de compoentes chamada [Taslonic](https://components.taslonic.com/#!/components/react/input), venho descobrindo o quanto o HTML é nativamente mais poderoso do que eu imaginava. O quanto é versátil. O quanto é intrisicamente integrado ao sistema operacional de qualquer dispositivo. Em breves palavras, o quanto essa tecnologia, não raro menosprezada, pode alavancar a nossa produtividade nos poupando de escrever centenas de linhas de código.
+Desde que criei uma biblioteca de compoentes chamada [Taslonic](https://taslonic-docs.compilorama.com/#!/components/react/input), venho descobrindo o quanto o HTML é nativamente mais poderoso do que eu imaginava. O quanto é versátil. O quanto é intrisicamente integrado ao sistema operacional de qualquer dispositivo. Em breves palavras, o quanto essa tecnologia, não raro menosprezada, pode alavancar a nossa produtividade nos poupando de escrever centenas de linhas de código.
 
 Veja a seguir alguns elementos nativos do HTML aos quais você talvez não tenha sido apresentado ainda.
 
