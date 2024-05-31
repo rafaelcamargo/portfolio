@@ -159,7 +159,7 @@ export class Experience extends Component {
                 Beyond delivering some great results to the product and to the
                 company, I have <b>created our own documentation tool</b>. We
                 struggled to have one documentation only, containing our legacy
-                and current components (AngularJS/Vue). <a href="https://pitsby.com" rel="noreferrer" target="_blank">
+                and current components (AngularJS/Vue). <a href="https://pitsby.compilorama.com" rel="noreferrer" target="_blank">
                 Pitsby</a> solved our problem once and for all. It’s open-source
                 and has even helped to improve the experience of developing new
                 components as well as increasing the component library adoption

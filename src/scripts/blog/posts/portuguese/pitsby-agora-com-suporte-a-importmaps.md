@@ -6,7 +6,7 @@ lang: pt-BR
 
 ---
 
-Em setembro do ano passado, uma nova funcionalidade foi adicionada ao [Pitsby](https://pitsby.com). Passava a ser possível importar scripts do tipo *module*. Para isso, bastava incluir na lista de scripts definidos no arquivo de configuração um objeto contendo o atributo referente ao tipo:
+Em setembro do ano passado, uma nova funcionalidade foi adicionada ao [Pitsby](https://pitsby.compilorama.com). Passava a ser possível importar scripts do tipo *module*. Para isso, bastava incluir na lista de scripts definidos no arquivo de configuração um objeto contendo o atributo referente ao tipo:
 
 ``` javascript
 {
@@ -35,8 +35,8 @@ A partir da versão `1.33.0`, lançada esse mês, essa limitação não existe m
 }
 ```
 
-![Screen shot do browser mostrando a inserção do "importmap" no Pitsby](../../images/pitsby-importmap.png)  
-_[Documentação demo](https://web-components.pitsby.com/#!/components/vanilla/id-generator) de Web Components com módulos ES6. Confira o código [nesse repositório](https://github.com/glorious-codes/glorious-pitsby-demo-web-components)._
+![Imagem do browser mostrando a inserção do "importmap" no Pitsby](../../images/pitsby-importmap.png)  
+_Imagem do browser mostrando a inserção do "importmap" no Pitsby_
 
-Nunca ouviu falar sobre o Pitsby? Pitsby é uma das diversas ferramentas open-source oferecidas pelo projeto [Glorious Codes](https://glorious.codes), que torna mais simples e direto o processo de documentar componentes de interface gráfica, exigindo quase nenhuma configuração. A ferramenta suporta tecnologias legadas e modernas desde AngularJS até VueJS, React, e Web Components, contém um playground que permite a seus usuários prototipar composições de componente e compartilhá-las com qualquer pessoa, pode ter seu visual completamente customizado, e integra facilmente com o Google Analytics. Saiba mais no [site oficial do Pitsby](https://pitsby.com).
+Nunca ouviu falar sobre o Pitsby? Pitsby é uma das diversas ferramentas open-source oferecidas pelo projeto [Glorious Codes](https://glorious.codes), que torna mais simples e direto o processo de documentar componentes de interface gráfica, exigindo quase nenhuma configuração. A ferramenta suporta tecnologias legadas e modernas desde AngularJS até VueJS, React, e Web Components, contém um playground que permite a seus usuários prototipar composições de componente e compartilhá-las com qualquer pessoa, pode ter seu visual completamente customizado, e integra facilmente com o Google Analytics. Saiba mais no [site oficial do Pitsby](https://pitsby.compilorama.com).
 

@@ -18,4 +18,4 @@ Yes, the appearance of log messages shown on the terminal matters. I even risk s
 ![Pitsby live reload](../../images/pitsby-live-reload.gif)  
 _Pitsby live reload_
 
-If Pitsby is already in your toolbox, enjoy these new experiences by installing its latest version. Otherwise, visit [pitsby.com](https://pitsby.com) and learn more.
+If Pitsby is already in your toolbox, enjoy these new experiences by installing its latest version. Otherwise, visit [Pitsby](https://pitsby.compilorama.com) and learn more.

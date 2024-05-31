@@ -50,7 +50,3 @@ _Without debounce (left). With debounce (right)._
 The animation above shows the power of *debouncing* in practice. Without it (window at left), the application fires **12 requests** and exchanges **28.3 KB** of data. With it (window at right), the application fires only **1 request** and exchanges **294 B**. A total saving of 91% in requests and 99% in transmitted data.
 
 To learn more about Rect Query, visit its [official website](https://react-query-v3.tanstack.com/).
-
-<div style="padding: 10px; margin-top: 60px; background-color: #f1f1f1; border-radius: 6px; font-size: 14px; text-align: center;">
-  <b>ProTip!</b> Looking for a tool to document UI components with ease? Try <a href="https://pitsby.com">Pitsby</a>.
-<div>

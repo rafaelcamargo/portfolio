@@ -19,4 +19,4 @@ Sim, a aparência das mensagens exibidas no terminal importa. Arrisco dizer que 
 ![Pitsby live reload](../../images/pitsby-live-reload.gif)  
 _Pitsby live reload_
 
-Se você já utiliza a ferramenta, desfrute dessas melhorias instalando a versão mais recente. Se ainda não a conhece, visite [pitsby.com](https://pitsby.com) e a experimente agora mesmo.
+Se você já utiliza a ferramenta, desfrute dessas melhorias instalando a versão mais recente. Se ainda não a conhece, visite [Pitsby](https://pitsby.compilorama.com) e a experimente agora mesmo.

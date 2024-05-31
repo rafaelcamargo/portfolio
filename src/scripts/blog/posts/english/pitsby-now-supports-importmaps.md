@@ -5,7 +5,7 @@ keywords: pitsby, importmap, interface, components, documentation
 
 ---
 
-In September of the last year, a new feature was added to [Pitsby](https://pitsby.com). Scripts to be used by the generated documentation could be set as module on Pitsby's configuration file. To do so, you just needed to inform the attribute type on the object representing the script tag to be included in the docs.
+In September of the last year, a new feature was added to [Pitsby](https://pitsby.compilorama.com). Scripts to be used by the generated documentation could be set as module on Pitsby's configuration file. To do so, you just needed to inform the attribute type on the object representing the script tag to be included in the docs.
 
 ``` javascript
 {
@@ -34,8 +34,8 @@ Version `1.33.0` of Pitsby, launched this month, overcomes this limitation. Pits
 }
 ```
 
-![Screen shot do browser mostrando a inserção do "importmap" no Pitsby](../../images/pitsby-importmap.png)  
-_[Demo documentation](https://web-components.pitsby.com/#!/components/vanilla/id-generator) of Web Components + ES6. Check out the code on [this repo](https://github.com/glorious-codes/glorious-pitsby-demo-web-components)._
+![Browser screenshot demonstrating the use of "importmap" on Pitsby](../../images/pitsby-importmap.png)  
+_Browser screenshot demonstrating the use of "importmap" on Pitsby_
 
-Haven't you ever heard about Pitsby? Pitsby is one of several open-source tools offered by the [Glorious Codes](https://glorious.codes) project. It makes the process of documenting user interface components simple and straight, requiring almost no configuration. Pitsby supports legacy and modern frameworks from AngularJS to Vue, React, or Web Components. It contains a playground that allows users to prototype component compositions and share them with others. Pitsby's look and feel can be completely customized, and integrates seamlessly with Google Analytics. Learn more at [Pitsby's Official Website](https://pitsby.com).
+Haven't you ever heard about Pitsby? Pitsby is one of several open-source tools offered by the [Glorious Codes](https://glorious.codes) project. It makes the process of documenting user interface components simple and straight, requiring almost no configuration. Pitsby supports legacy and modern frameworks from AngularJS to Vue, React, or Web Components. It contains a playground that allows users to prototype component compositions and share them with others. Pitsby's look and feel can be completely customized, and integrates seamlessly with Google Analytics. Learn more at [Pitsby's Official Website](https://pitsby.compilorama.com).
 

@@ -44,7 +44,7 @@ export class ProjectList extends Component {
           title="Pitsby"
           subtitle="2019"
           badgeText="Open-Source"
-          url="https://pitsby.com"
+          url="https://pitsby.compilorama.com"
           ctaUrl="https://github.com/glorious-codes/glorious-pitsby"
           ctaText="See the code">
           Pitsby is a super simple tool to document UI components in a
