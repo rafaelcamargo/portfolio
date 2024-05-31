@@ -22,7 +22,7 @@ export class ProjectList extends Component {
           image="logo-typenik.svg"
           title="Typenik"
           subtitle="2021"
-          url="https://typenik.com">
+          url="https://typenik.compilorama.com">
           Typenik is an English Augmented Dictionary for non-native
           speakers. It helps you to make sure the words you put on
           your copy carry the intention you had in your mind.

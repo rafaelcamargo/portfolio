@@ -66,7 +66,7 @@ Revela informações ou controles adicionais.
       <dt>Descrição:</dt>
       <dd>
         Licença vitalícia | 
-        <a href="https://typenik.com/" rel="noreferrer noopener" target="_blank">
+        <a href="https://typenik.compilorama.com/" rel="noreferrer noopener" target="_blank">
           Typenik
         </a>
       </dd>
@@ -86,7 +86,7 @@ Revela informações ou controles adicionais.
     <dd>
       Licença vitalícia | 
       <a
-        href="https://typenik.com/" 
+        href="https://typenik.compilorama.com/" 
         rel="noreferrer noopener"
         target="_blank"
       >

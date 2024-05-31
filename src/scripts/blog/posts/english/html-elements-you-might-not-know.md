@@ -65,7 +65,7 @@ It disclosures additional information or form controls.
       <dt>Descriptions:</dt>
       <dd>
         Lifetime license | 
-        <a href="https://typenik.com/" rel="noreferrer noopener" target="_blank">
+        <a href="https://typenik.compilorama.com/" rel="noreferrer noopener" target="_blank">
           Typenik
         </a>
       </dd>
@@ -82,7 +82,7 @@ It disclosures additional information or form controls.
     <dt>Descriptions:</dt>
     <dd>
       Lifetime license | 
-      <a href="https://typenik.com/" rel="noreferrer noopener" target="_blank">
+      <a href="https://typenik.compilorama.com/" rel="noreferrer noopener" target="_blank">
         Typenik
       </a>
     </dd>

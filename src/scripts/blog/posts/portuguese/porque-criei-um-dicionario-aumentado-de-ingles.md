@@ -22,9 +22,9 @@ _Referência a "cradle of" nos arquivos do The New York Times_
 
 Mas restava ainda um pequeno problema. Fazer essa pesquisa de maneira manual em dois, três ou quatro sites era penoso e chato. Haveria então uma maneira de automatizar esse trabalho?
 
-Typenik é o resultado dessa automação. Um produto que chamei de [Dicionário Aumentado de Inglês](https://typenik.com/blog/what-is-an-english-augmented-dictionary/) porque entrega tudo que um dicionário tradicional oferece e vai além. Um conjunto de ferramentas que faz uso de diversos sites para que em um único lugar você elimine qualquer dúvida relacionada não só a definições, mas também a metáforas, expressões, conjugações ou qualquer outro termo composto por mais de uma palavra.
+Typenik é o resultado dessa automação. Um produto que chamei de [Dicionário Aumentado de Inglês](https://typenik.compilorama.com/blog/what-is-an-english-augmented-dictionary/) porque entrega tudo que um dicionário tradicional oferece e vai além. Um conjunto de ferramentas que faz uso de diversos sites para que em um único lugar você elimine qualquer dúvida relacionada não só a definições, mas também a metáforas, expressões, conjugações ou qualquer outro termo composto por mais de uma palavra.
 
-!["cradle of" no typenik.com](../../images/cradle-of-typenik-custom-sources.png)  
+!["cradle of" no typenik.compilorama.com](../../images/cradle-of-typenik-custom-sources.png)  
 _Busque por referências em quantas fontes você desejar._
 
-Se você costuma escrever em inglês frequentemente e já passou pelas dificuldades que citei aqui, experimente a companhia do [Typenik](https://typenik.com) quando estiver construindo seu próximo texto.
+Se você costuma escrever em inglês frequentemente e já passou pelas dificuldades que citei aqui, experimente a companhia do [Typenik](https://typenik.compilorama.com) quando estiver construindo seu próximo texto.
