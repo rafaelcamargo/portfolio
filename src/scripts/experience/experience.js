@@ -21,36 +21,6 @@ export class Experience extends Component {
         keywords={ meta.keywords }>
         <Hero title="Experience" size="small" sectionTheme="primary" />
         <Section>
-          <Row>
-            <Col size="6">
-              <Avatron
-                image="logo-glorious-codes.png"
-                title="Glorious Codes"
-                subtitle="Aug.2018 - Present"
-                url="https://glorious.codes"
-                caption="Anywhere" />
-            </Col>
-            <Col size="6">
-              <p>
-                Glorious Codes is a Github organization where I publish all the
-                open-source code that I have been creating in the latest years.
-              </p>
-              <p>
-                I am very proud of having offered to the JavaScript community
-                a few open-source libraries. I especially highlight <a
-                href="https://glorious.codes/demo" rel="noreferrer" target="_blank">Glorious Demo
-                </a> that, beyond to be tweeted by <a
-                href="https://twitter.com/zenorocha/status/1057275408935194625" rel="noreferrer"
-                target="_blank">Zeno Rocha</a>, <a href="https://twitter.com/css/status/1060325303459962882" rel="noreferrer" target="_blank">
-                CSS Tricks</a> and <a href="https://twitter.com/0310lan/status/1085420922159300608" rel="noreferrer" target="_blank">
-                まさとらん</a>, got dozens of upvotes on <a href="https://news.ycombinator.com/item?id=18363668" rel="noreferrer" target="_blank">
-                Hacker News</a> and <a href="https://www.reddit.com/r/javascript/comments/cavci6/the_easiest_way_of_creating_animations_to_show/" target="_blank">
-                Reddit</a>, and has been featured as <b>Product of the Day
-                </b> on <a href="https://www.producthunt.com/posts/glorious-demo" rel="noreferrer" target="_blank">
-                Product Hunt</a>.
-              </p>
-            </Col>
-          </Row>
           <Row offset="10">
             <Col size="6">
               <Avatron

@@ -42,7 +42,7 @@ export const Hello = () => {
                 RD Station</a>.
               </li>
               <li>
-                Maintaining open-source projects: <a href="https://glorious.codes/demo">
+                Maintaining open-source projects: <a href="https://gdemo.compilorama.com">
                 Glorious Demo</a>, <a href="https://pitsby.compilorama.com/">Pitsby</a>, and <a href="https://taslonic.compilorama.com/">
                 Taslonic</a>.
               </li>

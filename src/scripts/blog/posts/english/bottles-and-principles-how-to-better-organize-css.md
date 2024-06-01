@@ -105,4 +105,4 @@ Intending to avoid a possible misunderstanding between CSS classes that represen
 
 ## In practice
 
-Are you curious to see this concept applied in a real project? Check out one of my open-source projects called [Glorious Demo](https://glorious.codes/demo). As commented in this story, each one of those [style sheets](https://github.com/glorious-codes/glorious-demo/tree/master/src/styles) represents one single object and always keep themselves open for extension.
+Are you curious to see this concept applied in a real project? Check out one of my open-source projects called [Glorious Demo](https://gdemo.compilorama.com). As commented in this story, each one of those [style sheets](https://github.com/glorious-codes/glorious-demo/tree/master/src/styles) represents one single object and always keep themselves open for extension.

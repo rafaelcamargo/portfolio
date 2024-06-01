@@ -56,7 +56,7 @@ export class ProjectList extends Component {
           title="Glorious Demo"
           subtitle="2018"
           badgeText="Open-Source"
-          url="https://glorious.codes/demo"
+          url="https://gdemo.compilorama.com"
           ctaUrl="https://github.com/glorious-codes/glorious-demo"
           ctaText="See the code">
           The easiest way of creating animations to show your code in
