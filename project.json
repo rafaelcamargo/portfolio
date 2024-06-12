@@ -52,7 +52,8 @@
       "files": [
         "src/scripts/**/*.js",
         "!src/scripts/**/mocks/**/*.js",
-        "!src/scripts/blog/scripts/smart-form.js"
+        "!src/scripts/blog/scripts/smart-form.js",
+        "!src/scripts/blog/scripts/stasta.js"
       ]
     }
   },

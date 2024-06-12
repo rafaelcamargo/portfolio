@@ -128,4 +128,11 @@ describe('Triven Service', () => {
 <meta property="og:description" content="Escrever bem é uma arte que almejo aprender. De vez em quando, descolo um tempo para compartilhar no blog um pouco da experiência que adquiro pelo caminho.">
 `.trim());
   });
+
+  it('should build stasta script tag', () => {
+    const { ANALYTICS } = DEV_ENV
+    expect(trivenService.buildStastaScriptTag()).toEqual(`
+<script src="../scripts/stasta.js" data-enabled="${ANALYTICS.ENABLED}" data-id="${ANALYTICS.STASTA.ID}" data-src="${ANALYTICS.STASTA.SRC}" data-stasta=""></script>
+`.trim());
+  });
 });

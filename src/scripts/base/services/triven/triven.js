@@ -3,6 +3,7 @@ const path = require('path');
 const { dependencies } = require('../../../../../package.json');
 const enUS = require('../../constants/triven-en');
 const ptBR = require('../../constants/triven-pt');
+const stastaService = require('../stasta/stasta');
 const environmentService = require('../environment/environment');
 
 const _public = {};
@@ -63,6 +64,11 @@ _public.buildTrivenCredits = () => {
 </footer>
 `.trim();
 };
+
+_public.buildStastaScriptTag = () => {
+  const { ENABLED, STASTA } = getEnvironment().ANALYTICS
+  return `<script src="../scripts/stasta.js" data-enabled="${ENABLED}" data-id="${STASTA.ID}" data-src="${STASTA.SRC}" data-stasta=""></script>`
+}
 
 function getHTMLTemplateByFilename(filename){
   const filepath = path.join(__dirname, `../../../blog/templates/${filename}.html`);

@@ -15,7 +15,8 @@ const config = {
       baseMetaTags: trivenService.buildBaseMetaTags(),
       descriptionMetaTag: lang => trivenService.buildDescriptionMetaTag(lang),
       plausible: trivenService.buildPlausibleScriptTags(),
-      newsletterForm: lang => trivenService.buildNewsletterForm(lang)
+      newsletterForm: lang => trivenService.buildNewsletterForm(lang),
+      stasta: trivenService.buildStastaScriptTag()
     }
   },
   translations: {

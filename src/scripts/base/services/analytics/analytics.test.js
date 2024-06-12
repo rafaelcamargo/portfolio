@@ -4,6 +4,7 @@ import GAnalytics from '@glorious/analytics';
 import { GAnalyticsMock, ganalyticsInstanceMock } from '@scripts/base/mocks/glorious-analytics';
 import envService from '@scripts/base/services/env/env';
 import windowService from '@scripts/base/services/window/window';
+import stastaService from '@scripts/base/services/stasta/stasta';
 import analyticsService from './analytics';
 
 jest.mock('@glorious/analytics');
@@ -15,6 +16,7 @@ describe('Analytics Service', () => {
     windowService.getLocationOrigin = jest.fn(() => PROD_ENV.APP.BASE_URL);
     ganalyticsInstanceMock.init = jest.fn();
     ganalyticsInstanceMock.trackPageview = jest.fn();
+    stastaService.init = jest.fn();
   });
 
   afterEach(() => {
@@ -45,6 +47,7 @@ describe('Analytics Service', () => {
     expect(ganalyticsInstanceMock.init).toHaveBeenCalledWith(
       PROD_ENV.ANALYTICS.PLAUSIBLE.DOMAIN, undefined
     );
+    expect(stastaService.init).toHaveBeenCalledWith(PROD_ENV.ANALYTICS.ENABLED, PROD_ENV.ANALYTICS.STASTA);
   });
 
   it('should track page view on initialize', () => {
