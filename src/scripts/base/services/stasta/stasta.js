@@ -1,3 +1,5 @@
+import userAgentService from '@scripts/base/services/user-agent/user-agent';
+
 const _public = {}
 
 _public.init = (ENABLED, { ID, SRC }) => {
@@ -10,7 +12,11 @@ _public.init = (ENABLED, { ID, SRC }) => {
 
 function statsEnabled(ENABLED){
   const params = new URLSearchParams(window.location.search);
-  if(params.get('analytics') == 'disabled' || window.localStorage.getItem('analytics') == 'disabled') {
+  if(
+    params.get('analytics') == 'disabled' ||
+    window.localStorage.getItem('analytics') == 'disabled' ||
+    userAgentService.isBot()
+  ) {
     window.localStorage.setItem('analytics', 'disabled');
     return false
   }
@@ -27,4 +33,4 @@ function buildAttrs(ID, SRC){
   };
 }
 
-module.exports = _public;
+export default _public;

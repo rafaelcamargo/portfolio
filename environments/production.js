@@ -11,7 +11,7 @@ module.exports = {
       DOMAIN: WEBSITE_DOMAIN
     },
     STASTA: {
-      SRC: 'https://stasta.vercel.app/script.js',
+      SRC: 'https://statorama.vercel.app/script.js',
       ID: 'bb3b9fc9-ef5c-4e77-b045-15aa44bbd2c7'
     },
   },

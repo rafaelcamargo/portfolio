@@ -1,7 +1,12 @@
 import { mockSearchParams } from '@scripts/base/services/testing/testing';
+import userAgentService from '@scripts/base/services/user-agent/user-agent';
 import stastaService from './stasta';
 
 describe('Stasta Service', () => {
+  beforeEach(() => {
+    userAgentService.isBot = jest.fn(() => false);
+  })
+
   afterEach(() => {
     mockSearchParams('');
     window.localStorage.removeItem('analytics')
@@ -28,6 +33,14 @@ describe('Stasta Service', () => {
 
   it('should not initialize stasta if analytics is disabled via local storage', () => {
     window.localStorage.setItem('analytics', 'disabled')
+    const ENV_MOCK = mockAnalyticsEnv();
+    stastaService.init(true, ENV_MOCK.STASTA);
+    const tag = document.querySelector('script[data-stasta]');
+    expect(tag).toEqual(null);
+  });
+
+  it('should not initialize stasta if user agent is a bot', () => {
+    userAgentService.isBot = jest.fn(() => true);
     const ENV_MOCK = mockAnalyticsEnv();
     stastaService.init(true, ENV_MOCK.STASTA);
     const tag = document.querySelector('script[data-stasta]');
