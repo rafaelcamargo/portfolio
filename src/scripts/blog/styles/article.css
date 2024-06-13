@@ -1,4 +1,5 @@
-p > img + br + em {
+p > img + br + em,
+p > video + em {
   display: block;
   text-align: center;
   font-size: 0.777777777777778rem;
