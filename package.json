@@ -57,7 +57,7 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
-    "@glorious/analytics": "^0.3.0",
+    "@compilorama/statorama": "^0.1.0",
     "@glorious/taslonic-react": "^1.1.1",
     "axios": "^0.21.1",
     "isbot": "^5.1.9",

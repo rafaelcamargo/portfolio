@@ -7,13 +7,8 @@ module.exports = {
   },
   ANALYTICS: {
     ENABLED: true,
-    PLAUSIBLE: {
-      DOMAIN: WEBSITE_DOMAIN
-    },
-    STASTA: {
-      SRC: 'https://statorama.vercel.app/script.js',
-      ID: 'bb3b9fc9-ef5c-4e77-b045-15aa44bbd2c7'
-    },
+    SRC: 'https://statorama.vercel.app/script.js',
+    ID: 'bb3b9fc9-ef5c-4e77-b045-15aa44bbd2c7'
   },
   NEWSLETTER_ID: 'rafaelcamargo',
   VERVET: {

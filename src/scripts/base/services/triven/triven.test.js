@@ -8,37 +8,6 @@ describe('Triven Service', () => {
     environmentService.get = jest.fn(() => DEV_ENV);
   })
 
-  it('should build plausible script tags passing options if environment is development', () => {
-    expect(trivenService.buildPlausibleScriptTags()).toEqual(`
-<script src="https://unpkg.com/@glorious/analytics@0.3.0/dist/ganalytics.min.js"></script>
-<script type="text/javascript">
-  (function(){
-    if(window.GAnalytics) {
-      const analytics = new GAnalytics();
-      analytics.init('dev.rafaelcamargo.com', {"trackLocalhost":false});
-      analytics.trackPageview();
-    }
-  }());
-</script>
-`.trim());
-  });
-
-  it('should build plausible script tags not passing options if environment is production', () => {
-    environmentService.get = jest.fn(() => PROD_ENV);
-    expect(trivenService.buildPlausibleScriptTags()).toEqual(`
-<script src="https://unpkg.com/@glorious/analytics@0.3.0/dist/ganalytics.min.js"></script>
-<script type="text/javascript">
-  (function(){
-    if(window.GAnalytics) {
-      const analytics = new GAnalytics();
-      analytics.init('rafaelcamargo.com');
-      analytics.trackPageview();
-    }
-  }());
-</script>
-`.trim());
-  });
-
   it('should build meta tags markup', () => {
     expect(trivenService.buildBaseMetaTags()).toEqual(`
 <meta http-equiv="cache-control" content="no-cache">
@@ -129,10 +98,14 @@ describe('Triven Service', () => {
 `.trim());
   });
 
-  it('should build stasta script tag', () => {
-    const { ANALYTICS } = DEV_ENV
-    expect(trivenService.buildStastaScriptTag()).toEqual(`
-<script src="../scripts/stasta.js" data-enabled="${ANALYTICS.ENABLED}" data-id="${ANALYTICS.STASTA.ID}" data-src="${ANALYTICS.STASTA.SRC}" data-stasta=""></script>
+  it('should build statorama script tags ', () => {
+    expect(trivenService.buildStatoramaScriptTags()).toEqual(`
+<script src="https://unpkg.com/@compilorama/statorama@0.1.0/dist/statorama.js"></script>
+<script type="text/javascript">
+  (function(){
+    window.Statorama && window.Statorama.init({ enabled: false, src: 'https://statorama.vercel.app/script.js', id: '23014156-f754-4fbd-9397-5b0e91417173' });
+  }());
+</script>
 `.trim());
   });
 });

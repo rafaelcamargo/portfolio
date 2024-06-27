@@ -19,15 +19,15 @@ _public.buildDescriptionMetaTag = lang => {
   ].join('\n');
 };
 
-_public.buildPlausibleScriptTags = () => {
+_public.buildStatoramaScriptTags = () => {
   const ENV = getEnvironment();
-  const { DOMAIN, OPTIONS } = ENV.ANALYTICS.PLAUSIBLE;
-  const options = OPTIONS ? `, ${JSON.stringify(OPTIONS)}` : '';
-  const html = getHTMLTemplateByFilename('plausible');
+  const { ENABLED, SRC, ID } = ENV.ANALYTICS;
+  const html = getHTMLTemplateByFilename('statorama');
   return html
-    .replace('{{ version }}', dependencies['@glorious/analytics'].replace('^',''))
-    .replace('{{ domain }}', DOMAIN)
-    .replace('{{ options }}', options);
+    .replace('{{ version }}', dependencies['@compilorama/statorama'].replace('^',''))
+    .replace('{{ ENABLED }}', ENABLED)
+    .replace('{{ SRC }}', SRC)
+    .replace('{{ ID }}', ID);
 };
 
 _public.buildNewsletterForm = lang => {
@@ -63,11 +63,6 @@ _public.buildTrivenCredits = () => {
 </footer>
 `.trim();
 };
-
-_public.buildStastaScriptTag = () => {
-  const { ENABLED, STASTA } = getEnvironment().ANALYTICS
-  return `<script src="../scripts/stasta.js" data-enabled="${ENABLED}" data-id="${STASTA.ID}" data-src="${STASTA.SRC}" data-stasta=""></script>`
-}
 
 function getHTMLTemplateByFilename(filename){
   const filepath = path.join(__dirname, `../../../blog/templates/${filename}.html`);

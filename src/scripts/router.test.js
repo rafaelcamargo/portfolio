@@ -2,7 +2,6 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import { BrowserRouter as Router } from 'react-router-dom';
 import ScrollToTop from 'react-router-scroll-top';
-import History from '@scripts/base/components/history/history';
 import { Contact } from '@scripts/contact/contact';
 import { Experience } from '@scripts/experience/experience';
 import { Hello } from '@scripts/hello/hello';
@@ -27,11 +26,6 @@ describe('App Router', () => {
   it('should contain a Router', () => {
     const wrapper = mount();
     expect(wrapper.find(Router)).toBeDefined();
-  });
-
-  it('should contain a History', () => {
-    const wrapper = mount();
-    expect(wrapper.find(History)).toBeDefined();
   });
 
   it('should contain menu links', () => {

@@ -14,9 +14,8 @@ const config = {
       credits: trivenService.buildTrivenCredits(),
       baseMetaTags: trivenService.buildBaseMetaTags(),
       descriptionMetaTag: lang => trivenService.buildDescriptionMetaTag(lang),
-      plausible: trivenService.buildPlausibleScriptTags(),
-      newsletterForm: lang => trivenService.buildNewsletterForm(lang),
-      stasta: trivenService.buildStastaScriptTag()
+      statorama: trivenService.buildStatoramaScriptTags(),
+      newsletterForm: lang => trivenService.buildNewsletterForm(lang)
     }
   },
   translations: {
