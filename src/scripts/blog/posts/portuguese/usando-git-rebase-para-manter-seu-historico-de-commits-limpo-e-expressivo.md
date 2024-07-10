@@ -22,7 +22,7 @@ Uma das mais convenientes estratégias usadas para editar o histórico de commit
 
 Ao iniciar a edição do histórico de commits usando o modo interativo (`-i`) do comando `git rebase`, é necessário informar a partir de qual commit você pretende começar as alterações.
 
-Se o que você preciso é apenas renomear o commit mais recente do histórico, passe como parâmetro do comando o valor `HEAD~1`:
+Se o que você precisa é apenas renomear o commit mais recente do histórico, passe como parâmetro do comando o valor `HEAD~1`:
 
 ```
 git rebase -i HEAD~1
