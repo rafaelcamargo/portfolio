@@ -41,11 +41,7 @@ With less experience in backend than frontend, I started trying out some ORMs fo
 
 With the continuous delivery workflow set up, I started developing the first endpoints using Sequelize locally. Then, it was time to release the first endpoint into production to see if it would run as smoothly in the cloud as it did locally.
 
-After repeatedly failing to run Veedgee's API on Vercel, I found a help page titled [Vercel Postgres - ORM compatibility](https://vercel.com/docs/storage/vercel-postgres#orm-compatibility), which stated:
-
-> Sequelize does not work on Vercel, use Prisma or any other compatible ORM as described on this support page.
-
-After removing Sequelize from the project, there were many lessons learned in getting [Prisma ORM](https://www.prisma.io) to work on CircleCI and Vercel.
+After repeatedly failing to run Veedgee's API on Vercel, I discovered that Sequelize was not among the ORMs compatible with Vercel, as described on this [support page](https://vercel.com/docs/storage/vercel-postgres#orm-compatibility). While replacing Sequelize with [Prisma ORM](https://www.prisma.io), I learned many lessons in getting it to work on CircleCI and Vercel.
 
 ### Prisma Client
 
