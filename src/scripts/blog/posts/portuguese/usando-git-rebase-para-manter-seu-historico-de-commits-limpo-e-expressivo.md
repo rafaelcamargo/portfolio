@@ -6,7 +6,7 @@ lang: pt-BR
 
 ---
 
-Um dos mais importantes fatores a serem observados em um Pull Request é o nível de legibilidade do código. Quão bem a nomenclatura de variáveis e funções é capaz de expressar sua intenção. Quão bem distribuídas estão as responsabilidades, para que, ao ler a implementação, não tenhamos que armazenar dezenas de variáveis em nossa frágil memória humana. Em resumo, quão bem contada está a história que aquelas alterações representam.
+Alguns dos mais importantes fatores a serem observados em um Pull Request são nível de legibilidade do código, quão bem a nomenclatura de variáveis e funções é capaz de expressar sua intenção, e quão bem distribuídas estão as responsabilidades, para que, ao ler a implementação, não tenhamos que armazenar dezenas de variáveis em nossa frágil memória humana. Em resumo, quão bem contada está a história que aquelas alterações representam.
 
 Existe, porém, um outro lugar no Pull Request onde uma história é contada e que, infelizmente, tem bem menos atenção dos revisores do que o código: o histórico de commits.
 
